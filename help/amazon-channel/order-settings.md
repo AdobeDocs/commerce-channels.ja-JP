@@ -1,11 +1,11 @@
 ---
 title: 順序の設定
 description: 注文の設定を使用して、Amazonの注文をコマースストアにインポートして処理する方法を決定します。
-redirect_from: /sales-channels/asc/ob-order-settings.html: 
+redirect_from: /sales-channels/asc/ob-order-settings.html
 exl-id: dc8d0ce1-86a8-4949-b49a-73c5cf62db16
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 1462
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---

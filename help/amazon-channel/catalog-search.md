@@ -1,11 +1,11 @@
 ---
 title: カタログ検索
 description: 適格なコマースカタログ製品をAmazonリストにマッピングするのに役立つ属性マッチングを設定するには、「カタログ検索」設定を更新します。
-redirect_from: /sales-channels/asc/ob-catalog-search.html: 
+redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '981'
 ht-degree: 0%
 
 ---

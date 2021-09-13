@@ -1,11 +1,11 @@
 ---
 title: Amazon価格の管理
 description: 価格ルールを使用して、Amazonの価格をコマースストアと異なる価格に設定できます。
-redirect_from: /sales-channels/asc/ob-pricing-rules.html: 
+redirect_from: /sales-channels/asc/ob-pricing-rules.html
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: '865'
 ht-degree: 0%
 
 ---

@@ -1,11 +1,11 @@
 ---
 title: サードパーティ製品リスト
 description: サードパーティのリスト設定を更新して、コマースカタログで既存のAmazon Seller Centralリストから製品をインポートするかどうかを決定します。
-redirect_from: /sales-channels/asc/ob-third-party-listings.html: 
+redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
 
 ---

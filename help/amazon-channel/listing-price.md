@@ -1,11 +1,11 @@
 ---
 title: 上場価格
 description: Listing Price設定を使用して、価格のソースとAmazon Listingsの基準（デフォルト）価格を決定します。
-redirect_from: /sales-channels/asc/ob-listing-price.html: 
+redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 1509
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
