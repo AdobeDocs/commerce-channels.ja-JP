@@ -1,6 +1,6 @@
 ---
-title: 履行者
-description: 「履行者」設定を使用して、Amazonの一覧からの注文がどのように履行（出荷）されるかを決定します。
+title: によって満たされる
+description: 「フルフィルメント」設定を使用して、Amazon リストからの注文がどのように履行されるかを指定します。
 redirect_from: /sales-channels/asc/ob-fulfilled-by.html
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -10,50 +10,50 @@ ht-degree: 0%
 
 ---
 
-# 履行者
+# によって満たされる
 
-_[!UICONTROL Fulfilled By]_設定は、ストアリスト設定の一部です。リスト設定は、[ストアダッシュボード](./amazon-store-dashboard.md)からアクセスします。
+_[!UICONTROL Fulfilled By]_設定は、ストア一覧の設定に含まれています。 一覧の設定は、ストアのダッシュボードからアクセスされ [ ](./amazon-store-dashboard.md) ます。
 
-これらの設定は、注文（または出荷）を実行するパーティを定義します。 すべての注文が1つの方法で処理された場合は、マーチャント（お客様）かAmazonかを選択します。 お客様の場所からの注文を完了し、Amazonを使用する場合は、3つ目のオプションを使用して[!DNL Commerce]製品属性を設定することをお勧めします。
+この設定では、注文を履行する (または出荷する) 当事者を指定します。 1つの方法ですべての注文が満たされている場合は、「マーチャント (ご購入)」または「Amazon」のいずれかを選択します。 現在の場所から、Amazon を使用して注文を行う予定がある場合は、3番目のオプションを使用して、product 属性を設定することをお勧めし [!DNL Commerce] ます。
 
-- **[!UICONTROL Fulfilled by Merchant]**  — お客様、商人、すべての注文を満たすかどうかを選択します。注文が行われると、在庫が[!DNL Commerce]カタログから差し引かれます。
+- **[!UICONTROL Fulfilled by Merchant]** -商人がすべての注文を受け付けた場合に選択します。 注文が行われると、カタログから在庫が差し引かれ [!DNL Commerce] ます。
 
-- **[!UICONTROL Fulfilled by Amazon]** - Amazonがすべての注文を処理する場合に選択します。このオプションを使用すると、注文時に製品在庫が[!DNL Commerce]カタログから差し引かれることはありません。 Amazonが履行した注文の在庫は、倉庫から引き落とされます。 このオプションを割り当てる前に、[!DNL Amazon Seller Central]アカウントで、お使いの製品が&#x200B;_Amazon_(FBA)で履行できるかどうかを確認する必要があります。 FBAインベントリは、[!DNL Amazon Seller Central]アカウントを通じて直接管理されます。 このフルフィルメント方法では、Amazonの販売チャネルは、[!DNL Commerce]とAmazonの間で数量の更新を共有しません。 したがって、Amazonの販売チャネルでは、数量設定で説明されているすべてのマーケティングツールを使用できるわけではありません。
+- **[!UICONTROL Fulfilled by Amazon]** -Amazon によってすべての注文が満たされるかどうかを選択します。 このオプションを使用すると、 [!DNL Commerce] 注文が発生したときにカタログから製品インベントリが控除されません。 Amazon 履行注文の在庫在庫が倉庫に格納および控除されます。 このオプションを割り当てる前に、 [!DNL Amazon Seller Central] _Amazon_ (FBA) フルフィルメントによって製品が満たされていることをご確認ください。 FBA インベントリは、アカウントを使用して直接管理され [!DNL Amazon Seller Central] ます。 このフルフィルメント方法を使用すると、Amazon sales channel で、Amazon の間に数量が更新されることはありません [!DNL Commerce] 。 そのため、「Quantity」設定で説明されているすべてのマーケティングツールが Amazon sales channel では使用できないようになっています。
 
-- **[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]**  — 製品がお客様とAmazonによって満たされる場合、「マーチャントによる履行」および「Amazonによる履行」の値を持つ製品属性を作成する必要が生じる場合がありま [!DNL Commerce] す。製品ごとにこの値を設定すると、注文を実行するユーザーが示されます。
+- **[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** -お客様と Amazon によって製品が履行される可能性がある場合は、この値を使用して、 [!DNL Commerce] amazon によって履行され、フルフィルメントによって履行される値を含む product 属性を作成することもできます。 製品ごとにこの値を設定すると、注文を履行したユーザーが表示されます。
 
-フルフィルメント方法は、地域属性で、[store integration](./store-integration.md)で定義された&#x200B;**[!UICONTROL Amazon Marketplace Country]**&#x200B;設定に基づいています。 変更が加えられると、Amazonで[!DNL Amazon Seller SKU]が共有するすべてのAmazonのリストが、同じ地域で販売されている（[store integration](./store-integration.md)の際に&#x200B;_[!UICONTROL Amazon Marketplace Country]_で定義されている）場合に影響を受けます。 米国で共有[!DNL Amazon Seller SKU]に対する変更は、（ストア統合時に定義された）別の地域用に設定されたAmazonストアには影響しません。
+フルフィルメントメソッドは、 **[!UICONTROL Amazon Marketplace Country]** ストア統合時に定義された設定に基づいて、地域によって異なり [ ](./store-integration.md) ます。 変更が加えられると、その変更は、 [!DNL Amazon Seller SKU] amazon stores によって同じ地域 (ストア統合時に定義されて _[!UICONTROL Amazon Marketplace Country]_います) 内で販売されているすべての amazon リストに反映され [ ](./store-integration.md) ます。 米国で共有に変更を [!DNL Amazon Seller SKU] 加えても、異なる地域に設定された Amazon store には影響しません (ストア統合の際に定義されています)。
 
 >[!NOTE]
 >
->注文がAmazon(FBA)で処理され、注文がインポートされると、注文の詳細に一部のフィールドのダミーデータが表示されます。 [Amazon Order Details](./amazon-order-details.md)を参照してください。
+>Amazon (FBA) によって注文が満たされ、注文がインポートされると、注文明細の一部のフィールドについてダミーデータが表示されます。 「 [ Amazon Order Details」を参照してください ](./amazon-order-details.md) 。
 
-## [!UICONTROL Fulfilled By]設定を構成します {#configure-fulfilled-by-settings}
+## 設定を構成します。 [!UICONTROL Fulfilled By] {#configure-fulfilled-by-settings}
 
-1. ストアダッシュボードの「**[!UICONTROL Listing Settings]**」をクリックします。
+1. **[!UICONTROL Listing Settings]** Store のダッシュボードのをクリックします。
 
-1. _[!UICONTROL Fulfilled By]_セクションを展開します。
+1. セクションを展開し _[!UICONTROL Fulfilled By]_ます。
 
-1. **[!UICONTROL Product Fulfilled By]**&#x200B;の場合は、注文を実行する（出荷する）人を選択します。
+1. については **[!UICONTROL Product Fulfilled By]** 、次のいずれかを選択してください。
 
-   - `Fulfilled by Merchant`  — 商人が注文を完了。
+   - `Fulfilled by Merchant` -商人が注文を満たしていることを指定します。
 
-   - `Fulfilled by Amazon` -Amazon倉庫は受注を完了。
+   - `Fulfilled by Amazon` -Amazon warehouse が注文を満たしていることを指定します。
 
-   - `Assign Fulfilled By Using Magento Product Attribute`  — 属性 [!DNL Commerce] は、製品ごとの注文を実行するユーザーを示します。
+   - `Assign Fulfilled By Using Magento Product Attribute` - [!DNL Commerce] 属性は製品ごとの注文の履行者を示します。
 
-      選択した場合、**[!UICONTROL Fulfilled by Attribute]**&#x200B;にマッピングする[!DNL Commerce]属性を選択します。
+      このオプションを選択した場合は、 [!DNL Commerce] マップする属性を選択し **[!UICONTROL Fulfilled by Attribute]** ます。
 
-1. 完了したら、「**[!UICONTROL Save listing settings]**」をクリックします。
+1. 完了したら、をクリックし **[!UICONTROL Save listing settings]** ます。
 
-![実行者設定](assets/amazon-fulfilled-by.png)
+![設定によって満たされる](assets/amazon-fulfilled-by.png)
 
-| フィールド | 説明 |
+| 名 | つい |
 |--- |--- |
-| [!UICONTROL Product Fulfilled By] | オプション：<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM)注文を満たす場合に選択します。注文が行われると、在庫が[!DNL Commerce]カタログから差し引かれます。 新しい製品が作成されると、Merchant Fullimentsの履行方法が割り当てられます。</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA)Amazonが注文を処理するかどうかを選択します。この履行方法では、注文が行われた際に、製品在庫が[!DNL Commerce]カタログから差し引かれることはありません。 製品を作成すると、_[!UICONTROL Fulfilled by Amazon (FBA)]_がフルフィルメントタイプとして作成されます。 [!DNL Amazon Seller Central]アカウント内で、製品がFBAを満たす資格があることを確認します。 FBAインベントリは、[!DNL Amazon Seller Central]アカウントを通じて直接管理されます。 このフルフィルメント方法では、数量の更新は[!DNL Commerce]カタログに対してプッシュされないので、[在庫/数量の設定](./stock-quantity.md)で説明されているマーケティングツールの一部を使用できません。</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]**  — マーチャントが履行するか、Amazonが [!DNL Commerce] 履行するかを決定する既存の属性があるかどうかを選択します。選択すると、**[!UICONTROL Fulfilled by Attribute]**&#x200B;が有効になります。</li></ul> |
-| [!UICONTROL Fulfilled By Attribute] | フルフィルメント方法を決定するために使用する[!DNL Commerce]属性を選択します。<br><br>例えば、属性が「履行済 _期_ 間」で、属性値をまたはとして選択した場合、その値が新しい製品の履行タイプとして使用されま _[!UICONTROL Fulfilled By Merchant]_す_[!UICONTROL Fulfilled By Amazon (FBA)]_。マーチャントは、[!DNL Amazon Seller Central]アカウント内で製品がFBAに対応できることを確認する必要があります。 また、FBA在庫は、Amazonセラーアカウントを通じて直接管理されます。<br><br>オプションは、Amazon製品用に設定した属性によって異なります。 |
+| [!UICONTROL Product Fulfilled By] | オプション：<ul><li>**[!UICONTROL Fulfilled by Merchant]** (FBM) 注文を履行する場合に選択します。 注文が行われると、カタログから在庫が差し引かれ [!DNL Commerce] ます。 新製品を作成すると、マーチャントフルフィルメントのフルフィルメント方法が割り当てられます。</li><li>**[!UICONTROL Fulfilled by Amazon]** -(FBA) その注文が Amazon によって満たされるかどうかを選択します。 このフルフィルメント方法では、 [!DNL Commerce] 注文が発生したときに、カタログから製品インベントリが控除されません。 作成された製品は、 _[!UICONTROL Fulfilled by Amazon (FBA)]_フルフィルメントタイプとして作成されます。 お客様の製品が、アカウント内の FBA のフルフィルメント対象となることを確認してください [!DNL Amazon Seller Central] 。 FBA インベントリは、アカウントを使用して直接管理することも [!DNL Amazon Seller Central] できます。 このフルフィルメント方法を使用した場合、数量の更新はカタログに対しては実行されないので、 [!DNL Commerce] [ Stock/quantity 設定で説明されているようなマーケティングツールを使用することはできません ](./stock-quantity.md) 。</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** -この属性を使用して、 [!DNL Commerce] その属性がマーチャントによって満たされるか、Amazon によって履行されるかを決定する既存の属性があるかどうかを選択します。 選択すると、が **[!UICONTROL Fulfilled by Attribute]** 有効になります。</li></ul> |
+| [!UICONTROL Fulfilled By Attribute] | [!DNL Commerce]フルフィルメント方法を決定するために使用する属性を選択します。<br><br>例えば、その属性が「in」に設定されている場合、 __ またはによって属性値を指定すると、 _[!UICONTROL Fulfilled By Merchant]__[!UICONTROL Fulfilled By Amazon (FBA)]_ その値が新製品のフルフィルメントタイプとして使用されます。 マーチャントは、お客様の製品が、アカウント内の FBA の履行対象となることを確認する必要があり [!DNL Amazon Seller Central] ます。 FBA インベントリは、Amazon 売り手アカウントを使用して直接管理することもできます。<br><br>オプションは、Amazon 製品用に設定された属性によって異なります。 |
 
-**クイックアクセス**  — セク [!UICONTROL Listing Settings] ション
+**クイックアクセス** - [!UICONTROL Listing Settings] セクション
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)

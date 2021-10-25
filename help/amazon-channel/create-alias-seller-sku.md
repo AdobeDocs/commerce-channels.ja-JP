@@ -1,6 +1,6 @@
 ---
-title: Alias Amazon Seller SKUの作成
-description: エイリアスAmazonセラーSKUを使用して、コマースカタログ製品から複数の地域のAmazonリストを作成できます。
+title: エイリアスを作成する Amazon 売り手 SKU SKU
+description: エイリアス Amazon 売り手 SKU を使用して、Commerce カタログ製品からマルチ地域の Amazon リストを作成することができます。
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,74 +9,74 @@ ht-degree: 0%
 
 ---
 
-# Alias Amazon Seller SKUの作成
+# エイリアスを作成する Amazon 売り手 SKU SKU
 
-[!DNL Alias Amazon Seller SKU]は、[!DNL Commerce]カタログの同じ製品からAmazonリストを作成するために使用します。 Amazonの経験豊富なセラーの方は、在庫および発送用の[Amazon Global SKU](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target=&quot;_blank&quot;}およびMarketplace固有のSKUに詳しいかもしれません。 Amazonの販売チャネルに関する同様の原則に従い、AmazonセラーのSKUは複数の地域レベルで製品リスト情報を制御し、[!DNL Alias Amazon Seller SKU]は地域固有のレベルで製品リスト情報を制御するために使用できます。
+[!DNL Alias Amazon Seller SKU]は、カタログ内の同じ製品から Amazon リストを作成するために使用され [!DNL Commerce] ます。Amazon 販売店が熟練した場合、 [ amazon のグローバル sku ](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090) {target = &quot;_blank&quot;} および Marketplace に関する sku については、在庫と出荷について理解している場合があります。 Amazon 販売チャンネルの同じ原則に従うと、Amazon 売り手 SKU は地域ごとに製品リスト情報を管理し、を使用して [!DNL Alias Amazon Seller SKU] 製品リスト情報を地域固有のレベルで制御することができます。
 
-この関数は、次の2つの機能を実行するために使用できます。
+この関数は、次の2つの関数を実行するために使用できます。
 
-- [!DNL Commerce]カタログ製品の1つに[!DNL Alias Amazon Seller SKU]を作成して、地域固有のリスト情報を制御します。
+- [!DNL Alias Amazon Seller SKU]カタログ製品のを作成して、 [!DNL Commerce] 地域固有のリスティング情報を制御します。
 
-   **例**:あなたは米国とカナダの両方の地域で売り手です。Amazonの各販売チャネルストアに割り当てることができるAmazon地域は、セットアップ中に1つだけです。 つまり、米国の地域が定義されたAmazonの販売チャネルストアと、カナダの地域が定義された別の店舗があります。 両方の店舗が、Amazonの販売者SKUおよびASIN製品属性を含む、両方の地域の情報を一覧表示するための[!DNL Commerce]カタログを共有します。 したがって、カタログ商品のリストは、店舗、共有価格、在庫/数量、その他の製品属性の両方で同じになります。 しかし、カナダの店舗の在庫はカナダの場所から出荷され、米国の店舗は米国の場所から出荷されます。 したがって、各店舗ごとに個別にリストの数量を制御する必要があります。 このタイプの地域固有のコントロールを実現するには、Alias Amazon Seller SKUを作成します。
+   **例** : あなたは、米国とカナダの両方で販売されています。 各 Amazon 販売チャンネルストアには、セットアップ中に1つの Amazon 地域しか割り当てられないことに注意してください。 そのため、en-us 販売チャンネルストアには、米国地域が定義され、カナダが定義されている別の店舗がある場合もあります。 どちらのストアも [!DNL Commerce] 、Amazon 売り手 SKU とアークサインの製品属性を含む両方の地域で情報を表示するために、カタログを共有しています。 そのため、カタログ製品のリストは、両方の店舗、価格の共有、株価、数量、その他の製品属性と同じになります。 ただし、カナダに保存した株は、カナダから出荷されています。 これにより、各ストアについてリストの数量を個別に制御する必要があります。 このような領域固有の制御を行うには、エイリアス Amazon 売り手 SKU を作成します。
 
-   基本的に、同じカタログ製品にリンクされ、その地域で同じリストを再公開するために使用できるAlias Amazon Seller SKUを作成できます。
+   基本的には、同じカタログ製品にリンクされたエイリアス Amazon 売り手 SKU を作成し、その領域に同じ出展を再公開するために使用することができます。
 
-- [!DNL Alias Amazon Seller SKU]を作成し、[!DNL Commerce]カタログ製品の1つを2つのAmazonリストに一致させます。
+- [!DNL Alias Amazon Seller SKU]カタログ製品を作成し、 [!DNL Commerce] 2 つの Amazon リストに適合させます。
 
-   **例**:Amazonリストと一致するカタログ製品がある。Amazonには、同じ製品を表す複数のリストが頻繁に存在するので、同じ製品に対する別のAmazonリストが見つかりますが、Amazonには別のASINが割り当てられています。 商品の可視性を高めてを含めるには、カタログ商品を別のASINと照合し、両方のASIN値のリストを作成します。 これを実現するには、Alias Amazon Seller SKUを作成します。
+   **例** : Amazon リスティングと一致するカタログ製品がある場合。 Amazon によって、同じ製品を表す複数の一覧が表示されていることがよくあるので、同じ製品について別の Amazon リストが見つかった場合でも、Amazon によって一覧の内容が異なります。 製品の可視性を高めるには、カタログ製品が別のアークサインに一致するようにして、アーク、両方の値について一覧を作成する必要があります。 これを実行するには、エイリアス Amazon 売り手 SKU の SKU を作成することができます。
 
-   基本的に、1つのカタログ製品を2つ目のAmazonリストに一致させる[!DNL Alias Amazon Seller SKU]を作成し、新しく一致したASINのリストを作成できます。 このシナリオでは、同じカタログ製品に対して2つのAmazonリストを作成します。
+   これを使用して、 [!DNL Alias Amazon Seller SKU] 1 つのカタログ製品を別の Amazon リスティングに一致させることができます。また、新しく一致したテキストのリストを作成することもできます。 このシナリオでは、同じカタログ製品について2つの Amazon リストがあると考えられます。
 
-   Alias Amazon Seller SKUを作成したら、リスト設定、ルールおよび上書きを使用して、その地域のリスト情報を制御できます。 リストのリストに対してリージョンごとに定義できる製品属性には、数量/在庫、履行方法、条件、製品の適格性、処理時間などがあります。
+   エイリアス Amazon 売り手 SKU を作成した後は、リスティング設定、ルール、上書きを使用して、地域のリスト情報を制御することができます。 リストに対して地域別に定義できる製品属性には、数量/在庫、フルフィルメント方法、条件、製品の適格性、処理時間が含まれます。
 
-## 地域固有の目的で使用 {#region-specific}
+## 領域固有の目的に使用されます。 {#region-specific}
 
-_[!UICONTROL Product Listings]_ページ（_[!UICONTROL Inactive]_、_アクティブ_、_不適格_、または&#x200B;_終了_&#x200B;タブ）でリストを表示します。
+ページに一覧表示されている _[!UICONTROL Product Listings]__[!UICONTROL Inactive]_ 場合は、「 _有効」、「有効」_ __ または「 _終了」_ タブが表示されます。
 
-1. _[!UICONTROL Actions]_の下で、**[!UICONTROL Create Alias Seller SKU]**をクリックします。
+1. _[!UICONTROL Actions]_でをクリックし&#x200B;**[!UICONTROL Create Alias Seller SKU]**ます。
 
-1. **[!UICONTROL Assign New Seller SKU]**&#x200B;には、一意の英数字の値を入力します。
+1. **[!UICONTROL Assign New Seller SKU]**「」には、一意の英数字の値を入力します。
 
-   この値は一意である必要があります（カタログ内の他の製品やエイリアスには使用しません）。
+   この値は一意である必要があります。これは、カタログ内の他の製品またはエイリアスには使用されません。
 
-1. **[!UICONTROL Assign New ASIN]**&#x200B;の場合は、変更を加えません。
+1. に **[!UICONTROL Assign New ASIN]** 変更を加えます。
 
-   この値は、カタログ製品と一致する製品ASINで自動入力されます。 この値を変更すると、ASINに基づく2つのAmazonリストにカタログ製品が一致します。
+   この値には、カタログ製品と一致する製品のアークサインが自動的に入力されます。 この値を変更すると、お客様のカタログ製品が、アークサインに基づいて2つの Amazon リストと一致するようになります。
 
-1. 必要に応じて&#x200B;**[!UICONTROL Remove Existing Seller SKU]**&#x200B;オプションを切り替えます。
+1. **[!UICONTROL Remove Existing Seller SKU]**&#x200B;必要に応じてオプションを切り替えます。
 
-   - `Yes`  — リストを削除し、提供された新しい情報を使用してリストを作成することを選択します。
+   - `Yes` このオプションを選択すると、リストが削除され、指定した新しい情報を使用してリストが作成されます。
 
-   - `No`  — リストを作成し、古いリストは変更しないでおきます。
+   - `No` -一覧を作成し、古い一覧は変更しないままにしておくことができます。
 
-1. **[!UICONTROL Save Listing Update]**&#x200B;をクリックします。
+1. をクリックし **[!UICONTROL Save Listing Update]** ます。
 
-## 1つのカタログ製品を2つのAmazonリストと照合するために使用します
+## 単一カタログ製品を2つの Amazon リストに一致させるために使用されます。
 
-1. _[!UICONTROL Product Listings]_ページ（_[!UICONTROL Inactive]_、_[!UICONTROL Active]_、_[!UICONTROL Ineligible]_&#x200B;または&#x200B;_[!UICONTROL Ended]_タブ）でリストを表示します。
+1. _[!UICONTROL Product Listings]_ページ (、、、_[!UICONTROL Inactive]_ _[!UICONTROL Active]__[!UICONTROL Ineligible]_ またはタブ) のリストを表示し _[!UICONTROL Ended]_ます。
 
-1. _[!UICONTROL Actions]_の下で、**[!UICONTROL Create Alias Seller SKU]**をクリックします。
+1. _[!UICONTROL Actions]_でをクリックし&#x200B;**[!UICONTROL Create Alias Seller SKU]**ます。
 
-1. **[!UICONTROL Assign New Seller SKU]**&#x200B;には、一意の英数字の値を入力します。
+1. **[!UICONTROL Assign New Seller SKU]**「」には、一意の英数字の値を入力します。
 
-   この値は一意である必要があります（カタログ内の他の製品やエイリアスには使用しません）。
+   この値は一意である必要があります。これは、カタログ内の他の製品またはエイリアスには使用されません。
 
-1. **[!UICONTROL Assign New ASIN]**&#x200B;には、一意の英数字の値を入力します。
+1. **[!UICONTROL Assign New ASIN]**「」には、一意の英数字の値を入力します。
 
-   この値は、カタログ製品と一致する製品ASINで自動入力されます。 この値を変更すると、ASINに基づく2つのAmazonリストにカタログ製品が一致します。
+   この値には、カタログ製品と一致する製品のアークサインが自動的に入力されます。 この値を変更すると、お客様のカタログ製品が、アークサインに基づいて2つの Amazon リストと一致するようになります。
 
-1. 必要に応じて&#x200B;**[!UICONTROL Remove Existing Seller SKU]**&#x200B;オプションを切り替えます。
+1. **[!UICONTROL Remove Existing Seller SKU]**&#x200B;必要に応じてオプションを切り替えます。
 
-   - `Yes`  — リストを削除し、提供された新しい情報を使用してリストを作成することを選択します。
+   - `Yes` このオプションを選択すると、リストが削除され、指定した新しい情報を使用してリストが作成されます。
 
-   - `No`  — 別のリストを作成し、古いリストは変更しないでください。
+   - `No` -別の一覧を作成することを選択し、古い一覧は変更されません。
 
-1. **[!UICONTROL Save Listing Update]**&#x200B;をクリックします。
+1. をクリックし **[!UICONTROL Save Listing Update]** ます。
 
-![エイリアスAmazon Seller SKUの作成](assets/amazon-alias-sku-create.png)
+![エイリアスを作成する Amazon 売り手 SKU SKU](assets/amazon-alias-sku-create.png)
 
-| フィールド | 説明 |
+| 名 | つい |
 |--- |--- |
-| [!UICONTROL Assign New Seller SKU] | 元のAmazonセラーのSKUにリンクする新しい一意の英数字の値を入力します。 この数は、Amazonの販売チャネルでカタログ製品と照合するためにのみ使用されます。 どのSKU値も使用できますが、カタログでは1回のみ使用できます。 |
-| [!UICONTROL Assign New ASIN] | カタログ商品を照合するリストのASIN値を入力します。 1つのカタログ製品をASINと照合し、同じ製品の別のリストを表示する場合にのみ、このフィールドを変更します。 この値は、Amazonによって割り当てられたASINと一致する必要があります。一致しない場合、Amazonによってリストが拒否されることはありません。 |
-| [!UICONTROL Remove Existing Seller SKU] | オプション：<ul><li>**[!UICONTROL Yes]**  — リストを削除し、提供された新しい情報を使用してリストを作成することを選択します。新しいリストが「_[!UICONTROL Active]_」タブに表示され、古いリストが「_&#x200B;終了&#x200B;_」タブに移動します。</li><li>**[!UICONTROL No]**  — 別のリストを作成し、古いリストは変更しないでください。両方のリストは、新しいリストが作成された後、[アクティブ]タブに表示されます。</li></ul> |
+| [!UICONTROL Assign New Seller SKU] | 元の Amazon 売り手 SKU にリンクする新しい一意の英数字の値を入力します。 この数値は、カタログ製品に一致させるために Amazon 販売チャンネルによってのみ使用されます。 任意の SKU 値を使用できますが、この値は一度に1つのカタログでしか使用できません。 |
+| [!UICONTROL Assign New ASIN] | カタログ製品と一致させるリストの「アーク」の値を入力します。 このフィールドは、同じ製品の別のリストのために単一のカタログ製品をアークにする場合にのみ修正してください。 この値は、Amazon によって割り当てられたアークまたはリストが Amazon によって拒否されることはありません。 |
+| [!UICONTROL Remove Existing Seller SKU] | オプション：<ul><li>**[!UICONTROL Yes]** このオプションを選択すると、リストが削除され、指定した新しい情報を使用してリストが作成されます。 タブに新しいリストが表示され、 _[!UICONTROL Active]_古いリストが「_ 終了」タブに移動し _ます。</li><li>**[!UICONTROL No]** -別の一覧を作成することを選択し、古い一覧は変更されません。 リストが作成された後に、アクティブなタブに両方のリストが表示されます。</li></ul> |

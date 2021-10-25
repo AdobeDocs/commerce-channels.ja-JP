@@ -1,6 +1,6 @@
 ---
-title: リストの改善点
-description: AmazonSales Channelには、Amazonリストの品質の改善点に関する提案を提供する「リストの改善」レポートが表示されます。
+title: リストの改善
+description: Amazon 販売チャンネルのリスト改善レポートには、Amazon の一覧品質の向上に関する提案が記載されています。
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,20 +9,20 @@ ht-degree: 0%
 
 ---
 
-# リストの改善点
+# リストの改善
 
-[!UICONTROL Listing Improvements]レポートには、リストの品質を向上させるためにAmazonからの提案を含む製品が表示されます。 これらの提案を確認すると、Amazonのリストに表示される製品のパフォーマンスに役立ちます。 ログに使用できるアクションはありません。 これはレビュー専用の機能です。
+このレポートには、 [!UICONTROL Listing Improvements] リストの品質を向上させるために Amazon からの提案が記載された製品が表示されます。 この推奨事項は、Amazon リスト内の製品のパフォーマンスを向上させることができます。 ログに使用できるアクションはありません。 これはレビューのみの機能です。
 
-Amazonから受け取ったリストの改善により、Amazonに製品が表示されることが妨げられることはありません。
+Amazon から得られたリストの改善によって、Amazon によって製品がリストされるのを防ぐことはできません。
 
-![リストの改善点](assets/amazon-listing-improvements.png)
+![リストの改善](assets/amazon-listing-improvements.png)
 
 ## デフォルトの列
 
-| 列 | 説明 |
+| 段 | つい |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | Amazonが製品に割り当てたSKU(Stock Keeping Unit)。製品、オプション、価格および製造元を識別します。 |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロック。<br><br>ASINは、を表しま [!DNL Amazon Standard Identification Number]す。ASINは、項目を識別する10文字または数字の一意のブロックです。 本の場合、ASINはISBN番号と同じですが、他のすべての製品の場合は、品目がカタログにアップロードされると新しいASINが作成されます。 ASINは、Amazonの製品の詳細ページで、品目に関する詳細と共に検索できます。 |
-| [!UICONTROL Alert Type] | リストの問題のタイプについて説明します。 例えば、「Missing」は、必須属性が見つからないことを示します。 |
-| [!UICONTROL Field Name] | 改善が推奨される詳細をリストするAmazonの販売者のフィールド名。 |
-| [!UICONTROL Notes] | Amazonから受け取った改善案の説明。 |
+| [!UICONTROL Amazon Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
+| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>「アーク」は、 [!DNL Amazon Standard Identification Number] . アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
+| [!UICONTROL Alert Type] | リストの問題の種類を示します。 例えば、&quot;Missing&quot; は、必要な属性が存在しないことを示します。 |
+| [!UICONTROL Field Name] | Amazon 売り手によって改善が推奨される際の、その機能についての情報が記載されているフィールドの名前。 |
+| [!UICONTROL Notes] | Amazon から受信した改善策について説明します。 |

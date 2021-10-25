@@ -1,6 +1,6 @@
 ---
-title: 不完全なリスト
-description: Amazonのセールスチャネルには、不完全なAmazonリストの実施要件を特定し、満たすのに役立つ「[!UICONTROL Incomplete]」タブが用意されています。
+title: 不完全な一覧
+description: Amazon sales channel タブは、 [!UICONTROL Incomplete] 不完全な Amazon リストに使用される特典を確認し、条件を満たすために役立ちます。
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,49 +9,49 @@ ht-degree: 0%
 
 ---
 
-# 不完全なリスト
+# 不完全な一覧
 
-「_[!UICONTROL Incomplete]_」タブには、Amazonの適格性要件（[リストルール](./listing-rules.md)で定義）を満たすが、Amazonで必要な情報(Amazon ASINや定義済みの製品条件など)が欠落しているカタログ製品が一覧表示されます。[!DNL Commerce]
+このタブには、amazon の _[!UICONTROL Incomplete]_[!DNL Commerce] 資格情報 (リストルールで定義されています) に適合するカタログ製品が一覧表示 [ されますが、amazon ](./listing-rules.md) によって要求される情報が不足しています (amazon または定義された製品条件など)。
 
-リストが不完全な場合は、4つの原因が考えられます。それぞれがステータスによって識別されます。
+不完全なリストについては、それぞれの状態によって識別される4つの原因が考えられます。
 
-| ステータス | 理由 | アクション |
+| 現状 | ため | アクション |
 |--- |--- |--- |
-| 見つからない条件 | Amazonは、様々な条件（_新しい_、_改装済み_、_使用済みなど）でリストを受け入れます。「新規_」のように)リストには、定義済みの条件が必要です。 | 必要な情報を更新し、リストに条件](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition)を手動で割り当てます。[ |
-| Amazonリストに割り当てられない | このリストをカタログに自動的に一致させられませんでした。 一致が見つからない場合、リストはAmazonSales Channelで管理できません | 必要な情報を更新し、リストに一致するようにASIN](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing)をカタログ製品に手動で[割り当てます。 |
-| 複数件の一致が見つかりました | このリストをカタログに自動的に一致させられませんでした。 一致する結果が複数見つかった場合は、製品に合った正しい一致を選択する必要があります。 | 必要な情報を更新し、製品とリストに対して[製品の一致](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found)を手動で選択します。 |
-| バリアントを含む | サイズや色が異なるTシャツなど、製品にバリエーションがある場合は、カタログ内のバリアントを正しく割り当ててリストに一致させるように選択する必要があります | 必要な情報を更新し、手動で[正しいバリアント](./amazon-manually-update-incomplete-listing.md#update-required-info-has-variants)を選択して、このリストに割り当て、一致させます。 |
+| 条件がありません | Amazon は、様々な条件でリストを __ 使用できます (新規、新機能 __ 、 _使用: 新機能など)。リストに_ は条件が定義されている必要があります。 | 必要な情報を更新し、 [ リストに手動で条件を割り当て ](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) ます。 |
+| Amazon の一覧に割り当てられることができません | この一覧のカタログへの自動的な一致は失敗しました。 一致するものが見つからない場合は、リストを Amazon Sales Channel によって管理することはできません。 | 必要な情報を更新し、リストと一致させるために手動で [ ](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) 差し込み製品に &quot;アーク」を割り当てます。 |
+| 複数の一致が見つかりました | この一覧のカタログへの自動的な一致は失敗しました。 一致するアイテムが複数見つかった場合は、製品に適したものを選択する必要があります。 | 必要な情報を更新し、製品 [ とリストに一致する製品を選択し ](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) ます。 |
+| バリアントが含まれます | 使用する製品に、サイズや色の異なる t シャツなどのバリエーションが含まれている場合は、カタログ内の変形を選択して、そのバリエーションが表示されます。 | 必要な情報を更新し、手動で [ ](./amazon-manually-update-incomplete-listing.md#update-required-info-has-variants) 指定して、このリストと一致させます。 |
 
 >[!NOTE]
->不完全なリストがカタログ商品と正しく一致する場合、リストは「_[!UICONTROL Incomplete]_」タブから移動し、[_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md)の設定に基づいてAmazonに公開されます。
+>カタログ製品に不完全な一覧が表示されると、その一覧はタブから移動し、 _[!UICONTROL Incomplete]_設定に基づいて Amazon に公開され [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) ます。
 
-「_[!UICONTROL Incomplete]_」タブで使用できるアクションは次のとおりです。
+タブに表示されるアクションは以下のとおり _[!UICONTROL Incomplete]_です。
 
-_[!UICONTROL Actions]_の下：
+_[!UICONTROL Actions]_以下に示します。
 
-- **[!UICONTROL Re-attempt to auto match to Amazon listings]**:Amazonリストのデータをカタログに照合する自動処理を開始する場合に選択 [!DNL Commerce] します。商品が自動的に一致しない場合は、リスト設定の[_[!UICONTROL Catalog Search]_](./catalog-search.md)オプションを再度選択してください。 _[!UICONTROL Catalog Search]_オプションの更新後にリストが自動的に一致しない場合は、[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found)アクションで製品を手動で照合できます。
+- **[!UICONTROL Re-attempt to auto match to Amazon listings]**: Amazon リストデータをカタログに一致させるための自動プロセスを開始するように選択し [!DNL Commerce] ます。 製品が自動的に一致しない場合は、リスト lettings に表示されているオプションを再利用 [_[!UICONTROL Catalog Search]_](./catalog-search.md) してください。 オプションを更新した後に一覧が自動的に一致しない場合は _[!UICONTROL Catalog Search]_、そのアクションに手動で製品を適合させることができ [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) ます。
 
-_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Select]**の下：
+**[!UICONTROL Select]**&#x200B;列で、 _[!UICONTROL Action]_次のようになります。
 
-- **[!UICONTROL Update Required Info]**:カタログに一覧が自動的に一致しない場合に選択します。カタログ商品を手動でリスト](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found)に[照合するか、手動で[ASIN](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing)をカタログ照合に割り当てるか、リストに[足りない条件](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition)を割り当てます。
+- **[!UICONTROL Update Required Info]**: リストが自動的にカタログに一致しない場合に選択します。 カタログ製品を一覧に手動で対応させることができ [ ます。また、電話帳に手動で電話をかけることができ ](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) [ ](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) [ ます。また、見つからない条件をリストに割り当てることもでき ](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) ます。
 
-- **[!UICONTROL View Details]**:「リスト・アクティビティ・ログ」、「 [Buy Box競合相手の価格設定](./product-listing-details.md#listing-activity-log)」、「最低競合相手の価格設定 [」など、リストの詳細を表示する](./product-listing-details.md#buy-box-competitor-pricing) [](./product-listing-details.md#lowest-competitor-pricing)ように選択します。このアクションは表示専用です。 リスト内の詳細は変更できません。 [詳細を表示](./product-listing-details.md)を参照してください。
+- **[!UICONTROL View Details]**: 一覧表示された [ 利用状況ログ、購入ボックスの価格、競合企業の価格が表示さ ](./product-listing-details.md#listing-activity-log) [ ](./product-listing-details.md#buy-box-competitor-pricing) [ ](./product-listing-details.md#lowest-competitor-pricing) れます。 このアクションは、表示専用です。 一覧の詳細に変更を加えることはできません。 [詳しくは、詳細の表示を参照してください ](./product-listing-details.md) 。
 
 >[!NOTE]
 >
->リストが処理中の場合は、タブの上にあるメッセージにリストの数が表示されます。
+>リストが作成されている場合は、タブの上のメッセージに一覧の数が表示されます。
 
-![不完全なAmazonリスト](assets/amazon-incomplete-listings.png)
+![不完全な Amazon リスト](assets/amazon-incomplete-listings.png)
 
-Amazonの販売チャネルのホームページは、表示されるデータをカスタマイズできる、一般的な[workspaceコントロール](./workspace-controls.md)を共有します。
+Amazon セールスチャンネルのホームページ [ ](./workspace-controls.md) は、表示されるデータをカスタマイズするための一般的なワークスペースコントロールの一部を共有しています。
 
-| 列 | 説明 |
+| 段 | つい |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | Amazonが製品に割り当てたSKU(Stock Keeping Unit)。製品、オプション、価格および製造元を識別します。 |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロック。<br><br>ASINは、を表しま [!DNL Amazon Standard Identification Number]す。ASINは、項目を識別する10文字または数字の一意のブロックです。 本の場合、ASINはISBN番号と同じですが、他のすべての製品の場合は、品目がカタログにアップロードされると新しいASINが作成されます。 ASINは、Amazonの製品の詳細ページで、品目に関する詳細と共に検索できます。 |
-| [!UICONTROL Product Listing Name] | 製品の名前。 |
-| [!UICONTROL Condition] | 製品の[条件](./product-listing-condition.md)。 |
-| [!UICONTROL Landed Price] | 商品の上場価格と送料。 |
-| [!UICONTROL Amazon Quantity] | 製品がAmazonに積極的にリストされた場合に使用可能な数量。 |
-| [!UICONTROL Status] | リストのステータス(Amazonで定義)。 上記のステータス表を参照してください。 |
-| [!UICONTROL Action] | 特定のリストに適用できるアクションのリスト。 アクションを適用するには、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Select]**をクリックし、次のいずれかのオプションを選択します。<ul><li>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
+| [!UICONTROL Amazon Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
+| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>「アーク」は、 [!DNL Amazon Standard Identification Number] . アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
+| [!UICONTROL Product Listing Name] | 製品の名前を指定します。 |
+| [!UICONTROL Condition] | [ ](./product-listing-condition.md) 製品の状態。 |
+| [!UICONTROL Landed Price] | 製品のリスト価格とその配送価格を示します。 |
+| [!UICONTROL Amazon Quantity] | この製品が Amazon に積極的に一覧表示されるときに使用可能な数量です。 |
+| [!UICONTROL Status] | Amazon によって定義される一覧の状態。 上の状態テーブルを参照してください。 |
+| [!UICONTROL Action] | 特定のリストに適用可能なアクションのリストです。 アクションを適用するには、列内をクリックし、 **[!UICONTROL Select]** _[!UICONTROL Action]_オプションを選択します。<ul><li>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |

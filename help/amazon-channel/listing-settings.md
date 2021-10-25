@@ -1,6 +1,6 @@
 ---
 title: リスト設定の表示
-description: リスト設定を使用して、 [!DNL Commerce] カタログ製品の [!DNL Amazon Marketplace]でのリスト方法を定義します。
+description: カタログ製品がどのように表示されるかを指定するには、リスティング設定を使用  [!DNL Commerce]   [!DNL Amazon Marketplace] します。
 redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -12,33 +12,33 @@ ht-degree: 0%
 
 # リスト設定の表示
 
-リスト設定は、[ストアダッシュボード](./amazon-store-dashboard.md)からアクセスします。
+一覧の設定は、ストアのダッシュボードからアクセスされ [ ](./amazon-store-dashboard.md) ます。
 
-これらの設定は、[!DNL Commerce]カタログ製品のAmazonでのリスト方法を定義します。 リスト設定は、Amazonの販売チャネルとそれぞれの[!DNL Amazon Seller Central]アカウントの間のインタラクションと通信を定義できる複数のカテゴリで構成されます。
+この設定によって、 [!DNL Commerce] Amazon においてカタログ製品がどのように表示されるかが決まります。 リスティング設定にはいくつかのカテゴリがあります。これを使用すると、Amazon 販売チャンネルと各口座の間の相互作用や通信を定義することができ [!DNL Amazon Seller Central] ます。
 
-リスト設定を構成する際に、次の基本的な機能パラメータを決定します。
+リスティング設定を構成する場合は、次のような基本的な機能パラメーターを指定します。
 
-- [!DNL Commerce]カタログ製品の実施要件ルールを定義し、新しいリストとしてAmazonに自動的に公開する
-- [!DNL Commerce]カタログまたは競合相手の価格に基づいてAmazonの株価を設定する
-- 履行方法の定義
+- [!DNL Commerce]新規リストとして Amazon に自動的にパブリッシュされるように、カタログ製品の適格性ルールを定義します。
+- [!DNL Commerce]カタログまたは競合企業の価格に基づいて、Amazon の一覧表示価格を設定します。
+- フルフィルメント方法の定義
 
 各セクションを展開し、必要に応じて設定します。
 
-## リスト設定の管理
+## リストの設定の管理
 
-1. ストア[ダッシュボード](./amazon-store-dashboard.md)を表示し、左側のメニューの「**[!UICONTROL Listing Settings]**」をクリックします。
+1. Store の [ ダッシュボード ](./amazon-store-dashboard.md) を表示して、 **[!UICONTROL Listing Settings]** 左側のメニューでクリックします。
 
-1. 各セクションを展開して、リスト設定を確認し、設定します。 続行するには、必須フィールドに入力します。
+1. 各セクションを展開して、リスティング設定を確認して設定します。 必要なすべてのフィールドに入力して、続行します。
 
-   - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md):対象となる製品が [!DNL Commerce] Amazonに自動的に公開するかどうかと、出荷のデフォルトの処理時間を定義します。
-   - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md):製品リスト [!DNL Amazon Seller Account] をカタログに読み込むかどうかを定 [!DNL Commerce] 義します。
-   - [[!UICONTROL Listing Price]](./listing-price.md):価格属 [!DNL Commerce] 性を定義し、価格設定を構成します。
-   - [[!UICONTROL (B2B) Business Price]](./business-pricing.md):別のビジネスに販売する際に、階層型の価格設定を定義します。
-   - [[!UICONTROL Stock / Quantity]](./stock-quantity.md):在庫管理の在庫管理しきい値を定義します。
-   - [[!UICONTROL Fulfilled By]](./fulfilled-by.md)\:オーダーを実行するユーザーを定義します。
-   - [[!UICONTROL Catalog Search]](./catalog-search.md):カタログ製品をAmazonの製品リストと照合するための信頼性の高いプロ [!DNL Commerce] セスを確実にするために、検索パラメーターを定義します。
-   - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md):製品「条件」の設定と値を定義します。条件は、Amazonで必要な製品の詳細ですが、[!DNL Commerce]カタログ製品には不要です。
+   - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md): 適格製品が [!DNL Commerce] Amazon に自動的にパブリッシュされるかどうか、および出荷のデフォルト処理時間を定義します。
+   - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md): 製品リストをカタログに取り込むかどうかを定義 [!DNL Amazon Seller Account] [!DNL Commerce] します。
+   - [[!UICONTROL Listing Price]](./listing-price.md): [!DNL Commerce] 価格属性を定義し、価格設定を構成します。
+   - [[!UICONTROL (B2B) Business Price]](./business-pricing.md): 別の事業に販売する場合は、ティアによる価格設定を定義します。
+   - [[!UICONTROL Stock / Quantity]](./stock-quantity.md): 在庫管理のために株管理しきい値を定義します。
+   - [[!UICONTROL Fulfilled By]](./fulfilled-by.md)\: 注文を満たす従業員を定義します。
+   - [[!UICONTROL Catalog Search]](./catalog-search.md): カタログ製品と Amazon 製品の一覧を対応させるために、検索パラメーターを定義 [!DNL Commerce] します。
+   - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md): Product &quot;condition&quot; の設定と値を定義します。 条件とは、Amazon によって必要になる製品の詳細情報ですが、カタログ製品には必要ありません [!DNL Commerce] 。
 
-1. **[!UICONTROL Save]**&#x200B;をクリックします。
+1. をクリックし **[!UICONTROL Save]** ます。
 
-![リスト設定](assets/amazon-listing-settings.png)
+![リストの設定](assets/amazon-listing-settings.png)

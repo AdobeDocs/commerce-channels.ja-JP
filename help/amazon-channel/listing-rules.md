@@ -1,6 +1,6 @@
 ---
-title: ルールのリスト
-description: リストルールを使用して、Amazon Marketplaceリストとして公開されるコマースカタログ製品を決定します。
+title: ルールの一覧表示
+description: リスティングルールを使用すると、Amazon Marketplace のリストとしてパブリッシュされた Commerce カタログ製品を指定することができます。
 redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -10,99 +10,99 @@ ht-degree: 0%
 
 ---
 
-# ルールの一覧
+# ルールの一覧表示
 
-ストアのリストルールは、[ストアダッシュボード](./amazon-store-dashboard.md)でアクセスできます。
+ストアのダッシュボードには、ストアのリストルールにアクセスでき [ ](./amazon-store-dashboard.md) ます。
 
-リストルールは、Amazonの販売チャネルをAmazonに発行する製品を決定するルールを定義します。 これらのルールには、製品をリストに含めたり除外したりする、シンプルから複雑なルールを作成するための多くのオプションが用意されています。 各ルールは、製品リストの実施要件を設定する条件で構成されます。
+リスティングルールには、Amazon 販売チャンネルが Amazon に公開する製品を決定するためのルールが定義されています。 このルールには、製品一覧に製品を含めたり除外したりするために単純な複雑なルールを作成するためのオプションが数多く用意されています。 各ルールには、製品の一覧表示に関する条件が設定されています。
 
-リストルールは、[!DNL Commerce]カタログと継続的に同期されます。 リストルールで設定された実施要件を満たす新しい[!DNL Commerce]製品を追加すると、Amazonにリスト用に自動的に処理されます。
+リストルールは、カタログと継続的に同期され [!DNL Commerce] ます。 [!DNL Commerce]リストルールによって設定された特典要件に適合する新製品を追加すると、Amazon によって製品が自動的に処理されます。
 
-- すべての製品をAmazonリストに公開する場合は、リストルールの条件を定義しないでください。
+- すべての製品を Amazon リスティングに公開する場合は、リスティングルールについては定義しないでください。
 
-- Amazonに公開するカタログ商品を制限する場合は、リストルールの条件を定義します。 Amazonリストルールの条件を定義する手順は、[買い物かご価格ルール](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}の条件を定義するのと同じロジックに従います。
+- Amazon にパブリッシュされるカタログ製品の制限を設定するには、リスティングルール条件を定義します。 Amazon の一覧のルールの条件を定義すると、Cart 価格ルールの条件を定義した場合と同じロジックとプロセス、 [ ](https://docs.magento.com/user-guide/marketing/price-rules-cart.html) {target = &quot;_blank&quot;} のようになります。
 
-- リストルールで製品が除外されると、その製品の実施ステータスは`Ineligible`に変わります。 不適格な製品は、Amazonに公開されません。
+- 製品を除外する場合は、その製品の適格性状態がに変更され `Ineligible` ます。 非不適合製品は、Amazon に公開されません。
 
-- 不適格な製品がAmazonに既にリストされ、Amazonリストが[!DNL Commerce]カタログ製品と一致する場合、Amazonリストの数量は`0`に変わり、製品の販売を防ぎます。 Amazonのリストは、[手動で削除](./end-listings-manually.md)できます。
+- 対象外の製品が Amazon に既に一覧表示されている場合、Amazon の一覧をカタログ製品と一致させると、 [!DNL Commerce] amazon の一覧の表示が製品販売を防止するために変更され `0` ます。 Amazon リストは手動で削除することができ [ ](./end-listings-manually.md) ます。
 
-数量と適格性のステータスの変更は、同じ地域で販売する店舗向けに存在する市場でAmazonセラーのSKUを共有するすべてのリストに影響を与えます（[store integration](./store-integration.md)の間の&#x200B;_[!UICONTROL Amazon Marketplace Country]_で定義）。 ただし、1つの地域で共有[!DNL Amazon Seller SKU]を変更しても、別の国での製品のAmazonリストには影響しません。
+数量および適格性の状態の変更は、同じ地域 (ストア統合時に定義されている) の Amazon 売り手 SKU を共有しているすべての番組表に影響し _[!UICONTROL Amazon Marketplace Country]_[ ](./store-integration.md) ます。 ただし、ある領域で共有すると、 [!DNL Amazon Seller SKU] 別の国にある製品の Amazon リストに変更が加えられることはありません。
 
-![ルールの一覧](assets/ob-listing-rules.png)
+![ルールの一覧表示](assets/ob-listing-rules.png)
 
-## リストルールの設定
+## リスティングルール設定の構成
 
-1. ストアダッシュボードの「**[!UICONTROL Listing Rules]**」をクリックします。
+1. **[!UICONTROL Listing Rules]** Store のダッシュボードのをクリックします。
 
-1. Amazonに表示する製品の実施要件に必要な条件を定義します。
+1. Amazon に記載されている製品の特典に必要な条件を定義します。
 
-[例：条件](./ob-define-condition-example.md)を定義します。
+[次の例を参照してください。条件を定義 ](./ob-define-condition-example.md) します。
 
-| フィールド | 説明 |
+| 名 | つい |
 |---|---|
-| [!UICONTROL Websites] | 使用可能なオプションは、[!DNL Commerce]設定で設定した[webサイト](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;}によって異なります。 Amazonに表示される対象製品のWebサイトを選択します。 各WebサイトにはAmazonの販売チャネルで作成される一意のAmazonストアが必要なので、1つのWebサイトのみ選択できます。 |
-| [!UICONTROL Conditions] | Amazon地域内の製品適格性の[!DNL Commerce]属性を定義するために使用します。 [例：条件](./ob-define-condition-example.md)を定義します。 |
+| [!UICONTROL Websites] | 使用できるオプションは、設定 [ で設定されている web サイト ](https://docs.magento.com/user-guide/stores/websites-stores-views.html) {target = &quot;_blank&quot;} によって異なり [!DNL Commerce] ます。 Amazon に記載されている適格な製品については、web サイトを選択してください。 1つの web サイトで選択できるのは、Amazon sales チャンネルで作成された固有の Amazon store が必要なので、1つの web サイトに限られます。 |
+| [!UICONTROL Conditions] | [!DNL Commerce]Amazon region 内の製品の適格性の属性を定義するために使用されます。[次の例を参照してください。条件を定義 ](./ob-define-condition-example.md) します。 |
 
 ## 条件ワークスペース
 
-条件内の太字の領域をクリックすると、様々なオプションを表示できます。
+条件が太字のすべての領域をクリックすると、様々なオプションが表示されます。
 
-- 選択したWebサイト内のすべての製品が適格な場合は、条件を追加しないでください。
-- Amazonのシステムと直接通信する複雑なバックエンドプロセスのセットがあります。 リストしようとしている項目の数と、Amazonのシステムのビジー状態（ブラックフライデーなど）に基づいて、Amazonに項目がリストされるまでに時間がかかる場合があります。
+- 選択された web サイト内のすべての製品が適格な条件を追加することはできません。
+- Amazon のシステムと直接通信するための、複雑なバックエンドプロセスのセットがあります。 リストされるアイテムの数と、Amazon のシステムの利用率が高い (黒色 (金) など) 場合は、Amazon 上のアイテムが表示されるまでに時間がかかることがあります。
 
-条件について詳しくは、[条件の説明](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}を参照してください。
+条件について詳しくは、 [ ](https://docs.magento.com/user-guide/marketing/price-rules-cart.html) {target = &quot;_blank&quot;} の条件についてを参照してください。
 
-## ルールのプレビューの一覧表示
+## リストルールプレビュー
 
-リストルールの条件定義を変更する場合は、**[!UICONTROL Preview Changes]**&#x200B;をクリックしてルールの変更を適用し、リストへの影響を確認できます。 リストルールの変更を保存する前に、このリストプレビュー機能のリストを確認してください。
+リストされているルールに基づいて条件定義を変更する場合は、をクリックして **[!UICONTROL Preview Changes]** ルールの変更を適用し、出展にどのような影響があるかを確認することができます。 リストルールの変更を保存する前に、このリストプレビュー機能の一覧を確認してください。
 
-Amazonのリストは、ルールおよび定義された条件と比較されます。 その後、以下を確認できます。
+Amazon リストがルールと定義された条件と比較されます。 その後、次の内容を確認できます。
 
-- 現在の[!DNL Amazon Seller Central]アカウントに基づいて、どの製品が不適格ステータスに移行するか
-- 不適格な状態から適格な状態に戻る製品
-- どの製品が新しいAmazonリストで、適格な[!DNL Commerce]製品からAmazonリストに追加されるか
+- 現在のアカウントに基づいて、どの製品が不適格なステータスに移行するか [!DNL Amazon Seller Central]
+- 不適格状態から適格状態に移行する製品
+- どの製品が新しい Amazon リストとして、適格製品から Amazon リストに追加されました。 [!DNL Commerce]
 
-リストプレビューを使用すると、潜在的なAmazonリストをプレビューし、リストルールを必要に応じて調整できます。
+リストのプレビューを使用すると、潜在的な Amazon リストをプレビューして、必要に応じて一覧表示規則を調整することができます。
 
-潜在的なAmazonリストは、次の3つのタブのいずれかの&#x200B;_[!UICONTROL Listing Preview]_ページに表示されます。
+潜在的な Amazon リストは、 _[!UICONTROL Listing Preview]_次の3つのタブのいずれかでページ上に作成されます。
 
-- **[!UICONTROL Ineligible Listings]** ：リストされた製品は、現在のリストのルールと条件に基づくAmazonリストには適用されません。
+- **[!UICONTROL Ineligible Listings]** -リストに表示されているルールおよび条件に基づいて、表示されている製品が Amazon リストの対象となりません。
 
-   不適格な製品は、Amazonに公開されません。 不適格な製品がAmazonに既にリストされ、Amazonリストが[!DNL Commerce]カタログ製品と一致する場合、Amazonリストの数量は`0`に変わり、製品の販売を防ぎます。 リストを手動で削除するには、「[Amazonリストの終了](./end-listings-manually.md)」を参照してください。 Amazonの要件を満たさない製品は、ここに記載されていません。 これらの製品は[[非アクティブなリスト]タブ](./inactive-listings.md)に表示されます。
+   非不適合製品は、Amazon に公開されません。 対象外の製品が Amazon に既に一覧表示されている場合、Amazon の一覧をカタログ製品と一致させると、 [!DNL Commerce] amazon の一覧の表示が製品販売を防止するために変更され `0` ます。 一覧を手動で削除するには、Amazon リスティングの終了を参照してください [ ](./end-listings-manually.md) 。 Amazon の要件を満たしていない製品は、ここには表示されません。 これらの製品は、「無効な出展」タブに一覧表示され [ ](./inactive-listings.md) ます。
 
-- **[!UICONTROL Eligible Listings]**  — リストされた製品は、現在のリストのルールと条件に基づいてAmazonリストに登録され、Amazonの要件にも従います。このリストには、読み込む既存のAmazonリストが含まれます（[リスト設定](./third-party-listing-settings.md)で`Import Listing`に設定されている「**サードパーティリストを読み込む**」がある場合）。
+- **[!UICONTROL Eligible Listings]** -リストに表示されている製品は、現在のリスティングルールと条件に基づいて、Amazon の一覧が表示されます。また、Amazon の要件にも適合しています。 このリストには、インポートされる既存の Amazon リストが表示されます (リスト表示の設定に設定された **サードパーティリストがある場合** `Import Listing` [ ](./third-party-listing-settings.md) )。
 
-- **[!UICONTROL New Listings]**  — リストに表示される製品に [!DNL Commerce] は、現在のリストのルールと条件に基づいて新しくAmazonリストに登録できるカタログ製品が含まれ、新しいAmazonリストを作成して公開します。
+- **[!UICONTROL New Listings]** -製品リストには、 [!DNL Commerce] 現在のリストルールと条件に基づいて、Amazon リストに新しく追加されたカタログ製品が含まれているか、新しい amazon リストが作成され、公開されています。
 
-### リストのプレビューを表示する
+### リストのプレビューを表示します。
 
-1. ストアダッシュボードの「**[!UICONTROL Listing Rules]**」をクリックします。
+1. **[!UICONTROL Listing Rules]** Store のダッシュボードのをクリックします。
 
-1. [リストルール](./listing-rules.md)を表示または追加します。
+1. リスティングルールを表示または追加 [ ](./listing-rules.md) します。
 
-1. [リストルール条件](./ob-define-condition-example.md)を変更します。
+1. [リストルールの条件 ](./ob-define-condition-example.md) を変更します。
 
-1. **[!UICONTROL Preview Changes]**&#x200B;をクリックします。
+1. をクリックし **[!UICONTROL Preview Changes]** ます。
 
-1. 「_[!UICONTROL Ineligible Listings]_」、「_[!UICONTROL Eligible Listings]_」、「_[!UICONTROL New Listings]_」の各タブでリストを確認し、確認します。
+1. 、、およびタブの一覧を確認して確認し _[!UICONTROL Ineligible Listings]__[!UICONTROL Eligible Listings]_ _[!UICONTROL New Listings]_ます。
 
-1. リストが期待どおりの場合は、**[!UICONTROL Save and close]**&#x200B;をクリックします。
+1. ご希望の内容と一致している場合は、をクリックし **[!UICONTROL Save and close]** ます。
 
-   リストが期待どおりに表示されない場合は、**[!UICONTROL Back]**&#x200B;をクリックし、リストが期待どおりになるまでルールと条件を変更します。
+   一覧が表示されない場合は、目的に合った番組が表示さ **[!UICONTROL Back]** れるまで、ルールや条件をクリックして変更します。
 
-![ルールのプレビューの一覧表示](assets/amazon-listing-rule-preview.png)
+![リストルールプレビュー](assets/amazon-listing-rule-preview.png)
 
-### プレビューレコードのリスト
+### プレビューレコードの一覧表示
 
-| フィールド | 説明 |
+| 名 | つい |
 |--- |--- |
-| [!UICONTROL Product ID] | [!DNL Commerce]カタログ製品を追加したときに割り当てられる一意の順次番号。 |
-| [!UICONTROL Thumbnail] | メイン製品画像のサムネールを表示します。 |
-| [!UICONTROL Name] | [!DNL Commerce] [productsグリッド](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;}で管理される製品の名前。 |
-| [!UICONTROL Type] | [!DNL Commerce]製品グリッドで管理される製品のタイプ。 |
-| [!UICONTROL Attribute Set] | 製品のテンプレートとして使用される属性セットの名前。[!DNL Commerce]製品グリッドで管理されます。 |
-| [!UICONTROL SKU] | 製品に割り当てられる一意の在庫管理単位。[!DNL Commerce]製品グリッドで管理されます。 |
-| [!UICONTROL Visibility] | 製品が表示され、[!DNL Commerce]製品グリッドで管理される場所を示します。 オプション：<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
-| ステータス | [!DNL Commerce]製品グリッドで管理される製品のステータスを示します。 オプション：`Enabled` / `Disabled` |
+| [!UICONTROL Product ID] | カタログ製品が追加されたときに割り当てられる一意の連番 [!DNL Commerce] 。 |
+| [!UICONTROL Thumbnail] | メインの製品イメージのサムネールが表示されます。 |
+| [!UICONTROL Name] | 「製品グリッド」で管理されている製品の名前 [!DNL Commerce] [ ](https://docs.magento.com/user-guide/catalog/products.html) {target = &quot;_blank&quot;}。 |
+| [!UICONTROL Type] | 製品グリッドで管理されている製品のタイプ [!DNL Commerce] 。 |
+| [!UICONTROL Attribute Set] | 製品グリッドで管理されている、製品のテンプレートとして使用される属性セットの名前 [!DNL Commerce] 。 |
+| [!UICONTROL SKU] | 製品グリッドで管理される、製品に割り当てられている固有の在庫保管単位 [!DNL Commerce] です。 |
+| [!UICONTROL Visibility] | Products グリッドで管理されている製品が表示される場所を示し [!DNL Commerce] ます。 オプション：<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
+| 現状 | 製品グリッドで管理されている製品の状態を示し [!DNL Commerce] ます。 オプション: `Enabled` / `Disabled` |
 
-![リストプレビューワークフロー](assets/listing-preview-flowchart.png)
+![リストプレビューのワークフロー](assets/listing-preview-flowchart.png)

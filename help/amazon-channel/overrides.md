@@ -1,6 +1,6 @@
 ---
-title: 上書き
-description: AmazonSales Channelには、Amazonリストで上書きを適用する方法を特定し、管理するのに役立つ「上書き」タブが用意されています。
+title: 価格
+description: Amazon 販売チャンネルの「オーバーライド」タブでは、Amazon リストに上書きを適用する方法を確認および管理することができます。
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,46 +9,46 @@ ht-degree: 0%
 
 ---
 
-# 上書き
+# 価格
 
-_[!UICONTROL Overrides]_タブには、上書きを適用したAmazonのリストが表示されます。 上書きとは、リスト固有の設定で、定義済みの値をリストに設定するのに使用できます。 リストに適用される上書きは、その他の定義済みのリスト設定や、リストに適用されるルールに関係なく、リストの設定を定義します。 リストに上書きを適用すると、リストが「_[!UICONTROL Overrides]_」タブに表示されます。 上書きで定義された値が、リストの適切な列に表示されます。 次の4種類のオーバーライドを適用できます。価格、取り扱い時間、条件、販売者向けメモ。
+このタブには、上書きを適用した _[!UICONTROL Overrides]_Amazon リストが表示されます。 オーバーライドは、定義済みの値をリストに設定できるようにするために、リスティングに使用される設定項目です。 リストに適用された上書きは、その他の定義済みリスティング設定またはリストが対象となっているルールに関係なく、リストの設定を定義します。 リストに上書きが適用されている場合は、そのリストがタブに表示され_[!UICONTROL Overrides]_ ます。 上書きによって定義された値がリストの適切な列に表示されます。 適用できる上書きには、価格、処理時間、条件、および販売者の4つのタイプがあります。
 
-## 上書きのタイプ
+## 上書きの種類
 
-| タイプ | 説明 |
+| 入力 | つい |
 |---|---|
-| 価格 | リストの価格を設定する上書き。リストの他のすべての価格設定は無視します。 <br><br>**例**:カタログの特定のカテゴリのすべての製品に適用される20%割引価格ルールを定義しました。市場に出回りやすく需要が高い商品があるので、商品がそのカテゴリにあっても、その商品に対して割引価格を適用したくない。 リストを選択し、[価格の上書き](./creating-editing-overrides.md#edit-override-single-listing)を作成して、価格の上書きで価格を定義できます。 |
-| 処理時間 | リストの処理時間を設定するオーバーライドで、リスト設定で設定されたデフォルトの処理時間は無視します。<br><br>**例**:リストの既定の処理時間は2日に設定されています。あなたは壊れやすい製品を持っていて、特別な荷物を出荷するために余分な日を必要とします。 リストを表示し、[処理時間の上書き](./creating-editing-overrides.md#edit-override-single-listing)を作成して、3日で処理時間を定義できます。<br><br>**注意：** は、に設定された製品では使用できま `Fulfilled by Amazon`せん。 |
-| 条件 | リストに割り当てられた条件属性に関係なく、リストの条件値を設定する上書き。<br><br>**例**:カタログ内の製品のほとんどはNew Conditionですが、Refurshed Conditionの製品があります。リストを表示し、[条件の上書き](./creating-editing-overrides.md#edit-override-single-listing)を作成して、リストの更新済み条件を定義できます。<br><br>**注意：** は、に設定された製品では使用できま `Fulfilled by Amazon`せん。 |
-| 販売者向けメモ | リストの&#x200B;_販売者のメモ_&#x200B;セクションを定義するオーバーライド。 このフィールドは、製品に関する追加情報を追加したり、適用された上書きを追加したりする場合に使用できます。通常は、「新規」でない製品の条件を示すために使用されます。 このフィールドのテキストが表示され、買い物客のリストが表示されます。 条件値が`New`のリストに売り手のメモを追加することはできません。 <br><br>**例**:あなたは条件の製品を持って `Refurbished` いる。通常、この条件の製品にはマニュアルや文書は含まれませんが、マニュアルを含むこの製品の別のサプライヤが存在します。 リストを表示し、[販売者向けメモのオーバーライド](./creating-editing-overrides.md#edit-override-single-listing)を作成し、マニュアルに関するこのリストに固有のテキストメモを追加して、買い物客がそのメモが含まれていることを把握できるようにします。<br><br>**注意**:製品にという条件が定義されている場合は、販売者ノートの上書きを入力できま `New`すが、Amazonではその製品の販売者ノートは表示され `New` ません。 |
+| 定価 | 一覧の他のすべての価格設定を無視して、リストの価格を設定する上書き。 <br><br>**次の例では、** カタログの特定のカテゴリに属するすべての製品に適用される20% の割引価格ルールを定義しています。 新機能が市販されていて、需要が高い製品を使用している場合は、そのカテゴリーに製品が含まれていても、リストに適用された割引価格が表示されないようにする必要があります。 このリストを選択して [ 価格上書きを作成 ](./creating-editing-overrides.md#edit-override-single-listing) し、価格変更でリスト価格を定義することができます。 |
+| 処理時間 | リスティング設定に設定されているデフォルトの処理時間を無視して、リスティングに処理時間を設定する上書き。<br><br>**例** : リストの処理時間の初期設定は、2日に設定されています。 製品には脆弱な点があります。また、別途出荷用にパッケージ化する必要があります。 一覧を表示し、 [ 取扱時間の上書きを作成 ](./creating-editing-overrides.md#edit-override-single-listing) し、処理時間を3日で定義することができます。<br><br>**注意:** 製品がに設定されている場合は使用できません `Fulfilled by Amazon` 。 |
+| 条件 | リストに割り当てられている条件属性に関係なく、リストの条件値を設定するオーバーライド。<br><br>**例** : カタログ内のほとんどの製品が新機能ですが、製品が最新の状態であることを示しています。 一覧を表示し、 [ 条件の上書きを作成 ](./creating-editing-overrides.md#edit-override-single-listing) して、リストの変更条件を定義することができます。<br><br>**注意:** 製品がに設定されている場合は使用できません `Fulfilled by Amazon` 。 |
+| 販売業者の注意事項 | _リストの「販売者の注意」セクションを定義する上書き_ 。このフィールドは、製品または上書きに関連する情報を追加するために使用されます。通常、「新規」以外の製品の状態を表すために使用されます。 このフィールドのテキストは、買物客の一覧と共に表示されます。 販売担当者のメモは、条件値がで表示されるリストに追加することはできません `New` 。 <br><br>**例** : 条件にある製品を使用してい `Refurbished` ます。 通常、この条件に含まれる製品にはマニュアルやドキュメントは収録されていませんが、この製品についてはマニュアルが含まれています。 リストを表示して、 [ 販売店のメモオーバーライドを作成し、マニュアルに関する情報が記載されていることを ](./creating-editing-overrides.md#edit-override-single-listing) ユーザーに知らせます。<br><br>**注意** : 製品に条件が定義されている場合は `New` 、販売店の上書きを入力することはできますが、Amazon は製品の販売者のコメントには表示されません `New` 。 |
 
-[単一のリスト](./creating-editing-overrides.md#edit-override-single-listing)に対する上書きを作成、編集、または削除できます。 「_[!UICONTROL Inactive]_」、「_[!UICONTROL Active]_」、「_[!UICONTROL Ineligible]_」の各タブで、「_[!UICONTROL Action]_」列の「**[!UICONTROL Select]**」をクリックし、「**[!UICONTROL Create Override]**」を選択します。 _[!UICONTROL Edit Overrides]_アクションは、リストに上書きが適用され、「_[!UICONTROL Overrides]_」タブに表示される場合にのみ使用できます。
+1つのリストに対して、上書きを作成、編集、または削除することができ [ ](./creating-editing-overrides.md#edit-override-single-listing) ます。 、、 _[!UICONTROL Inactive]__[!UICONTROL Active]_ 、およびタブでは、列内をクリックして、を _[!UICONTROL Ineligible]_**[!UICONTROL Select]**選択でき_[!UICONTROL Action]_ **[!UICONTROL Create Override]** ます。 この _[!UICONTROL Edit Overrides]_アクションは、リストに上書きが適用されており、タブに表示されている場合にのみ使用でき_[!UICONTROL Overrides]_ ます。
 
-[複数のリスト](./creating-editing-overrides.md#edit-override-multiple-listings)に対する上書きの作成、編集、削除もできます。 「_[!UICONTROL Inactive]_」、「_[!UICONTROL Active]_」、「_[!UICONTROL Ineligible]_」の各タブで、「_[!UICONTROL Action]_」列の「**[!UICONTROL Select]**」をクリックし、「**[!UICONTROL Edit Listing Overrides]**」を選択します。
+また、複数のリストに対して上書きを作成、編集、または削除することもでき [ ](./creating-editing-overrides.md#edit-override-multiple-listings) ます。 、、 _[!UICONTROL Inactive]__[!UICONTROL Active]_ 、およびタブでは、列内をクリックして、を _[!UICONTROL Ineligible]_**[!UICONTROL Select]**選択でき_[!UICONTROL Action]_ **[!UICONTROL Edit Listing Overrides]** ます。
 
-上書きを削除すると、リストの設定とルールで定義された値を使用するようにリストに指示します。
+上書きを削除すると、リストの設定とルールによって定義された値を使用してリスティングに通知されます。
 
-オーバーライドを定義する際に、1つのタイプのオーバーライドを入力するか、任意のタイプの組み合わせを入力するかを選択することもできます。
+オーバーライドを定義するときに、1つのオーバーライドタイプまたはその他の任意の組み合わせを入力することもできます。
 
-[上書きの作成と編集](./creating-editing-overrides.md)を参照してください。
+[オーバーライドの作成と編集を参照してください ](./creating-editing-overrides.md) 。
 
 >[!NOTE]
 >
->リストが処理中の場合は、タブの上にあるメッセージにリスト数が表示されます。
+>リストが作成されている場合は、タブの上のメッセージに一覧の数が表示されます。
 
-![「上書き」タブ](assets/amazon-overrides.png)
+![「オーバーライド」タブ](assets/amazon-overrides.png)
 
-Amazonの販売チャネルのホームページは、表示されるデータをカスタマイズできる、一般的な[workspaceコントロール](./workspace-controls.md)を共有します。
+Amazon セールスチャンネルのホームページ [ ](./workspace-controls.md) は、表示されるデータをカスタマイズするための一般的なワークスペースコントロールの一部を共有しています。
 
 ## デフォルトの列
 
-| 列 | 説明 |
+| 段 | つい |
 |---|---|
-| [!UICONTROL Amazon Seller SKU] | Amazonが製品に割り当てたSKU(Stock Keeping Unit)。製品、オプション、価格および製造元を識別します。 |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロック。<br><br>ASINは、Amazon Standard Identification Numberの略です。ASINは、項目を識別する10文字または数字の一意のブロックです。 本の場合、ASINはISBN番号と同じですが、他のすべての製品の場合は、品目がカタログにアップロードされると新しいASINが作成されます。 ASINは、Amazonの製品の詳細ページで、品目に関する詳細と共に検索できます。 |
-| [!UICONTROL Condition Override] | 上書きで定義された新しい条件。 リストに適用された上書きが条件の上書きでない場合は、この列に`Not Selected`が表示されます。 |
-| [!UICONTROL Product Listing Name] | 製品の名前。 |
-| [!UICONTROL Seller Notes Override] | 上書きで定義された新しい販売者のメモ。 リストに適用された上書きがこのタイプの上書きでない場合、この列は空白になります。 |
-| [!UICONTROL Handling Override] | 上書きで定義された新しい処理時間（日数）。 リストに適用された上書きが処理時間の上書きでない場合、この列は空白になります。 |
-| [!UICONTROL List Price Override] | 上書きで定義された新しい上場価格。 リストに適用された上書きが価格の上書きでない場合は、この列に`N/A`が表示されます。 |
-| [!UICONTROL Action] | 特定のリストに適用できるアクションのリスト。 アクションを適用するには、「_[!UICONTROL Action]_」列で「**[!UICONTROL Select]**」をクリックし、次のいずれかのオプションを選択します。<ul><li>[[!UICONTROL Edit Overrides]](./creating-editing-overrides.md#edit-override-single-listing)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
+| [!UICONTROL Amazon Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
+| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>アークは、Amazon 標準の Id 番号を表します。 アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
+| [!UICONTROL Condition Override] | 上書きによって定義された新しい条件。 このリストに適用された上書きが条件上書きではない場合は、 `Not Selected` この列に表示されます。 |
+| [!UICONTROL Product Listing Name] | 製品の名前を指定します。 |
+| [!UICONTROL Seller Notes Override] | 上書きによって定義された新しい販売者のノート。 リストに適用された上書きがこのタイプの上書きではない場合、この列は空白になります。 |
+| [!UICONTROL Handling Override] | 上書きによって定義された新しい処理時間 (日数)。 リストに適用された上書きが取扱時間をオーバーライドしていない場合、この列は空白になります。 |
+| [!UICONTROL List Price Override] | 上書きによって定義された新しいリスト価格。 リストに適用された上書きが価格上書きではない場合は、 `N/A` この列に表示されます。 |
+| [!UICONTROL Action] | 特定のリストに適用可能なアクションのリストです。 アクションを適用するには、 _[!UICONTROL Action]_列でをクリック&#x200B;**[!UICONTROL Select]**して、次のいずれかのオプションを選択します。<ul><li>[[!UICONTROL Edit Overrides]](./creating-editing-overrides.md#edit-override-single-listing)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |

@@ -1,6 +1,6 @@
 ---
-title: Amazon注文の詳細
-description: Amazon Marketplaceの注文の詳細をAdobeコマースまたはMagento Open Source管理で表示します。
+title: Amazon Order Details
+description: Adobe Commerce または Magento Open Source Admins には、Amazon Marketplace の注文に関する詳細情報が表示されます。
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,21 +9,21 @@ ht-degree: 0%
 
 ---
 
-# Amazonの注文の詳細
+# Amazon order details
 
-![Amazonの注文の詳細](assets/amazon-order-details-header.png)
+![Amazon order details](assets/amazon-order-details-header.png)
 
-## Amazon注文の詳細の表示
+## Amazon order details の表示
 
-1. ストアカードの&#x200B;**[!UICONTROL View Store]**&#x200B;をクリックします。
+1. **[!UICONTROL View Store]** Store カードをクリックします。
 
-1. _[!UICONTROL Recent Orders]_セクションで、注文番号をクリックします。
+1. セクションで _[!UICONTROL Recent Orders]_、注文番号をクリックします。
 
    _[!UICONTROL Amazon Order Details]_ページが開きます。
 
 >[!NOTE]
 >
->[注文の設定](./order-settings.md)で注文のインポートが有効になっていて、注文がAmazon(FBA)](./fulfilled-by.md)で処理されている場合、注文の詳細に一部のフィールドのダミーデータが表示されることがあります。 [Amazonは、FBA注文に対して次のデータを送信しません。
+>注文の設定で注文が有効になって [ ](./order-settings.md) おり、 [ Amazon (FBA) によって注文が満たされている場合は ](./fulfilled-by.md) 、注文明細の一部のフィールドにダミーデータが表示されることがあります。 Amazon は、FBA オーダーで次のデータを送信することはできません。
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -37,13 +37,13 @@ ht-degree: 0%
 > - `GiftMessageText`
 
 
-### 「受注および出荷詳細」タブ
+### 「注文と出荷」タブ
 
-「_[!UICONTROL Order and Shipping Details]_」タブには、Amazonから受け取った詳細な注文情報が表示されます。
+この _[!UICONTROL Order and Shipping Details]_タブには、Amazon から受信した詳細なオーダー情報が表示されます。
 
 >[!IMPORTANT]
 >
->Amazonは、Amazonの販売チャネルにインポートできない非標準の住所情報を受け入れるので、一部の注文に対して州/国コードが正しく更新されません。 アドレスエラーを修正するには、次のフィールドを注文の詳細で編集できます。
+>Amazon は、Amazon sales channel に取り込むことができない標準的でない住所情報を受け付けます。これによって、州/国コードが特定の注文について正しく更新されないようにすることができます。 アドレスエラーを修正するには、次のフィールドを注文詳細で編集可能にします。
 >
 >- `Shipping address 1`
 >- `Shipping address 2`
@@ -54,18 +54,18 @@ ht-degree: 0%
 >- `Shipping country`
 
 >
->編集後、「**並べ替えを保存**」をクリックすることを忘れないでください。
+>「編集後に注文を保存」をクリックしても構いません **** 。
 
-![注文と発送の詳細](assets/amazon-order-details.png)
+![注文と出荷に関する詳細情報](assets/amazon-order-details.png)
 
-### 「項目を並べ替え」タブ
+### 「注文項目」タブ
 
-「 _[!UICONTROL Order Items]_」タブには、Amazonから受信した、Amazonの注文に関連するすべての項目が表示されます。
+このタブには、 _[!UICONTROL Order Items]_amazon から受信した amazon の注文に関連付けられたすべてのアイテムが表示されます。
 
-![注文品目の詳細](assets/amazon-order-item-details.png)
+![受注品目の詳細](assets/amazon-order-item-details.png)
 
 ### 「トラッキング」タブ
 
-「_[!UICONTROL Tracking]_」タブには、Amazonの注文に関連付けられた追跡情報が表示されます。
+タブには、 _[!UICONTROL Tracking]_Amazon の順序に関連付けられた追跡情報が表示されます。
 
-![トラッキングの詳細](assets/amazon-order-tracking-details.png)
+![詳細の追跡](assets/amazon-order-tracking-details.png)

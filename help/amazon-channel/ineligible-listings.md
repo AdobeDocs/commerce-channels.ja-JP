@@ -1,6 +1,6 @@
 ---
-title: 不適格なリスト
-description: Amazonのセールスチャネルには、現在のリストルールに基づくリストとして項目を管理するのに役立つ「[!UICONTROL Ineligible]」タブが用意されています。
+title: 不適合リスト
+description: Amazon 販売チャンネルのタブには、アイテムを管理するための [!UICONTROL Ineligible] タブが表示されます。これは、現在のリストルールに基づいたリストの対象にはなりません。
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,49 +9,49 @@ ht-degree: 0%
 
 ---
 
-# 不適格なリスト
+# 不適合リスト
 
-「 _[!UICONTROL Ineligible]_」タブには、現在Amazonで公開されているが、現在のリストルールに基づくリストとして使用できないすべての製品のリストが表示されます。 以前の製品が適格で、リストルールが変更されて不適格となった場合、製品に関連付けられた数量は0になり、製品は_ ineligible _とマークされます。 ただし、[!DNL Amazon Seller Account]にはまだ存在します。
+このタブには、 _[!UICONTROL Ineligible]_Amazon に現在パブリッシュされているすべての製品の一覧が表示されますが、現在のリスティングルールに基づくリストとしては使用できません。 前の製品が条件に適合し、リストルールが適用されていない場合は、その製品に関連付けられた量が0になり、製品が対象外とマークされ_ _ます。 ただし、はに表示され [!DNL Amazon Seller Account] ます。
 
-_[!UICONTROL Ineligible]_タブから製品を移動するには、[リストルール](./listing-rules.md)を変更して、製品の実施要件を満たすようにします。
+タブの外に製品を移動するには _[!UICONTROL Ineligible]_、 [ ](./listing-rules.md) 対象となる製品が表示されるようにリストルールを変更することができます。
 
-「_[!UICONTROL Ineligible]_」タブで使用できるアクションは次のとおりです。
+タブに表示されるアクションは以下のとおり _[!UICONTROL Ineligible]_です。
 
-_[!UICONTROL Actions]_の下：
+_[!UICONTROL Actions]_以下に示します。
 
-- **[!UICONTROL End Listing(s) on Amazon]**:選択したリストをからすべて削除しま [!DNL Amazon Marketplace]す。[Amazonリストの終了](./end-listings-manually.md)を参照してください。
+- **[!UICONTROL End Listing(s) on Amazon]**: 選択したすべてのリストをから削除することを選択し [!DNL Amazon Marketplace] ます。 「 [ Amazon リスティングの終了」を参照してください ](./end-listings-manually.md) 。
 
-- **[!UICONTROL Edit Listing Overrides]**:を選択して、リストの上書き設定を変更します。[上書き](./overrides.md)または[上書き](./creating-editing-overrides.md#edit-override-single-listing)の編集または削除を参照してください。
+- **[!UICONTROL Edit Listing Overrides]**: リストの上書き設定を変更するかどうかを選択します。 [ ](./overrides.md) [ 上書き、編集、または削除を参照してください ](./creating-editing-overrides.md#edit-override-single-listing) 。
 
-_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Select]**の下：
+**[!UICONTROL Select]**&#x200B;列で、 _[!UICONTROL Action]_次のようになります。
 
-- **[!UICONTROL View Details]**:「リスト・アクティビティ・ログ」、「 [Buy Box競合相手の価格設定](./product-listing-details.md#listing-activity-log)」、「最低競合相手の価格設定 [」など、リストの詳細を表示する](./product-listing-details.md#buy-box-competitor-pricing) [](./product-listing-details.md#lowest-competitor-pricing)ように選択します。このアクションは表示専用です。 リスト内の詳細は変更できません。 [詳細を表示](./product-listing-details.md)を参照してください。
+- **[!UICONTROL View Details]**: 一覧表示された [ 利用状況ログ、購入ボックスの価格、競合企業の価格が表示さ ](./product-listing-details.md#listing-activity-log) [ ](./product-listing-details.md#buy-box-competitor-pricing) [ ](./product-listing-details.md#lowest-competitor-pricing) れます。 このアクションは、表示専用です。 一覧の詳細に変更を加えることはできません。 [詳しくは、詳細の表示を参照してください ](./product-listing-details.md) 。
 
-- **[!UICONTROL Create Override]**：上書きを作成してこのリストに適用する場合に選択します。[上書きの作成](./creating-editing-overrides.md)を参照してください。
+- **[!UICONTROL Create Override]**: 上書きを作成して、このリストに適用することを選択します。 上書きの作成を参照してください [ ](./creating-editing-overrides.md) 。
 
-- **[!UICONTROL Edit Assigned ASIN]**：カタログ製品に割り当てられたASINを変更する場合に選択します。このアクションは、カタログ内の製品が誤ったASINと一致した場合に使用されます。 [割り当てられたASINの編集](./edit-assigned-asin.md)を参照してください。
+- **[!UICONTROL Edit Assigned ASIN]**△: カタログ製品に割り当てられたアークサインを変更する場合に選択します。 このアクションは、カタログ内の製品が間違ったアークサインに一致した場合に使用されます。 [割り当てられたサインの編集を参照してください ](./edit-assigned-asin.md) 。
 
-- **[!UICONTROL Create Alias Seller SKU]**：同じカタログ製品からAmazonリストを作成するために使用できるAlias SKUを作成する場合に選択します。[AliasセラーのSKU](./create-alias-seller-sku.md)の作成を参照してください。
+- **[!UICONTROL Create Alias Seller SKU]**: 同じカタログ製品から Amazon リストを作成するために使用できるエイリアス SKU を作成することを選択します。 販売担当者 [ SKU の作成を参照してください ](./create-alias-seller-sku.md) 。
 
-- **[!UICONTROL Switch to Fulfilled by Amazon/Merchant]**：受注に関連付けられた履行方法を変更する場合に選択します。[「満たされたユーザーの設定](./fulfilled-by.md#configure-fulfilled-by-settings)」を参照してください。
+- **[!UICONTROL Switch to Fulfilled by Amazon/Merchant]**: 注文に関連付けられたフルフィルメント方法を変更する場合に選択します。 「 [ 設定によるフルフィルメントの設定」を参照してください ](./fulfilled-by.md#configure-fulfilled-by-settings) 。
 
-- **[!UICONTROL End Listing]**:「 」を選択して、からリストを削除しま [!DNL Amazon Marketplace]す。[Amazonリストの終了](./end-listings-manually.md)を参照してください。
+- **[!UICONTROL End Listing]**: リストをから削除するように選択し [!DNL Amazon Marketplace] ます。 「 [ Amazon リスティングの終了」を参照してください ](./end-listings-manually.md) 。
 
 >[!NOTE]
->リストが処理中の場合は、タブの上にあるメッセージにリスト数が表示されます。
+>リストが作成されている場合は、タブの上のメッセージに一覧の数が表示されます。
 
-![不適格なAmazon一覧](assets/amazon-ineligible-listings.png)
+![不適格となる Amazon リスト](assets/amazon-ineligible-listings.png)
 
-Amazonの販売チャネルのホームページは、表示されるデータをカスタマイズできる、一般的な[workspaceコントロール](./workspace-controls.md)を共有します。
+Amazon セールスチャンネルのホームページ [ ](./workspace-controls.md) は、表示されるデータをカスタマイズするための一般的なワークスペースコントロールの一部を共有しています。
 
 ## デフォルトの列
 
-| 列 | 説明 |
+| 段 | つい |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | Amazonが製品に割り当てたSKU(Stock Keeping Unit)。製品、オプション、価格および製造元を識別します。 |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロック。<br><br>ASINは、を表しま [!DNL Amazon Standard Identification Number]す。ASINは、項目を識別する10文字または数字の一意のブロックです。 本の場合、ASINはISBN番号と同じですが、他のすべての製品の場合は、品目がカタログにアップロードされると新しいASINが作成されます。 ASINは、Amazonの製品の詳細ページで、品目に関する詳細と共に検索できます。 |
-| [!UICONTROL Product Listing Name] | 製品の名前。 |
-| [!UICONTROL Condition] | 製品の[条件](./product-listing-condition.md)。 |
-| [!UICONTROL Landed Price] | 商品の上場価格と送料。 |
-| [!UICONTROL Amazon Quantity] | 製品がAmazonに積極的にリストされた場合に使用可能な数量。 |
-| [!UICONTROL Action] | 特定のリストに適用できるアクションのリスト。 アクションを適用するには、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Select]**をクリックし、次のいずれかのオプションを選択します。<ul><li>[[!UICONTROL View Details]](./product-listing-details.md)</li><li>[上書きを作成](./creating-editing-overrides.md)</li><li>[[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md)</li><li>[[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md#region-specific)</li><li>[[!UICONTROL Switch to Fulfilled By Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings)</li><li>[[!UICONTROL End Listing]](./end-listings-manually.md)</li></ul> |
+| [!UICONTROL Amazon Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
+| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>「アーク」は、 [!DNL Amazon Standard Identification Number] . アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
+| [!UICONTROL Product Listing Name] | 製品の名前を指定します。 |
+| [!UICONTROL Condition] | [ ](./product-listing-condition.md) 製品の状態。 |
+| [!UICONTROL Landed Price] | 製品のリスト価格とその配送価格を示します。 |
+| [!UICONTROL Amazon Quantity] | この製品が Amazon に積極的に一覧表示されるときに使用可能な数量です。 |
+| [!UICONTROL Action] | 特定のリストに適用可能なアクションのリストです。 アクションを適用するには、列内をクリックし、 **[!UICONTROL Select]** _[!UICONTROL Action]_オプションを選択します。<ul><li>[[!UICONTROL View Details]](./product-listing-details.md)</li><li>[上書きの作成](./creating-editing-overrides.md)</li><li>[[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md)</li><li>[[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md#region-specific)</li><li>[[!UICONTROL Switch to Fulfilled By Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings)</li><li>[[!UICONTROL End Listing]](./end-listings-manually.md)</li></ul> |

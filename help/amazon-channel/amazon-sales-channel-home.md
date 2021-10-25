@@ -1,6 +1,6 @@
 ---
 title: ホームページ
-description: ' [!DNL Commerce] Admin to access your [!DNL Amazon Marketplace] リストとアクティビティのAmazon販売チャネルホームページを使用します。'
+description: リストと利用状況に Amazon 販売チャンネルのホームページを使用  [!DNL Commerce] Admin to access your [!DNL Amazon Marketplace]  してください。
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 # ホームページ
 
-Amazonの販売チャネルのホームページは、Amazonの販売チャネルにアクセスする際のランディングページです。
+Amazon 販売チャンネルのホームページは、Amazon sales チャネルにアクセスするときのランディングページになります。
 
-![Amazon sales channelホームページ](assets/amazon-sales-channel-home-tabs.png)
+![Amazon sales channel ホームページ](assets/amazon-sales-channel-home-tabs.png)
 
-左側のメニューには、次のような表示が表示されます。
+左側のメニューに表示されるビューは以下のとおりです。
 
-- [[!UICONTROL Amazon Stores]](./managing-stores.md) - （デフォルト表示）Amazonの各販売チャネルストアの概要情報を表示します。ストア[ダッシュボード](./amazon-store-dashboard.md)を表示するには、**[!UICONTROL View Store]**&#x200B;をクリックします。
-- [[!UICONTROL Learning and Preparation]](./learning-preparation.md) - Amazonと推奨されるセッ [!DNL Commerce] トアップタスクと利用可能な学習教材を表示します。
-- [[!UICONTROL Attributes]](./managing-attributes.md)  — 商品カタログのリンクされた属 [!DNL Commerce] 性とAmazon属性を表示、管理します。Amazonと自動的に同期するには、[!DNL Commerce]を使用して属性を編集または作成し、直接リンクします。
+- [[!UICONTROL Amazon Stores]](./managing-stores.md) -(デフォルトビュー) Amazon 販売チャンネルストアの概要情報を表示します。 ストアのダッシュボードを表示するには [ ](./amazon-store-dashboard.md) 、をクリックし **[!UICONTROL View Store]** ます。
+- [[!UICONTROL Learning and Preparation]](./learning-preparation.md) -Amazon および推奨さ [!DNL Commerce] れる設定タスクと利用可能な学習素材を表示します。
+- [[!UICONTROL Attributes]](./managing-attributes.md) - [!DNL Commerce] 製品カタログのリンクされた属性と Amazon 属性を表示および管理します。 Amazon を使用して自動的に同期するには、属性を編集するか、または直接リンクし [!DNL Commerce] ます。
 
-## アクセスAmazonSales Channel
+## Amazon Sales チャンネルへのアクセス
 
-_[!UICONTROL Admin]_サイドバーで、**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**&#x200B;に移動します。
+傍注については _[!UICONTROL Admin]_、**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > を参照して **[!UICONTROL Amazon Sales Channel]** ください。
 
-Amazon販売チャネルのホームページが開き、デフォルトで&#x200B;[_Amazonストア_](./managing-stores.md)&#x200B;ビューが表示されます。
+Amazon sales channel のホームページが開きます。これは、amazon Stores ビューにデフォルトで表示され [__](./managing-stores.md) ます。

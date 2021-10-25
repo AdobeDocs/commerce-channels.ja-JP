@@ -1,6 +1,6 @@
 ---
-title: 上場価格
-description: Listing Price設定を使用して、価格のソースとAmazon Listingsの基準（デフォルト）価格を決定します。
+title: リスト価格
+description: リスト価格の設定を使用して、Amazon リストの価格設定と基本 (デフォルト) 価格値を指定します。
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -10,86 +10,86 @@ ht-degree: 0%
 
 ---
 
-# 上場価格
+# リスト価格
 
-[!UICONTROL Listing Price] 設定は、ストアリスト設定の一部です。リスト設定は、[ストアダッシュボード](./amazon-store-dashboard.md)からアクセスします。
+[!UICONTROL Listing Price] 設定は、ストア一覧の設定に含まれています。 一覧の設定は、ストアのダッシュボードからアクセスされ [ ](./amazon-store-dashboard.md) ます。
 
-これらの設定は、価格ソースとして使用する[!DNL Commerce]価格属性を定義します。これは、Amazonリストの基準（デフォルト）価格値です。 これらの設定は、[の価格ルール](./pricing-rule-general-settings.md)で使用され、_[!UICONTROL Magento Price Source]_に設定された値に対してAmazonの上場価格を自動的に調整します。
+これらの設定で [!DNL Commerce] は、Amazon リストの基礎 (デフォルト) 価格値である価格のソースとして使用する価格設定の属性を定義します。 これらの設定は、の価格設定によって、 [ ](./pricing-rule-general-settings.md) の設定値を基準とした Amazon リスト価格が自動的に調整され _[!UICONTROL Magento Price Source]_ます。
 
-[価格範囲](./price-scope.md)は、グローバルまたはWebサイトとして設定できます。 価格の範囲が`Global`に設定されている場合、すべての店舗/Webサイトに対して1つの価格のソースが存在します。 価格範囲が`Website`に設定されている場合、価格ソースは、Webサイト価格（利用可能な場合）のフォールバックロジックに続いて、デフォルト（グローバル）価格を使用します。
+価格設定は、 [ ](./price-scope.md) グローバルまたは web サイトに設定することができます。 価格設定がに設定されている場合は `Global` 、すべての店舗または web サイトに対して価格ソースが1つあります。 価格設定がに設定されている場合 `Website` 、価格ソースは、web サイト価格のフォールバックロジック (利用可能な場合) を使用し、その後にデフォルトの (グローバル) 価格が使用されます。
 
-複数のWebサイトに対してリストルールを適用するように設定した場合、Webサイト価格が使用される順序は、[リストルール](./listing-rules.md)で定義されたWebサイトの優先度設定によって決まります。 これらのルールを使用すると、カタログ全体で製品の価格を定義できます。 Webサイトの価格範囲を使用しているかどうかを確認するには、[カタログ価格範囲](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html){target=&quot;_blank&quot;}を参照してください。
+リストルールが複数の web サイトに適用されるように設定されている場合、web サイト価格が使用される順序は、リスティングルールで定義されている web サイトの優先順位設定によって決まり [ ](./listing-rules.md) ます。 これらのルールを使用して、カタログ全体の製品価格を定義することができます。 Web サイトの価格スコープを使用しているかどうかを確認するには、「カタログ価格のスコープ」を参照してください ( [ ](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html) {target = &quot;_blank&quot;})。
 
-_[!UICONTROL Magento Price Source]_、_[!UICONTROL Minimum Advertised Price (Map)]_&#x200B;および&#x200B;_[!UICONTROL Strike Through Price (MSRP)]_に示すオプションには、設定済みの価格属性が含まれます。 価格属性は[!DNL Commerce]製品属性で、「店舗所有者」の「カタログ入力タイプ」が`Price`に設定されています。 [属性入力タイプ](https://docs.magento.com/user-guide/stores/attributes-input-types.html){target=&quot;_blank&quot;}を参照してください。
+に一覧表示されているオプションは、に設定されている _[!UICONTROL Magento Price Source]__[!UICONTROL Minimum Advertised Price (Map)]_ _[!UICONTROL Strike Through Price (MSRP)]_価格属性を含みます。 価格属性は [!DNL Commerce] 、「Store Owner」の値が「」に設定されたカタログ入力タイプの製品属性です `Price` 。 「属性入力の種類」を参照してください [ ](https://docs.magento.com/user-guide/stores/attributes-input-types.html) 。 {target = &quot;_blank&quot;} のようになります。
 
-## 定価の設定 {#configure-listing-price-settings}
+## リスト価格設定の設定 {#configure-listing-price-settings}
 
-1. ストアダッシュボードの「**[!UICONTROL Listing Settings]**」をクリックします。
+1. **[!UICONTROL Listing Settings]** Store のダッシュボードのをクリックします。
 
-1. _[!UICONTROL Listing Price]_セクションを展開します。
+1. セクションを展開し _[!UICONTROL Listing Price]_ます。
 
-1. **[!UICONTROL Magento Price Source]**（必須）には、オプションを選択します。
+1. **[!UICONTROL Magento Price Source]**(必須) には、いずれかのオプションを選択します。
 
-   デフォルトは`Price`です。 この設定は、Amazonリストに使用する価格のソースを決定します。 [価格ルール](./pricing-products.md)を作成した場合、ここで選択した属性に定義された値にルールが適用されます。 任意の設定済み価格属性を選択できます。 ただし、選択した属性が製品に対して入力されていない場合は、公開されているAmazonの価格を決定するために価格ルールが適用されると、製品の価格ソースがデフォルトで`Price`に戻ります。
+   初期設定では、と `Price` なります。 この設定によって、Amazon リストに使用される価格ソースが決まります。 [価格設定ルールを作成すると、 ](./pricing-products.md) ここで選択した属性に定義されている値にルールが適用されます。設定可能な価格属性を選択できます。 ただし、選択された属性が製品に入力されていない場合は、表示される `Price` Amazon のリスト価格を決定するために価格ルールが適用されたときに、製品の価格ソースが初期設定に戻ります。
 
-1. **[!UICONTROL Minimum Advertised Price (MAP)**]の場合は、オプションを選択します。
+1. * * の場合は [!UICONTROL Minimum Advertised Price (MAP)**] 、オプションを選択します。
 
-   デフォルトは選択なしです。 この設定は、製品に対して最小アドバタイズ価格(MAP)を有効にします。 価格属性を定義し、製品の上場価格が（価格設定のソースとルールに基づいて）決定された最小価格を下回る場合、この値がリストのMAPになります。 この設定を使用すると、[価格ルール](./pricing-products.md)を実装しながら、製品の最小価格を引き続き制御できます。 上場価格が低くなりすぎないようにするには、MAPとして使用する価格属性を選択します。 ただし、選択した価格フィールドが製品に対して定義されていない場合、MAPは使用されません。
+   初期設定では選択されていません。 この設定によって、製品の最小限の広告価格 (マップ) が有効になります。 価格属性を定義したときに、製品の出展価格が、価格設定ソースとルールに基づいて特定の最低価格よりも下回ると、この値がリストのマップになります。 この設定を行うと [ ](./pricing-products.md) 、製品の最低価格を管理しながら、価格設定ルールを実装することができます。 出展価格が低すぎないようにするには、マップとして使用する価格設定属性を選択します。 ただし、選択されている価格フィールドが製品に定義されていない場合は、マップは使用されません。
 
-1. **[!UICONTROL Strike Through Price (MSRP)]**&#x200B;の場合は、オプションを選択します。
+1. **[!UICONTROL Strike Through Price (MSRP)]**&#x200B;では、オプションを選択します。
 
-   デフォルトは選択なしです。 この設定により、製造元の製品の推奨小売価格(MSRP)として使用される価格属性が決定されます。 上場価格が定義されたMSRPより小さい場合、Amazonのリストには、MSRP価格のストライクスルーと共に、計算された「保存済み」金額と割合が表示されます。 ただし、選択した価格フィールドが製品に対して定義されていない場合、MSRPは計算されません。
+   初期設定では選択されていません。 この設定によって、メーカーによって製品に提示される小売り価格 (MSRP) として使用される価格属性が決まります。 登録価格が定義された MSRP よりも小さい場合は、Amazon の一覧が、「保存した」という計算結果と共に、MSRP 価格が付いた打ち消し線で表示されます。 ただし、選択されている価格フィールドが製品に定義されていない場合、MSRP は計算されません。
 
    >[!NOTE]
    >
-   >この設定は、[Buy Box](./buy-box-competitor-pricing.md)の位置を獲得したリストにのみ適用されます。 Buy Boxは、通常は最高の価格でリストされる製品を持つ販売者にAmazonが与え、FBA/Prime出荷の提供、可用性、販売者のパフォーマンスなどの他の要因と共に与えられます。
+   >この設定は、「購入」ボックスの位置が勝ったリストにのみ適用さ [ ](./buy-box-competitor-pricing.md) れます。 この「購入」ボックスには、Amazon によって、その製品が最も最適な価格で通常最適な価格で販売されています。さらに、FBA、素数、その他の要因 (FBA、素数、販売店のパフォーマンスなど) も利用できます。
 
-1. **付加価値税(VAT)**&#x200B;の適用には、次のオプションを選択します。
+1. 付加 **価値税 (VAT) を適用するには** 、次のいずれかのオプションを選択します。
 
-   - `Disabled` - （デフォルト）VATを上場価格に適用しない場合に選択します。
+   - `Disabled` -(デフォルト) VAT を登録価格に適用しない場合は、次のいずれかのオプションを選択します。
 
-   - `Enabled`  — 上場価格にVATを適用するタイミングを選択します。VATは、通常、ヨーロッパの国々で消費税として使用され、Amazon内の最終上場価格に追加されます。 VATは、[下限価格](./floor-price.md)がヒットしない限り、インテリジェント価格ルール内で使用されるリストの最終価格には適用されません。
+   - `Enabled` -出展価格に VAT を適用する場合に選択します。 一般に、欧州諸国では VAT が売上税として使用され、Amazon 内の最終的な定価に加算されます。 VAT は、フロア価格がわからない場合を除き、知的価格設定で使用されるリストに対しては最終的な価格には適用されません [ ](./floor-price.md) 。
    >[!NOTE]
    >
-   >欧州連合(EU)の企業は、顧客が税金を支払えるように、ビジネスバイヤーに請求書を送信する必要があります。 これらの請求書を生成して税金を自分で計算するか、AmazonのVAT計算サービスなどの税金計算サービスを使用できます。 Amazonは、[Amazon VAT計算サービス](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;){target=&quot;_blank&quot;}に新規登録することをお勧めします。 別の方法を選択する場合は、VATコンプライアンスに対する責任を負います。>
+   >欧州連合 (EU) の企業は、請求書を企業購入者に送信する必要があります。これにより、顧客は税金を送金することができます。 請求書を生成して税金を独自に計算することも、Amazon の VAT 計算サービスのような tax 計算サービスを使用することもできます。 Amazon [ VAT 計算サービス ](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;) {target = &quot;_blank&quot;} にサインアップすることが推奨されます。 別の方法を選択した場合は、VAT コンプライアンスが担当されます。 >
    >
-   >AmazonがVAT計算サービスのアカウントを確認して有効化するまでに10 ～ 14日かかる場合があります。
+   >Amazon が VAT 計算サービスアカウントを確認し、アクティブ化するのに10-14 時間がかかる場合があります。
 
-1. **[!UICONTROL VAT Percentage]**&#x200B;には、VAT率の値を入力します。
+1. **[!UICONTROL VAT Percentage]**「」に、VAT レートの値を入力します。
 
-   デフォルトは`0.00`です。 この値は、上場価格に追加するVAT金額の計算に使用されます。 `10.2`を入力すると、10.20%のVATが上場価格に適用されます。 「付加価値税(VAT)を適用」フィールドが`Disabled`に設定されている場合、このフィールドは無効になります。
+   初期設定では、と `0.00` なります。 この値は、定価に追加する VAT 金額を計算するために使用されます。 `10.2`が入力されると、10.20% VAT がリスト価格に適用されます。このフィールドは、付加価値税 (VAT) フィールドがに設定されている場合は使用できませ `Disabled` ん。
 
-1. **（英国の店舗のみ）** の場合、 **[!UICONTROL Amazon Product Tax Code (PTC)]**&#x200B;次のオプションを選択します。
+1. **(英国ストアのみ)****[!UICONTROL Amazon Product Tax Code (PTC)]**&#x200B;で、次のいずれかのオプションを選択します。
 
-   - `Do Not Manage PTC` - （デフォルト）サードパーティの税金計算サービスを使用している場合、またはすべての税金計算をアカウントで設定済みの場合に選択 [!DNL Amazon Seller Central] します。選択すると、Amazonの販売チャネルは製品税コード情報を[!DNL Amazon Seller Central]アカウントに送信しません。
+   - `Do Not Manage PTC` -(デフォルト) サードパーティーの税計算サービスを使用している場合、または、既に口座に税金計算が設定されている場合に選択し [!DNL Amazon Seller Central] ます。 選択すると、Amazon sales チャンネルによって製品の税コード情報が口座に送信されません [!DNL Amazon Seller Central] 。
 
-   - `Set Default PTC`  — すべての製品で使用するユニバーサル製品税コード(PTC)がある場合に選択します。選択した場合は、_[!UICONTROL Default PTC]_を完了する必要があります。
+   - `Set Default PTC` -すべての製品に使用するユニバーサル製品税コード (PTC) があるかどうかを選択します。 この設定を選択した場合は、完了する必要があり _[!UICONTROL Default PTC]_ます。
 
-      - **[!UICONTROL Default PTC]**&#x200B;の場合は、対象となるすべてのAmazon・リストに使用するデフォルトのPTCを入力します。 デフォルトのPTCが[!DNL Amazon Seller Central]アカウントに設定されている場合は、このフィールドを空白のままにします。 このフィールドに対して行った変更は、既存のAmazonのリストには影響しません。 既存のリストのデフォルトPTCを変更するには、リストを[終了](./end-listings-manually.md)し、新しいリストを作成する必要があります。
+      - **[!UICONTROL Default PTC]**「」には、すべての適格な Amazon リストに使用されるデフォルトの PTC を入力します。デフォルトの PTC がアカウントに設定されている場合は [!DNL Amazon Seller Central] 、このフィールドを空白のままにします。 このフィールドに変更を加えても、既存の Amazon リストには影響しません。 既存の一覧のデフォルトの PTC を変更するには、リストを [ 終了して、新しいカタログを作成する必要があり ](./end-listings-manually.md) ます。
    >[!NOTE]
    >
-   >AmazonのVAT計算サービスを使用する場合は、製品の税金カテゴリを把握する必要があります。 PTCは、AmazonでのB2B購入の税カテゴリIDコードです。 [Amazonの製品税コード](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;}を参照してください。
+   >Amazon の VAT 計算サービスを使用する場合は、製品の税カテゴリについて理解しておく必要があります。 PTC は、EU の B2B 購入用の Amazon の税務分別税コードを示しています。 [Amazon の製品税コードについては ](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US) 、{target = &quot;_blank&quot;} を参照してください。
 
-1. **[!UICONTROL Currency Conversion]**&#x200B;の場合は、オプションを選択します。
+1. **[!UICONTROL Currency Conversion]**&#x200B;では、オプションを選択します。
 
-   デフォルトは`Disabled`です。 これらのオプションは、[!DNL Commerce] [currency](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target=&quot;_blank&quot;}の設定によって異なります。 使用できるオプションがない場合は、通貨設定を行います。
+   初期設定では、と `Disabled` なります。 このオプションは、お客様の通貨の種類によって異なり [!DNL Commerce] [ ](https://docs.magento.com/user-guide/configuration/general/currency-setup.html) ます。 {target = &quot;_blank&quot;} 設定によって異なります。 オプションが使用できない場合は、通貨設定を設定します。
 
-1. 完了したら、「**[!UICONTROL Save listing settings]**」をクリックします。
+1. 完了したら、をクリックし **[!UICONTROL Save listing settings]** ます。
 
-![上場価格](assets/amazon-listing-price.png)
+![リスト価格](assets/amazon-listing-price.png)
 
-| フィールド | 説明 |
+| 名 | つい |
 |--- |--- |
-| [!UICONTROL Magento Price Source] | Amazonリストを作成する際に使用する価格ソースを決定します。 デフォルトは`Price`です。 `Amazon Price`や`Special Price`など、別の属性を選択した場合は、その属性に対して定義された値がAmazonのリストに使用されます。 ただし、選択した属性が定義されていない場合は、`Price`が使用されます。 |
-| [!UICONTROL Minimum Advertised Price (MAP)] | MAP価格の[!DNL Commerce]属性。 「MAP」オプションを選択すると、AmazonリストがMAP価格より小さい場合は、MAP価格に自動的に設定されます。 |
-| [!UICONTROL Strike Through Price (MSRP)] | MSRP価格を表す[!DNL Commerce]属性。 Amazonの上場価格がMSRPより小さい場合は、MSRP価格と上場価格のストライクスルーが表示されます。 この設定は、「保存」の金額と割合の計算にも使用されますが、この機能は[Buy Box](./buy-box-competitor-pricing.md)の位置を獲得したリストにのみ適用されます。 |
-| [!UICONTROL Apply Value Added Tax (VAT)] | VATは欧州連合の販売者によって使用されます。<br><br>上場 `Disabled` 価格にVATを追加しない場合は、を選択します。<br><br>「 」を `Enabled` 選択し、VATを上場価格に適用するためのVATパーセンテージを入力します。 |
-| [!UICONTROL VAT Percentage] | Amazonの一覧表示価格に追加するVAT金額の計算に使用する割合を定義します。 <br><br>を入力する `5`と、すべての価格ルールが適用された後、最終上場価格に5%のVATが適用されます。VAT税は、[floor](./floor-price.md)または[ceiling](./optional-ceiling-price.md)がヒットしない限り、インテリジェント価格ルール内で使用されるリストの最終価格には適用されません。 |
-| [!UICONTROL Amazon Product Tax Code (PTC)] | (UK Stores Only) Amazonの販売チャネルから[!DNL Amazon Seller Central]アカウントに製品税コード情報を送信するかどうかを指定します。 <br><br>サード **パーティの税金計算サ** ービスを使用している場合、またはすべての税金計算を既にアカウントで設定している場合は、「PTCを管理しない」を選択 [!DNL Amazon Seller Central] します。このオプションを設定すると、Amazonの販売チャネルは製品税コード情報を[!DNL Amazon Seller Central]アカウントに送信しません。<br><br>すべての **製品に** 使用するユニバーサル製品税コードがある場合は、「デフォルトPTCを設定」を選択します。<br><br> [Amazonの製品税コード](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;}を参照してください。 |
-| [!UICONTROL Default PTC] | **Amazon Product Tax Code (PTC)**&#x200B;が`Set Default PTC`に設定されている場合にのみ表示されます。 有効なすべてのAmazon・リストに使用するデフォルトのPTCを入力します。 デフォルトのPTCが[!DNL Amazon Seller Central]アカウントに設定されている場合は、このフィールドを空白のままにします。 <br><br>このフィールドに加えた変更は、既存のリストには影響しません。リストは[終了](./end-listings-manually.md)し、変更を有効にするために新しいリストを作成する必要があります。 |
-| [!UICONTROL Currency Conversion] | [!DNL Commerce]ストアフロントのデフォルト通貨を、デフォルトのAmazon通貨に正確に変換して、リスト価格を適切な通貨で公開できるようにします。 通貨換算は、常に[!DNL Commerce]デフォルトの通貨に基づいておこなわれます。<br><br>他の通貨が使用可能な場合でも、デ [!DNL Commerce] フォルトの通貨とAmazonの通貨を表示できます。デフォルトの[!DNL Commerce]通貨がAmazonのデフォルトの通貨と一致する場合、「通貨換算」は無効のままにします。<br><br>例えば、デフォルト通貨がCAD(カナダ [!DNL Commerce] ドル)で、Amazonのデフォルト通貨がUSDの場合、「通貨換算」を有効にして、「換算レートCADからUSD」を選択する必要があります。表示されるオプションは、組み込みの[!DNL Commerce]通貨換算に基づいています。 目的のオプションが表示されない場合は、[ [!DNL Commerce]](https://docs.magento.com/user-guide/stores/currency-configuration.html){target=&quot;_blank&quot;}で通貨を設定します。 |
+| [!UICONTROL Magento Price Source] | Amazon リストを作成するときに使用する価格設定を指定します。 初期設定では、と `Price` なります。 またはなどの別の属性を選択した場合は `Amazon Price` `Special Price` 、属性に定義されている値が Amazon リストに使用されます。 ただし、「selected」属性が定義されていない場合 `Price` は、が使用されます。 |
+| [!UICONTROL Minimum Advertised Price (MAP)] | [!DNL Commerce]マップ価格の属性です。「MAP」オプションを選択すると、リストプライスがマップ価格より少ない場合に、Amazon の一覧が自動的にマップ価格に設定されます。 |
+| [!UICONTROL Strike Through Price (MSRP)] | [!DNL Commerce]MSRP 価格を表す属性です。Amazon のリスト価格が MSRP より少ない場合は、MSRP 価格と出展価格の取り消し線が表示されます。 この設定を使用して「保存」の金額と比率を計算することもできますが、この機能は、「購入」ボックスの位置にあるリストにのみ適用され [ ](./buy-box-competitor-pricing.md) ます。 |
+| [!UICONTROL Apply Value Added Tax (VAT)] | VAT は欧州連合の売り手によって使用されます。<br><br>`Disabled`VAT をリスト価格に追加する必要がない場合に選択します。<br><br>`Enabled`リスト価格に vat を適用する場合は、次のいずれかを選択し、vat の割合を入力します。 |
+| [!UICONTROL VAT Percentage] | Amazon リストの表示価格に追加される VAT の金額を計算するために使用される割合を指定します。 <br><br>「」と入力すると、 `5` すべての価格設定ルールが適用された後の最終的な一覧価格に5% の VAT が適用されます。 VAT 税は、 [ フロア ](./floor-price.md) または [ 天井に達していない限り、インテリジェントな価格ルールで使用される一覧の最終価格には適用されません ](./optional-ceiling-price.md) 。 |
+| [!UICONTROL Amazon Product Tax Code (PTC)] | (UK ストアについてのみ表示されます)Amazon sales チャンネルが製品税コード情報を取引先企業に送信するかどうかを指定し [!DNL Amazon Seller Central] ます。 <br><br>**** サードパーティの税計算サービスを使用している場合、または口座ですべての税計算が設定されている場合は、「PTC を管理しない」を選択し [!DNL Amazon Seller Central] ます。このオプションを設定した場合、Amazon sales チャンネルには製品税コード情報が口座に送信されません [!DNL Amazon Seller Central] 。<br><br>**** すべての製品に使用する汎用製品税コードがある場合は、「デフォルトの PTC に設定」を選択します。<br><br>[Amazon の製品税コードについては ](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US) 、{target = &quot;_blank&quot;} を参照してください。 |
+| [!UICONTROL Default PTC] | このメッセージは **、Amazon の製品税コード (PTC) がに設定されている場合にのみ表示され** `Set Default PTC` ます。 すべての適格な Amazon リストに使用されるデフォルトの PTC を入力します。 デフォルトの PTC がアカウントに設定されている場合は [!DNL Amazon Seller Central] 、このフィールドを空白のままにします。 <br><br>このフィールドに変更を加えても、既存のリストには影響しません。 変更を有効にするには、このリストを [ 終了 ](./end-listings-manually.md) して新しいリストを作成する必要があります。 |
+| [!UICONTROL Currency Conversion] | 現在の会社のデフォルト通貨を、適切な Amazon currency に変更して [!DNL Commerce] 、適切な通貨でパブリッシュすることができます。 為替換算は、常にデフォルトの通貨に基づいてい [!DNL Commerce] ます。<br><br>[!DNL Commerce]他の通貨が使用可能になったときにも、デフォルトと Amazon の通貨を表示することができます。デフォルトの通貨が、デフォルトの Amazon の通貨と一致している場合は [!DNL Commerce] 、為替換算が無効化されたままになります。<br><br>例えば、 [!DNL Commerce] デフォルトの通貨が CAD (カナダ) の場合は、通貨換算を有効にして、その為替レートの cad を usd に選択する必要があります。 表示されるオプションは、組み込まれている為替換算に基づいてい [!DNL Commerce] ます。 目的のオプションが表示されない場合は、 [  [!DNL Commerce] ](https://docs.magento.com/user-guide/stores/currency-configuration.html) {target = &quot;_blank&quot;} に通貨を設定します。 |
 
-**クイックアクセス**  — セク [!UICONTROL Listing Settings] ション
+**クイックアクセス** - [!UICONTROL Listing Settings] セクション
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)

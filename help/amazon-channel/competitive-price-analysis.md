@@ -1,6 +1,6 @@
 ---
-title: 競合価格の分析
-description: Competitive Price Analysisでは、市場ごとのAmazonのリストが、それぞれのBuy Box価格と最も低い競合相手の価格の値で表示されます。
+title: 競争価格の分析
+description: 競争価格の分析により、marketplace ごとの Amazon リストが購入ボックス価格および競合企業価格の最も低い価格値で表示されます。
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# 競合価格の分析
+# 競争価格の分析
 
-Competitive Price Analysisレポートは、市場ごとのAmazonのリストを、それぞれの[Buy Box](./buy-box-competitor-pricing.md)価格と[最も低い競合相手](./lowest-competitor-pricing.md)価格の値で表示します。 ログに使用できるアクションはありません。 これはレビュー専用の機能です。
+競合製品に関する価格分析レポートには、marketplace ごとの Amazon リストが [ 購入ボックス ](./buy-box-competitor-pricing.md) 価格および [ 競合企業価格の最も低い値と共に表示され ](./lowest-competitor-pricing.md) ます。 ログに使用できるアクションはありません。 これはレビューのみの機能です。
 
-![競合価格分析レポート](assets/amazon-competitive-price-analysis.png)
+![競争価格分析レポート](assets/amazon-competitive-price-analysis.png)
 
 ## デフォルトの列
 
-| 列 | 説明 |
+| 段 | つい |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | Amazonが製品に割り当てたSKU(Stock Keeping Unit)。製品、オプション、価格および製造元を識別します。 |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロック。<br><br>ASINは、Amazon Standard Identification Numberの略です。ASINは、項目を識別する10文字または数字の一意のブロックです。 本の場合、ASINはISBN番号と同じですが、他のすべての製品の場合は、品目がカタログにアップロードされると新しいASINが作成されます。 ASINは、Amazonの製品の詳細ページで、品目に関する詳細と共に検索できます。 |
-| [!UICONTROL Product Listing Name] | 製品の名前。 |
-| [!UICONTROL Your Landed Price] | 商品の上場価格と送料。 |
-| [!UICONTROL Lowest Landed Price] | Amazonの競合他社からの最低価格（上場価格と配送価格）。 |
-| [!UICONTROL Condition (lowest price)] | 最も安い価格で上場されている製品の状態。 |
-| [!UICONTROL Buy Box Landed Price] | [Buy Box](./buy-box-competitor-pricing.md)ポジションリストの上場価格（上場価格とその出荷価格）。 |
-| [!UICONTROL Is Seller (Buy Box)] | リストのBuy Box順位を獲得したかどうかを示します(NAは、リストにBuy Box価格がないことを意味します)。 |
-| 条件(Buy Box) | Buy Box位置の一覧の条件。 |
+| [!UICONTROL Amazon Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
+| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>アークは、Amazon 標準の Id 番号を表します。 アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
+| [!UICONTROL Product Listing Name] | 製品の名前を指定します。 |
+| [!UICONTROL Your Landed Price] | 製品の出展価格とその配送価格を表示します。 |
+| [!UICONTROL Lowest Landed Price] | Amazon の競合企業が表示する、最も安いお届け価格 (出展価格と送料価格) です。 |
+| [!UICONTROL Condition (lowest price)] | 最低価格で一覧表示されている製品の状態です。 |
+| [!UICONTROL Buy Box Landed Price] | 購入ボックスの位置リストの &quot;上陸価格&quot; (定価価格と送料価格が付いて [ ](./buy-box-competitor-pricing.md) います)。 |
+| [!UICONTROL Is Seller (Buy Box)] | リストの購入ボックスの位置が勝ちになっているかどうかを示します (NA は、リストに購入ボックス価格が設定されていないことを意味します)。 |
+| 条件 (「購入」ボックス) | 購入ボックスの位置リストの条件。 |

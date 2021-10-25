@@ -1,6 +1,6 @@
 ---
-title: 割り当てられたASINの編集
-description: コマース製品のASIN値が、Amazonのリストと一致しない場合は変更します。
+title: 割り当てられたアークサインを編集する
+description: Commerce 製品のアークサインリストに間違った値が入力されている場合は、その値を変更します。
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,27 +9,27 @@ ht-degree: 0%
 
 ---
 
-# 割り当てられたASINの編集
+# 割り当てられたアークサインを編集する
 
-[!DNL Commerce]カタログ内の製品に割り当てられているAmazon ASIN値を編集できます。 この機能は、カタログ製品がAmazonのリストの1つと適切に一致しなかった場合に役立ちます。 リストに割り当てられたASINを変更しても、Amazonによって製品に割り当てられたASINは変更されません。 変更されるのは、カタログ商品と一致するAmazonのリストに対してのみです。
+カタログ内の製品に割り当てられた Amazon アークサインの値を編集でき [!DNL Commerce] ます。 この機能は、カタログ製品がどの Amazon リストにも適切に適合されていない場合に便利です。 リストに割り当てられた出力の値を変更しても、Amazon によって製品に割り当てられたアークサインは変更されません。 変更されるのは、カタログ製品が適合する Amazon の一覧のみです。
 
-割り当てられたASINが変更された場合：
+割り当てられたサインが次のように変更されるとします。
 
-- [!DNL Commerce] 古いASINに添付されたAmazonのリストを終了します
-- AmazonでのASINの検証
-- 更新されたASINのリストを作成します
-- Amazon販売チャネルの情報の一覧を更新しました
+- [!DNL Commerce] 古いアークサインに適用されている Amazon リストを終了します。
+- Amazon によるアークサインを検証します。
+- 更新されたアークサインの一覧を作成します。
+- Amazon sales チャンネルのリスト情報を更新します
 
-## 割り当てられたASINの編集
+## 割り当てられたアークサインを編集する
 
-1. _[!UICONTROL Product Listings]_ページ（_[!UICONTROL Inactive]_、_[!UICONTROL Active]_、または_[!UICONTROL Ineligible]_&#x200B;タブ）でリストを表示します。
+1. _[!UICONTROL Product Listings]_ページ (_[!UICONTROL Inactive]_ 、、 _[!UICONTROL Active]_、またはタブ) に表示されているリストが表示さ_[!UICONTROL Ineligible]_ れます。
 
-1. _[!UICONTROL Actions]_の下で、**[!UICONTROL Edit Assigned ASIN]**をクリックします。
+1. _[!UICONTROL Actions]_でをクリックし&#x200B;**[!UICONTROL Edit Assigned ASIN]**ます。
 
-   この操作により、_[!UICONTROL Product Listing Update]_ページが開きます。
+   この操作により、ページが開き _[!UICONTROL Product Listing Update]_ます。
 
-1. **[!UICONTROL Assign ASIN]**&#x200B;に、新しいASIN値を入力します。
+1. **[!UICONTROL Assign ASIN]**「」には、「アークサイン」の新しい値を入力します。
 
-1. 変更を保存するには、**[!UICONTROL Save Listing Update]**&#x200B;をクリックします。
+1. 変更を保存するには、をクリックし **[!UICONTROL Save Listing Update]** ます。
 
-![割り当てられたASINの編集](assets/amazon-assigned-asin-edit.png)
+![割り当てられたアークサインを編集する](assets/amazon-assigned-asin-edit.png)

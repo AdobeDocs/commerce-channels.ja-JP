@@ -1,7 +1,7 @@
 ---
 solution: Commerce
-title: Adobeコマース用チャネルマネージャー
-description: AdobeのコマースとMagento Open Sourceの販売チャネルに関するドキュメントを参照します。
+title: Adobe Commerce 用チャネルマネージャー
+description: Adobe Commerce および Magento Source の販売チャンネルマニュアルを参照してください。
 feature: Overview
 role: User
 level: Beginner
@@ -13,16 +13,16 @@ ht-degree: 0%
 ---
 
 
-# Adobeコマース用チャネルマネージャーの概要 {#commerce-channels-overview}
+# Adobe Commerce のチャンネルマネージャーの概要 {#commerce-channels-overview}
 
-AdobeコマースおよびMagento Open Source用のチャネルマネージャーは、ストア内の製品カタログ、注文、出荷、店舗設定を、よく知られたマーケットプレイスサイトと統合できます。 これらの強力な機能を使用すると、新しいストアフロントトラフィックを取得し、追加のWebストアへの販売を拡大することで、売上高を増やすことができます。
+Adobe Commerce と Magento Open Source の Channel manager は、製品カタログ、注文、出荷、および設定を、有名な marketplace サイトを使用してストアに統合することができます。 このような優れた機能により、新規のストアストアを取得して、売り上げを拡大することによって、収益を向上させることができます。
 
-## Amazon販売チャネル
+## Amazon 販売チャンネル
 
-Amazonのセールスチャネルは、[!DNL Commerce]管理者を[!DNL Amazon Seller Central]アカウントとシームレスに統合する強力な拡張機能です。 オンボーディング後、Commerceは、AmazonストアのAmazonリスト、注文件数、在庫数、価格を管理および制御する&#x200B;_中央のコマンドセンター_&#x200B;になります。
+Amazon 販売チャンネルは強力な拡張機能の1つです。これにより、管理者が自分のアカウントとシームレスに統合され [!DNL Commerce] [!DNL Amazon Seller Central] ます。 オンにした場合、商取引は、amazon __ Store の amazon リスト、注文、インベントリ、および価格設定を管理および制御するための中央のコマンドセンターになります。
 
 ## その他のリソース
 
-[Commerce 2.4ユーザーガイドコマー](https://docs.magento.com/user-guide/)
-[ス開発者ドキュメント](https://devdocs.magento.com/)
+[Commerce 2.4 ユーザーガイド ](https://docs.magento.com/user-guide/) [ commerce 開発者向けドキュメント
+](https://devdocs.magento.com/)
 

@@ -1,6 +1,6 @@
 ---
-title: 製品リスト条件
-description: 「製品リスト条件」設定を使用して、コマース製品を「新規」や「改装済み」などのAmazon製品の条件にマップします。
+title: 製品のリスト表示条件
+description: 製品一覧の条件設定を使用して、Commerce 製品を Amazon 製品条件 (「新規」や「修理」など) にマップします。
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# 製品リスト条件
+# 製品のリスト表示条件
 
-製品リスト条件の設定は、ストアリスト設定の一部です。 [ストアダッシュボード](./amazon-store-dashboard.md)でリスト設定にアクセスできます。
+製品一覧の条件設定は、ストア一覧の設定に含まれています。 一覧の設定には、ストアのダッシュボードにアクセスでき [ ](./amazon-store-dashboard.md) ます。
 
-Amazonでは、製品リストに条件を定義する必要があります。 すべての製品が同じ条件の場合、Amazonの条件オプションを1つ選択して、すべての製品をグローバル条件値として表すことができます。 標準のAmazon条件は次のとおりです。
+Amazon には、製品リストの条件が定義されている必要があります。 すべての製品が同じ条件になっている場合は、Amazon condition オプションのいずれかを選択して、すべての製品をグローバル条件の値として表すことができます。 標準的な Amazon 条件は、次のとおりです。
 
 - `New`
 - `Refurbished`
@@ -29,43 +29,43 @@ Amazonでは、製品リストに条件を定義する必要があります。 �
 
 >[!IMPORTANT]
 >
->更新（リフュース）された製品を販売する場合は、[!DNL Amazon Renewed Program]に登録する必要があります。 [更新された製品](./renewed-products.md)を参照してください。
+>書き換えられた製品を販売する場合は、に登録する必要があり [!DNL Amazon Renewed Program] ます。 「 [ 製品の更新」を参照してください ](./renewed-products.md) 。
 
-ただし、カタログに異なる条件（新規、使用済み、再製品など）の商品が含まれる場合は、**[!UICONTROL Assign Condition Using Product Attribute]**&#x200B;を選択する必要があります。 この設定を使用すると、[!DNL Commerce]条件属性と値をAmazonリストの条件にマップできます。
+ただし、カタログに異なる条件の製品が含まれている場合は (新規、使用、調整など)、を選択する必要があり **[!UICONTROL Assign Condition Using Product Attribute]** ます。 この設定によって、 [!DNL Commerce] 条件の属性と値を Amazon の一覧の条件にマップすることができます。
 
-[事前設定タスク](./amazon-pre-setup-tasks.md)の間に、製品の条件に対して[!DNL Commerce]製品属性を作成することをお勧めします。 様々な条件で製品を提供し、条件属性を作成していない場合は、[ [!DNL Commerce]](./ob-creating-magento-attributes.md)での製品属性の作成を参照してください。 条件属性を作成したら、[!DNL Commerce]カタログ内の各製品に条件値を割り当てることができます。
+事前設定タスクの実行中に [ ](./amazon-pre-setup-tasks.md) 、 [!DNL Commerce] 製品の状態に製品属性を作成することをお勧めします。 様々な条件で製品を提供していて、条件属性を作成していない場合は、 [ で product 属性を作成するを参照してください  [!DNL Commerce]](./ob-creating-magento-attributes.md) 。 条件属性を作成した後は、カタログ内の各製品に条件値を割り当てることができ [!DNL Commerce] ます。
 
-## 設定を行う
+## 設定の構成
 
-1. ストアダッシュボードの「**[!UICONTROL Listing Settings]**」をクリックします。
+1. **[!UICONTROL Listing Settings]** Store のダッシュボードのをクリックします。
 
-1. **[!UICONTROL Product Listing Condition]**&#x200B;セクションを展開します。
+1. セクションを展開し **[!UICONTROL Product Listing Condition]** ます。
 
-1. **[!UICONTROL Listing Product Condition]**&#x200B;の場合は、オプションを選択します。
+1. **[!UICONTROL Listing Product Condition]**&#x200B;では、オプションを選択します。
 
-   すべてのリストのグローバル条件値に対して、標準のAmazon条件の1つを選択します。 デフォルト設定は`New`です。
+   すべての出展について、グローバル条件の値について標準的な Amazon 条件のうちの1つを選択します。 デフォルトの設定は `New` です。
 
-   異なる条件を持つ製品/リストがある場合は、`Assign Condition Using Product Attribute`を選択して、表示される追加のフィールドで製品の条件の設定を定義します。
+   条件が異なる製品またはリストがある場合は、 `Assign Condition Using Product Attribute` 表示される追加フィールドで製品条件設定を定義するように選択します。
 
-1. **条件属性**&#x200B;の場合は、[!DNL Commerce]属性を選択して、標準のAmazon条件属性のそれぞれの値をマッピングします。
+1. **「条件」属性では、** 標準の [!DNL Commerce] Amazon 条件属性の値をマップするために属性を選択します。
 
-   製品が`Used`または`Collectible`条件にあるが、それ以上区別できない場合は、1つの`Used`または`Collectible` Amazon条件にマッピングし、それ以外の条件は空白のままにすることができます。 このメソッドは、すべての`Used`または`Collectible`条件を、1つのAmazonの使用済みまたは収集可能な条件にマッピングします。
+   Or 条件に製品が含まれていても、さらに詳しくはわからない場合は、 `Used` `Collectible` 単一 `Used` または Amazon の条件にマップ `Collectible` し、他のユーザーは空白のままにしておくことができます。 この方法では、すべての `Used` or `Collectible` 条件が単一の Amazon によって使用されるか、収集された状態にマップされます。
 
-   例えば、製品に対して1つの`Used`条件があるとします。 マッピングの際に、Amazon条件`Used; Like New`、`Used; Very Good`、`Used; Good`、`Used; Acceptable`のいずれにマッピングするかを選択します。 必要なAmazon条件のフィールドにのみ入力し、他の`Used`オプションは`--Select Option--`に設定したままにします。 この例の画像では、`Used`条件内のすべての[!DNL Commerce]製品がAmazon `Used; Very Good`条件にマッピングされています。
+   例えば、製品に対して1つの条件を設定するとし `Used` ます。 マッピングする場合は、Amazon 条件、、、またはにマップするかどうかを選択し `Used; Like New` `Used; Very Good` `Used; Good` `Used; Acceptable` ます。 目的の Amazon 条件のフィールドだけを入力し、その他の `Used` オプションはに設定したままに `--Select Option--` します。 この例のイメージで [!DNL Commerce] は、条件に含まれるすべての製品 `Used` が Amazon 条件にマップされてい `Used; Very Good` ます。
 
-   条件に対して、`New`を除く説明テキストを入力することもできます。
+   ただし、条件の内容を示すテキストを入力することもでき `New` ます。
 
-1. 完了したら、「**[!UICONTROL Save listing settings]**」をクリックします。
+1. 完了したら、をクリックし **[!UICONTROL Save listing settings]** ます。
 
-![製品リスト条件](assets/amazon-product-listing-condition.png)
+![製品のリスト表示条件](assets/amazon-product-listing-condition.png)
 
-| フィールド | 説明 |
+| 名 | つい |
 |---|---|
-| [!UICONTROL Listing Product Condition] | 製品リストの条件。 オプション：`New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>1つの製品条件を販売する場合は、標準のAmazon条件の1つを選択します。 [!DNL Commerce]カタログに様々な条件の商品が含まれている場合は、`Assign Condition Using Product Attribute`を選択します。 |
-| [!UICONTROL Condition Attribute] | 製品の条件を定義する[!DNL Commerce]属性。 Amazon条件属性にマップするために作成したマグネト属性を選択します。 [事前設定タスクの例](./ob-creating-magento-attributes.md)では、`Amazon Condition`という名前にすることをお勧めします。 選択すると、標準のAmazon条件をマッピングするための追加のフィールドが表示されます。 |
-| [!UICONTROL Additional Condition fields] | 標準のAmazon条件ごとに、対応する条件を選択します。 オプションは、[Amazon条件属性](./ob-creating-magento-attributes.md)を作成したときに追加した条件ラベルです。<br><br>製品がor条件に該当する `Used` が、それ以 `Collectible` 上区別できない場合、1つの `Used` Amazon条件または `Collectible` 条件にマッピングし、それ以外の条件は空白のままにすることができます。このメソッドは、すべての`Used`または`Collectible`条件を、1つのAmazon使用または収集可能な条件にマッピングします。 |
+| [!UICONTROL Listing Product Condition] | 製品リストの状態です。 オプション。 `New` `Refurbished` 単一の `Used: Like New` `Used: Very Good` `Used: Good` `Used: Acceptable` `Collectible: Like New` `Collectible: Very Good` `Collectible: Good` `Collectible: Acceptable` `Assign Condition Using Product Attribute`<br><br> 製品条件を販売する場合は、標準の Amazon 条件のいずれかを選択します。 カタログに [!DNL Commerce] 製品が多様な条件に含まれている場合は、「」を選択し `Assign Condition Using Product Attribute` ます。 |
+| [!UICONTROL Condition Attribute] | [!DNL Commerce]製品の条件を定義する属性です。作成したマグネトー属性を選択し、Amazon condition 属性にマップします。 この例では、 [ ](./ob-creating-magento-attributes.md) この名前に名前を付けることをお勧めし `Amazon Condition` ます。 選択すると、標準の Amazon 条件のマッピング用に追加のフィールドが表示されます。 |
+| [!UICONTROL Additional Condition fields] | 標準的な Amazon 条件ごとに、対応する条件を選択します。 オプションには、Amazon condition 属性を作成したときに追加した条件ラベルが表示され [ ](./ob-creating-magento-attributes.md) ます。<br><br>Or 条件に製品が含まれていても、さらに詳しくはわからない場合は、 `Used` `Collectible` 単一 `Used` または Amazon の条件にマップ `Collectible` し、他のユーザーは空白のままにしておくことができます。 この方法 `Used` では、すべてまたは `Collectible` 条件が、単一の Amazon が使用されているか、収集された状態にマップされます |
 
-**クイックアクセス**  — セク [!UICONTROL Listing Settings] ション
+**クイックアクセス** - [!UICONTROL Listing Settings] セクション
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)

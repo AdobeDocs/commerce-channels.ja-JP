@@ -1,6 +1,6 @@
 ---
 title: 事前設定タスク
-description: AmazonSales ChannelにAdobeコマースまたはMagento Open Sourceストアを統合する前に、完了する必要があるタスクを確認します。
+description: Adobe Commerce または Magento Open Source store を Amazon 販売チャンネルに組み込む前に、必要なタスクを確認してください。
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,72 +11,72 @@ ht-degree: 0%
 
 # 事前設定タスク
 
-[ストア統合](./store-integration.md)の前に、[!DNL Amazon Seller Central]アカウントと[!DNL Commerce]アカウントが統合に対応していることを確認する必要があります。 を正常に統合するには、事前設定タスクがいくつか必要です。
+ストアを統合する前に [ ](./store-integration.md) 、 [!DNL Amazon Seller Central] アカウントと [!DNL Commerce] アカウントが統合に向けて準備されていることを確認する必要があります。 統合を成功させるためには、いくつかの事前設定タスクが必要になります。
 
-Amazonの販売チャネルに最初のAmazonストアを設定すると、設定タスクのリストが表示されます。 [Amazonストア](./store-integration.md)を追加する前に、これらのタスクを確認することをお勧めします。 最初のストアを追加した後、Amazonセールスチャネル[ホームページ](./amazon-sales-channel-home.md)の学習と準備ビューで、これらのタスクを確認できます。
+Amazon sales チャネルに最初の Amazon store を設定すると、セットアップタスクの一覧が表示されます。 Amazon store を追加する前に、これらのタスクを確認しておくことをお勧め [ ](./store-integration.md) します。 最初のストアを追加した後で、Amazon sales channel のホームページの学習ビューと準備ビューで、これらのタスクを確認することができ [ ](./amazon-sales-channel-home.md) ます。
 
-## 1. [!DNL Commerce]でバックグラウンドタスクを有効にする
+## 1. 「バックグラウンドタスクを有効にする」 [!DNL Commerce]
 
-[!DNL Commerce]とAmazonの間で同期されたすべての製品とデータは、[cronジョブ](https://docs.magento.com/user-guide/system/cron.html){target=&quot;_blank&quot;}によって管理されます。 リストの追加や更新などのタスクを完了し、注文を受け取ると、cronジョブは[!DNL Commerce]バックエンドと[!DNL Amazon Seller Central]アカウントの間でデータの送受信を行います。
+と Amazon の間で同期されているすべての製品とデータ [!DNL Commerce] は、 [ cron ジョブ ](https://docs.magento.com/user-guide/system/cron.html) {target = &quot;_blank&quot;} によって管理されます。 リストの追加または更新、注文の受信などのタスクを完了すると、cron ジョブがバックエンドのユーザーとアカウントの間でデータを送受信するように [!DNL Commerce] [!DNL Amazon Seller Central] なります。
 
-- [ [!DNL Commerce] Enablecron](https://docs.magento.com/user-guide/system/cron.html) {target=&quot;_blank&quot;}。
+- [ [!DNL Commerce] Cron ](https://docs.magento.com/user-guide/system/cron.html) {target = &quot;_blank&quot;} を有効にします。
 
-- 最高のパフォーマンスを得るには、[set [!DNL Commerce] cron](https://docs.magento.com/user-guide/configuration/advanced/system.html){target=&quot;_blank&quot;}を5分ごとに1回実行します。
+- パフォーマンスを最大にするには、 [  [!DNL Commerce]  cron ](https://docs.magento.com/user-guide/configuration/advanced/system.html) {target = &quot;_blank&quot;} を5分ごとに実行するように設定します。
 
-## 2. [!DNL Amazon Seller Central]アカウントを作成する
+## 2. アカウントを作成します。 [!DNL Amazon Seller Central]
 
-Amazonの販売チャネルの設定を開始する前に、アクティブな[!DNL Amazon Seller Central]アカウントが必要です。 [北米(US、CA、MX)](https://sell.amazon.com/){target=&quot;_blank&quot;}または[ヨーロッパ(UK)](https://sell.amazon.co.uk/sell-online/beginners-guide){target=&quot;_blank&quot;}の地域に既存のAmazonセラーアカウントがない場合は、Amazonセラーのアカウント設定プロセスを完了できます。
+Amazon sales チャンネルの設定を開始する前に、アクティブなアカウントを持っている必要があり [!DNL Amazon Seller Central] ます。 北米の Amazon 売り手のアカウントが存在しない場合 [ (US、CA、MX) ](https://sell.amazon.com/) {target = &quot;_blank&quot;} または [ ヨーロッパ言語 (英国) ](https://sell.amazon.co.uk/sell-online/beginners-guide) {target = &quot;_blank&quot;} 地域の場合は、Amazon の売り手のアカウント設定プロセスを完了することができます。
 
-Amazonの販売チャネルには、[!DNL Amazon Seller Central]の[!DNL Professional Seller]アカウントが必要です。 Amazonは月々の購読と販売料を請求します。 [Amazon:販売計画](https://sell.amazon.com/pricing.html){target=&quot;_blank&quot;}を選択します。
+Amazon セールスチャネルを使用している場合は、アカウントが必要 [!DNL Professional Seller] に [!DNL Amazon Seller Central] なります。 Amazon は、毎月の購入料金と販売費用によって課金されます。 [Amazon: 販売プランの選択 ](https://sell.amazon.com/pricing.html) {target = &quot;_blank&quot;} を参照してください。
 
-## 3.お客様が承認済みのAmazon販売者であることを確認する
+## 3. 承認された Amazon 売り手になっていることを確認してください。
 
-統合するには、承認済みの[!DNL Amazon Seller Central]アカウントが必要です。 アカウントに、製品やカテゴリに対する制限を設けないでください。 一部の製品やカテゴリでは、リストを作成する前に承認が必要です。 カテゴリおよび製品の承認に関するAmazonポリシーを確認して、製品が承認されていることを確認します。 [Amazon:承認](https://sellercentral.amazon.com/gp/help/200333160){target=&quot;_blank&quot;}が必要なカテゴリや製品（セラー一元ログインが必要）。
+統合するには、承認されたアカウントを持っている必要があり [!DNL Amazon Seller Central] ます。 取引先企業には、製品またはカテゴリについて制限が適用されていないことが必要です。 リストを作成する前に承認が必要な製品やカテゴリもあります。 カテゴリと製品の承認に関する Amazon ポリシーを確認して、製品が承認されたことを確認します。 [Amazon: カテゴリと製品の承認が必要な場合は、 ](https://sellercentral.amazon.com/gp/help/200333160) {target = &quot;_blank&quot;} (販売者の中央ログインが必要) を参照してください。
 
-また、[!DNL Amazon Seller Central]アカウントで次の設定をおこなうことも重要です。
+また、アカウントで次のように設定されているかどうかを確認することも重要です [!DNL Amazon Seller Central] 。
 
-- 返品ポリシーがAmazonの返品ポリシーと同じか、それ以上に適していることを確認します。 [Amazon:ポリシー](https://www.amazon.com/gp/help/customer/display.html){target=&quot;_blank&quot;}を返します。
+- 返されるポリシーが、Amazon return ポリシーよりも優れたものであることを確認してください。 [Amazon: ポリシーの返却 ](https://www.amazon.com/gp/help/customer/display.html) を参照 {target = &quot;_blank&quot;} を参照してください。
 
-- 税金設定が設定されていることを確認します。 [Amazon:税ポリシー](https://sellercentral.amazon.com/gp/help/external/help.html){target=&quot;_blank&quot;} （セラーセントラルログインが必要）。
+- 税設定が設定されていることを確認します。 [Amazon: 税務方針 ](https://sellercentral.amazon.com/gp/help/external/help.html) の確認 {target = &quot;_blank&quot;} (売り手の中央ログインが必要) を参照してください。
 
-- 発送方法が正しく設定されていることを確認します。 Amazonの注文を履行するために顧客に提供される配送方法を設定するには、[Amazonを更新します。[!DNL Amazon Seller Central]アカウントの配送設定](https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates){target=&quot;_blank&quot;}。[!DNL Commerce]
+- 送付方法が正確に設定されていることを確認します。 [!DNL Commerce]Amazon の注文を満たすために顧客に提供される送付方法を設定するには、 [ Amazon: 出荷設定 ](https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates) {target = &quot;_blank&quot;} を口座に更新して [!DNL Amazon Seller Central] ください。
 
-## 4.店舗に対してVATが設定されていることを確認します。
+## 4. VAT が店舗用に設定されていることを確認します。
 
-（主に英国の販売者が使用） Amazonは、[Amazon VAT計算サービス](https://sell.amazon.co.uk/learn/vat-resources#vat-services-on-amazon){target=&quot;_blank&quot;}に新規登録することをお勧めします。 別の方法を選択する場合は、VATコンプライアンスに対する責任を負います。
+(主に UK の売り手によって使用されています)。 Amazon [ VAT 計算サービス ](https://sell.amazon.co.uk/learn/vat-resources#vat-services-on-amazon) {target = &quot;_blank&quot;} にサインアップすることが推奨されます。 別の方法を選択した場合は、VAT コンプライアンスが担当されます。
 
 >[!NOTE]
 >
->AmazonがVAT計算サービスのアカウントを確認して有効化するまでに10 ～ 14日かかる場合があります。
+>Amazon が VAT 計算サービスアカウントを確認し、アクティブ化するのに10-14 時間がかかる場合があります。
 
-## 5.カタログの自動一致数を増やす
+## 5. 自動カタログ一致の数を増やす
 
-オンボーディング時、Amazonの販売チャネルは製品属性を使用して、既存のAmazonリストを[!DNL Commerce]カタログ内の既存の製品に一致させます（該当する場合）。 オンボーディング後、これらの製品属性を使用して、[!DNL Commerce]カタログ項目をAmazonリストに公開し、[!DNL Commerce]とAmazonの間で製品データを同期します。
+オンボード時に、Amazon 販売チャンネルは製品属性を使用して、既存の Amazon リスト (該当する場合) をカタログ内の既存の製品に適合させ [!DNL Commerce] ます。 オンにした後、これらの製品属性を使用して、 [!DNL Commerce] amazon リストにカタログアイテムを公開し、ユーザーの製品データをと amazon の間で同期させることが [!DNL Commerce] できます。
 
-最も多くの[!DNL Commerce]製品がAmazonのリストと自動的に一致するようにするには、[!DNL Commerce]カタログの製品属性のセットを作成する必要があります。 Amazonセールスチャネルストアを設定する前に、次のように、これらのAmazon属性に一致する製品属性[!DNL Commerce]を追加する必要があります。ASIN、EAN、ISBN、UPC、またはGCID。 [ [!DNL Commerce]](./ob-creating-magento-attributes.md)での製品属性の作成を参照してください。
+最大数の製品が Amazon リストと一致するようにするには [!DNL Commerce] 、カタログの一連の製品属性を作成する必要があり [!DNL Commerce] ます。 Amazon 販売チャンネルストアを設定する前に、これらの Amazon 属性に適合するように製品属性を追加する必要があります ( [!DNL Commerce] 例: アーク、EAN、ISBN、UPC、GCID)。 [の「製品属性の作成」を参照してください  [!DNL Commerce]](./ob-creating-magento-attributes.md) 。
 
-## 6.必要に応じて、通貨とコンバージョンを設定します
+## 6. 必要に応じて、通貨と変換を設定します。
 
-Amazonストアで、[!DNL Commerce]ストアに設定されている通貨とは異なる通貨が使用されている場合は、[currency](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target=&quot;_blank&quot;}を有効にして、[currency換算レート](https://docs.magento.com/user-guide/stores/currency-update.html){target=&quot;_blank&quot;}を設定します。
+使用している web store 用に設定されている通貨と別の通貨が Amazon store によって使用されている場合は、 [!DNL Commerce] [ ](https://docs.magento.com/user-guide/configuration/general/currency-setup.html) {target = &quot;_blank&quot;} という通貨を有効にし、為替 [ 換算レート ](https://docs.magento.com/user-guide/stores/currency-update.html) {target = &quot;_blank&quot;} に設定します。
 
-## 7.必要に応じて、製品条件属性を作成します。
+## 7. 製品条件属性を作成します (必要に応じて)。
 
-Amazonのリストに複数の製品条件（_new_、_used_、_like new_&#x200B;など）が含まれる場合は、[!DNL Commerce]属性を作成し、条件値を割り当てます。 オンボーディング時に、この属性をAmazon条件製品属性にマッピングする必要があります。 [Amazon](./ob-creating-magento-attributes.md)の属性の作成を参照してください。
+Amazon リストに複数の製品条件が含まれている場合 (new、を使用した場合、新規作成した場合など __ ) は __ __ 、属性を作成 [!DNL Commerce] して条件値を割り当てます。 この属性は、オンボードの Amazon Condition 製品属性にマップする必要があります。 [Amazon の属性の作成を参照してください ](./ob-creating-magento-attributes.md) 。
 
-## 8.[!DNL Amazon Seller Central]発送方法を設定します
+## 8. 送付方法を設定します。 [!DNL Amazon Seller Central]
 
-Amazonのご注文を満たすために提供する配送方法を設定するには、[!DNL Amazon Seller Central]アカウントの[設定と配送設定][10]を参照してください。
+Amazon の注文を行うための送付方法を設定する方法については、 [ お使いのアカウントの設定 &amp; 出荷設定を参照してください ][10] [!DNL Amazon Seller Central] 。
 
-## 追加の設定
+## その他の設定
 
-Amazonアカウントが設定されアクティブになっている場合、Amazonの販売チャネルのオンボーディングプロセスを効率化するのに役立つ、いくつかの[!DNL Commerce]推奨事項があります。
+Amazon account が設定されていて、アクティブになっている場合は、 [!DNL Commerce] amazon 販売チャンネルのオンボード処理を効率化するためのいくつかのアドバイスが表示されます。
 
-### 除外する製品を確認してメモします。
+### 除外する製品を確認および注意してください。
 
-一部の製品をAmazonに表示したくない場合があります。 Amazonの販売チャネルには、Amazonに発行する資格のある製品を決定するために使用されるリストルールエンジンがあります。 [リスト](./listing-rules.md) ルールを使用すると、カテゴリの選択や1つ以上の製品属性の定義など、アカウントに公開する（または公開しない）製品のサブセットを選択できま [!DNL Amazon Seller Central] す。[!DNL Commerce] [catalog](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target=&quot;_blank&quot;}や[shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}の価格ルールのように、Amazonリストの実施要件に使用する製品属性は&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;を`Yes`に設定する必要があります。 [製品属性](https://docs.magento.com/user-guide/stores/attributes-product.html){target=&quot;_blank&quot;}の&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;を参照してください。
+Amazon には一部の製品が記載されていない場合があります。 Amazon sales channel には、Amazon に公開する対象となる製品を決定するために使用されるリスティングルールエンジンが含まれています。 [リストルールで ](./listing-rules.md) [!DNL Amazon Seller Central] は、カテゴリ選択によって、または1つまたは複数の製品属性を定義することによって、公開する (またはパブリッシュしない) 製品のサブセットを選択することができます。 [!DNL Commerce] [ Catalog ](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html) {target = &quot;_blank&quot;} または [ ショッピングカート ](https://docs.magento.com/user-guide/marketing/price-rules-cart.html) {target = &quot;_blank&quot;} のような価格ルールの場合は、Amazon の一覧特典に使用する製品属性にがに設定されている必要があり **[!UICONTROL Use for Promo Rule Conditions]** `Yes` ます。「製品について」属性の「 **[!UICONTROL Use for Promo Rule Conditions]** [ ](https://docs.magento.com/user-guide/stores/attributes-product.html) {target = &quot;_blank&quot;}」を参照してください。
 
-### [!DNL Amazon Seller Central]領域を非アクティブに設定します
+### [!DNL Amazon Seller Central]非アクティブにするには地域設定を行います。
 
-統合中のエラーのないデータ移行を容易にするために、設定/アカウント情報/休暇の設定で、Amazon地域を`Inactive`ステータスに設定することをお勧めします。 [Amazonを参照：休暇][11]のステータスのリスト。 設定が完了したら、Amazonでステータスを`Active`に戻します。
+統合中にエラーが発生しないデータの移行を容易にするために、Amazon region には、 `Inactive` アカウント情報 > 休暇設定 > 設定で状態を設定することをお勧めします。 [Amazon: 休暇の状態のリストを参照して ][11] ください。セットアップが完了したら、Amazon の状態に戻し `Active` ます。
 
-![次のア](assets/btn-next.png) [**イコン属性の作成を続 [!DNL Commerce] 行**](./ob-creating-magento-attributes.md)
+![次 ](assets/btn-next.png) [**のアイコン属性の作成 [!DNL Commerce]**](./ob-creating-magento-attributes.md)

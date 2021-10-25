@@ -1,6 +1,6 @@
 ---
-title: Amazonリストの終了
-description: コマース管理では、AmazonSales ChannelダッシュボードからAmazonのリストを終了できます。
+title: Amazon リスティングの終了
+description: Commerce 管理ツールを使用して、Amazon 販売チャンネルダッシュボードから Amazon リストを終了することができます。
 exl-id: 178c878b-89fb-4239-8d57-733d0884a73a
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,24 +9,24 @@ ht-degree: 0%
 
 ---
 
-# Amazonリストの終了
+# Amazon リスティングの終了
 
-## 1つまたは複数のAmazonリストの手動での終了
+## 1つまたは複数の Amazon リストを手動で終了する
 
-1. [[!UICONTROL Product Listings]](./managing-product-listings.md)ページ（_[!UICONTROL Inactive]_、_[!UICONTROL Active]_、または&#x200B;_[!UICONTROL Ineligible]_タブ）で1つ以上のリストを表示します。
+1. [[!UICONTROL Product Listings]](./managing-product-listings.md)ページ ( _[!UICONTROL Inactive]_、、またはタブ) に表示されている1つまたは複数のリストを表示_[!UICONTROL Active]_ _[!UICONTROL Ineligible]_します。
 
-1. 左側の列で、をクリックして、終了する各リストを確認します。
+1. 左側の列で、目的のリストの末尾をクリックしてチェックボックスをオンにします。
 
-1. _[!UICONTROL Actions]_の下で、**[!UICONTROL End listing(s) on Amazon]**をクリックします。
+1. _[!UICONTROL Actions]_でをクリックし&#x200B;**[!UICONTROL End listing(s) on Amazon]**ます。
 
-1. 確認メッセージの&#x200B;**[!UICONTROL OK]**&#x200B;をクリックします。
+1. **[!UICONTROL OK]**&#x200B;確認メッセージをクリックします。
 
-## 単一のAmazonリストの手動での終了
+## 1つの Amazon リストを手動で終了する
 
-1. [[!UICONTROL Product Listings]](./managing-product-listings.md)ページ（_[!UICONTROL Inactive]_、_[!UICONTROL Active]_、または&#x200B;_[!UICONTROL Ineligible]_タブ）で1つ以上のリストを表示します。
+1. [[!UICONTROL Product Listings]](./managing-product-listings.md)ページ ( _[!UICONTROL Inactive]_、、またはタブ) に表示されている1つまたは複数のリストを表示_[!UICONTROL Active]_ _[!UICONTROL Ineligible]_します。
 
-1. _[!UICONTROL Action]_列で、****を選択/**リストの終了**をクリックします。
+1. 列で _[!UICONTROL Action]_、**「> の一覧を選択」をクリックし******ます。
 
-1. 確認メッセージの&#x200B;**[!UICONTROL OK]**&#x200B;をクリックします。
+1. **[!UICONTROL OK]**&#x200B;確認メッセージをクリックします。
 
-1つまたは複数のリストを終了する場合、選択したリストが処理中で終了することを確認するメッセージが表示されます。 終了したリストは、[_製品リスト_](./managing-product-listings.md)&#x200B;ページの[終了](./ended-listings.md)タブで管理できます。 処理およびAmazonから削除されると、リストのステータスは`Manually Ended`に変わります。 [_Amazonに公開_](./publish-listings-manually.md)&#x200B;アクションを使用してリストを手動で再公開するまで、終了したリストはAmazonから削除されます。
+リストが1つしかない場合や、複数のリストを選択している場合は、選択されたリストが最後に処理中であることを確認するメッセージが表示されます。 終了一覧は、 [ 製品一覧ページの「終了」タブで管理でき ](./ended-listings.md) [__](./managing-product-listings.md) ます。 Amazon によって処理および削除されると、一覧の状態がに変更され `Manually Ended` ます。 「Amazon に公開」アクションを使用してリストを手動で再パブリッシュするまで、終了した番組一覧は Amazon から削除され [__](./publish-listings-manually.md) ます。

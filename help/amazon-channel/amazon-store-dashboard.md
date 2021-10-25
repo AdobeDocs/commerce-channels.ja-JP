@@ -1,6 +1,6 @@
 ---
-title: Amazon Store Dashboard
-description: Amazonストアダッシュボードを使用して、コマース管理からAmazonストアのアクティビティを表示します。
+title: Amazon Store ダッシュボード
+description: Amazon store のダッシュボードを使用して、Amazon stores による Amazon ストアの利用状況を表示します。
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,18 +9,18 @@ ht-degree: 0%
 
 ---
 
-# Amazon Storeダッシュボード
+# Amazon Store ダッシュボード
 
 
-Amazonの販売チャネルホームページの&#x200B;_[!UICONTROL Amazon Stores]_表示で、ストアカードの&#x200B;**[!UICONTROL View Store]**をクリックして、ストアダッシュボードを開くことができます。
+_[!UICONTROL Amazon Stores]_Amazon sales channel のホームページのビューでは、store カードをクリックして&#x200B;**[!UICONTROL View Store]**store のダッシュボードを開くことができます。
 
-ストアダッシュボードは、各Amazonストアのアクティビティを表示する主な場所です。 [!DNL Amazon Seller]店舗を追加して統合すると、店舗のデータビューを通じて注文と販売の追跡が行われます。 ダッシュボードでは、売上高の表示、トレンドの追跡、およびリストの販売データの確認を行うことができます。 リストと販売は、アクティブ、非アクティブ、進行中など、リストのタイプ別にさらにグループ化され、追跡されます。
+Store のダッシュボードは、各 Amazon store の利用状況を表示するための主要な場所です。 店舗が [!DNL Amazon Seller] 追加され、統合されたので、注文と販売は、ストアのデータビューを通じて記録されます。 では、売り上げを表示したり、トレンドを追跡したり、出展の売り上げデータを確認することができます。 出展と販売は、アクティブ、非アクティブ、進行中など、リストタイプごとにグループ化および追跡されます。
 
-また、[ストア設定](./ob-store-review.md)、[リストの管理](./managing-product-listings.md)、販売データと最近の注文情報を表示することもできます。
+また、ストア設定にアクセスしたり、 [ ](./ob-store-review.md) [ 番組一覧 ](./managing-product-listings.md) を管理したり、売り上げデータや最近の注文情報を表示したりすることもできます。
 
-![Amazon Storeダッシュボード](assets/amazon-store-dashboard.png)
+![Amazon Store ダッシュボード](assets/amazon-store-dashboard.png)
 
-ストアダッシュボードのヘッダーには、ストアカードに表示されるのと同じ基本的なストア情報が表示されます。
+ストアのダッシュボードのヘッダーには、次のように、ストアカードに表示されているものと同じ基本ストア情報が表示されます。
 
 - _[!UICONTROL Store Name]_
 - _[!UICONTROL Magento Website]_
@@ -28,30 +28,30 @@ Amazonの販売チャネルホームページの&#x200B;_[!UICONTROL Amazon Stor
 - _[!UICONTROL Created]_
 - _[!UICONTROL Last Updated]_
 
-ストアダッシュボードには、ストアデータと、次の設定や詳細情報へのリンクも含まれます。
+Store のダッシュボードには、ストアデータや設定へのリンクなどの情報も含まれます。
 
-- [**[!UICONTROL Store Settings]**](./ob-store-review.md)  — ストアの設定とレポートにアクセスします。
+- [**[!UICONTROL Store Settings]**](./ob-store-review.md) -ストア設定とレポートにアクセスします。
 
-   - [**[!UICONTROL Listing settings]**](./listing-settings.md)  — 製品カタログとのやり取りを制御しま [!DNL Amazon Marketplace]す。
+   - [**[!UICONTROL Listing settings]**](./listing-settings.md) -製品カタログがにどのように作用するかを制御 [!DNL Amazon Marketplace] します。
 
-   - [**[!UICONTROL Order settings]**](./order-settings.md) - Amazonの注文の管理方法を制御します。
+   - [**[!UICONTROL Order settings]**](./order-settings.md) -Amazon の注文を管理する方法を制御します。
 
-   - [**[!UICONTROL Listing rules]**](./listing-rules.md) - Amazonでリスト表示する資格のあるカタログ製品を定義します。
+   - [**[!UICONTROL Listing rules]**](./listing-rules.md) -Amazon に記載されているカタログ製品を定義します。
 
-   - [**[!UICONTROL Pricing rules]**](./pricing-products.md)  — 認定リストに対するAmazonの定価の変更方法を定義します。
+   - [**[!UICONTROL Pricing rules]**](./pricing-products.md) -認定リストについて Amazon list 価格がどのように変更されるかを定義します。
 
-   - [**[!UICONTROL Store reports]**](./amazon-logs-reports.md)  — 競合 [価格分析](./competitive-price-analysis.md) と [上場の改善](./listing-improvements.md)。
+   - [**[!UICONTROL Store reports]**](./amazon-logs-reports.md) - [ 競争価格の分析 ](./competitive-price-analysis.md) と [ リスト ](./listing-improvements.md) の改善
 
-   - [**[!UICONTROL Logs]**](./amazon-logs-reports.md)  — 変更 [と通信](./listing-changes-log.md) エラー [を表示します](./communication-errors-log.md)。
+   - [**[!UICONTROL Logs]**](./amazon-logs-reports.md) - [ 変更および通信エラーの一覧を表示し ](./listing-changes-log.md) [ ](./communication-errors-log.md) ます。
 
-   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md)  — 管理者で、電子メールおよびAmazonの販売チャネルストア名の設定を確認 [!DNL Commerce] します。
+   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md) -「管理者」で、電子メールと Amazon channel store name の設定を確認して [!DNL Commerce] ください。
 
-- **[!UICONTROL Store Listings]**  — 過去7 ～ 30日間の店舗の売上高をグラフで表示し、全期間の売上データを表示します。
+- **[!UICONTROL Store Listings]** ここでは、最新の7日または30日間の店舗売上を、有効期間売上データと共に示します。
 
-   このセクションには、[アクティブなリスト](./active-listings.md)、[非アクティブなリスト](./inactive-listings.md)、および進行中のリストのカウントと、対応する&#x200B;_[!UICONTROL Product Listings]_ページへのリンクも表示されます。**[!UICONTROL Manage Listings]**をクリックして_[!UICONTROL Product Listings]_&#x200B;ページを開くこともできます。 [Amazonリストの管理](./managing-product-listings.md)を参照してください。
+   このセクションには [ 、アクティブな番組表の数、アクティブな番組リスト、進行中の番組の一覧の ](./active-listings.md) [ ](./inactive-listings.md) ほか、対応するページへのリンクも表示さ _[!UICONTROL Product Listings]_れます。 クリックしてページを表示することもでき&#x200B;**[!UICONTROL Manage Listings]**_[!UICONTROL Product Listings]_ ます。 [Amazon リストの管理を参照してください ](./managing-product-listings.md) 。
 
-- **[!UICONTROL Recent Orders]**  — 最新のAmazon注文の情報が表示されます。表示される情報は、Amazonから受信した情報に基づきます。 [注文のインポート](./order-settings.md)が有効になっている場合でも、このテーブルは[!DNL Commerce]注文情報で更新されません。 すべてのAmazon注文を表示するには、「**すべての注文**」をクリックします。
+- **[!UICONTROL Recent Orders]** -最新の Amazon orders についての情報を表示します。 リストに表示される情報は、Amazon から得られた情報に基づいています。 このテーブルは [!DNL Commerce] 、 [ 注文のインポートが有効になっていても、注文情報によって更新されることはありません ](./order-settings.md) 。 すべての Amazon の注文を表示するには、「すべての注文」をクリックし **** ます。
 
-   列の説明については、[Amazonの注文](./amazon-orders-all.md)を表示し、詳しくは[注文の管理](./managing-orders.md)を参照してください。
+   [ ](./amazon-orders-all.md) [ 詳細については、「Amazon 命令の表示」の説明を参照してください ](./managing-orders.md) 。
 
-- **[!UICONTROL Seller Central links]**  — 重要な情報へのリンクを提供 [!DNL Amazon Seller Central] します。
+- **[!UICONTROL Seller Central links]** -重要な情報へのリンクが記載されて [!DNL Amazon Seller Central] います。
