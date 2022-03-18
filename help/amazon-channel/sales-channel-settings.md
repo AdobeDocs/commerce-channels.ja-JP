@@ -1,44 +1,54 @@
 ---
-title: 販売チャンネル設定
-description: ログ、cron ソース、および Amazon 販売チャンネル機能の同期を管理するには、Commerce の設定を更新します。
+title: Sales Channel設定
+description: Amazonセールスチャネル機能のログ、クローンソース、同期を管理するには、Commerce 設定を更新します。
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-# 販売チャンネル設定
+# Sales Channel設定
 
-[!DNL Amazon Sales Channel]拡張機能がインストールされている場合は、Amazon sales チャンネルの管理にデフォルト値が設定されます。これらの設定は、Amazon store の設定によって変更されることがあります。 次のような設定があります。
+次の場合に [!DNL Amazon Sales Channel] 拡張機能がインストールされている場合、デフォルト値は「 Amazonの管理」セールスチャネルに設定されます。 これらの設定は、Amazonストアの設定で変更できます。 以下の設定が含まれます。
 
-- アクティビティログ履歴を消去する間隔
+- アクティビティログ履歴をクリアする間隔
 - Cron ソースの選択
 - ログ同期オプション
 
-## Commerce チャネルの設定を変更します。
+## コマースチャネル設定の変更
 
-1. _管理者は_ 、> > を参照して **[!UICONTROL Stores]** _[!UICONTROL Settings]_**[!UICONTROL Configuration]**ください。
+1. の _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開し、を **[!UICONTROL Sales Channels]** 選択し **[!UICONTROL Global Settings]** ます。
+1. 左側のパネルで、を展開します。 **[!UICONTROL Sales Channels]** を選択します。 **[!UICONTROL Global Settings]**.
 
-1. **[!UICONTROL Clear Log History]**&#x200B;で、次のいずれかのオプションを選択します。
+1. の場合 **[!UICONTROL Clear Log History]**、オプションを選択します。
 
-   - `Once Daily` -ストアの利用状況の履歴を1日に1回削除する場合に選択します。
+   - `Once Daily`  — 毎日 1 回ストアアクティビティの履歴をクリアするように選択します。
 
-   - `Once Weekly` -1 週間に1回、ストアの利用状況の履歴を消去する場合に選択します。
+   - `Once Weekly`  — 毎週 1 回ストアアクティビティ履歴をクリアするように選択します。
 
-   - `Once Monthly` -(デフォルト) 毎月保存するアクティビティの履歴を削除します。
+   - `Once Monthly` - （デフォルト）毎月 1 回、ストアアクティビティ履歴をクリアするように選択します。
 
-1. について **[!UICONTROL Background Tasks (CRON) Source]** は、を選択 `Magento CRON` します。
+1. の場合 **[!UICONTROL Background Tasks (CRON) Source]**&#x200B;選択 `Magento CRON`.
 
-   このオプションを使用すると、Amazon 販売チャンネルの Cron 設定を使用して、 [!DNL Commerce] [ ](https://docs.magento.com/user-guide/system/cron.html) の通信およびデータ同期の間隔を指定することができ [!DNL Amazon Seller Central] ます。
+   このオプションを使用すると、Amazonのセールスチャネルで [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) 通信間隔とデータ同期間隔を [!DNL Amazon Seller Central].
 
-1. について **[!UICONTROL Enable Debug Logging]** `Enabled` は、トラブルシューティングが必要なときに、追加の同期データを収集するように選択します。
+1. の場合 **[!UICONTROL Enable Debug Logging]**&#x200B;選択 `Enabled` トラブルシューティングが必要な場合に、追加の同期データを収集する。
 
-   Amazon 販売チャンネルのログ出力がファイルに書き込まれ、 `{Commerce Root}/var/log/channel_amazon.log` [ 開発モード ](https://docs.magento.com/user-guide/magento/installation-modes.html) {target = &quot;_blank&quot;} で表示できるようになります。 ログは `Enabled` トラブルシューティングの際にのみ実行し、 `Disabled` トラブルシューティングが完了したら実行する必要があります。
+   Amazonセールスチャネルのログは、 `{Commerce Root}/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}。 ログは次の場合にのみ実行します `Enabled` トラブルシューティング中に、 `Disabled` トラブルシューティングが完了したら、
 
-1. をクリックし **[!UICONTROL Save Config]** ます。
+1. の場合 **[!UICONTROL Read-Only Mode]**&#x200B;を選択します。 `Enabled` をクリックして、送信状態が変化するすべての API リクエストをブロックします。
 
-![販売チャンネルの設定](assets/config-sales-channel-global-settings.png)
+   この設定を使用すると、潜在的な変更は保存されますが、送信されなくなります。 [!UICONTROL Read-Only Mode] は無効です。 読み取り専用モードを有効にするには、設定キャッシュをクリアする必要があります。 データ転送を再度開始するには、 `Disabled`.
+
+   >[!IMPORTANT]
+   >
+   >[!UICONTROL Read-Only Mode] は、ステージングや QA など、実稼動インスタンスのコピー用に設計されており、実稼動インスタンスでは使用しないでください。
+   >
+   >データベースがインスタンスの新しいコピーに移行された場合（ストアの URL が設定内で変更された場合に検出されます）、 [!UICONTROL Read-Only Mode] は自動的に有効になります。
+
+1. クリック **[!UICONTROL Save Config]**.
+
+![Sales Channel設定](assets/config-sales-channel-global-settings.png)
