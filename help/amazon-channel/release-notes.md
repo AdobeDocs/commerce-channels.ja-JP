@@ -2,9 +2,9 @@
 title: '''[!DNL Amazon Sales Channel] リリースノート'''
 description: すべての [!DNL Amazon Sales Channel] リリース。
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 19424bf0deebf2b5464f973edad48f63d6042463
+source-git-commit: adf86495e7de53f9ee7bc916b2a7398f04e7cbd4
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,17 @@ ht-degree: 0%
 
 詳しくは、 [今後のリリース](https://devdocs.magento.com/release/){target=&quot;_blank&quot;} のバージョン管理、サポートおよび互換性。
 
+## v4.4.3
+
+[!DNL Amazon sales channel]  4.4.3 は、Adobe CommerceMagento Open Source2.3.x および 2.4.0 と互換性がありますが、クラウドインフラストラクチャ上のバージョン 2.4.1 以降、Adobe Commerce、Adobe Commerceのバージョン 2.4.1 でのみサポートされます。
+
+このバージョンの [!DNL Amazon sales channel] には、次の修正が含まれています。
+
+![修正点](../assets/fix.svg) Adobe Commerce 2.4.4 のサポートを追加しました。
+
 ## v4.4.2
 
-[!DNL Amazon sales channel]  4.4.2 は、Adobe Commerceバージョン 2.3.x および 2.4.0 と互換性がありますが、Magento Open Source、Adobe Commerce、およびクラウドインフラストラクチャ上のAdobe Commerceのバージョン 2.4.1 以降でのみサポートされます。
+[!DNL Amazon sales channel]  4.4.2 は、Adobe CommerceMagento Open Source2.3.x および 2.4.0 と互換性がありますが、クラウドインフラストラクチャ上のバージョン 2.4.1 以降、Adobe Commerce、Adobe Commerceのバージョン 2.4.1 でのみサポートされます。
 
 このバージョンの [!DNL Amazon sales channel] には、次の修正が含まれています。
 
