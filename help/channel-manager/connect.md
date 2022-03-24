@@ -3,9 +3,10 @@ title: Commerce Services に接続
 description: Channel Manager インスタンスの接続先 [!DNL Commerce services] コマースインスタンス、チャネルマネージャー、およびその他のサポートサービス間でのデータ同期と通信を有効にする。
 role: User
 level: Intermediate
-source-git-commit: ec950579a9b2220f9ec106b616779fc3503f3add
+exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,15 @@ ht-degree: 0%
 
 Commerce Services コネクタは、チャネルマネージャーサービスをAdobe CommerceおよびMagento Open Sourceインスタンスと統合します。 コネクタは、 [!DNL Commerce] 例 [!DNL Channel Manager]、およびその他のサポートサービス。
 
-Commerce Services コネクタの設定は、Adobeの使用に必要な 1 回限りのプロセスです [Commerce SaaS サービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} いいね！ [!DNL Channel Manager], [!DNL Live Search]、および [!DNL Product Recommendations]. コネクタを別のサービス用に既に設定している場合は、この手順をスキップできます。
+Commerce Services コネクタの設定は、Adobeの使用に必要な 1 回限りのプロセスです [Commerce SaaS サービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} いいね！ [!DNL Channel Manager], [!DNL Live Search]、および [!DNL Product Recommendations]. コネクタを別のサービス用に既に設定している場合は、この手順をスキップします。
 
 ## 前提条件
 
-- **次を持つコマースアカウント [管理アクセス](https://docs.magento.com/user-guide/stores/admin.html){target=&quot;_blank&quot;}** をコマースインスタンスに設定します** — アカウントの所有者と管理者ユーザーは、コマースインスタンスから、またはコマンドラインから、 [!DNL Commerce] CLI コマンド `admin:user:create`.
+- **コマースアカウント** — コマースインスタンスにソフトウェアをインストールするには、コマースプラットフォームへの所有者または管理者アクセス権を持つアカウントが必要です。
 
-- **Adobe Commerce [実稼動 API キー](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}** — チャネルマネージャーで必要なサービスへの API アクセスを有効にする
+   アカウントの所有者と管理者ユーザーは、コマースインスタンスから、またはコマンドラインから、 [!DNL Commerce] CLI コマンド `admin:user:create`.
+
+- **Adobe Commerce Production API キー**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} は、チャネルマネージャーで必要なサービスへの API アクセスを有効にします。 このキーの公開および非公開の資格情報が必要です。
 
    資格情報を提供するために、コマースのライセンス所有者またはアカウント所有者には、次のオプションがあります。
    [アクセスを共有](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} または [API キー](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} 個の信頼できる開発者に対する資格情報。
@@ -29,13 +32,13 @@ Commerce Services コネクタの設定は、Adobeの使用に必要な 1 回限
 
 1. ストアサービスの設定を開きます。
 
-   - 管理者から、 [!UICONTROL Stores].
+   - 管理者から、 **[!UICONTROL Stores]**.
 
-   - の下 *設定*&#x200B;を選択します。 [!UICONTROL Configuration].
+   - の下 *設定*&#x200B;を選択します。 **[!UICONTROL Configuration]**.
 
-   - の [!UICONTROL Configuration] ページ、展開 [!UICONTROL Services] を選択し、 [!UICONTROL Commerce Services Connector].
+   - 展開 **[!UICONTROL Services]** を選択し、 **[!UICONTROL Commerce Services Connector]**.
 
-1. Adobe Commerceアカウントから実稼動 API キーを追加します。
+1. Adobe Commerceアカウントから実稼動 API のキー資格情報を追加します。
 
    ![[!DNL Commerce Service Connector] サービス [!DNL Admin] 表示](assets/commerce-services-connector-admin-service-view.png)
 

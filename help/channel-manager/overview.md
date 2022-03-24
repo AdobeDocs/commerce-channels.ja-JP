@@ -1,15 +1,15 @@
 ---
-title: «の概要 [!DNL Channel Manager]"
+title: について [!DNL Channel Manager]
 description: インストールと使用の方法を学ぶ [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceストアをサードパーティのマーケットプレイスと統合し、販売チャネルを作成して、コマース管理者からシームレスにマーケットプレイスリスト、価格、在庫、販売を管理します。
 role: User
 level: Intermediate
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
-
 
 # 概要
 
@@ -65,7 +65,7 @@ Channel Manager のベータリリースでは、Walmart Marketplace で製品�
 
    * ソリューションプロバイダーとして「Adobe」を選択します。
 
-   * 次の表に示すように、権限を設定します。 詳しくは、 [API 資格情報](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 内 _Walmart Marketplace セラーヘルプ_.
+   * 次の表に示すように、権限を設定します。 詳しくは、 [API 資格情報](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 内 *Walmart Marketplace セラーヘルプ*.
 
 |    **AdobeAPI の Walmart のキー設定**
 | **権限** | **設定** | |—|—| |コンテンツ |フルアクセス | |フィードの取得 |表示のみ | |在庫 |フルアクセス | |項目 |フルアクセス | |ラグタイム |フルアクセス | |注文 |フルアクセス | |価格 |フルアクセス | |レポート |表示のみ | |戻り値 |フルアクセス | |ルール |フルアクセス | |発送 |フルアクセス |

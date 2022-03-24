@@ -1,13 +1,13 @@
 ---
 title: インストール [!DNL Channel Manager]
 description: Channel Manager 拡張機能をインストールします。
-source-git-commit: 517cafd3ccf8e3cfb38ec9a279efa2218e84694f
+exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # チャネルマネージャのインストール
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 拡張機能のインストール
 
-インストール手順は、Channel Manager をオンプレミスインスタンスとクラウドコマースインスタンスのどちらにインストールするかによって異なります。
+Channel Manager のインストール手順は、Adobe CommerceまたはMagento Open Sourceがオンプレミスとクラウドインフラストラクチャのどちらにデプロイされているかによって異なります。
 
 - にインストールする [オンプレミスインスタンス](#install-on-an-on-premises-instance).
 
@@ -126,12 +126,13 @@ ht-degree: 0%
 
 分岐の使用に関するヘルプについては、 [ブランチの作成を開始する](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}(Adobe Commerce開発者向けドキュメント )。
 
-拡張機能をインストールする際に、拡張機能名 (&lt;vendorname>\_&lt;componentname>) は [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;} ファイル。 ファイルを直接編集する必要はありません。
+インストール時に、拡張子の名前 (`&lt;VendorName>\_&lt;ComponentName>`) は [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;} ファイル。 ファイルを直接編集する必要はありません。
 
 1. ローカルワークステーションで、クラウドプロジェクトのルートディレクトリに移動します。
 
-1. 開発ブランチを作成するか、チェックアウトします。 詳しくは、 [分岐](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}。
-1. コンポーザー名を使用して、拡張機能を `require` composer.json ファイルのセクションに含まれています。
+1. 開発の作成またはチェックアウト [分岐](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}。
+
+1. コンポーザー名を使用して、拡張機能を `require` セクション `composer.json` ファイル。
 
    ```bash
    $ composer require magento/channel-manager --no-update
@@ -148,7 +149,7 @@ ht-degree: 0%
    ```
 
    ```bash
-   $ git push origin &lt;branch-name>
+   $ git push origin <branch-name>
    ```
 
 1. ビルドとデプロイが完了したら、SSH を使用してリモート環境にログインし、拡張機能が正しくインストールされていることを確認します。
@@ -197,7 +198,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
    $ cat /path/to/auth.json
    ```
 
-1. auth.json の資格情報が一致していることを確認します。[ 画像 ID に関連付けられているキー](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} は、チャネルマネージャーサービスの登録に使用されました。
+1. auth.json の資格情報が一致していることを確認します。 [画像 ID に関連付けられているキー](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} は、チャネルマネージャーサービスの登録に使用されました。
 
 ### PHP のメモリ不足
 
@@ -223,6 +224,14 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
+### ビューが見つかりません
+
+見つからない `process_catalog_exporter_view` Channel Manager のインストール中に、 [インデクサーを更新しています](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}。
+
+```bash
+php bin/magento indexer:refresh
+```
+
 ### クラウドデプロイメントエラー
 
-拡張機能をクラウドにデプロイする際に問題が発生した場合は、[拡張機能のデプロイメント失敗](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}。
+拡張機能をクラウドにデプロイする際に問題が発生した場合は、 [拡張機能のデプロイメント失敗](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}。

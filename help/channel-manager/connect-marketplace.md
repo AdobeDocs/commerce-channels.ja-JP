@@ -1,12 +1,14 @@
 ---
-title: 'Sales Channelの接続先 [!DNL Walmart Marketplace] '
+title: Sales Channelの接続先 [!DNL Walmart Marketplace]
 description: セールスチャネルを設定し、Walmart Marketplace に接続します。
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
+
 
 # 接続先 [!DNL Walmart Marketplace]
 
@@ -56,7 +58,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >が [!DNL Adobe Inc] 開発者ポータルのキーで、「 **[!UICONTROL Add New Key for a Solution Provider]** 権限を設定し、キーを生成する。 設定の詳細については、 [を生成する [!DNL Walmart Marketplace API Key]](overview.md#generate-a-walmart-marketplace-api-key).
+      >この [!DNL Adobe Inc] キーが開発者ポータルに表示されない場合は、 **[!UICONTROL Add New Key for a Solution Provider]** 権限を設定し、キーを生成する。 設定の詳細については、 [を生成する [!DNL Walmart Marketplace API Key]](walmart-prerequisites.md#generate-a-walmart-marketplace-api-key).
 
    - 戻る [!DNL Channel Manager] 認証情報を **[!UICONTROL Walmart Connection]** 情報。
 
@@ -75,29 +77,6 @@ ht-degree: 0%
 
 - 次の [!DNL Walmart Developer Portal]に設定し、の実稼動 API キーの正しい資格情報をコピーしたことを確認します。 [!UICONTROL Adobe Inc.]
 
-- WalmartAdobeAPI キーのアクセス設定に正しい権限があることを確認します。 詳しくは、 [ウォルマートの前提条件](overview.md#walmart-prerequisites).
+- WalmartAdobeAPI キーのアクセス設定に正しい権限があることを確認します。 詳しくは、 [ウォルマートの前提条件](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - Walmart API サービスが [ウォルマート API ステータスページ](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
-
-
-## ストア設定の完了
-
-コマースストアを [!DNL Walmart Marketplace]を使用すると、 [!DNL Channel Manager Stores] 表示
-
-ストア設定を完了するには：
-
-1. 管理者から、「**」を選択します&#x200B;[!UICONTROL Marketing** > **チャネルマネージャ**].
-
-   ![[!DNL Walmart Marketplace API key] 設定ページ](assets/connect-commerce-store-config.png)
-
-1. ストアエントリ行で鉛筆アイコンを選択して、接続されたセールスチャネルを開きます。
-
-1. セールスチャネルの運用を開始します。
-
-   - コマースカタログからチャネルマネージャに製品を追加する
-
-   - 製品の照合を使用して製品をウォルマートに発行
-
-   - 在庫と価格の表示と管理
-
-   - コマース管理者からのウォルマート注文の表示と管理
