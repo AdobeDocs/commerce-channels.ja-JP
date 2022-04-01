@@ -2,9 +2,9 @@
 title: Sales Channelの接続先 [!DNL Walmart Marketplace]
 description: セールスチャネルを設定し、Walmart Marketplace に接続します。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 0%
    - を追加します。 **[!UICONTROL email address]** ～に関するサービス通知を受け取る [!DNL Channel Manager].
 
       ![コマースとの接続を設定する [!DNL Walmart Marketplace] から [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
-
 
 ## チャネルを Walmart Marketplace に接続します。
 
@@ -80,3 +79,25 @@ ht-degree: 0%
 - WalmartAdobeAPI キーのアクセス設定に正しい権限があることを確認します。 詳しくは、 [ウォルマートの前提条件](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - Walmart API サービスが [ウォルマート API ステータスページ](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
+
+## ストア設定の完了
+
+コマースストアを [!DNL Walmart Marketplace]を使用すると、 [!DNL Channel Manager Stores] 表示
+
+ストア設定を完了するには：
+
+1. 管理者から、「**」を選択します&#x200B;[!UICONTROL Marketing** > **チャネルマネージャ**].
+
+   ![[!DNL Walmart Marketplace API key] 設定ページ](assets/connect-commerce-store-config.png)
+
+1. ストアエントリ行で鉛筆アイコンを選択して、接続されたセールスチャネルを開きます。
+
+1. セールスチャネルの運用を開始します。
+
+   - [コマースカタログからチャネルマネージャに製品を追加する](add-products-to-connected-channel.md)
+
+   - [製品の照合を使用して製品をウォルマートに発行](publish-listings-to-marketplace.md)
+
+   - [在庫と価格の表示と管理](inventory-and-price-updates.md)
+
+   - コマース管理者からのウォルマート注文の表示と管理

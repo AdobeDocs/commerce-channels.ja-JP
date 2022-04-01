@@ -2,7 +2,7 @@
 title: インストール [!DNL Channel Manager]
 description: Channel Manager 拡張機能をインストールします。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 4509528d1b084c9a91fd6be0d0a863782edb3bdd
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -178,7 +178,6 @@ Channel Manager のインストールプロセス中に発生したエラーを�
 ### コンポーザーのキーが正しくありません
 
 この [アクセスキー](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html)Composer リポジトリの認証に使用した {target=&quot;_blank&quot;} が無効か、 [!DNL MAGE ID] ～に新規登録するのに使われる [!DNL Channel Manager] サービスの場合、次のエラーが表示されます。
-
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
