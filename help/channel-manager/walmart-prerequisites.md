@@ -2,9 +2,9 @@
 title: ウォルマートの前提条件
 description: Channel Manager と統合するために必要な Walmart Marketplace 情報とリソースが揃っていることを確認します。
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 0%
 
 ## Marketplace セラーアカウントを設定する
 
-1. [Walmart Seller の申し込みを送信](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [Walmart Seller の申し込みを送信](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 1. ウォルマートから承認を得て [ウォルマート販売者アカウントを設定する](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Walmart Marketplace API キーを生成
+## Walmart Marketplace Production API キーを生成
 
 1. Walmart Marketplace に移動して、 [Adobe用のソリューションプロバイダー実稼動 API キー](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 

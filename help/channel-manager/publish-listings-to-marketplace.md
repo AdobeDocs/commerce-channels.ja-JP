@@ -2,25 +2,25 @@
 title: ウォルマートにリストを発行
 description: Walmart Marketplace にコマース製品のリストを公開して、販売を開始します。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # ウォルマートにリストを発行
 
-他の市場と同様に、Walmart はサードパーティの販売者に、他の販売者が販売した商品のリストを提供します。
+他の市場と同じように [!DNL Walmart] では、サードパーティ販売者は、他のユーザーが販売した品目をリストできます。
 
-プラットフォームは、UPC や GTIN などの製品識別子を使用して、既に販売されている品目を照合します。
-一致する製品の場合は、コマース製品オファーを含むための更新が表示される既存の Walmart Marketplace。
+プラットフォームは、UPC や GTIN などの製品識別子を使用して、既存の [!DNL Walmart Marketplace] リスト
+一致する製品の場合、製品を公開する際に Commerce 製品オファーを含めるための更新が Walmart Marketplace に一覧表示されます。 [!DNL Channel Manager].
 
-通常、最も価格が低い商品が最初に結果に表示されますが、レビューなどの他の要因も配置に影響します。
+通常、最も価格が低い製品オファーは、 [!DNL Walmart Marketplace] リストに加え、レビューなどの他の要因も配置に影響を与えます。
 
 ## 製品を一致させる
 
-製品を照合すると、チャネルマネージャーは製品データを Walmart Marketplace に送信し、マッピングされた Commerce 製品属性に一致する属性値を持つ既存のリストを検索します。 一致条件は、 [属性マッピング設定](map-product-attributes-for-matching.md) （ストアチャネル用）。
+製品が一致すると、チャネルマネージャーは製品データをに送信します。 [!DNL Walmart Marketplace] をクリックして、マッピングされた Commerce 製品属性に一致する属性値を持つ既存のリストを検索します。 一致条件は、 [attribute-mapping 設定](map-product-attributes-for-matching.md) （ストアチャネル用）。
 
 一致する製品が見つかった場合は、既存の製品リストが更新され、オファーが追加されます。
 

@@ -2,14 +2,15 @@
 title: インストール [!DNL Channel Manager]
 description: Channel Manager 拡張機能をインストールします。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 50c5a3b5987f0e5227d9c4f4999caab8bf6b3fd8
+source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# チャネルマネージャのインストール
+
+# インストール [!DNL Channel Manager]
 
 以下を確認します。 [前提条件](onboard.md#prerequisites) を参照して、必要な情報を収集してから Channel Manager をインストールします。
 
@@ -42,7 +43,7 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
 
 ### オンプレミスインスタンスにインストールする
 
-以下の手順を使用して、Adobe CommerceおよびMagento Open Sourceプラットフォームにをインストールします。
+次の手順を使用して、 [!DNL Channel Manager] オンプレミスインスタンスに対するAdobe CommerceとMagento Open Source。
 
 1. にログインします。 [!DNL Commerce] サーバ as a [権限を持つユーザー](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;} に書き込む [!DNL Commerce] ファイルシステム。
 
@@ -126,7 +127,7 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
 
 分岐の使用に関するヘルプについては、 [ブランチの作成を開始する](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}(Adobe Commerce開発者向けドキュメント )。
 
-インストール時に、拡張子の名前 (`&lt;VendorName>\_&lt;ComponentName>`) は [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;} ファイル。 ファイルを直接編集する必要はありません。
+インストール時に、拡張子の名前 (`magento\channel-manager`) は [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target=&quot;_blank&quot;} ファイル。 ファイルを直接編集する必要はありません。
 
 1. ローカルワークステーションで、クラウドプロジェクトのルートディレクトリに移動します。
 
@@ -158,7 +159,7 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
    $ git push origin <branch-name>
    ```
 
-1. ビルドとデプロイが完了したら、SSH を使用してリモート環境にログインし、拡張機能が正しくインストールされていることを確認します。
+1. ビルドおよびデプロイプロセスが完了したら、SSH を使用してリモート環境にログインし、拡張機能が正しくインストールされていることを確認します。
 
    ```bash
    $ bin/magento module:status channel-manager
@@ -170,7 +171,7 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
    Module is enabled
    ```
 
-1. インストールが正常に完了したら、 [!UICONTROL Admin] から [Commerce Services コネクタの設定](connect.md).
+1. 拡張機能が正常にインストールされたら、 [!UICONTROL Admin] から [Commerce Services コネクタの設定](connect.md).
 
    >[!NOTE]
    >

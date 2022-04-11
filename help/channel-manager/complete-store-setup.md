@@ -1,17 +1,17 @@
 ---
 title: チャネル設定の完了
 description: 接続されたセールスチャネルに移動して、製品リストの表示と管理、在庫と価格の更新、注文の追跡を行います
-source-git-commit: 193eadda9b93d656bf799f9fb66a4cc3d6a40405
+exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
+# チャネル設定の完了
 
-# ストア設定の完了
-
-コマースストアを [!DNL Walmart Marketplace]を使用すると、 [!DNL Channel Manager Stores] 表示
+コマースストアを [!DNL Walmart Marketplace]、 [!DNL Channel Manager Stores] 表示
 
 1. 管理者から、「**」を選択します&#x200B;[!UICONTROL Marketing** > **チャネルマネージャ**].
 
@@ -28,4 +28,3 @@ ht-degree: 0%
    - [Channel Manager が Commerce と Walmart の間で在庫と価格の更新を同期する方法を説明します](inventory-and-price-updates.md)
 
    - コマース管理者からのウォルマート注文の表示と管理
-

@@ -1,15 +1,16 @@
 ---
-title: 製品マッチングの設定
+title: 製品の照合の設定
 description: コマース製品を既存の Walmart Marketplace リストに一致させる属性のマッピング
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 製品マッチングの設定
+# 製品の照合の設定
 
 リストを Walmart Marketplace に公開する前に、商品カタログ属性の一意の ID を少なくとも 1 つ、必要な Walmart Marketplace 製品 ID の 1 つにマッピングします。 この手順は、Walmart Marketplace の製品を照合するために必要です。
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 ## 製品属性設定の指定
 
-1. 接続されたセールスチャネルの製品リストページで、 *ドラフト* ステータス。
+1. の [!UICONTROL Listings] 接続されたセールスチャネルのページで、 *ドラフト* ステータス。
 
 1. 選択 **[!UICONTROL Settings]**.
 

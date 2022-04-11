@@ -1,28 +1,28 @@
 ---
-title: Sales Channelの接続先 [!DNL Walmart Marketplace]
+title: セールスチャネルの接続先 [!DNL Walmart Marketplace]
 description: セールスチャネルを設定し、Walmart Marketplace に接続します。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 接続先 [!DNL Walmart Marketplace]
+# セールスチャネルの接続先 [!DNL Walmart Marketplace]
 
 に Channel Manager をインストールした後、 [!DNL Commerce] 例えば、コマースストアを Walmart Marketplace に接続します。
 
-1. セールスチャネルの作成基準 [製品リスト用のコマースストアの選択](#select-the-commerce-store-for-the-sales-channel).
+1. [セールスチャネルを作成](#create-the-sales-channel) 商品リスト用のコマースストアを選択する。
 
 1. [チャネルの接続先 [!DNL Walmart Marketplace] ウォルマート API 資格情報を追加する](#connect-the-channel-to-walmart-marketplace).
 
-1. [セールスチャネルの設定の完了](#complete-store-setup) そのため、Channel Manger からリスト、在庫、価格、販売を管理できます。
+1. [セールスチャネルの設定の完了](#complete-store-setup) をクリックして、Walmart Marketplace 製品の品揃えのリスト、在庫、価格、注文を管理します。
 
 ## セールスチャネルを作成
 
-1. チャネルマネージャを開きます。
+1. 開く [!DNL Channel Manager].
 
    - 管理者で、 **[!UICONTROL Marketing** > _チャネル&#x200B;_> **チャネルマネージャ]**.
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## チャネルを Walmart Marketplace に接続します。
 
-1. の資格情報を追加します。 [!DNL Walmart Marketplace Adobe Production API key] から [!DNL Walmart Marketplace Seller] アカウント
+1. の資格情報を追加します。 [[!DNL Walmart Marketplace Adobe Production API key]](connect-marketplace.md#generate-a-walmart-marketplace-production-api-key) から [!DNL Walmart Marketplace Seller] アカウント
 
    - 資格情報をお持ちでない場合は、「 」を選択します。 **[!UICONTROL Get API credentials]** 彼らを [!DNL Walmart Marketplace Developer Portal].
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
       に資格情報を追加する場合 [!DNL Channel Manager]の場合、Adobeはクライアントシークレットを非表示にし、値を安全な Vault に保存します。
 
-1. [!UICONTROL Save] 接続を確立するための設定。
+1. 選択 [!UICONTROL Save] 設定を適用し、 [!DNL Walmart marketplace].
 
-   接続に成功したら、 **[!UICONTROL Channel Manager > Marketplace Stores]**.
+接続に成功したら、 **[!UICONTROL Channel Manager > Marketplace Stores]**.
 
-   ![[!DNL Walmart Marketplace API key] 設定ページ](assets/manage-connected-stores.png)
+![[!DNL Walmart Marketplace API key] 設定ページ](assets/manage-connected-stores.png)
 
 
 ### 接続の問題のトラブルシューティング
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 - WalmartAdobeAPI キーのアクセス設定に正しい権限があることを確認します。 詳しくは、 [ウォルマートの前提条件](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
-- Walmart API サービスが [ウォルマート API ステータスページ](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
+- を確認します。 [!DNL Walmart API] サービスは [ウォルマート API ステータスページ](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
 
 ## ストア設定の完了
 

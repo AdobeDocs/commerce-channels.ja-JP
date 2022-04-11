@@ -3,9 +3,9 @@ user-guide-title: '"[!DNL Channel Manager] ガイド»'
 user-guide-description: Adobe CommerceまたはMagento Open Sourceを [!DNL Walmart Marketplace Seller Central] アカウント
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 0%
 - 製品のリスト {#list-products}
    - [リストの管理](manage-listings.md)
    - [チャネルストアに製品を追加](add-products-to-connected-channel.md)
-   - [製品マッチングの設定](map-product-attributes-for-matching.md)
+   - [製品の照合の設定](map-product-attributes-for-matching.md)
    - [ウォルマートにリストを発行](publish-listings-to-marketplace.md)
 - 在庫と価格 {#inventory-pricing}
-   - [在庫および価格の更新](inventory-and-price-updates.md)
+   - [在庫と価格の更新](inventory-and-price-updates.md)
 

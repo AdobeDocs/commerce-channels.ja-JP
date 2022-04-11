@@ -1,17 +1,18 @@
 ---
-title: Commerce Services に接続
-description: Channel Manager インスタンスの接続先 [!DNL Commerce services] コマースインスタンス、チャネルマネージャー、およびその他のサポートサービス間でのデータ同期と通信を有効にする。
+title: 接続先 [!DNL Commerce] サービス
+description: チャネルマネージャの接続先 [!DNL Commerce] データの同期と、 [!DNL Commerce] インスタンス、チャネルマネージャー、およびその他のサポートサービス。
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Commerce Services に接続
+
+# 接続先 [!DNL Commerce] サービス
 
 Commerce Services コネクタは、チャネルマネージャーサービスをAdobe CommerceおよびMagento Open Sourceインスタンスと統合します。 コネクタは、 [!DNL Commerce] 例 [!DNL Channel Manager]、およびその他のサポートサービス。
 
@@ -25,8 +26,9 @@ Commerce Services コネクタの設定は、Adobeの使用に必要な 1 回限
 
 - **Adobe Commerce Production API キー**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} は、チャネルマネージャーで必要なサービスへの API アクセスを有効にします。 このキーの公開および非公開の資格情報が必要です。
 
-   資格情報を提供するために、コマースのライセンス所有者またはアカウント所有者には、次のオプションがあります。
-   [アクセスを共有](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} または [API キー](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} 個の信頼できる開発者に対する資格情報。
+>[!TIP]
+>
+>資格情報を提供するために、コマースのライセンス所有者またはアカウント所有者には、次のオプションがあります。 [アクセスを共有](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} または [API キー](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} 個の信頼できる開発者に対する資格情報。
 
 ## Commerce Services コネクタの設定
 
@@ -34,7 +36,7 @@ Commerce Services コネクタの設定は、Adobeの使用に必要な 1 回限
 
    - 管理者から、 **[!UICONTROL Stores]**.
 
-   - の下 *設定*&#x200B;を選択します。 **[!UICONTROL Configuration]**.
+   - の下 *[!UICONTROL Settings]*&#x200B;を選択します。 **[!UICONTROL Configuration]**.
 
    - 展開 **[!UICONTROL Services]** を選択し、 **[!UICONTROL Commerce Services Connector]**.
 

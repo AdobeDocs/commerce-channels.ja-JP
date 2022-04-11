@@ -1,37 +1,34 @@
 ---
-title: チャネルストアに製品を追加
+title: 接続されたチャネルに製品を追加
 description: カタログから販売チャネルに製品を追加して、Marketplace での販売用の製品品揃えを作成します
-source-git-commit: 905bedaf1eacdc45b2b7f222e7703e1f7b3dfd9c
+exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# チャネルストアに製品を追加
+# 接続されたチャネルに製品を追加
 
-チャネルマネージャーで、 [!DNL Commerce] ウォルマートマーケットプレイスの販売カタログ
-
-製品を販売チャネルに同期するには、選択した製品が次の属性設定を持っている必要があります。
+製品を Walmart Marketplace セールスチャネルに同期するには、 [!DNL Commerce] 製品カタログを作成し、チャネルマネージャに読み込みます。 選択した製品には、次の属性設定が必要です。
 
 - **[!UICONTROL Publish to Channel Manager]** 属性が有効になっている
 
 - 1 つ以上の製品属性が [必須の Walmart Marketplace 属性](map-product-attributes-for-matching.md)-GTIN, ISBN, ISSN, UPC, EAN
 
-選択内容を保存すると、チャネルマネージャはチャネルに製品データを読み込みます。 この処理には最大 30 分かかる場合があります。
+製品のインポート元のプロセス [!DNL Commerce] 選択した製品の数に応じて、Channel Manager への接続に最大 30 分以上かかる場合があります。
 
 ## セールスチャネルに製品を追加
 
-1. チャネルマネージャーストアに関連付けられている製品カタログを開きます。
-
-   接続されたセールスチャネルストアから、 **製品を追加**.
+1. 接続されたセールスチャネルストアから、 **製品を追加** をクリックして、製品カタログを開きます。
 
    ![接続されたチャネルに製品を追加](assets/add-initial-products-to-connected-channel.png)
 
    カタログが新しいタブで開きます。
 
-1. カタログの製品グリッドから、Walmart Marketplace で販売する製品を選択します。
+1. カタログ製品グリッドから、販売する製品を選択します [!DNL Walmart Marketplace].
 
    ![接続されたチャネルに製品を送信](assets/select-products-from-catalog.png)
 
@@ -57,6 +54,9 @@ ht-degree: 0%
 
 1. 次の接続済みのセールスチャネルに戻る [!DNL Channel Manager].
 
-   インポート操作が完了したら、次の製品を表示します： **[!UICONTROL Listings]**. 最初は、製品は *ドラフト* ステータス。 選択 [!UICONTROL Refresh products]**をクリックして、テーブルを更新します。
+1. インポート操作が完了したら、次の製品を表示します： **[!UICONTROL Listings]**.
 
    ![接続済みセールスチャネルにインポートされた製品](assets/products-in-marketplace-sales-channel.png)
+
+   最初は、製品は *ドラフト* ステータス。 選択 **[!UICONTROL Refresh products]** をクリックして、テーブルを更新します。
+
