@@ -4,9 +4,9 @@ description: インスタンスを [!DNL Channel Manager] サービスを使用�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ Channel Manager 拡張機能を [!DNL Commerce] インスタンスを作成し�
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
 - [Composer 1.x 以降](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
+- [[!DNL Amazon Sales Channel] バージョン 4.4.2 以降](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — アクティブ化済みの場合 [!DNL Amazon Sales Channel] の [!DNL Commerce] サイト、 [!DNL Commerce] インストールする前に、プラットフォームにバージョン 4.42 がインストールされている [!DNL Channel Manager].
+- [!DNL Inventory Management]
 
 
 ### サポートされるプラットフォーム
