@@ -2,7 +2,7 @@
 title: セールスチャネルの接続先 [!DNL Walmart Marketplace]
 description: セールスチャネルを設定し、Walmart Marketplace に接続します。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -100,4 +100,4 @@ ht-degree: 0%
 
    - [在庫と価格の表示と管理](inventory-and-price-updates.md)
 
-   - コマース管理者からのウォルマート注文の表示と管理
+   - [コマース管理者からのウォルマート注文の表示と管理](manage-orders.md)

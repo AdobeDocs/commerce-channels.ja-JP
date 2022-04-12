@@ -4,9 +4,9 @@ description: インスタンスを [!DNL Channel Manager] サービスを使用�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,9 @@ Channel Manager 拡張機能を [!DNL Commerce] インスタンスを作成し�
 - **Channel Manager Composer パッケージのダウンロードの認証**-Adobeチャネルのベータコーディネーターに、 [!DNL Commerce] 組織のサービスの管理に使用するアカウント。
 - **Composer と[!DNL Commerce CLI]**  — 参照 [一般的な CLI のインストール](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}」を参照してください。 [!DNL Adobe Commerce] または [!DNL Magento Open Source] プラットフォーム。
 - [[!DNL Amazon Sales Channel] バージョン 4.4.2 以降](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — アクティブ化済みの場合 [!DNL Amazon Sales Channel] の [!DNL Commerce] サイト、 [!DNL Commerce] インストールする前に、プラットフォームにバージョン 4.42 がインストールされている [!DNL Channel Manager].
+- [!DNL Inventory Management] Adobe Commerce andMagento Open Sourceの拡張
+
+   在庫と Order Management にチャネルマネージャーを使用する予定がある場合は、Adobe CommerceおよびMagento Open SourceインスタンスにInventory management拡張機能をインストールし、有効にしておく必要があります。 通常、この拡張機能は、Adobe CommerceおよびMagento Open Source2.3.x 以降にインストールされ、デフォルトで有効になります。 詳しくは、 [Inventory managementのインストール](https://devdocs.magento.com/extensions/inventory-management/) ( Adobe Commerce開発者向けドキュメント )。
 
 ### 要件
 
@@ -66,7 +69,6 @@ Channel Manager 拡張機能を [!DNL Commerce] インスタンスを作成し�
 - [Composer 1.x 以降](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
 - [[!DNL Amazon Sales Channel] バージョン 4.4.2 以降](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — アクティブ化済みの場合 [!DNL Amazon Sales Channel] の [!DNL Commerce] サイト、 [!DNL Commerce] インストールする前に、プラットフォームにバージョン 4.42 がインストールされている [!DNL Channel Manager].
 - [!DNL Inventory Management]
-
 
 ### サポートされるプラットフォーム
 
