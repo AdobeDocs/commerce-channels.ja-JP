@@ -2,14 +2,14 @@
 title: ウォルマートマーケットプレイス注文の管理
 description: 表示と管理 [!DNL Walmart Marketplace] 注文件数 [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceの
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
-# ウォルマートマーケットプレイス注文の管理
+# ウォルマートマーケットプレイスの注文の管理
 
 [!DNL Walmart Marketplace] 注文件数 [!DNL Commerce] 製品リストは自動的ににに同期 [!DNL Channel Manager] ウォルマートが注文を処理した後 同期が完了したら、「 」を選択して注文情報を表示できます。 **[!UICONTROL Orders]** 次の接続済みチャネルストア表示から： [!DNL Channel Manager].
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Marketplace から注文を受け取り、Adobe CommerceまたはMagento Open Sourceに読み込んだ後、 [!DNL Commerce] 注文 ID を使用して、Adobe Commerceで注文を表示します。
 
-送信者 **[!UICONTROL Orders]**&#x200B;を選択し、 [!UICONTROL Commerce Order Number] 開く [!DNL Commerce]  注文の詳細。
+送信者 **[!UICONTROL Orders]**&#x200B;を選択し、 **[!UICONTROL Commerce Order Number]** 開く [!DNL Commerce] 注文の詳細。
 
 ![ウォルマートマーケットプレイス注文のコマース注文の詳細ビュー](assets/order-detail-with-external-order-id.png)
 

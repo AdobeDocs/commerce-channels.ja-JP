@@ -2,9 +2,9 @@
 title: ウォルマートにリストを発行
 description: Walmart Marketplace にコマース製品のリストを公開して、販売を開始します。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### 前提条件
 
-商品を照合する前に、商品カタログの属性値がウォルマートの要件を満たしていることを確認し、属性設定を構成します。 詳しくは、 [製品の照合の設定](map-product-attributes-for-matching.md)
+商品を照合する前に、商品カタログの属性値がウォルマートの要件を満たしていることを確認し、属性設定を構成します。 詳しくは、 [製品の照合の設定](map-product-attributes-for-matching.md).
 
 #### 製品の選択と照合
 
@@ -40,27 +40,29 @@ ht-degree: 0%
 
    メッセージは、照合用に送信された製品の数を示します。
 
-   ![接続されたセールスチャネルに製品を送信](assets/products-submit-for-matching.png)
+   ![接続されたセールスチャネルに製品を送信](assets/products-submitted-for-matching.png)
 
    選択した製品のステータスは、 [!UICONTROL *処理中*] 一致操作が完了するまで。 Walmart Marketplace がマッチング処理を完了するまでに最大 30 分かかる場合があります。
 
 ### 一致ステータスを確認
 
-1. 選択 **製品を更新** をクリックして、最新の製品ステータスを更新します。
+1. 選択 **製品を更新** 現在の製品ステータスを表示します。
 
 1. 製品のステータスを確認します。
 
-   一致が完了すると、ステータスは次のようになります。 *一致* または *エラー*.
+一致が完了すると、ステータスは次のようになります。 *一致* または *エラー*.
 
-   * **[!UICONTROL Match]** 製品が正常に一致したことを示します。 製品のオファーが既存の Walmart Marketplace リストに公開されました。
+* **[!UICONTROL Match]** 製品が正常に一致したことを示します。 製品のオファーが既存の Walmart Marketplace リストに公開されました。 この [Marketplace ストアがアクティブではありません](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* が *[!UICONTROL Status detail]* 列。
 
-   * **[!UICONTROL Error]** は、次のいずれかを示します。
+次に、 [[!DNL Walmart Marketplace] ストアがアクティブではありません](walmart-prerequisites.md#walmart-marketplace-store-status)、 *ステータスの詳細* 列は、製品が *マッチ用にステージング済み*. ステージングされた製品は、 [!DNL Walmart Marketplace] ストアがアクティブ化されています。
 
-      * エラーが発生し、一致操作に失敗しました。
+* **[!UICONTROL Error]** は、次のいずれかを示します。
 
-      * 一致するものが見つかりませんでした。
+   * エラーが発生し、一致操作に失敗しました。
 
-      * 一致が見つかりましたが、 [Marketplace ストアがアクティブではありません](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * 一致するものが見つかりませんでした。
+
+   * 一致が見つかりましたが、Walmart Marketplace から返されたエラーが原因でリストを公開できません。  属性が見つからないか、 [Marketplace ストアがアクティブではありません](walmart-prerequisites.md#walmart-marketplace-store-status).
 
 ### ウォルマートのリストを確認
 
@@ -68,9 +70,9 @@ ht-degree: 0%
 
 ### 製品一致エラーのトラブルシューティング
 
-製品の一致操作が失敗すると、Walmart Marketplace はエラーコードを返し、Channel Manager は製品リスト情報にエラーステータスを表示します。
+製品一致操作がエラーで失敗した場合、エラーメッセージは *[!UICONTROL Status detail]* 列 [!UICONTROL Channel Manager] 製品リスト。
 
-エラーメッセージの詳細を表示するには、 **エラー** ステータスラベル 返される一般的なエラーで、製品 ID 値の形式が正しくないか、必須の属性が見つかりません。
+返される一般的なエラーで、製品 ID 値の形式が正しくないか、必須の属性が見つかりません。
 
 #### 製品 ID の値を修正
 

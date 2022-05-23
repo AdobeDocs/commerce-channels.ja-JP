@@ -4,9 +4,9 @@ description: インストールと使用の方法を学ぶ [!DNL Channel Manager
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -14,29 +14,27 @@ ht-degree: 0%
 
 # について [!DNL Channel Manager]
 
-Adobe CommerceとMagento Open Sourceの Channel Manager は、Walmart、Amazon、eBay などのサードパーティマーケットプレイスでチャネル販売を管理するための、管理者の便利なワークスペースを提供します。 コマース管理者からセールスチャネルの運営をシームレスに管理しながら、セールスを増やし、新しい市場へと展開します。
+[!DNL Channel Manager] は、Adobe CommerceまたはMagento Open Sourceの製品カタログを [!DNL Walmart US Marketplace].
 
-![[!DNL Channel Manager] 拡張機能の管理ビュー](assets/channel-manager-admin-entry-page.png)
+![[!DNL Channel Manager] 拡張機能の管理ビュー](assets/channel-manager-home.png)
 
-## ベータリリースの概要
+をインストールして設定した後 [!DNL Channel Manager]、 [!DNL Commerce] 管理者が拡張され、 [!DNL Walmart Marketplace] 営業運営はコマース環境からシームレスに行えます。
 
-Channel Manager のベータリリースでは、で販売したいAdobe CommerceまたはMagento Open Source販売者をサポートしています [!DNL Walmart Marketplace].
+* **リスト管理** — コマースカタログから既存の Walmart Marketplace リストに商品を照合し、商品リストを簡単に公開できます。
 
-このリリースでは、セールスチャネルの運用を管理する次の機能がサポートされています。
+* **Inventory management** — 正確な在庫レベルを確保するために、マーチャントの Marketplace セラーアカウントの品目は、コマースから自動的に同期および更新されます。
 
-* Adobe CommerceまたはMagento Open Sourceと Walmart Marketplace 間の API 接続の確立
+* **価格の更新** — 自動価格同期を使用して、マーケットプレイスリストの正確な価格を維持します。 Adobe Commerceで価格が変更されると、変更が Marketplace に 10 分以内に反映されます。
 
-* 製品マッチングを使用して、Channel Manager から Walmart に製品を公開
+* **注文管理** — マーケットプレイスで新しい注文が作成されると、チャネルマネージャーは注文をAdobe Commerceと同期し、注文確認をマーケットプレイスに送信して、在庫が各注文で確保されるようにします。
 
-* 製品リストの管理とステータスの追跡
+* **出荷管理** — 注文がAdobe Commerceで出荷済みとマークされると、出荷の更新が [!DNL Walmart Marketplace]. この通知により、販売者は達成 SLA の要件を満たし、顧客は現在の注文の出荷更新通知を受け取ることができます。
 
-* Commerce から Walmart に一致製品の在庫数量を同期
+* **キャンセル**- Adobe Commerceで注文がキャンセルされると、Channel Manager は更新された注文情報をマーケットプレイスに送信し、対応する Marketplace 注文のアクションをレプリケートします。
 
-* 一致した製品のカタログ価格をコマースからウォルマートに同期
+[!DNL Channel Manager] 販売したいAdobe CommerceやMagento Open Source販売者を支援する [!DNL Walmart Marketplace].
 
-* Walmart Marketplace から注文を受け取り、 [!DNL Commerce] 注文ダッシュボード
-
-### Channel Manager の操作で予想される遅延
+## Channel Manager の操作で予想される遅延
 
 次の間のデータ同期プロセス： [!DNL Channel Manager] リンクされた [!DNL Walmart Marketplace] ストアが完了するまでにしばらく時間が必要です。 次の予定処理時間を確認 [!DNL Channel Manager] 営業チャネルの運用を計画する際に役立つ操作です。
 

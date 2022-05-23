@@ -2,9 +2,9 @@
 title: インストール [!DNL Channel Manager]
 description: Channel Manager 拡張機能をインストールします。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---

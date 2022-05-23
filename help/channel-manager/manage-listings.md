@@ -2,22 +2,30 @@
 title: リストの管理
 description: 次の項目のセールスチャネルリストを管理します [!DNL Commerce] ストアを Channel Manager(Adobe CommerceとMagento Open Source) で保存します。
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 # リストの管理
 
-次の場所から接続チャネルの製品リストを管理 [!UICONTROL Listings] （チャネルストア表示）。
+の製品リストを管理 [!DNL Walmart Marketplace] からのセールスチャネル [!UICONTROL Listings] （チャネルストア表示）。 個々のリストのステータスは、製品が [!DNL Channel Manager] ワークフローを使用して、次の手順を決定し、エラーを解決できます。
 
-以下を使用： *[!UICONTROL Listings]* 管理するワークスペース [!DNL Commerce] ウォルマート・マーケットプレイスで販売される製品。 個々のリストのステータスは、製品が [!DNL Channel Manager] ワークフローを使用して、次の手順を決定し、エラーを解決できます。
+個々のリストのステータスは、製品が [!DNL Channel Manager] ワークフローを使用して、次の手順を決定し、エラーを解決できます。
 
-![接続されたセールスチャネルのリストページ](assets/products-submit-for-matching.png)
+![接続されたセールスチャネルのリストページ](assets/product-listing-landing.png)
 
-## リストを表示
+リスト表示から、次のタスクを実行できます。
+
+* 現在のリストを表示
+* リストの並べ替えとフィルター
+* 製品を追加
+* 製品を一致させる
+* リストステータスを追跡
+
+## 製品リストを表示
 
 1. 管理者から、に移動します。 [!UICONTROL **マーケティング** /チャネル/ **チャネルマネージャ**].
 
@@ -25,9 +33,15 @@ ht-degree: 0%
 
 1. 選択 [!UICONTROL **リスト**].
 
+1. 並べ替え *リスト* 表示するには、 *リスト* 表。
+
+1. フィルター *リスト* 表示するには、いずれかのステータスカウントカードを選択します。
+
+1. 並べ替え順をリセットし、「 」を選択してフィルターを削除します **製品を更新**.
+
 ## チャネルマネージャーへのコマース製品の追加
 
-次のタスクを実行して、Walmart Marketplace チャネル用の製品品揃えを作成します。
+次のタスクを実行して、Walmart Marketplace チャネルの製品品揃えを作成します。
 
 * [コマース製品カタログからチャネルマネージャーへの製品の追加](add-products-to-connected-channel.md)
 
@@ -37,7 +51,7 @@ ht-degree: 0%
 
 製品のマッチングを使用するか、新しい製品の製品リストを手動でアップロードすることで、Walmart Marketplace で製品オファーを作成できます。 手順については、 [Walmart Marketplace へのリストの公開](publish-listings-to-marketplace.md) 次のトピックで説明するように：
 
-* **[ウォルマートでの製品のマッチング](publish-listings-to-marketplace.md)** — チャネルからに製品リストを公開します [!DNL Walmart Marketplace] 同じ製品を販売する既存のリストを更新する。 一致条件は、 [属性マッピング設定](map-product-attributes-for-matching.md) チャネルの
+* **[ウォルマートでの製品のマッチング](publish-listings-to-marketplace.md)** — チャネルからに製品リストを公開します [!DNL Walmart Marketplace] 同じ製品を販売する既存のリストを更新する。 一致条件は、 [attribute-mapping 設定](map-product-attributes-for-matching.md) チャネルの
 
 * **[新しいリストを手動でアップロード](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Walmart Marketplace の既存のリストと一致しない製品の場合は、Walmart 製品カテゴリ Excel テンプレートを使用して製品リストを一括アップロードします。
 
@@ -49,9 +63,11 @@ ht-degree: 0%
 
 | **制御** | **説明** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Refresh products] | 最新のリストとステータスで表示を更新します。 |
 | [!UICONTROL Add Products] | を開きます。 [!UICONTROL Admin Product Catalog] に追加する製品を選択するページ [!DNL Walmart Marketplace] 品揃え、または製品属性を更新して Walmart Marketplace リストの要件を満たす。 |
 | [!UICONTROL Match products on Walmart] | 「ドラフト」ステータスで 1 つ以上の製品を選択した後、「ウォルマートで製品を照合」を選択して、既存のに追加できる製品オファーがないかを確認します [!DNL Walmart Marketplace] リスト。 |
+| [!UICONTROL Refresh products] | 最新のリストとステータスで表示を更新します。 また、このコントロールは、リスト表示をデフォルトの並べ替え順にリセットし、フィルターを削除します。 |
+| [!UICONTROL Filter by *ステータス*] | リスト表の上にあるステータスカウントカードの 1 つを選択して、特定のステータスを持つリストのみを表示します。 以下を使用： *製品を更新* をクリックして、フィルターを削除します。 |
+| [!UICONTROL Sort products] | 列ヘッダーを選択して、リストの並べ替え順を変更します。 |
 
 
 **列の説明**
@@ -63,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL  Quantity] | Adobe CommerceまたはMagento Open Sourceで使用可能な在庫の量。 |
 | [!UICONTROL Price] | からの製品価格 [!DNL Commerce] ストアカタログ。 カタログ価格の更新は Channel Manager に同期され、次にに送信されます [!DNL Walmart Marketplace]  上場された項目が現在の価格を示すように |
 | [!UICONTROL Status] | 現在の注文ステータスを [!DNL Commerce] 注文ワークフロー。 製品をに正常に追加すると、ステータスが更新されます。 [!DNL Channel Manager] とは、マーケットプレイスで製品を照合する場合に使用します。 操作が失敗した場合は、エラーステータスがリストに表示されます。 エラーを修正した後、 [!DNL Channel Manager] 操作を再試行し、ステータスを更新します。 |
-
+| [!UICONTROL Status Detail] | 製品に関する追加情報を *エラー* または *一致* ステータス。 |
 
 ### リストステータスについて
 
@@ -79,9 +95,8 @@ ht-degree: 0%
 
    次を確認します。 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) ダッシュボードを使用して、更新された製品リストを確認し、製品の詳細、価格、在庫数量を確認します。
 
+* **[!UICONTROL Match - Match in Stage]** — に一致する製品を識別します [!DNL Walmart] それは、 [!DNL Walmart Marketplace] ストアはライブです。 このステータスの製品は、 [!DNL Walmart Marketplace] ストアがライブになります。
 
 * **[!UICONTROL Error]** — 既存の製品と一致しない製品を識別します [!DNL Walmart Marketplace] リスト。 エラーの詳細を表示するには、 *エラー* ステータスラベル
 
-   エラーを解決したら、製品を再提出して照合します。 詳しくは、 [製品一致エラーのトラブルシューティング](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.sz6eji8z9vzy).
-
-* **[!UICONTROL Error - Match in Stage]** — に一致する製品を識別します [!DNL Walmart] それは、 [!DNL Walmart Marketplace] ストアはライブです。 このステータスの製品は、 [!DNL Walmart Marketplace] ストアがライブになります。
+   エラーを解決したら、製品を再提出して照合します。 詳しくは、 [製品一致エラーのトラブルシューティング](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).
