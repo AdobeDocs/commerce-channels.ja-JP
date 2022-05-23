@@ -2,9 +2,9 @@
 title: ウォルマートにリストを発行
 description: Walmart Marketplace にコマース製品のリストを公開して、販売を開始します。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 ## 製品を一致させる
 
-製品が一致すると、チャネルマネージャーは製品データをに送信します。 [!DNL Walmart Marketplace] をクリックして、マッピングされた Commerce 製品属性に一致する属性値を持つ既存のリストを検索します。 一致条件は、 [attribute-mapping 設定](map-product-attributes-for-matching.md) （ストアチャネル用）。
+製品が一致すると、チャネルマネージャーは製品データをに送信します。 [!DNL Walmart Marketplace] をクリックして、マッピングされた Commerce 製品属性に一致する属性値を持つ既存のリストを検索します。 一致条件は、 [attribute-mapping 設定](map-catalog-attributes.md) （ストアチャネル用）。
 
 一致する製品が見つかった場合は、既存の製品リストが更新され、オファーが追加されます。
 
 ### 前提条件
 
-商品を照合する前に、商品カタログの属性値がウォルマートの要件を満たしていることを確認し、属性設定を構成します。 詳しくは、 [製品の照合の設定](map-product-attributes-for-matching.md).
+商品を照合する前に、商品カタログの属性値がウォルマートの要件を満たしていることを確認し、属性設定を構成します。 詳しくは、 [カタログ属性をマッピング](map-catalog-attributes.md).
 
 #### 製品の選択と照合
 
@@ -56,13 +56,13 @@ ht-degree: 0%
 
 次に、 [[!DNL Walmart Marketplace] ストアがアクティブではありません](walmart-prerequisites.md#walmart-marketplace-store-status)、 *ステータスの詳細* 列は、製品が *マッチ用にステージング済み*. ステージングされた製品は、 [!DNL Walmart Marketplace] ストアがアクティブ化されています。
 
-* **[!UICONTROL Error]** は、次のいずれかを示します。
+* **[!UICONTROL Error]** は、次のいずれかの問題が原因で一致操作が失敗したことを示します。
 
-   * エラーが発生し、一致操作に失敗しました。
+   * [!DNL Channel Manager] 接続の問題が原因で、照合用に送信できませんでした。
 
    * 一致するものが見つかりませんでした。
 
-   * 一致が見つかりましたが、Walmart Marketplace から返されたエラーが原因でリストを公開できません。  属性が見つからないか、 [Marketplace ストアがアクティブではありません](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * 一致が見つかりましたが、次の理由でリストを公開できません： [!DNL Walmart Marketplace] はエラーコードを返しました。 詳しくは、 *ステータスの詳細** ：エラーの説明。
 
 ### ウォルマートのリストを確認
 
@@ -116,7 +116,7 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
 
 ### 前提条件
 
-* 次に示す [ウォルマートの前提条件](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx).
+* 次に示す [ウォルマートの前提条件](walmart-prerequisites.md).
 
 * Commerce 製品カタログで、Walmart Marketplace にリストする製品のカタログ設定に必要な属性がすべて含まれ、Walmart Marketplace コンテンツガイドラインを満たしていることを確認します。
 

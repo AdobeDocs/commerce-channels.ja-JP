@@ -2,9 +2,9 @@
 title: リストの管理
 description: 次の項目のセールスチャネルリストを管理します [!DNL Commerce] ストアを Channel Manager(Adobe CommerceとMagento Open Source) で保存します。
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ ht-degree: 0%
 
 次のタスクを実行して、Walmart Marketplace チャネルの製品品揃えを作成します。
 
-* [コマース製品カタログからチャネルマネージャーへの製品の追加](add-products-to-connected-channel.md)
+* [コマース製品カタログからチャネルマネージャーへの製品の追加](add-products-to-channel-store.md)
 
-* [製品の照合の設定](map-product-attributes-for-matching.md#configure-product-attribute-settings)
+* [カタログ属性をマッピング](map-catalog-attributes.md#configure-product-attribute-settings)
 
 ## ウォルマートに製品を発行
 
 製品のマッチングを使用するか、新しい製品の製品リストを手動でアップロードすることで、Walmart Marketplace で製品オファーを作成できます。 手順については、 [Walmart Marketplace へのリストの公開](publish-listings-to-marketplace.md) 次のトピックで説明するように：
 
-* **[ウォルマートでの製品のマッチング](publish-listings-to-marketplace.md)** — チャネルからに製品リストを公開します [!DNL Walmart Marketplace] 同じ製品を販売する既存のリストを更新する。 一致条件は、 [attribute-mapping 設定](map-product-attributes-for-matching.md) チャネルの
+* **[ウォルマートでの製品のマッチング](publish-listings-to-marketplace.md)** — チャネルからに製品リストを公開します [!DNL Walmart Marketplace] 同じ製品を販売する既存のリストを更新する。 一致条件は、 [attribute-mapping 設定](map-catalog-attributes.md) チャネルの
 
 * **[新しいリストを手動でアップロード](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Walmart Marketplace の既存のリストと一致しない製品の場合は、Walmart 製品カテゴリ Excel テンプレートを使用して製品リストを一括アップロードします。
 
@@ -97,6 +97,8 @@ ht-degree: 0%
 
 * **[!UICONTROL Match - Match in Stage]** — に一致する製品を識別します [!DNL Walmart] それは、 [!DNL Walmart Marketplace] ストアはライブです。 このステータスの製品は、 [!DNL Walmart Marketplace] ストアがライブになります。
 
-* **[!UICONTROL Error]** — 既存の製品と一致しない製品を識別します [!DNL Walmart Marketplace] リスト。 エラーの詳細を表示するには、 *エラー* ステータスラベル
+* **[!UICONTROL Error]** — 既存の製品と一致しない製品を識別します [!DNL Walmart Marketplace] リスト。
+
+* **[!UICONTROL Error description]** — リストエラーに関する詳細情報を提供します。
 
    エラーを解決したら、製品を再提出して照合します。 詳しくは、 [製品一致エラーのトラブルシューティング](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).

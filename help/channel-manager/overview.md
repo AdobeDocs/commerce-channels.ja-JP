@@ -4,9 +4,9 @@ description: インストールと使用の方法を学ぶ [!DNL Channel Manager
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ef4c1362424285d4969fe173a0790809fccff80b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 [!DNL Channel Manager] は、Adobe CommerceまたはMagento Open Sourceの製品カタログを [!DNL Walmart US Marketplace].
 
 ![[!DNL Channel Manager] 拡張機能の管理ビュー](assets/channel-manager-home.png)
+
+Channel Manager は、Adobe Commerce Marketplace での販売を希望するMagento Open Source販売者またはウォルマート販売者をサポートします。
 
 をインストールして設定した後 [!DNL Channel Manager]、 [!DNL Commerce] 管理者が拡張され、 [!DNL Walmart Marketplace] 営業運営はコマース環境からシームレスに行えます。
 
@@ -32,8 +34,6 @@ ht-degree: 0%
 
 * **キャンセル**- Adobe Commerceで注文がキャンセルされると、Channel Manager は更新された注文情報をマーケットプレイスに送信し、対応する Marketplace 注文のアクションをレプリケートします。
 
-[!DNL Channel Manager] 販売したいAdobe CommerceやMagento Open Source販売者を支援する [!DNL Walmart Marketplace].
-
 ## Channel Manager の操作で予想される遅延
 
 次の間のデータ同期プロセス： [!DNL Channel Manager] リンクされた [!DNL Walmart Marketplace] ストアが完了するまでにしばらく時間が必要です。 次の予定処理時間を確認 [!DNL Channel Manager] 営業チャネルの運用を計画する際に役立つ操作です。
@@ -41,7 +41,7 @@ ht-degree: 0%
 **Channel Manager 操作の推定待ち時間**
 
 | **操作** | **説明** | **予想される遅延** |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | チャネルマネージャーへの製品の追加 | コマース製品カタログから製品を選択し、チャネルマネージャに読み込みます。 | **最大 5 分** — 製品カタログ全体など、多数の製品を選択した場合、読み込み処理に時間がかかります。 |
 | Walmart Marketplace での製品のマッチング | チャネルマネージャで製品リストを選択し、ウォルマートに送信して照合します。 | **最大 30 分** — 多数の製品を選択した場合、選択した数量に応じて、照合の処理に時間がかかります。 |
 | 在庫の更新 | Commerce で在庫数量が変更された場合、 [!DNL Channel Manager] は、Walmart への更新を同期します。 | **最大 10 分** |
