@@ -4,9 +4,9 @@ description: インストールと使用の方法を学ぶ [!DNL Channel Manager
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: ef4c1362424285d4969fe173a0790809fccff80b
+source-git-commit: 9ccd205ccd4f4b3f4e6b9fed2c4d16893f4b0da8
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -49,54 +49,3 @@ Channel Manager は、Adobe Commerce Marketplace での販売を希望するMage
 | ウォルマートからコマースへの同期の注文 | お客様がウォルマートマーケットプレイスでコマース製品を注文します。 ウォルマートが注文をチャネルマネージャに送信します。 注文は注文ダッシュボードに表示されます。 | **最大 30 分** |
 | Commerce Order Management で作成された注文 | Channel Manager は、ウォルマート注文からコマース注文を作成し、注文ダッシュボードを更新してコマース注文番号を含めます。 | **最大 5 分** |
 
-## ウォルマートの前提条件
-
-コマースを Walmart Marketplace と統合するには、以下の Walmart からの情報が必要です。
-
-* 登録済み Marketplace セラーアカウントにログインするためのウォルマートでの販売の承認と資格情報
-
-* Adobe CommerceまたはMagento Open Sourceを Walmart Marketplace に接続するための API キー
-
-   Walmart Marketplace API キーは、Adobe CommerceまたはMagento Open Sourceのチャネルマネージャーとウォルマートマーケットプレイスとの統合を可能にします。 チャネルマネージャのオンボーディングプロセスを開始する前に、Seller Central で API キーを設定します。
-
-### Marketplace セラーアカウントを設定する
-
-1. [Walmart Seller の申し込みを送信](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-2. ウォルマートから承認を得て [ウォルマート販売者アカウントを設定する](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
-
-### Walmart Marketplace API キーを生成
-
-1. Walmart Marketplace に移動して、 [Adobe用のソリューションプロバイダー実稼動 API キー](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
-
-1. キーを作成し、権限を設定します。
-
-   * ソリューションプロバイダーとして「Adobe」を選択します。
-
-   * 次の表に示すように、権限を設定します。 詳しくは、 [API 資格情報](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 内 *[!DNL Walmart Marketplace]販売者向けヘルプ*.
-
-   **AdobeAPI の Walmart のキー設定**
-
-   | **権限** | **設定** |
-   |----------------|-------------|
-   | コンテンツ | フルアクセス |
-   | フィードの取得 | 表示のみ |
-   | 在庫 | フルアクセス |
-   | 項目 | フルアクセス |
-   | ラグタイム | フルアクセス |
-   | 注文 | フルアクセス |
-   | 価格 | フルアクセス |
-   | レポート | 表示のみ |
-   | 戻り値 | フルアクセス |
-   | ルール | フルアクセス |
-   | 送料 | フルアクセス |
-
-## ウォルマートマーケットプレイスストアのステータス
-
-製品を Walmart Marketplace に発行する場合、リストの可用性は Walmart Marketplace ストアのステータスによって異なります。
-
-* ライブストアの場合は、製品オファーが一覧表示され、一致操作が完了したときに販売できます。
-
-* ライブでないストアの場合、製品オファーはステージングされ、顧客には表示されません。 ストアがライブになると、ステージングされたリストがライブストアに自動的にプッシュされます。
-
-
-![[!DNL Walmart Seller Central] 段階別製品](assets/walmart-seller-central-staged.png)
