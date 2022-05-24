@@ -2,9 +2,9 @@
 title: ウォルマートマーケットプレイス注文の管理
 description: 表示と管理 [!DNL Walmart Marketplace] 注文件数 [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceの
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
+source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ Marketplace から注文を受け取り、Adobe CommerceまたはMagento Open So
 | [!UICONTROL Order Value] | 注文項目の合計コスト。 |
 | [!UICONTROL Date Created] | 注文が [!DNL Walmart Marketplace]. |
 | [!UICONTROL Ship By Date] | 注文を満たすために発送する必要がある日付 [!DNL Walmart Marketplace] 要件 |
-| [!UICONTROL Order Status] | 現在の注文ステータスを [!DNL Commerce] 注文ワークフロー。 製品をに正常に追加すると、ステータスが更新されます。 [!DNL Channel Manager] 製品が [!DNL Walmart Marketplace]. 操作に失敗した場合は、リストにエラーステータスが表示されます。 エラーを修正した後、 [!DNL Channel Manager] 操作を再試行し、ステータスを更新します。 |
-
-| [!UICONTROL Error description]    | *エラー* ステータス|
+| [!UICONTROL Deliver By Date] | 注文を顧客に配送して満たす必要がある日付 [!DNL Walmart Marketplace] 要件 |
+| [!UICONTROL Last Update At] | 注文データが最後に更新された時刻を示すタイムスタンプ [!DNL Channel Manager] |
+| [!UICONTROL Status] | 現在の注文ステータスを [!DNL Commerce] 注文ワークフロー。 製品をに正常に追加すると、ステータスが更新されます。 [!DNL Channel Manager] 製品が [!DNL Walmart Marketplace]. 操作に失敗した場合は、リストにエラーステータスが表示されます。 エラーを修正した後、 [!DNL Channel Manager] 操作を再試行し、ステータスを更新します。 |
+| [!UICONTROL Error Description] | 注文に関する詳細情報を *エラー* ステータス。 |
 
 ### オーダーステータスについて
 
