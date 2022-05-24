@@ -1,20 +1,20 @@
 ---
 title: カタログ属性をマッピング
 description: 一致する属性をマッピング [DNL! コマース ] 製品を既存の製品に [!DNL Walmart Marketplace] リストと同期，データ間 [!DNL Channel Manager] および [!DNL Walmart].
-source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
+exl-id: 6678d81f-d167-460d-b656-d082d56f670c
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
-
 
 # カタログ属性をマッピング
 
 次の場所にリストを公開する前に： [!DNL Commerce] から [!DNL Walmart Marketplace]の場合、 [!DNL Commerce] カタログを Walmart から対応する ID に追加します。
 この手順は、 [!DNL Commerce] 既存の製品 [!DNL Walmart] 製品データを次の間で同期する [!DNL Commerce] および [!DNL Walmart].
 
-製品の照合を行うには、コマース製品に、で必要な次の製品識別子（製品 ID）のいずれかに一致する 1 つ以上の製品属性が必要です。 [!DNL Walmart].
+製品の照合を行うには、コマース製品に、次の [!DNL Walmart].
 
 **必要なウォルマート製品 ID**
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 | ISSN | 国際標準シリアル番号 | 全てのメディアプリントや電子メディアに配信される雑誌、雑誌、新聞、雑誌を特定するのに使用される 8 桁のシリアル番号 | 8 桁 |
 | UPC | ユニバーサル製品コード | 標準の小売トラッキングコード | 12 桁 |
 
-カタログに、次のタイプのいずれかに一致する属性がない場合、 [既存のカタログ属性を追加または変換する](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+カタログに一致する属性がない場合、 [既存のカタログ属性を追加または変換する](https://docs.magento.com/user-guide/catalog/product-attributes.html).
 
 ## 一意の ID をマッピング
 
@@ -37,6 +37,7 @@ ht-degree: 0%
 
       次の例では、Walmart Marketplace UPC 属性を商品カタログの UPC 属性にマップします。
    ![製品一致条件の属性をマッピング](assets/products-map-attributes-for-match.png)
+   - 必要に応じて、複数の属性をマッピングして、一致を増やすことができます。 複数の属性をマッピングする場合は、 **プライマリ識別子**. この
 
    - 選択 **[!UICONTROL Save]**.
 

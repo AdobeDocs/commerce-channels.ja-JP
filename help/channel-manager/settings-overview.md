@@ -1,17 +1,17 @@
 ---
 title: 設定の概要
 description: 詳しくは、 [!DNL Channel Manager settings] 認証を設定し、製品カタログの属性と輸送業者をマッピングして、間で販売操作を調整する [!DNL Commerce] そして [!DNL Walmart Marketplace].
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
-
 # 設定の概要
 
-セールスチャネル設定により、 [!DNL Commerce] および [!DNL Walmart Marketplace] Walmart Marketplace の販売業務は、 [!DNL Commerce] 管理者：
+セールスチャネル設定により、 [!DNL Commerce] および [!DNL Walmart Marketplace] Walmart Marketplace の販売業務は、 [!DNL Commerce] 管理者。
 
 In [!DNL Channel Manager]：オンボーディングプロセス中に一部のセールスチャネルを設定します。 オンボーディング後、 *設定* ページ。
 
