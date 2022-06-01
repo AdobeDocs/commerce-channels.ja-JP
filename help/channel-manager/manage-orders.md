@@ -1,19 +1,19 @@
 ---
-title: ウォルマートマーケットプレイス注文の管理
-description: 表示と管理 [!DNL Walmart Marketplace] 注文件数 [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceの
+title: '"管理 [!DNL Walmart Marketplace] 注文」'
+description: «表示と管理 [!DNL Walmart Marketplace] 注文件数 [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceに」
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# ウォルマートマーケットプレイスの注文の管理
+# 管理 [!DNL Walmart Marketplace] 注文件数
 
-[!DNL Walmart Marketplace] 注文件数 [!DNL Commerce] 製品リストは自動的ににに同期 [!DNL Channel Manager] ウォルマートが注文を処理した後 同期が完了したら、「 」を選択して注文情報を表示できます。 **[!UICONTROL Orders]** 次の接続済みチャネルストア表示から： [!DNL Channel Manager].
+[!DNL Walmart Marketplace] 注文件数 [!DNL Commerce] 製品リストは自動的ににに同期 [!DNL Channel Manager] 後 [!DNL Walmart] は順序を処理します。 同期が完了したら、「 」を選択して注文情報を表示できます。 **[!UICONTROL Orders]** 次の接続済みチャネルストア表示から： [!DNL Channel Manager].
 
-![Walmart Marketplace の注文を管理するためのチャネルマネージャの注文ビュー](assets/orders-dashboard-view.png)
+![管理するチャネルマネージャーの注文表示 [!DNL Walmart Marketplace] 注文件数](assets/orders-dashboard-view.png)
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Marketplace から注文を受け取り、Adobe CommerceまたはMagento Open So
 
 送信者 **[!UICONTROL Orders]**&#x200B;を選択し、 **[!UICONTROL Commerce Order Number]** 開く [!DNL Commerce] 注文の詳細。
 
-![ウォルマートマーケットプレイス注文のコマース注文の詳細ビュー](assets/order-detail-with-external-order-id.png)
+![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/order-detail-with-external-order-id.png)
 
 ### 受注管理と列の説明
 
@@ -48,7 +48,7 @@ Marketplace から注文を受け取り、Adobe CommerceまたはMagento Open So
 
 | フィールド | 説明 |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL  Walmart Order Number] | 内の注文に割り当てられた発注書番号 [!DNL Walmart Marketplace]. 注文が最初に次に読み込まれたとき： [!DNL Channel Manager]に設定されている場合、ウォルマートの注文番号のみが表示されます。 次の場合に [!DNL Commerce] 注文が作成されると、 [!DNL Walmart] 注文番号は [!UICONTROL External ID] 製品属性。 |
+| [!UICONTROL  Walmart Order Number] | 内の注文に割り当てられた発注書番号 [!DNL Walmart Marketplace]. 注文が最初に次に読み込まれたとき： [!DNL Channel Manager]、 [!DNL Walmart] 注文番号が表示されます。 次の場合に [!DNL Commerce] 注文が作成されると、 [!DNL Walmart] 注文番号は [!UICONTROL External ID] 製品属性。 |
 | [!DNL Commerce]  注文番号 | に割り当てられた番号 [!DNL Commerce]  から作成された注文 [!DNL Walmart Marketplace] 注文。 |
 | 項目 | 注文日の項目数 [!DNL Walmart Marketplace]. |
 | [!UICONTROL Order Value] | 注文項目の合計コスト。 |
@@ -60,6 +60,7 @@ Marketplace から注文を受け取り、Adobe CommerceまたはMagento Open So
 | [!UICONTROL Error Description] | 注文に関する詳細情報を *エラー* ステータス。 |
 
 ### オーダーステータスについて
+
 
 [!UICONTROL Order Status] 現在の状態に関する情報を提供する [!DNL Walmart Marketplace] Adobe CommerceまたはMagento Open Sourceから管理される注文。 注文ステータスの更新は、 [!DNL Channel Manager] 次のいずれかから更新された注文情報を受け取る [!DNL Walmart Marketplace] または [!DNL Commerce] 注文システム。 オーダーには、次のステータスがあります。
 

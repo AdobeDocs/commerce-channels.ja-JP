@@ -2,9 +2,9 @@
 title: セールスチャネルストアに製品を追加
 description: 次の製品の品揃えを作成 [!DNL Walmart Marketplace] カタログから販売チャネルに製品を追加する販売
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # セールスチャネルストアに製品を追加
 
-製品を Walmart Marketplace セールスチャネルに同期するには、 [!DNL Commerce] 製品カタログを作成し、チャネルマネージャに読み込みます。 選択した製品には、次の属性設定が必要です。
+製品を [!DNL Walmart Marketplace] セールスチャネルで、製品を [!DNL Commerce] 製品カタログを作成し、チャネルマネージャに読み込みます。 選択した製品には、次の属性設定が必要です。
 
 - **[!UICONTROL Publish to Channel Manager]** 属性が有効になっている
 
-- 1 つ以上の製品属性が [必須の Walmart Marketplace 属性](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
+- 1 つ以上の製品属性が [必須 [!DNL Walmart Marketplace] 属性](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
 
 製品のインポート元のプロセス [!DNL Commerce] 選択した製品の数に応じて、Channel Manager への接続に最大 30 分以上かかる場合があります。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    - スクロールして **[!UICONTROL Publish to Channel Manager]** 属性を設定し、有効にします。
 
-   - 製品属性に、必要なウォルマート製品 ID の 1 つ以上が含まれていることを確認します。
+   - 製品属性に、必要な [!DNL Walmart Product IDs].
 
    - 選択 **[!UICONTROL Save]**.
 

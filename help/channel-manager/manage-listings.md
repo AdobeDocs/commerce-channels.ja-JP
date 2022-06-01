@@ -2,9 +2,9 @@
 title: リストの管理
 description: 次の項目のセールスチャネルリストを管理します [!DNL Commerce] ストアを Channel Manager(Adobe CommerceとMagento Open Source) で保存します。
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -41,19 +41,19 @@ ht-degree: 0%
 
 ## チャネルマネージャーへのコマース製品の追加
 
-次のタスクを実行して、Walmart Marketplace チャネルの製品品揃えを作成します。
+次の製品の品揃えを作成します： [!DNL Walmart Marketplace] 次のタスクを実行して、チャネルを生成します。
 
-* [コマース製品カタログからチャネルマネージャーへの製品の追加](add-products-to-channel-store.md)
+* [以下から製品を追加 [!DNL Commerce] 製品カタログ [!DNL Channel Manager]](add-products-to-channel-store.md)
 
 * [カタログ属性をマッピング](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## ウォルマートに製品を発行
+## 製品の公開先 [!DNL Walmart]
 
-製品のマッチングを使用するか、新しい製品の製品リストを手動でアップロードすることで、Walmart Marketplace で製品オファーを作成できます。
+製品オファーは、 [!DNL Walmart Marketplace] 製品のマッチングを使用するか、新しい製品の製品リストを手動でアップロードしてください。
 
 * **[ウォルマートでの製品のマッチング](publish-listings-to-marketplace.md)** — チャネルからに製品リストを公開します [!DNL Walmart Marketplace] 同じ製品を販売する既存のリストを更新する。 一致条件は、 [attribute-mapping 設定](map-catalog-attributes.md) チャネルの
 
-* **[新しいリストを手動でアップロード](publish-listings-to-marketplace.md#upload-new-product-listings)**—Walmart Marketplace の既存のリストと一致しない製品の場合は、Walmart 製品カテゴリ Excel テンプレートを使用して製品リストを一括アップロードします。
+* **[新しいリストを手動でアップロード](publish-listings-to-marketplace.md#upload-new-product-listings)** — 上の既存のリストと一致しない製品の場合 [!DNL Walmart Marketplace]、 [!DNL Walmart] 製品カテゴリ製品リストを一括アップロードするための Excel テンプレート。
 
 ## リストコントロールと列の説明
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | **制御** | **説明** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | を開きます。 [!UICONTROL Admin Product Catalog] に追加する製品を選択するページ [!DNL Walmart Marketplace] 品揃え、または製品属性を更新して Walmart Marketplace リストの要件を満たす。 |
-| [!UICONTROL Match products on Walmart] | 「ドラフト」ステータスで 1 つ以上の製品を選択した後、「ウォルマートで製品を照合」を選択して、既存のに追加できる製品オファーがないかを確認します [!DNL Walmart Marketplace] リスト。 |
+| [!UICONTROL Match products on Walmart] | ドラフトステータスで 1 つ以上の製品を選択した後、「製品を一致させる」を選択します。 [!DNL Walmart] 既存の [!DNL Walmart Marketplace] リスト。 |
 | [!UICONTROL Refresh products] | 最新のリストとステータスで表示を更新します。 また、このコントロールは、リスト表示をデフォルトの並べ替え順にリセットし、フィルターを削除します。 |
 | [!UICONTROL Filter by *ステータス*] | リスト表の上にあるステータスカウントカードの 1 つを選択して、特定のステータスを持つリストのみを表示します。 以下を使用： *製品を更新* をクリックして、フィルターを削除します。 |
 | [!UICONTROL Sort products] | 列ヘッダーを選択して、リストの並べ替え順を変更します。 |
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]** — で正常に一致した製品を識別します。 [!DNL Walmart].
 
-   製品属性値（UPC コードなど）が既存の UPC 値と一致する場合に一致が発生します[!DNL Walmart Marketplace] リスト。 製品が一致すると、コマース製品オファーが既存のウォルマートリストに追加されます。
+   製品属性値（UPC コードなど）が既存の UPC 値と一致する場合に一致が発生します[!DNL Walmart Marketplace] リスト。 製品が一致する場合、コマース製品オファーは既存の [!DNL Walmart] リスト。
 
    次を確認します。 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) ダッシュボードを使用して、更新された製品リストを確認し、製品の詳細、価格、在庫数量を確認します。
 

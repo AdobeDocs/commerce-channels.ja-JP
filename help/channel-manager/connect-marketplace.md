@@ -2,22 +2,22 @@
 title: セールスチャネルの接続先 [!DNL Walmart Marketplace]
 description: セールスチャネルを設定し、Walmart Marketplace に接続します。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # セールスチャネルの接続先 [!DNL Walmart Marketplace]
 
-に Channel Manager をインストールした後、 [!DNL Commerce] 例えば、コマースストアを Walmart Marketplace に接続します。
+に Channel Manager をインストールした後、 [!DNL Commerce] インスタンス、接続 [!DNL Commerce] 保存先 [!DNL Walmart Marketplace].
 
 1. [セールスチャネルを作成](#create-the-sales-channel) 商品リスト用のコマースストアを選択する。
 
-1. [チャネルの接続先 [!DNL Walmart Marketplace] ウォルマート API 資格情報を追加する](#connect-the-channel-to-walmart-marketplace).
+1. [チャネルの接続先 [!DNL Walmart Marketplace] 追加する [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [セールスチャネルの設定の完了](#complete-store-setup) をクリックして、Walmart Marketplace 製品の品揃えのリスト、在庫、価格、注文を管理します。
+1. [セールスチャネルの設定の完了](#complete-store-setup) のリスト、在庫、価格、注文を管理する [!DNL Walmart Marketplace] 製品の品揃え。
 
 ## セールスチャネルを作成
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 1. 内 **[!UICONTROL Marketplaces available to connect]** セクション、選択 **[!UICONTROL Get Started]**.
 
-   ![新しいウォルマートストアをに接続 [!DNL Channel Manager]](assets/channel-manager-home.png)
+   ![新規接続 [!DNL Walmart] 保存先 [!DNL Channel Manager]](assets/channel-manager-home.png)
 
-1. 必要に応じて、Walmart Marketplace Seller アカウントを設定します。
+1. 必要に応じて、 [!DNL Walmart Marketplace Seller] アカウント
 
 1. ストアと接続の設定：
 
@@ -73,10 +73,10 @@ ht-degree: 0%
 
 ### 接続の問題のトラブルシューティング
 
-ウォルマートへの接続に失敗した場合は、 [Walmart Marketplace に関する FAQ](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;} を参照してください。
+接続先 [!DNL Walmart] 失敗 ( [Walmart Marketplace に関する FAQ](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;} を参照してください。
 
 - 次の [!DNL Walmart Developer Portal]に設定し、の実稼動 API キーの正しい資格情報をコピーしたことを確認します。 [!UICONTROL Adobe Inc.]
 
-- WalmartAdobeAPI キーのアクセス設定に正しい権限があることを確認します。 詳しくは、 [ウォルマートの前提条件](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
+- のアクセス設定を確認します。 [!UICONTROL Walmart Adobe API key] には正しい権限があります。 詳しくは、 [[!DNL Walmart Prerequisites]](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - を確認します。 [!DNL Walmart API] サービスは [ウォルマート API ステータスページ](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。

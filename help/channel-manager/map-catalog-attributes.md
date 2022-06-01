@@ -2,9 +2,9 @@
 title: カタログ属性をマッピング
 description: 一致する属性をマッピング [DNL! コマース ] 製品を既存の製品に [!DNL Walmart Marketplace] リストと同期，データ間 [!DNL Channel Manager] および [!DNL Walmart].
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
+source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 次の場所にリストを公開する前に： [!DNL Commerce] から [!DNL Walmart Marketplace]の場合、 [!DNL Commerce] カタログを Walmart から対応する ID に追加します。
 この手順は、 [!DNL Commerce] 既存の製品 [!DNL Walmart] 製品データを次の間で同期する [!DNL Commerce] および [!DNL Walmart].
 
-製品の照合を行うには、コマース製品に、次の [!DNL Walmart].
+製品の照合の場合、 [!DNL Commerce] 製品には、で必要な次の製品識別子（製品 ID）の 1 つに一致する製品属性が少なくとも 1 つ必要です。 [!DNL Walmart].
 
-**必要なウォルマート製品 ID**
+**必須 [!DNL Walmart] 製品 ID**
 
 | **許可されたタイプ** | **名前** | **目的** | **指定可能な桁数** |
 |-------------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 1. の [!UICONTROL Listings] セールスチャネルストアのページで、「 」を選択します。 **[!UICONTROL Settings]**.
 
-   - マッピングする Walmart Marketplace 属性を見つけます。
+   - 次を検索： [!DNL Walmart Marketplace] マップする属性。
 
    - 対応する属性を [!DNL Commerce] ストアカタログ。
 
-      次の例では、Walmart Marketplace UPC 属性を商品カタログの UPC 属性にマップします。
+      次の例では、 [!UICONTROL Walmart Marketplace UPC] 属性を製品カタログの UPC 属性に設定します。
    ![製品一致条件の属性をマッピング](assets/products-map-attributes-for-match.png)
    - 必要に応じて、複数の属性をマッピングして、一致を増やすことができます。 複数の属性をマッピングする場合は、 **プライマリ識別子**. この
 

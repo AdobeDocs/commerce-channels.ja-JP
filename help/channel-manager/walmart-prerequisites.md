@@ -1,32 +1,32 @@
 ---
-title: ウォルマートの前提条件
-description: Channel Manager と統合するために必要な Walmart Marketplace 情報とリソースが揃っていることを確認します。
+title: '"[!DNL Walmart] 前提条件»'
+description: 「必要な [!DNL Walmart Marketplace] Channel Manager と統合するための情報およびリソースです。」
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-# ウォルマートの前提条件
+# [!DNL Walmart] 前提条件
 
-チャネルマネージャーで Walmart Marketplace 用に Commerce 販売チャネルを設定するには、次のリソースと情報が必要です。
+[!DNL Channel Manager] を設定するには、次のリソースと情報が必要です。 [!DNL Commerce] ～の販売チャネル [!DNL Walmart Marketplace.]
 
-* 登録済み Marketplace セラーアカウントにログインするためのウォルマートでの販売の承認と資格情報
+* 販売の承認 [!DNL Walmart] および登録済みの Marketplace Seller アカウントにログインするための資格情報
 
-* Adobe CommerceまたはMagento Open Sourceを Walmart Marketplace に接続するための API キー
+* Adobe CommerceまたはMagento Open Sourceの接続先となる API キー [!DNL Walmart Marketplace]
 
-   Walmart Marketplace API キーは、Adobe CommerceまたはMagento Open Sourceのチャネルマネージャーとウォルマートマーケットプレイスとの統合を可能にします。 チャネルマネージャのオンボーディングプロセスを開始する前に、Seller Central で API キーを設定します。
+   この [!DNL Walmart Marketplace] API キーにより、 [!DNL Channel Manager] Adobe CommerceやMagento Open Sourceやウォルマート・マーケットプレイスの チャネルマネージャのオンボーディングプロセスを開始する前に、Seller Central で API キーを設定します。
 
 ## Marketplace セラーアカウントを設定する
 
 1. [Walmart Seller の申し込みを送信](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. ウォルマートから承認を得て [ウォルマート販売者アカウントを設定する](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. から承認を得た後 [!DNL Walmart], [ウォルマート販売者アカウントを設定する](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Walmart Marketplace Production API キーを生成
+## を生成する [!DNL Walmart Marketplace] 実稼動 API キー
 
-1. Walmart Marketplace に移動して、 [Adobe用のソリューションプロバイダー実稼動 API キー](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. に移動します。 [!DNL Walmart Marketplace] を生成する [Adobe用のソリューションプロバイダー実稼動 API キー](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. キーを作成し、権限を設定します。
 
@@ -50,12 +50,12 @@ ht-degree: 0%
    | ルール | フルアクセス |
    | 送料 | フルアクセス |
 
-## ウォルマートマーケットプレイスストアのステータス
+## [!DNL Walmart Marketplace] ストアのステータス
 
-製品を Walmart Marketplace に発行する場合、リストの可用性は Walmart Marketplace ストアのステータスによって異なります。
+製品を Marketplace に公開する際に使用できるリストは、 [!DNL Walmart Marketplace] ストア：
 
 * ライブストアの場合は、製品オファーが一覧表示され、一致操作が完了したときに販売できます。
 
-* ライブでないストアの場合、製品オファーはステージングされ、顧客には表示されません。 ストアがライブになると、ステージングされたリストがライブストアに自動的にプッシュされます。
+* ライブでないストアの場合、製品オファーはステージングされ、顧客には表示されません。 次の場合に [!DNL Walmart Marketplace] ストアはライブになり、ステージングされたリストは自動的にライブストアにプッシュされます。
 
 ![[!DNL Walmart Seller Central] 段階別製品](assets/walmart-seller-central-staged.png)
