@@ -2,7 +2,7 @@
 title: セールスチャネルの接続先 [!DNL Walmart Marketplace]
 description: セールスチャネルを設定し、Walmart Marketplace に接続します。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. チャネルの接続先 [!DNL Walmart Marketplace].
 
-   - の資格情報を追加します。 [[!DNL Walmart Marketplace Adobe Production API key]](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) から [!DNL Walmart Marketplace Seller] アカウント
+   - の資格情報を追加します。 [[!DNL Walmart Marketplace Adobe Production API key]](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) から [!DNL Walmart Marketplace Seller] アカウント
 
    - 資格情報がない場合は、 [!DNL Walmart Marketplace Developer Portal] 選択する **[!UICONTROL Get API credentials]**.
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >この [!DNL Adobe Inc] キーが開発者ポータルに表示されない場合は、 **[!UICONTROL Add New Key for a Solution Provider]** 権限を設定し、キーを生成する。 設定の詳細については、 [を生成する [!DNL Walmart Marketplace API Key]](walmart-prerequisites.md#generate-a-walmart-marketplace-api-key).
+      >この [!DNL Adobe Inc] キーが開発者ポータルに表示されない場合は、 **[!UICONTROL Add New Key for a Solution Provider]** 権限を設定し、キーを生成する。 設定の詳細については、 [を生成する [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key).
 
    - 戻る [!DNL Channel Manager] 認証情報を **[!UICONTROL Walmart Connection]** 情報。
 
@@ -77,6 +77,6 @@ ht-degree: 0%
 
 - 次の [!DNL Walmart Developer Portal]に設定し、の実稼動 API キーの正しい資格情報をコピーしたことを確認します。 [!UICONTROL Adobe Inc.]
 
-- のアクセス設定を確認します。 [!UICONTROL Walmart Adobe API key] には正しい権限があります。 詳しくは、 [[!DNL Walmart Prerequisites]](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
+- のアクセス設定を確認します。 [!UICONTROL Walmart Adobe API key] には正しい権限があります。 詳しくは、 [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
 - を確認します。 [!DNL Walmart API] サービスは [ウォルマート API ステータスページ](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。

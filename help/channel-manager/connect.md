@@ -4,9 +4,9 @@ description: チャネルマネージャの接続先 [!DNL Commerce] データ�
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Commerce Services コネクタは、チャネルマネージャーサービス�
 
 Commerce Services コネクタの設定は、Adobeの使用に必要な 1 回限りのプロセスです [Commerce SaaS サービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} いいね！ [!DNL Channel Manager], [!DNL Live Search]、および [!DNL Product Recommendations]. コネクタを別のサービス用に既に設定している場合は、この手順をスキップします。
 
-## 前提条件
+## 要件
 
 - **コマースアカウント** — コマースインスタンスにソフトウェアをインストールするには、コマースプラットフォームへの所有者または管理者アクセス権を持つアカウントが必要です。
 
-   アカウントの所有者と管理者ユーザーは、コマースインスタンスから、またはコマンドラインから、 [!DNL Commerce] CLI コマンド `admin:user:create`.
+   アカウントの所有者とスーパーユーザーは、コマースインスタンスから、または、 [!DNL Commerce] CLI コマンド `admin:user:create`.
 
 - **Adobe Commerce Production API キー**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} は、チャネルマネージャーで必要なサービスへの API アクセスを有効にします。 このキーの公開および非公開の資格情報が必要です。
 

@@ -2,9 +2,9 @@
 title: ウォルマートにリストを発行
 description: コマース製品のリストを次に公開 [!DNL Walmart Marketplace]売り出しを始める
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### 前提条件
 
-商品を照合する前に、商品カタログの属性値がウォルマートの要件を満たしていることを確認し、属性設定を構成します。 詳しくは、 [カタログ属性をマッピング](map-catalog-attributes.md).
+製品を照合する前に、製品カタログ属性値がウォルマートの要件を満たしていることを確認し、製品属性設定を構成します。 詳しくは、 [カタログ属性をマッピング](map-catalog-attributes.md).
 
 #### 製品の選択と照合
 
@@ -52,9 +52,7 @@ ht-degree: 0%
 
 一致が完了すると、ステータスは次のようになります。 *一致* または *エラー*.
 
-* **[!UICONTROL Match]** 製品が正常に一致したことを示します。 製品のオファーが既存の Walmart Marketplace リストに公開されました。 この [Marketplace ストアがアクティブではありません](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* が *[!UICONTROL Status detail]* 列。
-
-次に、 [[!DNL Walmart Marketplace] ストアがアクティブではありません](walmart-prerequisites.md#walmart-marketplace-store-status)、 *ステータスの詳細* 列は、製品が *マッチ用にステージング済み*. ステージングされた製品は、 [!DNL Walmart Marketplace] ストアがアクティブ化されています。
+* **[!UICONTROL Match]** 製品が正常に一致したことを示します。 製品のオファーが既存の Walmart Marketplace リストに公開されました。 この [Marketplace ストアがアクティブではありません](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* が *[!UICONTROL Status detail]* 列。 ステージングされた製品は、 [!DNL Walmart Marketplace] ストアがアクティブ化されています。
 
 * **[!UICONTROL Error]** は、次のいずれかの問題が原因で一致操作が失敗したことを示します。
 
@@ -116,7 +114,7 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
 
 ### 前提条件
 
-* 次に示す [ウォルマートの前提条件](walmart-prerequisites.md).
+* 次に示す [ウォルマートの要件](walmart-requirements.md).
 
 * Commerce 製品カタログで、Walmart Marketplace にリストする製品のカタログ設定に必要な属性がすべて含まれ、Walmart Marketplace コンテンツガイドラインを満たしていることを確認します。
 

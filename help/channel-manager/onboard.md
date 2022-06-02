@@ -4,17 +4,15 @@ description: インスタンスを [!DNL Channel Manager] サービスを使用�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 
 # オンボード [!DNL Channel Manager]
-
-Channel Manager 拡張機能を [!DNL Commerce] インスタンスを作成し、API 接続を設定します。 これらの接続を使用すると、コマースインスタンスと [!DNL Walmart Marketplace].
 
 オンボーディングが完了したら、 [!UICONTROL Channel Manager] オプションを [!UICONTROL Commerce Admin Marketing] メニュー
 
@@ -30,9 +28,9 @@ Channel Manager 拡張機能を [!DNL Commerce] インスタンスを作成し�
 
 1. [ストア設定の完了](complete-store-setup.md).
 
-## 前提条件
+## 要件
 
-- 必要な [Walmart Marketplace の前提条件](walmart-prerequisites.md) を使用して、チャネルマネージャーと統合します。
+- 次に示す [Walmart Marketplace の要件](walmart-requirements.md) を使用して、チャネルマネージャーと統合します。
 
 - **コマースアカウント情報** — ダウンロードとインストール [!DNL Channel Manager] にはが必要です [コマースアカウント](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}。 に対する所有者または管理者アクセス権を持つアカウント ID と資格情報が必要です [!DNL Adobe Commerce] または [!DNL Magento Open Source] インスタンス。
 
@@ -62,7 +60,7 @@ Channel Manager 拡張機能を [!DNL Commerce] インスタンスを作成し�
 
    在庫と Order Management にチャネルマネージャーを使用する予定がある場合は、Adobe CommerceおよびMagento Open SourceインスタンスにInventory management拡張機能をインストールし、有効にしておく必要があります。 通常、この拡張機能は、Adobe CommerceおよびMagento Open Source2.3.x 以降にインストールされ、デフォルトで有効になります。 詳しくは、 [Inventory managementのインストール](https://devdocs.magento.com/extensions/inventory-management/) ( Adobe Commerce開発者向けドキュメント )。
 
-### 要件
+### 必要システム構成
 
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)

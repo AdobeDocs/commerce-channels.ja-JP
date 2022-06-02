@@ -2,9 +2,9 @@
 title: インストール [!DNL Channel Manager]
 description: Channel Manager 拡張機能をインストールします。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # インストール [!DNL Channel Manager]
 
-以下を確認します。 [前提条件](onboard.md#prerequisites) を参照して、必要な情報を収集してから Channel Manager をインストールします。
+以下を確認します。 [要件](onboard.md#requirements) を参照して、必要な情報を収集してから Channel Manager をインストールします。
 
 ## 最小安定性設定を更新
 
@@ -56,7 +56,7 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
 1. 次の [!DNL Commerce] プロジェクトのルートディレクトリ、チャネルマネージャーの追加先 `composer.json`.
 
    ```bash
-    $ composer require magento/channel-manager --no-update
+    composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. プロンプトが表示されたら、 [!DNL Commerce] アカウント
@@ -66,59 +66,55 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
 1. 依存関係を更新し、拡張機能をインストールします。
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
 
-   この `composer update` コマンドはすべての依存関係を更新します。 チャネルマネージャーに関連する依存関係のみを更新するには、代わりに次のコマンドを使用します。 `composer update magento/channel-manager`.
+   この `composer update` コマンドは、 [!DNL Channel Manager]. すべての依存関係を更新するには、代わりに次のコマンドを使用します。 `composer update`.
 
 1. Composer がプロジェクトの依存関係の更新を完了するのを待ち、エラーを解決します。
 
-1. インストールの確認
+1. モジュールのインストールを確認します。
+
+   - モジュールのステータスを確認します。
+
+      ```bash
+      bin/magento module:status Magento_SalesChannels
+      ```
+
+      レスポンスのサンプル：
+
+      ```terminal
+      Module is enabled
+      ```
+
+   - モジュールが有効になっていない場合は、有効にします。
 
    ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   レスポンスのサンプル：
-
-   ```terminal
-   Module is disabled
+   bin/magento module:enable Magento_SalesChannels
    ```
 
 1. 拡張機能を登録します。
 
    ```bash
-   $ bin/magento setup:upgrade
+   bin/magento setup:upgrade
    ```
 
 1. プロンプトが表示されたら、 [!DNL Commerce] プロジェクト。
 
    ```bash
-   $ bin/magento setup:di:compile
-   ```
-
-1. 拡張機能が有効になっていることを確認します。
-
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   レスポンスのサンプル：
-
-   ```bash
-   Module is enabled
+   bin/magento setup:di:compile
    ```
 
 1. キャッシュをクリーンアップします。
 
    ```bash
-   $ bin/magento cache:clean
+   bin/magento cache:clean
    ```
 
 1. メンテナンスモードを無効にします。
 
    ```bash
-    $ bin/magento maintenance:disable
+   bin/magento maintenance:disable
    ```
 
 ### クラウドインフラストラクチャインスタンス上のAdobe Commerceにインストールする
@@ -136,14 +132,16 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
 1. コンポーザー名を使用して、拡張機能を `require` セクション `composer.json` ファイル。
 
    ```bash
-   $ composer require magento/channel-manager --no-update
+   composer require require magento/module-sales-channels-extension --no-update
    ```
 
-1. プロジェクトの依存関係を更新します。
+1. 依存関係を更新し、拡張機能をインストールします。
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
+
+   この `composer update` コマンドは、 [!DNL Channel Manager]. すべての依存関係を更新するには、代わりに次のコマンドを使用します。 `composer update`.
 
 1. コードの変更を追加、コミット、およびプッシュします。両方の `composer.lock` および `composer.json` ファイル。
 
@@ -161,15 +159,18 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
 
 1. ビルドおよびデプロイプロセスが完了したら、SSH を使用してリモート環境にログインし、拡張機能が正しくインストールされていることを確認します。
 
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
+```bash
+   bin/magento module:status Magento_SalesChannels
+```
 
-   レスポンスのサンプル：
+レスポンスのサンプル：
 
-   ```terminal
-   Module is enabled
-   ```
+```terminal
+Module is enabled
+```
+
+モジュールが無効な場合、 [ローカル環境で有効にする](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) 変更をデプロイします。
+
 
 1. 拡張機能が正常にインストールされたら、 [!UICONTROL Admin] から [Commerce Services コネクタの設定](connect.md).
 
