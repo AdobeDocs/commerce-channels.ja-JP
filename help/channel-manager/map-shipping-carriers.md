@@ -2,9 +2,9 @@
 title: 輸送業者をマップ
 description: 一致する属性をマッピング [DNL! コマース ] 製品を既存の製品に [!DNL Walmart Marketplace] リストと同期，データ間 [!DNL Channel Manager] および [!DNL Walmart].
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 ## 輸送業者をマップ
 
-1. の [!UICONTROL Listings] セールスチャネルストアのページで、「 」を選択します。 **[!UICONTROL Settings]**.
+1. 次の **[!UICONTROL Listings]** または **[!UICONTROL Orders]** ページ、選択 **[!UICONTROL Channel Settings]**.
 
-1. 送信者 **[!UICONTROL Map Attributes]**&#x200B;を選択します。 **[!UICONTROL Shipping Carriers]**.
+1. オン **[!UICONTROL Channel Settings]**&#x200B;を選択します。 **[!UICONTROL Shipping Carriers]**.
 
    ![輸送業者をマップ](assets/map-shipping-carriers.png)
 

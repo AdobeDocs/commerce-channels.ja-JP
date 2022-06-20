@@ -2,19 +2,18 @@
 title: カタログ属性をマッピング
 description: 一致する属性をマッピング [DNL! コマース ] 製品を既存の製品に [!DNL Walmart Marketplace] リストと同期，データ間 [!DNL Channel Manager] および [!DNL Walmart].
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
 
 # カタログ属性をマッピング
 
-次の場所にリストを公開する前に： [!DNL Commerce] から [!DNL Walmart Marketplace]の場合、 [!DNL Commerce] カタログを Walmart から対応する ID に追加します。
-この手順は、 [!DNL Commerce] 既存の製品 [!DNL Walmart] 製品データを次の間で同期する [!DNL Commerce] および [!DNL Walmart].
+次のリストに接続する前に： [!DNL Commerce] から [!DNL Walmart Marketplace]の場合、 [!DNL Commerce] カタログを Walmart から対応する ID に追加します。
 
-製品の照合の場合、 [!DNL Commerce] 製品には、で必要な次の製品識別子（製品 ID）の 1 つに一致する製品属性が少なくとも 1 つ必要です。 [!DNL Walmart].
+この手順は、 [!DNL Commerce] 既存の製品 [!DNL Walmart] 製品データを次の間で同期する [!DNL Commerce] および [!DNL Walmart]. この [!DNL Commerce] 製品には、で必要な次の製品識別子（製品 ID）の 1 つに一致する製品属性が少なくとも 1 つ必要です。 [!DNL Walmart].
 
 **必須 [!DNL Walmart] 製品 ID**
 
@@ -29,7 +28,9 @@ ht-degree: 0%
 
 ## 一意の ID をマッピング
 
-1. の [!UICONTROL Listings] セールスチャネルストアのページで、「 」を選択します。 **[!UICONTROL Settings]**.
+1. 次の **[!UICONTROL Listings]** または **[!UICONTROL Orders]** セールスチャネルストアのページで、「 」を選択します。 **[!UICONTROL Channel Settings]**.
+
+1. オン **[!UICONTROL Channel Settings]**&#x200B;を選択します。 **[!UICONTROL Shipping Carriers]**.
 
    - 次を検索： [!DNL Walmart Marketplace] マップする属性。
 
@@ -37,17 +38,7 @@ ht-degree: 0%
 
       次の例では、 [!UICONTROL Walmart Marketplace UPC] 属性を製品カタログの UPC 属性に設定します。
    ![製品一致条件の属性をマッピング](assets/products-map-attributes-for-match.png)
-   - 必要に応じて、複数の属性をマッピングして、一致を増やすことができます。 複数の属性をマッピングする場合は、 **プライマリ識別子**. この
 
    - 選択 **[!UICONTROL Save]**.
 
 
-## マッピングされた属性設定を更新
-
-マッピングされた属性設定を更新して、製品に一致する Commerce 製品識別子を変更します。
-
-例えば、Commerce UPC の製品属性コードに基づいて製品を一致させる代わりに、SKU に基づいて製品を一致させることができます。 または、追加の属性をマッピングして、マッチングを改善します。
-
-1. 次の **[!UICONTROL Listings]**&#x200B;を選択します。 **[!UICONTROL Settings]**.
-
-1. Map 属性フォームで、必要に応じて、マッピングされた属性設定を変更します。

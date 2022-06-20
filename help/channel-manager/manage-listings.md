@@ -2,20 +2,20 @@
 title: リストの管理
 description: 次の項目のセールスチャネルリストを管理します [!DNL Commerce] ストアを Channel Manager(Adobe CommerceとMagento Open Source) で保存します。
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
 
 # リストの管理
 
-の製品リストを管理 [!DNL Walmart Marketplace] からのセールスチャネル [!UICONTROL Listings] （チャネルストア表示）。 個々のリストのステータスは、製品が [!DNL Channel Manager] ワークフローを使用して、次の手順を決定し、エラーを解決できます。
+の製品リストを管理 [!DNL Walmart Marketplace] チャネルマネージャー UI からの sales チャネル
 
 個々のリストのステータスは、製品が [!DNL Channel Manager] ワークフローを使用して、次の手順を決定し、エラーを解決できます。
 
-![接続されたセールスチャネルのリストページ](assets/product-listing-landing.png)
+![接続されたセールスチャネルのリストページ](assets/listings-dashboard-view.png)
 
 リスト表示から、次のタスクを実行できます。
 
@@ -24,12 +24,13 @@ ht-degree: 0%
 * 製品を追加
 * 製品を一致させる
 * リストステータスを追跡
+* エラーステータスを持つ製品リストのエラー説明
 
 ## 製品リストを表示
 
-1. 管理者から、に移動します。 [!UICONTROL **マーケティング** /チャネル/ **チャネルマネージャ**].
+1. 管理者から、に移動します。 [!UICONTROL **マーケティング** > **チャネルマネージャ**].
 
-1. 「チャネルストア」リストで、ストアエントリ行の鉛筆アイコンを選択して、ストアビューを開きます。
+1. 「ストア」リストで、ストアエントリ行の目のアイコンを選択して、ストアビューを開きます。
 
 1. 選択 [!UICONTROL **リスト**].
 
@@ -47,13 +48,13 @@ ht-degree: 0%
 
 * [カタログ属性をマッピング](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## 製品の公開先 [!DNL Walmart]
+## 次の製品を照合： [!DNL Walmart]
 
 製品オファーは、 [!DNL Walmart Marketplace] 製品のマッチングを使用するか、新しい製品の製品リストを手動でアップロードしてください。
 
-* **[ウォルマートでの製品のマッチング](publish-listings-to-marketplace.md)** — チャネルからに製品リストを公開します [!DNL Walmart Marketplace] 同じ製品を販売する既存のリストを更新する。 一致条件は、 [attribute-mapping 設定](map-catalog-attributes.md) チャネルの
+* **[ウォルマートでの製品のマッチング](connect-listings-to-marketplace.md)** — チャネルからに製品リストを接続します [!DNL Walmart Marketplace] 同じ製品を販売する既存のリストを更新する。 一致条件は、 [attribute-mapping 設定](map-catalog-attributes.md) チャネルの
 
-* **[新しいリストを手動でアップロード](publish-listings-to-marketplace.md#upload-new-product-listings)** — 上の既存のリストと一致しない製品の場合 [!DNL Walmart Marketplace]、 [!DNL Walmart] 製品カテゴリ製品リストを一括アップロードするための Excel テンプレート。
+* **[新しいリストを手動でアップロード](connect-listings-to-marketplace.md#upload-new-product-listings)** — 上の既存のリストと一致しない製品の場合 [!DNL Walmart Marketplace]、 [!DNL Walmart] 製品カテゴリ製品リストを一括アップロードするための Excel テンプレート。
 
 ## リストコントロールと列の説明
 
@@ -73,32 +74,33 @@ ht-degree: 0%
 **列の説明**
 
 | **フィールド** | **説明** |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product name] | からの製品名 [!DNL Commerce] ストアカタログ。 |
-| [!UICONTROL SKU (Unique ID)] | マーケットプレイスで製品の照合に使用される、マッピングされた属性。 このフィールド名は、 [!DNL Channel Manager] リスト この場合、製品照合操作では、 [!DNL Commerce] 検索するカタログ [!DNL Walmart Marketplace]  SKU 値が [!DNL Commerce] 製品属性。 |
+| [!UICONTROL SKU (Unique ID)] | 内の製品に割り当てられた SKU [!DNL Commerce] カタログ。 |
 | [!UICONTROL  Quantity] | Adobe CommerceまたはMagento Open Sourceで使用可能な在庫の量。 |
 | [!UICONTROL Price] | からの製品価格 [!DNL Commerce] ストアカタログ。 カタログ価格の更新は Channel Manager に同期され、次にに送信されます [!DNL Walmart Marketplace]  上場された項目が現在の価格を示すように |
 | [!UICONTROL Status] | 現在の注文ステータスを [!DNL Commerce] 注文ワークフロー。 製品をに正常に追加すると、ステータスが更新されます。 [!DNL Channel Manager] とは、マーケットプレイスで製品を照合する場合に使用します。 操作が失敗した場合は、エラーステータスがリストに表示されます。 エラーを修正した後、 [!DNL Channel Manager] 操作を再試行し、ステータスを更新します。 |
+| [!UICONTROL Error Description] | 製品に関する追加のエラー情報を、 `[!DNL Error]` ステータス。 |
 | [!UICONTROL Status Detail] | 製品に関する追加情報を *エラー* または *一致* ステータス。 |
 
 ### リストステータスについて
 
 リストワークスペースで、ステータスラベルに製品が [!DNL Channel Manager] ワークフローを使用して、次の手順を決定し、エラーを解決できます。 リストには次のステータスラベルを設定できます。
 
-* **[!UICONTROL Draft]** — 過去に [送信先 [!DNL Walmart] 照合](publish-listings-to-marketplace.md#match-products).
+* **[!UICONTROL Draft]** — 過去に [送信先 [!DNL Walmart] 照合](connect-listings-to-marketplace.md#match-products).
 
 * **[!UICONTROL Processing]** — で照合用に送信された製品を識別します。 [!DNL Walmart Marketplace]. 製品は *処理中* 次の日までのステータス： [!DNL Walmart] は、一致が成功したか、またはエラーが発生したかを示す HTTP ステータスメッセージを返します。 一致操作が [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Match]** — で正常に一致した製品を識別します。 [!DNL Walmart].
 
-   製品属性値（UPC コードなど）が既存の UPC 値と一致する場合に一致が発生します[!DNL Walmart Marketplace] リスト。 製品が一致する場合、コマース製品オファーは既存の [!DNL Walmart] リスト。
+   製品属性値（UPC コードなど）が既存の UPC 値と一致する場合に一致が発生します [!DNL Walmart Marketplace] リスト。 製品が一致する場合、コマース製品オファーは既存の [!DNL Walmart] リスト。
 
    次を確認します。 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) ダッシュボードを使用して、更新された製品リストを確認し、製品の詳細、価格、在庫数量を確認します。
 
-* **[!UICONTROL Match - Match in Stage]** — 一致する製品を識別します。 [!DNL Walmart] それは、 [!DNL Walmart Marketplace] ストアはライブです。 このステータスの製品は、 [!DNL Walmart Marketplace] ストアがライブになります。
+* **[!UICONTROL Match - Match in Stage]** — 一致する製品を識別します。 [!DNL Walmart] それは次の時点まで接続できない [!DNL Walmart Marketplace] ストアはライブです。 このステータスの製品は、 [!DNL Walmart Marketplace] ストアがライブになります。
 
 * **[!UICONTROL Error]** — 既存の製品と一致しない製品を識別します。 [!DNL Walmart Marketplace] リスト。
 
 * **[!UICONTROL Error description]** — リストエラーに関する詳細情報を提供します。
 
-   エラーを解決したら、製品を再提出して照合します。 詳しくは、 [製品一致エラーのトラブルシューティング](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).
+   エラーを解決したら、製品を再提出して照合します。 詳しくは、 [製品一致エラーのトラブルシューティング](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

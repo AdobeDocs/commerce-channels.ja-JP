@@ -2,20 +2,26 @@
 title: 在庫と価格の更新
 description: '''[!DNL Channel Manager] コマースストアと [!DNL Walmart Marketplace] コマース管理者からセールスチャネルの運用を管理できます。'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # 在庫と価格の更新
 
-[!DNL Channel Manager] では、 [!DNL Commerce] 接続されたセールスチャネルと [!DNL Walmart Marketplace]. 同期により、製品リストは現在の在庫数と価格を反映します。
+[!DNL Channel Manager] では、 [!DNL Commerce] 製品カタログを作成し、接続されたセールスチャネルと [!DNL Walmart Marketplace]. 同期操作により、製品リストに現在の在庫数量と価格が反映されます。
+
+
+>[!IMPORTANT]
+>
+>後 [!DNL Channel Manager] がインストールおよび設定されると、在庫、価格、注文の更新がすべて自動的に同期されます。 既に Walmart Marketplace で直接または別の統合を通じて販売している場合は、以前の統合を無効にし、Commerce ストアフロントの在庫在庫レベルと価格が正確で、 [!DNL Walmart Marketplace] 接続する前に [!DNL Channel Manager] を live marketplace ストアに追加します。
+
 
 ## 在庫の更新
 
-製品在庫レベルが [!DNL Commerce], [!DNL Channel Manager] セールスチャネルと [!DNL Walmart Marketplace]. 在庫の更新がセールスチャネル全体でと同期されるまで、最大 10 分かかる場合があります。 [!DNL Walmart marketplace].
+製品在庫レベルが [!DNL Commerce], [!DNL Channel Manager] 更新内容を [!DNL Walmart Marketplace]. 在庫の更新がセールスチャネル全体でと同期されるまで、最大 10 分かかる場合があります。 [!DNL Walmart marketplace].
 
 * **製品カタログの在庫数量の更新**—When [!DNL Commerce] ～による在庫数量の変化 [手動在庫数量変更](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html)、返金、キャンセル [!DNL Channel Manager] 接続されたチャネルと [!DNL Walmart Marketplace].
 
@@ -29,7 +35,7 @@ ht-degree: 0%
 
 製品価格が [!DNL Commerce], [!DNL Channel Manager] 更新を [!DNL Walmart Marketplace]. 価格の変更が [!DNL Walmart Marketplace] リスト。
 
-### 公開済み製品の価格を管理
+### 接続製品の価格を管理
 
 1. 次の [!UICONTROL Admin]を選択します。 **[!UICONTROL Catalog > Products]**.
 1. 製品グリッドで、更新する製品を探し、「 」を選択します。 **[!UICONTROL Edit]**.

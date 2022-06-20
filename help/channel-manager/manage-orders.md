@@ -2,16 +2,26 @@
 title: '"管理 [!DNL Walmart Marketplace] 注文」'
 description: «表示と管理 [!DNL Walmart Marketplace] 注文件数 [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceに」
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: eb57189ed866fffa064867d1de5ae9db5b32e283
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
 
 # 管理 [!DNL Walmart Marketplace] 注文件数
 
-[!DNL Walmart Marketplace] 注文件数 [!DNL Commerce] 製品リストは自動的ににに同期 [!DNL Channel Manager] 後 [!DNL Walmart] は順序を処理します。 同期が完了したら、「 」を選択して注文情報を表示できます。 **[!UICONTROL Orders]** 次の接続済みチャネルストア表示から： [!DNL Channel Manager].
+[!DNL Walmart Marketplace] データを注文する [!DNL Commerce] 製品は自動的ににを [!DNL Channel Manager] 後 [!DNL Walmart] は順序を処理します。
+
+コマース側では、正常な同期によって次のアクションがトリガーされます。
+
+- [!DNL Channel Manager] は注文確認をウォルマートに送信します。
+
+- 対応するコマース注文がウォルマート注文から作成されます。
+
+- 更新された注文情報は、 [!DNL Channel Manager] 注文ダッシュボード。
+
+ストアフロント管理で、次の注文データを表示できます： [!DNL Channel Manager] セールスチャネルストアを開き、「 」を選択します。 **[!UICONTROL Orders]**.
 
 ![管理するチャネルマネージャーの注文表示 [!DNL Walmart Marketplace] 注文件数](assets/orders-dashboard-view.png)
 
@@ -19,11 +29,56 @@ ht-degree: 0%
 >
 >1 回の処理に最大 35 分かかる場合があります [!DNL Walmart Marketplace] 表示する順序 [!DNL Channel Manager] 注文リスト。 [!DNL Walmart] 受信注文を処理し、に送信するには約 30 分かかります。 [!DNL Channel Manager]. チャネルマネージャーが注文を受け取ると、Adobe CommerceまたはMagento Open Sourceで注文を作成して表示するのに、さらに約 5 分かかります。
 
+## 受注管理と列の説明
+
+次の表に、注文で使用できるコントロールと列を示します。
+
+**のコントロール[!UICONTROL Orders]**
+| **制御**                    | **説明**                                                                                                                                                                                                                                                                  | |—|—| | [!UICONTROL Filter orders]     |次のいずれかを選択してビューを並べ替え [!UICONTROL Order Status] カード。                                                                                                                                                                                                           | |エラーの説明 |エラーステータスの注文に関する詳細情報を提供します。                                                                                                                                                                                                            | | [!UICONTROL View order detail] |注文の詳細を表示するには、 [!DNL Commerce] 注文番号 [!UICONTROL Order] 表。 次に、 [!DNL Commerce] オーダーのオプションを使用してオーダーを処理します。                                                                                                                    | | [!UICONTROL Channel Settings]  |チャネル設定を変更するには、チャネル Walmart Connection 認証情報、マッピングされた属性、または配送先の ID を選択し、 [!DNL Commerce] 注文番号 [!UICONTROL Order] 表。 次に、 [!DNL Commerce] オーダーのオプションを使用してオーダーを処理します。 |
+
+
+**列の説明**
+
+| フィールド | 説明 |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Walmart Order Number] | 内の注文に割り当てられた発注書番号 [!DNL Walmart Marketplace]. 注文が最初に次に読み込まれたとき： [!DNL Channel Manager]、 [!DNL Walmart] 注文番号が表示されます。 次の場合に [!DNL Commerce] 注文が作成されると、 [!DNL Walmart] 注文番号は [!UICONTROL External ID] 製品属性。 |
+| [!DNL Commerce] 注文番号 | に割り当てられた番号 [!DNL Commerce] から作成された注文 [!DNL Walmart Marketplace] 注文。 |
+| 項目 | 注文日の項目数 [!DNL Walmart Marketplace]. |
+| [!UICONTROL Order Value] | 注文項目の合計コスト。 |
+| [!UICONTROL Date Ordered] | 注文が [!DNL Walmart Marketplace]. |
+| [!UICONTROL Ship By Date] | 注文を満たすために発送する必要がある日付 [!DNL Walmart Marketplace] 要件 |
+| [!UICONTROL Deliver By Date] | 注文を顧客に配送して満たす必要がある日付 [!DNL Walmart Marketplace] UTC 形式の要件。 |
+| [!UICONTROL Ship Method] | この [[!DNL Walmart Marketplace] 発送方法](https://sellerhelp.walmart.com/s/guide?article=000007893) オーダーに対して選択されています。 |
+| [!UICONTROL Last Update At] | 注文データが最後に更新された時刻を示すタイムスタンプ [!DNL Channel Manager] （UTC 形式） |
+| [!UICONTROL Status] | 現在の注文ステータスを [!DNL Commerce] 注文ワークフロー。 からインポートされた注文の初期ステータス [!DNL Walmart Marketplace] が _開く_. コマース注文が処理され、 [!DNL Channel Manager] 出荷、出荷の一部、および取り消しの更新を [!DNL Walmart Marketplace]. |
+| [!UICONTROL Error Description] | 注文に関する詳細情報を _[!UICONTROL Error]_ステータス。 |
+
+## 注文ステータス
+
+
+[!UICONTROL Order Status] 現在の状態に関する情報を提供する [!DNL Walmart Marketplace] Adobe CommerceまたはMagento Open Sourceから管理される注文。 注文ステータスの更新は、 [!DNL Channel Manager] 次のいずれかから更新された注文情報を受け取る [!DNL Walmart Marketplace] または [!DNL Commerce] 注文システム。 オーダーには、次のステータスがあります。
+
+- **[!UICONTROL Shipped]** — から出荷された注文 [!DNL Commerce] ストア。 命令が出る時 [!DNL Channel Manager] 更新をに送信 [!DNL Walmart Marketplace] をクリックして、Walmart 上の出荷ステータスを更新し、出荷の注文追跡番号を指定します。
+
+- **[!UICONTROL Partially Shipped]** — 一部の品目が出荷済とマークされ、他の品目が出荷待ちとなっている注文。 受注出荷時の品目 [!DNL Channel Manager] 更新をに送信 [!DNL Walmart Marketplace] 出荷ステータスをウォルマートに出荷済に更新し、出荷の受注追跡番号を提供する。
+
+- **[!UICONTROL Canceled]** — からキャンセルされた注文 [!DNL Commerce] ストア。
+
+   注文のキャンセルが完了した後、 [!DNL Commerce] 返された品目を反映した在庫数量の更新 すると、 [!DNL Channel Manager] 更新を [!DNL Walmart Marketplace].
+
+- **[!UICONTROL Error]** — エラーが発生した注文。 注文の更新操作に失敗した場合、エラーが発生する可能性があります。 例えば、次の場合にエラーが発生します。 [!DNL Channel Manager] は、ウォルマートから新しい注文を受け取ることができません。 また、 [!DNL Channel Manager] 注文出荷またはキャンセルの更新を [!DNL Walmart Marketplace]. 操作が失敗した場合、注文ページに _エラー_ オーダーのステータス。 詳しくは、 [注文エラーを修正](process-orders.md#fix-shipping-and-cancell-errors)。
+
+- **[!UICONTROL Error description]** — 情報の不足や値の不正、出荷の詳細の誤り、注文のキャンセルの失敗などの問題が原因で発生する注文エラーに関する詳細情報を提供します。 説明は、 [!DNL Commerce] インスタンスまたは [!DNL Walmart Marketplace].
+
+>[!NOTE]
+>
+>注文品目が複数の出荷で送信される場合、 [!DNL Channel Manager] 使用可能な最後の注文ステータスを反映します。 例えば、最初の品目が出荷され、注文の更新が [!DNL Channel Manager] および [!DNL Walmart Marketplace]、 [!DNL Channel Manager] 注文ステータス： _[!UICONTROL Partially Shipped]_.  2 つ目の品目が出荷され、 [!Cチャネルマネージャ] エラーを返します。注文ステータスは次の値に更新されます：_[!UICONTROL Error]_.
+
 ## 注文の確認
 
 1. 管理者から、 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]** 開く [!UICONTROL Channel Manager Marketplace Stores] ページ。
 
-1. ストアエントリ行の鉛筆アイコンを選択して、ストアビューを開きます。
+1. ストアエントリ行の目のアイコンを選択して、ストアビューを開きます。
 
 1. 注文情報を表示するには、*を選択します。[!UICONTROL *Orders]**.
 
@@ -37,49 +92,20 @@ Marketplace から注文を受け取り、Adobe CommerceまたはMagento Open So
 
 ![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/order-detail-with-external-order-id.png)
 
-### 受注管理と列の説明
+Commerce ストアフロントで、次の場所からインポートされた注文： [!DNL Walmart Marketplace] 注文データには、次の追加情報が含まれています。
 
-次の表に、注文で使用できるコントロールと列を示します。
+- **支払い情報と発送方法** — ウォルマートからインポートされた注文には、支払いフィールドと配送フィールドに関する次の値が含まれます。
 
-**のコントロール[!UICONTROL Orders]**
-| **制御**                    | **説明**                                                                                                                                               | |—|—| | [!UICONTROL Filter orders]     |次のいずれかを選択してビューを並べ替え [!UICONTROL Order Status] カード。                                                                                        | |エラーメッセージの詳細 | [!UICONTROL Error Status] を参照して、詳細なエラーメッセージを確認します。                                                                      | | [!UICONTROL View order detail] |注文の詳細を表示するには、 [!DNL Commerce] 注文番号 [!UICONTROL Order] 表。 次に、 [!DNL Commerce] オーダーのオプションを使用してオーダーを処理します。 |
+   - **[!UICONTROL Offline Channel Payment]** — 注文の支払いが次の条件でオフラインで処理されることを示します： [!DNL Walmart Marketplace].
 
-**列の説明**
+   - **[!UICONTROL External Order Number]**— [!DNL Walmart Marketplace] 注文番号。
 
-| フィールド | 説明 |
-|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL  Walmart Order Number] | 内の注文に割り当てられた発注書番号 [!DNL Walmart Marketplace]. 注文が最初に次に読み込まれたとき： [!DNL Channel Manager]、 [!DNL Walmart] 注文番号が表示されます。 次の場合に [!DNL Commerce] 注文が作成されると、 [!DNL Walmart] 注文番号は [!UICONTROL External ID] 製品属性。 |
-| [!DNL Commerce]  注文番号 | に割り当てられた番号 [!DNL Commerce]  から作成された注文 [!DNL Walmart Marketplace] 注文。 |
-| 項目 | 注文日の項目数 [!DNL Walmart Marketplace]. |
-| [!UICONTROL Order Value] | 注文項目の合計コスト。 |
-| [!UICONTROL Date Created] | 注文が [!DNL Walmart Marketplace]. |
-| [!UICONTROL Ship By Date] | 注文を満たすために発送する必要がある日付 [!DNL Walmart Marketplace] 要件 |
-| [!UICONTROL Deliver By Date] | 注文を顧客に配送して満たす必要がある日付 [!DNL Walmart Marketplace] 要件 |
-| [!UICONTROL Last Update At] | 注文データが最後に更新された時刻を示すタイムスタンプ [!DNL Channel Manager] |
-| [!UICONTROL Status] | 現在の注文ステータスを [!DNL Commerce] 注文ワークフロー。 製品をに正常に追加すると、ステータスが更新されます。 [!DNL Channel Manager] 製品が [!DNL Walmart Marketplace]. 操作に失敗した場合は、リストにエラーステータスが表示されます。 エラーを修正した後、 [!DNL Channel Manager] 操作を再試行し、ステータスを更新します。 |
-| [!UICONTROL Error Description] | 注文に関する詳細情報を *エラー* ステータス。 |
+   - **[!UICONTROL Channel Shipping - Value]** — 送料が処理されることを示します [!DNL Walmart Marketplace].
 
-### オーダーステータスについて
+   - **[!UICONTROL Cancellation Reason]** — このフィールドは、次の場所からインポートされた注文の場合にのみ表示されます： [!DNL Walmart Marketplace] がキャンセルされました。 キャンセルの理由は次のとおりです。
 
+      - [!UICONTROL Price or other listing errors.]
+      - [!UICONTROL The item is out of stock.]
+      - [!UICONTROL Unavailable carrier or shipping information.]
+      - [!UICONTROL Additional information is required by our Credit or Fraud Avoidance department.]
 
-[!UICONTROL Order Status] 現在の状態に関する情報を提供する [!DNL Walmart Marketplace] Adobe CommerceまたはMagento Open Sourceから管理される注文。 注文ステータスの更新は、 [!DNL Channel Manager] 次のいずれかから更新された注文情報を受け取る [!DNL Walmart Marketplace] または [!DNL Commerce] 注文システム。 オーダーには、次のステータスがあります。
-
-* **[!UICONTROL Open]** — から受け取った注文 [!DNL Walmart Marketplace] Adobe CommerceまたはMagento Open Sourceでレビューおよび処理する準備が整いました。
-
-   顧客が [!DNL Walmart Marketplace]の場合、接続されたチャネルの注文ワークスペースに開いた注文が表示されるまで、最大 35 分かかる場合があります。 [!DNL Commerce] 受信注文を処理し、に送信するには約 30 分かかります。 [!DNL Channel Manager]. チャネルマネージャーがこの注文を受け取ると、 [!DNL Commerce] 注文。
-
-* **[!UICONTROL Processed]**・出荷、取り消し、返金された注文 [!DNL Commerce] ストア。
-
-   出荷済、取消済および払戻済の受注をすべて表示するには、 **処理済み** ステータスカード。
-
-* **[!UICONTROL Canceled]** — からキャンセルされた注文 [!DNL Commerce] ストア。
-
-   注文のキャンセルが完了した後、 [!DNL Commerce] 返された品目を反映した在庫数量の更新 すると、 [!DNL Channel Manager] 更新を [!DNL Walmart Marketplace].
-
-* **[!UICONTROL Refunded]**・払い戻しを受けた注文 [!DNL Commerce] ストア。
-
-   払い戻しが完了した後、 [!DNL Commerce] 返済品目を反映する在庫数量の更新。 すると、 [!DNL Channel Manager] 更新を [!DNL Walmart Marketplace].
-
-* **[!UICONTROL Error]** — エラーが発生した注文。 注文の更新操作に失敗した場合、エラーが発生する可能性があります。 例えば、次の場合にエラーが発生します。 [!DNL Channel Manager] は、ウォルマートから新しい注文を受け取ることができません。 また、 [!DNL Channel Manager] 注文出荷またはキャンセルの更新を [!DNL Walmart Marketplace].
-
-* **[!UICONTROL Error description]** — 情報の不足や値の不正、出荷の詳細の誤り、注文のキャンセルの失敗などの問題が原因で発生する注文エラーに関する詳細情報を提供します。 説明は、 [!DNL Commerce] インスタンスまたは [!DNL Walmart Marketplace].

@@ -2,9 +2,9 @@
 title: インストール [!DNL Channel Manager]
 description: Channel Manager 拡張機能をインストールします。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
+source-git-commit: f3b4392824e5682cec2f7071445111373188808e
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,6 @@ ht-degree: 0%
 # インストール [!DNL Channel Manager]
 
 以下を確認します。 [要件](onboard.md#requirements) を参照して、必要な情報を収集してから Channel Manager をインストールします。
-
-## 最小安定性設定を更新
-
-拡張機能をインストールする前に、 `minimum-stability` 要件 `composer.json` ファイルを作成し、Composer を使用して Channel Manager の初期バージョンをインストールできるようにします。
-
-設定を更新するには、次の行を `composer.json` ファイル。
-
-```json
-{
-   "minimum-stability": "alpha",
-   "prefer-stable": true
-}
-```
 
 ## 拡張機能のインストール
 
