@@ -1,12 +1,12 @@
 ---
 title: オンボード [!DNL Channel Manager]
-description: インスタンスを [!DNL Channel Manager] サービスを使用するには、いくつかのオンボーディング手順を完了します。
+description: '''インスタンスを [!DNL Channel Manager] サービスを使用するには、いくつかのオンボーディング手順を完了する必要があります。」'
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 - **コマースアカウント情報** — ダウンロードとインストール [!DNL Channel Manager] にはが必要です [コマースアカウント](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}。 に対する所有者または管理者アクセス権を持つアカウント ID と資格情報が必要です [!DNL Adobe Commerce] または [!DNL Magento Open Source] インスタンス。
 
-   - **画像 ID**-[ログイン](https://account.magento.com/customer/account/login/) から Commerce アカウントに ID を取得します。 **[!UICONTROL My Account - Magento settings]**.
+   - **画像 ID**-[ログイン](https://account.magento.com/customer/account/login/) から [!DNL Commerce] ID を取得するアカウント **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] コマースアカウント設定で](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] オン [!DNL Commerce] アカウント設定](assets/mageid-my-commerce-account.png)
 
-   - **アクセスキー —** Commerce Composer リポジトリから Commerce 拡張機能をダウンロードするための認証キーを取得します `([!DNL repo.magento.com]`) をクリックします。
+   - **アクセスキー —** ダウンロードする認証キーの取得 [!DNL Commerce] からの拡張 [!DNL Commerce] Composer リポジトリ `([!DNL repo.magento.com]`) をクリックします。
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

@@ -1,10 +1,10 @@
 ---
 title: ウォルマートにリストを接続
-description: コマース製品の一覧を次に接続： [!DNL Walmart Marketplace]売り出しを始める
+description: '''次の項目にリストを接続 [!DNL Commerce] 製品を [!DNL Walmart Marketplace]売り出しを始める」'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 418bb6a91817f49f3c3ae39a8d26370bfeb39099
+source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 - [!DNL Walmart Marketplace] は、UPC や GTIN などの製品識別子を使用して、製品を既存の製品と照合します [!DNL Walmart Marketplace] リスト
 
-- 一致する製品の場合、製品を接続する際に Commerce 製品オファーを含めるための更新が Walmart Marketplace リストに表示されます。 [!DNL Channel Manager].
+- 一致する製品の場合、「Walmart Marketplace」に、 [!DNL Commerce] 製品を [!DNL Channel Manager].
 
 - 通常、最も価格が低い製品オファーは、 [!DNL Walmart Marketplace] リストに加え、レビューなどの他の要因も配置に影響を与えます。
 
 ## 製品を一致させる
 
-製品が一致すると、チャネルマネージャーは製品データをに送信します。 [!DNL Walmart Marketplace] をクリックして、マッピングされた Commerce 製品属性に一致する属性値を持つ既存のリストを検索します。 一致条件は、 [attribute-mapping 設定](map-catalog-attributes.md) （ストアチャネル用）。
+製品が一致すると、チャネルマネージャーは製品データをに送信します。 [!DNL Walmart Marketplace] マッピングされた属性値に一致する既存のリストを検索するには [!DNL Commerce] 製品属性。 一致条件は、 [attribute-mapping 設定](map-catalog-attributes.md) （ストアチャネル用）。
 
 一致する製品が見つかった場合は、既存の製品リストが更新され、オファーが追加されます。
 
@@ -81,7 +81,7 @@ Walmart Marketplace のエラーコードについて詳しくは、 [Walmart Se
 
 ## 新しい製品リストをアップロード
 
-Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテゴリ Excel テンプレートを使用して製品リストを一括アップロードします。 Walmart テンプレートは、Commerce インスタンスから書き出された製品カタログデータを使用して入力します。
+Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテゴリ Excel テンプレートを使用して製品リストを一括アップロードします。 ウォルマートテンプレートには、 [!DNL Commerce] インスタンス。
 
 新しい製品リストについては、製品カタログをチェックし、Walmart Marketplace で販売する予定の製品が Walmart Marketplace 製品リストに必要な属性を持っていることを確認します。
 
@@ -113,7 +113,7 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
 
 - 次に示す [ウォルマートの要件](walmart-requirements.md).
 
-- Commerce 製品カタログで、Walmart Marketplace にリストする製品のカタログ設定に必要な属性がすべて含まれ、Walmart Marketplace コンテンツガイドラインを満たしていることを確認します。
+- を [!DNL Commerce] 製品カタログを開き、Walmart Marketplace でリストする製品のカタログ設定に必要な属性がすべて含まれ、Walmart Marketplace コンテンツガイドラインを満たしていることを確認します。
 
 - 書き出し操作を完了するには、cron ジョブが実行中であることを確認します。
 
@@ -135,16 +135,16 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
 
    - 製品リストに必要な属性と推奨属性がテンプレートに含まれていることを確認します。
 
-1. 次の [!DNL Commerce] 管理者は、Adobe Commerceサイトから書き出す製品データを選択します。
+1. 次の [!DNL Commerce] 管理者：エクスポートする製品データをAdobeから選択します [!DNL Commerce] サイト。
 
    - 管理者から、 [!UICONTROL **システム** /データ転送 > **書き出し**].
 
    - の [!UICONTROL Export] ページの [!UICONTROL Entity Type] フィールド、選択 [!UICONTROL **製品**].
 
    - 内 [!UICONTROL Entity Attributes] 表で、製品データの書き出しの選択基準を設定します。
-   ![での製品データページの書き出し [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+   ![での製品データページの書き出し [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   フィルターを使用して、販売する製品カテゴリに適用する属性値を選択および設定します。 Walmart の必須属性と推奨属性を必ず含めてください ( [データを書き出し](https://docs.magento.com/user-guide/system/data-export.html) ( 詳しい手順については、『 Adobe Commerceユーザーガイド』を参照 )。
+   フィルターを使用して、販売する製品カテゴリに適用する属性値を選択および設定します。 Walmart の必須属性と推奨属性を必ず含めてください ( [データを書き出し](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] ユーザーガイドを参照してください )。
 
    書き出しの対象から属性を省略するには、 [!UICONTROL **除外**] 」チェックボックスを使用して、データを書き出すことができます。
 

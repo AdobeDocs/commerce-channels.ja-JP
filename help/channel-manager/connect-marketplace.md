@@ -1,27 +1,27 @@
 ---
-title: セールスチャネルの接続先 [!DNL Walmart Marketplace]
-description: セールスチャネルを設定し、Walmart Marketplace に接続します。
+title: '''接続 [!DNL Channel Manager] から [!DNL Walmart Marketplace]'''
+description: コマースストア表示の接続先 [!DNL Walmart Marketplace] Walmart Marketplace の販売に関するコマース製品リスト、在庫、価格、注文を管理するセールスチャネルを作成する。」
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-# セールスチャネルの接続先 [!DNL Walmart Marketplace]
+# 接続 [!DNL Channel Manager] から [!DNL Walmart Marketplace]
 
-に Channel Manager をインストールした後、 [!DNL Commerce] インスタンス、接続 [!DNL Commerce] 保存先 [!DNL Walmart Marketplace].
+に Channel Manager をインストールした後、 [!DNL Commerce] 例えば、チャネルマネージャーでセールスチャネルを作成し、接続するための資格情報を設定します [!DNL Channel Manager] から [!DNL Walmart Marketplace].
 
->[!NOTE]
->
->チャネルマネージャーでは、ウォルマートアカウントとコマースストア表示の間に 1 対 1 の接続が必要です。 同じストア表示を複数のウォルマートアカウントに接続することはできません。
-
-1. [セールスチャネルを作成](#create-the-sales-channel) 商品リスト用のコマースストアを選択する。
+1. [セールスチャネルを作成](#create-the-sales-channel) 選択 [!DNL Commerce] 製品リスト用のストア。
 
 1. [チャネルの接続先 [!DNL Walmart Marketplace] 追加する [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
 1. [セールスチャネルの設定の完了](#complete-store-setup) のリスト、在庫、価格、注文を管理する [!DNL Walmart Marketplace] 製品の品揃え。
+
+>[!NOTE]
+>
+>Channel Manager では、Walmart アカウントと [!DNL Commerce] ストア表示。 同じストア表示を複数のウォルマートアカウントに接続することはできません。
 
 ## セールスチャネルを作成
 
@@ -37,15 +37,15 @@ ht-degree: 0%
 
    - 選択 **[!UICONTROL Add Credentials]**.
 
-   - を選択します。 [!DNL Commerce] マーケットプレイスに接続するためのストア表示。
+   - を選択します。 [!DNL Commerce] マーケットプレイスで販売する製品を提供するストア表示。
 
-      ![コマースとの接続を設定する [!DNL Walmart Marketplace] から [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![次の間の接続を設定 [!DNL Commerce] および [!DNL Walmart Marketplace] から [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - 一意の **[!UICONTROL store name]**.
 
-   - を選択します。 **[!UICONTROL Adobe Commerce site]** 製品リスト用。
+   - を選択します。 **[!UICONTROL Adobe [!DNL Commerce] site]** 製品のリストと注文処理。
 
-   - を追加します。 **[!UICONTROL email address]** ～に関するサービス通知を受け取る [!DNL Channel Manager].
+   - 次に関連する通知を受け取るには： [!DNL Channel Manager]、 **[!UICONTROL email address]**.
 
 1. チャネルの接続先 [!DNL Walmart Marketplace].
 

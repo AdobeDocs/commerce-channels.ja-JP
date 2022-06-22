@@ -1,23 +1,23 @@
 ---
-title: '"管理 [!DNL Walmart Marketplace] 注文」'
-description: «表示と管理 [!DNL Walmart Marketplace] 注文件数 [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceに」
+title: '''次の注文を表示および追跡： [!DNL Channel Manager]'''
+description: '''表示と管理 [!DNL Walmart Marketplace] 注文件数 [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceの』'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: eb57189ed866fffa064867d1de5ae9db5b32e283
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
-# 管理 [!DNL Walmart Marketplace] 注文件数
+# 次の注文の表示と追跡： [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] データを注文する [!DNL Commerce] 製品は自動的ににを [!DNL Channel Manager] 後 [!DNL Walmart] は順序を処理します。
 
-コマース側では、正常な同期によって次のアクションがトリガーされます。
+の [!DNL Commerce] 側、同期が成功すると、次のトリガーが実行されます。
 
 - [!DNL Channel Manager] は注文確認をウォルマートに送信します。
 
-- 対応するコマース注文がウォルマート注文から作成されます。
+- 対応する [!DNL Commerce] 注文はウォルマートの注文から作成されます。
 
 - 更新された注文情報は、 [!DNL Channel Manager] 注文ダッシュボード。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 **列の説明**
 
 | フィールド | 説明 |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Walmart Order Number] | 内の注文に割り当てられた発注書番号 [!DNL Walmart Marketplace]. 注文が最初に次に読み込まれたとき： [!DNL Channel Manager]、 [!DNL Walmart] 注文番号が表示されます。 次の場合に [!DNL Commerce] 注文が作成されると、 [!DNL Walmart] 注文番号は [!UICONTROL External ID] 製品属性。 |
 | [!DNL Commerce] 注文番号 | に割り当てられた番号 [!DNL Commerce] から作成された注文 [!DNL Walmart Marketplace] 注文。 |
 | 項目 | 注文日の項目数 [!DNL Walmart Marketplace]. |
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Deliver By Date] | 注文を顧客に配送して満たす必要がある日付 [!DNL Walmart Marketplace] UTC 形式の要件。 |
 | [!UICONTROL Ship Method] | この [[!DNL Walmart Marketplace] 発送方法](https://sellerhelp.walmart.com/s/guide?article=000007893) オーダーに対して選択されています。 |
 | [!UICONTROL Last Update At] | 注文データが最後に更新された時刻を示すタイムスタンプ [!DNL Channel Manager] （UTC 形式） |
-| [!UICONTROL Status] | 現在の注文ステータスを [!DNL Commerce] 注文ワークフロー。 からインポートされた注文の初期ステータス [!DNL Walmart Marketplace] が _開く_. コマース注文が処理され、 [!DNL Channel Manager] 出荷、出荷の一部、および取り消しの更新を [!DNL Walmart Marketplace]. |
+| [!UICONTROL Status] | 現在の注文ステータスを [!DNL Commerce] 注文ワークフロー。 からインポートされた注文の初期ステータス [!DNL Walmart Marketplace] が _開く_. 追加のステータス更新は、 [!DNL Commerce] 注文が処理され、 [!DNL Channel Manager] 出荷、出荷の一部、および取り消しの更新を [!DNL Walmart Marketplace]. |
 | [!UICONTROL Error Description] | 注文に関する詳細情報を _[!UICONTROL Error]_ステータス。 |
 
 ## 注文ステータス
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Shipped]** — から出荷された注文 [!DNL Commerce] ストア。 命令が出る時 [!DNL Channel Manager] 更新をに送信 [!DNL Walmart Marketplace] をクリックして、Walmart 上の出荷ステータスを更新し、出荷の注文追跡番号を指定します。
 
-- **[!UICONTROL Partially Shipped]** — 一部の品目が出荷済とマークされ、他の品目が出荷待ちとなっている注文。 受注出荷時の品目 [!DNL Channel Manager] 更新をに送信 [!DNL Walmart Marketplace] 出荷ステータスをウォルマートに出荷済に更新し、出荷の受注追跡番号を提供する。
+- **[!UICONTROL Partially Shipped]** — 一部の品目が出荷済とマークされ、他の品目が出荷待ちとなっている注文。 受注出荷時の品目 [!DNL Channel Manager] 更新をに送信 [!DNL Walmart Marketplace] 発送ステータスを次の値に更新するには： _[!DNL Partially Shipped]_ウォルマートで、出荷の注文追跡番号を入力します。
 
 - **[!UICONTROL Canceled]** — からキャンセルされた注文 [!DNL Commerce] ストア。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->注文品目が複数の出荷で送信される場合、 [!DNL Channel Manager] 使用可能な最後の注文ステータスを反映します。 例えば、最初の品目が出荷され、注文の更新が [!DNL Channel Manager] および [!DNL Walmart Marketplace]、 [!DNL Channel Manager] 注文ステータス： _[!UICONTROL Partially Shipped]_.  2 つ目の品目が出荷され、 [!Cチャネルマネージャ] エラーを返します。注文ステータスは次の値に更新されます：_[!UICONTROL Error]_.
+>注文品目が複数の出荷で送信される場合、 [!DNL Channel Manager] は、使用可能な最後の注文ステータスを反映します。 例えば、最初の品目が出荷され、注文の更新が [!DNL Channel Manager] および [!DNL Walmart Marketplace]、 [!DNL Channel Manager] 注文ステータス： _[!UICONTROL Partially Shipped]_. 2 つ目の品目が出荷され、 [!DNL Channel Manager] エラーを返します。注文ステータスは次の値に更新されます：_[!UICONTROL Error]_.
 
 ## 注文の確認
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 注文情報を表示するには、*を選択します。[!UICONTROL *Orders]**.
 
-1. 注文に関する情報を取得し、次の手順を判断するには、 **[ステータス](#about-order-status)** 列を使用して、注文に関する情報を取得します。
+1. 注文に関する情報を取得し、次の手順を判断するには、 **[ステータス](#about-order-status)** 列。
 
 ## 注文の詳細を表示
 

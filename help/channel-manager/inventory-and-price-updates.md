@@ -1,10 +1,10 @@
 ---
 title: 在庫と価格の更新
-description: '''[!DNL Channel Manager] コマースストアと [!DNL Walmart Marketplace] コマース管理者からセールスチャネルの運用を管理できます。'
+description: '''[!DNL Channel Manager] 間で在庫と価格の更新を同期 [!DNL Commerce] 保存し、 [!DNL Walmart Marketplace] を使用して、 [!DNL Commerce] 管理者'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->後 [!DNL Channel Manager] がインストールおよび設定されると、在庫、価格、注文の更新がすべて自動的に同期されます。 既に Walmart Marketplace で直接または別の統合を通じて販売している場合は、以前の統合を無効にし、Commerce ストアフロントの在庫在庫レベルと価格が正確で、 [!DNL Walmart Marketplace] 接続する前に [!DNL Channel Manager] を live marketplace ストアに追加します。
+>後 [!DNL Channel Manager] がインストールおよび設定されると、在庫、価格、注文の更新がすべて自動的に同期されます。 Walmart Marketplace で既に販売している場合は、製品と注文データを更新する他の統合を必ず無効にしてください。 次に、 [!DNL Commerce] ストアフロントは正確で、 [!DNL Walmart Marketplace] 接続する前に [!DNL Channel Manager] を live marketplace ストアに追加します。
 
 
 ## 在庫の更新

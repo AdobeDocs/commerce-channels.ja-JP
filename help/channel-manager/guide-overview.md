@@ -1,12 +1,12 @@
 ---
 title: '''[!DNL Channel Manager] ガイドの概要`'
-description: に関する包括的な情報 [!DNL Channel Manager] (Adobe CommerceおよびMagento Open Source管理者向け )
+description: ''' [!DNL Channel Manager] Adobe CommerceおよびMagento Open Source管理者向け（インストールとオンボーディングを含む）'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 概要
 
-このガイドは、Adobe CommerceとMagento Open Sourceの管理者を対象としています。 以下に、 [!DNL Channel Manager] インストール、オンボーディング、設定、管理。 このガイドは、コアコマースの設定と機能に関する基本的な知識を前提としています。
+このガイドは、Adobe CommerceとMagento Open Sourceの管理者を対象としています。 以下に、 [!DNL Channel Manager] インストール、オンボーディング、設定、管理。 このガイドは、コアに関する基本的な理解を前提としています [!DNL Commerce] 設定と機能に関する情報です。
 
 [!DNL Channel Manager] には、管理者向けの次の 2 つの領域があります。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 このガイドでは、以下について説明します。
 
-* すべて [!DNL Channel Manager] — コマース管理者から完了する特定のタスク。
+* すべて [!DNL Channel Manager]- [!DNL Commerce] 管理者。
 * すべて [!DNL Channel Manager] — コマンドラインから完了する特定のタスク。
 
 の管理の詳細 [!DNL Commerce] プラットフォーム、プロジェクト、Web サイトについては、 Adobe CommerceおよびMagento Open Sourceのユーザーガイドと開発者ガイドを参照してください。

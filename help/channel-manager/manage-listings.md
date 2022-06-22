@@ -1,10 +1,10 @@
 ---
 title: リストの管理
-description: 次の項目のセールスチャネルリストを管理します [!DNL Commerce] ストアを Channel Manager(Adobe CommerceとMagento Open Source) で保存します。
+description: '''次の項目のセールスチャネルリストを管理します： [!DNL Commerce] Channel Manager を使用してAdobe CommerceおよびMagento Open Sourceで保存。'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 * 製品を追加
 * 製品を一致させる
 * リストステータスを追跡
-* エラーステータスを持つ製品リストのエラー説明
+* エラーステータスのリストのエラー説明を確認する
 
 ## 製品リストを表示
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 並べ替え順をリセットし、「 」を選択してフィルターを削除します **製品を更新**.
 
-## チャネルマネージャーへのコマース製品の追加
+## 追加 [!DNL Commerce] 製品をチャネルマネージャに
 
 次の製品の品揃えを作成します： [!DNL Walmart Marketplace] 次のタスクを実行して、チャネルを生成します。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]** — で正常に一致した製品を識別します。 [!DNL Walmart].
 
-   製品属性値（UPC コードなど）が既存の UPC 値と一致する場合に一致が発生します [!DNL Walmart Marketplace] リスト。 製品が一致する場合、コマース製品オファーは既存の [!DNL Walmart] リスト。
+   製品属性値（UPC コードなど）が既存の UPC 値と一致する場合に一致が発生します [!DNL Walmart Marketplace] リスト。 製品が一致する場合、コマース製品オファーが既存のリストに追加されます。
 
    次を確認します。 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) ダッシュボードを使用して、更新された製品リストを確認し、製品の詳細、価格、在庫数量を確認します。
 

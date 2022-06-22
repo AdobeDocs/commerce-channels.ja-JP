@@ -1,17 +1,17 @@
 ---
-title: セールスチャネルの設定の完了
-description: 接続されたセールスチャネルに移動して、製品リストの表示と管理、在庫と価格の更新、注文の追跡を行います
+title: チャネル設定の完了
+description: ''' [!DNL Commerce] 表示の保存先 [!DNL Walmart Marketplace]、チャネルを開き、チャネル設定を完了します。 次に、次のプロセスを開始して、製品の追加、一覧の管理、在庫、価格設定および注文の管理を行います。 [!DNL Channel Manager].`'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 174c4fa6da5f2b907a8dd1f96d9ca379770f848d
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
 # セールスチャネルの設定の完了
 
-コマースストアを [!DNL Walmart Marketplace]、 [!DNL Channel Manager] ホームページ。
+接続後 [!DNL Commerce] 保存先 [!DNL Walmart Marketplace]、 [!DNL Channel Manager] ホームページ。
 
 1. 管理者から、「**」を選択します&#x200B;[!UICONTROL Marketing** > **チャネルマネージャ**].
 
@@ -31,8 +31,8 @@ ht-degree: 0%
 
    - [表示と管理 [!DNL Walmart] からの注文 [!DNL Commerce Admin]](manage-orders.md)
 
-セールスチャネルを作成し、製品を [!DNL Walmart Marketplace]を使用すると、次の場所ですべての製品リスト、在庫、価格、注文、配送、キャンセル操作を管理できます。 [!DNL Commerce]. 製品と注文データは、 [!DNL Commerce] から [!DNL Walmart Marketplace]. 間の競合や不一致を防ぐには [!DNL Commerce] および [!DNL Walmart Marketplace] 更新、製品または注文データを更新しない [!DNL Commerce] 製品 [!DNL Walmart Marketplace] アカウント
+セールスチャネルを作成し、製品を [!DNL Walmart Marketplace]を使用すると、次の場所ですべての製品リスト、在庫、価格、注文、配送、キャンセル操作を管理できます。 [!DNL Commerce]. リスト、在庫、価格、注文データは、 [!DNL Commerce] から [!DNL Walmart Marketplace]. 間の競合や不一致を防ぐには [!DNL Commerce] および [!DNL Walmart Marketplace] 更新、製品または注文データを更新しない [!DNL Commerce] 製品 [!DNL Walmart Marketplace] アカウント
 
 >[!IMPORTANT]
 >
->場合によっては、 [!DNL Channel Manager] 注文処理中にエラーを返す場合は、注文、発送、または取り消しの処理を [!DNL Walmart Marketplace]. 詳しくは、 [注文エラーを修正](process-orders.md#fix-order-errors).
+>If [!DNL Channel Manager] 注文処理中にエラーが返されます。注文、配送または取り消し操作は、 [!DNL Walmart Marketplace]. 詳しくは、 [注文エラーを修正](process-orders.md#fix-order-errors).

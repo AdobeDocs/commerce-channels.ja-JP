@@ -1,10 +1,10 @@
 ---
-title: '"[!DNL Walmart] 要件»'
-description: 「必要な[!DNL Walmart Marketplace]Channel Manager と統合するための情報およびリソースです。」
+title: '''[!DNL Walmart] 要件`'
+description: '''必要な [!DNL Walmart Marketplace]Channel Manager と統合するための情報およびリソースです。'''
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * Adobe CommerceまたはMagento Open Sourceの接続先となる API キー [!DNL Walmart Marketplace]
 
-   この [!DNL Walmart Marketplace] API キーにより、 [!DNL Channel Manager] Adobe CommerceやMagento Open Sourceやウォルマート・マーケットプレイスの チャネルマネージャのオンボーディングプロセスを開始する前に、Seller Central で API キーを設定します。
+   この [!DNL Walmart Marketplace] API キーにより、 [!DNL Channel Manager] Adobe [!DNL Commerce] Magento Open Sourceとウォルマート・マーケットプレイス チャネルマネージャのオンボーディングプロセスを開始する前に、Seller Central で API キーを設定します。
 
 ## の設定 [!DNL Walmart Seller] アカウント
 
@@ -62,5 +62,5 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->後 [!DNL Channel Manager] がインストールおよび設定され、すべての在庫、価格、注文の更新が自動的に同期されます。 製品と注文データを更新する他の統合を無効にし、コマースの更新をに同期する準備が整うまで、Channel Manager をライブ Walmart Marketplace ストアに接続しないでください。 [!DNL Walmart Marketplace].
+>後 [!DNL Channel Manager] がインストールおよび設定されると、在庫、価格、注文の更新がすべて自動的に同期されます。 接続しない [!DNL Channel Manager] を Walmart Marketplace のライブストアに追加します。 他の統合を設定していた場合は、 [!DNL Commerce] ～の量に合う [!DNL Walmart Marketplace] ライブストアに接続する前に。
 
