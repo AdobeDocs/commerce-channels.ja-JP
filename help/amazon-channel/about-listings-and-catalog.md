@@ -1,48 +1,48 @@
 ---
-title: Amazon と Commerce カタログについて
-description: Amazon sales チャンネルは、Amazon リストを Commerce バックエンドに取り込むと共に、製品と販売を継続的に同期します。
+title: Amazonとコマースカタログについて
+description: Amazonセールスチャネルは、Amazonのリストをコマースのバックエンドにインポートし、製品および販売と絶えず同期します。
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 5d30a5282ede2db0d9619eb2263b733328d26426
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
-# Amazon とカタログについて [!DNL Commerce]
+# Amazonと [!DNL Commerce] カタログ
 
-Adobe Commerce または Magento Open Source バックエンドには、すべての製品と、関連する設定と情報 (画像、オプション、価格、その他)、注文と出荷の設定が記載されています。 [!DNL Amazon Seller Central]また、取引先企業には、によって販売が厳重に管理されてい [!DNL Amazon Marketplace] ます。
+Adobe CommerceまたはMagento Open Sourceバックエンドには、すべての製品と関連する設定および情報（画像、オプション、価格など）と注文および配送設定を含むカタログが含まれています。 お使いの [!DNL Amazon Seller Central] また、アカウントにはカタログと注文の設定が含まれ、 [!DNL Amazon Marketplace].
 
-1つの場所から製品カタログと販売の管理を改善するには、amazon channel channel によって Amazon リストがバックエンドにインポートさ [!DNL Commerce] れ、製品と販売の同期が継続されると共に問題と傾向が報告されます。 Storefronts では、複数のアカウントによる統合がサポートされているの [!DNL Amazon Seller Central] で、複数のインターフェイスを使用してすべてのデータを管理できます。
+1 か所で製品カタログと販売をより詳細に管理および確認するために、Amazonの販売チャネルはAmazonの一覧を [!DNL Commerce] バックエンドで製品や販売と継続的に同期し、問題やトレンドを報告します。 複数の [!DNL Amazon Seller Central] アカウントでは、複数のストアフロントに対する単一のインターフェイスを介してすべてのデータを追跡できます。
 
 ## 製品属性
 
-Adobe Commerce と Magento Open Source manage catalog は、製品の [ ](https://docs.magento.com/user-guide/catalog/product-attributes.html) 設定とデータを定義するために製品属性を使用して同期されます ({target = &quot;_blank&quot;})。 Amazon は、属性を使用して、オンボードにマップされます。 [Amazon sales channel の事前設定タスクの実行中に ](./amazon-pre-setup-tasks.md) 、amazon リストをカタログにインポートする際に正しい製品マッピングを保証するために、必要に応じて追加の Amazon 属性を定義することができ [!DNL Commerce] ます。これらの属性には、UPC、EAN、ISBN、およびアーク () があり [!DNL Amazon Standard Identification Number] ます。 オンボードでは、属性を使用して Amazon とカタログとの間で製品が同期さ [!DNL Commerce] れます。 また、Amazon 製品の適切なマッピングに [!DNL Commerce] より、製品情報、注文、および在庫が常に同期されるようになっています。
+Adobe CommerceとMagento Open Sourceは、製品の使用に伴うカタログ同期の管理 [属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} ：製品設定とデータを定義します。 Amazonも属性を使用して、オンボーディングを通じてマッピングします。 期間 [事前設定タスク](./amazon-pre-setup-tasks.md) Amazonセールスチャネルの場合、Amazonリストをユーザーに読み込む際に、正しい製品マッピングを確保するために、追加のAmazon属性（必要に応じて）を定義します。 [!DNL Commerce] カタログ。 これらの属性には、UPC、EAN、ISBN、ASIN ([!DNL Amazon Standard Identification Number]) をクリックします。 オンボーディングを通じて、Amazonと [!DNL Commerce] カタログを作成します。 適切なマッピング [!DNL Commerce] Amazon製品を使用すると、製品情報、注文、在庫を継続的に同期できます。
 
-これらの属性をカタログに作成していない場合は、 [!DNL Commerce] [ ](https://docs.magento.com/user-guide/catalog/product-attributes.html) オンにする前に製品属性 {target = &quot;_blank&quot;}、および値を製品に追加する必要があります。 Amazon attribute がインポートされると、検索、ナビゲーション、価格ルールなどに使用できます。 これらの属性について詳しくは、 [ Amazon: UPCs、EANs、ISBNs および ASINs を参照してください。](https://www.amazon.com/gp/seller/asin-upc-isbn-info.html){target = &quot;_blank&quot;}
+カタログ用にこれらの属性を作成または設定していない場合、 [!DNL Commerce] [製品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} および値を製品に適用してからオンボーディングします。 Amazon属性を読み込むと、検索、ナビゲーション、価格ルールなどに使用できます。 詳しくは、 [ASIN、UPC、EAN、ISBN、SKU およびその他のバーコードの意味](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target=&quot;_blank&quot;}
 
-オンにした後は、製品属性と Amazon マッピングをいつでも管理して更新できます。
+オンボーディング後は、製品属性とAmazonマッピングをいつでも管理および更新できます。
 
-## 製品一覧
+## 製品リスト
 
-Amazon リスティングは、から製品の [!DNL Amazon Marketplace] 説明、価格、イメージが表示されると、さらに属性によりマップされているすべての製品の製品ページです。 オンボードの際に、 [!DNL Commerce] 製品を Amazon リストに自動的に公開するように設定することができます。 また、既存の Amazon リストを製品にマップすることによって、それらをインポートすることもでき [!DNL Commerce] ます。
+Amazonリストは、 [!DNL Amazon Marketplace]、製品の説明、価格、画像など、属性を通じてマッピングされた情報を表示します。 オンボーディング中に、 [!DNL Commerce] 製品はAmazonリストに自動的に公開できます。 また、既存のAmazonリストを [!DNL Commerce] 製品。
 
-出展製品を作成した後 [!DNL Commerce] 、それらの製品は、Amazon に提出されて承認が求められます。 ほとんどの場合、成功したリストは数時間以内に承認されます。 登録が承認されると、に [!DNL Amazon Marketplace] よってはの顧客によって直ちに注文で表示されます。 拡張機能には、 [!DNL Amazon Sales Channel] Amazon リストを確認するためのタブのセットが用意されています。 問題または必要なデータによっては、これらの一覧について詳しくは、アカウントを確認する必要があり [!DNL Amazon Seller Central] ます。
+リストを作成したとき [!DNL Commerce] 製品の場合は、承認を得るためにAmazonに送信されます。 成功したリストのほとんどは、数時間以内に承認されます。 リストが承認されると、リストは [!DNL Amazon Marketplace] を使用して、顧客による即時の注文。 この [!DNL Amazon Sales Channel] 拡張機能では、Amazonのリストを確認するための一連のタブが提供されます。 問題や必要なデータに応じて、 [!DNL Amazon Seller Central] アカウントを参照してください。
 
-- [Active ](./active-listings.md) : marketplace 経由で利用可能な承認済み製品一覧の一覧が表示されます。
+- [アクティブ](./active-listings.md):Marketplace で使用可能な承認済みの製品リストを表示します。
 
-- [「リストの準備」: 「製品リスト」を掲載し ](./ready-to-list.md) ており、Amazon に公開する準備ができています。
+- [リストへの登録準備完了](./ready-to-list.md):リストルール要件を満たし、Amazonに公開する準備ができた製品を一覧表示します。
 
-- [Inactive ](./inactive-listings.md) : 特定の理由 (ブランドに起因する問題など)、relisting、その他の必要な理由によってブロックされているため、marketplace で利用できない製品が表示されます。
+- [非アクティブ](./inactive-listings.md):特定の理由（ブランディングの問題など）によりブロックされたため、マーケットプレイスで利用できない製品、クローズ済みの製品、信頼が必要な製品などを一覧表示します。
 
-- [不適格 ](./ineligible-listings.md) : リストルールにより、marketplace にアクティブに表示されない製品がリストに表示され `0` ます (量や販売日など)。
+- [不適格](./ineligible-listings.md):リストルールにより、はマーケットプレイスに積極的にリストできない製品 ( `0` 数量または販売日 )。
 
-- [不完全 ](./incomplete-listings.md) : 表示されない製品に必要な情報が不足しています。 別のレビュー用に製品データを更新します。
+- [不完全](./incomplete-listings.md):必要な情報が不足している製品をリストします。 別のレビュー用に製品データを更新します。
 
-- [終了 ](./ended-listings.md) : リストに適合しているが、Amazon から手動で削除された製品一覧を一覧表示します。 これらの製品は、再表示することができます。
+- [終了](./ended-listings.md):リストに登録できるが、手動でAmazonから削除された製品リストを表示します。 これらの製品はリストし直すことができます。
 
 ## データの同期
 
-Adobe Commerce および Magento Open Source [!DNL Amazon Seller Central] は、アカウントとバックエンドの間で製品と注文データをやり取りし [!DNL Commerce] ます。 この継続的なアップデートでは、 [!DNL Commerce] インベントリの管理、注文の実行、販売の追跡、負担の軽減、および作業の複製を行うための1つのソースが提供されます。 レポートには、2つのシステム間でキャッチされるトレンドを追跡し、通信に関する問題を解決するための最新のデータが記録されます。
+Adobe CommerceとMagento Open Sourceは、 [!DNL Amazon Seller Central] アカウントおよび [!DNL Commerce] バックエンド。 継続的な更新により、 [!DNL Commerce] 在庫の管理と管理、受注の完了、売上の追跡、および作業のオーバーヘッドと重複の削減を行う。 レポートは、トレンドを追跡し、2 つのシステム間で発生した通信の問題を解決するための最新のデータを取り込みます。
 
-すべての同期は、 [ cron ジョブ ](https://docs.magento.com/user-guide/system/cron.html) {target = &quot;_blank&quot;} によって管理され、セットアップ前のタスクの5分ごとに更新するように設定されてい [ ](./amazon-pre-setup-tasks.md) ます。
+すべての同期は、 [cron ジョブ](https://docs.magento.com/user-guide/system/cron.html){target=&quot;_blank&quot;}。 [事前設定タスク](./amazon-pre-setup-tasks.md).
