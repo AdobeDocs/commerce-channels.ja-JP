@@ -1,8 +1,8 @@
 ---
-title: '''接続 [!DNL Channel Manager] から [!DNL Walmart Marketplace]'''
+title: '接続 [!DNL Channel Manager] から [!DNL Walmart Marketplace]'
 description: コマースストア表示の接続先 [!DNL Walmart Marketplace] Walmart Marketplace の販売に関するコマース製品リスト、在庫、価格、注文を管理するセールスチャネルを作成する。」
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. [チャネルの接続先 [!DNL Walmart Marketplace] 追加する [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [セールスチャネルの設定の完了](#complete-store-setup) のリスト、在庫、価格、注文を管理する [!DNL Walmart Marketplace] 製品の品揃え。
+1. [セールスチャネルの設定の完了](#complete-sales-channel-store-setup) のリスト、在庫、価格、注文を管理する [!DNL Walmart Marketplace] 製品の品揃え。
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 1. 選択 **[!UICONTROL Save Store]** 設定を適用し、 [!DNL Walmart marketplace].
 
-1. 接続が成功したら、 [ストア設定を完了](complete-store-setup.md) から **[!UICONTROL Channel Manager]** ストアページ。
+1. 接続が成功したら、 [ストア設定を完了](complete-sales-channel-store-setup.md) から **[!UICONTROL Channel Manager]** ストアページ。
 
 ![最初のストアを設定](assets/channel-manager-setup-first-store.png)
 

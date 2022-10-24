@@ -2,9 +2,9 @@
 title: チャネルマネージャーへの製品の追加
 description: '''次の製品の品揃えを作成： [!DNL Walmart Marketplace] 「チャネルマネージャーで設定したセールスチャネルにカタログから製品を追加する販売」 '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ ht-degree: 0%
 
 1. 読み込み操作が完了したら、に戻って、追加した製品を確認します。 [!DNL Channel Manager] および選択 **[!UICONTROL Listings]**.
 
+   最初は、製品は *ドラフト* ステータス。 選択 **[!UICONTROL Refresh products]** をクリックして、テーブルを更新します。
+
+1. チャネルマネージャーに追加された新しい製品を表示するには、 **[!UICONTROL Draft]** ステータスカード。
+
    ![接続済みセールスチャネルにインポートされた製品](assets/products-in-marketplace-sales-channel.png)
 
-   最初は、製品は *ドラフト* ステータス。 選択 **[!UICONTROL Refresh products]** をクリックして、テーブルを更新します。
 

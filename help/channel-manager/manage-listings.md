@@ -2,9 +2,9 @@
 title: リストの管理
 description: '''次の項目のセールスチャネルリストを管理します： [!DNL Commerce] Channel Manager を使用してAdobe CommerceおよびMagento Open Sourceで保存。'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ ht-degree: 0%
 **のコントロール[!UICONTROL Listings]**
 
 | **制御** | **説明** |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | を開きます。 [!UICONTROL Admin Product Catalog] に追加する製品を選択するページ [!DNL Walmart Marketplace] 品揃え、または製品属性を更新して Walmart Marketplace リストの要件を満たす。 |
-| [!UICONTROL Match products on Walmart] | ドラフトステータスで 1 つ以上の製品を選択した後、「製品を一致させる」を選択します。 [!DNL Walmart] 既存の [!DNL Walmart Marketplace] リスト。 |
+| [!UICONTROL Match products on Walmart] | で 1 つ以上の製品を選択した後 [!UICONTROL Draft] ステータス、選択 [!UICONTROL Match products on Walmart] 既存の [!DNL Walmart Marketplace] リスト。 |
 | [!UICONTROL Refresh products] | 最新のリストとステータスで表示を更新します。 また、このコントロールは、リスト表示をデフォルトの並べ替え順にリセットし、フィルターを削除します。 |
-| [!UICONTROL Filter by *ステータス*] | リスト表の上にあるステータスカウントカードの 1 つを選択して、特定のステータスを持つリストのみを表示します。 以下を使用： *製品を更新* をクリックして、フィルターを削除します。 |
+| [!UICONTROL Filter by *ステータス*] | リスト表の上にあるステータスカードの 1 つを選択して、特定のステータスを持つリストのみを表示します。 「 」を選択してフィルターを削除します。 **[!UICONTROL Refresh products]**. |
 | [!UICONTROL Sort products] | 列ヘッダーを選択して、リストの並べ替え順を変更します。 |
 
 
@@ -81,7 +81,6 @@ ht-degree: 0%
 | [!UICONTROL Price] | からの製品価格 [!DNL Commerce] ストアカタログ。 カタログ価格の更新は Channel Manager に同期され、次にに送信されます [!DNL Walmart Marketplace]  上場された項目が現在の価格を示すように |
 | [!UICONTROL Status] | 現在の注文ステータスを [!DNL Commerce] 注文ワークフロー。 製品をに正常に追加すると、ステータスが更新されます。 [!DNL Channel Manager] とは、マーケットプレイスで製品を照合する場合に使用します。 操作が失敗した場合は、エラーステータスがリストに表示されます。 エラーを修正した後、 [!DNL Channel Manager] 操作を再試行し、ステータスを更新します。 |
 | [!UICONTROL Error Description] | 製品に関する追加のエラー情報を、 `[!DNL Error]` ステータス。 |
-| [!UICONTROL Status Detail] | 製品に関する追加情報を *エラー* または *一致* ステータス。 |
 
 ### リストステータスについて
 

@@ -2,9 +2,9 @@
 title: ウォルマートにリストを接続
 description: '''次の項目にリストを接続 [!DNL Commerce] 製品を [!DNL Walmart Marketplace]売り出しを始める」'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
+source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 0%
 1. 選択 **[!UICONTROL Match Products]**.
 
    メッセージは、照合用に送信された製品の数を示します。
-
-   ![接続されたセールスチャネルに製品を送信](assets/products-submitted-for-matching.png)
 
    選択した製品のステータスは、 [!UICONTROL *処理中*] 一致操作が完了するまで。 Walmart Marketplace がマッチング処理を完了するまでに最大 30 分かかる場合があります。
 
@@ -144,7 +142,7 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
    - 内 [!UICONTROL Entity Attributes] 表で、製品データの書き出しの選択基準を設定します。
    ![での製品データページの書き出し [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   フィルターを使用して、販売する製品カテゴリに適用する属性値を選択および設定します。 Walmart の必須属性と推奨属性を必ず含めてください ( [データを書き出し](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] ユーザーガイドを参照してください )。
+   フィルターを使用して、販売する製品カテゴリに適用する属性値を選択および設定します。 Walmart の必須属性と推奨属性を必ず含めてください。 ( [データを書き出し](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] ユーザーガイドを参照してください )。
 
    書き出しの対象から属性を省略するには、 [!UICONTROL **除外**] 」チェックボックスを使用して、データを書き出すことができます。
 

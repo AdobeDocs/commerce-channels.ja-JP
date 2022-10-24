@@ -1,18 +1,18 @@
 ---
-title: '''について [!DNL Channel Manager]'''
-description: '''インストールと使用方法を学ぶ [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceストアをサードパーティのマーケットプレイスと統合し、Marketplace のリスト、価格、在庫、販売をコマース管理者からシームレスに管理するためのセールスチャネルを作成します。'
+title: 'の概要 [!DNL Channel Manager]'
+description: '''インストールと使用方法を学ぶ [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceストアを Walmart Marketplace と統合し、Marketplace のリスト、価格、在庫、販売をコマース管理者からシームレスに管理するためのセールスチャネルを作成します。」'
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 2e3f8e51b765cda0559d8624d61e1ae9dc1c9667
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
 
 
-# について [!DNL Channel Manager]
+# の概要 [!DNL Channel Manager]
 
 [!DNL Channel Manager] Adobe CommerceまたはMagento Open Sourceの製品カタログを [!DNL Walmart Marketplace].
 
@@ -28,13 +28,15 @@ ht-degree: 0%
 
 * **Inventory management** — 商家のマーケットプレイスセラーアカウント内の項目は、自動的に同期され、更新されます [!DNL Commerce] 正確な在庫レベルを確保する。
 
-* **価格の更新** — 自動価格同期を使用して、マーケットプレイスリストの正確な価格を維持します。 Adobe Commerceで価格が変更されると、変更が市場に反映されます。
+* **価格の更新**：自動価格同期を使用して、マーケットプレイスリストの正確な価格を維持します。 Adobe Commerceで価格が変更されると、変更が市場に反映されます。
 
-* **注文管理** — マーケットプレイスで新しい注文が作成された場合、 [!DNL Channel Manager] は注文をAdobe Commerceと同期し、注文確認をマーケットプレイスに送信します。 この確認により、注文ごとに在庫が確実に予約されます。 最後の手順は、 [!DNL Commerce] 処理のための Order Management システム。
+* **注文管理** — マーケットプレイスで新しい注文が作成されたとき、 [!DNL Channel Manager] は注文をAdobe Commerceと同期し、注文確認をマーケットプレイスに送信します。 この確認により、注文ごとに在庫が確実に予約されます。 最後の手順は、 [!DNL Commerce] 処理のための Order Management システム。
 
-* **出荷管理** — 注文がAdobe Commerceで出荷済みとマークされると、出荷の更新が [!DNL Walmart Marketplace]. この通知により、販売者は達成 SLA の要件を満たし、顧客は現在の注文の出荷更新通知を受け取ることができます。
+* **出荷管理**—Adobe Commerceで注文が出荷済とマークされると、出荷の更新が [!DNL Walmart Marketplace]. この通知により、販売者は達成 SLA の要件を満たし、顧客は現在の注文の出荷更新通知を受け取ることができます。
 
-* **キャンセル**- Adobe Commerceで注文がキャンセルされた場合、 [!DNL Channel Manager] は、更新された注文情報を marketplace に送信し、対応する marketplace 注文のアクションをレプリケートします。 注文のキャンセルが完了した後、 [!DNL Commerce] 返品品目を反映する在庫数量の更新と在庫の更新は、次の項目に自動的に同期されます： [!DNL Walmart Marketplace].
+* **キャンセル**- Adobe Commerceで注文がキャンセルされたとき、 [!DNL Channel Manager] は、更新された注文情報を marketplace に送信し、対応する marketplace 注文のアクションをレプリケートします。 注文のキャンセルが完了した後、 [!DNL Commerce] 返品品目を反映する在庫数量の更新と在庫の更新は、次の項目に自動的に同期されます： [!DNL Walmart Marketplace].
+
+* **返品と返金**—Walmart Marketplace がAdobe CommerceまたはMagento Open Source販売チャネルを通じて注文された品目の返品を要求した場合、 [!DNL Channel Manager] リターンリクエスト情報を Commerce セールスチャネルストアに送信して、リターンリクエストをレプリケートします。 その後、払い戻しは、 [!DNL Commerce] [払い戻しワークフロー](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow)、オフラインメソッド。 払い戻しが完了した後、 [!DNL Channel Manager] Walmart への更新を同期して、marketplace セラーアカウントの返品ステータスを更新して返金を反映させることができます。
 
 ## の予想遅延 [!DNL Channel Manager] 操作
 
