@@ -1,10 +1,10 @@
 ---
-title: '[!DNL Store Fulfillment by Walmart Commerce Technologies] リリースノート'
+title: 「[!DNLChannel Manager] リリースノート」
 description: 「 [!DNL Channel Manager] Adobe Commerceから」
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+source-git-commit: 501a76a126f090805f95e64078ec2c73de003aa4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
