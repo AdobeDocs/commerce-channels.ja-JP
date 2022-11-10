@@ -1,10 +1,10 @@
 ---
 title: '''[!DNL Walmart] 要件`'
-description: '''必要な [!DNL Walmart Marketplace]Channel Manager と統合するための情報およびリソースです。'''
+description: '必要な [!DNL Walmart Marketplace]Channel Manager と統合するための情報およびリソースです。'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
+source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 ## の設定 [!DNL Walmart Seller] アカウント
 
 1. [Walmart Seller の申し込みを送信](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. から承認を得た後 [!DNL Walmart], [ウォルマート販売者アカウントを設定する](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. から承認を得た後 [!DNL Walmart], [ウォルマート販売者アカウントを設定する](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## を生成する [!DNL Walmart Marketplace] 実稼動 API キー
 
