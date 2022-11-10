@@ -1,8 +1,8 @@
 ---
-title: '''インストール [!DNL Channel Manager]'''
-description: '''[!DNL Channel Manager] 拡張子。'''
+title: 'インストール [!DNL Channel Manager]'
+description: '[!DNL Channel Manager] 拡張子。'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 31af7107c0b27a236b94f7725b7a107d1027789c
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -67,7 +67,6 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
       ```bash
       bin/magento module:status Magento_SalesChannels
       ```
-
       レスポンスのサンプル：
 
       ```terminal
@@ -119,7 +118,7 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
 1. コンポーザー名を使用して、拡張機能を `require` セクション `composer.json` ファイル。
 
    ```bash
-   composer require require magento/module-sales-channels-extension --no-update
+   composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. 依存関係を更新し、拡張機能をインストールします。
