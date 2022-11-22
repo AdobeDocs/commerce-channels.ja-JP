@@ -2,9 +2,9 @@
 title: '''[!DNL Walmart] 要件`'
 description: '必要な [!DNL Walmart Marketplace]Channel Manager と統合するための情報およびリソースです。'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
+source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] を設定するには、次のリソースと情報が必要です。 [!DNL Commerce] ～の販売チャネル [!DNL Walmart Marketplace.]
 
-* 販売の承認 [!DNL Walmart] および登録済みの Marketplace Seller アカウントにログインするための資格情報
+* A [!DNL Walmart] 販売者アカウント
 
 * Adobe CommerceまたはMagento Open Sourceの接続先となる API キー [!DNL Walmart Marketplace]
 
@@ -21,8 +21,7 @@ ht-degree: 0%
 
 ## の設定 [!DNL Walmart Seller] アカウント
 
-1. [Walmart Seller の申し込みを送信](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. から承認を得た後 [!DNL Walmart], [ウォルマート販売者アカウントを設定する](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
+次に移動： [!DNL Walmart Seller Center] を設定するには、 [Walmart Seller アカウント](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## を生成する [!DNL Walmart Marketplace] 実稼動 API キー
 
