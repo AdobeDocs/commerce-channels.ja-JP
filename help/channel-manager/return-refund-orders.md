@@ -1,14 +1,15 @@
 ---
 title: 返品・返金命令
-description: 「から受け取った返品依頼に対して全額または一部払い戻しを行う方法 [!DNL Walmart Marketplace] から [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceに」
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: から受け取った返品要求に対して、全額または一部払い戻しを発行する手順 [!DNL Walmart Marketplace] から [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceの
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
 
 ---
 
-# 返品・返金の注文
+# 返品・返金命令
 
 購入者が、を通じて購入した注文品目の返品をリクエストした場合 [!DNL Walmart Marketplace]を指定した場合、ウォルマートは返品リクエストを作成します。 [!DNL Channel Manager] はこれらのリクエストの marketplace チャネルを監視し、返されるリクエスト情報をチャネルマネージャーに自動的に同期します。
 
@@ -189,5 +190,3 @@ ht-degree: 0%
 エラーは、 [!DNL Walmart Marketplace]または [!DNL Channel Manager] ステータスの更新を同期 [!DNL Commerce] から [!DNL Walmart Marketplace].
 
 戻りの更新の同期操作が失敗した場合、 [!DNL Channel Manager] ダッシュボードに *[!UICONTROL Error]* 戻り値エントリのステータス。 返金情報と返金情報が Walmart Marketplace アカウントに正確に反映されるようにするには、 [!DNL Walmart Marketplace] ストア。
-
-

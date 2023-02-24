@@ -2,7 +2,7 @@
 title: '''[!DNL Walmart] 要件`'
 description: '必要な [!DNL Walmart Marketplace]Channel Manager と統合するための情報およびリソースです。'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%

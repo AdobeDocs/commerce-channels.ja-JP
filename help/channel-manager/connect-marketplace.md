@@ -2,9 +2,9 @@
 title: '接続 [!DNL Channel Manager] から [!DNL Walmart Marketplace]'
 description: コマースストア表示の接続先 [!DNL Walmart Marketplace] Walmart Marketplace の販売に関するコマース製品リスト、在庫、価格、注文を管理するセールスチャネルを作成する。」
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -77,10 +77,10 @@ ht-degree: 0%
 
 ### 接続の問題のトラブルシューティング
 
-接続先 [!DNL Walmart] 失敗 ( [Walmart Marketplace に関する FAQ](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;} を参照してください。
+接続先 [!DNL Walmart] 失敗 ( [Walmart Marketplace に関する FAQ](https://developer.walmart.com/faq/us/faq-auth/){target="_blank"} トラブルシューティングのヒント。
 
 - 次の [!DNL Walmart Developer Portal]に設定し、の実稼動 API キーの正しい資格情報をコピーしたことを確認します。 [!UICONTROL Adobe Inc.]
 
 - のアクセス設定を確認します。 [!UICONTROL Walmart Adobe API key] には正しい権限があります。 詳しくは、 [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
-- を確認します。 [!DNL Walmart API] サービスは [ウォルマート API ステータスページ](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
+- を確認します。 [!DNL Walmart API] サービスは [ウォルマート API ステータスページ](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.

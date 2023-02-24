@@ -4,9 +4,9 @@ description: '''インスタンスを [!DNL Channel Manager] サービスを使�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 738c48b8b8075e7c8bbf883c58cc8de39bca355c
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Channel Manager の使用に関する要件を確認し、拡張機能をダウ�
 
 - **[Walmart Marketplace の要件](walmart-requirements.md)** — 次を含む Channel Manager と統合するための要件を満たしていることを確認する [セラーアカウントの設定](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) 統合を有効にする API キーを生成する際に使用されます。
 
-- **コマースアカウント情報** — ダウンロードとインストール [!DNL Channel Manager] にはが必要です [コマースアカウント](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}。 に対する所有者または管理者アクセス権を持つアカウント ID と資格情報が必要です [!DNL Adobe Commerce] または [!DNL Magento Open Source] インスタンス。
+- **コマースアカウント情報** — ダウンロードとインストール [!DNL Channel Manager] にはが必要です [コマースアカウント](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. に対する所有者または管理者アクセス権を持つアカウント ID と資格情報が必要です [!DNL Adobe Commerce] または [!DNL Magento Open Source] インスタンス。
 
    - **画像 ID**-[ログイン](https://account.magento.com/customer/account/login/) から [!DNL Commerce] ID を取得するアカウント **[!UICONTROL My Account - Magento settings]**.
 
@@ -45,7 +45,7 @@ Channel Manager の使用に関する要件を確認し、拡張機能をダウ�
       詳しくは、 [ユーザーアクセスを管理](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **Composer と[!DNL Commerce CLI]** — 参照 [一般的な CLI のインストール](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}」を参照してください。 [!DNL Adobe Commerce] または [!DNL Magento Open Source] プラットフォーム。
+- **Composer と[!DNL Commerce CLI]** — 参照 [一般的な CLI のインストール](https://devdocs.magento.com/extensions/install/){target="_blank"} を参照してください。 [!DNL Adobe Commerce] または [!DNL Magento Open Source] プラットフォーム。
 
 - **[[!DNL Amazon Sales Channel] バージョン 4.4.2 以降](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)** — 有効化した場合 [!DNL Amazon Sales Channel] の [!DNL Commerce] サイト、 [!DNL Commerce] プラットフォームには、インストール前にバージョン 4.4.2 以降がインストールされています [!DNL Channel Manager].
 

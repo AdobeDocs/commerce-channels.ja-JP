@@ -2,7 +2,7 @@
 title: 注文を処理
 description: '''出荷とキャンセルの指示 [!DNL Walmart Marketplace] Adobe Commerce及びMagento Open Sourceの命令」'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%

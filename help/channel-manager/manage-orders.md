@@ -2,14 +2,14 @@
 title: '注文の表示と管理元 [!DNL Channel Manager]'
 description: '''表示と管理 [!DNL Walmart Marketplace] 注文件数 [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceの』'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
-# 次の注文の表示と追跡： [!DNL Channel Manager]
+# 注文の表示と追跡 [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] データを注文する [!DNL Commerce] 製品は自動的ににを [!DNL Channel Manager] 後 [!DNL Walmart] は順序を処理します。
 
@@ -175,6 +175,3 @@ Commerce ストアフロントで、次の場所からインポートされた�
    ![注文の詳細順序付き品目ステータス履歴 [!DNL Walmart Marketplace] 注文件数](assets/order-detail-status-history.png)
 
 項目の請求書と払い戻しの詳細を表示するには、 [!UICONTROL Invoice] および [!UICONTROL Credit Memo] オプションを使用します。 また、 [[!UICONTROL Returns]](return-refund-orders.md) ダッシュボードをセールスチャネルストアに追加します。
-
-
-

@@ -2,7 +2,7 @@
 title: カタログ属性をマッピング
 description: '''一致する属性をマッピング [DNL! コマース ] 製品を既存の製品に [!DNL Walmart Marketplace] リストと同期，データ間 [!DNL Channel Manager] および [!DNL Walmart].`'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -41,5 +41,3 @@ ht-degree: 0%
       ![製品一致条件の属性をマッピング](assets/products-map-attributes-for-match.png)
 
    - 選択 **[!UICONTROL Save]**.
-
-

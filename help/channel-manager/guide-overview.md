@@ -4,9 +4,9 @@ description: ''' [!DNL Channel Manager] Adobe CommerceおよびMagento Open Sour
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 366edd4b4d3946c26c92b1367c7b68c9513edff8
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -39,5 +39,5 @@ ht-degree: 0%
 
 次のリソースから、Adobe CommerceとMagento Open Sourceの追加情報とヘルプを取得できます。
 
-* [ヘルプセンター](https://support.magento.com/hc/en-us){target=&quot;_blank&quot;}
-* [サポートチケット](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target=&quot;_blank&quot;} — チケットを送信して追加のヘルプを受け取ります。
+* [ヘルプセンター](https://support.magento.com/hc/en-us){target="_blank"}
+* [サポートチケット](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"} — 追加のヘルプを受け取るには、チケットを送信します。

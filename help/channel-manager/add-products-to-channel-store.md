@@ -1,8 +1,8 @@
 ---
-title: チャネルマネージャーへの製品の追加
+title: チャネルマネージャに製品を追加
 description: '''次の製品の品揃えを作成： [!DNL Walmart Marketplace] 「チャネルマネージャーで設定したセールスチャネルにカタログから製品を追加する販売」 '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%

@@ -1,15 +1,15 @@
 ---
 title: 在庫と価格の更新
-description: '''[!DNL Channel Manager] 間で在庫と価格の更新を同期 [!DNL Commerce] 保存し、 [!DNL Walmart Marketplace] を使用して、 [!DNL Commerce] 管理者'''
+description: '[!DNL Channel Manager] 間で在庫と価格の更新を同期 [!DNL Commerce] 保存し、 [!DNL Walmart Marketplace] を使用して、 [!DNL Commerce] 管理者'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# 在庫と価格の更新
+# 在庫および価格の更新
 
 [!DNL Channel Manager] では、 [!DNL Commerce] 製品カタログを作成し、接続されたセールスチャネルと [!DNL Walmart Marketplace]. 同期操作により、製品リストに現在の在庫数量と価格が反映されます。
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 1. 必要に応じて価格を確認し、更新します。
 1. **[!UICONTROL Save]** 変更。
 
-での製品価格設定の管理に関するヘルプ [!DNL Commerce]を参照してください。 [価格の管理](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}。
+での製品価格設定の管理に関するヘルプ [!DNL Commerce]を参照してください。 [価格の管理](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.

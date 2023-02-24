@@ -1,15 +1,15 @@
 ---
-title: ウォルマートにリストを接続
+title: Walmart にリストを接続
 description: '''次の項目にリストを接続 [!DNL Commerce] 製品を [!DNL Walmart Marketplace]売り出しを始める」'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
 
 ---
 
-# ウォルマートにリストを接続
+# Walmart にリストを接続
 
 他の市場と同じように [!DNL Walmart] では、サードパーティ販売者は、他のユーザーが販売した品目をリストできます。
 

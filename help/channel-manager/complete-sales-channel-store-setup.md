@@ -2,14 +2,14 @@
 title: チャネル設定の完了
 description: ''' [!DNL Commerce] 表示の保存先 [!DNL Walmart Marketplace]、チャネルを開き、チャネル設定を完了します。 次に、次のプロセスを開始して、製品の追加、一覧の管理、在庫、価格設定および注文の管理を行います。 [!DNL Channel Manager].`'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-# セールスチャネルの設定の完了
+# Sales Channel設定の完了
 
 接続後 [!DNL Commerce] 保存先 [!DNL Walmart Marketplace]、 [!DNL Channel Manager] ホームページ。
 
