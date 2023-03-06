@@ -2,9 +2,9 @@
 title: Sales Channel設定
 description: Amazonセールスチャネル機能のログ、クローンソース、同期を管理するには、Commerce 設定を更新します。
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. の場合 **[!UICONTROL Enable Debug Logging]**&#x200B;選択 `Enabled` トラブルシューティングが必要な場合に、追加の同期データを収集する。
 
-   Amazonセールスチャネルのログは、 `{Commerce Root}/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}。 ログは次の場合にのみ実行します `Enabled` トラブルシューティング中に、 `Disabled` トラブルシューティングが完了したら、
+   Amazonセールスチャネルのログは、 `{Commerce Root}/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. ログは次の場合にのみ実行します `Enabled` トラブルシューティング中に、 `Disabled` トラブルシューティングが完了したら、
 
 1. の場合 **[!UICONTROL Read-Only Mode]**&#x200B;を選択します。 `Enabled` をクリックして、送信状態が変化するすべての API リクエストをブロックします。
 

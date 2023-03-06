@@ -1,49 +1,49 @@
 ---
-title: 終了一覧
-description: Amazon 販売チャンネルには、選択したときに再発行される Amazon Marketplace の一覧を確認するための「終了」タブが用意されています。
+title: 終了したリスト
+description: AmazonSales Channelには、終了したAmazon Marketplace のリストを確認するための「終了」タブが用意されています。このタブは、選択したときに再公開できます。
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
-# 終了一覧
+# 終了したリスト
 
-このタブには、 _[!UICONTROL Ended]_アカウントから手動で削除された Amazon 製品がすべて表示され [!DNL Amazon Seller Central] ます。 これらの製品はすべての出展要件に対応しており、いつでも再発行することができます。また、追加情報を必要としません。 タブに製品が表示されている場合は_[!UICONTROL Ineligible]_ 、製品が [ リストの適格性を満たすようにリスティング設定を変更することもでき ](./listing-settings.md) ます。
+この _[!UICONTROL Ended]_「 」タブには、 [!DNL Amazon Seller Central] アカウント これらの製品はすべてのリスト要件を満たし、いつでも再公開でき、追加情報は不要です。 製品が_[!UICONTROL Ineligible]_ 」タブで、 [リスト設定](./listing-settings.md) お客様の製品がリストに登録する資格を満たすようにするため。
 
 >[!NOTE]
 >
->リストが作成されている場合は、タブの上のメッセージに一覧の数が表示されます。
+>処理中のリストがある場合は、リストの数がタブの上のメッセージに表示されます。
 
-_[!UICONTROL Actions]_以下に示します。
+の下 _[!UICONTROL Actions]_:
 
-- **[!UICONTROL Publish Product to Amazon]**: リストをに再パブリッシュすることを選択し [!DNL Amazon Marketplace] ます。 「 [ Amazon リストの公開」を参照してください。](./publish-listings-manually.md)
+- **[!UICONTROL Publish Product to Amazon]**:リストを [!DNL Amazon Marketplace]. 詳しくは、 [Amazonリストの公開](./publish-listings-manually.md)
 
-**[!UICONTROL Select]**&#x200B;列で、 _[!UICONTROL Action]_次のようになります。
+の下 **[!UICONTROL Select]** 内 _[!UICONTROL Action]_列：
 
-- **[!UICONTROL View Details]**: 一覧表示された [ 利用状況ログ、購入ボックスの価格、競合企業の価格が表示さ ](./product-listing-details.md#listing-activity-log) [ ](./product-listing-details.md#buy-box-competitor-pricing) [ ](./product-listing-details.md#lowest-competitor-pricing) れます。 このアクションは、表示専用です。 一覧の詳細に変更を加えることはできません。 [詳しくは、詳細の表示を参照してください ](./product-listing-details.md) 。
+- **[!UICONTROL View Details]**：リストの詳細 ( [アクティビティログのリスト](./product-listing-details.md#listing-activity-log), [Buy Box競合他社の価格](./product-listing-details.md#buy-box-competitor-pricing)、および [競合他社の最低価格](./product-listing-details.md#lowest-competitor-pricing). このアクションは表示専用です。 リストの詳細は変更できません。 詳しくは、 [詳細を表示](./product-listing-details.md).
 
-- **[!UICONTROL Publish On Amazon]**: リストをに再パブリッシュすることを選択し [!DNL Amazon Marketplace] ます。 「 [ Amazon リスティングのパブリッシュ」を参照してください ](./publish-listings-manually.md) 。
+- **[!UICONTROL Publish On Amazon]**:リストを [!DNL Amazon Marketplace]. 詳しくは、 [Amazonリストの公開](./publish-listings-manually.md).
 
-- **[!UICONTROL Create Alias Seller SKU]**: 同じカタログ製品から Amazon リストを作成するために使用できるエイリアス SKU を作成することを選択します。 販売担当者 [ SKU の作成を参照してください ](./create-alias-seller-sku.md) 。
+- **[!UICONTROL Create Alias Seller SKU]**：同じカタログ製品からAmazonリストを作成するために使用できる Alias SKU を作成する場合に選択します。 詳しくは、 [Alias 販売者 SKU の作成](./create-alias-seller-sku.md).
 
-最後の一覧については、「Amazon リスティングの終了」を参照してください [ ](./end-listings-manually.md) 。
+リストの終了については、 [Amazonリストの終了](./end-listings-manually.md).
 
-公開リストについては、「 [ Amazon リスティングの手動公開」を参照してください ](./publish-listings-manually.md) 。
+リストの公開については、 [Amazonリストの手動公開](./publish-listings-manually.md).
 
-![Amazon リストが終了しました](assets/amazon-ended-listings.png)
+![終了したAmazon一覧](assets/amazon-ended-listings.png)
 
-Amazon セールスチャンネルのホームページ [ ](./workspace-controls.md) は、表示されるデータをカスタマイズするための一般的なワークスペースコントロールの一部を共有しています。
+Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
 
-| 段 | つい |
+| 列 | 説明 |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>アークは、Amazon 標準の Id 番号を表します。 アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
-| [!UICONTROL Product Listing Name] | 製品の名前を指定します。 |
-| [!UICONTROL Condition] | [ ](./product-listing-condition.md) 製品の状態。 |
-| [!UICONTROL Landed Price] | 製品のリスト価格とその配送価格を示します。 |
-| [!UICONTROL Amazon Quantity] | この製品が Amazon に積極的に一覧表示されるときに使用可能な数量です。 |
-| [!UICONTROL Status] | Amazon によって定義される一覧の状態。 |
-| [!UICONTROL Action] | 特定のリストに適用可能なアクションのリストです。 アクションを適用するには、列内をクリックし、 **[!UICONTROL Select]** _[!UICONTROL Action]_アイテムを選択します。<ul><li>[[!UICONTROL View Details]](./product-listing-details.md)</li><li>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md#region-specific)</li></ul> |
+| [!UICONTROL Amazon Seller SKU] | 製品、オプション、価格および製造元を識別するために、Amazonが製品に割り当てた SKU(Stock Keeping Unit)。 |
+| [!UICONTROL ASIN] | アイテムを識別する 10 文字または数字の一意のブロック。<br><br>ASIN は、Amazon Standard Identification Numbers の略です。 ASIN は、項目を識別する 10 文字または数字の一意のブロックです。 書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合は、アイテムがカタログにアップロードされると新しい ASIN が作成されます。 ASIN は、Amazonの製品の詳細ページに、その品目に関する詳細と共に表示されます。 |
+| [!UICONTROL Product Listing Name] | 製品の名前。 |
+| [!UICONTROL Condition] | この [条件](./product-listing-condition.md) 製品の。 |
+| [!UICONTROL Landed Price] | 商品の上場価格とその送料。 |
+| [!UICONTROL Amazon Quantity] | 製品がAmazonに積極的にリストされたときに使用可能な数量。 |
+| [!UICONTROL Status] | リストのステータス (Amazonで定義 )。 |
+| [!UICONTROL Action] | 特定のリストに適用できる使用可能なアクションのリスト。 アクションを適用するには、 **[!UICONTROL Select]** 内 _[!UICONTROL Action]_列で、項目を選択します。<ul><li>[[!UICONTROL View Details]](./product-listing-details.md)</li><li>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md#region-specific)</li></ul> |

@@ -1,49 +1,49 @@
 ---
-title: サードパーティの新リスト
-description: 新しい Amazon リストを管理するために、Commerce カタログ内の1つの製品に一致させることができます。
+title: 新しいサードパーティ製品リスト
+description: 新しいAmazonリストをコマースカタログの製品と照合して管理します。
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
-# サードパーティの新リスト
+# 新しいサードパーティ製品リスト
 
-このタブには、 _[!UICONTROL New Third Party]_カタログ内の製品に対応していない既存の Amazon リストが表示され [!DNL Commerce] ます。 数、価格、処理時間などを表示するには、各 Amazon リストがカタログ内の製品に適合している必要があり [!DNL Commerce] ます。 カタログ内の製品に一覧を割り当てるには、いくつかの方法があり [!DNL Commerce] ます。
+この _[!UICONTROL New Third Party]_「 」タブには、お使いのAmazonの製品に一致しない既存の製品リストが表示されます [!DNL Commerce] カタログ。 数量、価格、処理時間などのリスト管理を使用するには、Amazonの各リストを製品に対して照合（割り当て）する必要があります [!DNL Commerce] カタログ。 リストを [!DNL Commerce] カタログ。
 
-_[!UICONTROL Actions]_以下に示します。
+の下 _[!UICONTROL Actions]_:
 
-- **[!UICONTROL Create New Catalog Product(s)]**: Amazon リストに記載されている情報を使用して、カタログに製品を自動的に作成することが [!DNL Commerce] できます。 この処理によって、Amazon リスティングが新しいカタログ製品に自動的に照合されます。 詳しくは [ 、カタログ製品の作成と割り当てを参照してください ](./creating-assigning-catalog-products.md) 。
+- **[!UICONTROL Create New Catalog Product(s)]**:Amazonリストの情報を使用して、 [!DNL Commerce] カタログ。 このプロセスは、Amazonリストを新しいカタログ製品に自動的に一致させます。 詳しくは、 [カタログ製品の作成と割り当て](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Attempt Automatic Match]**: 現在のカタログ検索オプションを使用して、選択されているリストについてカタログへ自動的に一致するように選択し [ ](./catalog-search.md) ます。 オプションを変更すると _[!UICONTROL Catalog Search]_、このアクションによって、照合処理を再実行できるようになります。
+- **[!UICONTROL Attempt Automatic Match]**:現在の [カタログ検索](./catalog-search.md) 」オプションを使用します。 次の変更を加えた場合、 _[!UICONTROL Catalog Search]_オプションを指定すると、一致するプロセスを再試行できます。
 
-_[!UICONTROL Select]_以下に示します。
+の下 _[!UICONTROL Select]_:
 
-- **[!UICONTROL Assign Catalog Product]**: カタログ内の製品の一覧を手動で検索する場合に選択し [!DNL Commerce] ます。 詳しくは [ 、カタログ製品の作成と割り当てを参照してください ](./creating-assigning-catalog-products.md) 。
+- **[!UICONTROL Assign Catalog Product]**:リストとの一致を、 [!DNL Commerce] カタログを手動で作成します。 詳しくは、 [カタログ製品の作成と割り当て](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Create New Catalog Product]**: Amazon リストに記載されている情報を使用して、カタログに製品を自動的に作成することが [!DNL Commerce] できます。 この処理によって、Amazon リスティングが新しいカタログ製品に自動的に照合されます。 詳しくは [ 、カタログ製品の作成と割り当てを参照してください ](./creating-assigning-catalog-products.md) 。
+- **[!UICONTROL Create New Catalog Product]**:Amazonリストの情報を使用して、 [!DNL Commerce] カタログ。 このプロセスは、Amazonリストを新しいカタログ製品に自動的に一致させます。 詳しくは、 [カタログ製品の作成と割り当て](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL View Details]**: 一覧表示された [ 利用状況ログ、購入ボックスの価格、競合企業の価格が表示さ ](./product-listing-details.md#listing-activity-log) [ ](./product-listing-details.md#buy-box-competitor-pricing) [ ](./product-listing-details.md#lowest-competitor-pricing) れます。 このアクションは、表示専用です。 一覧の詳細に変更を加えることはできません。 [詳しくは、詳細の表示を参照してください ](./product-listing-details.md) 。
+- **[!UICONTROL View Details]**：リストの詳細 ( [アクティビティログのリスト](./product-listing-details.md#listing-activity-log), [Buy Box競合他社の価格](./product-listing-details.md#buy-box-competitor-pricing)、および [競合他社の最低価格](./product-listing-details.md#lowest-competitor-pricing). このアクションは表示専用です。 リストの詳細は変更できません。 詳しくは、 [詳細を表示](./product-listing-details.md).
 
 >[!NOTE]
 >
->リストが進行中である場合は、リストの数を示すタブの上にメッセージが表示されます。
+>処理中のリストがある場合、タブの上にメッセージが表示され、リストの数を示します。
 
-![サードパーティリストの新規作成](assets/amazon-listings-new-third-party.png)
+![新しいサードパーティのリスト](assets/amazon-listings-new-third-party.png)
 
-Amazon セールスチャンネルのホームページ [ ](./workspace-controls.md) は、表示されるデータをカスタマイズするための一般的なワークスペースコントロールの一部を共有しています。
+Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
 
 ## デフォルトの列
 
-| 段 | つい |
+| 列 | 説明 |
 |---|---|
-| [!UICONTROL Amazon Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>「アーク」は、 [!DNL Amazon Standard Identification Number] . アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
-| [!UICONTROL Product Listing Name] | 製品の名前を指定します。 |
-| [!UICONTROL Condition] | [ ](./product-listing-condition.md) 製品の状態。 |
-| [!UICONTROL Listing Price] | 価格ソースによって定義された品目の定価を指定します。適用可能な価格ルールが表示されます。 |
-| [!UICONTROL Amazon Quantity] | この製品が Amazon に積極的に一覧表示されるときに使用可能な数量です。 |
-| [!UICONTROL Status] | Amazon によって定義される一覧の状態。 |
-| [!UICONTROL Action] | 特定のリストに適用可能なアクションのリストです。 アクションを適用するには、列内をクリックし、次のいずれ **[!UICONTROL Select]** _[!UICONTROL Action]_かのオプションを選択します。<ul><li>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
+| [!UICONTROL Amazon Seller SKU] | 製品、オプション、価格および製造元を識別するために、Amazonが製品に割り当てた SKU(Stock Keeping Unit)。 |
+| [!UICONTROL ASIN] | アイテムを識別する 10 文字または数字の一意のブロック。<br><br>ASIN は、 [!DNL Amazon Standard Identification Number]. ASIN は、項目を識別する 10 文字または数字の一意のブロックです。 書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合は、アイテムがカタログにアップロードされると新しい ASIN が作成されます。 ASIN は、Amazonの製品の詳細ページに、その品目に関する詳細と共に表示されます。 |
+| [!UICONTROL Product Listing Name] | 製品の名前。 |
+| [!UICONTROL Condition] | この [条件](./product-listing-condition.md) 製品の。 |
+| [!UICONTROL Listing Price] | 価格ソースおよび適用可能な価格ルールで定義された品目の上場価格を識別します。 |
+| [!UICONTROL Amazon Quantity] | 製品がAmazonに積極的にリストされたときに使用可能な数量。 |
+| [!UICONTROL Status] | リストのステータス (Amazonで定義 )。 |
+| [!UICONTROL Action] | 特定のリストに適用できる使用可能なアクションのリスト。 アクションを適用するには、 **[!UICONTROL Select]** 内 _[!UICONTROL Action]_列を選択し、次のオプションを選択します。<ul><li>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |

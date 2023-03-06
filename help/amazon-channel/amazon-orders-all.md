@@ -1,52 +1,52 @@
 ---
-title: Amazon の注文の表示
-description: Amazon Marketplace の注文内容を Adobe Commerce または Magento Open Source Admins で表示します。
+title: Amazon注文の表示
+description: Adobe CommerceまたはMagento Open Source管理で、Amazon Marketplace の注文を表示します。
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
-# Amazon の注文の表示
+# Amazon注文の表示
 
-Amazon の注文内容を表示する方法は2つあり _[!UICONTROL Recent Orders]__[!UICONTROL All Orders]_ ます。
+Amazonの注文を表示する方法は 2 つあります。 _[!UICONTROL Recent Orders]_および_[!UICONTROL All Orders]_.
 
-次のいずれかのオプションを選択すると、Amazon から受信した基本的な注文情報が表示されます。
+どちらのオプションも、Amazonから受け取った基本的な注文情報を示します。これには以下が含まれます。
 
-- 購買日付
+- 購入日
 - 注文番号
-- 現状
-- バイヤーの名前
+- ステータス
+- 購入者の名前
 - 総計
-- ノートの注文
+- 注文に関する注意
 
-_[!UICONTROL All Orders]_「表示」では、注文の検索にフィルタオプションが追加されます。
+_[!UICONTROL All Orders]_「表示」では、注文検索のフィルターオプションが追加されます。
 
 >[!NOTE]
 >
->列を除い _[!UICONTROL Order Notes]__[!UICONTROL Amazon orders]_ て、Amazon から受け取った注文情報がテーブルに設定されます。 Order _Notes_ 列は、注文処理によって更新され [!DNL Commerce] ます。
+>ただし、 _[!UICONTROL Order Notes]_列_[!UICONTROL Amazon orders]_ テーブルには、Amazonから受け取った注文情報が入力されます。 この _注文に関する注意_ 列の更新者： [!DNL Commerce] を設定します。
 
-## 最近使用した注文
+## 最近の注文
 
-最新の注文は、 _[!UICONTROL Recent Orders]_ストアダッシュボードのセクションに表示でき [ ](./amazon-store-dashboard.md) ます。
+最新の注文を _[!UICONTROL Recent Orders]_セクション [ストアダッシュボード](./amazon-store-dashboard.md).
 
-![最近使用した注文](assets/amazon-recent-orders-imported.png)
+![最近の注文](assets/amazon-recent-orders-imported.png)
 
-### 最近使用した Amazon orders の表示
+### 最近のAmazon注文を表示
 
-1. ストアカードをクリックし **[!UICONTROL View Store]** ます。
+1. クリック **[!UICONTROL View Store]** をストアカードに貼り付けます。
 
-1. セクションに注文を表示 _[!UICONTROL Recent Orders]_します。
+1. で注文を表示 _[!UICONTROL Recent Orders]_」セクションに入力します。
 
-1. 受注明細を表示するには、列内の Amazon の注文番号をクリックし _[!UICONTROL Order Number]_ます。
+1. オーダーの詳細を表示するには、 _[!UICONTROL Order Number]_列。
 
-   _[!UICONTROL Amazon Order Details]_注文のページが表示されます。
+   この _[!UICONTROL Amazon Order Details]_ページを開きます。
 
 ## すべての注文を表示
 
-すべての Amazon の注文をページ上に表示することができ _[!UICONTROL Amazon orders]_ます (ビューとも呼ば_[!UICONTROL All Orders]_ れます)。 Amazon Orders テーブルは、 _[!UICONTROL Recent Orders]_「store」ダッシュボードのセクションに似ていますが、すべての Amazon の注文を表示し、以下のフィルターオプションを使用して注文リストを絞り込むことができます。
+すべてのAmazon注文を _[!UICONTROL Amazon orders]_ページ (_[!UICONTROL All Orders]_ 表示 )。 Amazonの注文テーブルは、 _[!UICONTROL Recent Orders]_」セクションに表示されますが、Amazonのすべての注文を表示したり、次のフィルターオプションを使用して注文リストを絞り込んだりすることができます。
 
 - [!UICONTROL Purchase Date (range)]
 - [!UICONTROL Order Number]
@@ -54,52 +54,52 @@ _[!UICONTROL All Orders]_「表示」では、注文の検索にフィルタオ�
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Amazon の注文](assets/amazon-orders-list-all.png)
+![Amazon注文](assets/amazon-orders-list-all.png)
 
-### すべての Amazon の注文を表示
+### すべてのAmazon注文を表示
 
-1. ストアカードをクリックし **[!UICONTROL View Store]** ます。
+1. クリック **[!UICONTROL View Store]** をストアカードに貼り付けます。
 
-1. **[!UICONTROL All Orders]**&#x200B;セクション内をクリックし _[!UICONTROL Recent Orders]_ます。
+1. クリック **[!UICONTROL All Orders]** 内 _[!UICONTROL Recent Orders]_」セクションに入力します。
 
-1. リストまたは特定の注文番号を検索するには、パラメーターを入力 **[!UICONTROL Filter by]** してをクリックし **[!UICONTROL Apply filters]** ます。
+1. リストを絞り込んだり、特定の注文番号を検索したりするには、 **[!UICONTROL Filter by]** パラメータとクリック **[!UICONTROL Apply filters]**.
 
-1. 受注明細を表示するには、列内の Amazon の注文番号をクリックし _[!UICONTROL Order Number]_ます。
+1. オーダーの詳細を表示するには、 _[!UICONTROL Order Number]_列。
 
-   _[!UICONTROL Amazon Order Details]_注文のページが表示されます。
+   この _[!UICONTROL Amazon Order Details]_ページを開きます。
 
 ## フィルターの使用
 
-セクション内の注文リストにフィルターを適用することができ _[!UICONTROL Filter by]_ます。 選択を行い、をクリックし&#x200B;**[!UICONTROL Apply filters]**ます。 適用されたフィルターは、注文グリッドの上に表示されます。
+フィルターは、 _[!UICONTROL Filter by]_」セクションに入力します。 選択を行い、**[!UICONTROL Apply filters]**. 適用したフィルターが、注文グリッドの上に表示されます。
 
-![Amazon の注文を表示するためのフィルター](assets/amazon-orders-filter-view.png)
+![Amazon注文を表示するためのフィルター](assets/amazon-orders-filter-view.png)
 
-### 適用されたフィルターの変更
+### 適用されるフィルターの変更
 
-- セクションにフィルターを追加したり、変更したりすることができ _[!UICONTROL Filter by]_ます。 クリック&#x200B;**[!UICONTROL Apply filters]**すると、注文リストと、注文グリッドの上に表示されるフィルターオプションが更新されます。
+- フィルターは、 _[!UICONTROL Filter by]_」セクションに入力します。 クリック&#x200B;**[!UICONTROL Apply filters]**をクリックして、注文グリッドの上に表示される注文リストとフィルターオプションを更新します。
 
-- フィルターを削除するには、フィルターを一度に1つずつクリックして選択するか、「すべて」を `x` クリックし **[!UICONTROL Clear all filters]** ます。 フィルターを削除すると、注文グリッドの上に表示される順序リストとフィルターオプションが更新されます。
+- フィルターは、 `x` をクリックすると、フィルターまたはすべてを一度に **[!UICONTROL Clear all filters]**. フィルターを削除すると、注文リストと、注文グリッドの上に表示されるフィルターオプションが更新されます。
 
-- 注文リストが長い場合は、グリッドの下にあるページネーションコントロールを使用して、さらに注文を表示することができます。
+- 注文リストが長い場合、グリッドの下のページネーションコントロールを使用して、さらに多くの注文を表示できます。
 
 >[!TIP]
 >
->次に、注文ビューについてのヒントを示します。
+>注文件数ビューに関するヒントをいくつか示します。
 >
->- Amazon store の統合が複数ある場合は、注文リストと現在のストアのページネーションビューの両方を更新する必要がある場合があります。これにより、ストアビューを切り替えたときのページの表示の更新が必要になります。
->- 列で並べ替える場合、並べ替えは現在のリストビューにのみ適用されます。 リストのフィルター処理、および表示中のページの並べ替えは、ベストプラクティスです。
->- ビューウィンドウの幅にもよりますが、列内のテキストが重なって表示される場合があります。 テキストが折り返し表示されるように列を拡大するには、ウィンドウの表示の幅を広げます。
->- を使用してフィルター処理を行う場合 _[!UICONTROL Total]_は、整数にフィルターをかけることができます。 10進数の値を入力すると、結果にエラーが発生する可能性があります。
+>- 複数のAmazonストア統合がある場合、現在のストアの注文リストとページネーションビューの両方を更新するには、ストアビューを切り替える際にページビューを更新する必要が生じる場合があります。
+>- 列で並べ替える場合、並べ替えは現在のリストビューにのみ適用されます。 リストをフィルタリングし、表示しているページを並べ替えるのがベストプラクティスです。
+>- 表示ウィンドウの幅に応じて、列に重なったテキストが表示される場合があります。 折り返すテキストの列を拡大するには、ウィンドウの表示を広げます。
+>- フィルター条件 _[!UICONTROL Total]_、整数でフィルターします。 小数を入力すると、結果にエラーが発生する場合があります。
 
 
 ### デフォルトの列
 
-| 段 | つい |
+| 列 | 説明 |
 |---|---|
-| [!UICONTROL Filter by] | ビューでのみ使用でき _[!UICONTROL All Orders]_ます。<br>以下に基づいて注文の一覧を絞り込みます。<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
-| [!UICONTROL Purchase Date] | Amazon から受信した購入日を指定します。 |
-| [!UICONTROL Order Number] | によって生成され、Amazon から受信された注文番号を指定します。 「Amazon Order Details」画面を表示するには、リンクをクリックします。 |
-| [!UICONTROL Status] | Amazon によって受信された注文のステータスを指定します。 オプション: `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` `Unshipped` // `PartiallyShipped``PendingAvailability` |
-| [!UICONTROL Buyer's Name] | Amazon から受信した注文を送信した人物の名前。 |
-| [!UICONTROL Grand Total] | Amazon から受信した、注文の合計通貨値です。 |
-| [!UICONTROL Order Notes] | 最後に記録されたアクションは、で処理される順に記録さ [!DNL Commerce] れます。 ここには、注文のインポートエラーや注文処理の更新に関する情報が含まれています。<br>**注意** : このフィールドは、注文処理によって更新され [!DNL Commerce] ます。 |
+| [!UICONTROL Filter by] | 次の場所でのみ使用できます： _[!UICONTROL All Orders]_表示<br>次の条件に基づいてオーダーのリストを絞り込みます。<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
+| [!UICONTROL Purchase Date] | Amazonから受け取った購入日。 |
+| [!UICONTROL Order Number] | Amazonが生成し、から受け取った注文番号。 Amazonの注文の詳細画面を表示するには、リンクをクリックします。 |
+| [!UICONTROL Status] | Amazonが受け取った注文のステータス。 オプション： `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
+| [!UICONTROL Buyer's Name] | Amazonから受け取った、注文をした人の名前。 |
+| [!UICONTROL Grand Total] | Amazonから受け取った注文の合計通貨値。 |
+| [!UICONTROL Order Notes] | 注文の処理中に記録された最新のアクション [!DNL Commerce]. オーダーのインポートエラーやオーダー処理の更新などが情報に含まれますが、これらに限定されません。<br>**注意**:このフィールドは次の日付で更新されます： [!DNL Commerce] を設定します。 |

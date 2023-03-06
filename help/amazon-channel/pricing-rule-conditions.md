@@ -1,81 +1,81 @@
 ---
 title: 価格ルール条件
-description: 価格ルール条件を使用して、定価ルールの対象となる製品を決定します。
+description: 価格ルール条件を使用して、上場価格ルールに適格な製品を決定します。
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # 価格ルール条件
 
-では、どの製品が価格ルールの対象となるかが条件によって決定されます。 Amazon 価格設定規則の定義は、Cart 価格ルールの条件を定義するのと同じロジックに従い [ ](https://docs.magento.com/user-guide/marketing/price-rules-cart.html) ます。 {target = &quot;_blank&quot;} の条件が定義されて [!DNL Commerce] います。
+条件によって、価格ルールに適した製品が決まります。 Amazonの価格設定ルールの条件の定義は、 [買い物かごの価格ルール](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
->カタログ内のすべての製品に価格ルールが適用されている場合は [!DNL Commerce] 、このセクションを空白のままにします。
+>価格ルールが [!DNL Commerce] カタログを開き、このセクションは空白のままにします。
 
-条件が太字のすべての領域をクリックすると、様々なオプションが表示されます。
+条件内の太字の領域をクリックすると、様々なオプションを表示できます。
 
-## 例: 価格ルール条件の作成
+## 例：価格ルール条件を作成する
 
-カタログ設定によっては、このプロセスを単純化したり詳細化したりすることができます。 条件がある場合、または製品の場合は、その `ALL` `ANY` `TRUE` `FALSE` 製品が価格設定ルールの適用対象となるように、条件を定義することができます。
+このプロセスは、カタログ設定に応じて、簡単に実行することも、詳細に設定することもできます。 条件を定義して、 `ALL` または `ANY` の条件は、 `TRUE` または `FALSE` 製品の場合、製品は適用される価格ルールに適格です。
 
-条件は製品属性によって異なり [ ](https://docs.magento.com/user-guide/catalog/product-attributes.html) ます {target = &quot;_blank&quot;} すべての製品にルールを適用するには、条件セクションを空白のままにしておきます。
+条件は、 [製品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. すべての製品にルールを適用する場合は、「条件」セクションを空白のままにします。
 
 >[!NOTE]
 >
->特定の製品属性に基づいて条件を定義する場合は、この属性を広告のルール条件として使用するには、この属性 **** `Yes` [ ](https://docs.magento.com/user-guide/stores/attribute-product-create.html) の &#39; target = &quot;_blank&quot;} に設定する必要があります。
+>特定の製品属性に基づいて条件を定義する場合は、 **プロモーションルール条件に使用** の場合、属性をに設定する必要があります。 `Yes` の [ストアフロントのプロパティ](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"} 属性の。
 
-![価格ルールの条件-行1](assets/ob-price-rules-condition-1.png)
+![価格ルール条件 — 明細 1](assets/ob-price-rules-condition-1.png)
 
-この例では、カテゴリで定義されているすべての製品に25% の割引を適用するルールを定義 `Books` します。
+この例では、 `Books` カテゴリ。
 
-ルールステートメントには、2つのボールドのリンクがあります。ここでは、このリンクをクリックすると、condition ステートメントのその部分のオプションが表示されます。 「Bold」オプションは変更せずに条件を保存すると、すべての製品にルールが適用されます。
+ルールステートメントには 2 つの太字のリンクがあり、このリンクをクリックすると、条件ステートメントのその部分のオプションが表示されます。 太字オプションを変更せずに条件を保存した場合、ルールはすべての製品に適用されます。
 
-- **[!UICONTROL ALL]**&#x200B;をクリックして、またはを選択し `ALL` `ANY` ます。
-- 「」をクリックし **[!UICONTROL TRUE]** て、「」または「」を選択し `TRUE` `FALSE` ます。
-- すべての製品にルールを適用するには、条件を変更しないままにしておきます。
+- クリック **[!UICONTROL ALL]** を選択し、 `ALL` または `ANY`.
+- クリック **[!UICONTROL TRUE]**&#x200B;を選択し、 `TRUE` または `FALSE`.
+- すべての製品にルールを適用する場合は、条件を変更しないでください。
 
-これらの値の組み合わせを変更することによって、異なる条件を作成することができます。 この例では、次の条件が使用されています。
+これらの値の組み合わせを変更することで、異なる条件を作成できます。 この例では、次の条件が使用されます。
 
 `If ALL of these conditions are TRUE:`
 
-1. 条件が適用される使用可能な属性を表示するには、 ![ 条件行の先頭にある追加 (アイコンの追加) アイコンをクリックし、 ](assets/btn-add-grn.png) 条件の基となる属性を選択します。
+1. 条件が適用される属性を表示するには、「追加」(![追加アイコン](assets/btn-add-grn.png)) アイコンをクリックし、条件の基準となる属性を選択します。
 
-   **[!UICONTROL Conditions Combination]** - `All/Any` 既存の条件内に and 条件の別のセットを作成することを選択し `True/False` ます。
+   **[!UICONTROL Conditions Combination]**  — 別のセットの作成を選択 `All/Any` および `True/False` 条件を既存の条件内に含めます。
 
    ![価格ルール条件の組み合わせ](assets/ob-conditions-combinations.png)
 
-   **[!UICONTROL Product Attribute]** -使用可能な製品属性は、 [ ](https://docs.magento.com/user-guide/stores/attribute-product-create.html) {target = &quot;_blank&quot;} の属性の設定によって異なります。 リストに属性が表示されるようにするには、 *[!UICONTROL Use for Promo Rule Conditions]* ストアプロパティでこの属性をに設定する必要があり `Yes` [ ](https://docs.magento.com/user-guide/stores/attribute-product-create.html) ます {target = &quot;_blank&quot;}。
+   **[!UICONTROL Product Attribute]**  — 使用可能な製品属性は、 [属性の設定](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}. For an attribute to show in the list, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in your [storefront properties](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}.
 
-   - については、 **[!UICONTROL Product Attribute]** 条件のベースとして定義する属性を選択します。 この例では、選択した条件がに `Category` なります。
+   - の場合 **[!UICONTROL Product Attribute]**「 」で、条件のベースとして定義する属性を選択します。 この例では、選択された条件は次のようになります。 `Category`.
 
-      ![価格ルールの条件-行2、パート2](assets/ob-price-rule-condition-2.png)
+      ![価格ルール条件 — 明細 2、パート 2](assets/ob-price-rule-condition-2.png)
 
-      選択された条件がステートメントに表示され、その後にさらに2つのリンクが追加されています。 オプションは、選択した製品属性によって異なります。
+      選択した条件がステートメントに表示され、その後にさらに 2 つの太字のリンクが続きます。 オプションは、選択した製品属性によって異なります。
 
-      属性を設定した後は、編集することはできません。 属性を変更するには、その行を削除して、新しい属性を追加する必要があります。 ![行の最後にある削除アイコンをクリックして、条件行を削除することができ ](assets/btn-del-red.png) ます。
+      設定した属性は編集できません。 属性を変更するには、行を削除し、新しい属性を追加する必要があります。 条件行を削除するには、「削除」(![削除アイコン](assets/btn-del-red.png) アイコンをクリックします。
 
-   - をクリック **[!UICONTROL is]** して、製品の条件を満たす比較演算子を選択します。
+   - クリック **[!UICONTROL is]** を選択し、満たす製品の条件を記述する比較演算子を選択します。
 
-      この例では、比較演算子はと `is` なります。 使用できるオプションは、前の手順で選択した属性によって異なります。異なる比較オプションを指定することもできます。 オプションには、条件に一致する値を含めることができますが、少なくとも1つの値を含めたり、それ以上の値を指定することはできません。 この例では、「」と「」のオプションを使用 `is` `is not` できます。
+      この例では、比較演算子は次のようになります。 `is`. 使用できるオプションは、前の手順で選択した属性によって異なり、異なる比較オプションを含めることができます。 オプションには、一致する値（値を少なくとも 1 つ含まないか、含まない）、およびより大きい、等しい、数値未満の値を含むことができます。 この例では、次のオプションがあります。 `is` および `is not`.
 
-   - **[!UICONTROL ...]**&#x200B;をクリックし、条件の基準となる属性値を選択します。このオプションは、属性の設定によって異なります。
+   - クリック **[!UICONTROL ...]** 条件の基となる属性値を選択します。 オプションは、属性の設定によって異なります。
 
-      この場合は、オプションを選択するか、条件の値を入力するよう求められます。 この例では、フィールドは空白になります。 ルールのカテゴリを選択するには、チューザアイコン ( ![ セレクターアイコン) をクリックして選択 ](assets/btn-chooser.png) オプションを表示します。 このルールはブック用です __ 。チェックボックスをオンにし **[!UICONTROL Books]** ます。 カテゴリナンバーが表示されます。 カテゴリの選択を確定するには、緑のチェックマークアイコン ( ![ チェックマークアイコン) をクリックし ](assets/btn-check-mark-green.png) ます。
+      オプションを選択するか、条件の値を入力するよう求められる場合があります。 この例では、フィールドは空白で表示されます。 ルールのカテゴリを選択するには、選択アイコン (![選択アイコン](assets/btn-chooser.png)) をクリックして、選択オプションを表示します。 このルールは次用です。 _書籍_&#x200B;を選択し、 **[!UICONTROL Books]** チェックボックス。 カテゴリ番号が入力されます。 カテゴリの選択を受け入れるには、緑のチェックマークアイコン (![チェックマークアイコン](assets/btn-check-mark-green.png)) をクリックします。
 
-      ![価格ルールの条件-行2、パート3](assets/ob-price-rule-condition-3.png)
+      ![価格ルール条件 — 明細 2、パート 3](assets/ob-price-rule-condition-3.png)
 
-      選択されたアイテムがステートメントに表示され、条件を完成させます。
+      選択した項目が、条件を完了するためにステートメント内に表示されます。
 
-      ![価格ルールの条件-行2、パート4](assets/ob-price-rule-condition-4.png)
+      ![価格ルール条件 — 明細 2、パート 4](assets/ob-price-rule-condition-4.png)
 
-      この例では、このような条件が完了しています。 既に説明したように、この条件は、カタログ内で [!DNL Commerce] 定義されたカテゴリの本の ( `4` ) が、この価格設定ルールに適合していることを意味します。 条件行をさらに追加することで、対象製品をさらに絞り込むことができます。
+      この例の条件は完了しました。 この条件は、 [!DNL Commerce] 定義された種類の書籍 (`4`) はこの価格ルールの対象です。 さらに条件ラインを追加して、対象製品を絞り込むことができます。
 
-1. ステートメントに別の条件行を追加するには、手順1に戻り、必要な条件がすべて満たされるまでこの処理を繰り返します。
+1. 文に別の条件行を追加するには、手順 1 に戻り、必要なすべての条件が完了するまでこの処理を繰り返します。
 
-   条件ステートメントの行を削除するには、 ![ ](assets/btn-del-red.png) 行の最後にある削除アイコン (削除アイコン) をクリックします。
+   条件文の行は、いつでも削除できます。削除するには、![削除アイコン](assets/btn-del-red.png)) アイコンをクリックします。

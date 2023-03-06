@@ -1,87 +1,87 @@
 ---
-title: ' [!DNL Commerce] Amazon の属性を作成します。'
-description: Amazon 販売チャンネルのオンボードプロセスを完了する前に、必要な製品属性があることを確認してください [!UICONTROL Commerce] 。
+title: 作成 [!DNL Commerce] Amazonの属性
+description: Amazonセールスチャネルのオンボーディングプロセスを完了する前に、必要な情報が揃っていることを確認します [!UICONTROL Commerce] 製品属性。
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce]Amazon の属性を作成します。
+# 作成 [!DNL Commerce] Amazonの属性
 
-取引先企業をオンにする前に、製品の属性を追加することをお勧めし [!DNL Amazon Seller Central] ます。これは、製品 [!DNL Commerce] [ ](https://docs.magento.com/user-guide/stores/attributes-product.html) リストのマップを作成するには、{target = &quot;_blank&quot;} です。 オンボードを完了すると、 [ ](./managing-attributes.md) Amazon sales channel のホームページの「属性」タブを使用して製品属性を管理することができ [ ](./amazon-sales-channel-home.md) ます。
+オンボーディングの前に [!DNL Amazon Seller Central] アカウントを追加する場合は、 [!DNL Commerce] [製品属性](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} 製品リストをマッピングするには： オンボーディングが完了したら、 [属性](./managing-attributes.md) タブ [Amazonセールスチャネルホーム](./amazon-sales-channel-home.md) ページ。
 
-この手順 [!DNL Commerce] では、AMAZON アークや Amazon 条件に属性を作成する方法について詳しく説明しています。 Amazon EAN、Amazon ISBN、Amazon UPC など、追加の属性を作成することをお勧めします。 このような場合は、amazon Price 属性を作成すると、その価格設定ルールの価格のソースとして Amazon の表示価格を使用することもできます。 これらの属性は、オンになっているときにリスティングおよび価格設定を構成するときに使用されます。 この属性は、Amazon リストを作成する場合や、Amazon リストを使用してカタログをアップデートおよび同期する場合にも使用でき [!DNL Commerce] ます。
+以下の手順で、 [!DNL Commerce] Amazon ASIN とAmazon条件の属性。 Amazon EAN、Amazon ISBN、Amazon UPC などの追加の属性を作成することをお勧めします。 Amazon上場価格を価格設定ルールの価格ソースとして使用する場合は、 Amazon Price 属性も作成できます。 これらの属性は、オンボーディング時にリストと価格の設定を指定する際に使用します。 また、Amazonのリストを作成する際や、の更新と同期をおこなう際にも、これらの属性を使用します [!DNL Commerce] カタログとAmazonのリスト。
 
-カタログ検索の設定を使用すると、Amazon リストを含む適格な製品をマップするための一致検索パラメーターを設定でき [!DNL Commerce] ます。 マップされた場合、Amazon は価格、数量、オーバーライド、および注文と製品の同期に関するアクションがアクティブになります。
+カタログ検索設定を使用すると、対象をマッピングするのに役立つ一致する検索パラメーターを設定できます [!DNL Commerce] Amazonリストに含まれる製品。 マッピングが完了すると、Amazonは、価格、数量、上書き、注文および製品の同期に関連するアクションを有効化します。
 
-このような値を定義すると、完全に一致する可能性が高くなるので、後で製品リストを手動で一致させる必要はありません。 事前設定タスクの一部として属性を追加すると [ ](./amazon-pre-setup-tasks.md) 、amazon sales channel によって、オンボード中に自動的に製品が照合され、Amazon とオンボードの間の製品データが同期される可能性が高くなり [!DNL Commerce] ます。
+これらの値を定義すると完全一致の可能性が高まり、後で製品リストを手動で照合する必要が最小限に抑えられます。 オンボーディングの一環として属性を追加する [事前設定タスク](./amazon-pre-setup-tasks.md)Amazonセールスチャネルは、Amazonと [!DNL Commerce] オンボーディング後
 
-Amazon の &quot;属性&quot; 属性を作成するのは、製品ごとにアーク秒数を追加するのではなく、 [!DNL Commerce] 製品が amazon リストに自動的に一致しない場合があります。 製品は、ストアレビューによって手動で一致させることができ __ ます。 ただし、手動検索では、製品データの共有と同期に必要なデータエレメントは作成されません。
+Amazon ASIN 属性のみを作成する場合（製品ごとに ASIN 値を追加しない場合）、 [!DNL Commerce] 製品は、Amazonのリストと自動的に一致しない場合があります。 手動で製品を照合するには、 _ストアレビュー_. ただし、手動での照合では、製品データの共有と同期に必要なデータ要素は作成されません。
 
 >[!IMPORTANT]
 >
->合致する製品について、アーク、UPC、またはその他のデータエレメントを更新する場合は、両方の場所でデータを更新する必要があります。 [!DNL Commerce] カタログと、口座に記載されているリストです。 [!DNL Amazon Seller Central]
+>手動で一致した製品に対して ASIN、UPC または他のデータ要素を更新する場合は、次の両方の場所でデータを更新する必要があります。あなたの [!DNL Commerce] カタログとリスト ( [!DNL Amazon Seller Central] アカウント
 
-## Amazon アーク積属性の作成
+## Amazon ASIN 製品属性の作成
 
-1. [!DNL Commerce]管理者にログインします。
+1. 次にログイン： [!DNL Commerce] 管理者。
 
-1. **[!UICONTROL Stores]**&#x200B;左側のメニューでクリックします。
+1. クリック **[!UICONTROL Stores]** をクリックします。
 
-1. セクションの _[!UICONTROL Attributes]_をクリックし&#x200B;**[!UICONTROL Product]**ます。
+1. 内 _[!UICONTROL Attributes]_セクションで、**[!UICONTROL Product]**.
 
-1. 属性のプロパティを表示するには、をクリックし **[!UICONTROL Add New Attribute]** ます。
+1. 属性プロパティを開くには、 **[!UICONTROL Add New Attribute]**.
 
-1. **[!UICONTROL Default Label]**&#x200B;では、 `Amazon ASIN` 属性の名前を入力します。
+1. の場合 **[!UICONTROL Default Label]**&#x200B;を入力して、 `Amazon ASIN` （属性の名前）。
 
-1. について **[!UICONTROL Catalog Input Type for Store Owner]** は、を選択 `Text Field` します。
+1. の場合 **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;選択 `Text Field`.
 
-1. について **[!UICONTROL Values Required]** は、を選択 `No` します。
+1. の場合 **[!UICONTROL Values Required]**&#x200B;選択 `No`.
 
-   Amazon によって、amazon によって製品が一覧表示されますが、amazon によっては、一部のカタログ製品がリストに表示されない場合があります。
+   Amazon上の製品をリストするにはAmazon ASIN が必要ですが、一部のカタログ製品がAmazon上に表示されない場合があります。
 
-1. セクションを展開 _[!UICONTROL Advanced Attribute Properties]_し、次のオプションを設定します。
+1. を展開します。 _[!UICONTROL Advanced Attribute Properties]_」セクションに移動して、次のオプションを設定します。
 
-   - につい **[!UICONTROL Attribute Code]** ては、「」を入力し `amazon_asin` ます。
+   - の場合 **[!UICONTROL Attribute Code]**&#x200B;を入力して、 `amazon_asin`.
 
-   - について **[!UICONTROL Scope]** は、を選択 `Global` します。
+   - の場合 **[!UICONTROL Scope]**&#x200B;選択 `Global`.
 
-   - について **[!UICONTROL Unique Value]** は、を選択 `No` します。
+   - の場合 **[!UICONTROL Unique Value]**&#x200B;選択 `No`.
 
-   - について **[!UICONTROL Input Validation for Store Owner]** は、を選択 `None` します。
+   - の場合 **[!UICONTROL Input Validation for Store Owner]**&#x200B;選択 `None`.
 
-   - について **[!UICONTROL Add to Column Options]** は、を選択 `Yes` します。
+   - の場合 **[!UICONTROL Add to Column Options]**&#x200B;選択 `Yes`.
 
-   - について **[!UICONTROL Use in Filter Options]** は、を選択 `Yes` します。
+   - の場合 **[!UICONTROL Use in Filter Options]**&#x200B;選択 `Yes`.
 
-1. をクリックし **[!UICONTROL Save Attribute]** ます。
+1. クリック **[!UICONTROL Save Attribute]**.
 
-![Amazon アーク属性](assets/creating-asin-attribute.png)
+![Amazon ASIN 属性](assets/creating-asin-attribute.png)
 
 ## Amazon Condition 製品属性の作成
 
-1. [!DNL Commerce]管理者にログインします。
+1. 次にログイン： [!DNL Commerce] 管理者。
 
-1. **[!UICONTROL Stores]**&#x200B;左側のメニューでクリックします。
+1. クリック **[!UICONTROL Stores]** をクリックします。
 
-1. セクションの _[!UICONTROL Attributes]_をクリックし&#x200B;**[!UICONTROL Product]**ます。
+1. 内 _[!UICONTROL Attributes]_セクションで、**[!UICONTROL Product]**.
 
-1. 属性のプロパティを表示するには、をクリックし **[!UICONTROL Add New Attribute]** ます。
+1. 属性プロパティを開くには、 **[!UICONTROL Add New Attribute]**.
 
-1. **[!UICONTROL Default Label]**&#x200B;では、 `Amazon Condition` 属性の名前を入力します。
+1. の場合 **[!UICONTROL Default Label]**&#x200B;を入力して、 `Amazon Condition` （属性の名前）。
 
-1. について **[!UICONTROL Catalog Input Type for Store Owner]** は、を選択 `Dropdown` します。
+1. の場合 **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;選択 `Dropdown`.
 
-   _[!UICONTROL Manage Options (Values of your Attribute)]_セクションが表示されます。
+   この _[!UICONTROL Manage Options (Values of your Attribute)]_セクションが表示されます。
 
-1. について **[!UICONTROL Values Required]** は、を選択 `No` します。
+1. の場合 **[!UICONTROL Values Required]**&#x200B;選択 `No`.
 
-1. については **[!UICONTROL Manage Options (Values for your Attribute)]** 、条件の各オプションを追加します。
+1. の場合 **[!UICONTROL Manage Options (Values for your Attribute)]**、各条件オプションを追加します。
 
-   標準的な Amazon 条件は、次のとおりです。
+   標準のAmazon条件は次のとおりです。
 
    - `New: Refurbished: Used`
    - `Like New: Used`
@@ -92,30 +92,30 @@ Amazon の &quot;属性&quot; 属性を作成するのは、製品ごとにア�
    - `Very Good: Collectible`
    - `Good: Collectible; Acceptable`
 
-1. をクリックし **[!UICONTROL Add Option]** ます。
+1. クリック **[!UICONTROL Add Option]**.
 
-1. **[!UICONTROL Is Default]**&#x200B;初期設定の選択範囲にする条件のオプションを選択します。
+1. を選択します。 **[!UICONTROL Is Default]** オプションを選択します。
 
-1. 「」 _[!UICONTROL Admin]_列に、追加する条件のラベルのテキストを入力します (、、、など `New` `Used` `Used-Like New` )
+1. 内 _[!UICONTROL Admin]_列に、追加する条件のラベルのテキストを入力します ( 例： `New`, `Used`、および `Used-Like New`)
 
-1. 必要に応じ **[!UICONTROL Add Option]** てオプションを追加するには、これをクリックします。
+1. クリック **[!UICONTROL Add Option]** 必要に応じてオプションを追加します。
 
-1. _[!UICONTROL Advanced Attribute Properties]_「セクションを展開」を選択して、オプションを設定します。
+1. 展開 _[!UICONTROL Advanced Attribute Properties]_」セクションに移動して、オプションを設定します。
 
-   - につい **[!UICONTROL Attribute Code]** ては、「」を入力し `amazon_condition` ます。
+   - の場合 **[!UICONTROL Attribute Code]**&#x200B;を入力して、 `amazon_condition`.
 
-   - について **[!UICONTROL Scope]** は、を選択 `Global` します。
+   - の場合 **[!UICONTROL Scope]**&#x200B;選択 `Global`.
 
-   - について **[!UICONTROL Unique Value]** は、を選択 `No` します。
+   - の場合 **[!UICONTROL Unique Value]**&#x200B;選択 `No`.
 
-   - について **[!UICONTROL Input Validation for Store Owner]** は、を選択 `None` します。
+   - の場合 **[!UICONTROL Input Validation for Store Owner]**&#x200B;選択 `None`.
 
-   - について **[!UICONTROL Add to Column Options]** は、を選択 `Yes` します。
+   - の場合 **[!UICONTROL Add to Column Options]**&#x200B;選択 `Yes`.
 
-   - について **[!UICONTROL Use in Filter Options]** は、を選択 `Yes` します。
+   - の場合 **[!UICONTROL Use in Filter Options]**&#x200B;選択 `Yes`.
 
-1. をクリックし **[!UICONTROL Save Attribute]** ます。
+1. クリック **[!UICONTROL Save Attribute]**.
 
-![Amazon Condition 属性](assets/creating-amazon-condition-attribute.png)
+![Amazon条件属性](assets/creating-amazon-condition-attribute.png)
 
-![次 ](assets/btn-next.png) [**のアイコンをクリックすると、API キーの追加または検証が続行します。**](./amazon-verify-api-key.md)
+![次のアイコン](assets/btn-next.png) [**API キーの追加または検証を続行します。**](./amazon-verify-api-key.md)

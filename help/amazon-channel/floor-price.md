@@ -1,17 +1,17 @@
 ---
-title: '「インテリジェントな価格設定ルール: フロア価格」'
-description: 「フロア価格」設定を使用して、Amazon リストを管理するためのインテリジェントな価格設定ルールの最低価格を決定することができます。
+title: '''インテリジェントな価格変更ルール：下限価格`'
+description: 最低価格設定を使用して、Amazonのリストを管理するインテリジェントな価格ルールの最低価格を決定します。
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
-# インテリジェントな価格設定ルール: フロア価格
+# インテリジェントな価格変更ルール：下限価格
 
-インテリジェントな「価格設定」ルールのセクションには、次のものが含まれます。
+インテリジェントな価格変更ルールのセクションは次のとおりです。
 
 - [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md)
 - [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md)
@@ -19,39 +19,39 @@ ht-degree: 0%
 - [!UICONTROL Floor Price]
 - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-[フロア価格設定では、 ](./floor-price.md) 最低製品価格がインテリジェントな価格設定ルールに自動的に適用されます。これらの設定を使用して、インテリジェントな価格設定ルールにフロア (最低価格) を設定します。製品が必要な価格の下に表示されていないことを確認してください。
+この [価格](./floor-price.md) 設定は、インテリジェント価格ルールに対して、最低価格の製品を自動的に保護します。 これらの設定を使用して、インテリジェントな価格ルールの下限（最低価格）を設定し、製品が希望の価格以下に表示されないようにします。
 
-フロア価格属性は、 [!DNL Commerce] ストアが web サイトの価格設定を使用している場合に、web サイトの範囲に基づいています。 「価格スコープ」を参照してください [ ](./price-scope.md) 。
+下限価格属性は、Web サイトの範囲に基づきます ( [!DNL Commerce] ストアは web サイトの価格範囲を使用しています。 詳しくは、 [価格範囲](./price-scope.md).
 
-フロア価格は、がに設定されている場合にのみ使用され **[!UICONTROL Rule Type]** `Intelligent repricing rule` ます。
+下限価格は、 **[!UICONTROL Rule Type]** が `Intelligent repricing rule`.
 
-## フロア価格の設定
+## 下限価格を設定
 
-「」セクションで、最低価格設定を定義 _[!UICONTROL Floor Price]_します。
+最低価格設定を _[!UICONTROL Floor Price]_」セクションに入力します。
 
-1. については **[!UICONTROL Floor Price Source]** 、「価格ソース」属性を選択します。
+1. の場合 **[!UICONTROL Floor Price Source]**、価格のソース属性を選択します。
 
-   [!DNL Commerce] [ ](https://docs.magento.com/user-guide/catalog/product-attributes.html) 相対的なフロア上限数を示す product 属性 {target = &quot;_blank&quot;} を選択します。例えば、Amazon のリスト価格が品目のコストを下回ることがないようにするには、「cost」属性を選択し ** ます。
+   を選択します。 [!DNL Commerce] [製品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} これは、相対的な床の限界を示します。 例えば、Amazonの上場価格が商品のコストを下回りたくない場合は、 *コスト* 属性。
 
-1. **[!UICONTROL Floor Price Action]**&#x200B;では、オプションを選択します。
+1. の場合 **[!UICONTROL Floor Price Action]**、「 」オプションを選択します。
 
-   - `Decrease By` -設定されている _[!UICONTROL Floor Price Source]_値を下に調整し、Amazon の一覧を作成する前にルールのフロア価格を小さくする場合に選択します。
+   - `Decrease By`  — 定義する _[!UICONTROL Floor Price Source]_値を調整して、Amazonにリストする前に、ルールの下限価格を下げます。
 
-   - `Increase By` -設定した値が調整されて、 _[!UICONTROL Floor Price Source]_Amazon の表示前にルールのフロア価格が高くなるようにする場合に選択します。
+   - `Increase By`  — 定義する _[!UICONTROL Floor Price Source]_値を調整して、ルールの下限価格を高くし、Amazonにリストする前に作成します。
 
-   - `Match` -定義された値よりもリスト価格が変動しないようにする場合に選択し _[!UICONTROL Floor Price Source]_ます。 「」に設定されている場合、 `Match`_[!UICONTROL Apply]_ および _[!UICONTROL Floor Adjustment Amount]_フィールドは無効になります。
+   - `Match`  — 定義した価格を下回る株価変動を望まない場合に選択します _[!UICONTROL Floor Price Source]_の値です。 に設定する場合 `Match`、_[!UICONTROL Apply]_ および _[!UICONTROL Floor Adjustment Amount]_フィールドは無効です。
 
-1. デフォルトのままにし **[!UICONTROL Apply]** ておき `Apply as percentage` ます。
+1. を **[!UICONTROL Apply]** デフォルト： `Apply as percentage`.
 
-1. に **[!UICONTROL Floor Adjustment Price]** 値を入力して調整するには、比率の数値を入力し _[!UICONTROL Floor Price Source]_ます。
+1. の場合 **[!UICONTROL Floor Adjustment Price]**、調整する割合の数値を入力します。 _[!UICONTROL Floor Price Source]_の値です。
 
-この例では、フロア価格が品目のコストの3% 以上に設定されています。
+この例では、単価は品目のコストを 3%上回る値に設定されています。
 
-![インテリジェントな価格設定ルール例: フロア価格](assets/ob-intelligent-pricde-rule-floor-price.png)
+![インテリジェントな価格変更ルールの例 — 下限価格](assets/ob-intelligent-pricde-rule-floor-price.png)
 
-| 名 | つい |
+| フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Floor Price Source] | [!DNL Commerce]相対フロア (最低価格) 制限を示す属性を選択します。例えば、Amazon のリスト価格が品目のコストを下回ることがないようにするには、属性を選択し `Cost` ます。 |
-| [!UICONTROL Floor Price Action] | 「価格調整」アクションを選択します。 オプション：<ul><li>**[!UICONTROL Decrease By]** -設定されている _[!UICONTROL Floor Price Source]_値を下に調整し、Amazon の一覧を作成する前にルールのフロア価格を小さくする場合に選択します。</li><li>**[!UICONTROL Increase By]** -設定した値が調整されて、 _[!UICONTROL Floor Price Source]_Amazon の表示前にルールのフロア価格が高くなるようにする場合に選択します。</li><li>**[!UICONTROL Match]** -定義された値よりもリスト価格が変動しないようにする場合に選択し _[!UICONTROL Floor Price Source]_ます。 この設定を選択する_[!UICONTROL Apply]_ と、and _[!UICONTROL Floor Adjustment Amount]_フィールドが無効化されます。</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** -値を基準とした割合での比率を _[!UICONTROL Floor Price Source]_指定します。 |
-| [!UICONTROL Floor Adjustment Amount] | 値を調整する場合は、比率の数値を入力し _[!UICONTROL Floor Price Source]_ます。 |
+| [!UICONTROL Floor Price Source] | を選択します。 [!DNL Commerce] 相対下限（最低価格）を示す属性。 例えば、Amazonの上場価格が商品のコストを下回りたくない場合は、 `Cost` 属性。 |
+| [!UICONTROL Floor Price Action] | 価格調整処理を選択します。 オプション：<ul><li>**[!UICONTROL Decrease By]**  — 定義する _[!UICONTROL Floor Price Source]_値を調整して、Amazonにリストする前に、ルールの下限価格を下げます。</li><li>**[!UICONTROL Increase By]**  — 定義する _[!UICONTROL Floor Price Source]_値を調整して、ルールの下限価格を高くし、Amazonにリストする前に作成します。</li><li>**[!UICONTROL Match]**  — 定義した価格を下回る株価変動を望まない場合に選択します _[!UICONTROL Floor Price Source]_の値です。 選択すると、_[!UICONTROL Apply]_ および _[!UICONTROL Floor Adjustment Amount]_フィールドは無効です。</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - _[!UICONTROL Floor Price Source]_の値です。 |
+| [!UICONTROL Floor Adjustment Amount] | パーセントを調整する数値を入力します _[!UICONTROL Floor Price Source]_の値です。 |

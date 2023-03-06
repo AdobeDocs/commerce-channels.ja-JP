@@ -1,26 +1,26 @@
 ---
-title: Amazon リストの手動公開
-description: 必要に応じて、終了した Amazon リストを Commerce 管理ツールから手動でパブリッシュできます。
+title: 手動でのAmazonリストの公開
+description: 必要に応じて、終了したAmazonのリストをコマース管理者から手動で公開できます。
 exl-id: ca3f674e-d93a-44a6-8c06-b417694a0f1e
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Amazon リストの手動公開
+# 手動でのAmazonリストの公開
 
-終了した1つ以上の Amazon リストを手動でパブリッシュすることができます。
+終了した 1 つ以上のAmazonリストを手動で公開できます。
 
-1. _[!UICONTROL Ended]_[ 製品リスト ](./managing-product-listings.md) ページ (_[!UICONTROL Inactive]_ 、、 _[!UICONTROL Active]_、またはタブ) のタブに表示さ_[!UICONTROL Ineligible]_ れている1つまたは複数のリストを表示します。
+1. 1 つ以上のリストを _[!UICONTROL Ended]_タブ [製品リスト](./managing-product-listings.md) ページ (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_または_[!UICONTROL Ineligible]_ 」タブ ) をクリックします。
 
-1. 「左側」列で、再パブリッシュする各一覧をクリックしてチェックボックスをオンにします。
+1. 左の列で、をクリックして、再公開する各リストを確認します。
 
-1. _[!UICONTROL Actions]_でをクリックし&#x200B;**[!UICONTROL Publish Product to Amazon]**ます。
+1. の下 _[!UICONTROL Actions]_をクリックし、**[!UICONTROL Publish Product to Amazon]**.
 
-1. **[!UICONTROL OK]**&#x200B;確認メッセージ内をクリックします。
+1. クリック **[!UICONTROL OK]** をクリックします。
 
-   選択されているリストが、Amazon に公開するために処理されていることを確認するメッセージが表示されます。
+   選択したリストが処理されてAmazonに公開されることを確認するメッセージが表示されます。
 
-   リスト情報は、cron の設定に基づいて Amazon に公開されます。 リスト情報は、次のデータ同期時に Amazon に送信されます。 このリストが表示されていると、Amazon が応答するまでは、手動でパブリッシュされた出展は状態の「 _リスト_ 」タブに残り `List in Progress` ます。 リスト確認が Amazon から受信されると、リストがアクティブな tab に移動してステータスが表示され __ `Active` ます。
+   リスト情報は、cron 設定に基づいてAmazonに公開されます。 リスト情報は、次回のデータ同期時にAmazonに送信されます。 Amazonがリストの確認を返すまで、手動で公開したリストは _リストへの登録準備完了_ タブ `List in Progress` ステータス。 リストの確認がAmazonから受け取られると、リストは _アクティブ_ タブ `Active` ステータス。

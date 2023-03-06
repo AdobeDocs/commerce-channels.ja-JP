@@ -1,30 +1,30 @@
 ---
-title: Amazon フルフィルメントのワークフロー
-description: Amazon リストに記載された注文のフルフィルメントは、注文送信から出荷への特定の順序に従います。
+title: Amazon Fulfilment Workflows
+description: Amazonのリストからの注文の受け渡しは、注文の送信から出荷までの特定の順序に従います。
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%
 
 ---
 
-# Amazon フルフィルメントのワークフロー
+# Amazon Fulfilment Workflows
 
-## 例: マーチャントによって履行される
+## 例：商人が果たす
 
-| バイ | つい |
+| 手順 | 説明 |
 |----|----|
-| raid-1 | **このような場合、Amazon には商人の注文が適用されます。** Amazon `Pending` は、顧客のクレジットカード情報が確認されるまでの状態を割り当てます。 注文 `Pending` 状況は、Amazon 販売チャンネルに自動的に読み込まれますが、タブには表示されません _[!UICONTROL Orders]_。 |
-| pplx-2 | **この順序は、Amazon によって確認されます。** 確認すると、Amazon によっての状態がに変更さ `Unshipped` れます。 この状態が変更されると、Amazon sales チャンネル内の注文が更新され、タブに表示され _[!UICONTROL Orders]_ます。 |
-| 3-d | **受注明細が更新されました。** Amazon sales チャンネルにより、注文明細が価格、顧客の電子メール、および顧客名で更新されます。 この更新中に、Amazon order によって [!DNL Commerce] 注文管理ページに対応する注文が作成されます。 注文 [!DNL Commerce] 番号は、注文情報と共にタブに表示され _[!UICONTROL Orders]_ます。 |
-| 4.0 | **新しい顧客 id が作成されます。** 注文設定で設定されていて、ユーザーがデータベース内に存在しない場合は [!DNL Commerce] 、 [!DNL Commerce] Amazon の注文に記載されている顧客情報を使用して、データベースに新しい顧客が作成されます。 注文の設定で選択した場合は、 `No Customer Creation (guest)` ゲストプロセスに従う必要が [!DNL Commerce] あります。また、顧客はデータベースに作成されません。 この時点で、システムが ERP、OMS、または WMS と統合されている場合は、新しい注文が配置され、内部に作成されるときに、 [!DNL Commerce] 注文が選択され [!DNL Commerce] ます。 |
-| . | **注文が出荷されます。** 注文 [!DNL Commerce] 処理ページから、注文が出荷され、追跡ナンバーが追加されます。 すべてのアイテムが状態でマークされている場合 `Shipped` :<ul><li>注文の状態が [!DNL Commerce] に変更され `Complete` ます。</li><li>Amazon 販売チャンネルの注文の状態がに変更され `Shipped` ます。</li><li>トラッキング番号が Amazon に同期され、Amazon 上の注文の状態がに変更され `Shipped` ます。</li><li>送付通知が Amazon によって顧客に送られるのは、amazon によって行われ [!DNL Commerce] ます (amazon のポリシーによって異なります)。 |
+| 1 | **商人が成就した命令がAmazonに置かれる。** Amazonが `Pending` 顧客のクレジットカード情報が確認されるまで。 注文件数 `Pending` ステータスはAmazonセールスチャネルに自動的にインポートされますが、 _[!UICONTROL Orders]_タブをクリックします。 |
+| 2 | **順序はAmazonで検証されます。** 検証が完了すると、Amazonはステータスを `Unshipped`. このステータスが変更されると、注文はAmazonセールスチャネルで更新され、 _[!UICONTROL Orders]_タブをクリックします。 |
+| 3 | **注文の詳細が更新されます。** Amazonセールスチャネルは、注文の詳細を、価格、顧客の E メール、顧客名で更新します。 この更新の間、Amazonの注文によって、対応する [!DNL Commerce] 注文を並べ替えることができます。 この [!DNL Commerce] 注文番号は、 _[!UICONTROL Orders]_タブをクリックします。 |
+| 4 | **新しい顧客アカウントが作成されます。** 注文の設定で、顧客が [!DNL Commerce] データベースの場合、新しい顧客が [!DNL Commerce] データベースで、Amazon注文の対応する顧客情報を使用します。 次を選択した場合： `No Customer Creation (guest)` 順序の設定では、順序は [!DNL Commerce] ゲストプロセスのみを使用します。 この時点で、 [!DNL Commerce] システムは ERP/OMS/WMS と統合され、新しい注文が配置され、内部で作成される統合に従って受注が取得されます [!DNL Commerce]. |
+| 5 | **注文が発送されます。** 次の [!DNL Commerce] 注文処理ページで、注文を発送し、追跡番号を追加します。 すべての項目が `Shipped` ステータス：<ul><li>のステータス [!DNL Commerce] 注文変更 `Complete`.</li><li>Amazonセールスチャネルの注文のステータスは、 `Shipped`.</li><li>トラッキング番号がAmazonに同期され、Amazonのオーダーのステータスが `Shipped`.</li><li>発送通知は、Amazon経由で顧客に送信されます。 [!DNL Commerce] (Amazonのポリシーに従って ) |
 
-## 例: Amazon によって履行される (FBA)
+## 例：Amazon(FBA) で実現
 
-| バイ | つい |
+| 手順 | 説明 |
 |---|---|
-| raid-1 | **Amazon から満たされた注文が amazon によって行われます。** |
-| pplx-2 | **注文がインポートされます。** この順序は、 `Shipped` amazon によってステータスが割り当てられるまでは、amazon sales channel にインポートされません。 Amazon によってこの製品のインベントリが作成されるため、ユーザーの倉庫/在庫管理の妨害にはなりません。 |
-| 3-d | **受注明細が更新されました。** 注文設定で設定されている場合は [ ](./order-settings.md) 、Amazon order により、対応する注文が作成され、 [!DNL Commerce] のステータスがの注文として作成され `Complete` ます。 |
+| 1 | **Amazonが満たした命令がAmazonに置かれます。** |
+| 2 | **注文がインポートされます。** 注文が割り当てられるまで、注文はAmazon販売チャネルにインポートされません `Shipped` Amazon別のステータス。 Amazonはこの製品の在庫を持つので、倉庫や在庫管理との干渉を防ぎます。 |
+| 3 | **注文の詳細が更新されます。** が [順序設定](./order-settings.md)の場合、Amazonの順序は [!DNL Commerce] 注文として作成され、ステータスが `Complete`. |

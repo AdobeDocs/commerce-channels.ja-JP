@@ -1,8 +1,8 @@
 ---
 title: ストア統合設定
-description: Amazon 販売チャンネルのオンボードプロセスが完了したら、ダッシュボードを使用して、ストア統合設定を確認および設定します。 [!UICONTROL Amazon Store]
+description: Amazonセールスチャネルのオンボーディングプロセスが完了したら、 [!UICONTROL Amazon Store] dashboard
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -11,26 +11,26 @@ ht-degree: 0%
 
 # ストア統合設定
 
-ストアを統合した後は、ダッシュボードを使用して、ストア統合設定を確認して設定し [!UICONTROL Amazon Store] ます。 *非アクティブ* *なストアおよびアクティブなストアについては、これらの設定が表示さ* れます。ここで、Amazon store の名前と、ストア統合中にストアに関連付けた電子メールアドレスを変更することができます。
+ストアを統合したら、 [!UICONTROL Amazon Store] ダッシュボード。 これらの設定は、 *非アクティブ* および *アクティブ* ストア。 ここで、ストアの統合中にストアに関連付けたAmazonストアの名前と電子メールアドレスを変更できます。
 
 ## ストア統合設定の変更
 
-1. Store のダッシュボードを表示するには [ ](./amazon-store-dashboard.md) 、「 **[!UICONTROL View Store]** 保管カード」をクリックします。
+1. ストアを表示するには [dashboard](./amazon-store-dashboard.md)をクリックし、 **[!UICONTROL View Store]** （ストアカード内）
 
-1. **[!UICONTROL Store Integration Settings]**&#x200B;左側のメニューでクリックします。
+1. クリック **[!UICONTROL Store Integration Settings]** をクリックします。
 
-1. については **[!UICONTROL Email Address]** 、お問い合わせ窓口の電子メールアドレスを更新してください。
+1. の場合 **[!UICONTROL Email Address]**、希望する連絡先メールアドレスを更新してください。
 
-1. については **[!UICONTROL New Store Name]** 、新しい Amazon channel store の内容を示す名前を変更してください。
+1. の場合 **[!UICONTROL New Store Name]**」で、新しいAmazonセールスチャネルストアのわかりやすい名前を更新します。
 
-   この名前はタブに表示され [_[!UICONTROL Amazon Stores]_](./managing-stores.md) ます。
+   この名前は、 [_[!UICONTROL Amazon Stores]_](./managing-stores.md) タブをクリックします。
 
-   この機能はリファレンス情報としてのみ使用され、 [!DNL Commerce] Amazon 販売チャンネルのホームページのリストに保存されています。 このような場合は、チームによって容易に識別できます。 例えば、米国地域に販売される Amazon store には、という名前が付けら `Amazon Store USA` れています。
+   これは、 [!DNL Commerce] 「 Amazon sales channel 」ホームページのリストで、店舗のみを参照して識別します。 チームが簡単に識別できるものにする必要があります。 例えば、米国地域で販売しているAmazonストアの名前を次に示します。 `Amazon Store USA`.
 
-1. をクリックし **[!UICONTROL Save]** ます。
+1. クリック **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->_[!UICONTROL Amazon Marketplace Country]_ストア統合時に定義された設定を [ ](./store-integration.md) 更新することはできません。国設定を編集するには、ストアカードに保存されているストアを削除_[!UICONTROL Action]_ して、別の国用ストアを追加する必要があります。
+>この _[!UICONTROL Amazon Marketplace Country]_次の間に定義された設定 [ストア統合](./store-integration.md) を更新できません。 国の設定を編集するには、ストア (_[!UICONTROL Action]_ （ストアカード上）をクリックし、別の国のストアを追加します。
 
 ![ストア統合設定](assets/amazon-store-settings.png)

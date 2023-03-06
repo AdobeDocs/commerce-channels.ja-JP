@@ -1,11 +1,11 @@
 ---
-user-guide-title: Amazon Sales Channel ユーザーガイド
+user-guide-title: AmazonSales Channelユーザーガイド
 user-guide-description: Adobe CommerceまたはMagento Open Sourceを [!DNL Amazon Seller Central] アカウント
-breadcrumb-title: Amazon セールスチャネル
-source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
+breadcrumb-title: Amazonセールスチャネル
+source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -40,22 +40,22 @@ ht-degree: 2%
       - [属性の作成と編集](creating-attributes.md)
       - [属性マッピングを表示](amazon-matching-attributes-values.md)
    - [セールスチャネルの管理者設定](sales-channel-settings.md)
-   - [Amazon Store ダッシュボード](amazon-store-dashboard.md)
+   - [Amazonストアダッシュボード](amazon-store-dashboard.md)
    - [ストア設定](ob-store-review.md)
 - リスト設定 {#listing-settings}
    - [リスト設定を表示](listing-settings.md)
    - [製品リストアクション](product-listing-actions.md)
-   - [サードパーティ製品リスト](third-party-listing-settings.md)
+   - [サードパーティのリスト](third-party-listing-settings.md)
    - [上場価格](listing-price.md)
    - [(B2B) ビジネス価格](business-pricing.md)
    - [在庫/数量](stock-quantity.md)
-   - [達成者](fulfilled-by.md)
+   - [実行者](fulfilled-by.md)
    - [カタログ検索](catalog-search.md)
    - [製品リスト条件](product-listing-condition.md)
    - [更新された製品](renewed-products.md)
 - [注文の設定](order-settings.md)
 - [ストア統合設定](store-integration-settings.md)
-- リストと価格設定ルール {#rules}
+- リストと価格ルール {#rules}
    - [リストルール](listing-rules.md)
    - 価格ルール {#pricing-rules}
       - [価格の管理](pricing-products.md)

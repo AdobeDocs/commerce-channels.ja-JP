@@ -1,62 +1,62 @@
 ---
-title: 価格優先度ロジック
-description: Amazon channel channel には、Amazon リスティングの公開価格を決定するために、優先順位が適用されます。
+title: 価格優先ロジック
+description: Amazonセールスチャネルは、Amazon上場の公表価格を決定する際に優先順位付けを適用します。
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '404'
 ht-degree: 4%
 
 ---
 
-# 価格優先度ロジック
+# 価格優先ロジック
 
-次の例では、$31.99、$24.99、または $27.99 を公開するかどうかはシステムによって決定されます。
+次の例では、$31.99、$24.99、$27.99 のいずれを公開するかは、システムによってどのように決定されますか？
 
-![コマース価格スコープ](assets/amazon-price-scope.png)
+![コマース価格の範囲](assets/amazon-price-scope.png)
 
-1つの製品が2つの web サイトにいて、1つの web サイトに対して多様な価格が設定されている場合にどの価格を使用するかを決定するには、価格の優先ロジックを使用 [ ](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) します ({target = &quot;_blank&quot;} 値によって決まります)。
+2 つの Web サイト上にある製品の価格が Web サイトごとに異なる場合に、どの価格を使用するかを決定するには、価格の優先度ロジック ( [並べ替え順](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){target="_blank"} の値 ) です。
 
-ストアの並べ替え順序を表示するには、 **[!UICONTROL Stores]** 管理サイドバーの > に移動 **[!UICONTROL All Stores]** __ します。 列で、 _[!UICONTROL Web Site]_web サイト名をクリックします。 Web サイトの_[!UICONTROL Web Site Information]_ 設定がページに表示され _[!UICONTROL Sort Order]_ます。これにより、web サイトの重要度が決まります。 値は、 `1` 優先順位が最も高いことを示します。
+店舗の並べ替え順を表示するには、次に移動します： **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** 内 _管理者_ サイドバー。 内 _[!UICONTROL Web Site]_「 」列で、web サイト名をクリックします。 この_[!UICONTROL Web Site Information]_ ページに _[!UICONTROL Sort Order]_設定を使用します。この設定は、Web サイトの優先度を決定します。 値： `1` 最も高い優先度を示します。
 
-製品価格がに設定されている場合は `Use Default` 、web サイトの価格値ではなく、既定の価格値に戻ります。
+製品価格が `Use Default`の場合は、Web サイトの価格値ではなくデフォルトの価格値にフォールバックされます。
 
-## 例1
+## 例 1
 
-|  | Web サイトの優先度 | 価格 (Web サイト) | デフォルトの使用 |
+|  | Web サイトの優先度 | 価格（Web サイト） | デフォルトを使用 |
 |---|---|---|---|
-| デフォルト | raid-0 | $31.99 | -- |
-| ストア1 | raid-1 | $24.99 | 違います |
-| Store 2 | pplx-2 | $27.99 | うん |
+| デフォルト | 0 | $31.99 | -- |
+| ストア 1 | 1 | $24.99 | いいえ |
+| ストア 2 | 2 | $27.99 | はい |
 
-- **[!UICONTROL Magento Price Source]**「出展価格」の定義 [ ](./listing-price.md) は属性に設定されてい `Price` ます。
-- Web サイトの優先度が最も高い web サイト (ストア 1 [ ](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) ) ({target = &quot;_blank&quot;} value によって定義されています) を確認してください。
-- Store 1 は web サイト価格を使用するように設定されているので、公表価格は $24.99 になります。
+- この **[!UICONTROL Magento Price Source]** ( [上場価格](./listing-price.md) が `Price` 属性。
+- 最も優先度の高い Web サイトを見てください。Store 1 ( [並べ替え順](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){target="_blank"} の値 ) です。
+- Store 1 は Web サイトの価格 (Use Default = No) を使用するように設定されているので、公開価格は$24.99 です。
 
-## 例2
+## 例 2
 
-|  | Web サイトの優先度 | 価格 Web サイト | デフォルトの使用 |
+|  | Web サイトの優先度 | 価格 Web サイト | デフォルトを使用 |
 |---|---|---|---|
-| デフォルト | raid-0 | $31.99 | -- |
-| ストア1 | raid-1 | $24.99 | うん |
-| Store 2 | pplx-2 | $27.99 | 違います |
+| デフォルト | 0 | $31.99 | -- |
+| ストア 1 | 1 | $24.99 | はい |
+| ストア 2 | 2 | $27.99 | いいえ |
 
-- **[!UICONTROL Magento Price Source]**「出展価格」の定義 [ ](./listing-price.md) は属性に設定されてい `Price` ます。
-- Web サイトの優先度が最も高い web サイト (ストア 1 [ ](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) ) ({target = &quot;_blank&quot;} value によって定義されています) を確認してください。
-- Store 1 **は** web サイトの価格を使用するように設定されていないので (デフォルトの「はい」を使用します)、並べ替え順にある次の web サイトを参照してください。
-- ストア 2 **は** web サイト価格を使用するように設定されているので (デフォルト = No)、公表価格は $27.99 になります。
+- この **[!UICONTROL Magento Price Source]** ( [上場価格](./listing-price.md) が `Price` 属性。
+- 最も優先度の高い Web サイトを見てください。Store 1 ( [並べ替え順](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){target="_blank"} の値 ) です。
+- ストア 1 以降 **等しくない** Web サイトの価格を使用するように設定 (Use Default = Yes) した場合、並べ替え順で次の Web サイトを確認します。
+- ストア 2 以降 **が** Web サイトの価格を使用するように設定 (Use Default = No) した場合、公開価格は$27.99 です。
 
-## 例3
+## 例 3
 
-|  | Web サイトの優先度 | 価格 Web サイト | デフォルトの使用 |
+|  | Web サイトの優先度 | 価格 Web サイト | デフォルトを使用 |
 |---|---|---|---|
-| デフォルト | raid-0 | $31.99 | $30.00 |
-| ストア1 | raid-1 | $24.99 | -- |
-| Store 2 | pplx-2 | $27.99 | $20.00 |
+| デフォルト | 0 | $31.99 | $30.00 |
+| ストア 1 | 1 | $24.99 | -- |
+| ストア 2 | 2 | $27.99 | $20.00 |
 
-この例では、「_」 [!UICONTROL Magento Price Source_] (リスト価格設定で定義されています) に別の値を選択した場合に使用される価格以外の値を追加し [ ](./listing-price.md) ます。 価格の値がない場合は、常に価格が代替価格となります。
+次の使用例は、非価格の値を追加します。これは、「_」に別の値を選択した場合に使用されます。[!UICONTROL Magento Price Source_] ( [上場価格](./listing-price.md) 設定 )。 価格以外の値では、常に価格が代替価格として使用されます。
 
-- **[!UICONTROL Magento Price Source]**(設定で定義されている [[!UICONTROL Listing Price]](./listing-price.md) ) が「」に設定されてい `Non-Price` ます。
-- Web サイトで、最も高い web サイトの優先度を確認し `Store 1` ます。これは (並べ替え順によって [ ](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) {target = &quot;_blank&quot;} 値で定義されています)。
-- Store 1 **はこの属性を** 使用するように設定されていないので `Non-Price` 、ソート順で次の web サイトを参照してください。
-- Store 2 **はこの** 属性を使用するように設定されている `Non-Price` (プライス以外の [ web サイト ] = $20.00) ため、パブリッシュされた値段は $20.00 になります。
+- この **[!UICONTROL Magento Price Source]** ( [[!UICONTROL Listing Price]](./listing-price.md) 設定 ) が次の値に設定されている `Non-Price`.
+- 最も優先度の高い Web サイト ( `Store 1`( [並べ替え順](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){target="_blank"} の値 ) です。
+- ストア 1 以降 **等しくない** を `Non-Price` 属性を指定し、並べ替え順で次の Web サイトを参照します。
+- ストア 2 以降 **が** を `Non-Price` 属性 ( 非価格 [Web サイト] = 20.00)、公開価格は$20.00 です。

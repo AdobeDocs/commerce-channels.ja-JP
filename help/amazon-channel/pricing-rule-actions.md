@@ -1,36 +1,36 @@
 ---
-title: 価格ルールのアクション
-description: 価格ルールのアクションを使用して、Amazon のリスト価格を決定するために価格ソースに適用される調整計算を定義します。
+title: 価格ルールアクション
+description: 価格ルールの処理を使用して、価格ソースに適用する調整計算を定義し、Amazon上場価格を決定します。
 redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# 価格ルールのアクション
+# 価格ルールアクション
 
-価格ルールのアクションによって、価格ソースに適用される調整計算が定義され、定価が特定されます。
+「価格ルール処理」は、価格表示価格を決定するために価格ソースに適用される調整計算を定義します。
 
 ## 標準価格ルール
 
-[標準価格ルールを使用すると、 ](./standard-price-rules.md) Amazon の一覧表示価格を、 [!DNL Commerce] カタログ価格または価格ソースを基準として特定の比率または固定金額で増加または減少させることができます。
+A [標準価格ルール](./standard-price-rules.md) Amazonの定価を [!DNL Commerce] カタログ価格（または価格のソース）。
 
-| 関連 | つい |
+| セクション | 説明 |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | ルールタイプをに設定 `Standard price rule` します。 |
-| [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | 価格ソースに適用される調整計算を定義して、リスト価格を決定します |
+| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | ルールタイプをに設定します。 `Standard price rule`. |
+| [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | 価格ソースに適用される調整計算を定義して、上場価格を決定します |
 
-## インテリジェントな再価格ルール
+## インテリジェントな価格変更ルール
 
-インテリジェントな再 [ 価格ルール ](./intelligent-repricing-rules.md) では、Amazon の競合企業による価格設定によって、掲載価格が決定されます。 競合企業とは、Amazon に記載されたものと同じ製品が記載されている他の売り手です。
+An [インテリジェントな再価格設定ルール](./intelligent-repricing-rules.md) はAmazonの競合他社の価格を使用して、上場価格を決定します。 競合他社は、Amazonにリストしているのと同じ製品をリストしている他のセラーです。
 
-| 関連 | つい |
+| セクション | 説明 |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | ルールタイプを、 `Intelligent repricing rule` 競合企業の価格ソースおよびフィードバック要件と共に設定します。 |
-| [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | 競合企業によって販売された同じ製品の条件の差異を定義します。 |
-| [[!UICONTROL Price Adjustment]](./price-adjustment.md) | 価格ソースに適用される調整計算を定義して、リスト価格を決定します |
-| [[!UICONTROL Floor Price]](./floor-price.md) | 製品に最も安い価格を定義して、リスト価格が低すぎるように設定します。 |
-| [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md) | お客様の価格が競争力を維持するために、最も高い価格を製品について定義します。 |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | ルールタイプをに設定します。 `Intelligent repricing rule` お客様の競合相手の価格のソースおよびフィードバック要件に合わせて |
+| [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | 競合相手が販売した同じ製品の条件の差異を定義します。 |
+| [[!UICONTROL Price Adjustment]](./price-adjustment.md) | 価格ソースに適用される調整計算を定義して、上場価格を決定します |
+| [[!UICONTROL Floor Price]](./floor-price.md) | 複数の価格ルールでリスト価格が低すぎる設定を防ぐために、製品の最低価格を定義します。 |
+| [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md) | 価格を引き続き競争力を保つために、製品の最高価格を定義します。 |

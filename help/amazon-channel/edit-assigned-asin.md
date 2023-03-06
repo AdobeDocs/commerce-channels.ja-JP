@@ -1,35 +1,35 @@
 ---
-title: 割り当てられたアークサインを編集する
-description: Commerce 製品のアークサインリストに間違った値が入力されている場合は、その値を変更します。
+title: 割り当て済み ASIN の編集
+description: Commerce 製品の ASIN 値が、Amazon製品のリストと適切に一致しない場合は、変更します。
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
-# 割り当てられたアークサインを編集する
+# 割り当て済み ASIN の編集
 
-カタログ内の製品に割り当てられた Amazon アークサインの値を編集でき [!DNL Commerce] ます。 この機能は、カタログ製品がどの Amazon リストにも適切に適合されていない場合に便利です。 リストに割り当てられた出力の値を変更しても、Amazon によって製品に割り当てられたアークサインは変更されません。 変更されるのは、カタログ製品が適合する Amazon の一覧のみです。
+の製品に割り当てられたAmazon ASIN 値を編集できます [!DNL Commerce] カタログ。 この機能は、カタログ製品がAmazonのリストのいずれかと適切に一致しなかった場合に役立ちます。 リストの割り当て済み ASIN を変更しても、Amazonによって製品に割り当てられた ASIN は変更されません。 変更されるのは、カタログ商品が一致するAmazonリストのみです。
 
-割り当てられたサインが次のように変更されるとします。
+割り当てられた ASIN が変更された場合：
 
-- [!DNL Commerce] 古いアークサインに適用されている Amazon リストを終了します。
-- Amazon によるアークサインを検証します。
-- 更新されたアークサインの一覧を作成します。
-- Amazon sales チャンネルのリスト情報を更新します
+- [!DNL Commerce] 古い ASIN に添付されたAmazonのリストを終了します
+- Amazonで ASIN を検証します。
+- 更新された ASIN のリストを作成します
+- Amazonセールスチャネルの情報の一覧を更新しました
 
-## 割り当てられたアークサインを編集する
+割り当て済みの ASIN を編集するには、次の手順に従います。
 
-1. _[!UICONTROL Product Listings]_ページ (_[!UICONTROL Inactive]_ 、、 _[!UICONTROL Active]_、またはタブ) に表示されているリストが表示さ_[!UICONTROL Ineligible]_ れます。
+1. リストを _[!UICONTROL Product Listings]_ページ (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_または_[!UICONTROL Ineligible]_ 」タブ ) をクリックします。
 
-1. _[!UICONTROL Actions]_でをクリックし&#x200B;**[!UICONTROL Edit Assigned ASIN]**ます。
+1. の下 _[!UICONTROL Actions]_をクリックし、**[!UICONTROL Edit Assigned ASIN]**.
 
-   この操作により、ページが開き _[!UICONTROL Product Listing Update]_ます。
+   このアクションを実行すると、 _[!UICONTROL Product Listing Update]_ページ。
 
-1. **[!UICONTROL Assign ASIN]**「」には、「アークサイン」の新しい値を入力します。
+1. の場合 **[!UICONTROL Assign ASIN]**」に、新しい ASIN 値を入力します。
 
-1. 変更を保存するには、をクリックし **[!UICONTROL Save Listing Update]** ます。
+1. 変更を保存するには、 **[!UICONTROL Save Listing Update]**.
 
-![割り当てられたアークサインを編集する](assets/amazon-assigned-asin-edit.png)
+![割り当て済み ASIN の編集](assets/amazon-assigned-asin-edit.png)

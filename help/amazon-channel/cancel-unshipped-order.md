@@ -1,42 +1,42 @@
 ---
-title: 未出荷注文のキャンセル
-description: Amazon アカウントを使用して、ペンディング状態または一部出荷されている (未出荷) 注文をキャンセル  [!DNL Seller Central]  します。
+title: 未発送の注文の取消
+description: Amazonを通じて保留中または一部出荷済み（未出荷）の注文をキャンセル [!DNL Seller Central] アカウント
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# 未出荷注文のキャンセル
+# 未発送の注文の取消
 
-Amazon の注文は、ステータスがある場合にのみキャンセルでき `Unshipped` ます。 注文が保留中の場合、または一部が出荷されていない場合は、注文が解約されるのはお客様のアカウントに限られ [!DNL Amazon Seller Central] ます。 品目が出荷されている場合は、返品および為替も、取引先企業で処理する必要があり [!DNL Amazon Seller Central] ます。
+Amazonの注文は、キャンセルできるのは、 `Unshipped` ステータス。 注文が保留中または一部出荷済（未出荷）の場合、注文はお客様の [!DNL Amazon Seller Central] アカウント 商品が発送済みの場合は、返品や交換もお客様で処理する必要があります [!DNL Amazon Seller Central] アカウント。
 
 >[!NOTE]
 >
->注文のキャンセル以外のタスクについては、次の手順に従います。
+>オーダーのキャンセル以外のタスクの場合：
 >
->- 注文のインポートが有効になっている場合は [ ](./order-settings.md) 、注文は、「orders」のワークフローで管理され [[!DNL Commerce]  ](https://docs.magento.com/user-guide/sales/orders.html) ます {target = &quot;_blank&quot;}。
->- [「注文のインポート」 ](./order-settings.md) が無効化されている場合は、で注文を管理する必要があり [!DNL Amazon Seller Central] ます。
+>- 次の場合： [注文インポート](./order-settings.md) 有効、注文は [[!DNL Commerce] オーダーワークフロー](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
+>- If [注文インポート](./order-settings.md) が無効の場合は、 [!DNL Amazon Seller Central].
 
 
-## 注文状態のキャンセル `Unshipped`
+## 注文をキャンセル `Unshipped` ステータス
 
-1. **[!UICONTROL View Store]** Store カードをクリックします。
+1. クリック **[!UICONTROL View Store]** をストアカードに貼り付けます。
 
-1. _[!UICONTROL Recent Orders]_ストアダッシュボードのセクションで、注文番号をクリックします。
+1. 内 _[!UICONTROL Recent Orders]_「 」セクションで、注文番号をクリックします。
 
-   _[!UICONTROL Amazon Order Details]_ページが表示されます。
+   この _[!UICONTROL Amazon Order Details]_ページが表示されます。
 
-1. **[!UICONTROL Cancel Order]**&#x200B;ヘッダーバーをクリックします。
+1. クリック **[!UICONTROL Cancel Order]** をクリックします。
 
-   このオプションは、注文状態の場合にのみ表示され `Unshipped` ます。
+   このオプションは、 `Unshipped` ステータス。
 
-1. **[!UICONTROL Reason for cancellation]**&#x200B;では、オプションを選択します。
+1. の場合 **[!UICONTROL Reason for cancellation]**、「 」オプションを選択します。
 
-1. をクリックし **[!UICONTROL Confirm]** ます。
+1. クリック **[!UICONTROL Confirm]**.
 
-   注文がキャンセルされ、ステータスが `Canceled` 注文明細に更新されます。
+   オーダーがキャンセルされ、ステータスがに更新されます。 `Canceled` 注文の詳細。
 
-キャンセル通知がアカウントに送信され、 [!DNL Amazon Seller Central] 注文に関連付けられた顧客にも通知されます。 対応する注文のステータスがある場合は、によって [!DNL Commerce] に変更され `Complete` ます。
+キャンセル通知が [!DNL Amazon Seller Central] アカウント、および注文に関連付けられた顧客にも通知が送信されます。 対応する [!DNL Commerce] 注文（ある場合）、変更 `Complete`.

@@ -1,74 +1,74 @@
 ---
-title: リストの詳細の表示
-description: Amazon リストに記載されている競合指数と個別の SKU や製品の変更について理解するには、「製品リストの詳細」ページを参照してください。
+title: リストの詳細を表示
+description: Amazonのリストや個々の SKU/製品の変更に関する競合指標を理解するには、製品リストの詳細ページを参照してください。
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-# リストの詳細の表示
+# リストの詳細を表示
 
-この _[!UICONTROL Product Listing Details]_ページには、アクティブな製品リストについての追加情報が表示されます。これには、個々の SKU/製品に対する変更が記載されています。 この情報は、製品と個別の SKU や製品の変更について、競合指数を確認するのに役立ちます。 このページには、次のような追加情報が含まれています。
+この _[!UICONTROL Product Listing Details]_ページには、個々の SKU /製品の変更を表示する「アクティビティログを表示」など、アクティブな製品リストに関する追加情報が表示されます。 この情報は、製品に関する競合指標や、個々の SKU/製品の変更に関する指標を理解するのに役立ちます。 このページの追加情報には、次のものが含まれます。
 
-- **[!UICONTROL Listing Details]** -名前と Amazon 販売店 SKU を含む製品詳細
-- **[!UICONTROL Listing Activity Log]** -価格、数量、在庫の変更など、このリストに対して発生したすべての変更の履歴記録。 これ以上のアクションは必要ありません。 このログは、変更履歴を確認するために用意されています。
-- **[!UICONTROL Buy Box Competitor Pricing]** -Amazon の [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 状態と競合他社の価格のデータ
-- **[!UICONTROL Lowest Competitor Pricing]** -Amazon 競合企業が最も少ない価格設定およびフィードバック情報についての情報
+- **[!UICONTROL Listing Details]**  — 製品の詳細 ( 名前、Amazonセラー SKU を含む )
+- **[!UICONTROL Listing Activity Log]**  — 価格、数量/在庫変更など、このリストに対して発生したすべての変更の履歴レコード。 それ以上のアクションは必要ありません。 このログは、変更履歴を理解するためのレビュー用に提供されます。
+- **[!UICONTROL Buy Box Competitor Pricing]** - Amazonのデータ [[!DNL Buy Box]](./buy-box-competitor-pricing.md) ステータスと競合他社の価格
+- **[!UICONTROL Lowest Competitor Pricing]**  — 最も低いAmazonの競合相手の価格とフィードバック情報に関する情報
 
-Amazon セールスチャンネルのホームページ [ ](./workspace-controls.md) は、表示されるデータをカスタマイズするための一般的なワークスペースコントロールの一部を共有しています。
+Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
 
-## 詳細の一覧表示
+## リストの詳細
 
-表示される製品情報には、次のものが含まれます。
+表示される製品情報には、次の情報が含まれます。
 
 - _[!UICONTROL Amazon Name]_
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![詳細の一覧表示](assets/amazon-product-listing-details.png)
+![リストの詳細](assets/amazon-product-listing-details.png)
 
 ## アクティビティログの一覧表示 {#listing-activity-log}
 
-Amazon リストの最近のすべての操作が表示されます。 表示される情報は以下のとおりです。
+Amazon一覧の最近のアクティビティをすべて表示します。 表示される情報は次のとおりです。
 
-- Amazon 売り手 SKU: リストに対して定義された Stock 保持ユニット (SKU) を識別します。
-- アークサイン:10 桁の Amazon 製品 id を指定します。
-- リスティングアクション: リストに対して発生したアクションの種類を識別します。
-- コメント: 発生したリストアクションに関する詳細な情報を提供します。
-- 実行時刻: アクションが発生した日時を示します。
+- Amazonセラー SKU:リストに対して定義された Stock Keeping Unit(SKU) を識別します。
+- ASIN:10 桁のAmazon製品識別子を識別します。
+- リストアクション：リストに対して発生したアクションのタイプを識別します。
+- コメント：発生したリストアクションのタイプに関する追加の詳細を提供します。
+- 実行時刻：アクションが発生した日時を識別します。
 
-![製品リストの詳細-アクティビティログ ](assets/amazon-listing-activity-log.png) の一覧表示
+![製品リストの詳細 — アクティビティログのリスト](assets/amazon-listing-activity-log.png)
 __
 
-## 「購入」ボックス競合企業の価格 {#buy-box-competitor-pricing}
+## Buy Boxの競合相手の価格 {#buy-box-competitor-pricing}
 
-このタブには、リストの位置を持っている Amazon マーチャントに関する情報が表示され [[!DNL Buy Box]](./buy-box-competitor-pricing.md) ます。 この情報は、Amazon によって競合企業が持つ価格がわかるようにするために使用されます。 表示される情報は以下のとおりです。
+このタブには、 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) リストの位置。 この情報を使用して、Amazonでの競合他社の価格の位置付けを理解できます。 表示される情報は次のとおりです。
 
-- アーク:10 桁の Amazon 製品識別子です。
-- 売り手: 売り手であるかどうかを識別します。 [!DNL Buy Box]「はい」または「いいえ」を選択します。
-- Condition: リストに対して定義されている条件を識別します。
-- 定価: 出展がパブリッシュされた価格を示します。
-- 送料: リストに追加された送料価格を示します。
-- 「上陸価格」: 出展価格と出展価格を示します。
-- 最終更新日: Amazon から価格情報が更新された日時を指定します。
+- ASIN:10 桁のAmazon製品の識別子。
+- 販売者：自分が [!DNL Buy Box] 売り手 オプションはい/いいえ。
+- 条件：リスト用に定義された条件を識別します。
+- 上場価格：リストが公開された価格を示します。
+- 送料：リストに追加された送料を識別します。
+- 地価：上場価格と上場の出荷価格を示します。
+- 最終更新日：価格情報がAmazonから更新された日時を識別します。
 
-![製品リストの詳細: 「購入」ボックス競合企業の価格](assets/amazon-listing-details-buy-box-2.png)
+![製品リストの詳細：Buy Boxの競合相手の価格](assets/amazon-listing-details-buy-box-2.png)
 
-## 競合企業の最低価格 {#lowest-competitor-pricing}
+## 競合他社の最低価格 {#lowest-competitor-pricing}
 
-このタブには、同じリストにある Amazon の競合企業に関する情報が表示されます。 この情報を使用して、価格の配置や、 [ 競合企業の最も低い価格について理解することができ ](./lowest-competitor-pricing.md) ます。 表示される情報は以下のとおりです。
+このタブには、同じリストに関するAmazonの競合相手に関する情報が表示されます。 この情報は、価格の位置付けと [最も低い競合他社価格](./lowest-competitor-pricing.md). 表示される情報は次のとおりです。
 
-- アーク:10 桁の Amazon 製品識別子です。
-- Condition: リストに対して定義されている条件を識別します。
-- フルフィルメントチャネル: フルフィルメントの担当者を指定します。 オプション: マーチャント/Amazon。
-- 定価: 出展がパブリッシュされた価格を示します。
-- 送料: リストに追加された送料価格を示します。
-- 「上陸価格」: 出展価格と出展価格を示します。
-- フィードバックレート: 最も安い価格の商人の Amazon フィードバック格付けを識別します。
-- フィードバック数: 最も安い価格の商人の Amazon フィードバック数を指定します。
-- 最終更新日: Amazon から価格情報が更新された日時を指定します。
+- ASIN:10 桁のAmazon製品の識別子。
+- 条件：リスト用に定義された条件を識別します。
+- 達成チャネル：達成の責任者を識別します。 オプション：商人/Amazon
+- 上場価格：リストが公開された価格を示します。
+- 送料：リストに追加された送料を識別します。
+- 地価：上場価格と上場の出荷価格を示します。
+- フィードバック評価：最低価格の商人のAmazonフィードバック評価を識別します。
+- フィードバック数：最低価格の商人に対するAmazonのフィードバック数を識別します。
+- 最終更新日：価格情報がAmazonから更新された日時を識別します。
 
-![製品リストの詳細-競合企業価格が最も低い価格](assets/amazon-listing-details-lowest-comp.png)
+![製品リストの詳細 — 競合相手の最も低い価格](assets/amazon-listing-details-lowest-comp.png)

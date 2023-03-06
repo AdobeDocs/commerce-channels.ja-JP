@@ -1,82 +1,82 @@
 ---
-title: 「必要な情報を更新」
-description: Amazon 販売チャンネルは、Amazon によって要求される情報が不足している Commerce カタログ製品を監視するために、未完のタブが提供されます。
+title: 必要な情報を更新（リストが不完全です）
+description: Amazonセールスチャネルには、Amazonで必要な情報が欠落しているコマースカタログ製品を監視する「不完全」タブが用意されています。
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# 「必要な情報を更新」
+# 必要な情報を更新（リストが不完全です）
 
-このタブに表示されるリストに _[!UICONTROL Incomplete]_は、 [!DNL Commerce] リスティングルールで定義されているように amazon の必要条件に合致するもののカタログ製品が含まれていますが、amazon によって一覧表示される前に必要な情報は失われます。
+次に表示されるリスト： _[!UICONTROL Incomplete]_タブに [!DNL Commerce] カタログ製品は、リストルールで定義されたAmazonの適格要件を満たしていますが、リストする前にAmazonで必要な情報が不足しています。
 
-## 必要な情報を更新する (Amazon リストに割り当てられることはできません) {#update-required-info-unable-to-assign-to-amazon-listing}
+## 必要な情報を更新します (Amazonリストに割り当てられません ) {#update-required-info-unable-to-assign-to-amazon-listing}
 
-1. 「リストの管理」のタブに表示されている一覧が表示さ _[!UICONTROL Incomplete]_[ ](./managing-product-listings.md) れます。
+1. 一覧を _[!UICONTROL Incomplete]_タブ [リストの管理](./managing-product-listings.md).
 
-1. 列に表示されているリストを更新するには、 _[!UICONTROL Action]_「>」をクリックし&#x200B;**[!UICONTROL Select]****[!UICONTROL Update Required Info]**ます。
+1. 内 _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**」をクリックします。
 
-1. Amazon リストに一致するカタログ製品情報 (SKU と製品名) を確認してください。
+1. Amazonリストと照合しようとしているカタログ製品情報（SKU および製品名）を確認します。
 
-1. **[!UICONTROL Assign ASIN]**「」には、Amazon によって、カタログ製品に適合させるリストに割り当てられたアークサインを入力します。
+1. の場合 **[!UICONTROL Assign ASIN]**&#x200B;カタログ製品に一致させるリストに対して、Amazonが割り当てた ASIN を入力します。
 
-1. 製品の検索結果を保存するには、をクリックし **[!UICONTROL Save Listing Update]** ます。
+1. 製品の一致を保存するには、 **[!UICONTROL Save Listing Update]**.
 
-リストがカタログと一致するようになり、一覧が更新され、Amazon に公開されます。 cron とリスティングの設定に基づいています。 タブからも削除され _[!UICONTROL Incomplete]_ます。
+これで、リストがカタログと一致し、cron およびリストの設定に基づいて、リストが更新されてAmazonに公開されます。 また、 _[!UICONTROL Incomplete]_タブをクリックします。
 
-![リストに合わせる対象のアークサインなしの手動割り当て](assets/amazon-listing-update-assign-asin.png)
+![リストに一致しないように ASIN を手動で割り当てる](assets/amazon-listing-update-assign-asin.png)
 
-## 「必要な情報を更新」 (複数の一致が見つかりました) {#update-required-info-multiple-matches-found}
+## 必要な情報を更新します（複数件の一致が見つかりました） {#update-required-info-multiple-matches-found}
 
-1. のタブに一覧を表示 _[!UICONTROL Incomplete]_[[!UICONTROL Manage Listings]](./managing-product-listings.md) します。
+1. 一覧を _[!UICONTROL Incomplete]_タブ [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. _「アクション」_ 列で、 **「** 更新したい情報を > に更新」をクリックし **** ます。
+1. 内 _アクション_ 列、クリック **選択** > **必要な情報を更新** 」をクリックします。
 
-1. Amazon リストに一致するカタログ製品情報 (SKU と製品名) を確認してください。
+1. Amazonリストと照合しようとしているカタログ製品情報（SKU および製品名）を確認します。
 
-1. については **[!UICONTROL Select Correct Amazon Listing]** 、この製品に適合させたいリストの適切なサインを選択してください。
+1. の場合 **[!UICONTROL Select Correct Amazon Listing]**、この製品に一致させるリストに適した ASIN を選択します。
 
-   ここに一覧表示されているオプションには、一致している可能性があるカタログ製品が含まれています。 適切なオプションがない場合は、その `Manually Enter Correct ASIN` 製品のアークサインを選択し、手動で入力します。
+   ここに示すオプションには、一致すると見なされるカタログ製品が含まれます。 どのオプションも正しくない場合は、 `Manually Enter Correct ASIN` 製品の ASIN を手動で入力します。
 
-1. 手動で入力した場合は、に対して正しいアークサインを入力し **[!UICONTROL Manually Assign ASIN]** ます。
+1. ASIN を手動で入力する場合は、 **[!UICONTROL Manually Assign ASIN]**.
 
-1. 製品の検索結果を保存するには、をクリックし **[!UICONTROL Save Listing Update]** ます。
+1. 製品の一致を保存するには、 **[!UICONTROL Save Listing Update]**.
 
-![複数の検索候補からのアークサインの手動選択](assets/amazon-listing-update-multiple-matches.png)
+![複数の一致の可能性から ASIN を手動で選択](assets/amazon-listing-update-multiple-matches.png)
 
-## 「必要な情報を更新」 (バリエーションあり) {#update-required-info-has-variants}
+## 必要な情報を更新（バリアントが含まれる） {#update-required-info-has-variants}
 
-1. のタブに一覧を表示 _[!UICONTROL Incomplete]_[[!UICONTROL Manage Listings]](./managing-product-listings.md) します。
+1. 一覧を _[!UICONTROL Incomplete]_タブ [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. 列に表示されているリストを更新するには、 _[!UICONTROL Action]_「>」をクリックし&#x200B;**[!UICONTROL Select]****[!UICONTROL Update Required Info]**ます。
+1. 内 _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**」をクリックします。
 
-1. Amazon リストに一致するカタログ製品情報 (SKU と製品名) を確認してください。
+1. Amazonリストと照合しようとしているカタログ製品情報（SKU および製品名）を確認します。
 
-1. については **[!UICONTROL Select Correct Amazon Listing]** 、この製品に適合させたいリストの適切なサインを選択してください。
+1. の場合 **[!UICONTROL Select Correct Amazon Listing]**、この製品に一致させるリストに適した ASIN を選択します。
 
-   ここに一覧表示されているオプションには、一致している可能性があるカタログ製品が含まれています。 適切なオプションがない場合は、製品のアークサインを選択し、手動で入力することができ `Manually Enter Correct ASIN` ます。
+   ここに示すオプションには、一致すると見なされるカタログ製品が含まれます。 どのオプションも正しくない場合は、 `Manually Enter Correct ASIN` 製品の ASIN を手動で入力します。
 
-1. 手動で入力した場合は、に対して正しいアークサインを入力し **[!UICONTROL Manually Assign ASIN]** ます。
+1. ASIN を手動で入力する場合は、 **[!UICONTROL Manually Assign ASIN]**.
 
-1. 製品の検索結果を保存するには、をクリックし **[!UICONTROL Save Listing Update]** ます。
+1. 製品の一致を保存するには、 **[!UICONTROL Save Listing Update]**.
 
-![使用可能なバリエーションからのアークサインの手動選択](assets/amazon-listing-update-multiple-matches.png)
+![可能なバリアント一致から ASIN を手動で選択](assets/amazon-listing-update-multiple-matches.png)
 
-## 「必要な情報を更新」 (条件がありません) {#update-required-info-missing-condition}
+## 必要な情報を更新（条件が見つかりません） {#update-required-info-missing-condition}
 
-1. 「リストの管理」のタブに表示されている一覧が表示さ _[!UICONTROL Incomplete]_[ ](./managing-product-listings.md) れます。
+1. 一覧を _[!UICONTROL Incomplete]_タブ [リストの管理](./managing-product-listings.md).
 
-1. 列に表示されているリストを更新するには、 _[!UICONTROL Action]_「>」をクリックし&#x200B;**[!UICONTROL Select]****[!UICONTROL Update Required Info]**ます。
+1. 内 _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**」をクリックします。
 
-1. Amazon リストに一致するカタログ製品情報 (SKU と製品名) を確認してください。
+1. Amazonリストと照合しようとしているカタログ製品情報（SKU および製品名）を確認します。
 
-1. については **[!UICONTROL Condition]** 、適切な条件を選択します。
+1. の場合 **[!UICONTROL Condition]**、適切な条件を選択します。
 
-   使用可能なオプションの一覧は、製品の一覧表示条件設定によって異なり [ ](./product-listing-condition.md) ます。
+   使用可能なオプションのリストは、 [製品リスト条件](./product-listing-condition.md) 設定。
 
-1. 製品の検索結果を保存するには、をクリックし **[!UICONTROL Save Listing Update]** ます。
+1. 製品の一致を保存するには、 **[!UICONTROL Save Listing Update]** .
 
-![見つからない条件の手動更新](assets/amazon-update-listing-missing-condition.png)
+![不足している条件を手動で更新](assets/amazon-update-listing-missing-condition.png)

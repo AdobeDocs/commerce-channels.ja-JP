@@ -1,43 +1,43 @@
 ---
-title: Amazon Stores ビュー
-description: Amazon stores view を参照して、Amazon stores に関する基本的な統計情報と、アクセス管理オプションをすばやく確認できます。
+title: Amazonストア表示
+description: Amazonストアビューに移動して、各Amazonストアの基本統計をすばやく確認し、管理オプションにアクセスします。
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# Amazon Stores ビュー
+# Amazonストア表示
 
-Amazon sales channel のホームページが表示されると、 __ デフォルトで amazon Stores ビューが開きます。
+Amazonセールスチャネルのホームページを表示した場合、 _Amazonストア_ デフォルトでは、ビューが開きます。
 
-![Amazon Stores ビュー](assets/amazon-sales-channel-home-tabs.png)
+![Amazonストア表示](assets/amazon-sales-channel-home-tabs.png)
 
-このビューには、 _[!UICONTROL Amazon Stores]_Amazon stores に含まれる「保管カード」と共に、基本的な統計情報および管理オプションが表示されます。 各カードに表示される概要情報には、各ストアの状態、作成日、最終更新日、注意が必要なリスト (例: 完成されていないリスト)、割り当てられている web サイトが含まれてい [!DNL Commerce] ます。
+この _[!UICONTROL Amazon Stores]_ビューには、Amazonの各ストアの「ストアカード」と、いくつかの基本的な統計および管理オプションが表示されます。 各カードに表示される概要情報には、各ストアのステータス、作成日、最終更新日、注意が必要なリスト ( 例：不完全なリスト ) と割り当てられた [!DNL Commerce] web サイト。
 
-ビューを表示すると _[!UICONTROL Amazon Store]_、各ストアカードで次の操作を実行できます。
+次を表示する場合： _[!UICONTROL Amazon Store]_各ストアカードでは、次の操作を実行できます。
 
-- ストアのダッシュボードを開くには [ ](./amazon-store-dashboard.md) 、をクリックし **[!UICONTROL View Store]** ます。
+- ストアを開くには [dashboard](./amazon-store-dashboard.md)をクリックし、 **[!UICONTROL View Store]**.
 
-- ストアの状態を変更したり、ストアを削除するには、をクリックし **[!UICONTROL Action]** て次のいずれかのオプションを選択します。
+- ストアのステータスを変更したり、ストアを削除するには、 **[!UICONTROL Action]** 次を選択します。
 
-   - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]** -ストアの状態を変更する `Active` か、またはそのいずれかを選択し `Inactive` ます。
+   - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]**  — ストアのステータスを次に変更する場合に選択します `Active` または `Inactive`、それぞれ。
 
-      ストアが状態に変更されると、ストア `Inactive` `Active` の出展とオーダーが有効になり、ストアの現在のストア設定が保存されます (リストの設定、価格ルール、上書きなど)。
+      の変更 `Inactive` 保存先 `Active` status は、店舗の現在の店舗設定（一覧設定、価格ルール、上書きなど）を使用して、店舗の一覧と注文アクティビティを有効化します。
 
-      ストアの状態を「状態」から「 `Active` 状態」に変更する `Inactive` と、ストアの一覧およびオーダーが停止されます。 非アクティブなストアでは、すべてのストア設定および一覧が保持されますが、価格、数量、注文管理の同期は、ストアがステータスに戻るまで一時的に停止され `Active` ます。 この機能を使用すると、Amazon の内容を再作成または再統合することなく、地域レベルで保存することができます。
+      ストアステータスの変更元 `Active` から `Inactive` ステータスはストアのリストと注文アクティビティを中断します。 非アクティブなストアは、すべてのストア設定とリストを保持しますが、ストアがに変更されるまで、価格、数量、注文管理の同期を一時的に停止します。 `Active` ステータス。 この機能を使用すると、Amazonストアを再作成または再統合したり、過去の注文や販売データを失うことなく、地域レベルでストアアクティビティを制御できます。
 
-   - **[!UICONTROL Delete]** -不要になったストアを削除する場合に選択します。
+   - **[!UICONTROL Delete]**  — 不要になったストアを削除するように選択します。
 
-      既存の Amazon store とその統合設定をアカウントと共に削除するタイミングを選択し [!DNL Amazon Seller Central] ます。 取引先企業を削除すると、Amazon sales channel からストアが削除され、すべてのアカウント設定、番組一覧、ログ、その他の情報がこのストアに関連付けられます。 ストアは、削除した後で取得することはできません。新しいストアを作成する必要があります。
+      既存のAmazonストアと、 [!DNL Amazon Seller Central] アカウント アカウントを削除すると、Amazonのセールスチャネルからストアが削除され、アカウントの設定、リスト、ログ、およびこのストアに関連するその他の情報もすべて削除されます。 削除後にストアを取得できません。新しいストアを作成する必要があります。
 
 >[!NOTE]
->統合中にストアに割り当てられた web サイトを変更するには、ストアを削除して、ストア統合時に定義された別の web サイトにストアを再追加する必要があります。
+>統合時にストアに割り当てられた Web サイトを変更するには、ストアを削除し、ストア統合時に定義された別の Web サイトを使用してストアを再び追加する必要があります。
 
-| ストアカード | つい |
+| ストアカード | 説明 |
 |--- |--- |
-| トップセクション | 含まれる内容は、ストア <br> の統合時に定義された地域のアイコンです [ ](./store-integration.md) 。<br>_[!UICONTROL Magento Website]_ストア統合時に定義された割り当て。<br>_[!UICONTROL Status]_&#x200B;お客様のストアに保存されています。オプション: 「 **[!UICONTROL Active]** ストアの統合」が Amazon によって検証され、セールス活動に使用できるようになりました。 **[!UICONTROL Inactive]** -Store の統合が完了しましたが、使用されていないか、営業活動で使用できません。 これに `Inactive` より、Amazon の販売が一時停止されます。 いつ `Active` でもアクティブ化する前に、販売収益と追加設定が更新されるようになります。<br>*[!UICONTROL Last Updated]* Amazon store の設定に最後に変更した日付です。<br>*[!UICONTROL Created]* Amazon store が amazon sales チャネルで作成された日付。 |
-| 中央のセクション | には、過去30日間のストアの利用状況に関するチャートが含まれています。これには、注意が必要な出展が含まれています。 |
-| 下部セクション | ビューストアとアクションオプションが含まれています。<br>ストアのダッシュボードを開くには [ ](./amazon-store-dashboard.md) 、をクリックし **[!UICONTROL View Store]** ます。<br>ストアをアクティブ化、非アクティブ化、または削除するには、をクリックし **[!UICONTROL Actions]** ます。 |
+| 上部セクション | 次を含む： <br>ストアの地域アイコン ( [ストア統合](./store-integration.md).<br> 割り当てられた _[!UICONTROL Magento Website]_：ストアの統合中に定義されます。<br>この_[!UICONTROL Status]_ お客様のストアの オプション： **[!UICONTROL Active]**  — ストアの統合が完了し、Amazonで検証済みで、販売活動に使用できます。 **[!UICONTROL Inactive]**  — ストアの統合が完了しましたが、使用されていないか、セールス活動に使用できません。 条件 `Inactive`に設定しない場合、Amazonの販売は一時停止されています。 条件 `Active`有効化する前に更新するために、売上高と追加の設定が保存されます。<br>この *[!UICONTROL Last Updated]* Amazonストアの設定に対する最新の変更の日付。<br>この *[!UICONTROL Created]* AmazonセールスチャネルにAmazonストアが作成された日付。 |
+| 中央のセクション | 過去 30 日間の店舗アクティビティの概要グラフが含まれ、注意が必要なリストに対するおよびアラートが含まれます。 |
+| 下部セクション | 「ビューストア」および「アクション」オプションが含まれます。<br>ストアを開くには [dashboard](./amazon-store-dashboard.md)をクリックし、 **[!UICONTROL View Store]**.<br>ストアをアクティベート、アクティベート解除、または削除するには、 **[!UICONTROL Actions]**. |

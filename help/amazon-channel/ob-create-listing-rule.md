@@ -1,56 +1,56 @@
 ---
-title: '「オンボード」: 「リストルールの作成」'
-description: Amazon 販売チャンネルの開始時に、製品の Amazon リストを生成するための初期一覧表示ルールを作成し  [!DNL Commerce]  ます。
+title: '''オンボーディング：リストルールの作成`'
+description: Amazonセールスチャネルのオンボーディングプロセスを完了する際に、お客様のAmazonリストを生成するための最初のリストルールを作成します [!DNL Commerce] 製品。
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
 
 ---
 
-# オンボード: リスティングルールの作成
+# オンボーディング：リストルールを作成
 
-リスティングルールは、オンボードの間に定義することもできますが、いつでも変更することができます。 オンにすると、ストアのダッシュボードの一覧表示ルールにアクセスでき [ ](./listing-rules.md) [ ](./amazon-store-dashboard.md) ます。
+リストルールはオンボーディング中に定義できますが、いつでも変更できます。 オンボーディング後、 [リストルール](./listing-rules.md) 店で [dashboard](./amazon-store-dashboard.md).
 
-## オンボードでのリストルールの作成
+## オンボーディング中にリストルールを作成する
 
-1. ストアに接続した後、 **[!UICONTROL View Store]** 追加したストアをクリックします。
+1. ストアに接続したら、 **[!UICONTROL View Store]** 追加されたストア用。
 
-   [ ](./amazon-store-dashboard.md) メッセージと共にストアのダッシュボードが表示され `No products listed to Amazon` ます。
+   ストア [dashboard](./amazon-store-dashboard.md) が `No products listed to Amazon` メッセージ。
 
-1. をクリックし **[!UICONTROL Preview and List Eligible Products]** ます。
+1. クリック **[!UICONTROL Preview and List Eligible Products]**.
 
-   _[!UICONTROL Listing Rules]_ページが表示されます。
+   この _[!UICONTROL Listing Rules]_ページが表示されます。
 
-1. Amazon に一覧表示される製品の適格性に必要な条件を定義し、をクリックし **[!UICONTROL Preview changes]** ます。または、ここをクリックして、 **[!UICONTROL Preview changes]** この手順を省略します。
+1. Amazonにリストされる製品の適格要件の条件を定義し、「 **[!UICONTROL Preview changes]**&#x200B;または、 **[!UICONTROL Preview changes]** をクリックして、この手順をスキップします。
 
-   [次の例を参照してください。条件を定義 ](./ob-define-condition-example.md) します。
+   詳しくは、 [例：条件の定義](./ob-define-condition-example.md).
 
-1. リストのプレビューで次の項目を確認します。
+1. リストプレビューでリストを確認します。
 
-   ![リストプレビュー](assets/amazon-ob-listing-preview.png)
+   ![リストのプレビュー](assets/amazon-ob-listing-preview.png)
 
-   - **[!UICONTROL Ineligible Listings]** -このタブに一覧表示されている製品は、現在のリストルール設定に基づいて、Amazon リストの対象となりません。
+   - **[!UICONTROL Ineligible Listings]**  — このタブに表示される製品は、現在のリストルール設定に基づくAmazonリストに登録する資格がありません。
 
-      非不適合製品は、Amazon に公開されません。 対象外の製品が Amazon に既に一覧表示されている場合、Amazon の一覧をカタログ製品と一致させると、 [!DNL Commerce] amazon の一覧の表示が製品販売を防止するために変更され `0` ます。 Amazon からリストを手動で削除するには、「Amazon リスティングの終了」を参照してください [ ](./end-listings-manually.md) 。 Amazon の要件を満たしていない製品は、ここには表示されません。 それらの製品はタブに表示され [[!UICONTROL Inactive Listings] ](./inactive-listings.md) ます。
+      不適格な製品はAmazonに公開されません。 不適格な製品が既にAmazonにリストされていて、Amazonリストが [!DNL Commerce] カタログ製品、Amazonリストの数量の変更 `0` 製品の販売を防ぐ。 Amazonからリストを手動で削除するには、 [Amazonリストの終了](./end-listings-manually.md). Amazonの要件を満たさない製品は、ここに記載されていません。 これらの製品は、 [[!UICONTROL Inactive Listings] タブ](./inactive-listings.md).
 
-      一覧をリストに変更するには `Ineligible` `Eligible` 、この手順を繰り返してリストのルールを変更します。
+      を変更するには `Ineligible` リスト `Eligible` リストを作成し、この手順を繰り返して、リスト規則を変更します。
 
-   - **[!UICONTROL Eligible Listings]** -このタブに一覧表示されている製品は、現在のリスティングルール設定に基づいて Amazon の一覧を表示できます。また、Amazon の要件を満たしている必要があります。 このタブには、既に読み込まれている Amazon リストが表示されます (リスティング設定が設定されている場合 **[!UICONTROL Import Third Party Listings]** `Import Listing` [ ](./listing-settings.md) )。
+   - **[!UICONTROL Eligible Listings]**  — このタブに表示される製品は、現在のリストルール設定に基づくAmazonリストへの登録が可能で、Amazonの要件に基づく適格です。 このタブには、読み込まれた既存のAmazonリストが含まれます ( **[!UICONTROL Import Third Party Listings]** に設定 `Import Listing` の [リスト設定](./listing-settings.md)) をクリックします。
 
-   - **[!UICONTROL New Listings]** -このタブに一覧表示されている製品には、 [!DNL Commerce] 現在のリスティングルールの設定に基づいて、amazon リストを作成し、amazon リストを作成するために、新しいカタログ製品が追加されています。
+   - **[!UICONTROL New Listings]**  — このタブに表示される製品には、 [!DNL Commerce] 現在のリストルール設定に基づいて新しくAmazonリストに登録できるカタログ製品を作成し、Amazonリストを作成します。
 
-1. 完了したら、をクリックし **[!UICONTROL Save and Close]** ます。
+1. 完了したら、「 **[!UICONTROL Save and Close]**.
 
-   ストアの [ ダッシュボード ](./amazon-store-dashboard.md) が表示されます。
+   ストア [dashboard](./amazon-store-dashboard.md) が開きます。
 
-1つのストアが完了すると、その後、Amazon の間に情報の同期が [!DNL Commerce] 開始されます。 Amazon リストがカタログ内の製品にインポートされ、 [!DNL Commerce] 一致し [!DNL Commerce] ます。
+ストアのオンボーディングが完了すると、 [!DNL Commerce] とAmazonが開始されます。 Amazonの一覧がに読み込まれました [!DNL Commerce] を検索し、 [!DNL Commerce] カタログ。
 
-作成された Amazon の注文情報は、 _[!UICONTROL Recent Orders]_ストアダッシュボードのセクションに表示されます。 [ストアダッシュボード ](./amazon-store-dashboard.md) または [ 注文 ](./managing-orders.md) の管理を参照してください。
+Amazonの注文情報は、 _[!UICONTROL Recent Orders]_」セクションに表示されます。 詳しくは、 [ストアダッシュボード](./amazon-store-dashboard.md) または [注文の管理](./managing-orders.md).
 
 >[!IMPORTANT]
 >
->ストアには、新しいストアにデフォルト値を持つ重要なストア設定 (一覧、価格、ルール、フルフィルメントなど) がいくつかあります。 ストアが特定のニーズに合わせて設定されていることを確認するには、ストア設定を参照してください [ ](./default-store-settings.md) 。
+>新しいストアのデフォルト値を持つ重要なストア設定（一覧、価格、ルール、達成など）がいくつかあります。 ストアが特定のニーズに合わせて設定されていることを確認するには、 [ストア設定](./default-store-settings.md) .
 
-![次 ](assets/btn-next.png) [**のアイコンデフォルトのストア設定に進みます。**](./default-store-settings.md)
+![次のアイコン](assets/btn-next.png) [**デフォルトのストア設定に進む**](./default-store-settings.md)

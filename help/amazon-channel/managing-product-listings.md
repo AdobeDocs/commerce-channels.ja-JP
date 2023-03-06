@@ -1,36 +1,36 @@
 ---
-title: Amazon リストの管理
-description: Amazon 販売チャンネルには、Amazon リストを Commerce 管理者が管理するための複数のツールが用意されています。
+title: Amazon一覧の管理
+description: AmazonSales Channelには、コマース管理からAmazonリストを管理するのに役立つ複数のツールが用意されています。
 exl-id: 895fd0f1-29ec-4ae5-af5b-eb5d99f5752a
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
-# Amazon リストの管理
+# Amazon一覧の管理
 
-製品リストの設定は、ストアを統合した後であればいつでも変更することができ [!DNL Commerce] ます。 カタログ登録設定には、ストアのダッシュボードを使用してアクセスでき [ ](./amazon-store-dashboard.md) ます。
+製品リスト設定は、 [!DNL Commerce] ストアが統合されている。 リスト設定には、 [ストアダッシュボード](./amazon-store-dashboard.md).
 
-一覧の状態によって製品リストにアクセスするには、セクションでをクリックし **[!UICONTROL Manage Listings]** _[!UICONTROL Store Listings]_ます。 「[_ 製品リスト _](./managing-listings-by-tab.md)」ページが初期設定ではタブに表示され_[!UICONTROL Active]_ ます。
+リストの状態別に製品リストにアクセスするには、 **[!UICONTROL Manage Listings]** 内 _[!UICONTROL Store Listings]_」セクションに入力します。 この[_&#x200B;製品リスト&#x200B;_](./managing-listings-by-tab.md)ページを開く_[!UICONTROL Active]_ 」タブをデフォルトで使用します。
 
-セクションで、、、およびをクリックして、 **[!UICONTROL Active Listings]** **[!UICONTROL Inactive Listings]** **[!UICONTROL In Progress Listings]** _[!UICONTROL Store Listings]_それらのタブに直接アクセスすることもできます。
+また、 **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]**、および **[!UICONTROL In Progress Listings]** 内 _[!UICONTROL Store Listings]_」セクションを使用して、これらのタブに直接アクセスできます。
 
 >[!NOTE]
 >
->**[!UICONTROL In Progress Listings]**_製品一覧表示の設定に基づいて、リストを作成するか、または修了されていないアイテムを表示_ __ [__](./product-listing-actions.md) します。「 [ リストを管理する状態/タブについて」のタブの説明を参照してください ](./managing-listings-by-tab.md) 。
+>**[!UICONTROL In Progress Listings]** 次のいずれか _リストへの登録準備完了_ リストまたは _不完全なリスト_、 [_製品リストアクション_](./product-listing-actions.md) 設定。 タブの説明を参照してください ( [ステータス別リストを管理/タブ](./managing-listings-by-tab.md).
 
-[ステータス/タブ ](./managing-listings-by-tab.md) およびリストの管理を [ 参照してください ](./managing-listings-by-action.md) 。
+詳しくは、 [ステータス別リストを管理/タブ](./managing-listings-by-tab.md) および [アクション別リストの管理](./managing-listings-by-action.md).
 
-## 製品一覧へのアクセス
+## 製品リストにアクセス
 
-1. _管理者は_ 、> > を参照して **[!UICONTROL Marketing]** _[!UICONTROL Channels]_**[!UICONTROL Amazon Sales Channel]**ください。
+1. の _管理者_ サイドバー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. ストアカードをクリックし **[!UICONTROL View Store]** ます。
+1. クリック **[!UICONTROL View Store]** をストアカードに貼り付けます。
 
-1. ストアのダッシュボードで、セクションをクリックし **[!UICONTROL Manage Listings]** _[!UICONTROL Store Listings]_ます。
+1. ストアダッシュボードで、 **[!UICONTROL Manage Listings]** 内 _[!UICONTROL Store Listings]_」セクションに入力します。
 
-1. その状態のリストを表示するには、タブをクリックします。
+1. そのステータスの一覧を表示するには、タブをクリックします。
 
-   _[!UICONTROL Active]_初期設定では、このタブが表示されます。
+   この _[!UICONTROL Active]_タブはデフォルトで表示されます。

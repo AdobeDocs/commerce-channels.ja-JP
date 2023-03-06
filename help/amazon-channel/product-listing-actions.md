@@ -1,53 +1,53 @@
 ---
-title: 製品リストのアクション
-description: 「製品リストアクション」設定を使用して、Commerce カタログが Amazon とどのように作用するかを定義します。
+title: 製品リストアクション
+description: 「製品リストアクション」設定を使用して、コマースカタログとAmazonとのやり取りを定義します。
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
-# 製品リストのアクション
+# 製品リストアクション
 
-製品一覧のアクションの設定は、ストア一覧の設定に含まれています。 一覧の設定は、ストアのダッシュボードからアクセスされ [ ](./amazon-store-dashboard.md) ます。
+「製品リストアクション」設定は、ストアリスト設定の一部です。 リスト設定には、 [ストアダッシュボード](./amazon-store-dashboard.md).
 
-この設定によって、Amazon に対するカタログのやり取りが定義されます。 これらの設定:
+これらの設定は、カタログとAmazonとのやり取りを定義します。 以下の設定を行います。
 
-- [!DNL Commerce]Amazon の必要条件を満たすカタログ製品が、リストを作成するために自動的にお客様のアカウントに送信されるかどうかを指定 [!DNL Amazon Seller Central] します。
+- 次の項目を指定します。 [!DNL Commerce] Amazonの適格要件を満たすカタログ製品は、 [!DNL Amazon Seller Central] アカウントを使用してリストを作成します。
 
-- 注文のデフォルトの処理時間を設定します。 この値は、注文を処理および出荷するために必要な日数を定義します。 例えば、配達員が2日配達を選択した場合、送料は、処理が完了するまで開始されず、パッケージがキャリアに渡されます。 配送時間の合計は、処理時間 + 輸送時間 + 祝日) です。
+- オーダーのデフォルトの処理時間を設定します。 この値は、注文の処理と出荷に必要な日数を定義します。 例えば、誰かが 2 日間の送料を選択した場合、その送料の送料は処理が完了し、パッケージが運送業者に引き渡されるまで開始されません。 合計配信時間は（処理時間+通過時間+休日）です。
 
-## 設定の構成
+## 設定を構成
 
-1. **[!UICONTROL Listing Settings]** Store のダッシュボードのをクリックします。
+1. クリック **[!UICONTROL Listing Settings]** を選択します。
 
-1. セクションを展開し _[!UICONTROL Product Listing Actions]_ます。
+1. を展開します。 _[!UICONTROL Product Listing Actions]_」セクションに入力します。
 
-1. **[!UICONTROL Automatic List Action]**(必須) には、次のいずれかのオプションを選択します。
+1. の場合 **[!UICONTROL Automatic List Action]** （必須）、次のオプションを選択します。
 
-   - `Automatically List Eligible Products` (デフォルト) 必要に応じて、 [!DNL Commerce] amazon の特典条件に適合するカタログ製品を自動的に amazon に公開して、Amazon リストを作成するかどうかを選択します。
+   - `Automatically List Eligible Products` - （デフォルト） [!DNL Commerce] Amazonに自動的に公開してAmazonリストを作成するための (Amazonの適格要件を満たす ) カタログ製品。
 
-   - `Do Not Automatically List Eligible Products` -適格なカタログ製品を手動で選択し、Amazon リストを作成する場合に選択し [!DNL Commerce] ます。 選択すると、 [_[!UICONTROL Ready to List]_](./ready-to-list.md) Amazon に対する手動のパブリッシュ用に、登録条件に適合し、すべての必要な情報を含むカタログ製品がタブに表示されます。
+   - `Do Not Automatically List Eligible Products`  — 適格なを手動で選択するタイミングを選択します [!DNL Commerce] 商品をカタログ化し、Amazonリストを作成します。 選択すると、リストの条件を満たし、必要な情報をすべて含むカタログ製品が [_[!UICONTROL Ready to List]_](./ready-to-list.md) 「 」タブを使用して、Amazonに手動で公開できます。
 
-1. **[!UICONTROL Default Handling Time]**(必須) には、出荷前のリードタイムに必要な日数を入力します。
+1. の場合 **[!UICONTROL Default Handling Time]** （必須）出荷前のリード・タイムに必要な日数を入力します。
 
-   デフォルト値は「 `2` 日」です。
+   デフォルト値は `2` 日。
 
    >[!NOTE]
    >
-   >このデフォルトの経過時間の値は、Amazon sales channel 経由で作成された Amazon リストについてのみ有効です。 ユーザーのアカウントで作成された Amazon リストに [!DNL Amazon Seller Central] は、amazon に設定されたデフォルトの処理時間が使用されます。
+   >このデフォルトの処理時間の値は、Amazonセールスチャネルを通じて作成されたAmazonリストに対してのみ有効です。 お使いの [!DNL Amazon Seller Central] アカウントは、Amazonで設定されたデフォルトの処理時間を使用します。
 
-1. 完了したら、をクリックし **[!UICONTROL Save listing settings]** ます。
+1. 完了したら、「 **[!UICONTROL Save listing settings]**.
 
-![製品リストのアクション](assets/amazon-product-listing-actions.png)
+![製品リストアクション](assets/amazon-product-listing-actions.png)
 
-| 名 | つい |
+| フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Automatic List Action] | オプション：<ul><li>**[!UICONTROL Automatically List Eligible Products]** -(推奨) amazon [!DNL Commerce] に対する特典条件を満たしているカタログ製品を自動的に amazon に公開し、Amazon リストを作成する場合に選択します。 選択すると、 [_[!UICONTROL Ready to List]_](./ready-to-list.md) タブは表示されません。 </li><li>**[!UICONTROL Do Not Automatically List Eligible Products]** -対象となるカタログ製品を手動で選択し、Amazon リストを作成する場合に選択し [!DNL Commerce] ます。 この項目を選択すると、カタログ製品が登録条件に適合して、必要なすべての情報がタブに表示され、 [_[!UICONTROL Ready to List]_](./ready-to-list.md) 手動によるパブリッシュを行うことができます。</li></ul> |
-| [!UICONTROL Default Handling Time] | 通常は、注文の処理と出荷にかかる時間を表す数値です (通常は、これを行うことができません)。 デフォルト値は `2` です。 この値は、によって作成され、Amazon に公開された Amazon リストに使用され [!DNL Commerce] ます。 統合前の Amazon リストのデフォルト処理時間 [!DNL Commerce] は、この設定には反映されません。<br><br>Amazon sales チャンネルで定義されている値は、既存の Amazon リスティングに定義されているデフォルトの処理時間を置き換えません。 **[!UICONTROL Handling Time Override]**&#x200B;が有効になり、削除されると、ここで定義された値に注文の処理時間が戻ります。<br><br>取扱時間が異なる製品を使用している場合は、取扱時間の上書きを製品固有のレベルで作成することができます。 タブで処理時間の上書きを管理し [_[!UICONTROL Overrides]_](./overrides.md) て、製品のフルフィルメントを管理するための柔軟な機能を提供できます。 製品に対する処理時間の上書きが含まれていない場合、 [!DNL Commerce] 処理時間のデフォルトは、Amazon リストに定義されている値になります。<br><br>取扱時間は地域別属性です。 一覧の値が変更されると、その変更は、 [!DNL Amazon Seller SKU] ストア統合で定義されている同じ地域に存在するすべての Amazon stores ストアでが共有されているすべての一覧に反映され [ ](./store-integration.md) ます。 ただし、北米地域の共有の値を変更しても、ストアとは [!DNL Amazon Seller SKU] 別に定義された地域と同じ製品には影響しません。 作成日付が最も古い領域のストアによって、デフォルトの手数料設定の優先順位が制御されます。 |
+| [!UICONTROL Automatic List Action] | オプション：<ul><li>**[!UICONTROL Automatically List Eligible Products]** - （推奨）いつ、 [!DNL Commerce] Amazonに自動的に公開してAmazonリストを作成するための (Amazonの適格要件を満たす ) カタログ製品。 選択すると、 [_[!UICONTROL Ready to List]_](./ready-to-list.md) 」タブは表示されません。 </li><li>**[!UICONTROL Do Not Automatically List Eligible Products]**  — 実施要件を手動で選択する場合に選択します [!DNL Commerce] 商品をカタログ化し、Amazon Listings を作成します。 選択すると、リストの条件を満たし、必要な情報をすべて含むカタログ製品が [_[!UICONTROL Ready to List]_](./ready-to-list.md) タブを使用して手動で公開できます。</li></ul> |
+| [!UICONTROL Default Handling Time] | 注文の処理と出荷に要する一般的な日数を表す数値です。 デフォルト値は `2`. この値は、で作成されたAmazonリストに使用されます。 [!DNL Commerce] Amazonに公開されました。 との統合前のAmazonリストのデフォルトの処理時間 [!DNL Commerce] はこの設定の影響を受けません。<br><br>Amazonセールスチャネルで定義された値は、既存のAmazonリストで定義されたデフォルトの処理時間を置き換えません。 When a **[!UICONTROL Handling Time Override]** が有効になって削除されると、注文の「処理時間」がここで定義した値に戻ります。<br><br>処理時間の異なる製品がある場合は、製品固有のレベルで処理時間上書きを作成できます。 処理時間の上書きは、 [_[!UICONTROL Overrides]_](./overrides.md) タブを使用して、製品の達成を柔軟に管理できます。 で処理時間の上書きがない場合は、次のようにします。 [!DNL Commerce] 製品の場合、処理時間のデフォルトは、Amazonリストで定義された値です。<br><br>[ 処理時間 ] は地域の属性です。 リストの値を変更すると、この変更は、 [!DNL Amazon Seller SKU] は、同じ地域に存在するすべてのAmazonストア（で定義） [ストア統合](./store-integration.md)) をクリックします。 ただし、共有の値を変更する [!DNL Amazon Seller SKU] 北米地域では、異なる定義済みの地域を持つストアにリストされている同じ製品には影響しません。 作成日が最も古い地域のストアが、「デフォルトの処理時間」設定の優先度を制御します。 |
 
 **クイックアクセス** - [!UICONTROL Listing Settings] セクション
 

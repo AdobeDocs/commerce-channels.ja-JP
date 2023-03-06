@@ -2,9 +2,9 @@
 title: Amazonとコマースカタログについて
 description: Amazonセールスチャネルは、Amazonのリストをコマースのバックエンドにインポートし、製品および販売と絶えず同期します。
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: 5d30a5282ede2db0d9619eb2263b733328d26426
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Adobe CommerceまたはMagento Open Sourceバックエンドには、すべて�
 
 ## 製品属性
 
-Adobe CommerceとMagento Open Sourceは、製品の使用に伴うカタログ同期の管理 [属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} ：製品設定とデータを定義します。 Amazonも属性を使用して、オンボーディングを通じてマッピングします。 期間 [事前設定タスク](./amazon-pre-setup-tasks.md) Amazonセールスチャネルの場合、Amazonリストをユーザーに読み込む際に、正しい製品マッピングを確保するために、追加のAmazon属性（必要に応じて）を定義します。 [!DNL Commerce] カタログ。 これらの属性には、UPC、EAN、ISBN、ASIN ([!DNL Amazon Standard Identification Number]) をクリックします。 オンボーディングを通じて、Amazonと [!DNL Commerce] カタログを作成します。 適切なマッピング [!DNL Commerce] Amazon製品を使用すると、製品情報、注文、在庫を継続的に同期できます。
+Adobe CommerceとMagento Open Sourceは、製品の使用に伴うカタログ同期の管理 [属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 製品設定とデータを定義します。 Amazonも属性を使用して、オンボーディングを通じてマッピングします。 期間 [事前設定タスク](./amazon-pre-setup-tasks.md) Amazonセールスチャネルの場合、Amazonリストをユーザーに読み込む際に、正しい製品マッピングを確保するために、追加のAmazon属性（必要に応じて）を定義します。 [!DNL Commerce] カタログ。 これらの属性には、UPC、EAN、ISBN、ASIN ([!DNL Amazon Standard Identification Number]) をクリックします。 オンボーディングを通じて、Amazonと [!DNL Commerce] カタログを作成します。 適切なマッピング [!DNL Commerce] Amazon製品を使用すると、製品情報、注文、在庫を継続的に同期できます。
 
-カタログ用にこれらの属性を作成または設定していない場合、 [!DNL Commerce] [製品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} および値を製品に適用してからオンボーディングします。 Amazon属性を読み込むと、検索、ナビゲーション、価格ルールなどに使用できます。 詳しくは、 [ASIN、UPC、EAN、ISBN、SKU およびその他のバーコードの意味](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target=&quot;_blank&quot;}
+カタログ用にこれらの属性を作成または設定していない場合、 [!DNL Commerce] [製品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} and values to your products before onboarding. When an Amazon attribute is imported, it can be used for search, navigation, price rules, and much more. See [What Do ASIN, UPC, EAN, ISBN, SKU and Other Barcodes Mean?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target="_blank"}
 
 オンボーディング後は、製品属性とAmazonマッピングをいつでも管理および更新できます。
 
@@ -45,4 +45,4 @@ Amazonリストは、 [!DNL Amazon Marketplace]、製品の説明、価格、画
 
 Adobe CommerceとMagento Open Sourceは、 [!DNL Amazon Seller Central] アカウントおよび [!DNL Commerce] バックエンド。 継続的な更新により、 [!DNL Commerce] 在庫の管理と管理、受注の完了、売上の追跡、および作業のオーバーヘッドと重複の削減を行う。 レポートは、トレンドを追跡し、2 つのシステム間で発生した通信の問題を解決するための最新のデータを取り込みます。
 
-すべての同期は、 [cron ジョブ](https://docs.magento.com/user-guide/system/cron.html){target=&quot;_blank&quot;}。 [事前設定タスク](./amazon-pre-setup-tasks.md).
+すべての同期は、 [cron ジョブ](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}を更新し、 [事前設定タスク](./amazon-pre-setup-tasks.md).

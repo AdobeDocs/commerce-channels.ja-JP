@@ -1,8 +1,8 @@
 ---
-title: リストの準備ができました
-description: Amazon 販売チャンネルの「リストへ」タブでは、受給条件を満たすが、自動的に一覧に表示されない Commerce 製品を確認することができます。
+title: リストへの登録準備完了
+description: Amazonセールスチャネルには、適格要件を満たしているが自動的には表示されないコマース製品を確認できる「リストへの準備完了」タブが用意されています。
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -11,44 +11,44 @@ ht-degree: 0%
 
 # [!UICONTROL Ready to List]
 
-このタブには、 _[!UICONTROL Ready to List]_[!DNL Commerce] リスティング設定に適合し、Amazon に新しい出展情報としてパブリッシュする準備ができたカタログ製品が表示され&#x200B;****ます。 他のリストタブとは異なり、このタブはページに必ずしも表示されるわけではありません [_[!UICONTROL Product Listings]_](./managing-product-listings.md) 。
+この _[!UICONTROL Ready to List]_タブには、 [!DNL Commerce] カタログ製品は、リスト設定を満たし、Amazon as a に公開する準備ができています&#x200B;**新規**リスト。 他のリストタブとは異なり、このタブは、 [_[!UICONTROL Product Listings]_](./managing-product-listings.md) ページ。
 
-この _[!UICONTROL Ready to List]_タブは、 [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) リスティング設定がに設定されている場合にのみ表示され `Do Not Automatically List Eligible Products` ます。 この設定によって、Amazon 販売チャンネルについて、新しい Amazon リストを手動で公開する必要があることが通知されます。
+この _[!UICONTROL Ready to List]_タブは次の場合にのみ表示されます： [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) の設定が `Do Not Automatically List Eligible Products`. この設定は、Amazonセールスチャネルに対し、新しいAmazonリストを手動で公開する必要があることを伝えます。
 
-[**[!UICONTROL Automatic List Action]**](./product-listing-actions.md)がに設定されていると `Automatically List Eligible Products` 、Amazon 販売チャンネルは、対象となるカタログ製品の新しい一覧を自動的に公開します。新しいリストは自動的に公開されるので、この _[!UICONTROL Ready to List]_タブは表示されません。
+条件 [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) が `Automatically List Eligible Products`, Amazonセールスチャネルは、適格なカタログ製品の新しいリストを自動的に公開します。 新しいリストは自動的に公開されるので、 _[!UICONTROL Ready to List]_」タブは表示されません。
 
-_[!UICONTROL Actions]_以下に示します。
+の下 _[!UICONTROL Actions]_:
 
-- **[!UICONTROL Publish Product to Amazon]**: リストをに再パブリッシュすることを選択し [!DNL Amazon Marketplace] ます。 「 [ Amazon リストの公開」を参照してください。](./publish-listings-manually.md)
+- **[!UICONTROL Publish Product to Amazon]**:リストを [!DNL Amazon Marketplace]. 詳しくは、 [Amazonリストの公開](./publish-listings-manually.md)
 
-**[!UICONTROL Select]**&#x200B;列で、 _[!UICONTROL Action]_次のようになります。
+の下 **[!UICONTROL Select]** 内 _[!UICONTROL Action]_列：
 
-- **[!UICONTROL Publish On Amazon]**: リストをに再パブリッシュすることを選択し [!DNL Amazon Marketplace] ます。 「 [ Amazon リスティングのパブリッシュ」を参照してください ](./publish-listings-manually.md) 。
+- **[!UICONTROL Publish On Amazon]**:リストを [!DNL Amazon Marketplace]. 詳しくは、 [Amazonリストの公開](./publish-listings-manually.md).
 
-- **[!UICONTROL View Details]**: 一覧表示された [ 利用状況ログ、購入ボックスの価格、競合企業の価格が表示さ ](./product-listing-details.md#listing-activity-log) [ ](./product-listing-details.md#buy-box-competitor-pricing) [ ](./product-listing-details.md#lowest-competitor-pricing) れます。 このアクションは、表示専用です。 一覧の詳細に変更を加えることはできません。 [詳しくは、詳細の表示を参照してください ](./product-listing-details.md) 。
+- **[!UICONTROL View Details]**：リストの詳細 ( [アクティビティログのリスト](./product-listing-details.md#listing-activity-log), [Buy Box競合他社の価格](./product-listing-details.md#buy-box-competitor-pricing)、および [競合他社の最低価格](./product-listing-details.md#lowest-competitor-pricing). このアクションは表示専用です。 リストの詳細は変更できません。 詳しくは、 [詳細を表示](./product-listing-details.md).
 
-Amazon に新しい一覧を手動でパブリッシュするには、いくつかの方法があり [ ](./publish-listings-manually.md) ます。
+手動でおこなうオプションがいくつかあります [Amazonに新しいリストを公開する](./publish-listings-manually.md).
 
 >[!NOTE]
->リストが作成されている場合は、タブの上のメッセージに一覧の数が表示されます。
+>リストが処理中の場合、リストの数はタブの上のメッセージに表示されます。
 
-![リストの準備ができました](assets/amazon-ready-to-list.png)
+![リストへの登録準備完了](assets/amazon-ready-to-list.png)
 
 ## デフォルトの列
 
-| 段 | つい |
+| 列 | 説明 |
 |---|---|
-| [!UICONTROL Amazon Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>「アーク」は、 [!DNL Amazon Standard Identification Number] . アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
-| [!UICONTROL Product Listing Name] | 製品の名前を指定します。 |
-| [!UICONTROL Condition] | [ ](./product-listing-condition.md) 製品の状態。 |
-| [!UICONTROL Landed Price] | 製品のリスト価格とその配送価格を示します。 |
-| [!UICONTROL Amazon Quantity] | この製品が Amazon に積極的に一覧表示されるときに使用可能な数量です。 |
-| [!UICONTROL Status] | Amazon によって定義される一覧の状態。 |
-| [!UICONTROL Action] | 特定のリストに適用可能なアクションのリストです。 アクションを適用するには、列内をクリックし、次のいずれ **[!UICONTROL Select]** _[!UICONTROL Action]_かのオプションを選択します。<ul><li>[[!UICONTROL Publish on Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
+| [!UICONTROL Amazon Seller SKU] | 製品、オプション、価格および製造元を識別するために、Amazonが製品に割り当てた SKU(Stock Keeping Unit)。 |
+| [!UICONTROL ASIN] | アイテムを識別する 10 文字または数字の一意のブロック。<br><br>ASIN は、 [!DNL Amazon Standard Identification Number]. ASIN は、項目を識別する 10 文字または数字の一意のブロックです。 書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合は、アイテムがカタログにアップロードされると新しい ASIN が作成されます。 ASIN は、Amazonの製品の詳細ページに、その品目に関する詳細と共に表示されます。 |
+| [!UICONTROL Product Listing Name] | 製品の名前。 |
+| [!UICONTROL Condition] | この [条件](./product-listing-condition.md) 製品の。 |
+| [!UICONTROL Landed Price] | 商品の上場価格とその送料。 |
+| [!UICONTROL Amazon Quantity] | 製品がAmazonに積極的にリストされたときに使用可能な数量。 |
+| [!UICONTROL Status] | リストのステータス (Amazonで定義 )。 |
+| [!UICONTROL Action] | 特定のリストに適用できる使用可能なアクションのリスト。 アクションを適用するには、 **[!UICONTROL Select]** 内 _[!UICONTROL Action]_列を選択し、次のオプションを選択します。<ul><li>[[!UICONTROL Publish on Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
 
-### リスト一覧表示の一般的な原因
+### リスト表示の準備ができた一般的な原因
 
-- **[!UICONTROL Ready to List]** -製品が Amazon アークに適合し、リストの掲載が予定されています。 [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md)リスティング設定がに設定されている場合は `Do Not Automatically List Eligible Products` 、手動で一覧表示する準備ができている製品がこの状態になります。
+- **[!UICONTROL Ready to List]**  — 製品はAmazon ASIN に一致し、リストに登録される予定です。 If [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) の設定が `Do Not Automatically List Eligible Products`の場合、このステータスは、手動でリストに表示する準備ができた製品を表します。
 
-- **[!UICONTROL List in Progress]** -製品リストが Amazon に送信され、Amazon からの受諾を確認することができます。
+- **[!UICONTROL List in Progress]**  — 製品リストはAmazonに送信され、Amazonからの受け入れの確認を待っています。

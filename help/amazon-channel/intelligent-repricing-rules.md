@@ -1,65 +1,65 @@
 ---
-title: '「インテリジェントな価格設定のルール: ルールタイプを選択します。'
-description: インテリジェントな再価格ルールを作成して、競合企業による価格設定に基づいて、Amazon のリスト価格を決定します。
+title: '''インテリジェントな価格変更ルール：ルールタイプを選択`'
+description: インテリジェントな価格変更ルールを作成して、競合相手の価格に従ってAmazonの上場価格を決定します。
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
 
 ---
 
-# インテリジェントな再価格ルール: ルールタイプを選択します。
+# インテリジェントな価格変更ルール：ルールタイプを選択
 
 >[!IMPORTANT]
 >
->Amazon 地域が状態に設定されているとき `Inactive` は、オンになっているとしても、インテリジェントな価格設定ルールは正常に機能しません。 価格計算は、配達料金によって異なります。また、地域が Amazon よりも `Active` 出荷料金を同期するための状態である必要があります。<br><br>
+>Amazon地域が `Inactive` ステータス（オンボーディング中） 価格の計算は送料によって異なり、地域は `Active` Amazonから同期する送料のステータス。<br><br>
 >
->Amazon account に含まれる地域の状態を更新するには、設定 > 取引先企業情報 > 休暇設定に移動してください。 [Amazon: 休暇の状態の一覧表示を参照してください。](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620/&quot;target=&quot;_blank)
+>Amazonアカウントで地域のステータスを更新するには、設定/アカウント情報/休暇の設定に移動します。 参照： [Amazon:休暇のステータスのリスト](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620/&quot;target=&quot;_blank)
 
-インテリジェントな再価格ルールでは、Amazon の競合企業による価格設定によって、掲載価格が決定されます。 ライバルには、Amazon の対象と同じ製品がリストされている他の売り手もいます。
+インテリジェントな価格変更ルールでは、Amazonの競合他社の価格を使用して、上場価格を決定します。 競合他社は、Amazonで同じ製品をリストする他の販売者です。
 
-インテリジェントな「価格設定」ルールのセクションには、次のものが含まれます。
+インテリジェントな価格変更ルールのセクションは次のとおりです。
 
-- ルールタイプを選択します。
-- [競合企業の条件付き差異](./competitor-conditional-variances.md)
+- ルールタイプを選択
+- [競合相手の条件付き相違](./competitor-conditional-variances.md)
 - [価格調整](./price-adjustment.md)
-- [フロア価格](./floor-price.md)
-- [オプションの天井価格](./optional-ceiling-price.md)
+- [下限価格](./floor-price.md)
+- [オプションの上限価格](./optional-ceiling-price.md)
 
-## ルールタイプを設定します。
+## ルールタイプの設定
 
-セクションでルールタイプを定義し _[!UICONTROL Select Rule Type]_ます。
+ルールタイプを _[!UICONTROL Select Rule Type]_」セクションに入力します。
 
-1. について **[!UICONTROL Rule Type]** は、を選択 `Intelligent repricing rule` します。
+1. の場合 **[!UICONTROL Rule Type]**&#x200B;選択 `Intelligent repricing rule`.
 
-   この設定によって、フィールドと、、、 _[!UICONTROL Competitor Price Source]_およびおよびセクションが有効になり [_[!UICONTROL Competitor Conditional Variances]_](./competitor-conditional-variances.md) [_[!UICONTROL Floor Price]_](./floor-price.md) [_[!UICONTROL Optional Ceiling Price]_](./optional-ceiling-price.md) ます。
+   この設定により、 _[!UICONTROL Competitor Price Source]_フィールドと [_[!UICONTROL Competitor Conditional Variances]_](./competitor-conditional-variances.md), [_[!UICONTROL Floor Price]_](./floor-price.md)、および [_[!UICONTROL Optional Ceiling Price]_](./optional-ceiling-price.md) セクション。
 
-1. **[!UICONTROL Competitor Price Source]**&#x200B;で、次のいずれかのオプションを選択します。
+1. の場合 **[!UICONTROL Competitor Price Source]**、オプションを選択します。
 
-   - **[!UICONTROL Use "Buy Box" Price]** -Amazon 販売価格に基づいて Amazon 価格を調整する場合は、このオプションを選択し [[!DNL Buy Box]](./buy-box-competitor-pricing.md) ます。 [!DNL Buy Box]Amazon 上の複数の売り手が同じ製品を提供している場合は、価格があります。Amazon は、 [!DNL Buy Box] パフォーマンスの要件に基づいて販売者を定義します。 商人は、売り手の状態に勝ち、その製品リストを最大限に活用できるようにし [!DNL Buy Box] ています。
+   - **[!UICONTROL Use "Buy Box" Price]** - Amazonに基づいてAmazonの価格を調整する場合を選択します [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 販売価格。 A [!DNL Buy Box] 価格は、Amazonの複数の販売者が同じ製品を提供した場合に存在します。 Amazonは [!DNL Buy Box] 売り手はパフォーマンス要件に基づいています。 商人は勝ち目を求める [!DNL Buy Box] 販売者のステータスと製品リストの最大表示を提供します。
 
-   - **[!UICONTROL Use Lowest Competitor Price]** -リスト価格を比較して、同じ製品の競合他社価格に合わせて調整する場合に選択します。 選択すると、 _[!UICONTROL Minimum Positive Feedback]_and_[!UICONTROL Minimum Feedback Count]_ フィールドが有効になります。
+   - **[!UICONTROL Use Lowest Competitor Price]**  — 同じ製品の競合他社の価格と比較して調整する場合に選択します。 選択すると、 _[!UICONTROL Minimum Positive Feedback]_および_[!UICONTROL Minimum Feedback Count]_ フィールドが有効になっている。
 
-1. 有効にした場合は、のオプションを選択し **[!UICONTROL Minimum Positive Feedback]** ます。
+1. 有効な場合は、 **[!UICONTROL Minimum Positive Feedback]**.
 
-   - **[!UICONTROL All Competitor's Prices]** -同じ製品について、競合企業のあらゆる価格に基づいて価格を比較し、調整する場合に選択します。
+   - **[!UICONTROL All Competitor's Prices]**  — 同じ製品のすべての競合他社の価格に基づいて、価格を比較および調整する場合を選択します。
 
-   - **[!UICONTROL Minimum 80/90/95/98% positive feedback]** -同じ製品について価格が比較される競合企業を制限する場合に選択します。 この設定では、最低価格ルールを適用する前に、その出展について、選択されたポジティブフィードバックのうち最低限の割合を持つ必要があることで、競合企業がさらに詳しくなります。
+   - **[!UICONTROL Minimum 80/90/95/98% positive feedback]**  — 同じ製品で価格を比較する競合相手を制限する場合に選択します。 この設定は、最も低い価格ルールを適用する前に、選択した肯定的なフィードバックの最低割合をリストに含める必要があるので、競合他社をさらに絞り込みます。
 
-1. 有効にした場合は、の数値を入力し **[!UICONTROL Minimum Feedback Count]** ます。
+1. 有効な場合は、 **[!UICONTROL Minimum Feedback Count]**.
 
-   この数値は、競争における価格をさらに絞り込むことができます。 例えば、商人に95% 肯定的なフィードバックレートが設定されていても、フィードバック数が1つのみの場合は、 `20` その価格設定を変更したい競合先ではない可能性があります。 「」の値を入力した場合は、 `1000` 商人に95% 陽性のフィードバックと、最低でも1000のマーチャントレビューが含まれている必要があります。
+   このオプションの数値により、競合価格がさらに絞り込まれます。 例えば、商人の 95%の肯定的なフィードバック評価があり、フィードバック数は `20`の場合は、価格を変更したくない競合相手である可能性があります。 ただし、 `1000`の場合、商人が 95%の肯定的なフィードバックを持ち、少なくとも 1000 の商人のレビューを持つ必要があります。
 
 >[!NOTE]
 >
->このような競合他社の価格設定とフィードバックオプションを使用すると、フィードバックが不足している競合企業に対する価格設定が、より低品質の製品を販売していることを防ぐことができます。
+>これらの競合相手の価格とフィードバックオプションを使用して、フィードバックが不十分で低品質の製品を販売している競合相手に対する価格設定を避けることができます。
 
-![インテリジェントな再価格ルールタイプを選択します。](assets/ob-intelligent-price-rule-type.png)
+![インテリジェントな価格変更ルール — ルールタイプの選択](assets/ob-intelligent-price-rule-type.png)
 
-| 名 | つい |
+| フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Rule Type] | ルールタイプを選択します。 オプション：<ul><li>**[!UICONTROL Standard price rule]** -この種類のルールでは、Amazon の一覧表示価格を、特定のパーセントまたは1を基準にした一定金額に拡大または縮小することができ _[!UICONTROL Magento Price Source]_ます。 </li><li>**[!UICONTROL Intelligent repricing rule]** -この種類のルールでは、競合企業の価格設定に基づいて、Amazon の一覧価格を調整することができます。 選択すると、 _[!UICONTROL Minimum Positive Feedback]_and_[!UICONTROL Minimum Feedback Count]_ フィールドが有効になります。</li></ul> |
-| [!UICONTROL Competitor Price Source] | 目的の価格ソースを選択します。 オプション：<ul><li>**[!UICONTROL Use "Buy Box" Price]** -Amazon の価格に基づいて Amazon の価格設定を変更する場合は、このオプションを選択し [[!DNL Buy Box]](./buy-box-competitor-pricing.md) ます。 [!DNL Buy Box]Amazon 上の複数の売り手が同じ製品を提供している場合は、価格があります。Amazon は、 [!DNL Buy Box] パフォーマンスの要件に基づいて販売者を定義します。 商人は、売り手の状態に勝ち、その製品リストを最大限に活用できるようにし [!DNL Buy Box] ています。</li><li>**[!UICONTROL Use Lowest Competitor Price]** -同じ製品について、出展価格を比較して、 [ 競合企業が最も少ない価格に変更する場合は、このオプションを選択し ](./lowest-competitor-pricing.md) ます。 選択すると、 _[!UICONTROL Minimum Positive Feedback]_and_[!UICONTROL Minimum Feedback Count]_ フィールドが有効になります。</li></ul> |
-| [!UICONTROL Minimum Positive Feedback] | 選択されている場合のみ `Use Lowest Competitor Price` 、アクティブになります。 オプション：<ul><li>**[!UICONTROL All Competitor's Prices]** -同じ製品について、競合企業のあらゆる価格に基づいて価格を比較し、調整する場合に選択します。</li><li>**[!UICONTROL Minimum 80/90/95/98% positive feedback]** -価格設定を比較して調整する対象となる競合企業を制限する場合に選択します。 この設定によって、対戦リストには最低でも選択されている肯定的なフィードバックを少なくし、そのサブセットの最低価格を使用することで、競合企業をさらに絞り込むことができます。</li></ul> |
-| [!UICONTROL Minimum Feedback Count] | 選択されている場合のみ `Use Lowest Competitor Price` 、アクティブになります。 この数値を指定すると、競争価格の比較結果を絞り込むことができます。 例えば、商人に95% 肯定的なフィードバックレートが設定されていて、そのフィードバック数はフィードバック件数が限られている場合は、 `20` 価格設定を変更したい競合先ではない可能性があります。 「」の値を入力した場合は、 `1000` 商人に95% 陽性のフィードバックと、最低でも1000のマーチャントレビューが含まれている必要があります。 |
+| [!UICONTROL Rule Type] | ルールタイプを選択します。 オプション：<ul><li>**[!UICONTROL Standard price rule]**  — このルールタイプを使用すると、Amazonの上場価格を、 _[!UICONTROL Magento Price Source]_. </li><li>**[!UICONTROL Intelligent repricing rule]**  — このルールタイプを使用すると、競合相手の価格に基づいてAmazonの上場価格を調整できます。 選択すると、 _[!UICONTROL Minimum Positive Feedback]_および_[!UICONTROL Minimum Feedback Count]_ フィールドが有効になっている。</li></ul> |
+| [!UICONTROL Competitor Price Source] | 目的の価格のソースを選択します。 オプション：<ul><li>**[!UICONTROL Use "Buy Box" Price]** - Amazonに基づいてAmazonの価格を調整する場合は、このオプションを選択します [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 販売価格。 A [!DNL Buy Box] 価格は、Amazonの複数の販売者が同じ製品を提供した場合に存在します。 Amazonは [!DNL Buy Box] 売り手はパフォーマンス要件に基づいています。 商人は勝ち目を求める [!DNL Buy Box] 販売者のステータスと製品リストの最大表示を提供します。</li><li>**[!UICONTROL Use Lowest Competitor Price]**  — このオプションは、 [最も低い競合他社価格](./lowest-competitor-pricing.md) 同じ製品の 選択すると、 _[!UICONTROL Minimum Positive Feedback]_および_[!UICONTROL Minimum Feedback Count]_ フィールドが有効になっている。</li></ul> |
+| [!UICONTROL Minimum Positive Feedback] | 次の場合にのみ有効 `Use Lowest Competitor Price` が選択されます。 オプション：<ul><li>**[!UICONTROL All Competitor's Prices]**  — 同じ製品のすべての競合他社の価格に基づいて、価格を比較および調整する場合を選択します。</li><li>**[!UICONTROL Minimum 80/90/95/98% positive feedback]**  — 価格を比較および調整する競合相手を制限するタイミングを選択します。 この設定は、選択した肯定的なフィードバックの最低限の割合をリストに含め、その他の競合他社のサブセットの最低価格を使用することで、競合他社をさらに絞り込みます。</li></ul> |
+| [!UICONTROL Minimum Feedback Count] | 次の場合にのみ有効 `Use Lowest Competitor Price` が選択されます。 このオプションの数値により、競合価格の比較がさらに絞り込まれます。 例えば、商人の 95%の肯定的なフィードバック評価があり、フィードバック数は `20`の場合は、価格を変更したくない競合相手である可能性があります。 ただし、 `1000`の場合、商人が 95%の肯定的なフィードバックを持ち、少なくとも 1000 の商人のレビューを持つ必要があります。 |

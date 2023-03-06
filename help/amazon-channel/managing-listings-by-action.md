@@ -1,48 +1,48 @@
 ---
-title: アクションによる製品リストの管理
-description: Amazon リストを管理する際に、1つまたは複数のリストにアクションを適用することができます。
+title: アクション別の製品リストの管理
+description: Amazonのリストを管理する際に、個々のリストまたは複数のリストにアクションを適用できます。
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
-# アクションによる製品リストの管理
+# アクション別の製品リストの管理
 
-このページには、 _[!UICONTROL Product Listings]_すべての一覧の状態を表示し、製品を Amazon リストに適合するようにするためのタブがいくつか含まれています。
+この _[!UICONTROL Product Listings]_ページにはいくつかのタブが含まれており、このタブで、すべてのリストのステータスを表示し、製品をAmazonのリストに一致させることができます。
 
-使用可能な一覧表示の内容はタブによって若干異なりますが、 [ ワークスペースコントロール ](./workspace-controls.md) は同じで、リストに表示するデータをカスタマイズすることができます。
+使用可能なリストタスクはタブごとに少し異なりますが、 [workspace コントロール](./workspace-controls.md) は同じで、お使いのリストに表示するデータをカスタマイズできます。
 
-「」のオプションは、 **[!UICONTROL Actions]** 複数のリストにアクションを適用することができますが、列の「オプション」で、その **[!UICONTROL Select]** _[!UICONTROL Action]_アクションは個別の一覧にのみ適用されます。
+以下のオプション **[!UICONTROL Actions]** は複数のリストにアクションを適用できますが、オプションは **[!UICONTROL Select]** 内 _[!UICONTROL Action]_「 」列は、個々のリストにのみアクションを適用します。
 
-「 [ 状態/タブによる一覧の管理」も参照してください ](./managing-listings-by-tab.md) 。
+関連トピック [ステータス別リストを管理/タブ](./managing-listings-by-tab.md).
 
-| アクション | つい | タグ |
+| アクション | 説明 | タブ |
 |--- |--- |--- |
-| [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | これを使用して、一致していない製品の再検索を行います。 再び一致させるには、 [ リスティング ](./listing-settings.md) とカタログ検索の設定を変更して、 [ 自動一致を可能にする必要があり ](./catalog-search.md) ます。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
-| [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | 検索条件に一致するリストを選択するか、一致するように追加するか、条件を満たしていない場合は、カタログ製品を Amazon リストとして手動で検索します。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
-| [[!UICONTROL View Details]](./product-listing-details.md) | アクティブな製品についての追加情報を表示します。これには、個々の SKU/製品に対する変更が表示されます。 | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
-| [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md) | [!DNL Commerce]Amazon リストに取り込んだ情報を使用して、カタログ製品を作成します。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
-| 自動的に一致を試みる | [!DNL Commerce]検索条件の設定に基づいて、カタログと Amazon リストとの間で自動的に一致するようにします。再び一致させるには、 [ リスティング ](./listing-settings.md) とカタログ検索の設定を変更して、 [ 自動一致を可能にする必要があり ](./catalog-search.md) ます。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
-| [[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md) | カタログ内の既存の製品を手動で選択して、 [!DNL Commerce] それを Amazon リストに割り当てます。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
-| [[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md) | [!DNL Commerce]Amazon リストに取り込んだ情報を使用して、カタログ製品を作成します。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
-| [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md) | (質量アクション)既に終了した出展をリストに追加したり、登録ルールの条件を満たす製品を手動で表示したりするために使用されますが、 _[!UICONTROL Product Listing Actions]_はに設定されていません `Automatically list new products` 。 | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
-| [[!UICONTROL Publish On Amazon]](./publish-listings-manually.md) | (1 つの一覧の操作)終了したリストを再一覧表示するために使用されます。 このアクションを使用して、に設定されていない場合に、リスティングルールの条件を満たす製品を手動でリストすることもでき _[!UICONTROL Product Listing Actions]_`Automatically list new products` ます。 | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
-| [[!UICONTROL End Listing(s) on Amazon]](./end-listings-manually.md) | (質量アクション)Amazon に存在していた製品の一覧を手動で削除したり削除したりするために使用されます。 終了した番組一覧は、出展規則の条件を満たしていれば、再表示できます。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Edit Listing Overrides]](./creating-editing-overrides.md) | (質量アクション)個々の一覧について、価格、処理時間、条件、および販売単価を設定し、他のリストのデフォルト、設定、およびルールを無視して、既存の &quot;上書き&quot; を編集します。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Create Override]](./creating-editing-overrides.md) | 手動で作成した「上書き」を使用して、個々のリストについては価格、手数料、条件、および販売単価を設定します。これにより、他のリストのデフォルト、設定、ルールは無視されます。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md) | カタログ製品に一致するアークサインを変更する必要がある場合に使用します (例: 製品が間違ったリスティングのアークと一致した場合)。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md) | では、 <br><br> カタログ製品と2つの Amazon リストとの間に一対多の関係を作成するために使用できる2つの機能が提供されています。 例: Amazon によって、この製品が異なるアーク値でリストされています。 1つのカタログ製品について、製品の両方の通しリストに一致させることができます。<br><br>では、様々な Amazon 地域の一覧を制御するために使用できます。 例: Amazon 地域に基づいて定義されている出荷方法が異なるカタログ製品がある場合 (米国地域では FBA、カナダは FBM)。 Stock/quantity を制御するには、エイリアス販売店 SKU を作成し、その地区 SKU とは異なる販売店 sku を使用して同じ製品をリストすることができます。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
-| [[!UICONTROL Switch to Fulfilled by Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings) | 使用している製品に関連付けられたフルフィルメント方法 (Amazon: FBA、またはマーチャント: FBM によって履行される方法) を変更します。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL End Listing]](./end-listings-manually.md) | (1 つの一覧の操作)Amazon に存在していた製品の一覧を手動で削除したり削除したりするために使用されます。 終了した番組一覧は、出展規則の条件を満たしていれば、再表示できます。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Edit Override]](./creating-editing-overrides.md) | (1 つの一覧の操作)個々の一覧について、価格、処理時間、条件、および販売単価を設定し、他のリストのデフォルト、設定、およびルールを無視して、既存の &quot;上書き&quot; を編集します。 | [[!UICONTROL Overrides]](./overrides.md) |
+| [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | 不完全な製品を一致プロセスを通じて戻すために使用します。 再一致を試みるには、 [リスト](./listing-settings.md) および [カタログ検索](./catalog-search.md) 自動一致の可能性を高める設定です。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
+| [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | 一致するリストを選択するか、一致する ASIN を入力するか、見つからない条件を割り当てることで、カタログ製品をAmazonリストに手動で照合します。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
+| [[!UICONTROL View Details]](./product-listing-details.md) | アクティビティログの一覧表示を含む、アクティブな製品に関する追加情報を表示します。このログには、個々の SKU /製品の変更が表示されます。 | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md) | の作成 [!DNL Commerce] Amazonリストで読み込まれた情報を使用したカタログ製品。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
+| 自動一致を試みる | 自動一致を試みます ( [!DNL Commerce] 検索条件の設定に基づくカタログとAmazonのリスト。 再一致を試みるには、 [リスト](./listing-settings.md) および [カタログ検索](./catalog-search.md) 自動一致の可能性を高める設定です。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
+| [[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md) | 既存の製品を [!DNL Commerce] カタログを作成し、Amazonリストに割り当てます。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
+| [[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md) | の作成 [!DNL Commerce] Amazonリストで読み込まれた情報を使用したカタログ製品。 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) |
+| [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md) | （一括処理）終了したリストを再リストする場合、またはリストルールの適格要件を満たす製品を手動でリストする場合に、 _[!UICONTROL Product Listing Actions]_が次の値に設定されていません： `Automatically list new products`. | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL Publish On Amazon]](./publish-listings-manually.md) | （単一のリストアクション）終了したリストを再リストするために使用します。 また、このアクションは、次の場合に、リストルールの実施要件を満たす製品を手動でリストする場合にも使用します。 _[!UICONTROL Product Listing Actions]_が次の値に設定されていません： `Automatically list new products`. | [[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL End Listing(s) on Amazon]](./end-listings-manually.md) | （一括操作）Amazonに存在する製品のリストを手動で終了および削除するために使用します。 終了したリストは、リストルールの実施要件を満たしている限り、リリストできます。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Edit Listing Overrides]](./creating-editing-overrides.md) | （一括操作）個々のリストに対する価格、処理時間、条件、販売者の注記テキストを設定する既存の「上書き」を手動で編集し、他のリストのデフォルト、設定、ルールは無視します。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Create Override]](./creating-editing-overrides.md) | 個々のリストに対する価格、処理時間、条件、販売者の注記のテキストを設定する「上書き」を手動で作成し、他のリストのデフォルト、設定、ルールは無視します。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md) | カタログ商品と一致する ASIN を変更する必要がある場合に使用します ( 例：( 製品が正しくないリスト (ASIN) と一致した場合 )。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md) | 次の 2 つの機能を提供できます。<br><br>カタログ製品と 2 つのAmazonリストの間に 1 対 2 の関係を作成するために使用できます。 例：Amazonには、異なる ASIN 値を持つ製品がリストされています。 1 つのカタログ製品を、製品の両方の ASIN リストに一致させることができます。<br><br>様々なAmazon地域のリストを制御するために使用できます。 例：Amazon地域に基づいて異なる発送方法が定義されたカタログ製品があります（米国地域は FBA、カナダ地域は FBM）。 在庫/数量を制御するには、エイリアスの販売者 SKU を作成し、その地域の同じ製品を別の販売者 SKU で再リストします。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL Switch to Fulfilled by Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings) | 製品に関連付けられた達成方法 (Amazonで満たす ) の変更に使用：FBA または商人が満たすもの：FBM) を参照してください。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL End Listing]](./end-listings-manually.md) | （単一のリストアクション）Amazonに存在する製品のリストを手動で終了および削除するために使用します。 終了したリストは、リストルールの実施要件を満たしている限り、リリストできます。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Edit Override]](./creating-editing-overrides.md) | （単一リストアクション）個々のリストに対する価格、処理時間、条件、販売者のメモのテキストを設定し、他のリストのデフォルト、設定、ルールを無視する既存の「上書き」を手動で編集します。 | [[!UICONTROL Overrides]](./overrides.md) |
 
-## 製品一覧へのアクセス
+## 製品リストにアクセス
 
-1. _管理_ サイドバーで、 **販促** > _チャンネル_ > **Amazon Sales Channel に移動** します。
+1. の _管理者_ サイドバー、移動 **マーケティング** > _チャネル_ > **AmazonSales Channel**.
 
-1. 「 **** 店舗カードで表示」をクリックします。
+1. クリック **ストアを表示** をストアカードに貼り付けます。
 
-1. Store のダッシュボードで、 **** ストアリストセクションにある「リストの管理」をクリックし __ ます。
+1. ストアダッシュボードで、 **リストの管理** 内 _ストア一覧_ 」セクションに入力します。
