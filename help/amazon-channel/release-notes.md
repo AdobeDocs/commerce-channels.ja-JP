@@ -1,10 +1,10 @@
 ---
-title: '''[!DNL Amazon Sales Channel] リリースノート'''
+title: '''[!DNL Amazon Sales Channel] リリースノート`'
 description: すべての [!DNL Amazon Sales Channel] リリース。
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: adf86495e7de53f9ee7bc916b2a7398f04e7cbd4
+source-git-commit: 10d88821deabbd7481b74f21a5196d0ec1808f9a
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2258'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,29 @@ ht-degree: 0%
 ![修正された問題](../assets/fix.svg) 修正点および改善点
 ![既知の問題](../assets/bug.svg) 既知の問題
 
-詳しくは、 [今後のリリース](https://devdocs.magento.com/release/){target=&quot;_blank&quot;} のバージョン管理、サポートおよび互換性。
+詳しくは、 [今後のリリース](https://devdocs.magento.com/release/){target="_blank"} バージョン管理、サポートおよび互換性に関する情報。
+
+## v4.4.4
+
+[!DNL Amazon sales channel]  4.4.4 は、Adobe CommerceMagento Open Source2.3.x および 2.4.0 と互換性がありますが、クラウドインフラストラクチャ上のバージョン 2.4.1 以降、Adobe Commerce、Adobe Commerceのバージョン 2.4.1 でのみサポートされます。
+
+![修正された問題](../assets/fix.svg) Adobe Commerce 2.4.6 および PHP 8.2 のサポートを追加しました。
+
+![修正された問題](../assets/fix.svg) ログのノイズを低減。
+
+![修正された問題](../assets/fix.svg) 更新を取り込む際の安定性が向上しました。
+
+![修正された問題](../assets/fix.svg) 単一のアクションのプルまたは CLI からの適用を実行するプロセスを簡素化。
+
+![修正された問題](../assets/fix.svg) 依存関係をアップグレードしました： `magento/services-connector`.
+
+![修正された問題](../assets/fix.svg) 無効な国コードを含む英国のアカウントの同期の問題を修正しました。
+
+![修正された問題](../assets/fix.svg) カタログ商品エンティティの entity_type_id をハードコードすると、Magento価格ソースに問題が発生します。
+
+![修正された問題](../assets/fix.svg) 別のインスタンスからバックエンドで削除されたアカウントが UI からも削除されない問題を修正しました。
+
+![修正された問題](../assets/fix.svg) 一部の買い物かごルールで注文のインポートが壊れていた問題を修正しました。
 
 ## v4.4.3
 
@@ -172,9 +194,9 @@ AmazonSales Channel3.0.0 は、クラウドインフラストラクチャ上のA
 
 ![新規](../assets/new.svg) **Amazon UK Marketplace が利用可能**:ユーザーは、コマースストアを作成および統合する際に、英国マーケットプレイスを選択できます。 この英国のアップグレードには、次の追加サポートが含まれます。
 
-- [AmazonVAT 計算サービス](https://sell.amazon.co.uk/learn/vat-resources){target=&quot;_blank&quot;}
+- [AmazonVAT 計算サービス](https://sell.amazon.co.uk/learn/vat-resources){target="_blank"}
 
-- [製品税コード](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;} 情報。
+- [製品税コード](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} 情報。
 
 ![新規](../assets/new.svg) **ログ機能の向上**: <!--CHAN-3642, 3672-->の実装 **デバッグログを有効にする** トラブルシューティングが必要な場合に追加の同期データを収集する機能。 詳しくは、 [Sales Channel設定](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) 」のトピックを参照してください。
 
