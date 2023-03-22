@@ -1,7 +1,8 @@
 ---
-title: 「[!DNLChannel Manager] リリースノート」
-description: 「 [!DNL Channel Manager] Adobe Commerceから」
-source-git-commit: 501a76a126f090805f95e64078ec2c73de003aa4
+title: '''[!DNL Channel Manager] リリースノート`'
+description: の最新のリリース情報 [!DNL Channel Manager] Adobe Commerceから
+exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
+source-git-commit: 9cc1b79089771ef9a58d22379197b210d31e1670
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
