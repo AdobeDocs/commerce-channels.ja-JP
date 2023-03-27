@@ -1,18 +1,18 @@
 ---
 title: '"[!DNL Amazon Sales Channel] ユーザーガイド»'
-description: '"[!DNL Channel manager] Adobe Commerce向けには、Amazonセールスチャネル拡張機能が用意されており、マーチャントが [!DNL Amazon Marketplace]."'
+description: "[!DNL Amazon Sales Channel] 商人が [!DNL Amazon Marketplace]."
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
-source-git-commit: 71a59d85334127cb494b79e3079b6d4eba68990d
+source-git-commit: 74e58c95479b624ad9993d613776b4d33c492080
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
 
 # [!DNL Amazon Sales Channel] ユーザーガイド
 
-[!DNL Channel manager] Adobe Commerce向けには、マーチャントがAmazon Marketplace で製品をシームレスに販売できるようにするAmazonセールスチャネル拡張機能が用意されています。
+[!DNL Amazon Sales Channel] 商人が [!DNL Amazon Marketplace].
 
 Adobe CommerceまたはMagento Open Sourceの商人は、 [!DNL Amazon Sales Channel] 店舗と世界最大のインターネットショッピング先を統合する拡張機能。 この拡張機能は、Amazonの販売を可能にする [!DNL Commerce] を [!DNL Amazon Seller Central] アカウントを作成し、カタログと注文データの自動化と同期の両方を提供します。 すべてのAmazonのリストを完全に管理し、シンプルまたはインテリジェントな価格ルールを実装し、1 つの [!DNL Commerce] ダッシュボード。
 
@@ -37,5 +37,5 @@ Adobe CommerceまたはMagento Open Sourceの商人は、 [!DNL Amazon Sales Cha
 
 ## その他のAdobe Commerceドキュメント
 
-- [Adobe Commerce User Guide](https://docs.magento.com/user-guide/){target=&quot;_blank&quot;}
-- [Adobe Commerce Developer Guide](https://devdocs.magento.com/){target=&quot;_blank&quot;}
+- [Adobe Commerce User Guide](https://docs.magento.com/user-guide/){target="_blank"}
+- [Adobe Commerce Developer Guide](https://devdocs.magento.com/){target="_blank"}
