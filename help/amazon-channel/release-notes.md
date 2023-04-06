@@ -2,9 +2,9 @@
 title: '''[!DNL Amazon Sales Channel] リリースノート`'
 description: すべての [!DNL Amazon Sales Channel] リリース。
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 10d88821deabbd7481b74f21a5196d0ec1808f9a
+source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 0%
 
 ## v4.4.4
 
-[!DNL Amazon sales channel]  4.4.4 は、Adobe CommerceMagento Open Source2.3.x および 2.4.0 と互換性がありますが、クラウドインフラストラクチャ上のバージョン 2.4.1 以降、Adobe Commerce、Adobe Commerceのバージョン 2.4.1 でのみサポートされます。
+*2023 年 3 月 8 日*
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 ![修正された問題](../assets/fix.svg) Adobe Commerce 2.4.6 および PHP 8.2 のサポートを追加しました。
 
@@ -49,34 +51,34 @@ ht-degree: 0%
 
 ## v4.4.3
 
-[!DNL Amazon sales channel]  4.4.3 は、Adobe CommerceMagento Open Source2.3.x および 2.4.0 と互換性がありますが、クラウドインフラストラクチャ上のバージョン 2.4.1 以降、Adobe Commerce、Adobe Commerceのバージョン 2.4.1 でのみサポートされます。
+*2023 年 3 月 8 日*
 
-このバージョンの [!DNL Amazon sales channel] には、次の修正が含まれています。
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 ![修正点](../assets/fix.svg) Adobe Commerce 2.4.4 のサポートを追加しました。
 
 ## v4.4.2
 
-[!DNL Amazon sales channel]  4.4.2 は、Adobe CommerceMagento Open Source2.3.x および 2.4.0 と互換性がありますが、クラウドインフラストラクチャ上のバージョン 2.4.1 以降、Adobe Commerce、Adobe Commerceのバージョン 2.4.1 でのみサポートされます。
+*2021 年 11 月 12 日*
 
-このバージョンの [!DNL Amazon sales channel] には、次の修正が含まれています。
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 ![修正点](../assets/fix.svg) 依存関係を更新して、他の更新された拡張機能をサポートしました。
 ![修正点](../assets/fix.svg) PHP 8.1 のサポートを追加しました。
 
 ## v4.4.1
 
-[!DNL Amazon sales channel] 4.4.1 は、Adobe CommerceMagento Open Source2.3.x および 2.4.0 と互換性がありますが、クラウドインフラストラクチャ上のバージョン 2.4.1 以降、Adobe Commerce、Adobe Commerceのバージョン 2.4.1 でのみサポートされます。
+*2021 年 11 月 12 日*
 
-このバージョンの [!DNL Amazon sales channel]  には、次の修正が含まれています。
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 ![修正点](../assets/fix.svg) Adobe Commerceが _ユーザー名_ Amazonのフィールド 以前は、 _ユーザー名_ フィールドに特殊文字が含まれていました。 Adobe Commerceが _ユーザー名_ 順序を正しく作成できるよう、データとフィルターで特殊文字を除外します。
 
 ## v4.4.0
 
-[!DNL Amazon sales channel] 4.4.0 は、Adobe CommerceMagento Open Source2.3.x および 2.4.0 と互換性がありますが、クラウドインフラストラクチャ上のバージョン 2.4.1 以降、Adobe Commerce、Adobe Commerceのバージョン 2.4.1 でのみサポートされます。
+*2021 年 4 月 10 日*
 
-このバージョンの [!DNL Amazon sales channel] には、次の機能強化および修正が含まれています。
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 ![新規](../assets/new.svg) 設定に読み取り専用モードのサポートを追加しました。 詳しくは、 [セールスチャネル設定](sales-channel-settings.md).
 
@@ -92,9 +94,9 @@ ht-degree: 0%
 
 ## v4.3.0
 
-[!DNL Amazon sales channel] 4.3.0 は、Adobe Commerceのバージョン 2.3.x および 2.4.0 と互換性があります。サポートは、クラウドインフラストラクチャ上のMagento Open Source、Adobe Commerce、Adobe Commerceのバージョン 2.4.1 以降でのみ利用できます。
+*2021 年 3 月 4 日*
 
-このバージョンの [!DNL Amazon sales channel] には、次の機能強化および修正が含まれています。
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 ![修正点](../assets/fix.svg) <!--CHAN-xxxx-->この _注文の詳細_ 機能は再設計され、現在はに依存していません _注文のインポート_ 設定。 注文の詳細が、すべての注文に対してAmazonSales Channelインターフェイスに表示されるようになりました。
 
@@ -108,9 +110,11 @@ ht-degree: 0%
 
 ## v4.2.0
 
-[!DNL Amazon sales channel] 4.2.0 は、Adobe CommerceMagento Open Source2.3.x と互換性がありますが、クラウドインフラストラクチャ上のバージョン 2.4.x、Adobe Commerce、Adobe Commerceのバージョン 2.4.x でのみサポートされます。 以前の [!DNL Amazon sales channel] バージョンがインストールされ、Adobe Commerceのバージョン 2.4.0 への更新を試みると、Adobe Commerceのアップデートを完了する前に、拡張機能を更新するよう求められます。
+*2021 年 3 月 4 日*
 
-このバージョンの [!DNL Amazon sales channel] には、新機能のほか、改善点と修正点が含まれています。
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
+
+以前の [!DNL Amazon sales channel] バージョンがインストールされ、Adobe Commerceのバージョン 2.4.0 への更新を試みると、Adobe Commerceのアップデートを完了する前に、拡張機能を更新するよう求められます。
 
 ![既知の問題](../assets/bug.svg) 条件 [!DNL Amazon sales channel] 4.2.0 は、バージョン 2.4.0 およびと統合されています。 [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) が有効になっている場合、コマースカタログに商品を追加できない既知の問題があります。 この問題は、今後の Commerce リリースで対処される予定です。
 
@@ -136,7 +140,9 @@ ht-degree: 0%
 
 ## v4.1.0
 
-AmazonSales Channel4.1.0 は、クラウドインフラストラクチャ上の Commerce Open Source、Adobe Commerce、Adobe CommerceのAdobe Commerce 2.3.x と互換性があります。 このバージョンのAmazonSales Channelには、ユーザーインターフェイスの機能強化とマイナーなバグ修正が含まれています。
+*2020 年 5 月 8 日*
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 ![新規](../assets/new.svg) <!--4247, 4230-->コマースの注文要件に合わせて注文の読み込みプロセスを変更しました。 これらの変更により、Commerce でインポートした注文に対応する注文を作成できない問題が修正されました。 詳しくは、 [注文の管理](managing-orders.md) を参照してください。
 
@@ -164,7 +170,9 @@ AmazonSales Channel4.1.0 は、クラウドインフラストラクチャ上の 
 
 ## v4.0.0
 
-AmazonSales Channel4.0.0 は、Magento Open Source、Adobe Commerce、およびAdobe Commerceのクラウドインフラストラクチャのバージョン 2.3.0、2.3.1、2.3.2、2.3.3、2.3.4 と互換性があります。 このバージョンのAmazonSales Channelには、多くのユーザーインターフェイスのアップグレードに加えて、マイナーなバグ修正が含まれています。
+*2020 年 3 月 26 日*
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 >[!IMPORTANT]
 >
@@ -180,7 +188,9 @@ AmazonSales Channel4.0.0 は、Magento Open Source、Adobe Commerce、およびA
 
 ## v3.0.1
 
-AmazonSales Channel3.0.1 は、クラウドインフラストラクチャ上のAdobe CommerceMagento Open Source2.2.4 以降および 2.3.x、Adobe Commerce、Adobe Commerceのバージョンと互換性があります。
+*2019 年 11 月 12 日*
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 ![修正点](../assets/fix.svg) **数値フィールド設定**: <!--CHAN-3779-->数値ベースの値を必要とするフィールドが更新され、数値文字のみを受け入れるようになりました。 例：「価格設定」 > 「調整金額」フィールド
 
@@ -190,7 +200,9 @@ AmazonSales Channel3.0.1 は、クラウドインフラストラクチャ上のA
 
 ## v3.0.0
 
-AmazonSales Channel3.0.0 は、クラウドインフラストラクチャ上のAdobe CommerceMagento Open Source2.2.4 以降および 2.3.x、Adobe Commerce、Adobe Commerceのバージョンと互換性があります。
+*2019 年 10 月 8 日*
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 ![新規](../assets/new.svg) **Amazon UK Marketplace が利用可能**:ユーザーは、コマースストアを作成および統合する際に、英国マーケットプレイスを選択できます。 この英国のアップグレードには、次の追加サポートが含まれます。
 
@@ -208,7 +220,7 @@ AmazonSales Channel3.0.0 は、クラウドインフラストラクチャ上のA
 
 ## v2.0.0
 
-AmazonSales Channel2.0.0 は、クラウドインフラストラクチャ上のMagento Open Source、Adobe Commerce、Adobe Commerceのバージョン 2.2.4 以降および 2.3.x と互換性があります。
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
 
 >[!NOTE]
 >
