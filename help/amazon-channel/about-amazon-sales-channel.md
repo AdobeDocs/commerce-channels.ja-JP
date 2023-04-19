@@ -2,16 +2,16 @@
 title: AmazonSales Channelについて
 description: Amazonセールスチャネル拡張機能を使用すると、Adobe CommerceやMagento Open SourceをAmazonセラーセントラルアカウントとシームレスに統合できます。
 exl-id: 11752491-d0da-4ff7-a0a7-d17d4fa1bfc9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: f9ef1b031a1a8a8a4b6c2453d431a6f35155c4ac
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
 
-# AmazonSales Channelについて
+# について [!DNL Amazon Sales Channel]
 
-Adobe Commerce用 Channel Manager は、Amazonセールスチャネル拡張機能を提供し、 [!DNL Commerce] の管理 [!DNL Amazon Seller Central] アカウント 後 [オンボーディング](./amazon-onboarding-home.md), [!DNL Commerce] は、AmazonストアのAmazonリスト、注文、在庫、価格を管理および制御するための「中央コマンドセンター」になります。
+[!DNL Amazon Sales Channel] は、Amazonセールスチャネル拡張機能を提供し、 [!DNL Commerce] の管理 [!DNL Amazon Seller Central] アカウント 後 [オンボーディング](./amazon-onboarding-home.md), [!DNL Commerce] は、AmazonストアのAmazonリスト、注文、在庫、価格を管理および制御するための「中央コマンドセンター」になります。
 
 [ストア統合](./store-integration.md) を [!DNL Commerce] インスタンスとAmazonを使用して、両方のプラットフォーム間でデータを同期します。 Amazon sales channel では、次のことができます。
 
