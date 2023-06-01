@@ -1,15 +1,15 @@
 ---
-title: 価格調整
+title: Amazonセールスチャネル — [!UICONTROL Price Adjustment]
 description: 価格調整を設定して、Amazonの競合相手の価格ソースを特定した場合の価格計算を定義します。
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# 価格調整
+# [!UICONTROL Price Adjustment]
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    - 条件 **[!UICONTROL Apply]** が `Apply as fixed amount`、固定金額の数値を入力します ( 例：入力 `25` （25 ドルの固定調整）。
 
-![インテリジェントな価格変更ルール — 価格調整](assets/amazon-price-adjustment.png)
+![インテリジェントな価格変更ルール — 価格調整](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |---|---|

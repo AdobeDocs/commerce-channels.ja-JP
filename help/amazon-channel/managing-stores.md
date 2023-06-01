@@ -1,19 +1,19 @@
 ---
-title: Amazonストア表示
+title: '"[!UICONTROL Amazon Stores] 表示»'
 description: Amazonストアビューに移動して、各Amazonストアの基本統計をすばやく確認し、管理オプションにアクセスします。
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Amazonストア表示
+# [!UICONTROL Amazon Stores] 表示
 
 Amazonセールスチャネルのホームページを表示した場合、 _Amazonストア_ デフォルトでは、ビューが開きます。
 
-![Amazonストア表示](assets/amazon-sales-channel-home-tabs.png)
+![Amazonストア表示](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 この _[!UICONTROL Amazon Stores]_ビューには、Amazonの各ストアの「ストアカード」と、いくつかの基本的な統計および管理オプションが表示されます。 各カードに表示される概要情報には、各ストアのステータス、作成日、最終更新日、注意が必要なリスト ( 例：不完全なリスト ) と割り当てられた [!DNL Commerce] web サイト。
 

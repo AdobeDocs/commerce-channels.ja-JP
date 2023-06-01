@@ -2,9 +2,9 @@
 title: 在庫と価格の更新
 description: '[!DNL Channel Manager] 間で在庫と価格の更新を同期 [!DNL Commerce] 保存し、 [!DNL Walmart Marketplace] を使用して、 [!DNL Commerce] 管理者'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 製品在庫レベルが [!DNL Commerce], [!DNL Channel Manager] 更新内容を [!DNL Walmart Marketplace]. 在庫の更新がセールスチャネル全体でと同期されるまで、最大 10 分かかる場合があります。 [!DNL Walmart marketplace].
 
-* **製品カタログの在庫数量の更新**—When [!DNL Commerce] ～による在庫数量の変化 [手動在庫数量変更](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html)、返金、キャンセル [!DNL Channel Manager] 接続されたチャネルと [!DNL Walmart Marketplace].
+* **製品カタログの在庫数量の更新**—When [!DNL Commerce] ～による在庫数量の変化 [手動在庫数量変更](https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-assign-per-product.html)、返金、キャンセル [!DNL Channel Manager] 接続されたチャネルと [!DNL Walmart Marketplace].
 
 * **在庫数を減らして反映 [!DNL Walmart Marketplace] 注文件数**—A の後に [!DNL Walmart Marketplace] 同期順 [!DNL Channel Manager], [!DNL Channel Manager] は更新を [!DNL Commerce] 注文システム。 [!DNL Commerce] は、順序に基づいて在庫数量を調整します。 その後、更新された数量がに同期されます。 [!DNL Walmart Marketplace]. 同期操作が完了するまで、販売チャネルの一覧に異なる数量が表示され、 [!DNL Walmart].
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 1. 必要に応じて価格を確認し、更新します。
 1. **[!UICONTROL Save]** 変更。
 
-での製品価格設定の管理に関するヘルプ [!DNL Commerce]を参照してください。 [価格の管理](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.
+での製品価格設定の管理に関するヘルプ [!DNL Commerce]を参照してください。 [価格の管理](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html).

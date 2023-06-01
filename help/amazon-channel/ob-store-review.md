@@ -1,15 +1,15 @@
 ---
-title: ストア設定
+title: Amazonセールスチャネルのストア設定の確認
 description: Amazonセールスチャネルのオンボーディングプロセスが完了したら、 [!DNL Commerce] ストア設定。
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# ストア設定
+# Amazonセールスチャネルのストア設定の確認
 
 Amazonセールスチャネルストアを作成および統合した後、ストアのデフォルト設定を確認して、製品、リスト、価格、その他の設定が正しいことを確認します。
 
@@ -27,4 +27,4 @@ Amazonセールスチャネルストアを作成および統合した後、ス�
    - **[!UICONTROL Logs]** - [変更のリスト](./listing-changes-log.md) および [通信エラー](./communication-errors-log.md).
    - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- [!DNL Commerce] 管理者。
 
-![ストアダッシュボード](assets/ob-store-review.png)
+![ストアダッシュボード](assets/ob-store-review.png){width="600" zoomable="yes"}

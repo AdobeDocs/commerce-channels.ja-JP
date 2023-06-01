@@ -1,15 +1,15 @@
 ---
-title: '''オンボーディング：リストルールの作成`'
+title: Amazonリストルールの作成
 description: Amazonセールスチャネルのオンボーディングプロセスを完了する際に、お客様のAmazonリストを生成するための最初のリストルールを作成します [!DNL Commerce] 製品。
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# オンボーディング：リストルールを作成
+# Amazonリストルールの作成
 
 リストルールはオンボーディング中に定義できますが、いつでも変更できます。 オンボーディング後、 [リストルール](./listing-rules.md) 店で [dashboard](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. リストプレビューでリストを確認します。
 
-   ![リストのプレビュー](assets/amazon-ob-listing-preview.png)
+   ![リストのプレビュー](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]**  — このタブに表示される製品は、現在のリストルール設定に基づくAmazonリストに登録する資格がありません。
 

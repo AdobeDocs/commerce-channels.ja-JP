@@ -1,15 +1,15 @@
 ---
-title: アクション別の製品リストの管理
+title: Amazonの製品リストをアクション別に管理
 description: Amazonのリストを管理する際に、個々のリストまたは複数のリストにアクションを適用できます。
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# アクション別の製品リストの管理
+# Amazonの製品リストをアクション別に管理
 
 この _[!UICONTROL Product Listings]_ページにはいくつかのタブが含まれており、このタブで、すべてのリストのステータスを表示し、製品をAmazonのリストに一致させることができます。
 

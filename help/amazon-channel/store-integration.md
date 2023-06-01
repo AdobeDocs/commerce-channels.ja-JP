@@ -1,17 +1,17 @@
 ---
-title: ストア統合
+title: ストアとの統合 [!DNL Amazon Seller Account]
 description: オンボーディングプロセスを開始する前に、AmazonSales Channelストアを作成（追加）し、Amazonセラーアカウントに接続する必要があります。
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# ストア統合
+# ストアとの統合 [!DNL Amazon Seller Account]
 
-Amazonセールスチャネルの使用を開始するには、Amazonセールスチャネルストアを作成（追加）し、Amazonセラーアカウントに接続する必要があります。 これら 2 つの手順で、 [!DNL Commerce] およびAmazonアカウントを使用して、データの共有、製品の同期などをおこなうことができます。
+Amazonセールスチャネルの使用を開始するには、Amazonセールスチャネルストアを作成（追加）し、 [!DNL Amazon Seller Account]. これら 2 つの手順で、 [!DNL Commerce] およびAmazonアカウントを使用して、データの共有、製品の同期などをおこなうことができます。
 
 _のプライマリログイン資格情報が必要です [!DNL Amazon Seller Central] ストアに接続するためのアカウント（販売者アカウントの作成に使用する電子メールまたは電話）。_
 
@@ -29,7 +29,7 @@ _のプライマリログイン資格情報が必要です [!DNL Amazon Seller C
 
    この _[!UICONTROL Add Amazon sales channel]_ページが開きます。
 
-   ![Amazonセールスチャネルストアを追加する](assets/amazon-store-integration.png)
+   ![Amazonセールスチャネルストアを追加する](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. の場合 **[!UICONTROL Magento Website to use for Amazon Listing]**&#x200B;を選択し、 [!DNL Commerce] このAmazonセールスチャネルストアに接続する web サイト。
 
@@ -84,7 +84,7 @@ _のプライマリログイン資格情報が必要です [!DNL Amazon Seller C
 
    ストアのダッシュボードを表示するには、 **[!UICONTROL View Store]** をストアカードに貼り付けます。
 
-![Amazonセールスチャネルホームに新しいストアカードが付いた](assets/asc-dashboard-after-2fa.png)
+![Amazonセールスチャネルホームに新しいストアカードが付いた](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 新しいAmazonセールスチャネルストアが [!DNL Amazon Seller Central] アカウント
 

@@ -2,9 +2,9 @@
 user-guide-title: AmazonSales Channelユーザーガイド
 user-guide-description: Adobe CommerceまたはMagento Open Sourceを [!DNL Amazon Seller Central] アカウント
 breadcrumb-title: Amazonセールスチャネル
-source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,11 @@ ht-degree: 0%
 
 # Amazonセールスチャネル — [!DNL channel manager] Adobe Commerce {#amazon}
 
-- [ガイドの概要](guide-overview.md)
+- [AmazonSales Channelユーザーガイド](guide-overview.md)
 - [Amazonセールスチャネルの概要](overview.md)
-- [リリースノート](release-notes.md)
 - はじめに {#getting-started}
-   - [Amazon Sales Channel について](about-amazon-sales-channel.md)
    - [Amazon Marketplace について](about-amazon-marketplace.md)
-   - [Amazonとコマースカタログについて](about-listings-and-catalog.md)
+   - [Amazonとコマースカタログ](about-listings-and-catalog.md)
    - [ベストプラクティスと制限事項](amazon-best-practices.md)
    - [拡張機能のインストール](install.md)
 - オンボーディング {#onboarding}
@@ -113,3 +111,4 @@ ht-degree: 0%
    - [一般的なオーダー処理タスク](common-order-processing.md)
    - [達成ワークフロー](fulfillment-workflows.md)
    - [未発送の注文をキャンセル](cancel-unshipped-order.md)
+- [リリースノート](release-notes.md)

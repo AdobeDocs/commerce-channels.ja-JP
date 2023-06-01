@@ -1,15 +1,15 @@
 ---
-title: 新しいサードパーティ製品リスト
+title: 新しいサードパーティAmazonリスト
 description: 新しいAmazonリストをコマースカタログの製品と照合して管理します。
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# 新しいサードパーティ製品リスト
+# 新しいサードパーティAmazonリスト
 
 この _[!UICONTROL New Third Party]_「 」タブには、お使いのAmazonの製品に一致しない既存の製品リストが表示されます [!DNL Commerce] カタログ。 数量、価格、処理時間などのリスト管理を使用するには、Amazonの各リストを製品に対して照合（割り当て）する必要があります [!DNL Commerce] カタログ。 リストを [!DNL Commerce] カタログ。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >処理中のリストがある場合、タブの上にメッセージが表示され、リストの数を示します。
 
-![新しいサードパーティのリスト](assets/amazon-listings-new-third-party.png)
+![新しいサードパーティのリスト](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
 

@@ -1,17 +1,17 @@
 ---
-title: 作成 [!DNL Commerce] Amazonの属性
+title: Amazonのコマース属性の作成
 description: Amazonセールスチャネルのオンボーディングプロセスを完了する前に、必要な情報が揃っていることを確認します [!UICONTROL Commerce] 製品属性。
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# 作成 [!DNL Commerce] Amazonの属性
+# Amazonのコマース属性の作成
 
-オンボーディングの前に [!DNL Amazon Seller Central] アカウントを追加する場合は、 [!DNL Commerce] [製品属性](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} 製品リストをマッピングするには： オンボーディングが完了したら、 [属性](./managing-attributes.md) タブ [Amazonセールスチャネルホーム](./amazon-sales-channel-home.md) ページ。
+オンボーディングの前に [!DNL Amazon Seller Central] アカウントを追加する場合は、 [!DNL Commerce] [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 製品リストをマッピングするには： オンボーディングが完了したら、 [属性](./managing-attributes.md) タブ [Amazonセールスチャネルホーム](./amazon-sales-channel-home.md) ページ。
 
 以下の手順で、 [!DNL Commerce] Amazon ASIN とAmazon条件の属性。 Amazon EAN、Amazon ISBN、Amazon UPC などの追加の属性を作成することをお勧めします。 Amazon上場価格を価格設定ルールの価格ソースとして使用する場合は、 Amazon Price 属性も作成できます。 これらの属性は、オンボーディング時にリストと価格の設定を指定する際に使用します。 また、Amazonのリストを作成する際や、の更新と同期をおこなう際にも、これらの属性を使用します [!DNL Commerce] カタログとAmazonのリスト。
 
@@ -59,7 +59,7 @@ Amazon ASIN 属性のみを作成する場合（製品ごとに ASIN 値を追�
 
 1. クリック **[!UICONTROL Save Attribute]**.
 
-![Amazon ASIN 属性](assets/creating-asin-attribute.png)
+![Amazon ASIN 属性](assets/creating-asin-attribute.png){width="600" zoomable="yes"}
 
 ## Amazon Condition 製品属性の作成
 
@@ -116,6 +116,6 @@ Amazon ASIN 属性のみを作成する場合（製品ごとに ASIN 値を追�
 
 1. クリック **[!UICONTROL Save Attribute]**.
 
-![Amazon条件属性](assets/creating-amazon-condition-attribute.png)
+![Amazon条件属性](assets/creating-amazon-condition-attribute.png){width="600" zoomable="yes"}
 
 ![次のアイコン](assets/btn-next.png) [**API キーの追加または検証を続行します。**](./amazon-verify-api-key.md)

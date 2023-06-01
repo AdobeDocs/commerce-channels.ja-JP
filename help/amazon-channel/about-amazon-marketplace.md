@@ -1,50 +1,50 @@
 ---
-title: Amazon Marketplace について
-description: アドビシステムズ社の製品カタログを、Amazon Marketplace の一覧として活用して、Adobe Commerce や Magento のオープンソースストアの対象を拡大します。
+title: 「概要 [!DNL Amazon Marketplace]"
+description: 製品カタログをAmazon Marketplace のリストとして活用して、Adobe CommerceまたはMagento Open Sourceストアのリーチを拡大します。
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
-# に関しては [!DNL Amazon Marketplace]
+# について [!DNL Amazon Marketplace]
 
-[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target = &quot;_blank&quot;} は、Amazon によって運営および運営されている電子商取引プラットフォームです。これにより、サードパーティの売り手が新製品または使用済み製品を販売できるようになります。 [!DNL Amazon Marketplace]サードパーティの使用により、Amazon のワールドワイド全体のユーザーベースにアクセスすることができます。Amazon に含まれている、アドビシステムズ社の製品をリストする商人は、Adobe Commerce や Magento のオープンソースユーザーも含め、Amazon によって「サードパーティの売り手」と定義されています。
+[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target="_blank"} は、Amazonが所有および運営する e コマースプラットフォームで、サードパーティの販売者が新しい製品や中古製品を販売できるようにします。 使用 [!DNL Amazon Marketplace]、サードパーティ販売者は、Amazonの世界規模の顧客ベースにアクセスできます。 Adobe CommerceやMagento Open Sourceのユーザーを含む、Amazonで販売する商品をリストする商人は、Amazonによって「サードパーティの販売者」と定義されます。
 
-いかなるサイズのサードパーティの売り手も、 [!DNL Amazon Seller Central] アカウントを作成し、を使用して [!DNL Amazon Marketplace] Amazon のグローバルユーザーベースに到達できます。 取引先企業が作成され、有効になると、売り手は、販売用製品の追加と一覧作成、注文と在庫の管理、注文を実行することができます。
+任意のサイズのサードパーティ販売者は、 [!DNL Amazon Seller Central] アカウントと [!DNL Amazon Marketplace] Amazonのグローバルカスタマーベースに到達する アカウントを作成してアクティブにした後、販売者は、販売用に製品の追加とリスト作成、注文と在庫の管理、注文の履行をおこなうことができます。
 
-## Amazon の一覧
+## Amazon Listings
 
-Amazon リストには **、製品情報およびリスティング情報という2種類の情報が含まれ** て **** います。
+Amazonの一覧には、次の 2 つのカテゴリの情報が含まれます。 **製品情報** および **リスト情報**.
 
 ### 製品情報
 
-製品情報には、Amazon に一覧表示された同じ製品のすべてのインスタンスに共通のデータが含まれています。 例えば、一部の売り手は、Amazon についての特定のブランドのズボンを一覧表示します。 製品についての全般的な詳細情報 (名前やモデル番号など) は、製品がリストされるたびに同じになります。 複数の売り手が製品にデータを提供すると、Amazon は製品の詳細ページにどの販売店の情報が表示されるかが判別されます。
+製品情報は、Amazonにリストされている同じ製品のすべてのインスタンスに共通のデータを提供します。 例えば、複数の販売者がAmazonで特定のブランドのヨガパンツをリストする場合があります。 製品の一般的な詳細（名前やモデル番号など）は、製品がリストされるたびに同じです。 複数の販売者が製品にデータを提供する場合、Amazonは、製品の詳細ページに表示される販売者の製品情報を特定します。
 
 ### リスト情報
 
-リスト情報には、製品に関する販売者向け情報が記載されています。 このような詳細情報は、多くの場合、同じ製品の他の売り手のリストとは異なります。 例えば、ある出荷 ga が別の販売者と同じに販売されていても、その品目番号、条件、価格、送付方法は異なる場合があります。 このような詳細情報は、製品の出展によって異なります。
+リスト情報は、製品に関する販売者固有の情報を提供します。 これらの詳細は、多くの場合、同じ製品に関する他の販売者のリストとは異なります。 例えば、他の販売者と同じヨガパンツを販売する場合がありますが、商品番号、条件、価格、輸送方法/時間は異なる場合があります。 これらの詳細は、製品のリストに固有です。
 
-製品情報を contribute に追加する必要がある場合、または製品詳細ページの誤り情報を修正する場合は、 [ Amazon: Product detail ](https://sellercentral.amazon.com/gp/help/external/200335450) {target = &quot;_blank&quot;} を参照してください。
+製品情報の投稿や、製品の詳細ページでの誤った情報の修正を行う場合は、 [Amazon:製品の詳細](https://sellercentral.amazon.com/gp/help/external/200335450){target="_blank"}.
 
-## Amazon フルフィルメント
+## Amazon達成
 
-Amazon は、注文の履行と出荷について2つのオプションを提供します。
+Amazonは、注文の受け渡しと配送の 2 つのオプションを提供します。
 
-- **マーチャントによって履行される (FBM)** : サードパーティの売り手が、独自の在庫を格納します。 顧客が注文を行った場合、売り手は、顧客へのパッケージ化と出荷を行います。 このオプションを使用すると、Adobe Commerce および Magento Open Source またはその他のサードパーティを通じて出荷を完了することができます。
+- **商人 (FBM) によって実行される**:サードパーティの販売者は、自分の在庫を保存します。 顧客が注文を行うと、販売者は顧客に対して包装と出荷を処理する。 このオプションを使用すると、Adobe Commerce、Magento Open Source、または別のサードパーティを通じて出荷を完了できます。
 
-- **Amazon (FBA) によって** 実行されるサードパーティの売り手は、amazon のフルフィルメントセンターで世界各地に在庫を保管します。 ユーザーが注文を行ったときに、Amazon はパッケージ化および出荷をユーザーに対して行います。 注文の詳細およびステータスは、Adobe Commerce または Magento Open Source に送信されます。
+- **Amazon(FBA) で実現**:サードパーティの販売者は、世界中のAmazonのフルフィルメントセンターに在庫を保存します。 お客様が注文すると、Amazonはパッケージを処理し、お客様への発送を処理します。 注文の詳細とステータスは、Adobe CommerceまたはMagento Open Sourceに送信されます。
 
-拡張機能では、 [!DNL Amazon Sales Channel] これらの注文の受信と追跡の両方のオプションがサポートされています。 手続きが完了すると、注文のステータスは自動的に更新されます。 [フルフィルメントのワークフロー ](./fulfillment-workflows.md) を参照してください。
+この [!DNL Amazon Sales Channel] 拡張機能は、これらの注文の受信と追跡の両方のオプションをサポートしています。 達成が完了すると、オーダーのステータスが自動的に更新されます。 詳しくは、 [達成ワークフロー](./fulfillment-workflows.md).
 
-## Amazon について販売を開始する前に
+## Amazonで販売する前に
 
-Amazon は、一連のポリシーおよびワークフローに従い、すべての売り手や製品が指定したガイドラインに従うようにしています。 製品およびアカウントが承認され、出展の対象となることを確認するには、次の Amazon に関する情報とポリシーを確認する必要があります。
+Amazonは、すべての販売者と製品が指定されたガイドラインに従うよう、一連のポリシーとワークフローに従います。 お使いの製品とアカウントが承認され、リストに登録できることを確認するには、次のAmazonの情報およびポリシーを確認する必要があります。
 
-- [Amazon 売り手のヘルプ ](https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US/) {target = &quot;_blank&quot;}
-- [出荷ポリシー ](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US) {target = &quot;_blank&quot;}
-- [プログラムポリシー ](https://sellercentral.amazon.com/gp/help/external/521?language=en-US) {target = &quot;_blank&quot;}
-- [販売方針と倫理規範 ](https://sellercentral.amazon.com/gp/help/external/1801?language=en-US) {target = &quot;_blank&quot;}
-- [Amazon ](https://sell.amazon.com/programs/renewed) {target = &quot;_blank&quot;} の更新された製品 (調整済み、プレオーナー、およびオープンボックス) 製品の一覧を表示します。
+- [Amazon販売者向けヘルプ](https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US/){target="_blank"}
+- [発送ポリシー](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US){target="_blank"}
+- [プログラムポリシー](https://sellercentral.amazon.com/gp/help/external/521?language=en-US){target="_blank"}
+- [販売ポリシーと行動規範](https://sellercentral.amazon.com/gp/help/external/1801?language=en-US){target="_blank"}
+- [Amazonで更新（リフュース済み、事前所有、オープンボックス）された製品のリスト](https://sell.amazon.com/programs/renewed){target="_blank"}

@@ -1,28 +1,28 @@
 ---
-title: リストの改善
-description: Amazon 販売チャンネルのリスト改善レポートには、Amazon の一覧品質の向上に関する提案が記載されています。
+title: Amazonセールスチャネル — [!UICONTROL Listing Improvements]
+description: AmazonSales Channelには、Amazonリストの品質を向上させるための提案を提供する「リストの改善」レポートが用意されています。
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# リストの改善
+# [!UICONTROL Listing Improvements]
 
-このレポートには、 [!UICONTROL Listing Improvements] リストの品質を向上させるために Amazon からの提案が記載された製品が表示されます。 この推奨事項は、Amazon リスト内の製品のパフォーマンスを向上させることができます。 ログに使用できるアクションはありません。 これはレビューのみの機能です。
+この [!UICONTROL Listing Improvements] レポートには、リストの品質を向上させるためにAmazonからの提案を含む製品が表示されます。 これらの提案を確認できます。これは、Amazonリスト内の製品のパフォーマンスに役立ちます。 ログに使用できるアクションはありません。 これはレビュー専用の機能です。
 
-Amazon から得られたリストの改善によって、Amazon によって製品がリストされるのを防ぐことはできません。
+Amazonからリストの改善を受け取った場合でも、Amazonで製品がリストに表示されることはありません。
 
-![リストの改善](assets/amazon-listing-improvements.png)
+![リストの改善点](assets/amazon-listing-improvements.png){width="600" zoomable="yes"}
 
 ## デフォルトの列
 
-| 段 | つい |
+| 列 | 説明 |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>「アーク」は、 [!DNL Amazon Standard Identification Number] . アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
-| [!UICONTROL Alert Type] | リストの問題の種類を示します。 例えば、&quot;Missing&quot; は、必要な属性が存在しないことを示します。 |
-| [!UICONTROL Field Name] | Amazon 売り手によって改善が推奨される際の、その機能についての情報が記載されているフィールドの名前。 |
-| [!UICONTROL Notes] | Amazon から受信した改善策について説明します。 |
+| [!UICONTROL Amazon Seller SKU] | 製品、オプション、価格および製造元を識別するために、Amazonが製品に割り当てた SKU(Stock Keeping Unit)。 |
+| [!UICONTROL ASIN] | アイテムを識別する 10 文字または数字の一意のブロック。<br><br>ASIN は、 [!DNL Amazon Standard Identification Number]. ASIN は、項目を識別する 10 文字または数字の一意のブロックです。 書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合は、アイテムがカタログにアップロードされると新しい ASIN が作成されます。 ASIN は、Amazonの製品の詳細ページに、その品目に関する詳細と共に表示されます。 |
+| [!UICONTROL Alert Type] | リストに関する問題のタイプを説明します。 例えば、「Missing」は、必須の属性が不足していることを示します。 |
+| [!UICONTROL Field Name] | 改善が推奨される詳細をリストするAmazonの販売者のフィールド名。 |
+| [!UICONTROL Notes] | Amazonから受け取った推奨改善の説明。 |

@@ -1,21 +1,21 @@
 ---
-title: 競合他社の最低価格
+title: Amazonセールスチャネル — [!UICONTROL Lowest Competitor Pricing]
 description: この [!UICONTROL Amazon Sales Channel] には [!UICONTROL Lowest Competitor Pricing] 「 」タブを使用して、Amazonでの競合相手の価格の位置付けを理解しやすくします。
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-# 競合他社の最低価格
+# [!UICONTROL Lowest Competitor Pricing]
 
 この _[!UICONTROL Lowest Competitor Pricing]_タブ_[!UICONTROL Product Listing Details]_ ページには最終ランディング価格が最も低いものの、出荷価格と上場価格に分類されます。 この情報を使用して、Amazonでの競合他社の価格の位置付けを理解できます。
 
 [インテリジェントな価格変更ルール](./intelligent-repricing-rules.md) は、競合相手の価格に基づいて価格を調整するように設定できます。
 
-![競合他社の最低価格](assets/amazon-listing-details-lowest-comp.png)
+![競合他社の最低価格](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}
 
 ## 競合相手の最も低い価格設定の詳細にアクセス
 

@@ -1,10 +1,10 @@
 ---
-title: 製品の作成と割り当て
+title: Amazonセールスチャネル用の製品の作成と割り当て
 description: AmazonSales Channelが [!UICONTROL New Third Party] タブは、一致するコマースカタログ製品を作成し、Amazonリストに割り当てるのに役立ちます。
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Amazonリストからカタログ商品を作成する場合：
 
    - の場合 **[!UICONTROL Website Ids]**、製品を関連付ける web サイト（ストアフロント）を選択します。
 
-      このリストのオプションは、 [!DNL Commerce] [ストア設定](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 設定。
+      このリストのオプションは、 [!DNL Commerce] [ストア設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
 
    - の場合 **[!UICONTROL Attribute Set Id]** （必須）」で、オプションを選択します。
 
-      `Default` はデフォルトの選択です。 このリストのオプションは、 [!DNL Commerce] [属性セット](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} 設定済みです。
+      `Default` はデフォルトの選択です。 このリストのオプションは、 [!DNL Commerce] [属性セット](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 設定済みです。
 
    - の場合 **[!UICONTROL Visibility]**」で、新しい製品のオプションを選択します。
 
@@ -71,7 +71,7 @@ Amazonリストからカタログ商品を作成する場合：
 
    - の場合 **[!UICONTROL Assign Tax Class]**、製品のオプションを選択します。
 
-      このリストに表示されるオプションは、 [税制](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} 設定済みです。
+      このリストに表示されるオプションは、 [税制](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 設定済みです。
 
    - 完了したら、「 **[!UICONTROL Create Catalog Products]**.
 
@@ -104,11 +104,11 @@ Amazonリストからカタログ商品を作成する場合：
 
    - の場合 **[!UICONTROL Website Ids]**、製品を関連付ける web サイト（ストアフロント）を選択します。
 
-      このリストのオプションは、 [!DNL Commerce] [ストア設定](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 設定。
+      このリストのオプションは、 [!DNL Commerce] [ストア設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
 
    - の場合 **[!UICONTROL Attribute Set Id]** （必須）」で、オプションを選択します。
 
-      `Default` はデフォルトの選択です。 このリストのオプションは、 [!DNL Commerce] [属性セット](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} 設定済みです。
+      `Default` はデフォルトの選択です。 このリストのオプションは、 [!DNL Commerce] [属性セット](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 設定済みです。
 
    - の場合 **[!UICONTROL Visibility]**」で、新しい製品のオプションを選択します。
 
@@ -116,19 +116,19 @@ Amazonリストからカタログ商品を作成する場合：
 
    - の場合 **[!UICONTROL Assign Tax Class]**、製品のオプションを選択します。
 
-      このリストに表示されるオプションは、 [税制](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} 設定済みです。
+      このリストに表示されるオプションは、 [税制](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 設定済みです。
 
    - 完了したら、「 **[!UICONTROL Create Catalog Products]**.
 
 カタログ製品は [!DNL Commerce] カタログに割り当てられ、作成元のAmazonリストに割り当てられます。 現在は、リストがそれぞれのAmazonリストと一致し、リストは [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) 」タブに移動して、 [_[!UICONTROL Active]_](./active-listings.md) タブをクリックします。
 
-![コマースカタログ製品を作成](assets/amazon-magento-catalog-product.png)
+![コマースカタログ製品を作成](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |--- |--- |
 | [!UICONTROL Enable Product(s)] | （必須）有効にすると、製品が [!DNL Commerce] ストアフロント。 無効にすると、製品は [!DNL Commerce] ストアフロント。 |
-| [!UICONTROL Categories] | 新しい製品のカテゴリの名前を入力するか、下向き矢印をクリックしてオプションを表示してカテゴリを選択できます。 オプションは、 [カテゴリ](https://docs.magento.com/user-guide/catalog/category-create.html){target="_blank"} 設定。 |
-| [!UICONTROL Website Ids] | （必須）製品を関連付ける Web サイト（ストアフロント）を選択します。 オプションは、 [!DNL Commerce] [ストア設定](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 設定 |
-| 属性セット ID | 属性セットを選択します。 オプションは、設定に応じて異なります [!DNL Commerce] [属性セット](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"}. |
+| [!UICONTROL Categories] | 新しい製品のカテゴリの名前を入力するか、下向き矢印をクリックしてオプションを表示してカテゴリを選択できます。 オプションは、 [カテゴリ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) 設定。 |
+| [!UICONTROL Website Ids] | （必須）製品を関連付ける Web サイト（ストアフロント）を選択します。 オプションは、 [!DNL Commerce] [ストア設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定 |
+| 属性セット ID | 属性セットを選択します。 オプションは、設定に応じて異なります [!DNL Commerce] [属性セット](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html). |
 | [!UICONTROL Visibility] | オプション：<ul><li>**[!UICONTROL Not Visible Individually]**  — 製品が [!DNL Commerce] storefront （バリアント製品で最も一般的）。</li><li>**[!UICONTROL Catalog]** - Web サイト内で関連付けられているカテゴリを通じて製品にアクセスできます。</li><li>**検索**  — 検索ツールを通じてのみ製品を検索できるようにします。</li><li>**[!UICONTROL Catalog and Search]**  — カテゴリ構造を使用し、検索ツールを使用して製品にアクセスできます。</li></ul> |
-| [!UICONTROL Assign Tax Class] | 新しい製品に税区分を割り当てます。 オプションは、設定に応じて異なります [税制](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"}. |
+| [!UICONTROL Assign Tax Class] | 新しい製品に税区分を割り当てます。 オプションは、設定に応じて異なります [税制](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html). |

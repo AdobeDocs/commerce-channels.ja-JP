@@ -1,15 +1,15 @@
 ---
-title: アクティブなリスト
+title: アクティブなAmazonリスト
 description: Amazonセールスチャネルは、アクティブなAmazonリストを監視し、Adobe Commerceカタログ内の製品と一致する「アクティブ」タブを提供します。
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# アクティブなリスト
+# アクティブなAmazonリスト
 
 この _[!UICONTROL Active]_タブには、アクティブなAmazonリストが表示されます [!DNL Amazon Marketplace] お使いの [!DNL Commerce] カタログ。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 >処理中のリストがある場合は、リストの数がタブの上のメッセージに表示されます。
 
-![アクティブなリスト](assets/amazon-active-listings.png)
+![アクティブなリスト](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
 

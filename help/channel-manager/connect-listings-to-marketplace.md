@@ -2,9 +2,9 @@
 title: Walmart にリストを接続
 description: '''次の項目にリストを接続 [!DNL Commerce] 製品を [!DNL Walmart Marketplace]売り出しを始める」'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 送信者 **[!UICONTROL Listings]**、 *[!UICONTROL Draft]* ステータス。
 
-   ![リストから製品を選択し、照合用に送信](assets/products-in-marketplace-sales-channel.png)
+   ![リストから製品を選択し、照合用に送信](assets/products-in-marketplace-sales-channel.png){width="500" zoomable="yes"}
 
 1. 選択 **[!UICONTROL Match Products]**.
 
@@ -115,9 +115,9 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
 
 - 書き出し操作を完了するには、cron ジョブが実行中であることを確認します。
 
-   - オンプレミスのインスタンスの場合は、 [cron の設定と実行](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html).
+   - オンプレミスのインスタンスの場合は、 [cron の設定と実行](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html).
 
-   - Adobeクラウドインフラストラクチャについては、 [Cron ジョブの設定](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html).
+   - Adobeクラウドインフラストラクチャについては、 [Cron ジョブの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
 
 ### アップロードする製品データファイルを作成します
 
@@ -125,11 +125,11 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
 
    - 「商品カタログ品目」ページで、「 **[!UICONTROL Add Items]**. 次に、 **[!UICONTROL Add items in bulk]**.
 
-      ![Walmart Marketplace 項目設定の「Add items in bulk」オプション](assets/walmart-seller-account-add-items-bulk.png)
+      ![Walmart Marketplace 項目設定の「Add items in bulk」オプション](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - ダウンロードページで、「 」を選択します。 **[!UICONTROL Full Setup]**. 次に、項目カテゴリを選択し、カテゴリテンプレートをダウンロードします。
 
-      ![Walmart Marketplace 項目設定の「カテゴリテンプレートをダウンロード」オプション](assets/walmart-seller-account-full-setup-download.png)
+      ![Walmart Marketplace 項目設定の「カテゴリテンプレートをダウンロード」オプション](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - 製品リストに必要な属性と推奨属性がテンプレートに含まれていることを確認します。
 
@@ -140,15 +140,14 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
    - の [!UICONTROL Export] ページの [!UICONTROL Entity Type] フィールド、選択 [!UICONTROL **製品**].
 
    - 内 [!UICONTROL Entity Attributes] 表で、製品データの書き出しの選択基準を設定します。
-   ![での製品データページの書き出し [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   フィルターを使用して、販売する製品カテゴリに適用する属性値を選択および設定します。 Walmart の必須属性と推奨属性を必ず含めてください。 ( [データを書き出し](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] ユーザーガイドを参照してください )。
+      フィルターを使用して、販売する製品カテゴリに適用する属性値を選択および設定します。 Walmart の必須属性と推奨属性を必ず含めてください。 ( [データを書き出し](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) Adobe [!DNL Commerce] ユーザーガイドを参照してください )。
 
-   書き出しの対象から属性を省略するには、 [!UICONTROL **除外**] 」チェックボックスを使用して、データを書き出すことができます。
+      書き出しの対象から属性を省略するには、 [!UICONTROL **除外**] 」チェックボックスを使用して、データを書き出すことができます。
 
 1. 属性テーブルの最後までスクロールし、「 」を選択します。 [!UICONTROL **続行**] をクリックして、データのエクスポートを開始します。
 
-   CSV 書き出しファイルは、cron ジョブを使用してメッセージキューで処理され、 `var/export/folder`. ( [メッセージキューの管理](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) 内 *コマース開発者ガイド*.)
+   CSV 書き出しファイルは、cron ジョブを使用してメッセージキューで処理され、 `var/export/folder`. ( [メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) 内 *設定ガイド*.)
 
 1. Walmart Marketplace 製品カテゴリの Excel テンプレートを開き、Excel マクロ機能を使用して、エクスポートされた製品データを Excel テンプレートに結合します。
 

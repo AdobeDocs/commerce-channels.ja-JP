@@ -2,9 +2,9 @@
 title: '''インテリジェントな価格変更ルール：オプションの上限価格`'
 description: オプションの上限価格設定を使用して、Amazonの一覧を管理するインテリジェントな価格ルールから最も高い製品価格を保護します。
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. の場合 **[!UICONTROL Ceiling Price Source]**、属性を選択します。
 
-   を選択します。 [!DNL Commerce] [製品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} これは、相対的な上限を示します。 例えば、Amazonの上場価格を品目の MSRP よりも高くしたくない場合は、 `Manufacturer's Suggested Retail Price` 属性。
+   を選択します。 [!DNL Commerce] [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) これは、相対的な上限を示します。 例えば、Amazonの上場価格を品目の MSRP よりも高くしたくない場合は、 `Manufacturer's Suggested Retail Price` 属性。
 
 1. の場合 **[!UICONTROL Ceiling Price Action]**、「 」オプションを選択します。
 
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 この例では、上限価格が品目の MSRP より 2%低く設定されています。
 
-![インテリジェントな価格変更ルール — オプションの上限価格](assets/ob-intelligent-price-rule-ceiling.png)
+![インテリジェントな価格変更ルール — オプションの上限価格](assets/ob-intelligent-price-rule-ceiling.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |---|---|
-| [!UICONTROL Ceiling Price Source] | を選択します。 [!DNL Commerce] [製品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} これは、相対的な上限を示します。 例えば、製品リストの価格を品目の MSRP よりも高くしたくない場合、 `Manufacturer's Suggested Retail Price` 属性。 |
+| [!UICONTROL Ceiling Price Source] | を選択します。 [!DNL Commerce] [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) これは、相対的な上限を示します。 例えば、製品リストの価格を品目の MSRP よりも高くしたくない場合、 `Manufacturer's Suggested Retail Price` 属性。 |
 | [!UICONTROL Ceiling Price Action] | 価格調整処理を選択します。 オプション：<ul><li>**[!UICONTROL Decrease By]**  — 定義する _[!UICONTROL Ceiling Price Source]_値を調整して、ルールの上限価格を下げ、Amazonにリストする前に作成します。</li><li>**[!UICONTROL Increase By]**  — 定義する _[!UICONTROL Ceiling Price Source]_値を調整して、ルールの上限価格を高くし、Amazonにリストする前に設定します。</li><li>**[!UICONTROL Match]**  — 定義した _[!UICONTROL Ceiling Price Source]_の値です。 に設定する場合 `Match`、_[!UICONTROL Apply]_ および _[!UICONTROL Ceiling Adjustment Amount]_フィールドは無効です。</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - _[!UICONTROL Ceiling Price Source]_の値です。 |
 | [!UICONTROL Ceiling Price Adjustment] | パーセントを調整する数値を入力します _[!UICONTROL Ceiling Price Source]_の値です。 |

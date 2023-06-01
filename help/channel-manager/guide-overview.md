@@ -1,18 +1,18 @@
 ---
-title: '''[!DNL Channel Manager] ガイドの概要`'
+title: '''[!DNL Channel Manager] ガイド`'
 description: ''' [!DNL Channel Manager] Adobe CommerceおよびMagento Open Source管理者向け（インストールとオンボーディングを含む）'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
 
-# 概要
+# チャネルマネージャーガイド
 
 このガイドは、Adobe CommerceとMagento Open Sourceの管理者を対象としています。 以下に、 [!DNL Channel Manager] インストール、オンボーディング、設定、管理。 このガイドは、コアに関する基本的な理解を前提としています [!DNL Commerce] 設定と機能に関する情報です。
 
@@ -30,10 +30,14 @@ ht-degree: 0%
 
 ## その他のドキュメント
 
-| ガイド | 説明 |
-|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Adobe Commerce 2.4 ユーザーガイド](https://docs.magento.com/user-guide) | Adobe CommerceとMagento Open Sourceの両方に関するマーチャント中心のドキュメント |
-| [Adobe Commerce 2.4 開発者ガイド](https://devdocs.magento.com) | Adobe CommerceまたはMagento Open Sourceのビルドとカスタマイズに使用する開発者向けのドキュメント |
+
+| ドキュメントリソース | 説明 |
+|----------------------- | ----------- |
+| [Adobe Commerce 2.4 Merchant ドキュメント](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe CommerceとMagento Open Sourceの両方に関するマーチャント中心のドキュメント |
+| [Adobe Commerce Documentation のサービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | マーチャントがビジネスの主要なコンポーネントを店舗に統合するのに役立つサービスのコレクションをサポートするドキュメントです。 |
+| [Commerce on Cloud Infrastructure ガイド](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 管理対象の自動ホスティングされた Cloud プラットフォームにAdobe Commerceをデプロイする手順を説明します。 |
+| [Adobe Commerce 2.4 運用ガイド](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe CommerceおよびMagento Open Sourceプラットフォームにデプロイされたプロジェクトを開発、デプロイ、メンテナンスするための概念、プロセス、ツール、ベストプラクティスに関するシステムドキュメントです。 |
+| [Adobe Commerce 2.4 開発者向けドキュメント](https://developer.adobe.com/commerce/docs) | Adobe CommerceまたはMagento Open Sourceの構築とカスタマイズに使用する開発者向けドキュメント |
 
 ## サポート
 

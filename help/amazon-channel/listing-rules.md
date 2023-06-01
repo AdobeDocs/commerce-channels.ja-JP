@@ -1,16 +1,15 @@
 ---
-title: ルールのリスト
+title: Amazonセールスチャネル — [!UICONTROL Listing Rules]
 description: リストルールを使用して、Amazon Marketplace リストとして公開する Commerce カタログ製品を決定します。
-redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
 
-# ルールのリスト
+# [!UICONTROL Listing Rules]
 
 ストアのリストルールには、 [ストアダッシュボード](./amazon-store-dashboard.md).
 
@@ -20,7 +19,7 @@ ht-degree: 0%
 
 - すべての製品をAmazonリストに公開する場合は、リストルールの条件を定義しないでください。
 
-- Amazonに公開するカタログ商品を制限する場合は、リストルールの条件を定義します。 Amazonリストルールの条件の定義は、 [買い物かごの価格ルール](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+- Amazonに公開するカタログ商品を制限する場合は、リストルールの条件を定義します。 Amazonリストルールの条件の定義は、 [買い物かごの価格ルール](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 - リストルールで製品が除外される場合、その製品の適格性ステータスは「 `Ineligible`. 不適格な製品はAmazonに公開されません。
 
@@ -28,7 +27,7 @@ ht-degree: 0%
 
 数量と適格性のステータスの変更は、同じ地域で販売する店舗に存在する市場で、Amazonのセラー SKU を共有するすべてのリストに影響します ( _[!UICONTROL Amazon Marketplace Country]_期間 [ストア統合](./store-integration.md)) をクリックします。 ただし、共有された [!DNL Amazon Seller SKU] ある地域では、別の国での製品のAmazonリストには影響しません。
 
-![リストルール](assets/ob-listing-rules.png)
+![リストルール](assets/ob-listing-rules.png){width="600" zoomable="yes"}
 
 ## リストルールの設定
 
@@ -40,7 +39,7 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 |---|---|
-| [!UICONTROL Websites] | 使用可能なオプションは、 [web サイト](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} お客様が [!DNL Commerce] 設定。 Amazonに表示される対象製品の Web サイトを選択します。 各 Web サイトにはAmazonセールスチャネルで作成する一意のAmazonストアが必要なので、選択できる Web サイトは 1 つだけです。 |
+| [!UICONTROL Websites] | 使用可能なオプションは、 [web サイト](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) お客様が [!DNL Commerce] 設定。 Amazonに表示される対象製品の Web サイトを選択します。 各 Web サイトにはAmazonセールスチャネルで作成する一意のAmazonストアが必要なので、選択できる Web サイトは 1 つだけです。 |
 | [!UICONTROL Conditions] | を定義するために使用されます。 [!DNL Commerce] Amazon地域での製品適格要件の属性。 詳しくは、 [例：条件の定義](./ob-define-condition-example.md). |
 
 ## 条件ワークスペース
@@ -50,7 +49,7 @@ ht-degree: 0%
 - 選択した Web サイト内のすべての製品が適格な場合は、条件を追加しないでください。
 - Amazonのシステムと直接通信する複雑なバックエンドプロセスのセットがあります。 リストしようとしている項目の数と、Amazonのシステムのビジー状態（ブラックフライデーなど）に基づいて、Amazonに項目がリストされるまでに時間がかかる場合があります。
 
-条件について詳しくは、 [条件の説明](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+条件について詳しくは、 [条件の説明](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 ## リストルールのプレビュー
 
@@ -90,7 +89,7 @@ Amazonのリストは、ルールおよび定義された条件と比較され�
 
    リストが期待どおりに表示されない場合は、 **[!UICONTROL Back]** リストが期待どおりになるまで、ルールと条件を変更します。
 
-![リストルールのプレビュー](assets/amazon-listing-rule-preview.png)
+![リストルールのプレビュー](assets/amazon-listing-rule-preview.png){width="600" zoomable="yes"}
 
 ### プレビューレコードのリスト
 
@@ -98,11 +97,11 @@ Amazonのリストは、ルールおよび定義された条件と比較され�
 |--- |--- |
 | [!UICONTROL Product ID] | に割り当てられる一意の順番 [!DNL Commerce] カタログ製品を追加する際に使用します。 |
 | [!UICONTROL Thumbnail] | メイン製品画像のサムネールを表示します。 |
-| [!UICONTROL Name] | で管理される製品の名前 [!DNL Commerce] [製品グリッド](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
+| [!UICONTROL Name] | で管理される製品の名前 [!DNL Commerce] [製品グリッド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |
 | [!UICONTROL Type] | で管理される製品のタイプ [!DNL Commerce] 製品グリッド。 |
 | [!UICONTROL Attribute Set] | 製品のテンプレートとして使用される属性セットの名前。 [!DNL Commerce] 製品グリッド。 |
 | [!UICONTROL SKU] | 製品に割り当てられ、で管理される一意の在庫管理単位 [!DNL Commerce] 製品グリッド。 |
 | [!UICONTROL Visibility] | 製品が表示され、で管理される場所を示します [!DNL Commerce] 製品グリッド。 オプション：<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
 | ステータス | 製品のステータスを示します。 [!DNL Commerce] 製品グリッド。 オプション： `Enabled` / `Disabled` |
 
-![リストプレビューワークフロー](assets/listing-preview-flowchart.png)
+![リストプレビューワークフロー](assets/listing-preview-flowchart.png){width="500" zoomable="yes"}

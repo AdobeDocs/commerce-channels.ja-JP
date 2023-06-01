@@ -1,75 +1,75 @@
 ---
-title: カタログ検索
-description: 検索対象の Commerce カタログ製品を Amazon リストにマップするために使用できる属性の一致を設定するには、カタログ検索の設定を更新します。
+title: カタログでのAmazonリストの検索
+description: 適格なコマースカタログ製品をAmazonリストにマッピングするのに役立つ属性の照合を設定するには、カタログ検索設定を更新します。
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# カタログ検索
+# カタログでのAmazonリストの検索
 
-_カタログ検索_ 設定は、ストアリストの設定に含まれています。 一覧の設定は、ストアのダッシュボードからアクセスされ [ ](./amazon-store-dashboard.md) ます。
+_カタログ検索_ 設定は、ストアリスト設定の一部です。 リスト設定には、 [ストアダッシュボード](./amazon-store-dashboard.md).
 
-これらの設定を使用して、Amazon リストを含む適格な製品に適合するように属性の一致を設定することができ [!DNL Commerce] ます。 マップされた場合、Amazon は価格、数量、オーバーライド、および注文と製品の同期に関するアクションがアクティブになります。
+これらの設定を使用すると、対象をマッピングするのに役立つ属性のマッチングを設定できます [!DNL Commerce] Amazonリストに含まれる製品。 マッピングが完了すると、Amazonは、価格、数量、上書き、注文および製品の同期に関連するアクションを有効化します。
 
-このマッピング値を定義すると、完全に一致する可能性が高くなります。これにより、製品リストを手動で検索する必要がなくなります。 属性を事前設定タスクの一部として追加すると [ ](./amazon-pre-setup-tasks.md) 、amazon sales channel は、オンボードの間に製品を自動的に照合し、Amazon と. 間の製品データを同期する可能性が高くなり [!DNL Commerce] ます。
+これらのマッピング値を定義すると、完全一致の可能性が高まり、製品リストを手動で照合する必要が最小限に抑えられます。 属性を [事前設定タスク](./amazon-pre-setup-tasks.md)Amazonセールスチャネルは、Amazonと [!DNL Commerce].
 
-Amazon の「サインオフ」属性を作成するのは、製品ごとの値を追加するのではなく、製品 [!DNL Commerce] が amazon リストに自動的に一致しない場合があります。 製品は [ 手動で割り当てることができ ](./creating-assigning-catalog-products.md) ます。 ただし、手動で比較を行っても、製品データを共有および同期するために必要なデータエレメントは作成されません。
+Amazon ASIN 属性のみを作成する場合（製品ごとに ASIN 値を追加しない場合）、 [!DNL Commerce] 製品は、Amazonのリストと自動的に一致しない場合があります。 以下が可能です。 [手動で割り当て](./creating-assigning-catalog-products.md) お使いの製品。 ただし、手動での照合では、製品データの共有と同期に必要なデータ要素は作成されません。
 
 >[!IMPORTANT]
 >
->製品に手動で一致した場合に、その製品のアーク、UPC、またはその他のデータ要素を更新するには、2つの場所でデータを更新する必要があります。 使用しているカタログと Amazon リストに含まれている情報をご利用 [!DNL Commerce] [!DNL Amazon Seller Central] ください。
+>製品を手動で照合し、製品の ASIN、UPC、または他のデータ要素を更新する場合は、2 か所でデータを更新する必要があります。 を [!DNL Commerce] カタログと、Amazonのリスト [!DNL Amazon Seller Central] アカウント
 
-このような属性と値は、必要に応じてマップすることをお勧めします。 このマッピングは必須ではありませんが、これは製品の照合に役立ちますが、Amazon と. との間で適切なカタログを同期するために必要です [!DNL Commerce] 。
+これらの属性と値をマッピングする（使用可能な場合）ことをお勧めします。 このマッピングを完了する必要はありませんが、製品の照合に役立ち、Amazonと [!DNL Commerce].
 
-属性を追加するには、「 [ Amazon 照合用の製品属性の作成」を参照してください ](./ob-creating-magento-attributes.md) 。
+属性を追加する場合は、 [Amazonマッチングの製品属性の作成](./ob-creating-magento-attributes.md).
 
-## 設定の構成 [!UICONTROL Catalog Search]
+## 設定 [!UICONTROL Catalog Search] 設定
 
-1. **[!UICONTROL Listing Settings]** Store のダッシュボードのをクリックします。
+1. クリック **[!UICONTROL Listing Settings]** を選択します。
 
-1. セクションを展開し _[!UICONTROL Catalog Search]_ます。
+1. を展開します。 _[!UICONTROL Catalog Search]_」セクションに入力します。
 
-1. については **[!UICONTROL ASIN]** 、Amazon アークサイン値用に作成した製品属性を選択します。
+1. の場合 **[!UICONTROL ASIN]**&#x200B;で、 Amazon ASIN 値用に作成した製品属性を選択します。
 
-   アーク ( [!DNL Amazon Standard Identification Number] ) は、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。
+   ASIN ([!DNL Amazon Standard Identification Number]) は、項目を識別する 10 文字または数字の一意のブロックです。 書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合は、アイテムがカタログにアップロードされると新しい ASIN が作成されます。 ASIN は、Amazonの製品の詳細ページに、その品目に関する詳細と共に表示されます。
 
-1. については **[!UICONTROL EAN]** 、AMAZON EAN 値用に作成した製品属性を選択します。
+1. の場合 **[!UICONTROL EAN]**&#x200B;で、 Amazon EAN 値用に作成した製品属性を選択します。
 
-   欧州欧州の記事番号 (EAN) は、12桁または13桁の製品識別コードで、バーコード規格です。 各 EAN は、製品、メーカー、および属性を一意に識別します。通常、EAN は製品ラベルに印刷されるか、バーコードとしてパッケージ化されます。 Amazon を使用するには、検索結果の品質を向上させるための EAN コードとカタログの質が必要になります。 EANs は製造元から入手できます。
+   欧州記事番号 (EAN) は、バーコード規格で、12 桁または 13 桁の製品 ID コードです。 各 EAN は、製品、製造元およびその属性を一意に識別します。通常、EAN は、製品ラベルまたはパッケージにバーコードとして印刷されます。 Amazonでは、検索結果の品質とカタログの品質を向上させるために EAN コードが必要です。 EAN は製造元から入手できます。
 
-1. については **[!UICONTROL GCID]** 、AMAZON GCIN 値用に作成した製品属性を選択します。
+1. の場合 **[!UICONTROL GCID]**「 」で、Amazon GCIN 値用に作成した製品属性を選択します。
 
-   グローバルカタログ識別子 (GCID) は、UPC コードまたは ISBN を持たない製品の ID です。 Amazon のブランドレジストリを使用すると、ブランド名として登録し、製品の一意の ID を作成することができます。
+   グローバルカタログ識別子 (GCID) は、UPC コードまたは ISBN を持たない製品の ID です。 Amazon Brand Registry を使用すると、ブランド所有者として登録し、製品の一意の ID を作成できます。
 
-1. については **[!UICONTROL ISBN]** 、AMAZON ISBN 値用に作成した製品属性を選択します。
+1. の場合 **[!UICONTROL ISBN]**「 」で、Amazon ISBN 値用に作成した製品属性を選択します。
 
-   国際標準ブック番号 (ISBN) は、一意の商用ブック id バーコードです。 各 ISBN コードは、本のを一意に識別します。 ISBN には、10または13桁の数字が含まれています。 2007年1月1日以降、すべての ISBN に13桁が割り当てられています。
+   International Standard Book Number(ISBN) は、一意の商用書籍識別子バーコードです。 各 ISBN コードは、本を一意に識別します。 ISBN は 10 桁か 13 桁です。 2007 年 1 月 1 日以降に割り当てられた ISBN はすべて 13 桁です。
 
-1. については **[!UICONTROL UPC]** 、AMAZON UPC 値用に作成した製品属性を選択します。
+1. の場合 **[!UICONTROL UPC]**&#x200B;で、 Amazon UPC 値用に作成した製品属性を選択します。
 
-   Universal Product Code (UPC) は、米国での小売用パッケージに幅広く使用されている12桁のバーコードです。
+   ユニバーサル製品コード (UPC) は、米国の小売パッケージに広く使用される 12 桁のバーコードです。
 
-1. には **[!UICONTROL General Search]** 、一般的な検索に使用する製品属性を選択します。
+1. の場合 **[!UICONTROL General Search]**」で、一般検索の一致に使用する製品属性を選択します。
 
-   この属性は [!DNL Commerce] 、製品を適切な Amazon リストに適合するように選択することができます。 一般的な検索では、カタログのキーワード検索が使用されます。 そのため、 [!DNL Commerce] 製品 SKU や製品名など、関連するキーワードを含む属性を使用することをお勧めします。 一般的な検索では、一致するアイテムの数が多くなる場合があります。このような場合は、一致するアイテムから適切な Amazon リストを選択することができます。 このフィールドには、一般的に「」が選択されてい `Product Name` ます。
+   この属性は、一致するように選択できる属性です [!DNL Commerce] 製品を適切なAmazonリストに追加する。 一般検索では、カタログからのキーワード検索を使用します。 そのため、 [!DNL Commerce] 製品 SKU や製品名など、関連するキーワードを含む属性。 一般検索では、考えられる多くの一致が返される場合があります。その場合は、考えられる一致の中から適切なAmazonリストを選択できます。 このフィールドの一般的な選択肢は次のとおりです。 `Product Name`.
 
-1. 完了したら、をクリックし **[!UICONTROL Save listing settings]** ます。
+1. 完了したら、「 **[!UICONTROL Save listing settings]**.
 
-![カタログ検索](assets/amazon-catalog-search.png)
+![カタログ検索](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
-| 名 | つい |
+| フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>「アーク」は、 [!DNL Amazon Standard Identification Number] . アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
-| [!UICONTROL EAN (European Article Number)] | 12または13桁のプロダクト id コード。 欧州欧州の記事番号 (EAN) は、12桁または13桁の製品識別コードで、バーコード規格です。 各 EAN は、製品、メーカー、および属性を一意に識別します。通常、EAN は製品ラベルに印刷されるか、バーコードとしてパッケージ化されます。 Amazon を使用するには、検索結果の品質を向上させるための EAN コードとカタログの質が必要になります。 EANs は製造元から入手できます。 |
-| [!UICONTROL GCID (Global Catalog Identifier)] | グローバルカタログ識別子 (GCID) は、UPC コードまたは ISBN を持たない製品の ID です。 Amazon のブランドレジストリを使用すると、ブランドの所有者として登録し、UPC や ISBN がない製品用に一意の ID を作成することができます。 |
-| [!UICONTROL ISBN (International Standard Book Number)] | 1桁または13桁の一意の民間書籍コードバーコード。 国際標準ブック番号 (ISBN) は、一意の商用ブック id バーコードです。 各 ISBN コードは、本のを一意に識別します。 ISBN には、10または13桁の数字が含まれています。 2007年1月1日以降、すべての ISBN に13桁が割り当てられています。 |
-| UPC (Universal Product Code) | 12桁のバーコード。 Universal Product Code (UPC) は、米国での小売用パッケージに幅広く使用されている12桁のバーコードです。 |
-| [!UICONTROL General Search] | 属性を選択します。 この属性は [!DNL Commerce] 、製品を適切な Amazon リストに適合するように選択することができます。 一般的な検索では、カタログのキーワード検索が使用されます。 そのため、 [!DNL Commerce] 製品 SKU や製品名など、関連するキーワードを含む属性を使用することをお勧めします。 一般的な検索では、一致するアイテムの数が多くなる場合があります。このような場合は、一致するアイテムから適切な Amazon リストを選択することができます。 このフィールドには、一般的に「」が選択されてい `Product Name` ます。 |
+| [!UICONTROL ASIN] | アイテムを識別する 10 文字または数字の一意のブロック。<br><br>ASIN は、 [!DNL Amazon Standard Identification Number]. ASIN は、項目を識別する 10 文字または数字の一意のブロックです。 書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合は、アイテムがカタログにアップロードされると新しい ASIN が作成されます。 ASIN は、Amazonの製品の詳細ページに、その品目に関する詳細と共に表示されます。 |
+| [!UICONTROL EAN (European Article Number)] | 12 桁または 13 桁の製品識別コード。 欧州記事番号 (EAN) は、バーコード規格で、12 桁または 13 桁の製品 ID コードです。 各 EAN は、製品、製造元およびその属性を一意に識別します。通常、EAN は、製品ラベルまたはパッケージにバーコードとして印刷されます。 Amazonでは、検索結果の品質とカタログの品質を向上させるために EAN コードが必要です。 EAN は製造元から入手できます。 |
+| [!UICONTROL GCID (Global Catalog Identifier)] | グローバルカタログ識別子 (GCID) は、UPC コードまたは ISBN を持たない製品の ID です。 Amazonの Brand Registry を使用すると、ブランド所有者として登録し、UPC または ISBN を持たない可能性のある製品に対して一意の ID を作成できます。 |
+| [!UICONTROL ISBN (International Standard Book Number)] | 10 桁または 13 桁の一意の商用書籍識別子バーコード。 International Standard Book Number(ISBN) は、一意の商用書籍識別子バーコードです。 各 ISBN コードは、本を一意に識別します。 ISBN は 10 桁か 13 桁です。 2007 年 1 月 1 日以降に割り当てられた ISBN はすべて 13 桁です。 |
+| UPC （ユニバーサル製品コード） | 12 桁のバーコード。 ユニバーサル製品コード (UPC) は、米国の小売パッケージに広く使用される 12 桁のバーコードです。 |
+| [!UICONTROL General Search] | 属性を選択します。 この属性は、一致するように選択できる属性です [!DNL Commerce] 製品を適切なAmazonリストに追加する。 一般検索では、カタログからのキーワード検索を使用します。 そのため、 [!DNL Commerce] 製品 SKU や製品名など、関連するキーワードを含む属性。 一般検索では、考えられる多くの一致が返される場合があります。その場合は、考えられる一致の中から適切なAmazonリストを選択できます。 このフィールドの一般的な選択肢は次のとおりです。 `Product Name`. |
 
 **クイックアクセス** - [!UICONTROL Listing Settings] セクション
 

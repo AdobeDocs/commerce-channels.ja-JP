@@ -1,30 +1,30 @@
 ---
-title: 競争価格の分析
-description: 競争価格の分析により、marketplace ごとの Amazon リストが購入ボックス価格および競合企業価格の最も低い価格値で表示されます。
+title: 競合価格分析レポート
+description: 「Competitive Price Analysis」には、市場ごとのAmazonの上場情報が、それぞれのBuy Box価格と最も低い競合相手の価格値と共に表示されます。
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# 競争価格の分析
+# 競合価格分析レポート
 
-競合製品に関する価格分析レポートには、marketplace ごとの Amazon リストが [ 購入ボックス ](./buy-box-competitor-pricing.md) 価格および [ 競合企業価格の最も低い値と共に表示され ](./lowest-competitor-pricing.md) ます。 ログに使用できるアクションはありません。 これはレビューのみの機能です。
+「競合価格の分析」レポートでは、Amazonの市場別リストと各市場が表示されます [Buy Box](./buy-box-competitor-pricing.md) 価格と [最も低い競争相手](./lowest-competitor-pricing.md) 価格の値。 ログに使用できるアクションはありません。 これはレビュー専用の機能です。
 
-![競争価格分析レポート](assets/amazon-competitive-price-analysis.png)
+![競合価格分析レポート](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 
 ## デフォルトの列
 
-| 段 | つい |
+| 列 | 説明 |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>アークは、Amazon 標準の Id 番号を表します。 アークサインとは、アイテムを識別する10文字または数字の一意のブロックです。 本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 Amazon の製品詳細ページでは、アイテムに関する詳細な情報が記載されたアイテムを検索することができます。 |
-| [!UICONTROL Product Listing Name] | 製品の名前を指定します。 |
-| [!UICONTROL Your Landed Price] | 製品の出展価格とその配送価格を表示します。 |
-| [!UICONTROL Lowest Landed Price] | Amazon の競合企業が表示する、最も安いお届け価格 (出展価格と送料価格) です。 |
-| [!UICONTROL Condition (lowest price)] | 最低価格で一覧表示されている製品の状態です。 |
-| [!UICONTROL Buy Box Landed Price] | 購入ボックスの位置リストの &quot;上陸価格&quot; (定価価格と送料価格が付いて [ ](./buy-box-competitor-pricing.md) います)。 |
-| [!UICONTROL Is Seller (Buy Box)] | リストの購入ボックスの位置が勝ちになっているかどうかを示します (NA は、リストに購入ボックス価格が設定されていないことを意味します)。 |
-| 条件 (「購入」ボックス) | 購入ボックスの位置リストの条件。 |
+| [!UICONTROL Amazon Seller SKU] | 製品、オプション、価格および製造元を識別するために、Amazonが製品に割り当てた SKU(Stock Keeping Unit)。 |
+| [!UICONTROL ASIN] | アイテムを識別する 10 文字または数字の一意のブロック。<br><br>ASIN は、Amazon Standard Identification Numbers の略です。 ASIN は、項目を識別する 10 文字または数字の一意のブロックです。 書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合は、アイテムがカタログにアップロードされると新しい ASIN が作成されます。 ASIN は、Amazonの製品の詳細ページに、その品目に関する詳細と共に表示されます。 |
+| [!UICONTROL Product Listing Name] | 製品の名前。 |
+| [!UICONTROL Your Landed Price] | 商品の上場価格とその送料。 |
+| [!UICONTROL Lowest Landed Price] | Amazonの競合相手からの最も低いランディング価格（上場価格とその送料）。 |
+| [!UICONTROL Condition (lowest price)] | 最も安い価格でリストされた製品の条件。 |
+| [!UICONTROL Buy Box Landed Price] | の上場価格（上場価格とその送料） [Buy Box](./buy-box-competitor-pricing.md) 位置リスト。 |
+| [!UICONTROL Is Seller (Buy Box)] | リストのBuy Box順位を獲得したかどうかを示します (NA は、リストにBuy Box価格がないことを意味します )。 |
+| 条件 (Buy Box) | Buy Box位置リストの条件。 |

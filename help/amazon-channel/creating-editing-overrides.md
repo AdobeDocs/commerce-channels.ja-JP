@@ -1,10 +1,10 @@
 ---
-title: 上書きの作成と編集
+title: Amazonセールスチャネルの上書きの作成と編集
 description: AmazonSales Channelのオーバーライドを使用して、変更を 1 つのAmazonリストに適用するか、複数のリストに適用します。
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 内 _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Create Override]**をクリックして、製品リストの上書きページを開きます。
 
-   ![Amazonリストの上書きを作成](assets/amazon-select-create-override.png)
+   ![Amazonリストの上書きを作成](assets/amazon-select-create-override.png){width="220"}
 
 1. 正しいリストを表示していることを確認するには、 _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 次の例は、 `$55`、新しい処理時間 `1 day`新しい状態 `Used; Like New`、および新しい販売者注記テキスト。
 
-![Amazonリストの上書きの例](assets/amazon-overrides-edit.png)
+![Amazonリストの上書きの例](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## 単一のリストに対する上書きの編集または削除 {#edit-override-single-listing}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    この _[!UICONTROL Product Listing Overrides]_ページが開きます。
 
-   ![Amazonリストの上書きを選択](assets/amazon-select-edit-overrides.png)
+   ![Amazonリストの上書きを選択](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. 正しいリストを上書きするには、 _[!UICONTROL Listing Details]_.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 Piggybacking on the _オーバーライドの作成_ 例： 次の例は、新しい価格を定義する、前に作成した上書きの編集を示しています。 `$50`をクリックすると、[ 処理時間 ] の上書きが削除され、前の [ 条件 ] と [ 販売者注記 ] の上書きが保持されます。
 
-![オーバーライドの編集または削除](assets/amazon-overrides-edit-2.png)
+![オーバーライドの編集または削除](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## 複数のリストの上書きを編集または削除する {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ __
 
    この _[!UICONTROL Product Listing Overrides]_ページが開きます。
 
-   ![Amazonリストの上書きを選択](assets/amazon-actions-edit-listing-overrides.png)
+   ![Amazonリストの上書きを選択](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. 次の手順で _[!UICONTROL Override]_設定で、変更するタイプのセクション（価格、処理時間、条件、販売者の注記）を定義します。
 

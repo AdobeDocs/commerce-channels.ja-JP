@@ -1,8 +1,8 @@
 ---
-title: リストへの登録準備完了
+title: Amazonセールスチャネル — [!UICONTROL Ready to List]
 description: Amazonセールスチャネルには、適格要件を満たしているが自動的には表示されないコマース製品を確認できる「リストへの準備完了」タブが用意されています。
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >[!NOTE]
 >リストが処理中の場合、リストの数はタブの上のメッセージに表示されます。
 
-![リストへの登録準備完了](assets/amazon-ready-to-list.png)
+![リストへの登録準備完了](assets/amazon-ready-to-list.png){width="600" zoomable="yes"}
 
 ## デフォルトの列
 

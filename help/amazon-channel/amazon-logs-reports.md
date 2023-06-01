@@ -1,15 +1,15 @@
 ---
-title: ログとストアレポート
+title: Amazonリスト用のレポートのログと保存
 description: ログとストアのレポートを使用して、Adobe CommerceまたはMagento Open SourceストアとAmazon Marketplace のリストで発生していることを確認します。
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# ログとストアレポート
+# Amazonリスト用のレポートのログと保存
 
 Amazonセールスチャネル拡張機能には、Amazonの一覧や注文に影響を与えている変更を表示できる、いくつかの有用なログと保存レポートが含まれています。 これらのレポートを使用して、ストアでの出来事を確認し、様々なリストのステータスを理解できます。
 
@@ -29,4 +29,4 @@ Amazonセールスチャネル拡張機能には、Amazonの一覧や注文に�
 
 >[!TIP]
 >
->トラブルシューティングが必要な場合は、ログファイルで詳細を確認することもできます。 詳しくは、 [セールスチャネル管理者設定](./sales-channel-settings.md). Amazonセールスチャネル同期ログは、 `{Commerce Root}/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.
+>トラブルシューティングが必要な場合は、ログファイルで詳細を確認することもできます。 詳しくは、 [セールスチャネル管理者設定](./sales-channel-settings.md). Amazonセールスチャネル同期ログは、 `{Commerce Root}/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).

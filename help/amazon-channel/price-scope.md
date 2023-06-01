@@ -1,19 +1,19 @@
 ---
-title: 価格範囲
+title: Amazonセールスチャネル — 価格範囲
 description: 複数の Web サイトまたはグローバルに従って価格を管理するには、コマースの価格範囲を使用します。
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
-# 価格範囲
+# 価格の範囲
 
-[!DNL Commerce] は、 [価格の範囲](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} to be set to `Global` or `Website`. If pricing is set to `Global`, there is a single price source for all websites. If pricing is set to `Website`, your websites can vary their pricing across and also have a fallback default pricing value. See [Catalog Price](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} （コアコマースユーザーガイド）を参照してください。
+[!DNL Commerce] は、 [価格の範囲](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) 設定 `Global` または `Website`. 価格が `Global`の場合、すべての Web サイトに対して 1 つの価格ソースがあります。 価格が `Website`を使用すると、Web サイトの価格はによって異なる場合があり、代替のデフォルト価格値 ( [価格の範囲](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html)) をクリックします。
 
-カタログ価格の範囲を `Global` から `Website`に設定すると、すべての価格タイプ属性も `Website`. 詳しくは、 [Web サイトの追加](https://docs.magento.com/user-guide/stores/stores-all-create-website.html){target="_blank"}.
+カタログ価格の範囲を `Global` から `Website`に設定すると、すべての価格タイプ属性も `Website`. 詳しくは、 [Web サイトの追加](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites).
 
 Web サイトの価格を選択すると、次の 2 つの価格ソースがあります。
 

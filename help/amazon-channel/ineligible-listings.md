@@ -1,15 +1,15 @@
 ---
-title: 不適格なリスト
+title: 不適格なAmazonリスト
 description: Amazonセールスチャネルが [!UICONTROL Ineligible] タブを使用して項目を管理すると、現在のリストルールに基づくリストには適用されません。
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# 不適格なリスト
+# 不適格なAmazonリスト
 
 この _[!UICONTROL Ineligible]_「 」タブには、現在Amazonで公開されているが、現在のリストルールに基づくリストには登録されていないすべての製品のリストが表示されます。 以前の製品が適格で、リストルールが変更されて不適格になった場合、製品に関連付けられた数量は 0 になり、製品は_&#x200B;不適格な&#x200B;_. ただし、現在も [!DNL Amazon Seller Account].
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 >[!NOTE]
 >処理中のリストがある場合は、リストの数がタブの上のメッセージに表示されます。
 
-![不適格なAmazonリスト](assets/amazon-ineligible-listings.png)
+![不適格なAmazonリスト](assets/amazon-ineligible-listings.png){width="600" zoomable="yes"}
 
 Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
 

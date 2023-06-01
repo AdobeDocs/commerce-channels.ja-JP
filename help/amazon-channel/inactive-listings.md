@@ -1,15 +1,15 @@
 ---
-title: 非アクティブなリスト
+title: 非アクティブなAmazonリスト
 description: Amazonセールスチャネルが [!UICONTROL Inactive] タブで現在非アクティブな [!DNL Amazon Marketplace] リスト
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# 非アクティブなリスト
+# 非アクティブなAmazonリスト
 
 この _[!UICONTROL Inactive]_「 」タブには、Amazonに公開されたがアクティブでない製品が表示されます [!DNL Amazon Marketplace]. リストが非アクティブになる理由はいくつかあります。 例えば、特定のブランドをリストする資格がない場合があります。 非アクティブなリストは、Amazonのリスト標準および [!DNL Amazon Seller Central] アカウント権限。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >処理中のリストがある場合は、タブの上にメッセージが表示され、リストの数を示します。
 
-![非アクティブなAmazonリスト](assets/amazon-inactive-listings.png)
+![非アクティブなAmazonリスト](assets/amazon-inactive-listings.png){width="600" zoomable="yes"}
 
 Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
 

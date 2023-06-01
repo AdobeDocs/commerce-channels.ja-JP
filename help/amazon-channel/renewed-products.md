@@ -1,10 +1,10 @@
 ---
-title: 更新された製品
+title: Amazonセールスチャネル — 更新された製品
 description: セラーセントラルアカウントが更新されたプログラムに登録されている場合は、AmazonSales Channelで更新したリストを管理できます。
 exl-id: 1f828893-ca56-4457-bf8f-8e2d056515e8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

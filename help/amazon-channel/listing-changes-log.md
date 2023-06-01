@@ -1,30 +1,30 @@
 ---
-title: 変更の一覧の記録
-description: Amazon 販売チャンネルの一覧変更ログを使用すると、Amazon 売り手アカウントの影響を受ける変更を監視することができます。
+title: Amazonセールスチャネル — [!UICONTROL Listing Changes Log]
+description: AmazonSales Channelは、Amazonセラーアカウントで影響を受ける変更を監視するのに役立つ変更ログを表示します。
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# 変更の一覧の記録
+# [!UICONTROL Listing Changes Log]
 
-一覧変更ログには、 [!DNL Amazon Seller Account] Amazon sales チャンネル設定の反映としてで発生した変更が表示されます。 このログは、Amazon and Amazon sales チャンネル間で同期されたグローバル変更を示します。 このログには、アクションの種類 (変更)、変更の概略説明、変更の日付など、製品の SKU に関する変更のリストが含まれます。
+変更ログの一覧には、 [!DNL Amazon Seller Account] Amazonのセールスチャネル設定の反映として。 このログは、AmazonとAmazonのセールスチャネルの間で同期されたグローバルな変更を示します。 このログには、アクションのタイプ（変更）、変更の簡単な説明、変更日など、製品 SKU の変更が一覧表示されます。
 
-ログに使用できるアクションはありません。 これはレビューのみの機能です。
+ログに使用できるアクションはありません。 これはレビュー専用の機能です。
 
-Amazon セールスチャンネルのホームページ [ ](./workspace-controls.md) は、表示されるデータをカスタマイズするための一般的なワークスペースコントロールの一部を共有しています。
+Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
 
-![変更の一覧の記録](assets/amazon-listing-changes-log.png)
+![変更ログのリスト](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
 
 ## デフォルトの列
 
-| 段 | つい |
+| 列 | 説明 |
 |--- |--- |
-| [!UICONTROL Amazon Store Name] | Amazon store が設定された時点で定義されているストアの名前。 「Store の統合」を参照してください [ ](./store-integration.md) 。 |
-| [!UICONTROL Seller SKU] | Amazon によって製品に割り当てられた SKU (Stock 保存単位) です。製品、オプション、価格、メーカーを識別するために使用されます。 |
+| [!UICONTROL Amazon Store Name] | Amazonストアが設定された際に定義されたストアの名前。 参照： [ストア統合](./store-integration.md). |
+| [!UICONTROL Seller SKU] | 製品、オプション、価格および製造元を識別するために、Amazonが製品に割り当てた SKU(Stock Keeping Unit)。 |
 | [!UICONTROL Listing Action] | リストに加えられた変更のタイプ。 |
-| [!UICONTROL Comments] | 一覧の変更に関する追加情報です。 |
-| [!UICONTROL Created On] | 変更が行われた日時。 |
+| [!UICONTROL Comments] | リストの変更に関する追加情報。 |
+| [!UICONTROL Created On] | 変更が加えられた日時。 |

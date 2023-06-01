@@ -2,7 +2,7 @@
 title: Amazon注文の表示
 description: Adobe CommerceまたはMagento Open Source管理で、Amazon Marketplace の注文を表示します。
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -32,7 +32,7 @@ _[!UICONTROL All Orders]_「表示」では、注文検索のフィルターオ�
 
 最新の注文を _[!UICONTROL Recent Orders]_セクション [ストアダッシュボード](./amazon-store-dashboard.md).
 
-![最近の注文](assets/amazon-recent-orders-imported.png)
+![最近の注文](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### 最近のAmazon注文を表示
 
@@ -54,7 +54,7 @@ _[!UICONTROL All Orders]_「表示」では、注文検索のフィルターオ�
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Amazon注文](assets/amazon-orders-list-all.png)
+![Amazon注文](assets/amazon-orders-list-all.png){width="600" zoomable="yes"}
 
 ### すべてのAmazon注文を表示
 
@@ -72,7 +72,7 @@ _[!UICONTROL All Orders]_「表示」では、注文検索のフィルターオ�
 
 フィルターは、 _[!UICONTROL Filter by]_」セクションに入力します。 選択を行い、**[!UICONTROL Apply filters]**. 適用したフィルターが、注文グリッドの上に表示されます。
 
-![Amazon注文を表示するためのフィルター](assets/amazon-orders-filter-view.png)
+![Amazon注文を表示するためのフィルター](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### 適用されるフィルターの変更
 

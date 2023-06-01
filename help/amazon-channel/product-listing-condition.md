@@ -1,11 +1,11 @@
 ---
-title: 製品リスト条件
+title: Amazonセールスチャネル — 製品リスト条件
 description: 「製品リスト条件」設定を使用して、コマース製品を「新規」や「リファース済み」などのAmazon製品の条件にマッピングします。
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Amazonでは、製品リストに定義済みの条件が必要です。 すべ�
 
 1. 完了したら、「 **[!UICONTROL Save listing settings]**.
 
-![製品リスト条件](assets/amazon-product-listing-condition.png)
+![製品リスト条件](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |---|---|

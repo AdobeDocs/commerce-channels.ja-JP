@@ -2,9 +2,9 @@
 title: カタログ属性をマッピング
 description: '''一致する属性をマッピング [DNL! コマース ] 製品を既存の製品に [!DNL Walmart Marketplace] リストと同期，データ間 [!DNL Channel Manager] および [!DNL Walmart].`'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 | ISSN | 国際標準シリアル番号 | 全てのメディアプリントや電子メディアに配信される雑誌、雑誌、新聞、雑誌を特定するのに使用される 8 桁のシリアル番号 | 8 桁 |
 | UPC | ユニバーサル製品コード | 標準の小売トラッキングコード | 12 桁 |
 
-カタログに一致する属性がない場合、 [既存のカタログ属性を追加または変換する](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+カタログに一致する属性がない場合、 [既存のカタログ属性を追加または変換する](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ## 一意の ID をマッピング
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 
       次の例では、 [!UICONTROL Walmart Marketplace UPC] 属性を製品カタログの UPC 属性に設定します。
 
-      ![製品一致条件の属性をマッピング](assets/products-map-attributes-for-match.png)
+      ![製品一致条件の属性をマッピング](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - 選択 **[!UICONTROL Save]**.

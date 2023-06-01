@@ -1,16 +1,16 @@
 ---
-title: サードパーティ製品一覧
+title: Amazonセールスチャネル — [!UICONTROL Third-party Listings]
 description: サードパーティのリスト設定を更新して、コマースカタログで既存のAmazon Seller Central リストから製品を読み込むかどうかを決定します。
 redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
 
-# サードパーティ製品一覧
+# [!UICONTROL Third-party Listings]
 
 サードパーティのリスト設定は、ストアリスト設定の一部です。 リスト設定には、 [ストアダッシュボード](./amazon-store-dashboard.md).
 
@@ -32,7 +32,7 @@ Amazonリストを読み込む場合は、 [!DNL Commerce] 属性の値がAmazon
 
    - `Import Listing` - （デフォルト）Amazonの一覧から製品情報を読み込むタイミングを選択します [!DNL Commerce] 商品カタログ このオプションはデフォルトで、お勧めします。
 
-   - `Do Not Import Listing`  — 手動で行うタイミングを選択 [新しい製品の作成と割り当て](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} を [!DNL Commerce] Amazonリスト用のカタログ
+   - `Do Not Import Listing`  — 手動で行うタイミングを選択 [新しい製品の作成と割り当て](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) を [!DNL Commerce] Amazonリスト用のカタログ
    >[!NOTE]
    >次のオプションフィールドは、 `Import Listing`.
 
@@ -45,11 +45,11 @@ Amazonリストを読み込む場合は、 [!DNL Commerce] 属性の値がAmazon
 
 1. 完了したら、「 **[!UICONTROL Save listing settings]**.
 
-![サードパーティのリスト](assets/amazon-third-party-listings.png)
+![サードパーティのリスト](assets/amazon-third-party-listings.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |---|---|
-| [!UICONTROL Import Third Party Listings] | 必須。 オプション：<ul><li>**[!UICONTROL Import Listing]** - （デフォルト）Amazonの一覧から製品情報を読み込むタイミングを選択します [!DNL Commerce] 商品カタログ </li><li>**[!UICONTROL Do Not Import Listing]**  — 手動で行うタイミングを選択 [新しい製品の作成と割り当て](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} を [!DNL Commerce] Amazonリスト用のカタログ</li></ul> |
+| [!UICONTROL Import Third Party Listings] | 必須。 オプション：<ul><li>**[!UICONTROL Import Listing]** - （デフォルト）Amazonの一覧から製品情報を読み込むタイミングを選択します [!DNL Commerce] 商品カタログ </li><li>**[!UICONTROL Do Not Import Listing]**  — 手動で行うタイミングを選択 [新しい製品の作成と割り当て](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) を [!DNL Commerce] Amazonリスト用のカタログ</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | 次に設定した場合にのみ有効 `Import Listing`.<br>を選択します。 [!DNL Commerce] 属性をAmazonセラー SKU のAmazon属性に一致させる。 この属性が存在しない場合は、 [Amazonマッチング用のAmazon製品属性の作成](./ob-creating-magento-attributes.md). 必要に応じて、 [!DNL Commerce] [属性](./managing-attributes.md) このAmazonデータに一致する属性を作成または編集します。 |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | 次に設定した場合にのみ有効 `Import Listing`.<br>を選択します。 [!DNL Commerce] Amazon ASIN のAmazon属性に一致する属性。 この属性が存在しない場合は、 [Amazonマッチング用のAmazon製品属性の作成](./ob-creating-magento-attributes.md). 必要に応じて、 [!DNL Commerce] [属性](./managing-attributes.md) このAmazonデータに一致する属性を作成または編集します。 |
 

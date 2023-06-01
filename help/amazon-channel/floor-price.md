@@ -2,9 +2,9 @@
 title: '''インテリジェントな価格変更ルール：下限価格`'
 description: 最低価格設定を使用して、Amazonのリストを管理するインテリジェントな価格ルールの最低価格を決定します。
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. の場合 **[!UICONTROL Floor Price Source]**、価格のソース属性を選択します。
 
-   を選択します。 [!DNL Commerce] [製品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} これは、相対的な床の限界を示します。 例えば、Amazonの上場価格が商品のコストを下回りたくない場合は、 *コスト* 属性。
+   を選択します。 [!DNL Commerce] [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) これは、相対的な床の限界を示します。 例えば、Amazonの上場価格が商品のコストを下回りたくない場合は、 *コスト* 属性。
 
 1. の場合 **[!UICONTROL Floor Price Action]**、「 」オプションを選択します。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 この例では、単価は品目のコストを 3%上回る値に設定されています。
 
-![インテリジェントな価格変更ルールの例 — 下限価格](assets/ob-intelligent-pricde-rule-floor-price.png)
+![インテリジェントな価格変更ルールの例 — 下限価格](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |--- |--- |

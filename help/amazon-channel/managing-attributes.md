@@ -1,15 +1,15 @@
 ---
-title: 属性を管理
+title: Amazonリストの属性の管理
 description: コマース製品属性とAmazon属性のマッピングを管理して、システム間の正確な製品情報を確保できます。
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# 属性を管理
+# Amazonリストの属性の管理
 
 Amazonと [!DNL Commerce] 両方とも、製品の定義に使用される製品プロパティのシステム（属性と呼ばれる）を使用します。 属性は、製品の説明、コンテンツ、画像、価格および様々なデータを定義します。
 
@@ -23,7 +23,7 @@ Amazonセールスチャネルでは、必要に応じて、属性のアクセ�
 
 詳しくは、 [!DNL Commerce] とAmazonの属性セットと値は、次を参照してください。
 
-- [属性の基本を管理](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
+- [属性の基本を管理](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [属性の作成](./creating-attributes.md#create-an-attribute)
 - [既存の属性の編集](./creating-attributes.md#edit-an-attribute)
 - [属性マッピングを表示](./amazon-matching-attributes-values.md)

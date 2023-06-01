@@ -2,9 +2,9 @@
 title: Amazon API キーの追加または検証
 description: コマース設定では、検証済みのAmazon API キーを使用して、ストアをAmazonセラーアカウントと統合できます。
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ API キーは、Amazonセールスチャネルにアクセスするたびに検�
 
    Amazonセールスチャネルに初めてアクセスする場合、または API キーで更新が必要な場合は、プロセスを完了するよう求めるメッセージが表示されます。
 
-   ![Amazon API キープロンプトの取得と追加](assets/amazon-api-verification-prompt.png)
+   ![Amazon API キープロンプトの取得と追加](assets/amazon-api-verification-prompt.png){width="500"}
 
 1. クリック **[!UICONTROL Sign in]** をクリックし、 [!DNL Commerce] Web アカウント。
 
@@ -41,7 +41,7 @@ API キーは、Amazonセールスチャネルにアクセスするたびに検�
 
    API キーを作成するには、 `Amazon Sales Channel` をクリックし、 **[!UICONTROL Add New]**. 新しいキーが生成され、入力した名前で表示されます。 クリック **[!UICONTROL Copy]** をクリックして、新しいキーをコピーします。
 
-   ![API キーを生成またはコピーする](assets/amazon-add-api-key.png)
+   ![API キーを生成またはコピーする](assets/amazon-add-api-key.png){width="500" zoomable="yes"}
 
 1. 新しいキーが生成され、コピーされた状態で、に戻ります。 _[!UICONTROL Amazon Sales Channel]_」タブをクリックします。
 
@@ -53,7 +53,7 @@ API キーは、Amazonセールスチャネルにアクセスするたびに検�
 
 1. クリック **[!UICONTROL Save Config]**. これで、Amazonセールスチャネルに戻ることができます。
 
-   ![ストア設定への API キーの追加](assets/config-magento-services-api-screen.png)
+   ![ストア設定への API キーの追加](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
 
 1. の _[!UICONTROL Admin]_サイドバー、移動&#x200B;**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 

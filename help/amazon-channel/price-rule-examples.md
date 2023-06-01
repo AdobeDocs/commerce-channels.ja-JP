@@ -1,10 +1,10 @@
 ---
-title: 価格ルールの例
+title: Amazonセールスチャネル — 価格ルールの例
 description: Amazonの一覧用の価格ルールを設計する際に役立つように、一般的なシナリオに基づいてこれらの例を確認してください。
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -231,7 +231,7 @@ VAT 後の最終価格：$12.50 x (1.1) = $13.75
 
 この例では、最も競争力のある価格は、Amazon [競争相手の最低価格](./lowest-competitor-pricing.md) 95%の肯定的なフィードバックと、1,000 の商人レビューの最小フィードバック数を含む。
 
-![価格調整の例](assets/amazon-price-adjustment-example.png)
+![価格調整の例](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 これらのパラメーターに基づいてこの検索を実行すると、競合価格は$25 に戻ります。
 

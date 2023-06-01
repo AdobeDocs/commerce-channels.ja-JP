@@ -1,15 +1,15 @@
 ---
-title: 終了したリスト
+title: 終了したAmazon一覧
 description: AmazonSales Channelには、終了したAmazon Marketplace のリストを確認するための「終了」タブが用意されています。このタブは、選択したときに再公開できます。
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# 終了したリスト
+# 終了したAmazon一覧
 
 この _[!UICONTROL Ended]_「 」タブには、 [!DNL Amazon Seller Central] アカウント これらの製品はすべてのリスト要件を満たし、いつでも再公開でき、追加情報は不要です。 製品が_[!UICONTROL Ineligible]_ 」タブで、 [リスト設定](./listing-settings.md) お客様の製品がリストに登録する資格を満たすようにするため。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 リストの公開については、 [Amazonリストの手動公開](./publish-listings-manually.md).
 
-![終了したAmazon一覧](assets/amazon-ended-listings.png)
+![終了したAmazon一覧](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
 

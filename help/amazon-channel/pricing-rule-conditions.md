@@ -1,18 +1,18 @@
 ---
-title: 価格ルール条件
+title: Amazonセールスチャネル — 価格ルールの条件
 description: 価格ルール条件を使用して、上場価格ルールに適格な製品を決定します。
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
 # 価格ルール条件
 
-条件によって、価格ルールに適した製品が決まります。 Amazonの価格設定ルールの条件の定義は、 [買い物かごの価格ルール](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} in [!DNL Commerce].
+条件によって、価格ルールに適した製品が決まります。 Amazonの価格設定ルールの条件の定義は、 [買い物かごの価格ルール](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 このプロセスは、カタログ設定に応じて、簡単に実行することも、詳細に設定することもできます。 条件を定義して、 `ALL` または `ANY` の条件は、 `TRUE` または `FALSE` 製品の場合、製品は適用される価格ルールに適格です。
 
-条件は、 [製品属性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. すべての製品にルールを適用する場合は、「条件」セクションを空白のままにします。
+条件は、 [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). すべての製品にルールを適用する場合は、「条件」セクションを空白のままにします。
 
 >[!NOTE]
 >
->特定の製品属性に基づいて条件を定義する場合は、 **プロモーションルール条件に使用** の場合、属性をに設定する必要があります。 `Yes` の [ストアフロントのプロパティ](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"} 属性の。
+>特定の製品属性に基づいて条件を定義する場合は、 **プロモーションルール条件に使用** の場合、属性をに設定する必要があります。 `Yes` の [ストアフロントのプロパティ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) 属性の。
 
-![価格ルール条件 — 明細 1](assets/ob-price-rules-condition-1.png)
+![価格ルール条件 — 明細 1](assets/ob-price-rules-condition-1.png){width="600" zoomable="yes"}
 
 この例では、 `Books` カテゴリ。
 
@@ -48,13 +48,13 @@ ht-degree: 0%
 
    **[!UICONTROL Conditions Combination]**  — 別のセットの作成を選択 `All/Any` および `True/False` 条件を既存の条件内に含めます。
 
-   ![価格ルール条件の組み合わせ](assets/ob-conditions-combinations.png)
+   ![価格ルール条件の組み合わせ](assets/ob-conditions-combinations.png){width="500"}
 
-   **[!UICONTROL Product Attribute]**  — 使用可能な製品属性は、 [属性の設定](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}. For an attribute to show in the list, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in your [storefront properties](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}.
+   **[!UICONTROL Product Attribute]**  — 使用可能な製品属性は、 [属性の設定](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html). リストに表示する属性の場合、 *[!UICONTROL Use for Promo Rule Conditions]* の場合、属性をに設定する必要があります。 `Yes` をクリックします。
 
    - の場合 **[!UICONTROL Product Attribute]**「 」で、条件のベースとして定義する属性を選択します。 この例では、選択された条件は次のようになります。 `Category`.
 
-      ![価格ルール条件 — 明細 2、パート 2](assets/ob-price-rule-condition-2.png)
+      ![価格ルール条件 — 明細 2、パート 2](assets/ob-price-rule-condition-2.png){width="500"}
 
       選択した条件がステートメントに表示され、その後にさらに 2 つの太字のリンクが続きます。 オプションは、選択した製品属性によって異なります。
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
       オプションを選択するか、条件の値を入力するよう求められる場合があります。 この例では、フィールドは空白で表示されます。 ルールのカテゴリを選択するには、選択アイコン (![選択アイコン](assets/btn-chooser.png)) をクリックして、選択オプションを表示します。 このルールは次用です。 _書籍_&#x200B;を選択し、 **[!UICONTROL Books]** チェックボックス。 カテゴリ番号が入力されます。 カテゴリの選択を受け入れるには、緑のチェックマークアイコン (![チェックマークアイコン](assets/btn-check-mark-green.png)) をクリックします。
 
-      ![価格ルール条件 — 明細 2、パート 3](assets/ob-price-rule-condition-3.png)
+      ![価格ルール条件 — 明細 2、パート 3](assets/ob-price-rule-condition-3.png){width="500"}
 
       選択した項目が、条件を完了するためにステートメント内に表示されます。
 
-      ![価格ルール条件 — 明細 2、パート 4](assets/ob-price-rule-condition-4.png)
+      ![価格ルール条件 — 明細 2、パート 4](assets/ob-price-rule-condition-4.png){width="500"}
 
       この例の条件は完了しました。 この条件は、 [!DNL Commerce] 定義された種類の書籍 (`4`) はこの価格ルールの対象です。 さらに条件ラインを追加して、対象製品を絞り込むことができます。
 

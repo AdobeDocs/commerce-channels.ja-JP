@@ -1,15 +1,15 @@
 ---
-title: Amazon Fulfilment Workflows
+title: Amazon fulfillment workflows
 description: Amazonのリストからの注文の受け渡しは、注文の送信から出荷までの特定の順序に従います。
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%
 
 ---
 
-# Amazon Fulfilment Workflows
+# Amazon fulfillment workflows
 
 ## 例：商人が果たす
 

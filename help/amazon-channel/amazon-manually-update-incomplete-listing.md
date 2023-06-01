@@ -1,10 +1,10 @@
 ---
-title: 必要な情報を更新（リストが不完全です）
+title: Amazon必須情報を更新
 description: Amazonセールスチャネルには、Amazonで必要な情報が欠落しているコマースカタログ製品を監視する「不完全」タブが用意されています。
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 これで、リストがカタログと一致し、cron およびリストの設定に基づいて、リストが更新されてAmazonに公開されます。 また、 _[!UICONTROL Incomplete]_タブをクリックします。
 
-![リストに一致しないように ASIN を手動で割り当てる](assets/amazon-listing-update-assign-asin.png)
+![リストに一致しないように ASIN を手動で割り当てる](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## 必要な情報を更新します（複数件の一致が見つかりました） {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 製品の一致を保存するには、 **[!UICONTROL Save Listing Update]**.
 
-![複数の一致の可能性から ASIN を手動で選択](assets/amazon-listing-update-multiple-matches.png)
+![複数の一致の可能性から ASIN を手動で選択](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## 必要な情報を更新（バリアントが含まれる） {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ ht-degree: 0%
 
 1. 製品の一致を保存するには、 **[!UICONTROL Save Listing Update]**.
 
-![可能なバリアント一致から ASIN を手動で選択](assets/amazon-listing-update-multiple-matches.png)
-
 ## 必要な情報を更新（条件が見つかりません） {#update-required-info-missing-condition}
 
 1. 一覧を _[!UICONTROL Incomplete]_タブ [リストの管理](./managing-product-listings.md).
@@ -79,4 +77,4 @@ ht-degree: 0%
 
 1. 製品の一致を保存するには、 **[!UICONTROL Save Listing Update]** .
 
-![不足している条件を手動で更新](assets/amazon-update-listing-missing-condition.png)
+![不足している条件を手動で更新](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

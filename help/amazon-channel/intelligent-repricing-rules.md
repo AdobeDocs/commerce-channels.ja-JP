@@ -2,7 +2,7 @@
 title: '''インテリジェントな価格変更ルール：ルールタイプを選択`'
 description: インテリジェントな価格変更ルールを作成して、競合相手の価格に従ってAmazonの上場価格を決定します。
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 >
 >これらの競合相手の価格とフィードバックオプションを使用して、フィードバックが不十分で低品質の製品を販売している競合相手に対する価格設定を避けることができます。
 
-![インテリジェントな価格変更ルール — ルールタイプの選択](assets/ob-intelligent-price-rule-type.png)
+![インテリジェントな価格変更ルール — ルールタイプの選択](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |--- |--- |

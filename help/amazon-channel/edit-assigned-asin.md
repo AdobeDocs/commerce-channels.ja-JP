@@ -2,7 +2,7 @@
 title: 割り当て済み ASIN の編集
 description: Commerce 製品の ASIN 値が、Amazon製品のリストと適切に一致しない場合は、変更します。
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 - 更新された ASIN のリストを作成します
 - Amazonセールスチャネルの情報の一覧を更新しました
 
-割り当て済みの ASIN を編集するには、次の手順に従います。
+**_割り当て済みの ASIN を編集するには、次の手順に従います。_**
 
 1. リストを _[!UICONTROL Product Listings]_ページ (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_または_[!UICONTROL Ineligible]_ 」タブ ) をクリックします。
 
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 1. 変更を保存するには、 **[!UICONTROL Save Listing Update]**.
 
-![割り当て済み ASIN の編集](assets/amazon-assigned-asin-edit.png)
+![割り当て済み ASIN の編集](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

@@ -1,11 +1,10 @@
 ---
-title: 価格ルールの一般設定
+title: Amazonセールスチャネル — 価格ルールの一般設定
 description: 価格ルールの一般設定を使用して、上場価格ルールの主な特性を定義します。
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -48,7 +47,7 @@ ht-degree: 0%
 >
 >後続のルールを破棄するには、価格設定ルールに定義が必要です **優先度** の値です。
 
-![価格ルールの一般設定](assets/amazon-pricing-rule-general.png)
+![価格ルールの一般設定](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |---|---|

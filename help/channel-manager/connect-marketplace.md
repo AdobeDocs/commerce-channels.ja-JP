@@ -2,7 +2,7 @@
 title: '接続 [!DNL Channel Manager] から [!DNL Walmart Marketplace]'
 description: コマースストア表示の接続先 [!DNL Walmart Marketplace] Walmart Marketplace の販売に関するコマース製品リスト、在庫、価格、注文を管理するセールスチャネルを作成する。」
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 内 **[!UICONTROL Marketplaces available to connect]** セクション、選択 **[!UICONTROL Get Started]**.
 
-   ![新規接続 [!DNL Walmart] 保存先 [!DNL Channel Manager]](assets/channel-manager-home.png)
+   ![新規接続 [!DNL Walmart] 保存先 [!DNL Channel Manager]](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
 1. 必要に応じて、 [!DNL Walmart Marketplace Seller] アカウント
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    - を選択します。 [!DNL Commerce] マーケットプレイスで販売する製品を提供するストア表示。
 
-      ![次の間の接続を設定 [!DNL Commerce] および [!DNL Walmart Marketplace] から [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![次の間の接続を設定 [!DNL Commerce] および [!DNL Walmart Marketplace] から [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"}
 
    - 一意の **[!UICONTROL store name]**.
 
@@ -55,11 +55,11 @@ ht-degree: 0%
 
       開発者ポータルで、お住まいの地域（米国およびカナダ）を選択し、ログインします。
 
-      ![[!DNL Walmart Marketplace] アカウントログイン](assets/walmart-marketplace-login-page.png)
+      ![[!DNL Walmart Marketplace] アカウントログイン](assets/walmart-marketplace-login-page.png){width="600"}
 
    - API キーフォームで、 **[!UICONTROL Client ID]** および **[!UICONTROL Client Secret]** の値 [!UICONTROL Adobe Inc Production API key] を安全な場所に移動します。
 
-      ![[!DNL Walmart Marketplace API key] 設定ページ](assets/walmart-api-key-management-form.png)
+      ![[!DNL Walmart Marketplace API key] 設定ページ](assets/walmart-api-key-management-form.png){width="600" zoomable="yes"}
 
       >[!NOTE]
       >
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 接続が成功したら、 [ストア設定を完了](complete-sales-channel-store-setup.md) から **[!UICONTROL Channel Manager]** ストアページ。
 
-![最初のストアを設定](assets/channel-manager-setup-first-store.png)
+![最初のストアを設定](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 ### 接続の問題のトラブルシューティング
 

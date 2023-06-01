@@ -4,9 +4,9 @@ description: 'チャネルマネージャの接続先 [!DNL Commerce] データ�
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 この [!DNL Commerce Services Connector] は、Channel Manager サービスをAdobe CommerceおよびMagento Open Sourceインスタンスと統合します。 コネクタは、 [!DNL Commerce] 例 [!DNL Channel Manager]、およびその他のサポートサービス。
 
-[!DNL Commerce Services Connector] 設定は、 [Adobe Commerce SaaS サービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} 例： [!DNL Channel Manager], [!DNL Live Search]、および [!DNL Product Recommendations]. コネクタを別のサービス用に既に設定している場合は、この手順をスキップします。
+[!DNL Commerce Services Connector] 設定は、 [Adobe Commerce SaaS サービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) 例： [!DNL Channel Manager], [!DNL Live Search]、および [!DNL Product Recommendations]. コネクタを別のサービス用に既に設定している場合は、この手順をスキップします。
 
 ## 要件
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
    アカウント所有者とスーパーユーザーは、 [!DNL Commerce] インスタンスを使用するか、 [!DNL Commerce] CLI コマンド `admin:user:create`.
 
-- **Adobe Commerce Production API キー**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} チャネルマネージャーで必要なサービスへの API アクセスを有効にします。 このキーの公開および非公開の資格情報が必要です。
+- **Adobe Commerce Production API キー**-This [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) チャネルマネージャーで必要なサービスへの API アクセスを有効にします。 このキーの公開および非公開の資格情報が必要です。
 
 >[!TIP]
 >
->資格情報を指定するには、 [!DNL Commerce] ライセンス所有者またはアカウント所有者は、次のオプションを持っています。 [アクセスを共有](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} 信頼できる開発者に対する資格情報。
+>資格情報を指定するには、 [!DNL Commerce] ライセンス所有者またはアカウント所有者は、次のオプションを持っています。 [アクセスを共有](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html)または [API キー](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) 信頼できる開発者に対する資格情報。
 
 ## の設定 [!DNL Commerce Services Connector]
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. Adobe Commerceアカウントから実稼動 API のキー資格情報を追加します。
 
-   ![[!DNL Commerce Services Connector] サービス [!DNL Admin] 表示](assets/commerce-services-connector-admin-service-view.png)
+   ![[!DNL Commerce Services Connector] サービス [!DNL Admin] 表示](assets/commerce-services-connector-admin-service-view.png){width="600" zoomable="yes"}
 
 
    >[!NOTE]
@@ -51,5 +51,5 @@ ht-degree: 0%
 
 1. Commerce Services が Channel Manager サービスにデータを送信できるように、SaaS プロジェクトとデータ領域を設定します。
 
-   ![[!DNL Commerce Services Connector] での SaaS 識別子の設定 [!DNL Admin] 表示](assets/commerce-services-connector-saas-config.png)
+   ![[!DNL Commerce Services Connector] での SaaS 識別子の設定 [!DNL Admin] 表示](assets/commerce-services-connector-saas-config.png){width="600" zoomable="yes"}
 

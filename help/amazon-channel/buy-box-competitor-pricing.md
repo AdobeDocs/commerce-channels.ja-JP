@@ -1,44 +1,44 @@
 ---
-title: 「購入」ボックス競合企業の価格
-description: Amazon 販売チャンネルのタブは、 [!UICONTROL Buy Box Competitor Pricing] amazon によって競合企業の価格がわかるようにするためのものです。
+title: '"[!DNL Buy Box] Amazon市場の競合他社の価格»'
+description: AmazonSales Channelが [!UICONTROL Buy Box Competitor Pricing] 「 」タブを使用して、Amazonでの競合相手の価格の位置付けを理解できます。
 exl-id: 2d03565a-5246-435a-8da8-55b7e67c4ad8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# [!DNL Buy Box] 競合企業による価格設定
+# [!DNL Buy Box] Amazon市場の競合他社価格
 
-[!DNL Buy Box]Amazon によって、この製品が最も最適な価格で、通常は、FBA、素数、販売店のパフォーマンスなどの他の要因とともに表示されます。
+この [!DNL Buy Box] は、通常最高の価格でリストされる製品を持つ販売者にAmazonが与え、FBA/Prime shipping の提供、可用性、販売者のパフォーマンスなどの他の要因と共に。
 
-ページのタブには、 _[!UICONTROL Buy Box Competitor Pricing]__[!UICONTROL Product Listing Details]_ [[!DNL Buy Box]](./buy-box-competitor-pricing.md) ライバル会社の定価、送料、着陸価格が表示されます。 この情報を使用して、Amazon によって競合企業が価格がどのように位置づけられるかを説明します。
+この _[!UICONTROL Buy Box Competitor Pricing]_タブ_[!UICONTROL Product Listing Details]_ ページに含まれる [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 上場価格、送料、および競合相手の地価。 この情報を使用して、Amazonでの競合相手の価格の位置付けを理解します。
 
-[インテリジェントな価格設定ルール ](./intelligent-repricing-rules.md) は、価格に基づいて価格設定を調整するように設定することができ [!DNL Amazon Buy Box] ます。
+[インテリジェントな価格変更ルール](./intelligent-repricing-rules.md) は、 [!DNL Amazon Buy Box] 価格。
 
-![「購入」ボックス競合企業の価格設定について](assets/amazon-listing-details-buy-box.png)
+![Buy Box競合相手の価格の詳細](assets/amazon-listing-details-buy-box.png){width="600" zoomable="yes"}
 
-## [!DNL Buy Box]競合他社に対する価格の詳細設定
+## アクセス [!DNL Buy Box] 競合他社の価格の詳細
 
-1. **[!UICONTROL Manage Listings]** Store のダッシュボードのをクリックします。
+1. クリック **[!UICONTROL Manage Listings]** を選択します。
 
-   [_[!UICONTROL Product Listing]_](./managing-product-listings.md)ページが開きます。
+   この [_[!UICONTROL Product Listing]_](./managing-product-listings.md) ページが開きます。
 
-1. いずれかの状態タブが表示されている場合は、リストの製品リスト名をクリックします。
+1. リストのステータスタブで、リストの製品リスト名をクリックします。
 
-   _[!UICONTROL Product Listing Details]_ページが開きます。
+   この _[!UICONTROL Product Listing Details]_ページが開きます。
 
-1. タブをクリックし **[!UICONTROL Buy Box Competitor Pricing]** ます。
+1. 次をクリック： **[!UICONTROL Buy Box Competitor Pricing]** タブをクリックします。
 
-   このリストには、Amazon 上の出展が記録されている商人と値段が表示され [[!DNL Buy Box]](./buy-box-competitor-pricing.md) ます。
+   リストにが含まれる商人と価格を表示します [[!DNL Buy Box]](./buy-box-competitor-pricing.md) Amazon
 
-| 段 | つい |
+| 列 | 説明 |
 |--- |--- |
-| [!UICONTROL ASIN] | アイテムを識別する10文字または数字の一意のブロックです。<br><br>本のについては、アークサインの値は ISBN 数と同じですが、他のすべての製品では、アイテムがカタログにアップロードされるときに、新しいアークサインが作成されます。 製品の詳細ページでは項目のアークサインが表示され、項目に関する詳細情報 (サイズ、ページ数、ディスク数など) が表示されます。 |
-| [!UICONTROL Is Seller] | 販売者がリストの購入ボックスの位置に勝利したかどうかを示します。 |
-| [!UICONTROL Condition] | [ ](./product-listing-condition.md) 製品の状態。 |
-| [!UICONTROL Listing Price] | Amazon リストに使用される価格 |
-| [!UICONTROL Shipping Price] | 製品の出荷にかかる費用 |
-| [!UICONTROL Landed Price] | 製品のリスト価格とその配送価格を示します。 |
-| [!UICONTROL Last Updated] | 「購入」ボックスの価格が最後に更新された日付。 |
+| [!UICONTROL ASIN] | アイテムを識別する 10 文字または数字の一意のブロック。<br><br>書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合は、アイテムがカタログにアップロードされると新しい ASIN が作成されます。 製品の詳細ページで、品目の ASIN を、その品目に関する追加の詳細（サイズ、ページ数、ディスク数など）と共に検索できます。 |
+| [!UICONTROL Is Seller] | 販売者がリストのBuy Boxポジションに勝ったかどうかを示します。 |
+| [!UICONTROL Condition] | この [条件](./product-listing-condition.md) 製品の。 |
+| [!UICONTROL Listing Price] | Amazonの一覧表に使用される価格。 |
+| [!UICONTROL Shipping Price] | 製品の出荷コスト。 |
+| [!UICONTROL Landed Price] | 商品の上場価格とその送料。 |
+| [!UICONTROL Last Updated] | Buy Box価格が最後に更新された日付。 |

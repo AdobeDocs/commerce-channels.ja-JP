@@ -2,16 +2,16 @@
 title: 注文を処理
 description: '''出荷とキャンセルの指示 [!DNL Walmart Marketplace] Adobe Commerce及びMagento Open Sourceの命令」'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # 注文を処理
 
-後 [!DNL Walmart Marketplace] 注文が確認され、正常に次に送信されました： [!DNL Channel Manager]、 [Commerce Order Management](https://docs.magento.com/user-guide/sales/orders-workspace.html) をクリックして注文を処理します。
+後 [!DNL Walmart Marketplace] 注文が確認され、正常に次に送信されました： [!DNL Channel Manager]、 [Commerce Order Management](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace) をクリックして注文を処理します。
 
 チャネルマネージャーは次の更新を同期します： [!DNL Walmart Marketplace] 注文ステータスと配送先情報を確実に [!DNL Commerce] は、 [!DNL Walmart Marketplace].
 
@@ -37,22 +37,21 @@ ht-degree: 0%
 
 1. 表示する [!DNL Walmart Marketplace] 注文、選択 **[!UICONTROL Orders]**.
 
-1. 「受注」テーブルで、出荷する受注を選択して開きます。 **コマース注文番号**.
+1. 「受注」テーブルで、出荷する受注を選択して開きます。 **[!UICONTROL Commerce Order Number]**.
 
 1. 「 」を選択して、注文の全部または一部に対する出荷を作成し、発行します **[!UICONTROL Ship]**.
 
-   ![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/order-detail-with-external-order-id.png)
+   ![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
    * 配送業者を選択し、次を選択してトラッキング番号を追加します： **[!UICONTROL Add tracking number]**.
 
-      ![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/order-shipment-add-tracking-number.png)
+      ![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
-
-   * 必要に応じて、残りの配送フォームに入力します。 詳しくは、 [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) を参照してください。
+   * 必要に応じて、残りの配送フォームに入力します。 詳しくは、 [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) を参照してください。
 
 1. 出荷後、 [注文ステータス](manage-orders.md#about-order-status) in [!DNL Channel Manager] 更新が次の宛先に送信されたことを確認するには： [!DNL Walmart Marketplace].
 
-注文の出荷後、からの完全な返金または一部の返金を処理できます。 [!DNL Channel Manager] から受け取った返品リクエストに基づいて注文に含まれる項目の [!DNL Walmart Marketplace]. 詳しくは、 [返品・返金命令](return-refund-orders.md).
+注文の出荷後、からの完全な返金または一部の返金を処理できます。 [!DNL Channel Manager] から受け取った返品リクエストに基づいて注文に含まれる項目の [!DNL Walmart Marketplace]. 詳しくは、 [返品・返金の注文](return-refund-orders.md).
 
 ## 注文のキャンセル
 
@@ -60,20 +59,20 @@ ht-degree: 0%
 
 1. 販売チャネルストアの目のアイコンを選択して、ストア表示を開きます。
 
-1. 表示する [!DNL Walmart Marketplace] 注文、選択*[!UICONTROL *Orders]**.
+1. 表示する [!DNL Walmart Marketplace] 注文、選択*[!UICONTROL Orders]**.
 
-1. 「オーダー」テーブルで、 [注文の詳細ページ](manage-orders.md#view-order-detail) 選択 **コマース注文番号** 注文をキャンセルするために。
+1. 「オーダー」テーブルで、 [注文の詳細ページ](manage-orders.md#view-order-detail) 選択 **[!UICONTROL Commerce Order Number]** 注文をキャンセルするために。
 
-   ![のコマース注文の詳細ビュー[!DNL Walmart Marketplace]注文](assets/order-detail-with-external-order-id.png)
+   ![のコマース注文の詳細ビュー[!DNL Walmart Marketplace]注文](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 1. オーダーをキャンセルします。
 
    * 選択 **キャンセル** を選択します。
 
-   * の [!UICONTROL Cancel Order] フォームで、 **キャンセルの理由**.
-   ![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/cancel-order-reason-selector.png)
+   * の [!UICONTROL Cancel Order] フォームで、 **[!UICONTROL Cancellation reason]**.
+   ![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
-   * 選択 **注文をキャンセル**.
+   * 選択 **[!UICONTROL Cancel Order]**.
 
 
 1. キャンセルを送信した後、 [注文ステータス](manage-orders.md#about-order-status) in [!DNL Channel Manager] 更新が次の宛先に送信されたことを確認するには： [!DNL Walmart Marketplace].

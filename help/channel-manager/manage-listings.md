@@ -2,7 +2,7 @@
 title: リストの管理
 description: '''次の項目のセールスチャネルリストを管理します： [!DNL Commerce] Channel Manager を使用してAdobe CommerceおよびMagento Open Sourceで保存。'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 個々のリストのステータスは、製品が [!DNL Channel Manager] ワークフローを使用して、次の手順を決定し、エラーを解決できます。
 
-![接続されたセールスチャネルのリストページ](assets/listings-dashboard-view.png)
+![接続されたセールスチャネルのリストページ](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 リスト表示から、次のタスクを実行できます。
 

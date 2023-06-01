@@ -1,15 +1,15 @@
 ---
-title: 事前設定タスク
+title: の事前設定タスク [!DNL Amazon sales channel]
 description: AmazonSales ChannelにAdobe CommerceまたはMagento Open Sourceストアを統合する前に、完了する必要のあるタスクを確認します。
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
 
-# 事前設定タスク
+# の事前設定タスク [!DNL Amazon sales channel]
 
 前 [ストア統合](./store-integration.md)を [!DNL Amazon Seller Central] アカウントと [!DNL Commerce] アカウントを統合する準備が整いました。 統合を成功させるには、いくつかの事前設定タスクが必要です。
 
@@ -17,11 +17,11 @@ Amazonセールスチャネルに最初のAmazonストアを設定すると、�
 
 ## 1. [!DNL Commerce]
 
-間で同期されたすべての製品とデータ [!DNL Commerce] Amazonは [cron ジョブ](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}. リストの追加や更新などのタスクを完了して注文を受け取ると、cron ジョブは、 [!DNL Commerce] バックエンドと [!DNL Amazon Seller Central] アカウント
+間で同期されたすべての製品とデータ [!DNL Commerce] Amazonは [cron ジョブ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html). リストの追加や更新などのタスクを完了して注文を受け取ると、cron ジョブは、 [!DNL Commerce] バックエンドと [!DNL Amazon Seller Central] アカウント
 
-- [有効にする [!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}.
+- [有効にする [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html).
 
-- 最高のパフォーマンスを得るには、 [設定 [!DNL Commerce] cron](https://docs.magento.com/user-guide/configuration/advanced/system.html){target="_blank"} 5 分に 1 回実行する
+- 最高のパフォーマンスを得るには、 [設定 [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/system.html) 5 分に 1 回実行する
 
 ## 2. [!DNL Amazon Seller Central] アカウント
 
@@ -57,7 +57,7 @@ Amazonセールスチャネルには、 [!DNL Professional Seller] アカウン�
 
 ## 6.通貨とコンバージョンを（必要に応じて）設定します
 
-Amazonストアで、 [!DNL Commerce] 保存 [通貨を有効にする](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} and set the [currency conversion rate](https://docs.magento.com/user-guide/stores/currency-update.html){target="_blank"}.
+Amazonストアで、 [!DNL Commerce] 保存 [通貨を有効にする](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) そして、 [通貨換算レート](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-update.html).
 
 ## 7.必要に応じて、製品条件属性を作成します。
 
@@ -65,7 +65,7 @@ Amazonリストに複数の製品条件 ( _新規_, _使用済み_&#x200B;また
 
 ## 8. [!DNL Amazon Seller Central] 輸送方法
 
-Amazonの注文を満たすために提供する発送方法を設定するには、 [設定と配送設定][10] の [!DNL Amazon Seller Central] アカウント
+Amazonの注文を満たすために提供する発送方法を設定するには、 _設定と配送設定_ の [!DNL Amazon Seller Central] アカウント
 
 ## 追加の設定
 
@@ -73,10 +73,10 @@ Amazonアカウントが設定され、アクティブになっている場合�
 
 ### 除外する製品を確認してメモします。
 
-一部の製品をAmazonに表示したくない場合があります。 Amazonセールスチャネルには、Amazonへの公開の対象となる製品を決定するために使用されるリストルールエンジンがあります。 [リストルール](./listing-rules.md) に公開する（または公開しない）製品のサブセットを選択できます。 [!DNL Amazon Seller Central] アカウント（カテゴリ別、または 1 つ以上の製品属性を定義するなど）。 次に類似 [!DNL Commerce] [カタログ](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"} or [shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} price rules, product attributes used for Amazon listing eligibility must have **[!UICONTROL Use for Promo Rule Conditions]** set to `Yes`. See the **[!UICONTROL Use for Promo Rule Conditions]** in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
+一部の製品をAmazonに表示したくない場合があります。 Amazonセールスチャネルには、Amazonへの公開の対象となる製品を決定するために使用されるリストルールエンジンがあります。 [リストルール](./listing-rules.md) に公開する（または公開しない）製品のサブセットを選択できます。 [!DNL Amazon Seller Central] アカウント（カテゴリ別、または 1 つ以上の製品属性を定義するなど）。 次に類似 [!DNL Commerce] [カタログ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html) または [買い物かご](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) 価格ルール、Amazonリストへの適格要件に使用する製品属性は、次の条件を満たす必要があります。 **[!UICONTROL Use for Promo Rule Conditions]** に設定 `Yes`. 詳しくは、 **[!UICONTROL Use for Promo Rule Conditions]** in [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ### を [!DNL Amazon Seller Central] 非アクティブな地域
 
-統合時にエラーのないデータ切り替えを容易におこなえるように、Amazon地域を `Inactive` のステータスが [ 設定 ] > [ アカウント情報 ] > [ 休暇の設定 ] に表示されます。 参照： [Amazon:休暇のステータスのリスト][11]. 設定が完了したら、ステータスを「 `Active` Amazon
+統合時にエラーのないデータ切り替えを容易におこなえるように、Amazon地域を `Inactive` のステータスが [ 設定 ] > [ アカウント情報 ] > [ 休暇の設定 ] に表示されます。 設定が完了したら、ステータスを「 `Active` Amazon
 
 ![次のアイコン](assets/btn-next.png) [**作成を続行 [!DNL Commerce] 属性**](./ob-creating-magento-attributes.md)

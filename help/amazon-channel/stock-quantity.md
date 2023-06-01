@@ -1,16 +1,15 @@
 ---
-title: 在庫/数量
+title: Amazonセールスチャネル — [!UICONTROL Stock/Quantity]
 description: コマースストアからユーザーへの製品数量の詳細の同期を制御するには [!DNL Amazon Seller Central] アカウントに追加する場合は、「在庫/数量」設定を更新します。
-redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# 在庫/数量
+# [!UICONTROL Stock/Quantity]
 
 *[!UICONTROL Stock/Quantity]* 設定は、ストアリスト設定の一部です。 リスト設定には、 [ストアダッシュボード](./amazon-store-dashboard.md).
 
@@ -42,7 +41,7 @@ ht-degree: 0%
 
 1. 完了したら、「 **[!UICONTROL Save listing settings]**.
 
-![在庫/数量の設定](assets/amazon-stock-quantity.png)
+![在庫/数量の設定](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |---|---|
@@ -67,10 +66,10 @@ ht-degree: 0%
 
 例えば、 *[!UICONTROL Maximum Listed Quantity]* as `12`を指定した場合、Amazonのリストには、製品の数量が 12 と表示されます ( 製品に [!DNL Commerce] 数量 80:
 
-![最大リスト数量の例 1](assets/amazon-max-listed-quantity.png)
+![最大リスト数量の例 1](assets/amazon-max-listed-quantity.png){width="300"}
 
 次に、 *[!UICONTROL Maximum Listed Quantity]* as `1`に設定されている場合、すべての対象製品が `1`. 商品が販売されると、システムはユーザーの [!DNL Commerce] 製品および、追加の在庫が存在する場合は、その品目を数量のAmazonに依存します。 `1`.
 
 このオプションは、通常、数量 1 の商品を注文する場合に役立ちます。 また、Amazonのリストを表示する際の買い物客の緊急度を高めます。
 
-![最大リスト数量の例 2](assets/amazon-max-listed-quantity-1.png)
+![最大リスト数量の例 2](assets/amazon-max-listed-quantity-1.png){width="300"}

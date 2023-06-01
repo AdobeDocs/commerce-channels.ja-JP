@@ -1,10 +1,10 @@
 ---
-title: 標準価格ルールアクション
+title: Amazonセールスチャネル — 標準価格ルールのアクション
 description: 標準価格ルールアクションを使用して、コマースカタログ価格（または価格ソース）に対するAmazonの定価を増減します。
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    - `Increase By` - Amazonにリストする前に値を増やす場合を選択します。
 
-1. の場合 **[!UICONTROL Apply]**&#x200B;を選択し、オプションを選択して、定義する *[!UICONTROL Magento Price Source]* が [上場価格](./listing-price.md) 調整する値：
+1. の場合 **[!UICONTROL Apply]**」で、定義する *[!UICONTROL Magento Price Source]* が [上場価格](./listing-price.md) 調整する値：
 
    - `Apply as percentage`  — 定義する *[!UICONTROL Magento Price Source]* が [上場価格](./listing-price.md) パーセンテージで調整された値
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 完了したら、「 **[!UICONTROL Save pricing rule]**.
 
-![標準価格ルール](assets/ob-price-rule-action-standard-example.png)
+![標準価格ルール](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |---|---|

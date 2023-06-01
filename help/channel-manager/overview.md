@@ -4,9 +4,9 @@ description: '''インストールと使用方法を学ぶ [!DNL Channel Manager
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] Adobe CommerceまたはMagento Open Sourceの製品カタログを [!DNL Walmart Marketplace].
 
-![[!DNL Channel Manager] 拡張機能の管理ビュー](assets/channel-manager-home.png)
+![[!DNL Channel Manager] 拡張機能の管理ビュー](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
 [!DNL Channel Manager] 売りたがるAdobe CommerceまたはMagento Open Sourceの商人を支える [!DNL Walmart Marketplace] を拡張して [!DNL Commerce] 管理者。 を使用 [!DNL Channel Manager] インストール済み、ストア管理者、および運用スタッフが管理できる [!DNL Walmart Marketplace] 販売、在庫、製品の価格は、コマース環境からシームレスに設定できます。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * **キャンセル**- Adobe Commerceで注文がキャンセルされたとき、 [!DNL Channel Manager] は、更新された注文情報を marketplace に送信し、対応する marketplace 注文のアクションをレプリケートします。 注文のキャンセルが完了した後、 [!DNL Commerce] 返品品目を反映する在庫数量の更新と在庫の更新は、次の項目に自動的に同期されます： [!DNL Walmart Marketplace].
 
-* **返品と返金**—Walmart Marketplace がAdobe CommerceまたはMagento Open Source販売チャネルを通じて注文された品目の返品を要求した場合、 [!DNL Channel Manager] リターンリクエスト情報を Commerce セールスチャネルストアに送信して、リターンリクエストをレプリケートします。 その後、払い戻しは、 [!DNL Commerce] [払い戻しワークフロー](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow)、オフラインメソッド。 払い戻しが完了した後、 [!DNL Channel Manager] Walmart への更新を同期して、marketplace セラーアカウントの返品ステータスを更新して返金を反映させることができます。
+* **返品と返金**—Walmart Marketplace がAdobe CommerceまたはMagento Open Source販売チャネルを通じて注文された品目の返品を要求した場合、 [!DNL Channel Manager] リターンリクエスト情報を Commerce セールスチャネルストアに送信して、リターンリクエストをレプリケートします。 その後、払い戻しは、 [!DNL Commerce] [払い戻しワークフロー](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html#refund-workflow)、オフラインメソッド。 払い戻しが完了した後、 [!DNL Channel Manager] Walmart への更新を同期して、marketplace セラーアカウントの返品ステータスを更新して返金を反映させることができます。
 
 ## の予想遅延 [!DNL Channel Manager] 操作
 

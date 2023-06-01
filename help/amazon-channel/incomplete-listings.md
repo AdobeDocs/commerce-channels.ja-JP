@@ -1,15 +1,15 @@
 ---
-title: 不完全なリスト
+title: 不完全なAmazonリスト
 description: Amazonセールスチャネルが [!UICONTROL Incomplete] タブを使用すると、不完全なAmazonリストの実施要件を特定して満たすのに役立ちます。
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# 不完全なリスト
+# 不完全なAmazonリスト
 
 この _[!UICONTROL Incomplete]_タブには、 [!DNL Commerce] Amazonの適格要件を満たすカタログ製品 ( [リストルール](./listing-rules.md)) ですが、Amazonで必要な情報 (Amazon ASIN や定義された製品条件など ) が欠落しています。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >処理中のリストがある場合は、タブの上のメッセージにリストの数が表示されます。
 
-![不完全なAmazonリスト](assets/amazon-incomplete-listings.png)
+![不完全なAmazonリスト](assets/amazon-incomplete-listings.png){width="600" zoomable="yes"}
 
 Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
 

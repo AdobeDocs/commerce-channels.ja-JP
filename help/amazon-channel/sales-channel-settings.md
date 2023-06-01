@@ -1,15 +1,15 @@
 ---
-title: Sales Channel設定
+title: セールスチャネル設定
 description: Amazonセールスチャネル機能のログ、クローンソース、同期を管理するには、Commerce 設定を更新します。
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-# Sales Channel設定
+# セールスチャネル設定
 
 次の場合に [!DNL Amazon Sales Channel] 拡張機能がインストールされている場合、デフォルト値は「 Amazonの管理」セールスチャネルに設定されます。 これらの設定は、Amazonストアの設定で変更できます。 以下の設定が含まれます。
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 1. の場合 **[!UICONTROL Background Tasks (CRON) Source]**&#x200B;選択 `Magento CRON`.
 
-   このオプションを使用すると、Amazonのセールスチャネルで [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) 通信間隔とデータ同期間隔を [!DNL Amazon Seller Central].
+   このオプションを使用すると、Amazonのセールスチャネルで [!DNL Commerce] [Cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) 通信間隔とデータ同期間隔を [!DNL Amazon Seller Central].
 
 1. の場合 **[!UICONTROL Enable Debug Logging]**&#x200B;選択 `Enabled` トラブルシューティングが必要な場合に、追加の同期データを収集する。
 
-   Amazonセールスチャネルのログは、 `{Commerce Root}/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. ログは次の場合にのみ実行します `Enabled` トラブルシューティング中に、 `Disabled` トラブルシューティングが完了したら、
+   Amazonセールスチャネルのログは、 `{Commerce Root}/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). ログは次の場合にのみ実行します `Enabled` トラブルシューティング中に、 `Disabled` トラブルシューティングが完了したら、
 
 1. の場合 **[!UICONTROL Read-Only Mode]**&#x200B;を選択します。 `Enabled` をクリックして、送信状態が変化するすべての API リクエストをブロックします。
 
@@ -51,4 +51,4 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL Save Config]**.
 
-![Sales Channel設定](assets/config-sales-channel-global-settings.png)
+![Sales Channel設定](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

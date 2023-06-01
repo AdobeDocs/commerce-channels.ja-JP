@@ -1,17 +1,17 @@
 ---
-title: Amazon注文の詳細
+title: Amazonの注文の詳細
 description: Adobe CommerceまたはMagento Open Source管理で、Amazon Marketplace の注文に関する詳細を表示します。
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# Amazon注文の詳細
+# Amazonの注文の詳細
 
-![Amazonの注文の詳細](assets/amazon-order-details-header.png)
+![Amazonの注文の詳細](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## Amazon注文の詳細を表示
 
@@ -55,16 +55,16 @@ ht-degree: 0%
 >
 >忘れずに **注文を保存** 編集後
 
-![注文と発送の詳細](assets/amazon-order-details.png)
+![注文と発送の詳細](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### 「注文項目」タブ
 
 この _[!UICONTROL Order Items]_「 」タブには、Amazonから受け取った、Amazonの注文に関連するすべての項目が表示されます。
 
-![注文項目の詳細](assets/amazon-order-item-details.png)
+![注文項目の詳細](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### 「トラッキング」タブ
 
 この _[!UICONTROL Tracking]_「 」タブには、Amazonの注文に関連付けられた追跡情報が表示されます。
 
-![トラッキングの詳細](assets/amazon-order-tracking-details.png)
+![トラッキングの詳細](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

@@ -1,15 +1,15 @@
 ---
-title: ステータス/タブで製品リストを管理
+title: Amazonの製品リストをステータス/タブ別に管理
 description: Amazonの一覧を管理する際は、ステータスに応じて一覧にアクションを適用できます。
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# ステータス/タブで製品リストを管理
+# Amazonの製品リストをステータス/タブ別に管理
 
 この _[!UICONTROL Product Listings]_ページにはいくつかのタブが含まれており、このタブで、すべてのリストのステータスを表示し、製品をAmazonのリストに一致させることができます。
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 関連トピック [アクション別リストの管理](./managing-listings-by-action.md).
 
-![「製品リスト」タブ](assets/amazon-product-listings-tabs.png)
+![「製品リスト」タブ](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | タブ | 説明 | アクション |
 |--- |--- |--- |

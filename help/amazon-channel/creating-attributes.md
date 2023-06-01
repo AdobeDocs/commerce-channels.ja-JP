@@ -1,10 +1,10 @@
 ---
-title: 属性の作成と編集
+title: Amazonセールスチャネルの属性を作成および編集
 description: AmazonSales Channelには、現在のAmazon属性と、リンクされた Commerce 属性を確認できる属性ビューが用意されています。
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. の場合 **[!UICONTROL Comparable on Storefront]**、に設定 `Yes` ( 属性値がAmazonの「比較」機能で使用できる場合 )
 
-1. を選択します。 [!DNL Commerce] [範囲](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 属性に対して、Amazon値の読み込み先となる 1 つ以上のストアビューを選択します。
+1. を選択します。 [!DNL Commerce] [範囲](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 属性に対して、Amazon値の読み込み先となる 1 つ以上のストアビューを選択します。
 
    スコープが `Global`、 _[!UICONTROL Store View]_属性の作成後は変更できません。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 保存後、属性を編集して、設定を確認し、Amazonと [!DNL Commerce] 属性の値。 また、Amazonの値を上書きするかどうかを指定できます [!DNL Commerce] 値。
 
-![属性設定を作成](assets/amazon-attribute-settings-create.png)
+![属性設定を作成](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |--- |--- |
@@ -75,8 +75,8 @@ ht-degree: 0%
 | [!UICONTROL Use for Promo Rule Conditions] | 切り替え `Yes` を使用して、プロモーション条件内のパラメーターで属性を使用できるようにします。 |
 | [!UICONTROL Used in Search] | 属性と値が製品検索で使用できるかどうかを示します。 |
 | [!UICONTROL Comparable on Storefront] | 属性値がAmazonの「比較」機能で使用できるかどうかを示します。 |
-| [!UICONTROL Magento Product Attribute Scope] | を示します。 [範囲](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 属性の。 オプション：グローバル/ストア表示<br>に設定する場合 `Global`の場合、属性の作成後はストア表示を編集できません。 |
-| [!UICONTROL Store Views (to import values into to)] | 範囲が `Store View`. を選択します。 [ストア表示](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} Amazon属性値が同期される宛先です。 選択 `All Store Views (Global)` すべての [!DNL Commerce] ストアビュー数。 |
+| [!UICONTROL Magento Product Attribute Scope] | を示します。 [範囲](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 属性の。 オプション：グローバル/ストア表示<br>に設定する場合 `Global`の場合、属性の作成後はストア表示を編集できません。 |
+| [!UICONTROL Store Views (to import values into to)] | 範囲が `Store View`. を選択します。 [ストア表示](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) Amazon属性値が同期される宛先です。 選択 `All Store Views (Global)` すべての [!DNL Commerce] ストアビュー数。 |
 
 ## 属性の編集 {#edit-an-attribute}
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. 完了したら、「 **[!UICONTROL Save Attribute Settings]**.
 
-![属性設定を編集](assets/amazon-attribute-settings-edit.png)
+![属性設定を編集](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |--- |--- |
@@ -114,5 +114,5 @@ ht-degree: 0%
 | [!UICONTROL Select Magento Product Attribute] | 選択した [!DNL Commerce] 属性を指定します。 リンクされた [!DNL Commerce] 属性を選択し、ドロップダウンリストから別の属性を選択します。 値は設定に従って同期されます。 |
 | [!UICONTROL Amazon Attribute Name] | Amazon属性の名前を表示します。 [!DNL Amazon Seller Central]. 選択した [!DNL Commerce] 属性は、このAmazon属性にリンクします。 この値は、 [!DNL Commerce]. |
 | [!UICONTROL Overwrite Existing Value] | Amazon属性値が既存の値を上書きするかどうかを示します [!DNL Commerce] 値、この値を持つすべての製品に影響 [!DNL Commerce] 属性。<ul><li>**既存のMagento値を上書きしない** - （デフォルト） [!DNL Commerce] 値，異なる値を保持 [!DNL Commerce] Amazon店</li><li>**既存のMagento値を上書き** - Amazon値を [!DNL Commerce] 値を [!DNL Commerce] 商品カタログ</li></ul> |
-| [!UICONTROL Magento Product Attribute Scope] | 属性が `Global` 範囲。 を示します。 [!DNL Commerce] [範囲](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} が作成され、に設定されている `Store View`. |
-| [!UICONTROL Store Views (to import values into to)] | 選択 [!DNL Commerce] [ストア表示](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} Amazon属性値の同期先となる。 選択 `All Store Views (Global)` すべてのストア表示で値を更新します。 |
+| [!UICONTROL Magento Product Attribute Scope] | 属性が `Global` 範囲。 は、 [!DNL Commerce] [範囲](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) が作成され、に設定されている `Store View`. |
+| [!UICONTROL Store Views (to import values into to)] | 選択 [!DNL Commerce] [ストア表示](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) Amazon属性値の同期先となる。 選択 `All Store Views (Global)` すべてのストア表示で値を更新します。 |

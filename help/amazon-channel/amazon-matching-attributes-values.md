@@ -1,19 +1,19 @@
 ---
-title: Amazon属性マッピングの表示
+title: Amazon属性マッピングを表示
 description: コマースとAmazonが正しく同期されるように、リンクされたコマース属性の値を検証します。
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Amazon属性マッピングの表示
+# Amazon属性マッピングを表示
 
 Amazon属性を [!DNL Commerce] 属性、Amazonセールスチャネルは、すべてのAmazon値を追跡し、フィルタリング可能なリストを提供します。 このページを使用して、リンクされた [!DNL Commerce] 属性間で正しく同期 [!DNL Commerce] Amazon Amazon属性の同期値を確認できます。 [!DNL Commerce] 属性。 Amazon属性を作成または編集するには、 [属性の作成と編集](./creating-attributes.md).
 
-この _Amazon値_ は、属性タイプと表示するAmazon属性に応じて異なります。 例えば、 `Label` はテキスト値ですが、 `AmazonListPrice` 数値になります。 ステータスは、Amazonの値が読み込まれたかどうかを示します。
+この _Amazon値_ は、表示する属性タイプとAmazon属性に応じて異なります。 例えば、 `Label` はテキスト値ですが、 `AmazonListPrice` 数値になります。 ステータスは、Amazonの値が読み込まれたかどうかを示します。
 
 ## 属性値を表示する
 
@@ -23,12 +23,12 @@ Amazon属性を [!DNL Commerce] 属性、Amazonセールスチャネルは、す
 
 1. 次をクリック： **[!UICONTROL Matching Attribute Values]** タブをクリックします。
 
-   対応する [!DNL Commerce] カタログ商品は、 _Magento製品 SKU_ 列。 リンクをクリックすると、対応するカタログ製品の詳細ページが開きます。 製品の詳細ページでのAmazon属性の変更が、Amazonのセールスチャネルに同期されない。
+   対応する [!DNL Commerce] カタログ商品は、 _[!UICONTROL Magento Product SKU]_列。 リンクをクリックすると、対応するカタログ製品の詳細ページが開きます。 製品の詳細ページでのAmazon属性の変更が、Amazonのセールスチャネルに同期されない。
 
 >[!TIP]
 >リストのマッピングを編集またはカタログ商品に割り当てるには、 [必要な情報を更新](./amazon-manually-update-incomplete-listing.md).
 
-![属性値の表示](assets/amazon-managing-attribute-values.png)
+![属性値の表示](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |--- |--- |

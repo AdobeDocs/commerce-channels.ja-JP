@@ -1,11 +1,11 @@
 ---
-title: リスト設定を表示
+title: Amazonリスト設定を表示
 description: リスト設定を使用して、 [!DNL Commerce] カタログ製品は、 [!DNL Amazon Marketplace].
 redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL Save]**.
 
-![リスト設定](assets/amazon-listing-settings.png)
+![リスト設定](assets/amazon-listing-settings.png){width="600" zoomable="yes"}

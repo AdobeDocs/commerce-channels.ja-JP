@@ -2,7 +2,7 @@
 title: チャネルマネージャに製品を追加
 description: '''次の製品の品揃えを作成： [!DNL Walmart Marketplace] 「チャネルマネージャーで設定したセールスチャネルにカタログから製品を追加する販売」 '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 1. 接続されたセールスチャネルストアから、 **製品を追加** をクリックして、製品カタログを開きます。
 
-   ![セールスチャネルストアに製品を追加](assets/add-initial-products-to-connected-channel.png)
+   ![セールスチャネルストアに製品を追加](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
    カタログが新しいタブで開きます。
 
 1. カタログ製品グリッドから、販売する製品を選択します [!DNL Walmart Marketplace].
 
-   ![製品をセールスチャネルストアに送信](assets/select-products-from-catalog.png)
+   ![製品をセールスチャネルストアに送信](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
 1. を有効にします。 **[!UICONTROL Connect to Channel Manager]** 属性を設定します。
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
       確認メッセージが表示されます。
 
-      ![カタログから販売チャネルへの製品インポートの確認メッセージ](assets/product-import-from-catalog-confirmation.png)
+      ![カタログから販売チャネルへの製品インポートの確認メッセージ](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      更新がスケジュールされたことを示すメッセージが表示された場合は、 [キュー:consumers:開始](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] コマンドを使用して、更新を直ちに処理できます。
+      更新がスケジュールされたことを示すメッセージが表示された場合は、 [キュー:consumers:開始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] コマンドを使用して、更新を直ちに処理できます。
 
       ```bash
       $ bin/magento queue:consumers:start product_action_attribute.update
@@ -75,6 +75,6 @@ ht-degree: 0%
 
 1. チャネルマネージャーに追加された新しい製品を表示するには、 **[!UICONTROL Draft]** ステータスカード。
 
-   ![接続済みセールスチャネルにインポートされた製品](assets/products-in-marketplace-sales-channel.png)
+   ![接続済みセールスチャネルにインポートされた製品](assets/products-in-marketplace-sales-channel.png){width="400" zoomable="yes"}
 
 

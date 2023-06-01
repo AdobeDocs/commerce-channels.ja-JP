@@ -1,15 +1,15 @@
 ---
-title: 価格設定ルールの追加
+title: Amazonの価格ルールの追加
 description: 価格ルールを使用して、コマース製品カタログのAmazon Marketplace での上場価格を管理します。
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# 価格設定ルールの追加
+# Amazonの価格ルールの追加
 
 価格ルールは、ストアの統合後、いつでも設定または変更できます。 価格ルールは、 [リスト設定](./listing-settings.md) また、 [ストアダッシュボード](./amazon-store-dashboard.md).
 

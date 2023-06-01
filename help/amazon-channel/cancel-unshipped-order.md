@@ -1,15 +1,15 @@
 ---
-title: 未発送の注文の取消
+title: 未発送のAmazon注文のキャンセル
 description: Amazonを通じて保留中または一部出荷済み（未出荷）の注文をキャンセル [!DNL Seller Central] アカウント
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# 未発送の注文の取消
+# 未発送のAmazon注文のキャンセル
 
 Amazonの注文は、キャンセルできるのは、 `Unshipped` ステータス。 注文が保留中または一部出荷済（未出荷）の場合、注文はお客様の [!DNL Amazon Seller Central] アカウント 商品が発送済みの場合は、返品や交換もお客様で処理する必要があります [!DNL Amazon Seller Central] アカウント。
 
@@ -17,7 +17,7 @@ Amazonの注文は、キャンセルできるのは、 `Unshipped` ステータ�
 >
 >オーダーのキャンセル以外のタスクの場合：
 >
->- 次の場合： [注文インポート](./order-settings.md) 有効、注文は [[!DNL Commerce] オーダーワークフロー](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
+>- 次の場合： [注文インポート](./order-settings.md) 有効、注文は [[!DNL Commerce] オーダーワークフロー](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- If [注文インポート](./order-settings.md) が無効の場合は、 [!DNL Amazon Seller Central].
 
 

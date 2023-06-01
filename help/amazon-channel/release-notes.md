@@ -1,15 +1,15 @@
 ---
-title: '''[!DNL Amazon Sales Channel] リリースノート`'
+title: '''[!DNL Amazon Sales Channel] リリースノート'
 description: すべての [!DNL Amazon Sales Channel] リリース。
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
 
-# リリースノート
+# [!DNL Amazon Sales Channel] リリースノート
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 ![修正された問題](../assets/fix.svg) 修正点および改善点
 ![既知の問題](../assets/bug.svg) 既知の問題
 
-詳しくは、 [今後のリリース](https://devdocs.magento.com/release/){target="_blank"} バージョン管理、サポートおよび互換性に関する情報。
+詳しくは、 [今後のリリース](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) バージョン管理、サポートおよび互換性に関する情報。
 
 ## v4.4.4
 
@@ -116,13 +116,13 @@ ht-degree: 0%
 
 以前の [!DNL Amazon sales channel] バージョンがインストールされ、Adobe Commerceのバージョン 2.4.0 への更新を試みると、Adobe Commerceのアップデートを完了する前に、拡張機能を更新するよう求められます。
 
-![既知の問題](../assets/bug.svg) 条件 [!DNL Amazon sales channel] 4.2.0 は、バージョン 2.4.0 およびと統合されています。 [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) が有効になっている場合、コマースカタログに商品を追加できない既知の問題があります。 この問題は、今後の Commerce リリースで対処される予定です。
+![既知の問題](../assets/bug.svg) 条件 [!DNL Amazon sales channel] 4.2.0 は、バージョン 2.4.0 およびと統合されています。 [Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=en) が有効になっている場合、コマースカタログに商品を追加できない既知の問題があります。 この問題は、今後の Commerce リリースで対処される予定です。
 
 ![新規](../assets/new.svg) [!DNL Amazon sales channel] は、テキストベースのアドレスデータを受け取り、市区町村、都道府県、郵便番号など、標準化されたアドレス形式に一致させるように強化されました。 この更新により、注文および配送先のデータを、住所のエラーなしにAmazonと同期（同期）できます。<br/>例えば、買い物客が市区町村、都道府県、郵便番号を `Escondido, californiA 92025-1501`. AmazonSales Channelは、データを読み込み、標準形式にマッチングします。 `Escondido, CA 92025`を呼び出し、この標準化された形式でAmazonに同期します。
 
 ![新規](../assets/new.svg) PHP 7.4 のサポートを追加しました。
 
-![新規](../assets/new.svg) <!--CHAN-4334-->Adobe Commerce 2.4.x のサポートを追加しました。以前のバージョンは Commerce 2.4.x と互換性がある場合がありますが、サポートされていません。 詳しくは、 [今後のリリース](https://devdocs.magento.com/release/){:target=&quot;_blank&quot;} （バージョンの互換性）。 AmazonSales Channelは、Adobe Commerce 2.4.0 の更新を完了する前に、4.2.0 に更新する必要があります。
+![新規](../assets/new.svg) <!--CHAN-4334-->Adobe Commerce 2.4.x のサポートを追加しました。以前のバージョンは Commerce 2.4.x と互換性がある場合がありますが、サポートされていません。 詳しくは、 [今後のリリース](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) バージョンの互換性のため。 AmazonSales Channelは、Adobe Commerce 2.4.0 の更新を完了する前に、4.2.0 に更新する必要があります。
 
 ![修正点](../assets/fix.svg) <!--CHAN-4431-->次の問題を修正しました： _アクセス拒否_ エラーが発生しました。
 
@@ -210,7 +210,7 @@ ht-degree: 0%
 
 - [製品税コード](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} 情報。
 
-![新規](../assets/new.svg) **ログ機能の向上**: <!--CHAN-3642, 3672-->の実装 **デバッグログを有効にする** トラブルシューティングが必要な場合に追加の同期データを収集する機能。 詳しくは、 [Sales Channel設定](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) 」のトピックを参照してください。
+![新規](../assets/new.svg) **ログ機能の向上**: <!--CHAN-3642, 3672-->の実装 **デバッグログを有効にする** トラブルシューティングが必要な場合に追加の同期データを収集する機能。 詳しくは、 [Sales Channel設定](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) 」のトピックを参照してください。
 
 ![修正点](../assets/fix.svg) **商品カタログ**: <!--CHAN-3687-->Amazonのリストで読み込まれた画像が、対応するコマースカタログ製品に適用されなかった問題を修正しました。
 

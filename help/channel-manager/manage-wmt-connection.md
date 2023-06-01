@@ -2,7 +2,7 @@
 title: ウォルマートマーケットプレイス接続の管理
 description: API 資格情報を更新して、[DNL! Commerce] ストア表示と [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] 製品の一覧を作成し、在庫、価格、注文、配送先のデータを同期します。 [!DNL Commerce] そしてウォルマート」
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 認証情報を変更するには、「 」を選択します。 **[!UICONTROL Change Credentials]**
 
-   ![接続を認証するための Walmart API 認証情報の更新](assets/update-connection-credentials.png)
+   ![接続を認証するための Walmart API 認証情報の更新](assets/update-connection-credentials.png){width="700" zoomable="yes"}
 
 1. 次を入力します。 **[!UICONTROL Walmart Client ID]** および **[!UICONTROL Walmart Client Secret]**.
 

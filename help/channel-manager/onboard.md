@@ -4,9 +4,9 @@ description: '''インスタンスを [!DNL Channel Manager] サービスを使�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 チャネルマネージャのオンボーディングプロセスが完了すると、Adobe Commerceから Walmart Marketplace チャネルの販売操作にアクセスし、設定し、管理できます。 チャネルマネージャは、 [!UICONTROL Channel Manager] オプションを [!UICONTROL Commerce Admin Marketing] メニュー
 
-![[!DNL Channel Manager] 管理ビューのオプション](assets/channel-manager-admin-view.png)
+![[!DNL Channel Manager] 管理ビューのオプション](assets/channel-manager-admin-view.png){width="500"}
 
 ## 要件
 
@@ -24,17 +24,17 @@ Channel Manager の使用に関する要件を確認し、拡張機能をダウ�
 
 - **[Walmart Marketplace の要件](walmart-requirements.md)** — 次を含む Channel Manager と統合するための要件を満たしていることを確認する [セラーアカウントの設定](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) 統合を有効にする API キーを生成する際に使用されます。
 
-- **コマースアカウント情報** — ダウンロードとインストール [!DNL Channel Manager] にはが必要です [コマースアカウント](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. に対する所有者または管理者アクセス権を持つアカウント ID と資格情報が必要です [!DNL Adobe Commerce] または [!DNL Magento Open Source] インスタンス。
+- **コマースアカウント情報** — ダウンロードとインストール [!DNL Channel Manager] にはが必要です [コマースアカウント](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html). に対する所有者または管理者アクセス権を持つアカウント ID と資格情報が必要です [!DNL Adobe Commerce] または [!DNL Magento Open Source] インスタンス。
 
    - **画像 ID**-[ログイン](https://account.magento.com/customer/account/login/) から [!DNL Commerce] ID を取得するアカウント **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] オン [!DNL Commerce] アカウント設定](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] オン [!DNL Commerce] アカウント設定](assets/mageid-my-commerce-account.png){width="250"}
 
    - **アクセスキー —** ダウンロードする認証キーの取得 [!DNL Commerce] からの拡張 [!DNL Commerce] Composer リポジトリ `([!DNL repo.magento.com]`) をクリックします。
 
-      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
+      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
 
-      Adobe CommerceおよびMagento Open Sourceプロジェクトでは、所有者は [共有アクセス](https://docs.magento.com/user-guide/magento/magento-account-share.html) 信頼できる従業員およびサービスプロバイダーが所有者またはライセンス所有者のアカウントからの資格情報を使用して拡張機能をダウンロードできるようにする。
+      Adobe CommerceおよびMagento Open Sourceプロジェクトでは、所有者は [共有アクセス](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) 信頼できる従業員およびサービスプロバイダーが所有者またはライセンス所有者のアカウントからの資格情報を使用して拡張機能をダウンロードできるようにする。
 
       の場合 [!DNL Adobe Commerce] クラウドインフラストラクチャプロジェクトでは、ソフトウェアインストーラーは、 [!DNL Commerce] インスタンス：
 
@@ -42,10 +42,10 @@ Channel Manager の使用に関する要件を確認し、拡張機能をダウ�
       - 特定の環境への管理者アクセス
       - an [!DNL Adobe Commerce] Composer リポジトリにアクセスする権限を持つアカウント
 
-      詳しくは、 [ユーザーアクセスを管理](https://devdocs.magento.com/cloud/project/user-admin.html).
+      詳しくは、 [ユーザーアクセスを管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 内 *Commerce on Cloud Infrastructure ガイド*.
 
 
-- **Composer と[!DNL Commerce CLI]** — 参照 [一般的な CLI のインストール](https://devdocs.magento.com/extensions/install/){target="_blank"} を参照してください。 [!DNL Adobe Commerce] または [!DNL Magento Open Source] プラットフォーム。
+- **Composer と[!DNL Commerce CLI]** — 参照 [拡張機能のインストール](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 内 *インストールガイド* を参照してください。 [!DNL Adobe Commerce] または [!DNL Magento Open Source] プラットフォーム。
 
 - **[[!DNL Amazon Sales Channel] バージョン 4.4.2 以降](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)** — 有効化した場合 [!DNL Amazon Sales Channel] の [!DNL Commerce] サイト、 [!DNL Commerce] プラットフォームには、インストール前にバージョン 4.4.2 以降がインストールされています [!DNL Channel Manager].
 
@@ -53,15 +53,15 @@ Channel Manager の使用に関する要件を確認し、拡張機能をダウ�
 
    在庫と注文の管理にチャネルマネージャーを使用する予定がある場合は、Adobe CommerceおよびMagento Open SourceインスタンスにInventory management拡張機能をインストールし、有効にしておく必要があります。 通常、この拡張機能はAdobe Commerceと [!DNL Magento Open Source] 2.3.x 以降。
 
-   Commerce を 2.2.x からアップグレードした場合、またはInventory managementを無効にした場合は、必要なモジュールを含めるようにインストールを更新します。 詳しくは、 [Inventory managementのインストール](https://devdocs.magento.com/extensions/inventory-management/) ( Adobe Commerce開発者向けドキュメント )。
+   Commerce を 2.2.x からアップグレードした場合、またはInventory managementを無効にした場合は、必要なモジュールを含めるようにインストールを更新します。 詳しくは、 [Inventory managementのインストール](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) 内 *Inventory managementガイド*.
 
 ### 必要システム構成
 
-- [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
-- [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
-- [Composer 1.x 以降](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
+- [Adobe Commerce 2.4.x](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
+- [PHP 7.3 / 7.4](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)
+- [Composer 1.x 以降](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/overview.html)
 - [[!DNL Amazon Sales Channel] バージョン 4.4.2 以降](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — アクティブ化済みの場合 [!DNL Amazon Sales Channel] の [!DNL Commerce] サイト、 [!DNL Commerce] プラットフォームには、インストール前にバージョン 4.4.2 がインストールされています [!DNL Channel Manager].
-- [[!DNL Inventory Management]](https://devdocs.magento.com/extensions/inventory-management/)
+- [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html)
 
 ### サポートされるプラットフォーム
 
