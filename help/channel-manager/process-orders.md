@@ -1,8 +1,9 @@
 ---
 title: 注文を処理
 description: '''出荷とキャンセルの指示 [!DNL Walmart Marketplace] Adobe Commerce及びMagento Open Sourceの命令」'
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 * **注文のキャンセル**- [!DNL Walmart Marketplace] 注文、ウォルマートは、お客様に送信された注文キャンセル通知に含まれるキャンセル理由を必要とします。 キャンセルの理由は、 [!DNL Commerce] 注文の支払い情報。 キャンセルを送信すると、在庫の更新内容が [!DNL Walmart Marketplace]. その後、Walmart は顧客に注文状況と配送先の詳細を通知します。
 
-   ストアフロントでは、注文全体をキャンセルする必要があります。 [!DNL Commerce] では部分的なキャンセルは許可されません。
+  ストアフロントでは、注文全体をキャンセルする必要があります。 [!DNL Commerce] では部分的なキャンセルは許可されません。
 
 * **返金要求** — ウォルマート・マーケットプレイスの返品が発送済みの注文に対して要求された場合、 [!UICONTROL Status details] リターンへのリンクが含まれます。 返金と返金は、 [戻り値](return-refund-orders.md) ダッシュボード。
 
@@ -45,7 +46,7 @@ ht-degree: 0%
 
    * 配送業者を選択し、次を選択してトラッキング番号を追加します： **[!UICONTROL Add tracking number]**.
 
-      ![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
+     ![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
    * 必要に応じて、残りの配送フォームに入力します。 詳しくは、 [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) を参照してください。
 
@@ -70,10 +71,10 @@ ht-degree: 0%
    * 選択 **キャンセル** を選択します。
 
    * の [!UICONTROL Cancel Order] フォームで、 **[!UICONTROL Cancellation reason]**.
+
    ![のコマース注文の詳細ビュー [!DNL Walmart Marketplace] 注文](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
    * 選択 **[!UICONTROL Cancel Order]**.
-
 
 1. キャンセルを送信した後、 [注文ステータス](manage-orders.md#about-order-status) in [!DNL Channel Manager] 更新が次の宛先に送信されたことを確認するには： [!DNL Walmart Marketplace].
 

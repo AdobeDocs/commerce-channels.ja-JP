@@ -1,8 +1,10 @@
 ---
 title: Amazon一覧用のデフォルトのストア設定
 description: デフォルトのコマース設定を変更して、ストアのAmazonSales Channelをカスタマイズします。
+role: Admin
+feature: Sales Channels, Integration, Configuration
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -32,7 +34,7 @@ ht-degree: 0%
 ## いくつかの重要なデフォルト設定
 
 | 設定 | デフォルト | 説明 | 場所 |
-|--- |--- |--- |--- |
+|----------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | `Enabled` | 対応するを作成 [!DNL Commerce] Amazonから新しい注文を受け取ったときの注文。これにより、注文を [[!DNL Commerce] 注文](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) ワークフロー。 条件 `Disabled`、Amazonはレビュー用に注文情報をインポートしますが、注文は、 [!DNL Amazon Seller Central] アカウント | [注文の設定](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | Amazonの注文の顧客データは、 [!DNL Commerce] データベース。 読み込まれたAmazonの注文は、ゲストのチェックアウトとして処理されます。 の [!DNL Commerce] 顧客データベースの場合、この設定を `Build New Customer Account`. | [注文の設定](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] Amazonに自動的に公開してAmazonリストを作成するための (Amazonの適格要件を満たす ) カタログ製品。 製品を手動で確認して公開する場合は、この設定をに変更してください。 `Do Not Automatically List Eligible Products`. 手動公開を待機している製品は、 [_リストへの登録準備完了_](./ready-to-list.md) タブをクリックします。 | [製品リストアクション](./product-listing-actions.md) |

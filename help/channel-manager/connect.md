@@ -1,10 +1,11 @@
 ---
 title: '''接続先 [!DNL Commerce] サービス`'
 description: 'チャネルマネージャの接続先 [!DNL Commerce] データの同期と、 [!DNL Commerce] インスタンス、チャネルマネージャー、およびその他のサポートサービス。'
-role: User
+role: Admin, Developer
 level: Intermediate
+feature: Sales Channels, Install, Integration
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 - **コマースアカウント** — にソフトウェアをインストールする [!DNL Commerce] インスタンスの場合は、 [!DNL Commerce] プラットフォーム。
 
-   アカウント所有者とスーパーユーザーは、 [!DNL Commerce] インスタンスを使用するか、 [!DNL Commerce] CLI コマンド `admin:user:create`.
+  アカウント所有者とスーパーユーザーは、 [!DNL Commerce] インスタンスを使用するか、 [!DNL Commerce] CLI コマンド `admin:user:create`.
 
 - **Adobe Commerce Production API キー**-This [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) チャネルマネージャーで必要なサービスへの API アクセスを有効にします。 このキーの公開および非公開の資格情報が必要です。
 

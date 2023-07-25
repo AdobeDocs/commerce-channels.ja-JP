@@ -1,8 +1,9 @@
 ---
 title: Amazonセールスチャネル用の製品の作成と割り当て
 description: AmazonSales Channelが [!UICONTROL New Third Party] タブは、一致するコマースカタログ製品を作成し、Amazonリストに割り当てるのに役立ちます。
+feature: Sales Channels, Products, Configuration
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 0%
@@ -51,27 +52,27 @@ Amazonリストからカタログ商品を作成する場合：
 
    - 設定 **[!UICONTROL Enable Product(s)]** 切り替える `Yes` または `No` （必須）。
 
-      |はい|製品を適格な製品にする [!DNL Commerce] 店頭販売。| |いいえ|製品を不適格にすることを選択 [!DNL Commerce] ストアフロントの販売。|
+     |はい|製品を適格な製品にする [!DNL Commerce] 店頭販売。| |いいえ|製品を不適格にすることを選択 [!DNL Commerce] ストアフロントの販売。|
 
    - の場合 **[!UICONTROL Categories]**、製品のカテゴリを割り当てます（オプション）。
 
-      製品のカテゴリを選択するには、下向き矢印をクリックし、カテゴリのチェックボックスを選択します。 クリック **[!UICONTROL Done]** 終了したとき。
+     製品のカテゴリを選択するには、下向き矢印をクリックし、カテゴリのチェックボックスを選択します。 クリック **[!UICONTROL Done]** 終了したとき。
 
    - の場合 **[!UICONTROL Website Ids]**、製品を関連付ける web サイト（ストアフロント）を選択します。
 
-      このリストのオプションは、 [!DNL Commerce] [ストア設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
+     このリストのオプションは、 [!DNL Commerce] [ストア設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
 
    - の場合 **[!UICONTROL Attribute Set Id]** （必須）」で、オプションを選択します。
 
-      `Default` はデフォルトの選択です。 このリストのオプションは、 [!DNL Commerce] [属性セット](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 設定済みです。
+     `Default` はデフォルトの選択です。 このリストのオプションは、 [!DNL Commerce] [属性セット](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 設定済みです。
 
    - の場合 **[!UICONTROL Visibility]**」で、新しい製品のオプションを選択します。
 
-      |**[!UICONTROL Not Visible Individually]** （デフォルト）|製品は、別の製品のバリエーションとして使用できる場合がありますが、ストアフロントのリストには含まれていません。| |**[!UICONTROL Catalog]**|カタログリストに商品が表示されます。| |**[!UICONTROL Search]**|製品は検索操作に使用できます。| |**[!UICONTROL Catalog and Search]**|商品はカタログ一覧に含まれており、検索操作に使用できます。|
+     |**[!UICONTROL Not Visible Individually]** （デフォルト）|製品は、別の製品のバリエーションとして使用できる場合がありますが、ストアフロントのリストには含まれていません。| |**[!UICONTROL Catalog]**|カタログリストに商品が表示されます。| |**[!UICONTROL Search]**|製品は検索操作に使用できます。| |**[!UICONTROL Catalog and Search]**|商品はカタログ一覧に含まれており、検索操作に使用できます。|
 
    - の場合 **[!UICONTROL Assign Tax Class]**、製品のオプションを選択します。
 
-      このリストに表示されるオプションは、 [税制](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 設定済みです。
+     このリストに表示されるオプションは、 [税制](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 設定済みです。
 
    - 完了したら、「 **[!UICONTROL Create Catalog Products]**.
 
@@ -96,27 +97,27 @@ Amazonリストからカタログ商品を作成する場合：
 
    - 設定 **[!UICONTROL Enable Product(s)]** 切り替える `Yes` または `No` （必須）。
 
-      |はい|製品を適格な製品にする [!DNL Commerce] 店頭販売。| |いいえ|製品を不適格にすることを選択 [!DNL Commerce] ストアフロントの販売。|
+     |はい|製品を適格な製品にする [!DNL Commerce] 店頭販売。| |いいえ|製品を不適格にすることを選択 [!DNL Commerce] ストアフロントの販売。|
 
    - の場合 **[!UICONTROL Categories]**、製品のカテゴリを割り当てます（オプション）。
 
-      製品のカテゴリを選択するには、下向き矢印をクリックし、カテゴリのチェックボックスを選択します。 クリック **完了** 終了したとき。
+     製品のカテゴリを選択するには、下向き矢印をクリックし、カテゴリのチェックボックスを選択します。 クリック **完了** 終了したとき。
 
    - の場合 **[!UICONTROL Website Ids]**、製品を関連付ける web サイト（ストアフロント）を選択します。
 
-      このリストのオプションは、 [!DNL Commerce] [ストア設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
+     このリストのオプションは、 [!DNL Commerce] [ストア設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
 
    - の場合 **[!UICONTROL Attribute Set Id]** （必須）」で、オプションを選択します。
 
-      `Default` はデフォルトの選択です。 このリストのオプションは、 [!DNL Commerce] [属性セット](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 設定済みです。
+     `Default` はデフォルトの選択です。 このリストのオプションは、 [!DNL Commerce] [属性セット](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 設定済みです。
 
    - の場合 **[!UICONTROL Visibility]**」で、新しい製品のオプションを選択します。
 
-      |**[!UICONTROL Not Visible Individually]** （デフォルト）|製品は、別の製品のバリエーションとして使用できる場合がありますが、ストアフロントのリストには含まれていません。| |**[!UICONTROL Catalog]**|カタログリストに商品が表示されます。| |**[!UICONTROL Search]**|製品は検索操作に使用できます。| |**[!UICONTROL Catalog and Search]**|商品はカタログ一覧に含まれており、検索操作に使用できます。|
+     |**[!UICONTROL Not Visible Individually]** （デフォルト）|製品は、別の製品のバリエーションとして使用できる場合がありますが、ストアフロントのリストには含まれていません。| |**[!UICONTROL Catalog]**|カタログリストに商品が表示されます。| |**[!UICONTROL Search]**|製品は検索操作に使用できます。| |**[!UICONTROL Catalog and Search]**|商品はカタログ一覧に含まれており、検索操作に使用できます。|
 
    - の場合 **[!UICONTROL Assign Tax Class]**、製品のオプションを選択します。
 
-      このリストに表示されるオプションは、 [税制](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 設定済みです。
+     このリストに表示されるオプションは、 [税制](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 設定済みです。
 
    - 完了したら、「 **[!UICONTROL Create Catalog Products]**.
 
@@ -125,7 +126,7 @@ Amazonリストからカタログ商品を作成する場合：
 ![コマースカタログ製品を作成](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Product(s)] | （必須）有効にすると、製品が [!DNL Commerce] ストアフロント。 無効にすると、製品は [!DNL Commerce] ストアフロント。 |
 | [!UICONTROL Categories] | 新しい製品のカテゴリの名前を入力するか、下向き矢印をクリックしてオプションを表示してカテゴリを選択できます。 オプションは、 [カテゴリ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) 設定。 |
 | [!UICONTROL Website Ids] | （必須）製品を関連付ける Web サイト（ストアフロント）を選択します。 オプションは、 [!DNL Commerce] [ストア設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定 |

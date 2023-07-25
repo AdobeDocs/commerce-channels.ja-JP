@@ -1,8 +1,9 @@
 ---
 title: '''例：Amazonリストルールの条件の定義'
 description: リストルールを作成する際に、Amazon Marketplace に表示する Commerce カタログ商品を識別する条件を定義します。
+feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -51,17 +52,17 @@ ht-degree: 0%
 
    - **[!UICONTROL Conditions Combination]**  — 別のセットを作成できるように選択します `All/Any` および `True/False` 条件を既存のセット内に配置する。
 
-      ![条件の組み合わせ](assets/ob-conditions-combinations.png){width="500"}
+     ![条件の組み合わせ](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]**  — 製品属性は、属性の設定によって異なります。 属性をリストに表示するには、プロモーションルール条件での使用に合わせて設定する必要があります。 詳しくは、 _プロモーションルール条件に使用_ in [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-      リストの **[!UICONTROL Product Attribute]**」で、条件の基準として使用する属性を選択します。 この例では、選択された条件は次のようになります。 `Amazon FBA`.
+     リストの **[!UICONTROL Product Attribute]**」で、条件の基準として使用する属性を選択します。 この例では、選択された条件は次のようになります。 `Amazon FBA`.
 
-      ![条件ライン 2、パート 2](assets/ob-condition-attribute-dropdown.png){width="350"}
+     ![条件ライン 2、パート 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
-      選択した条件がステートメントに表示され、その後にさらに 2 つの太字のリンクが続きます。 オプションは、選択した製品属性によって異なります。
+     選択した条件がステートメントに表示され、その後にさらに 2 つの太字のリンクが続きます。 オプションは、選択した製品属性によって異なります。
 
-      属性を設定した後は、変更できません。 属性を変更するには、行を削除し、新しい属性を追加する必要があります。 条件行を削除するには、「削除」(![削除アイコン](assets/btn-del-red.png)) アイコンをクリックします。
+     属性を設定した後は、変更できません。 属性を変更するには、行を削除し、新しい属性を追加する必要があります。 条件行を削除するには、「削除」(![削除アイコン](assets/btn-del-red.png)) アイコンをクリックします。
 
       1. クリック **[!UICONTROL is]** を選択し、満たす製品の条件を記述する比較演算子を選択します。
 
@@ -74,6 +75,7 @@ ht-degree: 0%
          選択した項目が、条件を完了するためにステートメント内に表示されます。
 
          ![条件ライン 2、パート 3](assets/ob-listing-rule-condition-is.png){width="500"}
+
    この条件は完了しました。 この条件は、 [!DNL Commerce] Amazon FBA 属性が `Yes` は、その地域とストアにAmazonにリストする資格があります。 さらに条件ラインを追加して、対象製品を絞り込むことができます。
 
 1，文に別の条件行を追加するには、手順 1 に戻り、必要なすべての条件が完了するまでプロセスを繰り返します。

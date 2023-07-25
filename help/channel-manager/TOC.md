@@ -2,7 +2,10 @@
 user-guide-title: '''[!DNL Channel Manager] ガイド`'
 user-guide-description: '''Adobe CommerceまたはMagento Open Sourceを [!DNL Walmart Marketplace] 売り手の中央口座。」'
 breadcrumb-title: '[!DNL Channel Manager Guide]'
-source-git-commit: d43c4760246f38caa5f944025e8d701c79a15ee4
+role: Admin, User
+feature: Sales Channels
+recommendations: noDisplay
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%

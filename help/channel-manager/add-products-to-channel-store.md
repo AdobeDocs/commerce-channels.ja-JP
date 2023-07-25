@@ -1,8 +1,9 @@
 ---
 title: チャネルマネージャに製品を追加
-description: '''次の製品の品揃えを作成： [!DNL Walmart Marketplace] 「チャネルマネージャーで設定したセールスチャネルにカタログから製品を追加する販売」 '
+description: '''次の製品の品揃えを作成： [!DNL Walmart Marketplace] 「チャネルマネージャーで設定したセールスチャネルにカタログから製品を追加する販売」'
+feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -59,15 +60,15 @@ ht-degree: 0%
 
    - 選択 **[!UICONTROL Save]**.
 
-      確認メッセージが表示されます。
+     確認メッセージが表示されます。
 
-      ![カタログから販売チャネルへの製品インポートの確認メッセージ](assets/product-import-from-catalog-confirmation.png){width="400"}
+     ![カタログから販売チャネルへの製品インポートの確認メッセージ](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      更新がスケジュールされたことを示すメッセージが表示された場合は、 [キュー:consumers:開始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] コマンドを使用して、更新を直ちに処理できます。
+     更新がスケジュールされたことを示すメッセージが表示された場合は、 [キュー:consumers:開始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] コマンドを使用して、更新を直ちに処理できます。
 
-      ```bash
-      $ bin/magento queue:consumers:start product_action_attribute.update
-      ```
+     ```bash
+     $ bin/magento queue:consumers:start product_action_attribute.update
+     ```
 
 1. 読み込み操作が完了したら、に戻って、追加した製品を確認します。 [!DNL Channel Manager] および選択 **[!UICONTROL Listings]**.
 

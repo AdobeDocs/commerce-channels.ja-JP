@@ -1,8 +1,9 @@
 ---
 title: 割り当て済み ASIN の編集
 description: Commerce 製品の ASIN 値が、Amazon製品のリストと適切に一致しない場合は、変更します。
+feature: Sales Channels, Products, Configuration
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%

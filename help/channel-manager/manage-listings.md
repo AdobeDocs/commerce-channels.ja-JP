@@ -1,8 +1,9 @@
 ---
 title: リストの管理
 description: '''次の項目のセールスチャネルリストを管理します： [!DNL Commerce] Channel Manager を使用してAdobe CommerceおよびMagento Open Sourceで保存。'
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]** — で正常に一致した製品を識別します。 [!DNL Walmart].
 
-   製品属性値（UPC コードなど）が既存の UPC 値と一致する場合に一致が発生します [!DNL Walmart Marketplace] リスト。 製品が一致する場合、コマース製品オファーが既存のリストに追加されます。
+  製品属性値（UPC コードなど）が既存の UPC 値と一致する場合に一致が発生します [!DNL Walmart Marketplace] リスト。 製品が一致する場合、コマース製品オファーが既存のリストに追加されます。
 
-   次を確認します。 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) ダッシュボードを使用して、更新された製品リストを確認し、製品の詳細、価格、在庫数量を確認します。
+  次を確認します。 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) ダッシュボードを使用して、更新された製品リストを確認し、製品の詳細、価格、在庫数量を確認します。
 
 * **[!UICONTROL Match - Match in Stage]** — 一致する製品を識別します。 [!DNL Walmart] それは次の時点まで接続できない [!DNL Walmart Marketplace] ストアはライブです。 このステータスの製品は、 [!DNL Walmart Marketplace] ストアがライブになります。
 
@@ -102,4 +103,4 @@ ht-degree: 0%
 
 * **[!UICONTROL Error description]** — リストエラーに関する詳細情報を提供します。
 
-   エラーを解決したら、製品を再提出して照合します。 詳しくは、 [製品一致エラーのトラブルシューティング](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  エラーを解決したら、製品を再提出して照合します。 詳しくは、 [製品一致エラーのトラブルシューティング](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

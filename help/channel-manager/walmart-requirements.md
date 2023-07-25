@@ -1,8 +1,10 @@
 ---
 title: '''[!DNL Walmart] 要件`'
 description: '必要な [!DNL Walmart Marketplace]Channel Manager と統合するための情報およびリソースです。'
+role: Leader, Admin, Developer
+feature: Sales Channels, Install, User Account, Tools and External Services
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 * Adobe CommerceまたはMagento Open Sourceの接続先となる API キー [!DNL Walmart Marketplace]
 
-   この [!DNL Walmart Marketplace] API キーにより、 [!DNL Channel Manager] Adobe [!DNL Commerce] Magento Open Sourceとウォルマート・マーケットプレイス チャネルマネージャのオンボーディングプロセスを開始する前に、Seller Central で API キーを設定します。
+  この [!DNL Walmart Marketplace] API キーにより、 [!DNL Channel Manager] Adobe [!DNL Commerce] Magento Open Sourceとウォルマート・マーケットプレイス チャネルマネージャのオンボーディングプロセスを開始する前に、Seller Central で API キーを設定します。
 
 ## の設定 [!DNL Walmart Seller] アカウント
 

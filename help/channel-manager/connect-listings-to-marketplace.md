@@ -1,8 +1,9 @@
 ---
 title: Walmart にリストを接続
 description: '''次の項目にリストを接続 [!DNL Commerce] 製品を [!DNL Walmart Marketplace]売り出しを始める」'
+feature: Sales Channels, Integration, Products, Tools and External Services
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -125,11 +126,11 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
 
    - 「商品カタログ品目」ページで、「 **[!UICONTROL Add Items]**. 次に、 **[!UICONTROL Add items in bulk]**.
 
-      ![Walmart Marketplace 項目設定の「Add items in bulk」オプション](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
+     ![Walmart Marketplace 項目設定の「Add items in bulk」オプション](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - ダウンロードページで、「 」を選択します。 **[!UICONTROL Full Setup]**. 次に、項目カテゴリを選択し、カテゴリテンプレートをダウンロードします。
 
-      ![Walmart Marketplace 項目設定の「カテゴリテンプレートをダウンロード」オプション](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
+     ![Walmart Marketplace 項目設定の「カテゴリテンプレートをダウンロード」オプション](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - 製品リストに必要な属性と推奨属性がテンプレートに含まれていることを確認します。
 
@@ -141,9 +142,9 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
 
    - 内 [!UICONTROL Entity Attributes] 表で、製品データの書き出しの選択基準を設定します。
 
-      フィルターを使用して、販売する製品カテゴリに適用する属性値を選択および設定します。 Walmart の必須属性と推奨属性を必ず含めてください。 ( [データを書き出し](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) Adobe [!DNL Commerce] ユーザーガイドを参照してください )。
+     フィルターを使用して、販売する製品カテゴリに適用する属性値を選択および設定します。 Walmart の必須属性と推奨属性を必ず含めてください。 ( [データを書き出し](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) Adobe [!DNL Commerce] ユーザーガイドを参照してください )。
 
-      書き出しの対象から属性を省略するには、 [!UICONTROL **除外**] 」チェックボックスを使用して、データを書き出すことができます。
+     書き出しの対象から属性を省略するには、 [!UICONTROL **除外**] 」チェックボックスを使用して、データを書き出すことができます。
 
 1. 属性テーブルの最後までスクロールし、「 」を選択します。 [!UICONTROL **続行**] をクリックして、データのエクスポートを開始します。
 

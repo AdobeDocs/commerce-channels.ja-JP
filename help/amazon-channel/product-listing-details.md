@@ -1,8 +1,9 @@
 ---
 title: Amazonリストの詳細を表示
-description: Amazonのリストや個々の SKU/製品の変更に関する競合指標を理解するには、製品リストの詳細ページを参照してください。
+description: Amazonのリストや個々の SKU/製品の変更に関する競合指標を理解するには、製品リストの詳細ページを確認してください。
+feature: Sales Channels, Products, Merchandising
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%

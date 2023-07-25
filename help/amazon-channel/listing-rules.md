@@ -1,8 +1,9 @@
 ---
 title: Amazonセールスチャネル — [!UICONTROL Listing Rules]
 description: リストルールを使用して、Amazon Marketplace リストとして公開する Commerce カタログ製品を決定します。
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ ht-degree: 0%
 詳しくは、 [例：条件の定義](./ob-define-condition-example.md).
 
 | フィールド | 説明 |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | 使用可能なオプションは、 [web サイト](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) お客様が [!DNL Commerce] 設定。 Amazonに表示される対象製品の Web サイトを選択します。 各 Web サイトにはAmazonセールスチャネルで作成する一意のAmazonストアが必要なので、選択できる Web サイトは 1 つだけです。 |
 | [!UICONTROL Conditions] | を定義するために使用されます。 [!DNL Commerce] Amazon地域での製品適格要件の属性。 詳しくは、 [例：条件の定義](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ Amazonのリストは、ルールおよび定義された条件と比較され�
 
 - **[!UICONTROL Ineligible Listings]**  — リストされた製品は、現在のリストルールおよび条件に基づくAmazonリストに登録する資格がありません。
 
-   不適格な製品はAmazonに公開されません。 不適格な製品が既にAmazonにリストされていて、Amazonリストが [!DNL Commerce] カタログ製品、Amazonリストの数量の変更 `0` 製品の販売を防ぐ。 リストを手動で削除するには、 [Amazonリストの終了](./end-listings-manually.md). Amazonの要件を満たさない製品は、ここに記載されていません。 これらの製品は、 [非アクティブなリストタブ](./inactive-listings.md).
+  不適格な製品はAmazonに公開されません。 不適格な製品が既にAmazonにリストされていて、Amazonリストが [!DNL Commerce] カタログ製品、Amazonリストの数量の変更 `0` 製品の販売を防ぐ。 リストを手動で削除するには、 [Amazonリストの終了](./end-listings-manually.md). Amazonの要件を満たさない製品は、ここに記載されていません。 これらの製品は、 [非アクティブなリストタブ](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]**  — リストされた製品は、現在のリストルールおよび条件に基づくAmazonリストへの登録に使用でき、Amazon要件にも基づく適格です。 このリストには、読み込む既存のAmazonリストが含まれます ( **サードパーティリストの読み込み** に設定 `Import Listing` in [リスト設定](./third-party-listing-settings.md)) をクリックします。
 
@@ -94,7 +95,7 @@ Amazonのリストは、ルールおよび定義された条件と比較され�
 ### プレビューレコードのリスト
 
 | フィールド | 説明 |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | に割り当てられる一意の順番 [!DNL Commerce] カタログ製品を追加する際に使用します。 |
 | [!UICONTROL Thumbnail] | メイン製品画像のサムネールを表示します。 |
 | [!UICONTROL Name] | で管理される製品の名前 [!DNL Commerce] [製品グリッド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

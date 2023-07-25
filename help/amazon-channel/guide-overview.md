@@ -3,8 +3,11 @@ title: '''[!DNL Amazon Sales Channel] ガイド`'
 description: に関する包括的な情報 [!DNL Amazon sales channel] (Adobe CommerceおよびMagento Open Source管理者向け )
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
+role: Leader, Admin, User
+level: Intermediate
+recommendations: noCatalog
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: 901d856067cd9d236727edc8bde354820791c411
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +30,7 @@ ht-degree: 0%
 >このガイドでは、Adobe CommerceとMagento Open Sourceの主な機能については説明しません。
 
 | 領域 | 説明 |
-|----|----|
+|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Amazonセールスチャネルの概要](./overview.md) | Amazonセールスチャネルの基本、主な機能、ベストプラクティスなどの詳細をご覧ください。 |
 | [Amazonセールスチャネルのオンボーディング](./amazon-onboarding-home.md) | Amazonストアをすばやく作成し、と統合する [!DNL Amazon Seller Central]. Amazonのセールスチャネルを立ち上げ、導入して、販売を開始します。 |
 | [Amazonセールスチャネルホーム](./amazon-sales-channel-home.md) | Amazonセールスチャネルのホームページと、使用可能なオプションおよびタスクの詳細をご覧ください。 Amazonストアの概要情報を表示し、ストアの詳細と設定にアクセスします。 |
@@ -40,7 +43,7 @@ ht-degree: 0%
 ## その他のドキュメント
 
 | ドキュメントリソース | 説明 |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Adobe Commerce 2.4 Merchant ドキュメント](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe CommerceとMagento Open Sourceの両方に関するマーチャント中心のドキュメント |
 | [Adobe Commerce Documentation のサービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | マーチャントがビジネスの主要なコンポーネントを店舗に統合するのに役立つサービスのコレクションをサポートするドキュメントです。 |
 | [Commerce on Cloud Infrastructure ガイド](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 管理対象の自動ホスティングされた Cloud プラットフォームにAdobe Commerceをデプロイする手順を説明します。 |

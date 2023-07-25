@@ -1,8 +1,10 @@
 ---
 title: ウォルマートマーケットプレイス接続の管理
 description: API 資格情報を更新して、[DNL! Commerce] ストア表示と [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] 製品の一覧を作成し、在庫、価格、注文、配送先のデータを同期します。 [!DNL Commerce] そしてウォルマート」
+role: Admin, Developer
+feature: Sales Channels, Configuration, Shipping/Delivery, Integration
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

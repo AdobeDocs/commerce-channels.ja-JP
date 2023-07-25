@@ -1,8 +1,9 @@
 ---
 title: " [!DNL Amazon Sales Channel] extension"
 description: を統合するには、以下を実行します。 [!DNL Commerce] 次のカタログ [!DNL Amazon Seller Accounts] そして、を通じて販売する [!DNL Amazon Marketplace]、 Amazon Extension をダウンロードしてインストールします。
-exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+role: Admin, Developer
+feature: Sales Channels, Install, Integration, Tools and External Services
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -50,7 +51,6 @@ ht-degree: 0%
    - を入力します。 [認証キー](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). 公開鍵はユーザ名です。秘密鍵はパスワードです。
 
    - Composer がプロジェクトの依存関係の更新を完了するのを待ち、エラーが発生しないことを確認します。
-
 
 1. [拡張機能の検証](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 

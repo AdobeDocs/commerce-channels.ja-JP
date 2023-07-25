@@ -1,9 +1,9 @@
 ---
 title: Amazonセールスチャネル — 製品リスト条件
 description: 「製品リスト条件」設定を使用して、コマース製品を「新規」や「リファース済み」などのAmazon製品の条件にマッピングします。
-redirect_from: /sales-channels/asc/ob-product-listing-condition.html
+feature: Sales Channels, Products, Merchandising
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Amazonでは、製品リストに定義済みの条件が必要です。 すべ�
 ![製品リスト条件](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
-|---|---|
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Listing Product Condition] | 製品リストの条件。 オプション： `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>1 つの製品条件を販売する場合は、標準のAmazon条件の 1 つを選択します。 次に、 [!DNL Commerce] カタログに様々な条件の製品が含まれています。 `Assign Condition Using Product Attribute`. |
 | [!UICONTROL Condition Attribute] | この [!DNL Commerce] 製品の条件を定義する属性。 Amazon条件属性にマッピングするために作成した Magento 属性を選択します。 内 [事前設定タスクの例](./ob-creating-magento-attributes.md) では、にと名前を付けることをお勧めします。 `Amazon Condition`. 選択すると、標準のAmazon条件のマッピングに使用する追加のフィールドが表示されます。 |
 | [!UICONTROL Additional Condition fields] | 標準のAmazon条件のそれぞれに対して、対応する条件を選択します。 オプションは、 [Amazon条件属性を作成しました](./ob-creating-magento-attributes.md).<br><br>製品が `Used` または `Collectible` 条件は識別できませんが、これ以上区別するには、 `Used` または `Collectible` Amazon条件を満たし、残りは空白のまま残します。 このメソッドは、 `Used` または `Collectible` 条件を単一のAmazon Used 条件または Collectible 条件に適用する必要があります。 |

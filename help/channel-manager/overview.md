@@ -1,10 +1,10 @@
 ---
 title: 'の概要 [!DNL Channel Manager]'
 description: '''インストールと使用方法を学ぶ [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceストアを Walmart Marketplace と統合し、Marketplace のリスト、価格、在庫、販売をコマース管理者からシームレスに管理するためのセールスチャネルを作成します。」'
-role: User
+role: Leader, Admin, User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%

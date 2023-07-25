@@ -1,8 +1,9 @@
 ---
 title: '''インテリジェントな価格変更ルール：下限価格`'
 description: 最低価格設定を使用して、Amazonのリストを管理するインテリジェントな価格ルールの最低価格を決定します。
+feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -50,7 +51,7 @@ ht-degree: 0%
 ![インテリジェントな価格変更ルールの例 — 下限価格](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Floor Price Source] | を選択します。 [!DNL Commerce] 相対下限（最低価格）を示す属性。 例えば、Amazonの上場価格が商品のコストを下回りたくない場合は、 `Cost` 属性。 |
 | [!UICONTROL Floor Price Action] | 価格調整処理を選択します。 オプション：<ul><li>**[!UICONTROL Decrease By]**  — 定義する _[!UICONTROL Floor Price Source]_値を調整して、Amazonにリストする前に、ルールの下限価格を下げます。</li><li>**[!UICONTROL Increase By]**  — 定義する _[!UICONTROL Floor Price Source]_値を調整して、ルールの下限価格を高くし、Amazonにリストする前に作成します。</li><li>**[!UICONTROL Match]**  — 定義した価格を下回る株価変動を望まない場合に選択します _[!UICONTROL Floor Price Source]_の値です。 選択すると、_[!UICONTROL Apply]_ および _[!UICONTROL Floor Adjustment Amount]_フィールドは無効です。</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - _[!UICONTROL Floor Price Source]_の値です。 |

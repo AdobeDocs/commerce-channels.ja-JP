@@ -1,8 +1,9 @@
 ---
 title: Amazon注文の表示
 description: Adobe CommerceまたはMagento Open Source管理で、Amazon Marketplace の注文を表示します。
+feature: Sales Channels, Orders
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -91,11 +92,10 @@ _[!UICONTROL All Orders]_「表示」では、注文検索のフィルターオ�
 >- 表示ウィンドウの幅に応じて、列に重なったテキストが表示される場合があります。 折り返すテキストの列を拡大するには、ウィンドウの表示を広げます。
 >- フィルター条件 _[!UICONTROL Total]_、整数でフィルターします。 小数を入力すると、結果にエラーが発生する場合があります。
 
-
 ### デフォルトの列
 
 | 列 | 説明 |
-|---|---|
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | 次の場所でのみ使用できます： _[!UICONTROL All Orders]_表示<br>次の条件に基づいてオーダーのリストを絞り込みます。<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | Amazonから受け取った購入日。 |
 | [!UICONTROL Order Number] | Amazonが生成し、から受け取った注文番号。 Amazonの注文の詳細画面を表示するには、リンクをクリックします。 |

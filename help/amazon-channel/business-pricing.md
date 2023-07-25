@@ -1,9 +1,11 @@
 ---
 title: '"[!DNL (B2B) Business Price] Amazon・リスト用」'
 description: 次の項目をリストできます： [!DNL Commerce] Amazonでビジネスを有効にして、Amazonビジネス (B2B) サイトに製品を保存する [!DNL Seller Central] アカウント
-redirect_from: /sales-channels/asc/ob-business-pricing.html
+role: Admin
+level: Intermediate
+feature: Sales Channels, Configuration, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 [!DNL B2B Business Pricing] では、ビジネスアカウントを持つマーチャントがAmazonのショッピングエクスペリエンスの期待されるパフォーマンスで互いに購入できます。 B2B ビジネス向けの価格設定を使用すると、企業は購入数量に基づいて段階的な価格設定を提供できます。
 
-製品を [!DNL Amazon Business (B2B)] サイトで、最初に [!DNL Amazon Seller Central] アカウント B2B の機能について詳しくは、 [Amazon:B2B セントラル](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} （セラーセントラルログインが必要です）。
+製品を [!DNL Amazon Business (B2B)] サイトで、最初に [!DNL Amazon Seller Central] アカウント B2B 機能について詳しくは、 [Amazon:B2B セントラル](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} （セラーセントラルログインが必要です）。
 
 ## 設定 [!DNL (B2B) Business Price] 設定
 
@@ -47,7 +49,7 @@ ht-degree: 0%
 ![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | フィールド | 説明 |
-|--- |--- |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Business Pricing] | オプション： <ul><li>**[!UICONTROL Disabled]** - （デフォルト）ビジネスのセールスに対してビジネスを有効にしない場合に選択します。 このオプションを選択すると、このセクション内の他のすべてのフィールドは無効になります。</li><li>**[!UICONTROL Enabled]**  — ビジネスのセールスを可能にするタイミングを選択します。 選択すると、すべての価格設定ルールが適用された後、ビジネス価格が定価と等しく設定されます。 有効にした場合、ビジネス価格は Web サイトの価格範囲に従います。 ビジネス価格は$1 以上にする必要があります。</li></ul> |
 | [!UICONTROL Enable Tiered Pricing] | （必須）オプション： <ul><li>**[!UICONTROL Disabled]** - （デフォルト）すべての注文数量に同じ上場価格を求める場合に選択します。 選択すると、すべて _[!UICONTROL Pricing Level]_このセクションのフィールドは無効です。</li><li>**[!UICONTROL Enabled]**  — 受注数量に基づいて調整される価格設定を有効にする場合に選択します。 選択すると、 _[!UICONTROL Pricing Level]_フィールドが有効になっている。</li></ul> |
 | [!UICONTROL Pricing Level One-Five (qty/discount)] | 階層型価格が有効な場合は、最大 5 つの数量/割引設定を定義して、ビジネスリストに対する階層型価格を設定できます。 各行に、適用する数量しきい値と割引率を入力します。 例えば、 `5` 最初の行の最初のフィールドで、 `5` 2 番目のフィールドでは、別の企業が数量 5 以上を購入した場合に、価格が 5%の割引を適用します。 |

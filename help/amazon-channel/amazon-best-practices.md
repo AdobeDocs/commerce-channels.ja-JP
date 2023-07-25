@@ -1,8 +1,10 @@
 ---
 title: のベストプラクティスと制限事項 [!DNL Amazon sales channel]
 description: Adobe CommerceとMagento Open SourceでAmazonセールスチャネルを使用する際のベストプラクティスと制限事項を確認します。
+role: Leader, Admin, User
+feature: Sales Channels, Best Practices
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,10 +25,9 @@ ht-degree: 0%
 
 - 英国の地域の場合、に登録することがベストプラクティスです [AmazonVAT 計算サービス](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} Amazonセールスチャネルをオンボーディングする前に
 
-
-   >[!NOTE]
-   >
-   >Amazonが VAT 計算サービスアカウントを検証および有効化するまでに 10 ～ 14 日かかる場合があります。
+  >[!NOTE]
+  >
+  >Amazonが VAT 計算サービスアカウントを検証および有効化するまでに 10 ～ 14 日かかる場合があります。
 
 制限事項は次のとおりです。
 

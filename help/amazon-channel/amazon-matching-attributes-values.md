@@ -1,8 +1,9 @@
 ---
 title: Amazon属性マッピングを表示
 description: コマースとAmazonが正しく同期されるように、リンクされたコマース属性の値を検証します。
+feature: Sales Channels, Products, Configuration
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Amazon属性を [!DNL Commerce] 属性、Amazonセールスチャネルは、す
 ![属性値の表示](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
-|--- |--- |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Region] | で定義された販売活動の地域 **[!DNL Amazon Marketplace]国** ストアの統合中に |
 | [!UICONTROL Magento Product SKU] | を示します。 [!DNL Commerce] 製品がAmazonストアと同期されました。 値は、 [!DNL Commerce] カタログ内の商品にリンクされている。 で製品を開くには、以下を実行します。 [!DNL Commerce]、リンクをクリックします。 |
 | [!UICONTROL ASIN] | Amazonが製品を識別するために製品に割り当てた、Amazon標準 ID 番号 (ASIN)10 文字の英数字の一意の ID を示します。 |

@@ -1,8 +1,10 @@
 ---
 title: ストアとの統合 [!DNL Amazon Seller Account]
 description: オンボーディングプロセスを開始する前に、AmazonSales Channelストアを作成（追加）し、Amazonセラーアカウントに接続する必要があります。
+role: Admin, Developer
+feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -54,11 +56,11 @@ _のプライマリログイン資格情報が必要です [!DNL Amazon Seller C
 
    - の場合 **[!UICONTROL Product ID on the Amazon market]**&#x200B;にマッピングするAmazon属性を選択します。 [!DNL Commerce] 属性が以下で選択されています。
 
-      この ID は、 [!DNL Commerce] カタログ。
+     この ID は、 [!DNL Commerce] カタログ。
 
    - の場合 **[!UICONTROL Map a Magento attribute]**、 [!DNL Commerce] 上で選択したAmazon属性にマッピングする製品属性。
 
-      [マッピング属性](./ob-creating-magento-attributes.md) は、Amazonのリストが [!DNL Commerce] カタログ。
+     [マッピング属性](./ob-creating-magento-attributes.md) は、Amazonのリストが [!DNL Commerce] カタログ。
 
 1. クリック **[!UICONTROL Connect]**.
 

@@ -1,9 +1,10 @@
 ---
 title: 「オンボード [!DNL Amazon Sales Channel]"
 description: Adobe CommerceとMagento Open Sourceの事前設定タスク、オンボーディング手順、AmazonとAmazonSales Channelの連携方法について説明します。
-redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
+role: Leader, Admin, User
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 6321f17c0e6f9e86bb3f5755dc7710fa68d68b0d
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 >Amazonのセールスチャネルの設定は、Amazonのリストに影響します。 初期のリスト、価格、製品設定はデフォルトで設定されます。 次の項目を変更できます： [ストア設定](./ob-store-review.md) ストアが [!DNL Amazon Seller Central] アカウント
 
 | 手順 | 結果 |
-|--- |--- |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [事前設定タスク](./amazon-pre-setup-tasks.md) | オンボーディングする前に、アクティブで承認済みであることを確認する必要があります [!DNL Amazon Seller Central] アカウント また、 [!DNL Commerce] オンボーディングの前に完了する必要がある要件と推奨事項。 |
 | [Amazon API キーの確認](./amazon-verify-api-key.md) | Amazonセールスチャネルにアクセスする場合、 [!DNL Commerce] は、ストア設定に追加したAmazon API キーを自動的に確認して検証します。 API キーが追加されていないか無効な場合は、 [Amazon API キーの追加または更新](./amazon-verify-api-key.md). |
 | [ストア統合](./store-integration.md) | この手順では、Amazonセールスチャネルストアを作成し、それを [!DNL Amazon Seller Central] アカウント のプライマリログイン資格情報が必要です [!DNL Amazon Seller Central] この手順のアカウント（販売者アカウントの作成に使用する電子メールまたは電話）。 |

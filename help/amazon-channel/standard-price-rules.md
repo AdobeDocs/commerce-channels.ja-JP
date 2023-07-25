@@ -1,8 +1,9 @@
 ---
 title: Amazonセールスチャネル — 標準価格ルールのアクション
 description: 標準価格ルールアクションを使用して、コマースカタログ価格（または価格ソース）に対するAmazonの定価を増減します。
+feature: Sales Channels, Price Rules
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -49,7 +50,7 @@ ht-degree: 0%
 ![標準価格ルール](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
-|---|---|
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | 選択 `Standard price rule`. |
 | [!UICONTROL Price Action] | オプション：<ul><li>**[!UICONTROL Decrease By]**  — 定義する [!DNL Commerce] Amazonに上場する前に減らす価格ソースの値。</li><li>**[!UICONTROL Increase By]**  — 定義する [!DNL Commerce] Amazonに上場する前に増やす価格ソースの値。</li></ul> |
 | [!UICONTROL Apply] | オプション：<ul><li>**[!UICONTROL Apply as percentage]**  — 定義する [!DNL Commerce] パーセントで調整された価格ソースの値。</li><li>**[!UICONTROL Apply as fixed amount]**  — 定義する [!DNL Commerce] 固定金額で調整された価格ソースの値。</li></ul> |

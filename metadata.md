@@ -9,7 +9,7 @@ feature-set: Commerce
 git-repo: https://github.com/AdobeDocs/commerce-channels.ja-JP
 role: User
 index: true
-source-git-commit: da94226111c658048824453bb8f448b0f1e4c3b8
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 この `metadata.md` ファイルには、ユーザーガイドに渡されるリポジトリレベルのメタデータが含まれています `TOC.md` ファイルをリポジトリに格納します。 任意のユーザーガイドの metadata.md コンテンツを変更する場合は、任意の `TOC.md` ファイル。
 
 | メタデータ | 説明 |
-|--- |--- |
+|---------------------|---------------------------------------------------------------------------------|
 | solution-title | 記事のヘッダーでリンクとして使用されます |
 | solution-hub-url | helpx ハブページを開きます |
 | solution-icon | ソリューションタイトルの横にソリューションアイコンが表示されます。 未実装 |
@@ -34,6 +34,6 @@ ht-degree: 0%
 TOC.md ファイル内
 
 | メタデータ | 説明 |
-|--- |--- |
+|------------------|--------------------------------|
 | user-guide-title | 記事のヘッダーでリンクとして使用されます |
 | user-guide-url | helpx ハブページを開きます |

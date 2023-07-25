@@ -1,8 +1,9 @@
 ---
 title: Amazon通信エラーログ
 description: 通信エラーログには、Amazonと [!DNL Commerce].
+feature: Sales Channels, Logs
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Amazonセールスチャネルのホームページは、いくつかの共通�
 ## デフォルトの列
 
 | 列 | 説明 |
-|--- |--- |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | Amazonストアが設定された際に定義されたストアの名前。 参照： [ストア統合](./store-integration.md). |
 | [!UICONTROL Error Code] | エラータイプを識別するためにAmazonから受け取ったコード。 |
 | [!UICONTROL Message] | エラーコードに関連するエラーを示すメッセージ。 |

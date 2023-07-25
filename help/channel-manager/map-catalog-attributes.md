@@ -1,8 +1,9 @@
 ---
 title: カタログ属性をマッピング
 description: '''一致する属性をマッピング [DNL! コマース ] 製品を既存の製品に [!DNL Walmart Marketplace] リストと同期，データ間 [!DNL Channel Manager] および [!DNL Walmart].`'
+feature: Sales Channels, Merchandising, Products
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -36,8 +37,8 @@ ht-degree: 0%
 
    - 対応する属性を [!DNL Commerce] ストアカタログ。
 
-      次の例では、 [!UICONTROL Walmart Marketplace UPC] 属性を製品カタログの UPC 属性に設定します。
+     次の例では、 [!UICONTROL Walmart Marketplace UPC] 属性を製品カタログの UPC 属性に設定します。
 
-      ![製品一致条件の属性をマッピング](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
+     ![製品一致条件の属性をマッピング](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - 選択 **[!UICONTROL Save]**.

@@ -1,8 +1,9 @@
 ---
 title: 返品・返金命令
 description: から受け取った返品要求に対して、全額または一部払い戻しを発行する手順 [!DNL Walmart Marketplace] から [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceの
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -138,7 +139,7 @@ ht-degree: 0%
 
    * 返り値を確認するには、 **[!UICONTROL Returns]** タブをクリックします。
 
-      また、 [!UICONTROL Orders] ページ。 を探す [!UICONTROL Shipped] 返品リクエストを持つ注文。 次に、 `Return requested` リンク [!UICONTROL Status Details] 列を使用して、リクエストを表示および処理します。
+     また、 [!UICONTROL Orders] ページ。 を探す [!UICONTROL Shipped] 返品リクエストを持つ注文。 次に、 `Return requested` リンク [!UICONTROL Status Details] 列を使用して、リクエストを表示および処理します。
 
 1. 「戻り値」テーブルで、 *[!UICONTROL Received]* ステータス。
 
@@ -148,13 +149,13 @@ ht-degree: 0%
 
    * 次の [!UICONTROL Status Details] 列、選択 **[!UICONTROL Create credit memo]** 注文の詳細ページを開くには、 [!DNL Commerce].
 
-      注文が請求されていない場合、注文の詳細ページに、作成を促すエラーメッセージが表示されます。 選択 **[!UICONTROL Create invoice]**. すると、 [請求書の作成と保存](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     注文が請求されていない場合、注文の詳細ページに、作成を促すエラーメッセージが表示されます。 選択 **[!UICONTROL Create invoice]**. すると、 [請求書の作成と保存](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * 注文の詳細ページで、「 」を選択します。 **[!UICONTROL Credit Memo]**.
 
    * In [!UICONTROL Items to Refund] セクション [!UICONTROL Credit Memo]、 **[!UICONTROL Qty to refund]** および **[!UICONTROL Return to Stock]** 返却リクエストに含まれる項目の情報。
 
-      必ず、リターンリクエストにリストされている項目のみを返すようにしてください。
+     必ず、リターンリクエストにリストされている項目のみを返すようにしてください。
 
    * コメントを追加するには、 **[!UICONTROL Credit Memo Comments]**
 

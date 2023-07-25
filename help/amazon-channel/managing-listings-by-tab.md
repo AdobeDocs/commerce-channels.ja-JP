@@ -1,8 +1,9 @@
 ---
 title: Amazonの製品リストをステータス/タブ別に管理
 description: Amazonの一覧を管理する際は、ステータスに応じて一覧にアクションを適用できます。
+feature: Sales Channels, Products
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 ![「製品リスト」タブ](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | タブ | 説明 | アクション |
-|--- |--- |--- |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Incomplete]](./incomplete-listings.md) | 次を表示： [!DNL Commerce] 定義済みのリスト設定を満たすが、リストにAmazonで必要な情報が不足しているカタログ製品。<br><br>If _[!UICONTROL Automatic List Action]_が `Automatically List Eligible Products` の [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) 設定、これらの項目は&#x200B;**[!UICONTROL In Progress Listings]**. | [!UICONTROL Reattempt auto match to Amazon Listing]<br>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) | Amazonから受け取った情報に基づいて、お使いの [!DNL Commerce] カタログ。 | [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md)<br>自動一致を試みる<br>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL Ready to List]](./ready-to-list.md) | Amazonリストを作成する準備ができたカタログ製品を表示しますが、ストアは新しいリストを自動的に公開しないように設定されています。 このタブは、新しいリストを手動で公開する場合に使用します。<br><br>If _[!UICONTROL Automatic List Action]_が `Do Not Automatically List Eligible Products` の [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) 設定、これらの項目は&#x200B;**[!UICONTROL In Progress Listings]**. | [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |

@@ -1,8 +1,9 @@
 ---
 title: Amazon listings の属性
 description: AmazonSales Channelが [!UICONTROL Attributes] 「 」タブを使用して、Amazonおよびコマース属性のリストと、それらが製品の照合にどのようにマッピングされているかを監視します。
+feature: Sales Channels, Products, Configuration
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -29,10 +30,10 @@ ht-degree: 0%
 
    - 非アクティブ化または非アクティブ化するには [設定を編集](./creating-attributes.md#edit-an-attribute) または属性値の一致を選択し、 **[!UICONTROL Edit]**.
 
-      属性の編集には、製品マッチングの属性マッピングの変更が含まれます。
+     属性の編集には、製品マッチングの属性マッピングの変更が含まれます。
 
 | フィールド | 説明 |
-|--- |--- |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Country] | で定義された販売活動の国  **[!DNL Amazon Marketplace]国** 期間 [ストア統合](./store-integration.md). |
 | [!UICONTROL ID] | 生成された汎用属性値 [!DNL Commerce] 属性が作成されたとき。 |
 | [!UICONTROL Amazon Attribute Name] | Amazonから読み込まれた属性の名前。 |

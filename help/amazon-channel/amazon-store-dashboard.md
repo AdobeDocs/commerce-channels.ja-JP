@@ -1,8 +1,9 @@
 ---
 title: Amazonストアダッシュボード
 description: Amazonストアダッシュボードを使用して、コマース管理者からAmazonストアのアクティビティを表示します。
+feature: Sales Channels, Orders, Storefront
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -47,10 +48,10 @@ ht-degree: 0%
 
 - **[!UICONTROL Store Listings]**  — 過去 7 ～ 30 日間の店舗の売上高をグラフで表示し、全期間の売上データを示します。
 
-   また、この節では、 [アクティブなリスト](./active-listings.md), [非アクティブなリスト](./inactive-listings.md)、進行中のリスト、および対応するリンク _[!UICONTROL Product Listings]_ページ。 また、**[!UICONTROL Manage Listings]**開く_[!UICONTROL Product Listings]_ ページ。 詳しくは、 [Amazon一覧の管理](./managing-product-listings.md).
+  また、この節では、 [アクティブなリスト](./active-listings.md), [非アクティブなリスト](./inactive-listings.md)、進行中のリスト、および対応するリンク _[!UICONTROL Product Listings]_ページ。 また、**[!UICONTROL Manage Listings]**開く_[!UICONTROL Product Listings]_ ページ。 詳しくは、 [Amazon一覧の管理](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]**  — 最新のAmazon注文の情報を表示します。 一覧に表示される情報は、Amazonから受け取った情報に基づきます。 このテーブルは次で更新されません： [!DNL Commerce] 注文情報 ( [注文インポート](./order-settings.md) が有効になっている。 すべてのAmazon注文を表示するには、 **すべての注文**.
 
-   詳しくは、 [Amazon注文の表示](./amazon-orders-all.md) 列の説明については、を参照してください。 [注文の管理](./managing-orders.md) を参照してください。
+  詳しくは、 [Amazon注文の表示](./amazon-orders-all.md) 列の説明については、を参照してください。 [注文の管理](./managing-orders.md) を参照してください。
 
 - **[!UICONTROL Seller Central links]**  — 重要な [!DNL Amazon Seller Central] 情報。

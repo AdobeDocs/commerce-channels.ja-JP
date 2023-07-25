@@ -1,8 +1,9 @@
 ---
 title: '''[!DNL Amazon Sales Channel] リリースノート'
 description: すべての [!DNL Amazon Sales Channel] リリース。
+feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 0%
@@ -16,6 +17,7 @@ ht-degree: 0%
 > [!DNL Amazon sales channel] Magento Open Source、Adobe Commerce、Adobe Commerceの各クラウドインフラストラクチャバージョン 2.3.x および 2.4.x を使用するインスタンスにインストールできます。拡張機能は、Adobe Commerce 2.1、Magento Open Source2.2、またはMagento1 ではサポートされなくなりました。
 > <br>次の場合にサポートを利用できます： [!DNL Amazon sales channel]  バージョン 4.0.0 および 4.1.0(Adobe Commerce 2.3.x バージョンのみ )。
 > <br>[!DNL Amazon sales channel] バージョン 4.2.0 以降はAdobe Commerce 2.3.x バージョンと互換性がありますが、サポートはAdobe Commerce 2.4.x バージョンでのみ利用できます。
+>
 
 以下のリリースノートでは、 [!DNL Amazon sales channel] およびを含めます。
 

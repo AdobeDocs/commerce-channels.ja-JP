@@ -1,9 +1,9 @@
 ---
 title: Amazon価格の管理
 description: 価格ルールを使用して、Amazonの一覧の価格をコマースストアと異なる値に設定できます。
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Amazonセールスチャネルを使用すると、価格ルールを設定で�
 - [標準価格ルール](./standard-price-rules.md)
 - [インテリジェントな価格変更ルール](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >Amazon地域が `Inactive` ステータス（オンボーディング中） 価格の計算は送料によって異なり、地域は `Active` Amazonから同期する送料のステータス。
-   >
-   >Amazonアカウントで地域のステータスを更新するには、設定/アカウント情報/休暇の設定に移動します。 参照： [Amazon:休暇のステータスのリスト](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) （販売者の中央ログインが必要です）。
+  >[!IMPORTANT]
+  >
+  >Amazon地域が `Inactive` ステータス（オンボーディング中） 価格の計算は送料によって異なり、地域は `Active` Amazonから同期する送料のステータス。
+  >
+  >Amazonアカウントで地域のステータスを更新するには、設定/アカウント情報/休暇の設定に移動します。 参照： [Amazon:休暇のステータスのリスト](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) （販売者の中央ログインが必要です）。
 
 この機能を使用すると、Amazonの価格を [!DNL Commerce] [カタログ価格ルール](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). 複雑なルールを作成して、特定の製品、特定のカテゴリ内の製品、または特定の属性を持つ製品の価格を変更できます。
 
@@ -58,7 +58,7 @@ Amazonセールスチャネルを使用すると、価格ルールを設定で�
 ## デフォルトの列
 
 | 列 | 説明 |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | 価格ルールの名前 ( [価格ルールの一般設定](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | ルールタイプ（で設定） [価格設定ルールの処理](./pricing-rule-actions.md) （標準価格ルールまたはインテリジェント再価格ルール） |
 | [!UICONTROL Is Active] | ルールがアクティブかどうか ( [価格ルールの一般設定](./pricing-rule-general-settings.md) |

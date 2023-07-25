@@ -1,8 +1,10 @@
 ---
 title: 'インストール [!DNL Channel Manager]'
 description: '[!DNL Channel Manager] 拡張子。'
+role: Admin, Developer
+feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -64,15 +66,15 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
 
    - モジュールのステータスを確認します。
 
-      ```bash
-      bin/magento module:status Magento_SalesChannels
-      ```
+     ```bash
+     bin/magento module:status Magento_SalesChannels
+     ```
 
-      レスポンスのサンプル：
+     レスポンスのサンプル：
 
-      ```terminal
-      Module is enabled
-      ```
+     ```terminal
+     Module is enabled
+     ```
 
    - モジュールが有効になっていない場合は、有効にします。
 
@@ -208,15 +210,15 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 - コマンドラインからメモリ制限を指定します。
 
-   ```bash
-   $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
-   ```
+  ```bash
+  $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
+  ```
 
-   例：
+  例：
 
-   ```bash
-   $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
-   ```
+  ```bash
+  $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
+  ```
 
 ### ビューが見つかりません
 

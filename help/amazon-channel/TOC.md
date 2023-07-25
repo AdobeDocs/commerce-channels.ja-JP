@@ -2,7 +2,10 @@
 user-guide-title: AmazonSales Channelユーザーガイド
 user-guide-description: Adobe CommerceまたはMagento Open Sourceを [!DNL Amazon Seller Central] アカウント
 breadcrumb-title: Amazonセールスチャネル
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+role: Admin, User
+feature: Sales Channels
+recommendations: noDisplay
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%

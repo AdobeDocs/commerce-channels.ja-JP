@@ -1,8 +1,9 @@
 ---
 title: Amazonセールスチャネルの属性を作成および編集
 description: AmazonSales Channelには、現在のAmazon属性と、リンクされた Commerce 属性を確認できる属性ビューが用意されています。
+feature: Sales Channels, Products, Configuration
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -64,7 +65,7 @@ ht-degree: 0%
 ![属性設定を作成](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
-|--- |--- |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | この属性がライブかどうかを示し、Amazonと [!DNL Commerce]. に設定 `Yes` Amazonと [!DNL Commerce] 選択した属性の同期を維持します。 |
 | Magento製品属性を選択 | リストに表示されているAmazon属性名にリンクする、選択した属性を示します。 属性を作成する場合は、「 `Create New Magento Attribute`. |
 | [!UICONTROL Amazon Attribute Name] | 選択したAmazon属性の名前が表示されます。 選択した属性は、このAmazon属性にリンクします。 この値は、 [!DNL Commerce]. |
@@ -109,7 +110,7 @@ ht-degree: 0%
 ![属性設定を編集](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
-|--- |--- |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | この属性がライブかどうかを示し、Amazonと [!DNL Commerce]. に設定 `Yes` Amazonと [!DNL Commerce] 選択した属性の同期を維持します。 |
 | [!UICONTROL Select Magento Product Attribute] | 選択した [!DNL Commerce] 属性を指定します。 リンクされた [!DNL Commerce] 属性を選択し、ドロップダウンリストから別の属性を選択します。 値は設定に従って同期されます。 |
 | [!UICONTROL Amazon Attribute Name] | Amazon属性の名前を表示します。 [!DNL Amazon Seller Central]. 選択した [!DNL Commerce] 属性は、このAmazon属性にリンクします。 この値は、 [!DNL Commerce]. |

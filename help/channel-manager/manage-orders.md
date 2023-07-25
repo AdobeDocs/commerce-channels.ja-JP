@@ -1,8 +1,9 @@
 ---
 title: '注文の表示と管理元 [!DNL Channel Manager]'
 description: '''表示と管理 [!DNL Walmart Marketplace] 注文件数 [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceの』'
+feature: Sales Channels, Orders
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -123,7 +124,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Canceled]** — からキャンセルされたオーダー [!DNL Commerce] ストア。
 
-   注文のキャンセルが完了した後、 [!DNL Commerce] 返された品目を反映した在庫数量の更新 すると、 [!DNL Channel Manager] 更新を [!DNL Walmart Marketplace].
+  注文のキャンセルが完了した後、 [!DNL Commerce] 返された品目を反映した在庫数量の更新 すると、 [!DNL Channel Manager] 更新を [!DNL Walmart Marketplace].
 
 - **[!UICONTROL Return requested]**—Walmart Marketplace が出荷済の注文品に対して返品を要求した場合、 `Return requested` リンクが [!UICONTROL Status details] 列。 リンクを選択すると、 [!UICONTROL Returns] ダッシュボードを使用して返品を表示し、払い戻しプロセスを管理します。
 
@@ -172,6 +173,6 @@ Commerce ストアフロントで、次の場所からインポートされた�
 
 - **並べ替えられた項目** — このセクションには、すべてのコマースオーダーのオーダー項目がリスト表示されます。 この [!UICONTROL Qty] 列には、注文項目のステータス履歴が表示されます。 例えば、注文が請求済み、出荷済み、返金済みの場合、ステータス遷移を表示できます。
 
-   ![注文の詳細順序付き品目ステータス履歴 [!DNL Walmart Marketplace] 注文件数](assets/order-detail-status-history.png){width="600" zoomable="yes"}
+  ![注文の詳細順序付き品目ステータス履歴 [!DNL Walmart Marketplace] 注文件数](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 項目の請求書と払い戻しの詳細を表示するには、 [!UICONTROL Invoice] および [!UICONTROL Credit Memo] オプションを使用します。 また、 [[!UICONTROL Returns]](return-refund-orders.md) ダッシュボードをセールスチャネルストアに追加します。

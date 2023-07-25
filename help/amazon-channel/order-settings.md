@@ -1,10 +1,11 @@
 ---
 title: Amazonの注文設定
 description: 注文の設定を使用して、Amazonの注文をコマースストアにインポートして処理する方法を決定します。
+feature: Sales Channels, Orders, Inventory, Configuration
 exl-id: dc8d0ce1-86a8-4949-b49a-73c5cf62db16
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: a93ba31a95f32cc6ea285aed2399255021985693
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -35,9 +36,9 @@ Amazonからインポートされた注文は、 [!DNL Commerce] [オーダー�
 
    - `Enabled` - （デフォルト）対応する [!DNL Commerce] Amazonから新しい注文を受け取ったときの注文。 [!DNL Commerce] オーダーは、Amazonのステータスと在庫レベルに基づいて作成されます。
 
-      >[!NOTE]
-      >
-      >Amazon注文のインポートは次のように設定する必要があります `Enabled` Amazonの注文を [!DNL Commerce] [注文件数](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) ワークフロー。 に設定する場合 `Disabled`の場合、Amazonの注文に対応する [!DNL Commerce] 注文番号。で管理できません [!DNL Commerce]. これらの注文は、 [!DNL Amazon Seller Central] アカウント
+     >[!NOTE]
+     >
+     >Amazon注文のインポートは次のように設定する必要があります `Enabled` Amazonの注文を [!DNL Commerce] [注文件数](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) ワークフロー。 に設定する場合 `Disabled`の場合、Amazonの注文に対応する [!DNL Commerce] 注文番号。で管理できません [!DNL Commerce]. これらの注文は、 [!DNL Amazon Seller Central] アカウント
 
 1. の場合 **[!UICONTROL Import Amazon Orders Into Magento Store]**&#x200B;を選択します。 [!DNL Commerce] Amazonの注文が [!DNL Commerce].
 
@@ -54,6 +55,7 @@ Amazonからインポートされた注文は、 [!DNL Commerce] [オーダー�
    - `Build Using Magento Order Number` - （デフォルト）一意の [!DNL Commerce] 対応するAmazon注文の注文番号 [!DNL Commerce] オーダー ID を段階的に割り当てます。
 
    - `Build Using Amazon Order Number`  — いつ作成するかを選択します。 [!DNL Commerce] 対応するAmazon割り当ての注文番号を使用した注文番号。
+
    >[!NOTE]
    >
    >注文が読み込まれると、Amazonの注文番号が _[!UICONTROL Recent Orders]_リストを表示します。 この [!DNL Commerce] 注文番号は、 [!DNL Commerce] [注文](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) ワークスペース。
@@ -71,15 +73,14 @@ Amazonからインポートされた注文は、 [!DNL Commerce] [オーダー�
 ![注文の設定](assets/amazon-order-settings.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
-|---|---|
+|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | オプション：<ul><li>**[!UICONTROL Disabled]**  — 対応する注文を [!DNL Commerce] Amazonから新しい注文を受け取ったとき。 このオプションを選択すると、このページ上の他のすべてのフィールドは無効になります。</li><li>**[!UICONTROL Enabled]** - （デフォルト）対応する [!DNL Commerce] Amazonから新しい注文を受け取ったときの注文。 [!DNL Commerce] オーダーは、Amazonのステータスと在庫レベルに基づいて作成されます。</li></ul><br><br>`Enabled` でAmazonの注文を管理するために選択する必要があります [!DNL Commerce]. 条件 `Disabled` が選択されている場合、Amazonの注文はストアダッシュボードに表示されますが、注文は [!DNL Amazon Seller Central] アカウント |
 | [!UICONTROL Import Amazon Orders Into Magento Store] | 選択 [!DNL Commerce] Amazonの注文が [!DNL Commerce] [注文](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) ワークスペース。 この設定のデフォルトは、 [!DNL Commerce] 選択された Web サイト [Amazonストアを追加しました](./store-integration.md). この設定を変更する場合は、オプションの一覧は [!DNL Commerce] には、設定で設定したが格納されます。 詳しくは、 [ストア](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html). |
 | [!UICONTROL Customer Creation] | オプション：<ul><li>**[!UICONTROL No Customer Creation (guest)]** - （デフォルト） [!DNL Commerce] Amazon注文からインポートされた顧客データを使用する。 選択すると、このオプションはに通知します。 [!DNL Commerce] 読み込まれたAmazonの注文を、ゲストのチェックアウトの処理と同じ方法で処理する場合。</li><li>**[!UICONTROL Build New Customer Account]**  — 新しい顧客アカウントを作成するタイミングを [!DNL Commerce] Amazonの注文でインポートされた顧客データを使用する顧客データベース。 このオプションは、 [!DNL Commerce] Amazon注文の顧客データベース。</li></ul> |
 | 注文番号のソース | オプション：<ul><li>**[!UICONTROL Build Using Magento Order Number]** - （デフォルト）一意の [!DNL Commerce] 対応するAmazon注文の注文番号 [!DNL Commerce] オーダー ID を段階的に割り当てます。 </li><li>**Amazon注文番号を使用してビルド**  — いつ作成するかを選択します。 [!DNL Commerce] 対応するAmazon割り当ての注文番号を使用した注文番号。</li></ul> |
 | 保留中の注文 | オプション：<ul><li>**[!UICONTROL Do Not Reserve Quantity]**  — 不要な場合に選択 [!DNL Commerce] Amazonの注文の影響を受ける在庫数。 達成プロセス (FBA) にAmazonを使用する場合に選択します。 このオプションを選択してAmazonの注文を受け取った場合、注文された数量は [!DNL Commerce] 在庫数量。</li><li>**[!UICONTROL Reserve Quantity]** - Amazon注文の注文数量を「予約」するタイミングを [!DNL Commerce] 在庫数量。 選択され、Amazonの注文を受け取ると、注文された数量は、 [!DNL Commerce] 在庫数を防ぐために [!DNL Commerce] 「売り越し」からの在庫 「予約」数量は、 [!DNL Commerce] ストアフロント。</li></ul> |
-| [!UICONTROL Order Status] | オプション：<ul><li>**[!UICONTROL Default Order Status]** - （デフォルト）Amazonからインポートされた新しく作成されたオーダーを、新しいオーダーのデフォルトのオーダーステータスに割り当てる場合に選択します。 （新しい注文のカスタム注文ステータスを作成していない限り）新しい注文のデフォルトのステータスは、次のとおりです。 `Pending`. 詳しくは、 [注文の処理](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order).</li><li>>**[!UICONTROL Custom Order Status]** - Amazonから読み込まれた新しく作成されたオーダーに、デフォルト以外のステータスを割り当てる場合に選択します。 選択した場合、 **[!UICONTROL Processing Order Status]** では、Amazonからインポートされた新しく作成されたオーダーに使用するステータスを選択できます。</li></ul> |
-| [!UICONTROL Processing Orders Status] | 有効： _[!UICONTROL Order Status]_が `Custom Order Status`. 新規受注に割り当てる受注ステータスを選択します。 このフィールドのオプションは、 [!DNL Commerce]. 詳しくは、 [注文ステータス](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). また、カスタムの注文ステータスを作成して、ここに表示することもできます。 カスタムの注文ステータスを作成するには、 [カスタム注文ステータス]( | [!UICONTROL Processing Orders Status] | 有効： _[!UICONTROL Order Status]_が `Custom Order Status`. 新規受注に割り当てる受注ステータスを選択します。 このフィールドのオプションは、 [!DNL Commerce]. 詳しくは、 [注文ステータス](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). また、カスタムの注文ステータスを作成して、ここに表示することもできます。 カスタムの注文ステータスを作成するには、 [カスタム注文ステータス](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html#custom-order-status). |
-| ). |
+| [!UICONTROL Order Status] | オプション：<ul><li>**[!UICONTROL Default Order Status]** - （デフォルト）Amazonからインポートされた新しく作成されたオーダーを、新しいオーダーのデフォルトのオーダーステータスに割り当てる場合に選択します。 （新しい注文のカスタム注文ステータスを作成していない限り）新しい注文のデフォルトのステータスは、次のとおりです。 `Pending`. 詳しくは、 [注文の処理](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order).</li><li>**[!UICONTROL Custom Order Status]** - Amazonから読み込まれた新しく作成されたオーダーに、デフォルト以外のステータスを割り当てる場合に選択します。 選択した場合、 **[!UICONTROL Processing Order Status]** では、Amazonからインポートされた新しく作成されたオーダーに使用するステータスを選択できます。</li></ul> |
+| [!UICONTROL Processing Orders Status] | 有効： _[!UICONTROL Order Status]_が `Custom Order Status`. 新規受注に割り当てる受注ステータスを選択します。 このフィールドのオプションは、 [!DNL Commerce]. 詳しくは、 [注文ステータス](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). また、カスタムの注文ステータスを作成して、ここに表示することもできます。 カスタムの注文ステータスを作成するには、 [カスタム注文ステータス] |
 
 ## [!DNL Commerce] オーダーの作成
 
@@ -92,7 +93,7 @@ Amazonからインポートされた注文は、 [!DNL Commerce] [オーダー�
 >Adobe CommerceとMagento Open Source2.3.x の統合でのみサポートされます。
 
 | 達成チャネル | [!DNL Commerce] 在庫ステータス | Amazon Order Status | [!UICONTROL Create Magento Order] 設定 | 予約済みの在庫 |
-|---|---|---|---|---|
+|---------------------|-------------------------------------------|---------------------|-------------------------------------------|--------------------|
 | FBA | 在庫<br>在庫切れ<br>管理しない | 保留中 | いいえ | いいえ |
 | FBA | 在庫<br>在庫切れ<br>管理しない | PendingAvailability | いいえ | いいえ |
 | FBA | 在庫<br>在庫切れ<br>管理しない | キャンセル | いいえ | いいえ |

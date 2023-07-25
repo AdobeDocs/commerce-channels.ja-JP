@@ -1,8 +1,9 @@
 ---
 title: Amazonセールスチャネル — 価格範囲
 description: 複数の Web サイトまたはグローバルに従って価格を管理するには、コマースの価格範囲を使用します。
+feature: Sales Channels, Price Rules
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%

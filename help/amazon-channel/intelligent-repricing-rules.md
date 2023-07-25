@@ -1,8 +1,9 @@
 ---
 title: '''インテリジェントな価格変更ルール：ルールタイプを選択`'
 description: インテリジェントな価格変更ルールを作成して、競合相手の価格に従ってAmazonの上場価格を決定します。
+feature: Sales Channels, Products, Price Rules
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -58,7 +59,7 @@ ht-degree: 0%
 ![インテリジェントな価格変更ルール — ルールタイプの選択](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
-|--- |--- |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | ルールタイプを選択します。 オプション：<ul><li>**[!UICONTROL Standard price rule]**  — このルールタイプを使用すると、Amazonの上場価格を、 _[!UICONTROL Magento Price Source]_. </li><li>**[!UICONTROL Intelligent repricing rule]**  — このルールタイプを使用すると、競合相手の価格に基づいてAmazonの上場価格を調整できます。 選択すると、 _[!UICONTROL Minimum Positive Feedback]_および_[!UICONTROL Minimum Feedback Count]_ フィールドが有効になっている。</li></ul> |
 | [!UICONTROL Competitor Price Source] | 目的の価格のソースを選択します。 オプション：<ul><li>**[!UICONTROL Use "Buy Box" Price]** - Amazonに基づいてAmazonの価格を調整する場合は、このオプションを選択します [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 販売価格。 A [!DNL Buy Box] 価格は、Amazonの複数の販売者が同じ製品を提供した場合に存在します。 Amazonは [!DNL Buy Box] 売り手はパフォーマンス要件に基づいています。 商人は勝ち目を求める [!DNL Buy Box] 販売者のステータスと製品リストの最大表示を提供します。</li><li>**[!UICONTROL Use Lowest Competitor Price]**  — このオプションは、 [最も低い競合他社価格](./lowest-competitor-pricing.md) 同じ製品の 選択すると、 _[!UICONTROL Minimum Positive Feedback]_および_[!UICONTROL Minimum Feedback Count]_ フィールドが有効になっている。</li></ul> |
 | [!UICONTROL Minimum Positive Feedback] | 次の場合にのみ有効 `Use Lowest Competitor Price` が選択されます。 オプション：<ul><li>**[!UICONTROL All Competitor's Prices]**  — 同じ製品のすべての競合他社の価格に基づいて、価格を比較および調整する場合を選択します。</li><li>**[!UICONTROL Minimum 80/90/95/98% positive feedback]**  — 価格を比較および調整する競合相手を制限するタイミングを選択します。 この設定は、選択した肯定的なフィードバックの最低限の割合をリストに含め、その他の競合他社のサブセットの最低価格を使用することで、競合他社をさらに絞り込みます。</li></ul> |

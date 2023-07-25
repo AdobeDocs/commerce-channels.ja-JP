@@ -1,8 +1,9 @@
 ---
 title: Amazonセールスチャネル — [!UICONTROL Lowest Competitor Pricing]
 description: この [!UICONTROL Amazon Sales Channel] には [!UICONTROL Lowest Competitor Pricing] 「 」タブを使用して、Amazonでの競合相手の価格の位置付けを理解しやすくします。
+feature: Sales Channels, Price Rules
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -32,7 +33,7 @@ ht-degree: 0%
    Amazonの競合する商人のリストとそれぞれの価格を表示します。
 
 | 列 | 説明 |
-|---|---|
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | アイテムを識別する 10 文字または数字の一意のブロック。<br><br>書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合は、アイテムがカタログにアップロードされると新しい ASIN が作成されます。 製品の詳細ページで、品目の ASIN を、その品目に関する追加の詳細（サイズ、ページ数、ディスク数など）と共に検索できます。 |
 | [!UICONTROL Condition] | この [条件](./product-listing-condition.md) 製品の。 |
 | [!UICONTROL Fulfillment Channel] | 達成の方法。 |

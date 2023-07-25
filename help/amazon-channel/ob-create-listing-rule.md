@@ -1,8 +1,10 @@
 ---
 title: Amazonリストルールの作成
 description: Amazonセールスチャネルのオンボーディングプロセスを完了する際に、お客様のAmazonリストを生成するための最初のリストルールを作成します [!DNL Commerce] 製品。
+role: Admin
+feature: Sales Channels, Products, Merchandising, Configuration
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -33,9 +35,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Ineligible Listings]**  — このタブに表示される製品は、現在のリストルール設定に基づくAmazonリストに登録する資格がありません。
 
-      不適格な製品はAmazonに公開されません。 不適格な製品が既にAmazonにリストされていて、Amazonリストが [!DNL Commerce] カタログ製品、Amazonリストの数量の変更 `0` 製品の販売を防ぐ。 Amazonからリストを手動で削除するには、 [Amazonリストの終了](./end-listings-manually.md). Amazonの要件を満たさない製品は、ここに記載されていません。 これらの製品は、 [[!UICONTROL Inactive Listings] タブ](./inactive-listings.md).
+     不適格な製品はAmazonに公開されません。 不適格な製品が既にAmazonにリストされていて、Amazonリストが [!DNL Commerce] カタログ製品、Amazonリストの数量の変更 `0` 製品の販売を防ぐ。 Amazonからリストを手動で削除するには、 [Amazonリストの終了](./end-listings-manually.md). Amazonの要件を満たさない製品は、ここに記載されていません。 これらの製品は、 [[!UICONTROL Inactive Listings] タブ](./inactive-listings.md).
 
-      を変更するには `Ineligible` リスト `Eligible` リストを作成し、この手順を繰り返して、リスト規則を変更します。
+     を変更するには `Ineligible` リスト `Eligible` リストを作成し、この手順を繰り返して、リスト規則を変更します。
 
    - **[!UICONTROL Eligible Listings]**  — このタブに表示される製品は、現在のリストルール設定に基づくAmazonリストへの登録が可能で、Amazonの要件に基づく適格です。 このタブには、読み込まれた既存のAmazonリストが含まれます ( **[!UICONTROL Import Third Party Listings]** に設定 `Import Listing` の [リスト設定](./listing-settings.md)) をクリックします。
 
