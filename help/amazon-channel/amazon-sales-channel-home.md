@@ -1,6 +1,6 @@
 ---
 title: Amazonセールスチャネルのホームページ
-description: 「 Amazon Sales Channel 」ホームページを [!DNL Commerce] 管理者が [!DNL Amazon Marketplace] リストとアクティビティ。
+description: 「 Amazon Sales Channel 」ホームページを [!DNL Commerce] 管理者による [!DNL Amazon Marketplace] リストとアクティビティ。
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
 source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
@@ -23,6 +23,6 @@ Amazonセールスチャネルのホームページは、Amazonセールスチ�
 
 ## Amazonセールスチャネルにアクセス
 
-の _[!UICONTROL Admin]_サイドバー、移動&#x200B;**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
+次の日： _[!UICONTROL Admin]_サイドバー、移動&#x200B;**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
-Amazonセールスチャネルのホームページが開き、デフォルトで「 」に設定されます。 [_Amazonストア_](./managing-stores.md) 表示
+Amazonセールスチャネルのホームページが開き、デフォルトで「 」に設定されます。 [_Amazon Stores_](./managing-stores.md) 表示。

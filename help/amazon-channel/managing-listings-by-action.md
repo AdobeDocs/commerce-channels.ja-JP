@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Amazonの製品リストをアクション別に管理
 
-この _[!UICONTROL Product Listings]_ページにはいくつかのタブが含まれており、このタブで、すべてのリストのステータスを表示し、製品をAmazonのリストに一致させることができます。
+The _[!UICONTROL Product Listings]_ページにはいくつかのタブが含まれており、このタブで、すべてのリストのステータスを表示し、製品をAmazonのリストに一致させることができます。
 
 使用可能なリストタスクはタブごとに少し異なりますが、 [workspace コントロール](./workspace-controls.md) は同じで、お使いのリストに表示するデータをカスタマイズできます。
 
-以下のオプション **[!UICONTROL Actions]** は複数のリストにアクションを適用できますが、オプションは **[!UICONTROL Select]** 内 _[!UICONTROL Action]_「 」列は、個々のリストにのみアクションを適用します。
+以下のオプション **[!UICONTROL Actions]** は複数のリストにアクションを適用でき、は以下のオプションです。 **[!UICONTROL Select]** （内） _[!UICONTROL Action]_「 」列は、個々のリストにのみアクションを適用します。
 
-関連トピック [ステータス別リストを管理/タブ](./managing-listings-by-tab.md).
+関連トピック [ステータス別にリストを管理/タブ](./managing-listings-by-tab.md).
 
 | アクション | 説明 | タブ |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -34,16 +34,16 @@ ht-degree: 0%
 | [[!UICONTROL End Listing(s) on Amazon]](./end-listings-manually.md) | （一括操作）Amazonに存在する製品のリストを手動で終了および削除するために使用します。 終了したリストは、リストルールの実施要件を満たしている限り、リリストできます。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
 | [[!UICONTROL Edit Listing Overrides]](./creating-editing-overrides.md) | （一括操作）個々のリストに対する価格、処理時間、条件、販売者の注記テキストを設定する既存の「上書き」を手動で編集し、他のリストのデフォルト、設定、ルールは無視します。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
 | [[!UICONTROL Create Override]](./creating-editing-overrides.md) | 個々のリストに対する価格、処理時間、条件、販売者の注記のテキストを設定する「上書き」を手動で作成し、他のリストのデフォルト、設定、ルールは無視します。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md) | カタログ商品と一致する ASIN を変更する必要がある場合に使用します ( 例：( 製品が正しくないリスト (ASIN) と一致した場合 )。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md) | 次の 2 つの機能を提供できます。<br><br>カタログ製品と 2 つのAmazonリストの間に 1 対 2 の関係を作成するために使用できます。 例：Amazonには、異なる ASIN 値を持つ製品がリストされています。 1 つのカタログ製品を、製品の両方の ASIN リストに一致させることができます。<br><br>様々なAmazon地域のリストを制御するために使用できます。 例：Amazon地域に基づいて異なる発送方法が定義されたカタログ製品があります（米国地域は FBA、カナダ地域は FBM）。 在庫/数量を制御するには、エイリアスの販売者 SKU を作成し、その地域の同じ製品を別の販売者 SKU で再リストします。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
-| [[!UICONTROL Switch to Fulfilled by Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings) | 製品に関連付けられた達成方法 (Amazonで満たす ) の変更に使用：FBA または商人が満たすもの：FBM) を参照してください。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md) | カタログ商品と一致する ASIN を変更する必要がある場合に使用します（例：商品が ASIN の誤ったリストに一致した場合）。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md) | 次の 2 つの機能を提供できます。<br><br>カタログ製品と 2 つのAmazonリストの間に 1 対 2 の関係を作成するために使用できます。 例： Amazonの製品は、異なる ASIN 値を持ちます。 1 つのカタログ製品を、製品の両方の ASIN リストに一致させることができます。<br><br>様々なAmazon地域のリストを制御するために使用できます。 例：Amazon地域に基づいて異なる発送方法が定義されたカタログ製品がある場合（米国地域は FBA、カナダ地域は FBM）。 在庫/数量を制御するには、エイリアスの販売者 SKU を作成し、その地域の同じ製品を別の販売者 SKU でリストし直します。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL Switch to Fulfilled by Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings) | 製品に関連付けられた達成方法 (Amazonで満たされる：FBA または商人が満たす：FBM) の変更に使用します。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
 | [[!UICONTROL End Listing]](./end-listings-manually.md) | （単一のリストアクション）Amazonに存在する製品のリストを手動で終了および削除するために使用します。 終了したリストは、リストルールの実施要件を満たしている限り、リリストできます。 | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
 | [[!UICONTROL Edit Override]](./creating-editing-overrides.md) | （単一リストアクション）個々のリストに対する価格、処理時間、条件、販売者のメモのテキストを設定し、他のリストのデフォルト、設定、ルールを無視する既存の「上書き」を手動で編集します。 | [[!UICONTROL Overrides]](./overrides.md) |
 
 ## 製品リストにアクセス
 
-1. の _管理者_ サイドバー、移動 **マーケティング** > _チャネル_ > **AmazonSales Channel**.
+1. 次の日： _管理者_ サイドバー、移動 **マーケティング** > _チャネル_ > **AmazonSales Channel**.
 
 1. クリック **ストアを表示** をストアカードに貼り付けます。
 
-1. ストアダッシュボードで、 **リストの管理** 内 _ストア一覧_ 」セクションに入力します。
+1. ストアのダッシュボードで、 **リストの管理** （内） _ストア一覧_ 」セクションに入力します。

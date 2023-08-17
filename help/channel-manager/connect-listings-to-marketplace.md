@@ -14,9 +14,9 @@ ht-degree: 0%
 
 他の市場と同じように [!DNL Walmart] では、サードパーティ販売者は、他のユーザーが販売した品目をリストできます。
 
-- [!DNL Walmart Marketplace] は、UPC や GTIN などの製品識別子を使用して、製品を既存の製品と照合します [!DNL Walmart Marketplace] リスト
+- [!DNL Walmart Marketplace] は、UPC や GTIN などの製品識別子を使用して、製品を既存の製品と照合します。 [!DNL Walmart Marketplace] リスト。
 
-- 一致する製品の場合、「Walmart Marketplace」に、 [!DNL Commerce] 製品を [!DNL Channel Manager].
+- 一致する製品の場合、「Walmart Marketplace」に、 [!DNL Commerce] 製品を次の場所から接続するときの製品オファー [!DNL Channel Manager].
 
 - 通常、最も価格が低い製品オファーは、 [!DNL Walmart Marketplace] リストに加え、レビューなどの他の要因も配置に影響を与えます。
 
@@ -34,21 +34,21 @@ ht-degree: 0%
 
 1. 接続されたセールスチャネルを開きます。
 
-1. 送信者 **[!UICONTROL Listings]**、 *[!UICONTROL Draft]* ステータス。
+1. 送信者 **[!UICONTROL Listings]**、次にある照合対象の製品を選択 *[!UICONTROL Draft]* ステータス。
 
-   ![リストから製品を選択し、照合用に送信](assets/products-in-marketplace-sales-channel.png){width="500" zoomable="yes"}
+   ![リストから製品を選択し、照合用に送信します](assets/products-in-marketplace-sales-channel.png){width="500" zoomable="yes"}
 
 1. 選択 **[!UICONTROL Match Products]**.
 
    メッセージは、照合用に送信された製品の数を示します。
 
-   選択した製品のステータスは、 [!UICONTROL *処理中*] 一致操作が完了するまで。 Walmart Marketplace がマッチング処理を完了するまでに最大 30 分かかる場合があります。
+   選択した製品のステータスは、「 [!UICONTROL *処理中*] 一致操作が完了するまで。 Walmart Marketplace がマッチング処理を完了するまでに最大 30 分かかる場合があります。
 
 ### 一致ステータスを確認
 
 一致が完了したら、 **[!UICONTROL Refresh products]** 現在の製品ステータスを表示します。 *一致* または *エラー*.
 
-- **[!UICONTROL Match]** 製品が正常に一致したことを示します。 製品オファーは、既存の Walmart Marketplace リストに接続されました。 この [Marketplace ストアがアクティブではありません](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* が *[!UICONTROL Status detail]* 列。 ステージングされた製品は、 [!DNL Walmart Marketplace] ストアがアクティブ化されています。
+- **[!UICONTROL Match]** 製品が正常に一致したことを示します。 製品オファーは、既存の Walmart Marketplace リストに接続されました。 次の場合、 [Marketplace ストアがアクティブではありません](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* が *[!UICONTROL Status detail]* 列。 ステージングされた製品は、 [!DNL Walmart Marketplace] ストアがアクティブ化されています。
 
 - **[!UICONTROL Error]** は、次のいずれかの問題が原因で一致操作が失敗したことを示します。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 製品一致エラーのトラブルシューティング
 
-製品一致操作がエラーで失敗した場合、エラーメッセージは *[!UICONTROL Status detail]* 列 [!UICONTROL Channel Manager] 製品リスト。
+製品一致操作がエラーで失敗した場合、エラーメッセージは *[!UICONTROL Status detail]* 列の [!UICONTROL Channel Manager] 製品リスト。
 
 返される一般的なエラーで、製品 ID 値の形式が正しくないか、必須の属性が見つかりません。
 
@@ -73,8 +73,8 @@ ht-degree: 0%
 | タイプ | 説明 | 例 |
 |------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
 | UPC | GTIN-12：チェックデジットを含む 12 桁の数値。 </br></br>UPC の桁数が 12 桁未満の場合（UPC-E が 8 桁の場合など）は、要件を満たすために末尾のゼロを追加します。 | 変更前 `45678912345` から `045678912345` |
-| GTIN | GTIN-14:14 桁の数値（チェックデジットを含む）。 </br></br>GTIN の桁数が 14 桁未満の場合は、先頭にゼロを追加します </br>要件を満たすために。 | 変更 `456789123456` から `0045678912345` |
-| EAN | GTIN-13：チェックデジットを含む 13 桁の数値。 </br></br>EAN の桁数が 13 桁未満の場合は、先頭にを追加します </br>0 を指定して要件を満たします。 | 変更前 `4567891234` から `0004567891234` |
+| GTIN | GTIN-14:14 桁の数値（チェックデジットを含む）。 </br></br>GTIN の桁数が 14 桁未満の場合は、先頭にゼロを追加します。 </br>要件を満たすために。 | 変更 `456789123456` から `0045678912345` |
+| EAN | GTIN-13：チェックデジットを含む 13 桁の数値。 </br></br>EAN の桁数が 13 桁未満の場合は、先頭にを追加します。 </br>0 を指定して要件を満たします。 | 変更前 `4567891234` から `0004567891234` |
 
 Walmart Marketplace のエラーコードについて詳しくは、 [Walmart Seller ヘルプ](https://sellerhelp.walmart.com/s/guide?article=000005844).
 
@@ -110,7 +110,7 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
 
 ### 前提条件
 
-- 次に示す [ウォルマートの要件](walmart-requirements.md).
+- 次の条件を満たしていることを確認します。 [ウォルマートの要件](walmart-requirements.md).
 
 - を [!DNL Commerce] 製品カタログを開き、Walmart Marketplace でリストする製品のカタログ設定に必要な属性がすべて含まれ、Walmart Marketplace コンテンツガイドラインを満たしていることを確認します。
 
@@ -134,21 +134,21 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
 
    - 製品リストに必要な属性と推奨属性がテンプレートに含まれていることを確認します。
 
-1. 次の [!DNL Commerce] 管理者：エクスポートする製品データをAdobeから選択します [!DNL Commerce] サイト。
+1. 次から： [!DNL Commerce] 管理者：エクスポートする製品データをAdobeから選択します [!DNL Commerce] サイト。
 
-   - 管理者から、 [!UICONTROL **システム** /データ転送 > **書き出し**].
+   - 管理者で、「 」を選択します。 [!UICONTROL **システム** /データ転送 > **書き出し**].
 
-   - の [!UICONTROL Export] ページの [!UICONTROL Entity Type] フィールド、選択 [!UICONTROL **製品**].
+   - 次の日： [!UICONTROL Export] ページの [!UICONTROL Entity Type] フィールド、選択 [!UICONTROL **製品**].
 
-   - 内 [!UICONTROL Entity Attributes] 表で、製品データの書き出しの選択基準を設定します。
+   - Adobe Analytics の [!UICONTROL Entity Attributes] 表で、製品データの書き出しの選択基準を設定します。
 
-     フィルターを使用して、販売する製品カテゴリに適用する属性値を選択および設定します。 Walmart の必須属性と推奨属性を必ず含めてください。 ( [データを書き出し](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) Adobe [!DNL Commerce] ユーザーガイドを参照してください )。
+     フィルターを使用して、販売する製品カテゴリに適用する属性値を選択および設定します。 Walmart の必須属性と推奨属性を必ず含めてください。 ( 詳しくは、 [データを書き出し](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) Adobe [!DNL Commerce] ユーザーガイドを参照してください )。
 
      書き出しの対象から属性を省略するには、 [!UICONTROL **除外**] 」チェックボックスを使用して、データを書き出すことができます。
 
 1. 属性テーブルの最後までスクロールし、「 」を選択します。 [!UICONTROL **続行**] をクリックして、データのエクスポートを開始します。
 
-   CSV 書き出しファイルは、cron ジョブを使用してメッセージキューで処理され、 `var/export/folder`. ( [メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) 内 *設定ガイド*.)
+   CSV 書き出しファイルは、cron ジョブを使用してメッセージキューで処理され、 `var/export/folder`. ( 詳しくは、 [メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) （内） *設定ガイド*.)
 
 1. Walmart Marketplace 製品カテゴリの Excel テンプレートを開き、Excel マクロ機能を使用して、エクスポートされた製品データを Excel テンプレートに結合します。
 
@@ -161,4 +161,4 @@ Walmart Marketplace に一致しない製品の場合は、Walmart 製品カテ�
    - 選択 [!UICONTROL **送信**].
    - を選択します。[!UICONTROL  **アクティビティフィード**] をクリックして、進行状況を表示します。
 
-詳しい手順については、 [完全なアイテム仕様を使用してアイテムを一括で追加](https://sellerhelp.walmart.com/s/guide?article=000007680) 内 [!DNL *Walmart Seller ヘルプ*].
+詳しい手順については、 [完全なアイテム仕様を使用してアイテムを一括で追加](https://sellerhelp.walmart.com/s/guide?article=000007680) （内） [!DNL *Walmart Seller ヘルプ*].

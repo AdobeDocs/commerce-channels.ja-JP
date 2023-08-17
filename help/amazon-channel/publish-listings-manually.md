@@ -1,5 +1,5 @@
 ---
-title: Amazonリストの手動公開
+title: 手動でのAmazonリストの公開
 description: 必要に応じて、終了したAmazonのリストをコマース管理者から手動で公開できます。
 feature: Sales Channels, Products, Merchandising
 exl-id: ca3f674e-d93a-44a6-8c06-b417694a0f1e
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Amazonリストの手動公開
+# 手動でのAmazonリストの公開
 
 終了した 1 つ以上のAmazonリストを手動で公開できます。
 
@@ -24,4 +24,4 @@ ht-degree: 0%
 
    選択したリストが処理されてAmazonに公開されることを確認するメッセージが表示されます。
 
-   リスト情報は、cron 設定に基づいてAmazonに公開されます。 リスト情報は、次回のデータ同期時にAmazonに送信されます。 Amazonがリストの確認を返すまで、手動で公開したリストは _リストへの登録準備完了_ タブ `List in Progress` ステータス。 リストの確認がAmazonから受け取られると、リストは _アクティブ_ タブ `Active` ステータス。
+   リスト情報は、cron 設定に基づいてAmazonに公開されます。 リスト情報は、次回のデータ同期時にAmazonに送信されます。 Amazonがリストの確認を返すまで、手動で公開したリストは _リストへの登録準備完了_ タブと `List in Progress` ステータス。 リストの確認がAmazonから受け取られると、リストは、 _アクティブ_ タブに `Active` ステータス。

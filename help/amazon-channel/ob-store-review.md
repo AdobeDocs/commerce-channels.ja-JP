@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Amazonセールスチャネルストアを作成および統合した後、ストアのデフォルト設定を確認して、製品、リスト、価格、その他の設定が正しいことを確認します。
 
-1. の _管理者_ サイドバー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
 1. 表示するストアを選択し、 **[!UICONTROL View Store]**.
 
@@ -26,6 +26,6 @@ Amazonセールスチャネルストアを作成および統合した後、ス�
    - [**[!UICONTROL Pricing rules]**](./pricing-products.md) -Amazon定価が適格な上場用にどのように変更されるかを定義します。
    - **[!UICONTROL Store reports]** - [競合価格の分析](./competitive-price-analysis.md) および [リストの改善点](./listing-improvements.md).
    - **[!UICONTROL Logs]** - [変更のリスト](./listing-changes-log.md) および [通信エラー](./communication-errors-log.md).
-   - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- [!DNL Commerce] 管理者。
+   - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)— でメールとAmazonセールスチャネルのストア名の設定を確認する [!DNL Commerce] 管理者。
 
 ![ストアダッシュボード](assets/ob-store-review.png){width="600" zoomable="yes"}

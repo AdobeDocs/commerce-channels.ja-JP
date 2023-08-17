@@ -1,21 +1,21 @@
 ---
-user-guide-title: AmazonSales Channelユーザーガイド
-user-guide-description: Adobe CommerceまたはMagento Open Sourceを [!DNL Amazon Seller Central] アカウント
-breadcrumb-title: Amazonセールスチャネル
+user-guide-title: Amazon Sales Channel ユーザーガイド
+user-guide-description: Adobe CommerceまたはMagento Open Sourceを [!DNL Amazon Seller Central] アカウント。
+breadcrumb-title: Amazon セールスチャネル
 role: Admin, User
 feature: Sales Channels
 recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
 # Amazonセールスチャネル — [!DNL channel manager] Adobe Commerce {#amazon}
 
-- [AmazonSales Channelユーザーガイド](guide-overview.md)
+- [Amazon Sales Channel ユーザーガイド](guide-overview.md)
 - [Amazonセールスチャネルの概要](overview.md)
 - はじめに {#getting-started}
    - [Amazon Marketplace について](about-amazon-marketplace.md)
@@ -73,13 +73,13 @@ ht-degree: 0%
       - [価格の範囲](price-scope.md)
       - [価格優先ロジック](price-priority-logic.md)
       - [Buy Boxの競合相手の価格](buy-box-competitor-pricing.md)
-      - [競合他社の最低価格](lowest-competitor-pricing.md)
+      - [競合相手の最も低い価格](lowest-competitor-pricing.md)
    - 例 {#rules-examples}
       - [条件の定義](ob-define-condition-example.md)
       - [価格ルールの例](price-rule-examples.md)
 - レポートとログ {#reports-logs}
    - [ログとストアレポート](amazon-logs-reports.md)
-   - ストアレポート {#store-reports}
+   - レポートを保存 {#store-reports}
       - [競合価格の分析](competitive-price-analysis.md)
       - [リストの改善点](listing-improvements.md)
    - ログ {#logs}
@@ -88,9 +88,9 @@ ht-degree: 0%
 - リストの管理 {#admin-listings}
    - [Amazonリストの管理](managing-product-listings.md)
    - ステータス別/タブ別 {#status-tab}
-      - [ステータス/タブで管理](managing-listings-by-tab.md)
+      - [ステータス別/タブ別に管理](managing-listings-by-tab.md)
       - [不完全なリスト](incomplete-listings.md)
-      - [新しいサードパーティのリスト](new-third-party-listings.md)
+      - [新しいサードパーティ製品リスト](new-third-party-listings.md)
       - [リストへの登録準備完了](ready-to-list.md)
       - [非アクティブなリスト](inactive-listings.md)
       - [アクティブなリスト](active-listings.md)
@@ -110,7 +110,7 @@ ht-degree: 0%
 - 注文の管理 {#admin-orders}
    - [注文の管理](managing-orders.md)
    - [Amazon注文の表示](amazon-orders-all.md)
-   - [Amazon注文の詳細を表示](amazon-order-details.md)
+   - [Amazonの注文の詳細を表示](amazon-order-details.md)
    - [一般的なオーダー処理タスク](common-order-processing.md)
    - [達成ワークフロー](fulfillment-workflows.md)
    - [未発送の注文をキャンセル](cancel-unshipped-order.md)

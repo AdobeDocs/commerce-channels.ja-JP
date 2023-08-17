@@ -1,12 +1,12 @@
 ---
-title: Amazonセールスチャネル — [!UICONTROL Listing Changes Log]
+title: Amazon セールスチャネル - [!UICONTROL Listing Changes Log]
 description: AmazonSales Channelは、Amazonセラーアカウントで影響を受ける変更を監視するのに役立つ変更ログを表示します。
 feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -28,4 +28,4 @@ Amazonセールスチャネルのホームページは、いくつかの共通�
 | [!UICONTROL Seller SKU] | 製品、オプション、価格および製造元を識別するために、Amazonが製品に割り当てた SKU(Stock Keeping Unit)。 |
 | [!UICONTROL Listing Action] | リストに加えられた変更のタイプ。 |
 | [!UICONTROL Comments] | リストの変更に関する追加情報。 |
-| [!UICONTROL Created On] | 変更が加えられた日時。 |
+| [!UICONTROL Created On] | 変更がおこなわれた日時。 |

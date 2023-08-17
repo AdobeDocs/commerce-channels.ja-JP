@@ -16,15 +16,15 @@ ht-degree: 2%
 
 ### 後続のルールを破棄
 
-後続のルールを破棄する機能は、複数の価格ルールを積み重ねて意図しない追加の割引を提供するのを防ぐ、価格ルール内の優れた機能です。 後続のルールを破棄するには、価格ルールで、 _[!UICONTROL Priority]_セクション [価格ルールの一般設定](./pricing-rule-general-settings.md).
+後続のルールを破棄する機能は、複数の価格ルールを積み重ねて意図しない追加の割引を提供するのを防ぐ、価格ルール内の優れた機能です。 後続のルールを破棄するには、価格ルールで、 _[!UICONTROL Priority]_のセクション [価格ルールの一般設定](./pricing-rule-general-settings.md).
 
-If **[!UICONTROL Discard Subsequent Rules]** が `Yes`の場合、優先度が低い（数字が高い）ルールは対象の製品には適用されません。
+次の場合 **[!UICONTROL Discard Subsequent Rules]** が `Yes`の場合、優先度が低い（数字が高い）ルールは対象の製品には適用されません。
 
 例えば、次の 3 つの価格ルールがあるとします。
 
 | 例 | ルール名 | 優先度 | 後続のルールを破棄 |
 |---------|-----------------------|----------|-------------------------|
-| 1 | 10%オフセール商品 | 1 | いいえ |
+| 1 | 10%オフセール製品 | 1 | いいえ |
 | 2 | $2 の販売製品 | 2 | はい |
 | 3 | すべての製品の 5%オフ | 3 | いいえ |
 
@@ -34,32 +34,32 @@ If **[!UICONTROL Discard Subsequent Rules]** が `Yes`の場合、優先度が�
 
 | フィールド | 設定 — ルール 1 | 設定 — ルール 2 |
 |--------------------------------|---------------------|-----------------------|
-| [!UICONTROL Rule Name] | ルール —1 | ルール —2 |
+| [!UICONTROL Rule Name] | Rule-1 | ルール —2 |
 | [!UICONTROL Priority] | 1 | 2 |
 | [!UICONTROL Rule Type] | 標準価格ルール | 標準価格ルール |
-| [!UICONTROL Price action] | 減少基準 | 減少基準 |
+| [!UICONTROL Price action] | 次の値で減少 | 次の値で減少 |
 | [!UICONTROL Apply] | 割合で適用 | 固定金額として適用 |
 | [!UICONTROL Adjustment Amount] | 10 | 10 |
 
-#### 製品 1
+#### Product 1
 
-価格：$45.49
+価格： 45.49 ドル
 
-適用されるルール 1:$45.49 x (0.9) = $40.94
+ルール 1 が適用されました： $45.49 x (0.9) = $40.94
 
-適用されるルール 2:$40.94 - $10.00 = $30.94
+ルール 2 が適用されました： $40.94 - $10.00 = $30.94
 
-ルール 1 とルール 2 の後の最終価格は、次のように適用されます。30.94 ドル
+ルール 1 とルール 2 の後の最終価格が適用されます。$30.94
 
-#### 製品 2
+#### Product 2
 
-価格：$47.76
+価格： 47.76 ドル
 
-適用されるルール 1:$47.76 x (0.9) = $42.98
+ルール 1 が適用されました： $47.76 x (0.9) = $42.98
 
-適用されるルール 2:$42.98 - $10.00 = $32.98
+ルール 2 適用済み： $42.98 - $10.00 = $32.98
 
-ルール 1 とルール 2 の後の最終価格が適用されます。$32.98
+ルール 1 とルール 2 の後の最終価格が適用されます： $32.98
 
 ## インテリジェントな価格変更ルールの例
 
@@ -67,7 +67,7 @@ If **[!UICONTROL Discard Subsequent Rules]** が `Yes`の場合、優先度が�
 
 | フィールド | 設定 |
 |--------------------------------------|----------------------------|
-| [!UICONTROL Rule Name] | ルール —1 |
+| [!UICONTROL Rule Name] | Rule-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | インテリジェントな価格変更ルール |
 | [!UICONTROL Competitor Price Source] | 「Buy Box」価格を使用 |
@@ -75,21 +75,21 @@ If **[!UICONTROL Discard Subsequent Rules]** が `Yes`の場合、優先度が�
 | [!UICONTROL Floor Price Source] | 価格 |
 | [!UICONTROL Floor Price Action] | 一致 |
 
-#### 製品 1
+#### Product 1
 
-価格：$15
+価格：15 ドル
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazonからの価格：$10
+[Buy Box](./buy-box-competitor-pricing.md) Amazonからの価格： 10 ドル
 
 これは、 [Buy Box](./buy-box-competitor-pricing.md) 価格が元の価格より低い場合は、商品は元の価格で表示されます。
 
 ルール適用後の最終価格：$15
 
-#### 製品 2
+#### Product 2
 
-価格：$5
+価格：5 ドル
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazonからの価格：$10
+[Buy Box](./buy-box-competitor-pricing.md) Amazonからの価格： 10 ドル
 
 これは、 [Buy Box](./buy-box-competitor-pricing.md) 価格が元の価格より大きい場合、製品は [Buy Box](./buy-box-competitor-pricing.md) 価格。
 
@@ -99,35 +99,35 @@ If **[!UICONTROL Discard Subsequent Rules]** が `Yes`の場合、優先度が�
 
 | フィールド | 設定 |
 |--------------------------------------|----------------------------|
-| [!UICONTROL Rule Name] | ルール —1 |
+| [!UICONTROL Rule Name] | Rule-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | インテリジェントな価格変更ルール |
 | [!UICONTROL Competitor Price Source] | 「Buy Box」価格を使用 |
 | [!UICONTROL Price Action] | 競合相手の価格と一致 |
 | [!UICONTROL Floor Price Source] | 価格 |
-| [!UICONTROL Floor Price Action] | 減少基準 |
+| [!UICONTROL Floor Price Action] | 次の値で減少 |
 | [!UICONTROL Apply] | パーセンテージで適用 |
 | [!UICONTROL Floor Adjustment Amount] | 20 |
 
-#### 製品 1
+#### Product 1
 
-価格：$20
+価格：20 ドル
 
-計算された下限価格：$16
+計算下限価格： $16
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazonからの価格：$15
+[Buy Box](./buy-box-competitor-pricing.md) Amazon価格：15 ドル
 
-これは、 [Buy Box](./buy-box-competitor-pricing.md) 価格が計算値より小さい [下限価格](./floor-price.md)」と入力すると、製品が計算指標にリストされます。 [下限価格](./floor-price.md).
+これは、 [Buy Box](./buy-box-competitor-pricing.md) 価格が計算済みの価格より小さい [下限価格](./floor-price.md)」と入力すると、製品が計算指標にリストされます。 [下限価格](./floor-price.md).
 
 ルール適用後の最終価格：$16
 
-#### 製品 2
+#### Product 2
 
-価格：$15
+価格：15 ドル
 
-計算済み [下限価格](./floor-price.md):$12
+計算済み [下限価格](./floor-price.md): $12
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazonからの価格：$15
+[Buy Box](./buy-box-competitor-pricing.md) Amazon価格：15 ドル
 
 これは、 [Buy Box](./buy-box-competitor-pricing.md) 価格が計算済みの価格より大きい [下限価格](./floor-price.md)に分類する場合、製品は [Buy Box](./buy-box-competitor-pricing.md) 価格。
 
@@ -135,11 +135,11 @@ If **[!UICONTROL Discard Subsequent Rules]** が `Yes`の場合、優先度が�
 
 #### Product 3
 
-価格：$17
+価格： 17 ドル
 
-計算された下限価格：13.60 ドル
+計算下限価格： $13.60
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazonからの価格：$15
+[Buy Box](./buy-box-competitor-pricing.md) Amazon価格：15 ドル
 
 これは、 [Buy Box](./buy-box-competitor-pricing.md) 価格が計算済みの価格より大きい [下限価格](./floor-price.md)に分類する場合、製品は [Buy Box](./buy-box-competitor-pricing.md) 価格。
 
@@ -149,12 +149,12 @@ If **[!UICONTROL Discard Subsequent Rules]** が `Yes`の場合、優先度が�
 
 | フィールド | 設定 |
 |----------------------------------------|-----------------------------------------|
-| [!UICONTROL Rule Name] | ルール —1 |
+| [!UICONTROL Rule Name] | Rule-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | インテリジェントな価格変更ルール |
 | [!UICONTROL Competitor Price Source] | 競合相手の最も低い価格を使用 |
 | [!UICONTROL Minimum Positive Feedback] | すべての競合相手の価格 |
-| [!UICONTROL Conditional Variance] | すべての競合他社の製品条件を使用 |
+| [!UICONTROL Conditional Variance] | すべての競合相手の製品条件を使用 |
 | [!UICONTROL Price Action] | 競合相手の価格と一致 |
 | [!UICONTROL Floor Price Source] | 価格 |
 | [!UICONTROL Floor Price Action] | 一致 |
@@ -163,12 +163,12 @@ If **[!UICONTROL Discard Subsequent Rules]** が `Yes`の場合、優先度が�
 |-------|-----------------|
 | $17 | 新規 |
 | $15 | 新規 |
-| $14 | 使用済み；非常に良い |
-| $13 | 使用済み；良い |
+| $14 | 使用済み、非常に良い |
+| $13 | 使用済み、良い |
 
-#### 製品 1
+#### Product 1
 
-価格：$10
+価格：10 ドル
 
 条件：新規
 
@@ -176,15 +176,15 @@ New 条件の競合相手の最も低い価格は$15 なので、製品は$15 �
 
 ルール適用後の最終価格：$15
 
-#### 製品 2
+#### Product 2
 
-価格：$10
+価格：10 ドル
 
-条件：使用済み；許容可能
+条件：使用済み、許容可能
 
-これは、 [最低競争価格](./lowest-competitor-pricing.md) 「使用済み」条件が$13 の場合、製品は$13 にリストされます。
+これは、 [最も低い競争相手価格](./lowest-competitor-pricing.md) 「使用済み」条件が$13 の場合、製品は$13 にリストされます。
 
-ルール適用後の最終価格：$13
+ルール適用後の最終価格： $13
 
 ### 上限価格、通貨換算、VAT を組み合わせたインテリジェントな再価格設定ルール
 
@@ -194,7 +194,7 @@ New 条件の競合相手の最も低い価格は$15 なので、製品は$15 �
 | [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1.25 ユーロ：1USD |
 
-[上限価格](./optional-ceiling-price.md) 欧州 (VAT) 市場では、$10 x 1.25 = $12.50
+[上限価格](./optional-ceiling-price.md) 欧州 (VAT) 市場：10 x 1.25 ドル= 12.50 ドル
 
 次の場合に [上限価格](./optional-ceiling-price.md) 欧州 (VAT) 市場がヒットした場合、VAT が計算されて追加されます。
 
@@ -211,7 +211,7 @@ VAT 後の最終価格：$12.50 x (1.1) = $13.75
 | 上限価格のソース | $10 |
 | 通貨換算 | 1.25 ユーロ：1USD |
 
-[上限価格](./optional-ceiling-price.md) 欧州 (VAT) 市場では、$10 x 1.25 = $12.50
+[上限価格](./optional-ceiling-price.md) 欧州 (VAT) 市場：10 x 1.25 ドル= 12.50 ドル
 
 VAT 後の最終価格：$12.50 x (1.1) = $13.75
 
@@ -240,7 +240,7 @@ VAT 後の最終価格：$12.50 x (1.1) = $13.75
 
 | フィールド | 説明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Price Action] | オプション：<ul><li>**[!UICONTROL Decrease By]**  — このオプションを選択すると、 [最低競争価格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]**  — このオプションは、 [最低競争価格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]**  — このオプションは、パラメーターに基づいて最も安い価格に一致するようにAmazonの定価を変更します。 この例では、Amazonの上場価格は$25 です。</li></ul> |
+| [!UICONTROL Price Action] | オプション：<ul><li>**[!UICONTROL Decrease By]**  — このオプションを選択すると、 [最も低い競争相手価格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]**  — このオプションは、 [最も低い競争相手価格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]**  — このオプションは、パラメーターに基づいて最も安い価格に一致するようにAmazonの上場価格を変更します。 この例では、Amazonの上場価格は$25 です。</li></ul> |
 | [!UICONTROL Apply] | オプション：割合で適用/固定金額で適用 |
 | [!UICONTROL Adjustment Amount] | 数値：適用する割引の割合または固定金額を定義します。 <br>これらの選択により、最低価格を設定し、0.01 ドル未満に設定することになります。 |
 

@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Amazonストアダッシュボード
 
-内 _[!UICONTROL Amazon Stores]_Amazonセールスチャネルホームページで、「**[!UICONTROL View Store]**ストアカードで、ストアダッシュボードを開きます。
+Adobe Analytics の _[!UICONTROL Amazon Stores]_「 Amazonセールスチャネル」ホームページで、「**[!UICONTROL View Store]**ストアカードで、ストアダッシュボードを開きます。
 
-ストアダッシュボードは、各Amazonストアのアクティビティを表示する主な場所です。 を [!DNL Amazon Seller] 店舗の追加と統合により、店舗のデータビューで注文と販売の追跡がおこなわれます。 ダッシュボードでは、売上高の表示、トレンドの追跡、およびリストの販売データの確認を行うことができます。 リストと販売は、アクティブ、非アクティブ、進行中など、リストのタイプ別にさらにグループ化され、追跡されます。
+ストアダッシュボードは、各Amazonストアのアクティビティを表示する主な場所です。 を使用 [!DNL Amazon Seller] ストアが追加および統合され、店舗のデータビューを通じて注文と販売の追跡がおこなわれます。 ダッシュボードでは、売上高の表示、トレンドの追跡、およびリストの販売データの確認を行うことができます。 リストと販売は、アクティブ、非アクティブ、進行中など、リストのタイプ別にさらにグループ化され、追跡されます。
 
-また、 [ストア設定](./ob-store-review.md), [リストを管理](./managing-product-listings.md)、販売データと最近の注文情報を表示します。
+また、 [ストアの設定](./ob-store-review.md), [リストを管理](./managing-product-listings.md)、販売データと最近の注文情報を表示します。
 
 ![Amazon Store ダッシュボード](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
@@ -44,13 +44,13 @@ ht-degree: 0%
 
    - [**[!UICONTROL Logs]**](./amazon-logs-reports.md) - [変更のリスト](./listing-changes-log.md) および [通信エラー](./communication-errors-log.md).
 
-   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md) - [!DNL Commerce] 管理者。
+   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md)  — でメールとAmazonセールスチャネルのストア名の設定を確認する [!DNL Commerce] 管理者。
 
 - **[!UICONTROL Store Listings]**  — 過去 7 ～ 30 日間の店舗の売上高をグラフで表示し、全期間の売上データを示します。
 
-  また、この節では、 [アクティブなリスト](./active-listings.md), [非アクティブなリスト](./inactive-listings.md)、進行中のリスト、および対応するリンク _[!UICONTROL Product Listings]_ページ。 また、**[!UICONTROL Manage Listings]**開く_[!UICONTROL Product Listings]_ ページ。 詳しくは、 [Amazon一覧の管理](./managing-product-listings.md).
+  また、この節では、 [アクティブなリスト](./active-listings.md), [非アクティブなリスト](./inactive-listings.md)、進行中のリスト、および対応するリンク _[!UICONTROL Product Listings]_ページに貼り付けます。 また、**[!UICONTROL Manage Listings]**開く_[!UICONTROL Product Listings]_ ページに貼り付けます。 詳しくは、 [Amazon一覧の管理](./managing-product-listings.md).
 
-- **[!UICONTROL Recent Orders]**  — 最新のAmazon注文の情報を表示します。 一覧に表示される情報は、Amazonから受け取った情報に基づきます。 このテーブルは次で更新されません： [!DNL Commerce] 注文情報 ( [注文インポート](./order-settings.md) が有効になっている。 すべてのAmazon注文を表示するには、 **すべての注文**.
+- **[!UICONTROL Recent Orders]**  — 最新のAmazon注文の情報を表示します。 一覧に表示される情報は、Amazonから受け取った情報に基づきます。 このテーブルは次で更新されません： [!DNL Commerce] 注文情報 ( [注文のインポート](./order-settings.md) が有効になっている。 すべてのAmazon注文を表示するには、 **すべての注文**.
 
   詳しくは、 [Amazon注文の表示](./amazon-orders-all.md) 列の説明については、を参照してください。 [注文の管理](./managing-orders.md) を参照してください。
 

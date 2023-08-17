@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## 単一リストに対する上書きの作成
 
-この _[!UICONTROL Create Override]_アクションは、_[!UICONTROL Inactive]_, _[!UICONTROL Active]_、および_[!UICONTROL Ineligible]_ タブ
+The _[!UICONTROL Create Override]_アクションは、_[!UICONTROL Inactive]_, _[!UICONTROL Active]_、および_[!UICONTROL Ineligible]_ タブ。
 
 1. リストの表示： _[!UICONTROL Products Listings]_ページ (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_、および_[!UICONTROL Ineligible]_ 」タブ ) をクリックします。
 
-1. 内 _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Create Override]**をクリックして、製品リストの上書きページを開きます。
+1. Adobe Analytics の _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Create Override]**をクリックして、「製品リストの上書き」ページを開きます。
 
    ![Amazonリストの上書きを作成](assets/amazon-select-create-override.png){width="220"}
 
@@ -37,21 +37,21 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL Save Listing Override]**.
 
-   この _[!UICONTROL Product Listing Overrides]_ページが閉じます。 リストのステータスが `Relist in Progress`. 変更は、次回のデータ同期（cron 設定での設定に従って）と共にAmazonに公開されます。 リストも_[!UICONTROL Overrides]_ タブをクリックします。
+   The _[!UICONTROL Product Listing Overrides]_ページが閉じます。 リストのステータスが `Relist in Progress`. 変更は、次回のデータ同期（cron 設定での設定に従って）と共にAmazonに公開されます。 リストも_[!UICONTROL Overrides]_ タブをクリックします。
 
-次の例は、 `$55`、新しい処理時間 `1 day`新しい状態 `Used; Like New`、および新しい販売者注記テキスト。
+次の例は、 `$55`、新しい処理時刻 `1 day`新しい状態 `Used; Like New`、および新しい販売者注記テキスト。
 
 ![Amazonリストの上書きの例](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## 単一のリストに対する上書きの編集または削除 {#edit-override-single-listing}
 
-この _[!UICONTROL Edit Overrides]_アクションは、_[!UICONTROL Overrides]_ タブをクリックします。
+The _[!UICONTROL Edit Overrides]_アクションは、_[!UICONTROL Overrides]_ タブをクリックします。
 
 1. リストを _[!UICONTROL Product Listings]_ページ (_[!UICONTROL Overrides]_ 」タブ ) をクリックします。
 
-1. 内 _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Edit Overrides]**.
+1. Adobe Analytics の _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Edit Overrides]**.
 
-   この _[!UICONTROL Product Listing Overrides]_ページが開きます。
+   The _[!UICONTROL Product Listing Overrides]_ページが開きます。
 
    ![Amazonリストの上書きを選択](assets/amazon-select-edit-overrides.png){width="125"}
 
@@ -63,14 +63,14 @@ ht-degree: 0%
 
    - **価格**  — クリック **[!UICONTROL Change Listing Price]** に定義した価格値を入力します。 **[!UICONTROL Price Override]**.
    - **処理時間**  — クリック **[!UICONTROL Change Handling Time]** を選択し、次の期間の定義済みの時間値（日数）を入力します。 **[!UICONTROL Handling Time Override]**.
-   - **条件**  — クリック **[!UICONTROL Change Condition]** を選択し、 **[!UICONTROL Condition Override]**.
+   - **条件**  — クリック **[!UICONTROL Change Condition]** を選択し、に対して正しいオプションを選択します。 **[!UICONTROL Condition Override]**.
    - **販売者の注記**  — クリック **[!UICONTROL Change Seller Notes]** メモのテキストを入力します。 **[!UICONTROL Seller Notes Override]**.
 
 1. 上書きタイプを削除するには、 **削除** を削除する各タイプに対して使用します。 削除されない場合、以前に定義した値は上書きに残ります。
 
 1. クリック **[!UICONTROL Save Listing Override]**.
 
-   この _[!UICONTROL Product Listing Overrides]_ページが閉じます。 リストのステータスが `Relist in Progress`. 変更は、次回のデータ同期（cron 設定での設定に従って）と共にAmazonに公開されます。 リストがまだ表示されていない場合は、リストも_[!UICONTROL Overrides]_ タブをクリックします。
+   The _[!UICONTROL Product Listing Overrides]_ページが閉じます。 リストのステータスが `Relist in Progress`. 変更は、次回のデータ同期（cron 設定での設定に従って）と共にAmazonに公開されます。 リストがまだ表示されていない場合は、リストも_[!UICONTROL Overrides]_ タブをクリックします。
 
 Piggybacking on the _オーバーライドの作成_ 例： 次の例は、新しい価格を定義する、前に作成した上書きの編集を示しています。 `$50`をクリックすると、[ 処理時間 ] の上書きが削除され、前の [ 条件 ] と [ 販売者注記 ] の上書きが保持されます。
 
@@ -79,7 +79,7 @@ __
 
 ## 複数のリストの上書きを編集または削除する {#edit-override-multiple-listings}
 
-この _[!UICONTROL Edit Listing Overrides]_アクションは、_[!UICONTROL Inactive]_, _[!UICONTROL Active]_,_[!UICONTROL Overrides]_、および _[!UICONTROL Ineligible]_タブ
+The _[!UICONTROL Edit Listing Overrides]_アクションは、_[!UICONTROL Inactive]_, _[!UICONTROL Active]_,_[!UICONTROL Overrides]_、および _[!UICONTROL Ineligible]_タブ。
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ __
 
 1. の下 _[!UICONTROL Actions]_をクリックし、**[!UICONTROL Edit Listing Overrides]**.
 
-   この _[!UICONTROL Product Listing Overrides]_ページが開きます。
+   The _[!UICONTROL Product Listing Overrides]_ページが開きます。
 
    ![Amazonリストの上書きを選択](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
@@ -101,14 +101,14 @@ __
 
    - **価格**  — クリック **[!UICONTROL Change Listing Price]** に定義した価格値を入力します。 **[!UICONTROL Price Override]**.
    - **処理時間**  — クリック **[!UICONTROL Change Handling Time]** を選択し、次の期間の定義済みの時間値（日数）を入力します。 **[!UICONTROL Handling Time Override]**.
-   - **条件**  — クリック **[!UICONTROL Change Condition]** を選択し、 **[!UICONTROL Condition Override]**.
+   - **条件**  — クリック **[!UICONTROL Change Condition]** を選択し、に対して正しいオプションを選択します。 **[!UICONTROL Condition Override]**.
    - **販売者の注記**  — クリック **[!UICONTROL Change Seller Notes]** メモのテキストを入力します。 **[!UICONTROL Seller Notes Override]**.
 
 1. 上書きタイプを削除するには、 **[!UICONTROL Remove]** を削除する各タイプに対して使用します。 削除されない場合、以前に定義した値は上書きに残ります。
 
 1. クリック **[!UICONTROL Save Listing Override]**.
 
-   この _[!UICONTROL Product Listing Overrides]_ページが閉じます。 一覧のステータスは `Relist in Progress`. 変更は、次回のデータ同期（cron 設定での設定に従って）と共にAmazonに公開されます。 リストがまだ表示されていない場合は、リストも_[!UICONTROL Overrides]_ タブをクリックします。
+   The _[!UICONTROL Product Listing Overrides]_ページが閉じます。 一覧のステータスは、 `Relist in Progress`. 変更は、次回のデータ同期（cron 設定での設定に従って）と共にAmazonに公開されます。 リストがまだ表示されていない場合は、リストも_[!UICONTROL Overrides]_ タブをクリックします。
 
 ### タイプを上書き
 

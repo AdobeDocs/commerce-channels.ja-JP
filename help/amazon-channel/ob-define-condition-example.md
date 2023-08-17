@@ -1,5 +1,5 @@
 ---
-title: '''例：Amazonリストルールの条件の定義'
+title: '例： Amazonリストルールの条件の定義'
 description: リストルールを作成する際に、Amazon Marketplace に表示する Commerce カタログ商品を識別する条件を定義します。
 feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
@@ -41,22 +41,22 @@ ht-degree: 0%
 ルールステートメントには 2 つの太字のリンクがあり、このリンクをクリックすると、ステートメントのその部分のオプションが表示されます。 太字オプションを変更せずに条件を保存した場合、ルールはすべての製品に適用されます。
 
 - クリック **[!UICONTROL ALL]** を選択し、 `ALL` または `ANY`.
-- クリック **[!UICONTROL TRUE]** を選択し、 `TRUE` または `FALSE`.
+- クリック **[!UICONTROL TRUE]** を選択し、次のいずれかを選択します。 `TRUE` または `FALSE`.
 - すべての製品にルールを適用する場合は、条件を変更しないでください。
 
 これらの値の組み合わせを変更することで、異なる条件を作成できます。 この例では、次の条件が使用されます。
 
 `If ALL of these conditions are TRUE:`
 
-1. 追加 (![追加アイコン](assets/btn-add-grn.png)) をクリックし、条件の基にする属性（条件の組み合わせや製品属性など）を選択します。
+1. 「追加」(![追加アイコン](assets/btn-add-grn.png)) をクリックし、条件の基にする属性（条件の組み合わせや製品属性など）を選択します。
 
-   - **[!UICONTROL Conditions Combination]**  — 別のセットを作成できるように選択します `All/Any` および `True/False` 条件を既存のセット内に配置する。
+   - **[!UICONTROL Conditions Combination]**  — 別のセットを作成できるように選択します。 `All/Any` および `True/False` 条件を既存のセット内に配置する。
 
      ![条件の組み合わせ](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]**  — 製品属性は、属性の設定によって異なります。 属性をリストに表示するには、プロモーションルール条件での使用に合わせて設定する必要があります。 詳しくは、 _プロモーションルール条件に使用_ in [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-     リストの **[!UICONTROL Product Attribute]**」で、条件の基準として使用する属性を選択します。 この例では、選択された条件は次のようになります。 `Amazon FBA`.
+     の下のリストで **[!UICONTROL Product Attribute]**」で、条件の基準として使用する属性を選択します。 この例では、選択された条件は次のようになります。 `Amazon FBA`.
 
      ![条件ライン 2、パート 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 

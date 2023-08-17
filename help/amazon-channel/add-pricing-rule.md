@@ -7,7 +7,7 @@ exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL Add new pricing rule]**.
 
-1. 次を完了： **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 」と入力します。
+1. 次を完了： **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 」と表示されます。
 
-1. 次を完了： **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 」と入力します。
+1. 次を完了： **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 」と表示されます。
 
-1. 次を完了： **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** 」と入力します。
+1. 次を完了： **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** 」と表示されます。
 
 1. 完了したら、「 **[!UICONTROL Save pricing rule]**.
 
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL Add new pricing rule]**.
 
-1. 次を完了： **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 」と入力します。
+1. 次を完了： **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 」と表示されます。
 
-1. 次を完了： **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 」と入力します。
+1. 次を完了： **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 」と表示されます。
 
-1. 次を完了： **[!UICONTROL Price Rule Actions]** 」と入力します。
+1. 次を完了： **[!UICONTROL Price Rule Actions]** 」と表示されます。
 
    - [[!UICONTROL Select Rule Typ]e](./intelligent-repricing-rules.md)
 

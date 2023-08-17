@@ -23,9 +23,9 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL Preview and List Eligible Products]**.
 
-   この _[!UICONTROL Listing Rules]_ページが表示されます。
+   The _[!UICONTROL Listing Rules]_ページが表示されます。
 
-1. Amazonにリストされる製品の適格要件の条件を定義し、「 **[!UICONTROL Preview changes]**&#x200B;または、 **[!UICONTROL Preview changes]** をクリックして、この手順をスキップします。
+1. Amazonにリストされる製品の適格要件の条件を定義し、「 **[!UICONTROL Preview changes]**&#x200B;または、「 **[!UICONTROL Preview changes]** をクリックして、この手順をスキップします。
 
    詳しくは、 [例：条件の定義](./ob-define-condition-example.md).
 
@@ -53,6 +53,6 @@ Amazonの注文情報は、 _[!UICONTROL Recent Orders]_」セクションに表
 
 >[!IMPORTANT]
 >
->新しいストアのデフォルト値を持つ重要なストア設定（一覧、価格、ルール、達成など）がいくつかあります。 ストアが特定のニーズに合わせて設定されていることを確認するには、 [ストア設定](./default-store-settings.md) .
+>新しいストアのデフォルト値を持つ重要なストア設定（一覧、価格、ルール、達成など）がいくつかあります。 ストアが特定のニーズに合わせて設定されていることを確認するには、 [ストアの設定](./default-store-settings.md) .
 
 ![次のアイコン](assets/btn-next.png) [**デフォルトのストア設定に進む**](./default-store-settings.md)

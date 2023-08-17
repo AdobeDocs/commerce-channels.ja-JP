@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 競合価格分析レポート
 
-「競合価格の分析」レポートでは、Amazonの市場別リストと各市場が表示されます [Buy Box](./buy-box-competitor-pricing.md) 価格と [最も低い競争相手](./lowest-competitor-pricing.md) 価格の値。 ログに使用できるアクションはありません。 これはレビュー専用の機能です。
+「競合価格の分析」レポートでは、Amazonの市場別リストと各市場が表示されます。 [Buy Box](./buy-box-competitor-pricing.md) 価格と [最も低い競争相手](./lowest-competitor-pricing.md) 価格の値。 ログに使用できるアクションはありません。 これはレビュー専用の機能です。
 
 ![競合価格分析レポート](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 

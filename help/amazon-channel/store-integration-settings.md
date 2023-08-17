@@ -1,5 +1,5 @@
 ---
-title: AmazonSales Channel- [!UICONTROL Store Integration Settings]
+title: AMAZONSALES CHANNEL- [!UICONTROL Store Integration Settings]
 description: Amazonセールスチャネルのオンボーディングプロセスが完了したら、 [!UICONTROL Amazon Store] dashboard
 feature: Sales Channels, Integration
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
@@ -32,6 +32,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この _[!UICONTROL Amazon Marketplace Country]_次の間に定義された設定 [ストア統合](./store-integration.md) を更新できません。 国の設定を編集するには、ストア (_[!UICONTROL Action]_ （ストアカード上）をクリックし、別の国のストアを追加します。
+>The _[!UICONTROL Amazon Marketplace Country]_次の間に定義された設定： [ストア統合](./store-integration.md) を更新できません。 国の設定を編集するには、ストア (_[!UICONTROL Action]_ （ストアカード上）をクリックし、別の国のストアを追加します。
 
 ![ストア統合設定](assets/amazon-store-settings.png){width="600" zoomable="yes"}

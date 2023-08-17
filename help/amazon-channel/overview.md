@@ -19,13 +19,13 @@ Adobe CommerceまたはMagento Open Sourceの商人は、 [!DNL Amazon Sales Cha
 
 - [オンボード](./amazon-onboarding-home.md) および [!DNL Amazon Seller Central] Adobe CommerceまたはMagento Open Sourceのアカウント
 
-- 既存のAmazonリストを読み込んで同期し、 [!DNL Commerce] カタログ、一元化された製品カタログの作成
+- 既存のAmazonリストを読み込んで同期し、 [!DNL Commerce] カタログ、一元化された製品カタログの作成。
 
-- お客様の [!DNL Commerce] カタログ。
+- お使いの [!DNL Commerce] カタログ。
 
-- での（出荷）オーダーの表示および履行 [!DNL Commerce] とAmazon、注文ステータス、支払い、返金情報の同期。
+- での（出荷）オーダーの表示および履行 [!DNL Commerce] とAmazon、注文ステータス、支払い、返金情報を同期します。
 
-- 次の分析およびエラーのログを表示 [競争価格](./competitive-price-analysis.md), [リストの変更](./listing-changes-log.md)、および [通信の問題](./communication-errors-log.md).
+- 次の分析およびエラーのログを表示 [競争力のある価格](./competitive-price-analysis.md), [リストの変更](./listing-changes-log.md)、および [通信の問題](./communication-errors-log.md).
 
 Amazonストアにアクセスして、Amazonセールスチャネルのこれらの機能、アカウント情報、リスト、注文件数などをすべて表示および管理します [ホームページ](./amazon-sales-channel-home.md).
 
@@ -39,9 +39,9 @@ Amazonストアにアクセスして、Amazonセールスチャネルのこれ�
 
 - 有効化と管理 [最小広告価格 (MAP)](./listing-price.md#configure-listing-price-settings) (Amazonのリスト内 )
 
-- 追加の設定 [VAT 税](./listing-price.md#configure-listing-price-settings) Amazonの価格。
+- 追加の設定 [VAT 税](./listing-price.md#configure-listing-price-settings) (Amazon価格 )。
 
-- の「使用可能な数量」にカスタム値を設定します [在庫/数量設定](./stock-quantity.md#configure-stock--quantity-settings) をAmazonのリストに表示して、購入者の緊急度を高めます。
+- の「使用可能な数量」にカスタム値を設定します。 [在庫/数量設定](./stock-quantity.md#configure-stock--quantity-settings) をAmazonのリストに表示して、購入者の緊急度を高めます。
 
 ## 価格ルール
 
@@ -59,13 +59,13 @@ Amazonストアにアクセスして、Amazonセールスチャネルのこれ�
 
 - 既存のAmazonリスト（製品）を読み込み、 [!DNL Commerce] カタログ。
 
-- の公開 [!DNL Commerce] Amazonリストを作成するためのAmazonへの製品。
+- を公開します。 [!DNL Commerce] Amazonリストを作成するためのAmazonへの製品。
 
 - 作成 [上書き](./creating-editing-overrides.md) 個々の価格を設定し、時間、条件、販売者の注記メッセージを処理します。
 
 - 製品の読み込みとマッピング [属性](./attributes-view.md) Amazonのリストから、 [!DNL Commerce] カタログ。
 
-- Amazonの一覧を [!DNL Commerce] カタログ。
+- Amazonの一覧に一致する複数の検索パラメーターを [!DNL Commerce] カタログ。
 
 - 定義 [リストルール](./listing-rules.md) どちらを選ぶか [!DNL Commerce] 製品はAmazonにリストされる資格があります。
 
@@ -95,7 +95,7 @@ Amazonストアにアクセスして、Amazonセールスチャネルのこれ�
 
 - 注文エラーを表示および管理して、問題を解決し、顧客と連携します。
 
-- に注文トラッキングデータを送信 [!DNL Amazon Seller Central] アカウント
+- に注文トラッキングデータを送信 [!DNL Amazon Seller Central] アカウント。
 
 - [注文をキャンセル](./cancel-unshipped-order.md) をクリックし、理由の応答を選択します。
 
@@ -115,13 +115,13 @@ Amazonストアにアクセスして、Amazonセールスチャネルのこれ�
 
 - 製品 [Buy Box](./buy-box-competitor-pricing.md) 競合相手の価格データ。
 
-- 製品 [競合他社の最低価格](./lowest-competitor-pricing.md) データ。
+- 製品 [競合相手の最低価格](./lowest-competitor-pricing.md) データ。
 
 ## グローバルセールスのサポート
 
 を使用 [!DNL Amazon Sales Channel] 拡張機能では、次の操作を実行できます。
 
-- 複数管理 [!DNL Amazon Marketplace] 地域（国）。
+- 複数を管理 [!DNL Amazon Marketplace] 地域（国）。
 
 - を使用して複数の通貨をサポート [コマース通貨設定ツール](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html).
 
@@ -129,10 +129,10 @@ Amazonストアにアクセスして、Amazonセールスチャネルのこれ�
 
 ## 顧客管理
 
-のビルド [!DNL Commerce] 顧客データベース別 [顧客データのインポート](./order-settings.md#configure-order-settings) Amazonの注文に関連付けられている。 お客様の [!DNL Amazon Marketplace] リストと [!DNL Commerce] ストアフロント。
+のビルド [!DNL Commerce] 顧客データベース別 [顧客データのインポート](./order-settings.md#configure-order-settings) Amazonの注文に関連付けられている。 お客様を通じて顧客のリストを拡大し、マーケティングの可能性を高めます [!DNL Amazon Marketplace] リストと [!DNL Commerce] ストアフロント。
 
 
 はじめには簡単です。 短いオンボーディングプロセスが、 [!DNL Amazon Seller Central] Amazonセールスチャネルストアとのアカウントと統合 [!DNL Commerce] Amazonの一覧、注文、在庫、および達成を管理するカタログ。 中央のダッシュボードには、すべてのAmazonセールスチャネルストア統合とAmazonリストのステータス更新が表示されます。 グローバルで新しいお客様にリーチ [!DNL Amazon Marketplace] シンプルで自動化されたプロセスにより、新しいシステムの設定にかかるコストと労力をほとんど、あるいはまったく負担しなくて済みます。
 
-統合後 [!DNL Amazon Seller Central] アカウント、 [!DNL Amazon Sales Channel] 拡張機能を使用すると、アカウントを管理し、 [!DNL Commerce] Amazon これにより、リストの作成、プロモーションの管理、価格の設定、在庫と達成の管理を [!DNL Commerce] 管理者。 これらのオプションには、同じ品目のAmazonの価格を監視し、価格を自動的に調整して競争力を高める価格設定ルールが含まれます。
+統合後 [!DNL Amazon Seller Central] アカウント、 [!DNL Amazon Sales Channel] 拡張機能を使用すると、アカウントを管理し、 [!DNL Commerce] Amazon これにより、リストの作成、プロモーションの管理、価格の設定、在庫と達成の管理を [!DNL Commerce] 管理者。 これらのオプションには、同じ品目のAmazonの価格を監視し、より競争力を高めるために自動的に価格を調整する価格設定ルールが含まれます。
 

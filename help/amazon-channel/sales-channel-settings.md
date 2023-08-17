@@ -17,15 +17,15 @@ ht-degree: 0%
 
 - アクティビティログ履歴をクリアする間隔
 - Cron ソースの選択
-- ログ同期オプション
+- 同期オプションをログに記録
 
 ## コマースチャネル設定の変更
 
-1. の _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. 左側のパネルで、を展開します。 **[!UICONTROL Sales Channels]** を選択します。 **[!UICONTROL Global Settings]**.
 
-1. の場合 **[!UICONTROL Clear Log History]**、オプションを選択します。
+1. の場合 **[!UICONTROL Clear Log History]**、次のオプションを選択します。
 
    - `Once Daily`  — 毎日 1 回ストアアクティビティの履歴をクリアするように選択します。
 
@@ -33,17 +33,17 @@ ht-degree: 0%
 
    - `Once Monthly` - （デフォルト）毎月 1 回、ストアアクティビティ履歴をクリアするように選択します。
 
-1. の場合 **[!UICONTROL Background Tasks (CRON) Source]**&#x200B;選択 `Magento CRON`.
+1. の場合 **[!UICONTROL Background Tasks (CRON) Source]**&#x200B;を選択します。 `Magento CRON`.
 
    このオプションを使用すると、Amazonのセールスチャネルで [!DNL Commerce] [Cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) 通信間隔とデータ同期間隔を [!DNL Amazon Seller Central].
 
-1. の場合 **[!UICONTROL Enable Debug Logging]**&#x200B;選択 `Enabled` トラブルシューティングが必要な場合に、追加の同期データを収集する。
+1. の場合 **[!UICONTROL Enable Debug Logging]**&#x200B;を選択します。 `Enabled` トラブルシューティングが必要な場合に、追加の同期データを収集する。
 
-   Amazonセールスチャネルのログは、 `{Commerce Root}/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). ログは次の場合にのみ実行します `Enabled` トラブルシューティング中に、 `Disabled` トラブルシューティングが完了したら、
+   Amazonセールスチャネルのログは、 `{Commerce Root}/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). ログは次の場合にのみ実行します。 `Enabled` トラブルシューティング中に、および `Disabled` トラブルシューティングが完了したら、
 
 1. の場合 **[!UICONTROL Read-Only Mode]**&#x200B;を選択します。 `Enabled` をクリックして、送信状態が変化するすべての API リクエストをブロックします。
 
-   この設定を使用すると、潜在的な変更は保存されますが、送信されなくなります。 [!UICONTROL Read-Only Mode] は無効です。 読み取り専用モードを有効にするには、設定キャッシュをクリアする必要があります。 データ転送を再度開始するには、 `Disabled`.
+   この設定を使用すると、潜在的な変更は保存されますが、送信されなくなります。 [!UICONTROL Read-Only Mode] は無効です。 読み取り専用モードを有効にするには、設定キャッシュをクリアする必要があります。 データ転送を再度開始するには、「 」を選択します。 `Disabled`.
 
    >[!IMPORTANT]
    >

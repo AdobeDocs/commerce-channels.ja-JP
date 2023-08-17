@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Amazon listings の属性
 
-この _[!UICONTROL Attributes]_表示には、Amazonと [!DNL Commerce] 属性。 また、このリストは、製品の照合用にマッピングされた属性も示します。 詳しくは、 [属性を管理](./managing-attributes.md).
+The _[!UICONTROL Attributes]_表示には、Amazonと [!DNL Commerce] 属性。 また、このリストは、製品の照合用にマッピングされた属性も示します。 詳しくは、 [属性を管理](./managing-attributes.md).
 
 ![属性ビュー](assets/amazon-attributes-view.png){width="600" zoomable="yes"}
 
-次の _[!UICONTROL Attributes]_テーブルで属性設定を表示し、確認し、 [作成または編集](./creating-attributes.md) 属性。
+次から： _[!UICONTROL Attributes]_テーブルで属性設定を表示し、確認します。 [作成または編集](./creating-attributes.md) 属性。
 
 ## 属性リストを表示
 
-1. の _管理者_ サイドバー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
 1. クリック **[!UICONTROL Attributes]** 左側のメニューでAmazon属性を探し、属性リストを確認します。
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 | フィールド | 説明 |
 |---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Country] | で定義された販売活動の国  **[!DNL Amazon Marketplace]国** 期間 [ストア統合](./store-integration.md). |
-| [!UICONTROL ID] | 生成された汎用属性値 [!DNL Commerce] 属性が作成されたとき。 |
+| [!UICONTROL ID] | で生成された汎用属性値 [!DNL Commerce] 属性が作成されたとき。 |
 | [!UICONTROL Amazon Attribute Name] | Amazonから読み込まれた属性の名前。 |
 | [!UICONTROL Product Catalog Attribute Code] | マッピングされた場合、 [!DNL Commerce] マップに割り当てられた属性 _[!UICONTROL Amazon Attribute Name]_カタログとリスト商品の照合。 |
 | [!UICONTROL Overwrite Magento Values] | 属性が `Overwrite Existing Magento Values` 「属性設定」(Attribute Settings) で、テーブルにが表示されます。 `Enabled`. 「有効」は、属性の更新された製品情報をAmazonから受け取ると、新しい情報が [!DNL Commerce] カタログ。 また、 [!DNL Commerce] ストア。 |
-| ステータス | 属性値が [!DNL Commerce] および [!DNL Commerce] 属性。 オプション： `Enabled` / `Disabled` |
+| ステータス | 属性値が [!DNL Commerce] およびにマッピングされます。 [!DNL Commerce] 属性。 オプション： `Enabled` / `Disabled` |
 | アクション | 属性で使用可能なタスクオプションを示します。 オプション： `Create` / `Edit` |

@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # 配送業者をマップ
 
-事前準備 [オーダー出荷の処理](process-orders.md#ship-an-order) 対象 [!DNL Walmart Marketplace] 注文、ウォルマートの優先配送業者を、 [!DNL Commerce] これにより、輸送データを [!DNL Walmart] および [!DNL Commerce].
+事前準備 [オーダー出荷の処理](process-orders.md#ship-an-order) 対象： [!DNL Walmart Marketplace] 注文、ウォルマートの優先配送業者を、 [!DNL Commerce] これにより、配送先のデータを次の間で同期させることができます。 [!DNL Walmart] および [!DNL Commerce].
 
 優先通信事業者にマッピングされていない通信事業者は、次のラベルが付けられます。 *[!UICONTROL Other Carrier]* オン [!DNL Walmart].
 
 **前提条件**
 
-レビュー [ウォルマートの要件](walmart-requirements.md) の [!DNL Marketplace Seller account].
+レビュー [ウォルマートの要件](walmart-requirements.md) （の） [!DNL Marketplace Seller account].
 
 ## 接続資格情報を更新
 
-1. の [!UICONTROL Listings] セールスチャネルストアのページで、「 」を選択します。 **[!UICONTROL Channel Settings]**.
+1. 次の日： [!UICONTROL Listings] セールスチャネルストアのページで、「 」を選択します。 **[!UICONTROL Channel Settings]**.
 
 1. オン **[!UICONTROL Channel Settings]**&#x200B;を選択します。 **[!UICONTROL Walmart Connection]**.
 
@@ -33,4 +33,4 @@ ht-degree: 0%
 
 1. 次を入力します。 **[!UICONTROL Walmart Client ID]** および **[!UICONTROL Walmart Client Secret]**.
 
-1. 選択 **[!UICONTROL Save]** 設定を適用します。
+1. 選択 **[!UICONTROL Save]** をクリックして設定を適用します。

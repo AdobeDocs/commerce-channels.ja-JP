@@ -1,18 +1,18 @@
 ---
-title: Amazonセールスチャネル — [!UICONTROL Listing Improvements]
+title: Amazon セールスチャネル - [!UICONTROL Listing Improvements]
 description: AmazonSales Channelには、Amazonリストの品質を向上させるための提案を提供する「リストの改善」レポートが用意されています。
 feature: Sales Channels, Products
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # [!UICONTROL Listing Improvements]
 
-この [!UICONTROL Listing Improvements] レポートには、リストの品質を向上させるためにAmazonからの提案を含む製品が表示されます。 これらの提案を確認できます。これは、Amazonリスト内の製品のパフォーマンスに役立ちます。 ログに使用できるアクションはありません。 これはレビュー専用の機能です。
+The [!UICONTROL Listing Improvements] レポートには、リストの品質を向上させるためにAmazonからの提案を含む製品が表示されます。 これらの提案を確認できます。これは、Amazonリスト内の製品のパフォーマンスに役立ちます。 ログに使用できるアクションはありません。 これはレビュー専用の機能です。
 
 Amazonからリストの改善を受け取った場合でも、Amazonで製品がリストに表示されることはありません。
 

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 注文の表示と追跡 [!DNL Channel Manager]
 
-[!DNL Walmart Marketplace] データを注文する [!DNL Commerce] 製品は自動的ににを [!DNL Channel Manager] 後 [!DNL Walmart] は順序を処理します。
+[!DNL Walmart Marketplace] データを注文する [!DNL Commerce] 製品は自動的ににを [!DNL Channel Manager] 次より後 [!DNL Walmart] は順序を処理します。
 
-の [!DNL Commerce] 側、同期が成功すると、次のトリガーが実行されます。
+次の日： [!DNL Commerce] 側にある場合、同期が成功すると、次のトリガーが実行されます。
 
 - [!DNL Channel Manager] は注文確認をウォルマートに送信します。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->1 回の処理に最大 35 分かかる場合があります [!DNL Walmart Marketplace] 表示する順序 [!DNL Channel Manager] 注文リスト。 [!DNL Walmart] 受信注文を処理し、に送信するには約 30 分かかります。 [!DNL Channel Manager]. チャネルマネージャーが注文を受け取ると、Adobe CommerceまたはMagento Open Sourceで注文を作成して表示するのに、さらに約 5 分かかります。
+>1 回の処理に最大 35 分かかる場合があります [!DNL Walmart Marketplace] 表示する順序 [!DNL Channel Manager] 注文リスト。 [!DNL Walmart] 受信注文を処理し、に送信するには約 30 分かかります。 [!DNL Channel Manager]. チャネルマネージャーがこの注文を受け取ると、Adobe CommerceまたはMagento Open Sourceで注文を作成して表示するのに、さらに約 5 分かかります。
 
 ## 受注管理と列の説明
 
@@ -106,25 +106,25 @@ ht-degree: 0%
 </tr>
 <tr>
 <td>[!UICONTROL Status]</td>
-<td>現在の注文ステータスを [!DNL Commerce] 注文ワークフロー。 からインポートされた注文の初期ステータス [!DNL Walmart Marketplace] は_Open_です。 追加のステータス更新は、 [!DNL Commerce] 注文が処理され、 [!DNL Channel Manager] 出荷、出荷の一部、および取り消しの更新を [!DNL Walmart Marketplace].</td>
+<td>現在の注文ステータスを示します。 [!DNL Commerce] 注文ワークフロー。 からインポートされた注文の初期ステータス [!DNL Walmart Marketplace] は_Open_です。 次の場合に追加のステータス更新が発生します。 [!DNL Commerce] 注文が処理され、 [!DNL Channel Manager] 出荷、出荷の一部、および取り消しの更新を [!DNL Walmart Marketplace].</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status Details]</td>
-<td>エラーまたは返金要求のある注文に関する詳細情報を提供します。</td>
+<td>エラーまたは返金要求のある注文に関する詳細な情報を提供します。</td>
 </tr>
 </table>
 
 ## 注文ステータス
 
-[!UICONTROL Order Status] 現在の状態に関する情報を提供する [!DNL Walmart Marketplace] Adobe CommerceまたはMagento Open Sourceから管理される注文。 注文ステータスの更新は、 [!DNL Channel Manager] 次のいずれかから更新された注文情報を受け取る [!DNL Walmart Marketplace] または [!DNL Commerce] 注文システム。 オーダーには、次のステータスがあります。
+[!UICONTROL Order Status] 現在の状態に関する情報を提供する [!DNL Walmart Marketplace] Adobe CommerceまたはMagento Open Sourceから管理される注文。 注文ステータスの更新は、 [!DNL Channel Manager] 次のいずれかから更新された注文情報を受け取る： [!DNL Walmart Marketplace] または [!DNL Commerce] 注文システム。 オーダーには、次のステータスがあります。
 
-- **[!UICONTROL Shipped]**- [!DNL Commerce] ストア。 命令が出る時 [!DNL Channel Manager] 更新をに送信 [!DNL Walmart Marketplace] をクリックして、Walmart 上の出荷ステータスを更新し、出荷の注文追跡番号を指定します。 注文が出荷された後、Walmart が返品商品承認フォームを発行する場合、注文品の一部または完全払い戻しが可能です。 詳しくは、 [返品と返金](return-refund-orders.md).
+- **[!UICONTROL Shipped]** — から出荷された注文 [!DNL Commerce] ストア。 命令が出る時 [!DNL Channel Manager] がに更新を送信します。 [!DNL Walmart Marketplace] をクリックして、Walmart 上の出荷ステータスを更新し、出荷の注文追跡番号を指定します。 注文が出荷された後、Walmart が返品商品承認フォームを発行する場合、注文品の一部または完全払い戻しが可能です。 詳しくは、 [返品と返金](return-refund-orders.md).
 
-- **[!UICONTROL Partially Shipped]** — 一部の品目が出荷済とマークされ、他の品目が出荷待ちとなっている注文。 受注出荷時の品目 [!DNL Channel Manager] 更新をに送信 [!DNL Walmart Marketplace] 発送ステータスを次の値に更新するには： _[!DNL Partially Shipped]_ウォルマートで、出荷の注文追跡番号を入力します。
+- **[!UICONTROL Partially Shipped]** — 一部の品目が出荷済とマークされ、他の品目が出荷待ちとなっている注文。 受注出荷時の品目 [!DNL Channel Manager] がに更新を送信します。 [!DNL Walmart Marketplace] 発送ステータスを次の値に更新するには： _[!DNL Partially Shipped]_ウォルマートで、出荷の注文追跡番号を入力します。
 
 - **[!UICONTROL Canceled]** — からキャンセルされたオーダー [!DNL Commerce] ストア。
 
-  注文のキャンセルが完了した後、 [!DNL Commerce] 返された品目を反映した在庫数量の更新 すると、 [!DNL Channel Manager] 更新を [!DNL Walmart Marketplace].
+  注文のキャンセルが完了した後、 [!DNL Commerce] 返された品目を反映した在庫数量の更新。 すると、 [!DNL Channel Manager] 更新を [!DNL Walmart Marketplace].
 
 - **[!UICONTROL Return requested]**—Walmart Marketplace が出荷済の注文品に対して返品を要求した場合、 `Return requested` リンクが [!UICONTROL Status details] 列。 リンクを選択すると、 [!UICONTROL Returns] ダッシュボードを使用して返品を表示し、払い戻しプロセスを管理します。
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 ## 注文の確認
 
-1. 管理者から、 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]** 開く [!UICONTROL Channel Manager Marketplace Stores] ページ。
+1. 管理者で、「 」を選択します。 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]** 開く [!UICONTROL Channel Manager Marketplace Stores] ページに貼り付けます。
 
 1. ストアエントリ行の目のアイコンを選択して、ストアビューを開きます。
 
@@ -171,8 +171,8 @@ Commerce ストアフロントで、次の場所からインポートされた�
       - [!UICONTROL Unavailable carrier or shipping information.]
       - [!UICONTROL Additional information is required by our Credit or Fraud Avoidance department.]
 
-- **並べ替えられた項目** — このセクションには、すべてのコマースオーダーのオーダー項目がリスト表示されます。 この [!UICONTROL Qty] 列には、注文項目のステータス履歴が表示されます。 例えば、注文が請求済み、出荷済み、返金済みの場合、ステータス遷移を表示できます。
+- **並べ替え済み項目** — このセクションには、すべてのコマースオーダーのオーダー項目がリスト表示されます。 The [!UICONTROL Qty] 列には、注文項目のステータス履歴が表示されます。 例えば、注文が請求済み、出荷済み、返金済みの場合、ステータス遷移を表示できます。
 
   ![注文の詳細順序付き品目ステータス履歴 [!DNL Walmart Marketplace] 注文件数](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
-項目の請求書と払い戻しの詳細を表示するには、 [!UICONTROL Invoice] および [!UICONTROL Credit Memo] オプションを使用します。 また、 [[!UICONTROL Returns]](return-refund-orders.md) ダッシュボードをセールスチャネルストアに追加します。
+項目の請求書と払い戻しの詳細を表示するには、 [!UICONTROL Invoice] および [!UICONTROL Credit Memo] オプションを使用します。 クレジットメモには、 [[!UICONTROL Returns]](return-refund-orders.md) ダッシュボードをセールスチャネルストアに追加します。

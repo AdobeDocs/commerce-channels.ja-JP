@@ -18,9 +18,9 @@ Amazonセールスチャネルの完全な機能セットを使用するには�
 
 Amazonリストからカタログ商品を作成する場合：
 
-- この **ASIN** が [!DNL Commerce] SKU
-- この **製品リスト名** は「カタログリスト名」になります。
-- この **価格** および **数量** をAmazon Listing から読み込む
+- The **ASIN** が [!DNL Commerce] SKU
+- The **製品リスト名** は「カタログリスト名」になります。
+- The **価格** および **数量** をAmazon Listing から読み込む
 
 残りの必要な設定は、 [!DNL Commerce] 作成時に選択する製品設定。
 
@@ -28,37 +28,37 @@ Amazonリストからカタログ商品を作成する場合：
 
 ## 1 つのカタログ製品をAmazonリストに割り当てる
 
-1. 製品リストを [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) タブをクリックします。
+1. 次の場所で製品リストを表示 [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) タブをクリックします。
 
-1. 割り当てるリストをリストで見つけ、 **[!UICONTROL Select]** 内 _[!UICONTROL Action]_列をクリックし、**[!UICONTROL Assign Catalog Product]**.
+1. 割り当てるリストをリストで見つけ、 **[!UICONTROL Select]** （内） _[!UICONTROL Action]_列をクリックし、**[!UICONTROL Assign Catalog Product]**.
 
-   このアクションを実行すると、 _[!UICONTROL Assign Magento Catalog Product]_ページ。
+   このアクションを実行すると、 _[!UICONTROL Assign Magento Catalog Product]_ページに貼り付けます。
 
 1. を使用してリストを参照するか、フィルターします。 [workspace コントロール](./workspace-controls.md) リストに一致する適切なカタログ製品を見つけます。
 
-1. リストに正しい製品が表示されたら、 **[!UICONTROL Assign Catalog Product]** 内 _[!UICONTROL Action]_列。
+1. リストに正しい製品が表示されたら、 **[!UICONTROL Assign Catalog Product]** （内） _[!UICONTROL Action]_列。
 
 これで、製品とリストが一致します。 Amazonのセールスチャネルは、Amazonと製品およびリストデータを共有し、リストとその情報（リスト価格、送料、在庫/数量、注文情報およびステータスなど）を管理できるようになりました。
 
-## Amazonリスト情報を使用した単一カタログ製品の作成
+## Amazonリスト情報を使用して、単一のカタログ製品を作成する
 
-1. 製品リストを [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) タブをクリックします。
+1. 次の場所で製品リストを表示 [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) タブをクリックします。
 
-1. に作成するリストを見つけます。 [!DNL Commerce] カタログ、クリック **[!UICONTROL Select]** 内 _[!UICONTROL Action]_列をクリックし、**[!UICONTROL Create New Catalog Product]**.
+1. に作成するリストを見つけます。 [!DNL Commerce] カタログ、クリック **[!UICONTROL Select]** （内） _[!UICONTROL Action]_列をクリックし、**[!UICONTROL Create New Catalog Product]**.
 
-   このアクションを実行すると、 _[!UICONTROL Create Magento Catalog Product]_ページ。
+   このアクションを実行すると、 _[!UICONTROL Create Magento Catalog Product]_ページに貼り付けます。
 
 1. 製品のカタログ設定を完了します。
 
    - 設定 **[!UICONTROL Enable Product(s)]** 切り替える `Yes` または `No` （必須）。
 
-     |はい|製品を適格な製品にする [!DNL Commerce] 店頭販売。| |いいえ|製品を不適格にすることを選択 [!DNL Commerce] ストアフロントの販売。|
+     |はい|製品を適格な製品にする [!DNL Commerce] ストアフロントの販売。| |いいえ|製品を不適格にするように選択します [!DNL Commerce] ストアフロントの販売。|
 
    - の場合 **[!UICONTROL Categories]**、製品のカテゴリを割り当てます（オプション）。
 
-     製品のカテゴリを選択するには、下向き矢印をクリックし、カテゴリのチェックボックスを選択します。 クリック **[!UICONTROL Done]** 終了したとき。
+     製品のカテゴリを選択するには、下向き矢印をクリックして、カテゴリのチェックボックスを選択します。 クリック **[!UICONTROL Done]** 終了したとき。
 
-   - の場合 **[!UICONTROL Website Ids]**、製品を関連付ける web サイト（ストアフロント）を選択します。
+   - の場合 **[!UICONTROL Website Ids]**」で、製品を関連付ける web サイト（ストアフロント）を選択します。
 
      このリストのオプションは、 [!DNL Commerce] [ストア設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
 
@@ -70,7 +70,7 @@ Amazonリストからカタログ商品を作成する場合：
 
      |**[!UICONTROL Not Visible Individually]** （デフォルト）|製品は、別の製品のバリエーションとして使用できる場合がありますが、ストアフロントのリストには含まれていません。| |**[!UICONTROL Catalog]**|カタログリストに商品が表示されます。| |**[!UICONTROL Search]**|製品は検索操作に使用できます。| |**[!UICONTROL Catalog and Search]**|商品はカタログ一覧に含まれており、検索操作に使用できます。|
 
-   - の場合 **[!UICONTROL Assign Tax Class]**、製品のオプションを選択します。
+   - の場合 **[!UICONTROL Assign Tax Class]**」で、製品のオプションを選択します。
 
      このリストに表示されるオプションは、 [税制](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 設定済みです。
 
@@ -80,7 +80,7 @@ Amazonリストからカタログ商品を作成する場合：
 
 ## Amazonリスト情報を使用して複数のカタログ製品を作成する
 
-1. 製品リストを [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) タブをクリックします。
+1. 次の場所で製品リストを表示 [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) タブをクリックします。
 
 1. カタログ商品を作成するリストを選択します。
 
@@ -97,13 +97,13 @@ Amazonリストからカタログ商品を作成する場合：
 
    - 設定 **[!UICONTROL Enable Product(s)]** 切り替える `Yes` または `No` （必須）。
 
-     |はい|製品を適格な製品にする [!DNL Commerce] 店頭販売。| |いいえ|製品を不適格にすることを選択 [!DNL Commerce] ストアフロントの販売。|
+     |はい|製品を適格な製品にする [!DNL Commerce] ストアフロントの販売。| |いいえ|製品を不適格にするように選択します [!DNL Commerce] ストアフロントの販売。|
 
    - の場合 **[!UICONTROL Categories]**、製品のカテゴリを割り当てます（オプション）。
 
-     製品のカテゴリを選択するには、下向き矢印をクリックし、カテゴリのチェックボックスを選択します。 クリック **完了** 終了したとき。
+     製品のカテゴリを選択するには、下向き矢印をクリックして、カテゴリのチェックボックスを選択します。 クリック **完了** 終了したとき。
 
-   - の場合 **[!UICONTROL Website Ids]**、製品を関連付ける web サイト（ストアフロント）を選択します。
+   - の場合 **[!UICONTROL Website Ids]**」で、製品を関連付ける web サイト（ストアフロント）を選択します。
 
      このリストのオプションは、 [!DNL Commerce] [ストア設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
 
@@ -115,13 +115,13 @@ Amazonリストからカタログ商品を作成する場合：
 
      |**[!UICONTROL Not Visible Individually]** （デフォルト）|製品は、別の製品のバリエーションとして使用できる場合がありますが、ストアフロントのリストには含まれていません。| |**[!UICONTROL Catalog]**|カタログリストに商品が表示されます。| |**[!UICONTROL Search]**|製品は検索操作に使用できます。| |**[!UICONTROL Catalog and Search]**|商品はカタログ一覧に含まれており、検索操作に使用できます。|
 
-   - の場合 **[!UICONTROL Assign Tax Class]**、製品のオプションを選択します。
+   - の場合 **[!UICONTROL Assign Tax Class]**」で、製品のオプションを選択します。
 
      このリストに表示されるオプションは、 [税制](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 設定済みです。
 
    - 完了したら、「 **[!UICONTROL Create Catalog Products]**.
 
-カタログ製品は [!DNL Commerce] カタログに割り当てられ、作成元のAmazonリストに割り当てられます。 現在は、リストがそれぞれのAmazonリストと一致し、リストは [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) 」タブに移動して、 [_[!UICONTROL Active]_](./active-listings.md) タブをクリックします。
+カタログ製品は、 [!DNL Commerce] カタログに割り当てられ、作成元のAmazonリストに割り当てられます。 現在は、リストがそれぞれのAmazonリストと一致し、リストは [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) 」タブに移動して、 [_[!UICONTROL Active]_](./active-listings.md) タブをクリックします。
 
 ![コマースカタログ製品を作成](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 

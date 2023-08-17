@@ -28,29 +28,29 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
 
 >[!NOTE]
 >
->インストールに関するヘルプ [!DNL Commerce] CLI を使用するソフトウェア： [拡張機能のインストール](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>のインストールに関するヘルプ [!DNL Commerce] CLI を使用するソフトウェア： [拡張機能のインストール](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 ### オンプレミスインスタンスにインストールする
 
 次の手順を使用して、 [!DNL Channel Manager] オンプレミスインスタンスに対するAdobe CommerceとMagento Open Source。
 
-1. にログインします。 [!DNL Commerce] サーバ as a [権限を持つユーザー](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) 宛に書く [!DNL Commerce] ファイルシステム。
+1. にログインします。 [!DNL Commerce] サーバ as a [権限を持つユーザー](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) 宛てに書く [!DNL Commerce] ファイルシステム。
 
-1. Web サイトを [メンテナンスモード](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
+1. Web サイトをに配置する [メンテナンスモード](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
 
    ```bash
    $ bin/magento maintenance:enable
    ```
 
-1. 次の [!DNL Commerce] プロジェクトのルートディレクトリ、チャネルマネージャーの追加先 `composer.json`.
+1. 次から： [!DNL Commerce] プロジェクトのルートディレクトリ、チャネルマネージャーの追加先 `composer.json`.
 
    ```bash
     composer require magento/channel-manager --no-update
    ```
 
-1. プロンプトが表示されたら、 [!DNL Commerce] アカウント
+1. プロンプトが表示されたら、 [!DNL Commerce] アカウント。
 
-   公開鍵はユーザ名です。秘密鍵はパスワードです。
+   公開鍵はユーザー名、秘密鍵はパスワードです。
 
 1. 依存関係を更新し、拡張機能をインストールします。
 
@@ -58,7 +58,7 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
    composer update magento/channel-manager
    ```
 
-   この `composer update` コマンドは、 [!DNL Channel Manager]. すべての依存関係を更新するには、代わりに次のコマンドを使用します。 `composer update`.
+   The `composer update` コマンドは、次に必要な依存関係のみを更新します： [!DNL Channel Manager]. すべての依存関係を更新するには、代わりに次のコマンドを使用します。 `composer update`.
 
 1. Composer がプロジェクトの依存関係の更新を完了するのを待ち、エラーを解決します。
 
@@ -110,15 +110,15 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
 
 クラウドインスタンスに拡張機能を追加する際に、開発ブランチで作業します。
 
-分岐の使用に関するヘルプについては、 [ブランチの作成を開始する](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) 内 _Commerce on Cloud Infrastructure ガイド_.
+分岐の使用に関するヘルプについては、 [ブランチの作成を開始する](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) （内） _Commerce on Cloud Infrastructure ガイド_.
 
-インストール時に、拡張子の名前 (`magento\channel-manager`) は [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) ファイル。 ファイルを直接編集する必要はありません。
+インストール時に、拡張子の名前 (`magento\channel-manager`) は、 [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) ファイル。 ファイルを直接編集する必要はありません。
 
 1. ローカルワークステーションで、クラウドプロジェクトのルートディレクトリに移動します。
 
 1. 開発の作成またはチェックアウト [分岐](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
 
-1. コンポーザー名を使用して、拡張機能を `require` セクション `composer.json` ファイル。
+1. コンポーザー名を使用して、拡張機能を `require` のセクション `composer.json` ファイル。
 
    ```bash
    composer require magento/module-sales-channels-extension --no-update
@@ -130,9 +130,9 @@ Channel Manager のインストール手順は、Adobe CommerceまたはMagento 
    composer update magento/module-sales-channels-extension
    ```
 
-   この `composer update` コマンドは、 [!DNL Channel Manager]. すべての依存関係を更新するには、代わりに次のコマンドを使用します。 `composer update`.
+   The `composer update` コマンドは、次に必要な依存関係のみを更新します： [!DNL Channel Manager]. すべての依存関係を更新するには、代わりに次のコマンドを使用します。 `composer update`.
 
-1. コードの変更を追加、コミット、およびプッシュします。両方の `composer.lock` および `composer.json` ファイル。
+1. コードの変更を追加、コミット、およびプッシュします。両方に変更を含めます。 `composer.lock` および `composer.json` ファイル。
 
    ```bash
    $ git add -A
@@ -161,7 +161,7 @@ Module is enabled
 モジュールが無効な場合、 [ローカル環境で有効にする](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) 変更をデプロイします。
 
 
-1. 拡張機能が正常にインストールされたら、 [!UICONTROL Admin] から [Commerce Services コネクタの設定](connect.md).
+1. 拡張機能が正常にインストールされたら、にログインします。 [!UICONTROL Admin] から [Commerce Services コネクタの設定](connect.md).
 
    >[!NOTE]
    >
@@ -174,13 +174,13 @@ Channel Manager のインストールプロセス中に発生したエラーを�
 
 ### コンポーザーのキーが正しくありません
 
-この [アクセスキー](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) Composer リポジトリへの認証に使用された値が無効か、 [!DNL MAGE ID] ～に新規登録するのに使われる [!DNL Channel Manager] サービスの場合、次のエラーが表示されます。
+次の場合、 [アクセスキー](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) Composer リポジトリへの認証に使用された値が無効か、 [!DNL MAGE ID] ～に新規登録するのに使われる [!DNL Channel Manager] サービスの場合、次のエラーが表示されます。
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
 ```
 
-キー設定を確認します。
+キーの設定を確認します。
 
 1. 次の場所を検索： `auth.json` ファイル：
 

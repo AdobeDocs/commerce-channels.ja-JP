@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 製品の追加先 [!DNL Channel Manager]
 
-製品を [!DNL Walmart Marketplace] セールスチャネルで、 [!DNL Commerce] 製品カタログと読み込み先 [!DNL Channel Manager].
+製品を [!DNL Walmart Marketplace] セールスチャネルで、次から選択します。 [!DNL Commerce] 製品カタログと読み込み先 [!DNL Channel Manager].
 読み込み処理は、選択した製品の数に応じて、最大 30 分以上かかる場合があります。
 
 ## 前提条件
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 - 必要な Walmart 属性に有効な値を指定します。
 
-   - 必要な製品属性の 1 つに一致する製品属性が少なくとも 1 つ [!DNL Walmart Marketplace] 製品識別子 —GTIN、ISBN、ISSN、UPC、EAN。
+   - 必要な製品属性の 1 つに一致する製品属性が少なくとも 1 つあります [!DNL Walmart Marketplace] 製品識別子 —GTIN、ISBN、ISSN、UPC、EAN。
 
    - 小数第 2 位までに指定された製品価格（例： ） `9.99`
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    カタログが新しいタブで開きます。
 
-1. カタログ製品グリッドから、販売する製品を選択します [!DNL Walmart Marketplace].
+1. カタログ製品グリッドから、販売する製品を選択します。 [!DNL Walmart Marketplace].
 
    ![製品をセールスチャネルストアに送信](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    - 送信者 **[!UICONTROL Actions]**&#x200B;を選択します。 **[!UICONTROL Update attributes]**.
 
-   - スクロールして **[!UICONTROL Connect to Channel Manager]** 属性を設定し、有効にします。
+   - をスクロールします。 **[!UICONTROL Connect to Channel Manager]** 属性を設定し、有効にします。
 
    - 製品属性に、必要な [!DNL Walmart Product IDs].
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 - [!DNL Commerce] 古い ASIN に添付されたAmazonのリストを終了します
 - Amazonで ASIN を検証します。
 - 更新された ASIN のリストを作成します
-- Amazonセールスチャネルの情報の一覧を更新しました
+- Amazonセールスチャネルの情報の一覧を更新しました。
 
 **_割り当て済みの ASIN を編集するには、次の手順に従います。_**
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. の下 _[!UICONTROL Actions]_をクリックし、**[!UICONTROL Edit Assigned ASIN]**.
 
-   このアクションを実行すると、 _[!UICONTROL Product Listing Update]_ページ。
+   このアクションを実行すると、 _[!UICONTROL Product Listing Update]_ページに貼り付けます。
 
 1. の場合 **[!UICONTROL Assign ASIN]**」に、新しい ASIN 値を入力します。
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # オンボード [!DNL Channel Manager]
 
-チャネルマネージャのオンボーディングプロセスが完了すると、Adobe Commerceから Walmart Marketplace チャネルの販売操作にアクセスし、設定し、管理できます。 チャネルマネージャは、 [!UICONTROL Channel Manager] オプションを [!UICONTROL Commerce Admin Marketing] メニュー
+チャネルマネージャのオンボーディングプロセスが完了すると、Adobe Commerceから Walmart Marketplace チャネルの販売操作にアクセスし、設定し、管理できます。 チャネルマネージャは、 [!UICONTROL Channel Manager] オプションを [!UICONTROL Commerce Admin Marketing] メニュー。
 
 ![[!DNL Channel Manager] 管理ビューのオプション](assets/channel-manager-admin-view.png){width="500"}
 
@@ -43,17 +43,17 @@ Channel Manager の使用に関する要件を確認し、拡張機能をダウ�
       - 特定の環境への管理者アクセス
       - an [!DNL Adobe Commerce] Composer リポジトリにアクセスする権限を持つアカウント
 
-     詳しくは、 [ユーザーアクセスを管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 内 *Commerce on Cloud Infrastructure ガイド*.
+     詳しくは、 [ユーザーアクセスを管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) （内） *Commerce on Cloud Infrastructure ガイド*.
 
-- **Composer と[!DNL Commerce CLI]** — 参照 [拡張機能のインストール](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 内 *インストールガイド* を参照してください。 [!DNL Adobe Commerce] または [!DNL Magento Open Source] プラットフォーム。
+- **Composer とを使用したエクスペリエンス[!DNL Commerce CLI]** — 参照 [拡張機能のインストール](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) （内） *インストールガイド* を参照してください。 [!DNL Adobe Commerce] または [!DNL Magento Open Source] プラットフォーム。
 
-- **[[!DNL Amazon Sales Channel] バージョン 4.4.2 以降](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)** — 有効化した場合 [!DNL Amazon Sales Channel] の [!DNL Commerce] サイト、 [!DNL Commerce] プラットフォームには、インストール前にバージョン 4.4.2 以降がインストールされています [!DNL Channel Manager].
+- **[[!DNL Amazon Sales Channel] バージョン 4.4.2 以降](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)** — アクティブ化した場合 [!DNL Amazon Sales Channel] の [!DNL Commerce] サイト、 [!DNL Commerce] プラットフォームには、インストール前にバージョン 4.4.2 以降がインストールされています [!DNL Channel Manager].
 
 - **[!DNL Inventory Management]Adobe Commerce andMagento Open Sourceの拡張**
 
-  在庫と注文の管理にチャネルマネージャーを使用する予定がある場合は、Adobe CommerceおよびMagento Open SourceインスタンスにInventory management拡張機能をインストールし、有効にしておく必要があります。 通常、この拡張機能はAdobe Commerceと [!DNL Magento Open Source] 2.3.x 以降。
+  在庫と注文の管理にチャネルマネージャーを使用する予定がある場合は、Adobe CommerceおよびMagento Open SourceインスタンスにInventory management拡張機能をインストールし、有効にしておく必要があります。 通常、この拡張機能は、Adobe Commerceおよび [!DNL Magento Open Source] 2.3.x 以降。
 
-  Commerce を 2.2.x からアップグレードした場合、またはInventory managementを無効にした場合は、必要なモジュールを含めるようにインストールを更新します。 詳しくは、 [Inventory managementのインストール](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) 内 *Inventory managementガイド*.
+  Commerce を 2.2.x からアップグレードした場合、またはInventory managementを無効にした場合は、必要なモジュールを含めるようにインストールを更新します。 詳しくは、 [Inventory managementのインストール](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) （内） *Inventory managementガイド*.
 
 ### 必要システム構成
 
@@ -65,18 +65,18 @@ Channel Manager の使用に関する要件を確認し、拡張機能をダウ�
 
 ### サポートされるプラットフォーム
 
-- Adobe Commerce on Cloud (ECE) :2.4.x
+- Adobe Commerce on Cloud(ECE) :2.4.x
 - Adobe Commerceオンプレミス (EE) :2.4.x
-- Magento Open Source2.4.x
+- MAGENTO OPEN SOURCE2.4.x
 
 ## オンボーディング手順
 
 1. [Walmart Seller アカウントを設定する](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
-1. [のインストール [!DNL Channel Manager] 拡張](install.md).
+1. [をインストールします。 [!DNL Channel Manager] 拡張](install.md).
 
 1. [Commerce Services に接続](connect.md) :Channel Manager をコマースインスタンスや他のサポートサービスと統合します。
 
-1. [接続 [!DNL Commerce] 保存先 [!DNL Walmart Marketplace]](connect-marketplace.md).
+1. [接続する [!DNL Commerce] 保存先 [!DNL Walmart Marketplace]](connect-marketplace.md).
 
 1. [ストア設定の完了](complete-sales-channel-store-setup.md).

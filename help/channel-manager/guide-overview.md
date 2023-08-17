@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Channel Manager] ガイド`'
-description: ''' [!DNL Channel Manager] Adobe CommerceおよびMagento Open Source管理者向け（インストールとオンボーディングを含む）'
+title: '[!DNL Channel Manager] ガイド'
+description: '''次に関する包括的な情報： [!DNL Channel Manager] Adobe CommerceおよびMagento Open Source管理者向け（インストールとオンボーディングを含む）。'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
@@ -8,7 +8,7 @@ recommendations: noCatalog
 source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 このガイドでは、以下について説明します。
 
-* すべて [!DNL Channel Manager]- [!DNL Commerce] 管理者。
+* すべて [!DNL Channel Manager] — から完了する特定のタスク [!DNL Commerce] 管理者。
 * すべて [!DNL Channel Manager] — コマンドラインから完了する特定のタスク。
 
 の管理の詳細 [!DNL Commerce] プラットフォーム、プロジェクト、Web サイトについては、 Adobe CommerceおよびMagento Open Sourceのユーザーガイドと開発者ガイドを参照してください。
@@ -36,7 +36,7 @@ ht-degree: 0%
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Adobe Commerce 2.4 Merchant ドキュメント](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe CommerceとMagento Open Sourceの両方に関するマーチャント中心のドキュメント |
 | [Adobe Commerce Documentation のサービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | マーチャントがビジネスの主要なコンポーネントを店舗に統合するのに役立つサービスのコレクションをサポートするドキュメントです。 |
-| [Commerce on Cloud Infrastructure ガイド](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 管理対象の自動ホスティングされた Cloud プラットフォームにAdobe Commerceをデプロイする手順を説明します。 |
+| [クラウドインフラストラクチャー上の Commerce に関するガイド](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 管理対象の自動ホスティングされた Cloud プラットフォームにAdobe Commerceをデプロイする手順を説明します。 |
 | [Adobe Commerce 2.4 運用ガイド](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe CommerceおよびMagento Open Sourceプラットフォームにデプロイされたプロジェクトを開発、デプロイ、メンテナンスするための概念、プロセス、ツール、ベストプラクティスに関するシステムドキュメントです。 |
 | [Adobe Commerce 2.4 開発者向けドキュメント](https://developer.adobe.com/commerce/docs) | Adobe CommerceまたはMagento Open Sourceの構築とカスタマイズに使用する開発者向けドキュメント |
 

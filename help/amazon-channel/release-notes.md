@@ -25,7 +25,7 @@ ht-degree: 0%
 ![修正された問題](../assets/fix.svg) 修正点および改善点
 ![既知の問題](../assets/bug.svg) 既知の問題
 
-詳しくは、 [今後のリリース](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) バージョン管理、サポートおよび互換性に関する情報。
+詳しくは、 [今後のリリース](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) バージョン管理、サポートおよび互換性については、を参照してください。
 
 ## v4.4.4
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 [!BADGE 互換性]{type=Informative tooltip="互換性"}
 
-![修正点](../assets/fix.svg) Adobe Commerceが _ユーザー名_ Amazonのフィールド 以前は、 _ユーザー名_ フィールドに特殊文字が含まれていました。 Adobe Commerceが _ユーザー名_ 順序を正しく作成できるよう、データとフィルターで特殊文字を除外します。
+![修正点](../assets/fix.svg) Adobe Commerceが _ユーザー名_ Amazonのフィールド。 以前は、 _ユーザー名_ フィールドに特殊文字が含まれていました。 Adobe Commerceが _ユーザー名_ 順序を正しく作成できるよう、データとフィルターで特殊文字を除外します。
 
 ## v4.4.0
 
@@ -100,9 +100,9 @@ ht-degree: 0%
 
 [!BADGE 互換性]{type=Informative tooltip="互換性"}
 
-![修正点](../assets/fix.svg) <!--CHAN-xxxx-->この _注文の詳細_ 機能は再設計され、現在はに依存していません _注文のインポート_ 設定。 注文の詳細が、すべての注文に対してAmazonSales Channelインターフェイスに表示されるようになりました。
+![修正点](../assets/fix.svg) <!--CHAN-xxxx-->The _注文の詳細_ 機能は再設計され、現在はに依存していません _注文のインポート_ 設定。 注文の詳細が、すべての注文に対してAmazonSales Channelインターフェイスに表示されるようになりました。
 
-![修正点](../assets/fix.svg) 内 _[!UICONTROL Marketing]_メニューの「 」が_[!UICONTROL Amazon]_ から _[!UICONTROL Amazon Sales Channel]_.
+![修正点](../assets/fix.svg) Adobe Analytics の _[!UICONTROL Marketing]_メニューの「 」が、_[!UICONTROL Amazon]_ から _[!UICONTROL Amazon Sales Channel]_.
 
 ![既知の問題](../assets/bug.svg) **重要**:Adobe Commerce 2.4.0 の互換性に関する既知の問題は、Adobe Commerce 2.4.1 リリースで解決されました。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 ![既知の問題](../assets/bug.svg) 条件 [!DNL Amazon sales channel] 4.2.0 は、バージョン 2.4.0 およびと統合されています。 [Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=en) が有効になっている場合、コマースカタログに商品を追加できない既知の問題があります。 この問題は、今後の Commerce リリースで対処される予定です。
 
-![新規](../assets/new.svg) [!DNL Amazon sales channel] は、テキストベースのアドレスデータを受け取り、市区町村、都道府県、郵便番号など、標準化されたアドレス形式に一致させるように強化されました。 この更新により、注文および配送先のデータを、住所のエラーなしにAmazonと同期（同期）できます。<br/>例えば、買い物客が市区町村、都道府県、郵便番号を `Escondido, californiA 92025-1501`. AmazonSales Channelは、データを読み込み、標準形式にマッチングします。 `Escondido, CA 92025`を呼び出し、この標準化された形式でAmazonに同期します。
+![新規](../assets/new.svg) [!DNL Amazon sales channel] は、テキストベースのアドレスデータを受け取り、市区町村、都道府県、郵便番号などの標準化されたアドレス形式に一致させるように強化されました。 この更新により、注文および配送先のデータを、住所のエラーなしにAmazonと同期（同期）できます。<br/>例えば、買い物客が市区町村、都道府県、郵便番号を `Escondido, californiA 92025-1501`. AmazonSales Channelは、データを読み込み、標準形式にマッチングします。 `Escondido, CA 92025`を呼び出し、この標準化された形式でAmazonに同期します。
 
 ![新規](../assets/new.svg) PHP 7.4 のサポートを追加しました。
 
@@ -128,13 +128,13 @@ ht-degree: 0%
 
 ![修正点](../assets/fix.svg) <!--CHAN-4431-->次の問題を修正しました： _アクセス拒否_ エラーが発生しました。
 
-![修正点](../assets/fix.svg) <!--CHAN-4394-->Amazonの配送ステータスが対応するコマースの注文と同期されなかった問題を修正し、注文の配送ステータスが「ロック」されて `Pending` ( コマースおよび `Unshipped` Amazon 新しく標準化された住所機能により、これらの発送ステータスのエラーが解決されました。
+![修正点](../assets/fix.svg) <!--CHAN-4394-->Amazonの配送ステータスが対応するコマースの注文と同期されなかった問題を修正し、注文の配送ステータスが「ロック」されていた問題を `Pending` ( コマースおよび `Unshipped` Amazonで 新しく標準化された住所機能により、これらの発送ステータスのエラーが解決されました。
 
-![修正点](../assets/fix.svg) <!--ticket#-->注文の同期（同期）を更新し、失敗した注文のインポートを無視するようにしました。したがって、同期の試行が複数回減り、以降のインポートが処理されるようになりました。注文の同期要求は 5 分ごとに送信されます。 同期エラーは引き続きエラーログに記録されますが、「処理済み」とマークされ、さらにログ機能を許可します。 また、 [!DNL Amazon sales channel] コマースで作成に失敗した注文に対して収集された超過データを自動的に削除するようになりました。
+![修正点](../assets/fix.svg) <!--ticket#-->注文の同期（同期）を更新し、失敗した注文のインポートを無視するようにしました。したがって、同期の試行が複数回減り、以降のインポートが処理されるようになりました。注文の同期要求は 5 分ごとに送信されます。 同期エラーは引き続きエラーログに記録されますが、「処理済み」とマークされ、さらにログ機能を使用できるようになります。 また、 [!DNL Amazon sales channel] コマースで作成に失敗した注文に対して収集された超過データを自動的に削除するようになりました。
 
 ![修正点](../assets/fix.svg) エラーログを更新し、キャッチされない例外および拡張機能の更新エラーに関する詳細情報を収集しました。
 
-![修正点](../assets/fix.svg) <!--ticket#-->初期同期で _最低価格_ 欠落により失敗するデータ _価格_ の値です。
+![修正点](../assets/fix.svg) <!--ticket#-->の初期同期で発生していた問題を修正しました。 _最低価格_ 欠落により失敗するデータ _価格_ の値です。
 
 ![修正点](../assets/fix.svg) <!--CHAN-4410-->フィルターエラーが発生した問題を修正しました。 _Amazon注文_ 日付範囲フィールドが空白のままの場合に表示します。
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 ![新規](../assets/new.svg) 追加された _[!UICONTROL Order Notes]_再設計された列_[!UICONTROL Amazon Orders]_ 両方のテーブル _[!UICONTROL Recent Orders]_および_[!UICONTROL All Orders]_ ビュー。 _[!UICONTROL Order Notes]_商人に注文の輸入に問題があることを知らせます。 詳しくは、 [Amazon注文の表示](amazon-orders-all.md).
 
-![新規](../assets/new.svg) <!--CHAN-4013-->製品条件パラメーターが [Amazon更新](https://sell.amazon.com/programs/renewed) プログラム。 詳しくは、 [更新された製品](renewed-products.md).
+![新規](../assets/new.svg) <!--CHAN-4013-->製品条件パラメーターを更新し、 [Amazon更新](https://sell.amazon.com/programs/renewed) プログラム。 詳しくは、 [更新された製品](renewed-products.md).
 
 ![新規](../assets/new.svg) <!--CHAN-3680-->更新済み [Amazon注文の詳細](amazon-order-details.md) を追加しました。これは、Amazonが満たす注文に対して「汎用データ」を含めます。 詳しくは、 [実行者](fulfilled-by.md).
 
@@ -178,15 +178,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->AmazonSales Channel4.0.0 は、Adobe Commerce 2.3.5 ではサポートされていません。Adobe Commerce 2.3.5 でのサポートについては、AmazonSales Channel4.1.0 にアップグレードしてください。
+>AmazonSales Channel4.0.0 は、Adobe Commerce 2.3.5 ではサポートされていません。Adobe Commerce 2.3.5 のサポートについては、AmazonSales Channel4.1.0 にアップグレードしてください。
 
 ![新規](../assets/new.svg) 新しい [AmazonSales Channel](amazon-sales-channel-home.md) ストア情報の「カード表示」が改善されたホームページ。
 
-![新規](../assets/new.svg) 新しい [ストアダッシュボード](amazon-store-dashboard.md) リスト、最近の注文、およびストア設定情報を含む
+![新規](../assets/new.svg) 新しい [ストアダッシュボード](amazon-store-dashboard.md) リスト、最近の注文、およびストア設定情報を含む。
 
 ![新規](../assets/new.svg) シンプルで合理化された [オンボーディングプロセス](amazon-onboarding-home.md) および [デフォルトのストア設定](default-store-settings.md) ストアをより迅速に統合するため。
 
-![既知の問題](../assets/bug.svg) <!--CHAN-4102--> 条件 [属性の作成](managing-attributes.md) 画像をインポートする場合は、 **ストア表示** が `All Store Views (Global)`既知の問題により、画像をすべてのストア表示に読み込めませんでした。 次の設定を変更した場合： **ビューを保存（値の読み込み先）** 特定のストアに対して、画像はそのストアに対して読み込まれます。
+![既知の問題](../assets/bug.svg) <!--CHAN-4102--> 条件 [属性の作成](managing-attributes.md) 画像をインポートする場合は、および **ストアビュー数** が `All Store Views (Global)`既知の問題により、画像をすべてのストア表示に読み込めませんでした。 次の設定を変更した場合： **ビューを保存（値の読み込み先）** 特定のストアに対して、画像はそのストアに対して読み込まれます。
 
 ## v3.0.1
 
@@ -194,11 +194,11 @@ ht-degree: 0%
 
 [!BADGE 互換性]{type=Informative tooltip="互換性"}
 
-![修正点](../assets/fix.svg) **数値フィールド設定**: <!--CHAN-3779-->数値ベースの値を必要とするフィールドが更新され、数値文字のみを受け入れるようになりました。 例：「価格設定」 > 「調整金額」フィールド
+![修正点](../assets/fix.svg) **数値フィールド設定**: <!--CHAN-3779-->数値ベースの値を必要とするフィールドが更新され、数値文字のみを受け入れるようになりました。 例： 「価格設定ルール設定」 > 「調整金額」フィールド
 
 ![修正点](../assets/fix.svg) **ユーザーガイドリンク**: <!--CHAN-3778-->誤った _ユーザーガイド_ リンクが修正されました。
 
-![修正点](../assets/fix.svg) **重複するAmazon一覧**: <!--CHAN-3593-->以前に報告された問題で、Amazonのリストが重複する原因となっていた問題が修正されました。 このリリース以前は、リストのインポート時に、拡張機能によってAmazon地域の国コードが SKU 値に追加されていました。 リストがカタログ項目と一致したが、拡張機能によって、追加された SKU を含む新しい重複リストが作成されました。 このリリースでは、拡張機能で読み込んだリストの SKU が変更されることはなく、既存のリストは変更されません。 以下を使用して、 [!UICONTROL End Listing(s)] 重複するリストを削除するAmazonオプション。
+![修正点](../assets/fix.svg) **重複するAmazon一覧**: <!--CHAN-3593-->以前に報告された問題で、Amazonのリストが重複する原因となっていた問題が修正されました。 このリリース以前は、リストのインポート時に、拡張機能によってAmazon地域の国コードが SKU 値に追加されていました。 リストがカタログ項目と一致したが、拡張機能によって、追加された SKU を含む新しい重複リストが作成されました。 このリリースでは、拡張機能で読み込んだリストの SKU が変更されることはなく、既存のリストは変更されません。 以下を使用すると、 [!UICONTROL End Listing(s)] 重複するリストを削除するAmazonオプション。
 
 ## v3.0.0
 
@@ -206,13 +206,13 @@ ht-degree: 0%
 
 [!BADGE 互換性]{type=Informative tooltip="互換性"}
 
-![新規](../assets/new.svg) **Amazon UK Marketplace が利用可能**:ユーザーは、コマースストアを作成および統合する際に、英国マーケットプレイスを選択できます。 この英国のアップグレードには、次の追加サポートが含まれます。
+![新規](../assets/new.svg) **Amazon UK Marketplace が利用可能**：ユーザーは、コマースストアを作成および統合する際に、英国マーケットプレイスを選択できます。 この英国のアップグレードには、次の追加サポートが含まれます。
 
 - [AmazonVAT 計算サービス](https://sell.amazon.co.uk/learn/vat-resources){target="_blank"}
 
 - [製品税コード](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} 情報。
 
-![新規](../assets/new.svg) **ログ機能の向上**: <!--CHAN-3642, 3672-->の実装 **デバッグログを有効にする** トラブルシューティングが必要な場合に追加の同期データを収集する機能。 詳しくは、 [Sales Channel設定](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) 」のトピックを参照してください。
+![新規](../assets/new.svg) **ログ機能の向上**: <!--CHAN-3642, 3672-->を実装する **デバッグログを有効にする** トラブルシューティングが必要な場合に追加の同期データを収集する機能。 詳しくは、 [Sales Channel設定](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) 」のトピックを参照してください。
 
 ![修正点](../assets/fix.svg) **商品カタログ**: <!--CHAN-3687-->Amazonのリストで読み込まれた画像が、対応するコマースカタログ製品に適用されなかった問題を修正しました。
 
@@ -228,22 +228,22 @@ ht-degree: 0%
 >
 >バージョン 1.0.0 は、限定的なリリースでのみ使用可能でした。
 
-![新規](../assets/new.svg)  **シンプルなオンボーディングとメンテナンス**:詳細な手順と管理者から入手できる詳しい手順を使用して、手順を追加し、Amazonセラーアカウントと統合します。 1 つのダッシュボードを使用して、店舗、アカウント、および一覧表示された製品を保守します。
+![新規](../assets/new.svg)  **シンプルなオンボーディングとメンテナンス**：手順を追ったプロセスと管理者から利用できる詳細な手順を通じて、Amazonセラーアカウントに追加して統合します。 1 つのダッシュボードを使用して、店舗、アカウント、および一覧表示された製品を保守します。
 
-![新規](../assets/new.svg)  **複数のアカウントのサポート**:管理ツールを使用して、複数のAmazonブランドおよび Marketplace 地域を管理および監視します。
+![新規](../assets/new.svg)  **複数のアカウントのサポート**：管理ツールを使用して、複数のAmazonブランドおよび Marketplace 地域を管理および監視します。
 
-![新規](../assets/new.svg)  **インテリジェント価格**:自動価格設定ルールを設定して、コベットBuy Boxのチャンスを増やします。 価格を設定して、現在のBuy Box価格、または競合相手の最低価格に動的に調整します。 利益を保護するために、価格を変更する制限を設定します。
+![新規](../assets/new.svg)  **インテリジェントな価格**：自動価格変更ルールを設定して、コベート対象のBuy Boxの機会を増やします。 価格を設定して、現在のBuy Box価格、または競合相手の最低価格に動的に調整します。 利益を保護するために、価格を変更する制限を設定します。
 
-![新規](../assets/new.svg)  **リスト管理**:製品リストを自動化し、リストルールを使用してコマースカタログをAmazon Marketplace に同期します。 特定の上書きを追加して、オファーを細かく制御します。 管理者から直接、すべてのリストを監視および管理します。
+![新規](../assets/new.svg)  **リスト管理**：製品リストを自動化し、リストルールを使用してコマースカタログをAmazon Marketplace に同期します。 特定の上書きを追加して、オファーを細かく制御します。 管理者から直接、すべてのリストを監視および管理します。
 
-![新規](../assets/new.svg)  **一貫したInventory management**:コマースとAmazonの在庫数を常に同期させます。
+![新規](../assets/new.svg)  **一貫したInventory management**：コマースとAmazonの在庫数を一定に同期させます。
 
-![新規](../assets/new.svg)  **受注および履行管理**:シームレスなコミュニケーションと在庫の更新を行い、Amazonの注文をダッシュボードで追跡します。 Amazon、商人が満たした注文出荷、または複数の方法の組み合わせに従って、完了し、追跡します。
+![新規](../assets/new.svg)  **受注および履行管理**：シームレスなコミュニケーションと在庫の更新を使用して、Amazonの注文をダッシュボードで追跡します。 Amazon、商人が満たした注文出荷、または複数の方法の組み合わせに従って、完了し、追跡します。
 
 ![既知の問題](../assets/bug.svg)  製品の数量を更新するのに、待ち時間が長くなる場合があります。 製品数量の更新を同期するには、約 2 時間かかる場合があります。
 
-![既知の問題](../assets/bug.svg)  インポートされた注文のタイプは _Prime_ または _プレミアム_ 注文。 これらの注文は、Amazonセラーアカウントで確認する必要があります。
+![既知の問題](../assets/bug.svg)  インポートされた注文のタイプは _Prime_ または _Premium_ 注文。 これらの注文は、Amazonセラーアカウントで確認する必要があります。
 
 ![既知の問題](../assets/bug.svg)  不適格なバンドル製品は、Amazonでのリストへの登録に適格と表示される場合があります。 バンドルされた製品内の製品の 1 つが適格でない可能性があります。 問題が発生した場合は、バンドルされた製品項目の適格性ステータスを確認してください。
 
-![既知の問題](../assets/bug.svg)  Inventory management for Commerce 2.3.x を使用している場合、注文の作成時に、部分的な在庫再インデックスがトリガーしないことがあります。 販売可能数量は 1 時間ごとに再計算され、この更新間隔中にオーバーセルが発生する可能性があります。
+![既知の問題](../assets/bug.svg)  Inventory management for Commerce 2.3.x を使用している場合、注文の作成時に、部分的な在庫再インデックスがトリガーしないことがあります。 売り上げ可能な数量は 1 時間ごとに再計算され、この更新間隔中にオーバーセルが発生する可能性があります。

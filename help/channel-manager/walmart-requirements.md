@@ -19,9 +19,9 @@ ht-degree: 0%
 
 * Adobe CommerceまたはMagento Open Sourceの接続先となる API キー [!DNL Walmart Marketplace]
 
-  この [!DNL Walmart Marketplace] API キーにより、 [!DNL Channel Manager] Adobe [!DNL Commerce] Magento Open Sourceとウォルマート・マーケットプレイス チャネルマネージャのオンボーディングプロセスを開始する前に、Seller Central で API キーを設定します。
+  The [!DNL Walmart Marketplace] API キーにより、 [!DNL Channel Manager] Adobe [!DNL Commerce] Magento Open Sourceとウォルマート・マーケットプレイス チャネルマネージャのオンボーディングプロセスを開始する前に、Seller Central で API キーを設定します。
 
-## の設定 [!DNL Walmart Seller] アカウント
+## を設定します。 [!DNL Walmart Seller] アカウント
 
 次に移動： [!DNL Walmart Seller Center] を設定するには、 [Walmart Seller アカウント](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * ソリューションプロバイダーとして「Adobe」を選択します。
 
-   * 次の表に示すように、権限を設定します。 詳しくは、 [API 資格情報](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 内 _Walmart Marketplace セラーヘルプ_.
+   * 次の表に示すように、権限を設定します。 詳しくは、 [API 資格情報](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) （内） _Walmart Marketplace セラーヘルプ_.
 
    **AdobeAPI の Walmart のキー設定**
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## [!DNL Walmart Marketplace] ストアのステータス
 
-製品を Marketplace に接続する場合、リストの可用性は、 [!DNL Walmart Marketplace] ストア：
+製品を Marketplace に接続する場合、リストの可用性は [!DNL Walmart Marketplace] ストア：
 
 * ライブストアの場合は、製品オファーが一覧表示され、一致操作が完了したときに販売できます。
 
