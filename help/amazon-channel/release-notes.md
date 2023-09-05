@@ -3,9 +3,9 @@ title: '''[!DNL Amazon Sales Channel] リリースノート'
 description: すべての [!DNL Amazon Sales Channel] リリース。
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
+source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2006'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,21 @@ ht-degree: 0%
 ![既知の問題](../assets/bug.svg) 既知の問題
 
 詳しくは、 [今後のリリース](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) バージョン管理、サポートおよび互換性については、を参照してください。
+
+## v4.5.0
+
+*2023 年 8 月 31 日*
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
+
+![新規](../assets/new.svg) 認証のセキュリティを強化するために、Adobe.IO API ゲートウェイが MAGI から変更されるようになりました。 `ServicesId` は、他の UI と同様に、Adobe.IO 資格情報を管理する新しい UI を提供します。 [Adobe Commerce Services](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
+
+>[!NOTE]
+>
+>商人は [非公開および公開 API キー](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html) が実稼動用に更新されました。
+
+
+![修正された問題](../assets/fix.svg) 設定の問題を特定し、注文作成フローを修正しました。
 
 ## v4.4.4
 
