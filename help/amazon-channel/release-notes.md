@@ -3,9 +3,9 @@ title: '''[!DNL Amazon Sales Channel] リリースノート'
 description: すべての [!DNL Amazon Sales Channel] リリース。
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 0%
 
 詳しくは、 [今後のリリース](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) バージョン管理、サポートおよび互換性については、を参照してください。
 
+詳しくは、 [製品の可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) を参照して、この拡張機能をサポートしているAdobe Commerceバージョンを確認してください。
+
 ## v4.5.0
 
 *2023 年 8 月 31 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 ![新規](../assets/new.svg) 認証のセキュリティを強化するために、Adobe.IO API ゲートウェイが MAGI から変更されるようになりました。 `ServicesId` は、他の UI と同様に、Adobe.IO 資格情報を管理する新しい UI を提供します。 [Adobe Commerce Services](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
 
@@ -46,7 +48,7 @@ ht-degree: 0%
 
 *2023 年 3 月 8 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 ![修正された問題](../assets/fix.svg) Adobe Commerce 2.4.6 および PHP 8.2 のサポートを追加しました。
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 
 *2023 年 3 月 8 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 ![修正点](../assets/fix.svg) Adobe Commerce 2.4.4 のサポートを追加しました。
 
@@ -78,7 +80,7 @@ ht-degree: 0%
 
 *2021 年 11 月 12 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 ![修正点](../assets/fix.svg) 依存関係を更新して、他の更新された拡張機能をサポートしました。
 ![修正点](../assets/fix.svg) PHP 8.1 のサポートを追加しました。
@@ -87,7 +89,7 @@ ht-degree: 0%
 
 *2021 年 11 月 12 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 ![修正点](../assets/fix.svg) Adobe Commerceが _ユーザー名_ Amazonのフィールド。 以前は、 _ユーザー名_ フィールドに特殊文字が含まれていました。 Adobe Commerceが _ユーザー名_ 順序を正しく作成できるよう、データとフィルターで特殊文字を除外します。
 
@@ -95,7 +97,7 @@ ht-degree: 0%
 
 *2021 年 4 月 10 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 ![新規](../assets/new.svg) 設定に読み取り専用モードのサポートを追加しました。 詳しくは、 [セールスチャネル設定](sales-channel-settings.md).
 
@@ -113,7 +115,7 @@ ht-degree: 0%
 
 *2021 年 3 月 4 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 ![修正点](../assets/fix.svg) <!--CHAN-xxxx-->The _注文の詳細_ 機能は再設計され、現在はに依存していません _注文のインポート_ 設定。 注文の詳細が、すべての注文に対してAmazonSales Channelインターフェイスに表示されるようになりました。
 
@@ -129,7 +131,7 @@ ht-degree: 0%
 
 *2021 年 3 月 4 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 以前の [!DNL Amazon sales channel] バージョンがインストールされ、Adobe Commerceのバージョン 2.4.0 への更新を試みると、Adobe Commerceのアップデートを完了する前に、拡張機能を更新するよう求められます。
 
@@ -159,7 +161,7 @@ ht-degree: 0%
 
 *2020 年 5 月 8 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 ![新規](../assets/new.svg) <!--4247, 4230-->コマースの注文要件に合わせて注文の読み込みプロセスを変更しました。 これらの変更により、Commerce でインポートした注文に対応する注文を作成できない問題が修正されました。 詳しくは、 [注文の管理](managing-orders.md) を参照してください。
 
@@ -189,7 +191,7 @@ ht-degree: 0%
 
 *2020 年 3 月 26 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 >[!IMPORTANT]
 >
@@ -207,7 +209,7 @@ ht-degree: 0%
 
 *2019 年 11 月 12 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 ![修正点](../assets/fix.svg) **数値フィールド設定**: <!--CHAN-3779-->数値ベースの値を必要とするフィールドが更新され、数値文字のみを受け入れるようになりました。 例： 「価格設定ルール設定」 > 「調整金額」フィールド
 
@@ -219,7 +221,7 @@ ht-degree: 0%
 
 *2019 年 10 月 8 日*
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 ![新規](../assets/new.svg) **Amazon UK Marketplace が利用可能**：ユーザーは、コマースストアを作成および統合する際に、英国マーケットプレイスを選択できます。 この英国のアップグレードには、次の追加サポートが含まれます。
 
@@ -237,7 +239,7 @@ ht-degree: 0%
 
 ## v2.0.0
 
-[!BADGE 互換性]{type=Informative tooltip="互換性"}
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
 
 >[!NOTE]
 >
