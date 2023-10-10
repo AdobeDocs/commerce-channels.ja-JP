@@ -3,9 +3,9 @@ title: '[!DNL Channel Manager] リリースノート'
 description: の最新のリリース情報 [!DNL Channel Manager] Adobe Commerceから
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
+source-git-commit: 003efd3c1044284a7d2c86db5d3eb1abfb3898ea
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,14 @@ ht-degree: 3%
 詳しくは、 [今後のリリース](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) を参照してください。
 
 詳しくは、 [製品の可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) を参照して、この拡張機能をサポートしているAdobe Commerceバージョンを確認してください。
+
+## v2.1.0
+
+*2023 年 10 月 4 日*
+
+[!BADGE サポート対象]{type=Informative tooltip="サポート対象"}
+
+![新規](../assets/new.svg) Channel Manager は、 [Adobe Commerceバージョン 2.4.7 ベータ版](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html) リリース。
 
 ## v2.0.0
 
