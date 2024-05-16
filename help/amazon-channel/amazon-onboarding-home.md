@@ -1,32 +1,32 @@
 ---
-title: 「オンボード [!DNL Amazon Sales Channel]"
-description: Adobe CommerceとMagento Open Sourceの事前設定タスク、オンボーディング手順、AmazonとAmazonSales Channelの連携方法について説明します。
+title: '"オンボード [!DNL Amazon Sales Channel]“'
+description: 事前設定タスク、オンボーディング手順、AmazonがAdobe CommerceとMagento Open SourceでAmazonSales Channelと連携する方法について説明します。
 role: Leader, Admin, User
 feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
 source-git-commit: 6321f17c0e6f9e86bb3f5755dc7710fa68d68b0d
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# オンボード [!DNL Amazon Sales Channel]
+# Onboard [!DNL Amazon Sales Channel]
 
-ここでは、Adobe CommerceおよびMagento Open SourceのAmazonセールスチャネルとの連携に関する、事前設定タスク、オンボーディング手順、主な概念について説明します。
+ここでは、事前設定タスク、オンボーディング手順、Adobe CommerceとMagento Open SourceでAmazonがAmazon セールスチャネルと連携する仕組みについての主要な概念について説明します。
 
-The [!DNL Amazon Sales Channel] 拡張機能は、複数のAmazonストアをサポートしています。 単一の [!DNL Amazon Seller Central] Amazon U.S./Canada/Mexico 地域で運営するアカウントで、Amazonの店舗を 3 店舗（米国の販売、メキシコの販売、カナダの販売それぞれ 1 店舗）を作成します。 3 つの店舗のそれぞれが、作成時の市場の国を定義します。 複数の [!DNL Amazon Seller Central] アカウントには、それぞれ最大 3 つのAmazonストアが存在する可能性があります。 [!DNL Amazon Seller Central] アカウント。 イギリスでも売れば、4 店舗目のAmazon店を手に入れる。
+この [!DNL Amazon Sales Channel] 拡張機能は、複数のAmazon ストアをサポートします。 シングルの場合 [!DNL Amazon Seller Central] Amazon米国/カナダ/メキシコ地域で運営されるアカウントでは、Amazonの 3 つの店舗（米国売上高、メキシコ売上高、カナダ売上高のそれぞれに 1 つずつ）を作成します。 3 つのストアのそれぞれは、作成時にマーケットプレイスの国を定義します。 2 つ以上の場合 [!DNL Amazon Seller Central] アカウントに追加する場合、各Amazon ストアを最大 3 つ作成できます [!DNL Amazon Seller Central] アカウント。 イギリスでも売れば、4 つ目のAmazon店ができますよ。
 
 >[!TIP]
 >
->A [Professional Seller アカウント](https://sell.amazon.com/){target="_blank"} on [!DNL Amazon Seller Central] in the North America or European (UK) region is required. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan](https://sell.amazon.com/pricing.html){target="_blank"}.<br><br>
->オンボーディングは簡単です。ストアを作成してから接続します。 [!DNL Amazon Seller Central] アカウント。
->ストアに接続すると、AmazonチャネルはAmazonの一覧を読み込み、ユーザーのカタログと照合しようとします。 [属性マッピング](./attributes-view.md).<br><br>
->Amazonのセールスチャネルの設定は、Amazonのリストに影響します。 初期のリスト、価格、製品設定はデフォルトで設定されます。 次の項目を変更できます： [ストアの設定](./ob-store-review.md) （リスト、価格、注文、レポート） [!DNL Amazon Seller Central] アカウント。
+>A [プロの販売者アカウント](https://sell.amazon.com/){target="_blank"} 日付： [!DNL Amazon Seller Central] 北米またはヨーロッパ（英国）地域は必須です。 Amazonでは、月額利用料と販売価格を請求します。 参照： [Amazon：販売プランを選択します](https://sell.amazon.com/pricing.html){target="_blank"}.<br><br>
+>オンボーディングは簡単です。ストアを作成して、次にストアに接続します [!DNL Amazon Seller Central] アカウント。
+>ストアが接続されると、Amazon チャネルは、Amazonのリストを読み込み、それに基づいてカタログと照合しようとします [属性マッピング](./attributes-view.md).<br><br>
+>Amazonの販売チャネルの設定は、Amazonのリストに影響を与えます。 最初のリスト、価格および製品設定がデフォルトになります。 を変更できます [ストアの設定](./ob-store-review.md) ストアがユーザーに接続された後のリスト、価格設定、注文、レポート [!DNL Amazon Seller Central] アカウント。
 
 | 手順 | 結果 |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [事前設定タスク](./amazon-pre-setup-tasks.md) | オンボーディングする前に、アクティブで承認済みであることを確認する必要があります [!DNL Amazon Seller Central] アカウント。 また、 [!DNL Commerce] オンボーディングの前に完了する必要がある要件と推奨事項。 |
-| [Amazon API キーの確認](./amazon-verify-api-key.md) | Amazonセールスチャネルにアクセスする場合、 [!DNL Commerce] は、ストア設定に追加したAmazon API キーを自動的に確認して検証します。 API キーが追加されていないか無効な場合は、 [Amazon API キーの追加または更新](./amazon-verify-api-key.md). |
-| [ストア統合](./store-integration.md) | この手順では、Amazonセールスチャネルストアを作成し、それを [!DNL Amazon Seller Central] アカウント。 のプライマリログイン資格情報が必要です [!DNL Amazon Seller Central] この手順のアカウント（販売者アカウントの作成に使用する電子メールまたは電話）。 |
-| [リストルールを作成](./ob-create-listing-rule.md) | Amazonセールスチャネルストアに接続すると、リストルールを作成するよう求められます。 この手順は推奨されますが、スキップして読み込みのリストを開始することもできます。 また、 [ストアとリストの設定](./ob-store-review.md) 店で [dashboard](./amazon-store-dashboard.md). |
+| [事前設定タスク](./amazon-pre-setup-tasks.md) | オンボードする前に、がアクティブで承認済みであることを確認する必要があります [!DNL Amazon Seller Central] アカウント。 他にもいくつかあります [!DNL Commerce] オンボーディング前に完了すべき要件と推奨事項です。 |
+| [Amazon API キーの確認](./amazon-verify-api-key.md) | Amazon Sales Channel にアクセスする場合、 [!DNL Commerce] ストア設定に追加したAmazon API キーを自動的にチェックし検証します。 API キーが追加されていないか無効な場合は、次の操作を実行するように求められます。 [Amazon API キーを追加または更新](./amazon-verify-api-key.md). |
+| [ストアの統合](./store-integration.md) | この手順には、Amazonのセールスチャネルストアを作成し、それをに接続することが含まれます [!DNL Amazon Seller Central] アカウント。 のプライマリログイン資格情報が必要です [!DNL Amazon Seller Central] この手順のアカウント （販売者アカウントの作成に使用される電子メールまたは電話）。 |
+| [リストルールの作成](./ob-create-listing-rule.md) | Amazonのセールスチャネルストアに接続すると、リストルールを作成するよう求められます。 この手順は推奨されますが、スキップしてリストの読み込みプロセスを開始することもできます。 にアクセスすることもできます [ストアとリストの設定](./ob-store-review.md) 店舗で [dashboard](./amazon-store-dashboard.md). |

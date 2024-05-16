@@ -1,6 +1,6 @@
 ---
-user-guide-title: '[!DNL Channel Manager] ガイド'
-user-guide-description: '''Adobe CommerceまたはMagento Open Sourceを [!DNL Walmart Marketplace] 売り手の中央口座です。」'
+user-guide-title: '''[!DNL Channel Manager] ガイド`'
+user-guide-description: 「Adobe CommerceまたはMagento Open Sourceをお客様と統合することで、売上を伸ばし、顧客基盤を拡大する [!DNL Walmart Marketplace] 売り手中央口座。
 breadcrumb-title: '[!DNL Channel Manager Guide]'
 role: Admin, User
 feature: Sales Channels
@@ -8,37 +8,37 @@ recommendations: noDisplay
 source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# チャネルマネージャ — [!DNL Channel Manager] Adobe Commerce {#channel-manager}
+# チャネルマネージャー –  [!DNL Channel Manager] Adobe Commerceの場合 {#channel-manager}
 
 - [ガイドの概要](guide-overview.md)
 - [の概要 [!DNL Channel Manager]](overview.md)
 - [リリースノート](release-notes.md)
 - [ウォルマートの要件](walmart-requirements.md)
-- オンボード [!DNL Channel Manager] {#on-boarding}
+- Onboard [!DNL Channel Manager] {#on-boarding}
    - [オンボーディング](onboard.md)
-   - [をインストールします。 [!DNL Channel Manager] 拡張](install.md)
-   - [Commerce Services に接続](connect.md)
-   - [接続先 [!DNL Walmart Marketplace]](connect-marketplace.md)
+   - [のインストール [!DNL Channel Manager] 拡張子](install.md)
+   - [Commerce Services への接続](connect.md)
+   - [の接続 [!DNL Walmart Marketplace]](connect-marketplace.md)
    - [チャネル設定の完了](complete-sales-channel-store-setup.md)
-- 設定を構成 {#configure-settings}
+- 設定 {#configure-settings}
    - [チャネル設定の概要](settings-overview.md)
-   - [カタログ属性をマッピング](map-catalog-attributes.md)
-   - [配送業者をマップ](map-shipping-carriers.md)
-   - [ウォルマート接続を管理](manage-wmt-connection.md)
+   - [カタログ属性のマッピング](map-catalog-attributes.md)
+   - [配送業者のマッピング](map-shipping-carriers.md)
+   - [ウォルマート接続の管理](manage-wmt-connection.md)
 - 製品のリスト {#list-products}
    - [リストの管理](manage-listings.md)
-   - [チャネルストアに製品を追加](add-products-to-channel-store.md)
-   - [ウォルマートにリストを接続](connect-listings-to-marketplace.md)
-- 在庫と価格 {#inventory-pricing}
+   - [チャネルストアへの製品の追加](add-products-to-channel-store.md)
+   - [リストをウォルマートに接続](connect-listings-to-marketplace.md)
+- 在庫と価格設定 {#inventory-pricing}
    - [在庫と価格の更新](inventory-and-price-updates.md)
 - 注文の管理 {#manage-orders}
-   - [表示と追跡](manage-orders.md)
+   - [表示とトラッキング](manage-orders.md)
    - [プロセス](process-orders.md)
-- [返品・返金の注文](return-refund-orders.md)
+- [返品および返金の注文](return-refund-orders.md)
 
 

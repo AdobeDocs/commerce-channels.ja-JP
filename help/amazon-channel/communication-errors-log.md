@@ -1,6 +1,6 @@
 ---
 title: Amazon通信エラーログ
-description: 通信エラーログには、Amazonと [!DNL Commerce].
+description: 通信エラーログには、Amazonとの間の通信エラーが表示されます [!DNL Commerce].
 feature: Sales Channels, Logs
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Amazon通信エラーログ
 
-The [!UICONTROL Communication Errors] Log は、Amazonで報告された通信エラーを表示します。 影響を受けるAmazonのセールスチャネルストア、エラーコードと簡単な説明、エラーの日時などが情報に含まれます。
+この [!UICONTROL Communication Errors] ログには、Amazonで報告された通信エラーが表示されます。 影響を受けるAmazonのセールス・チャネル・ストア、エラー・コード、簡単な説明、エラーが発生した日時などの情報が含まれます。
 
-ログに使用できるアクションはありません。 これはレビュー専用の機能です。
+ログに使用可能なアクションはありません。 これはレビューのみの機能です。
 
-Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
+Amazonのセールスチャネルのホームページには、いくつかの共通点があります [workspace コントロール](./workspace-controls.md) 表示するデータをカスタマイズできます。
 
 ![通信エラーログ](assets/amazon-comm-errors-log.png){width="600" zoomable="yes"}
 
@@ -24,7 +24,7 @@ Amazonセールスチャネルのホームページは、いくつかの共通�
 
 | 列 | 説明 |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Amazon Store Name] | Amazonストアが設定された際に定義されたストアの名前。 参照： [ストア統合](./store-integration.md). |
-| [!UICONTROL Error Code] | エラータイプを識別するためにAmazonから受け取ったコード。 |
-| [!UICONTROL Message] | エラーコードに関連するエラーを示すメッセージです。 |
+| [!UICONTROL Amazon Store Name] | Amazon ストアが設定されたときに定義されたストアの名前。 こちらを参照してください [ストアの統合](./store-integration.md). |
+| [!UICONTROL Error Code] | エラータイプを識別するためにAmazonから受信したコード。 |
+| [!UICONTROL Message] | エラーコードに関連付けられたエラーを説明するメッセージ。 |
 | [!UICONTROL Created On] | エラーが発生した日時。 |

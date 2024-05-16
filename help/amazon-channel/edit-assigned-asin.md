@@ -1,6 +1,6 @@
 ---
-title: 割り当て済み ASIN の編集
-description: Commerce 製品の ASIN 値が、Amazon製品のリストと適切に一致しない場合は、変更します。
+title: 割り当てられた ASIN の編集
+description: Commerce商品の ASIN 値がAmazonのリストのいずれかに不適切に一致した場合は、その値を変更します。
 feature: Sales Channels, Products, Configuration
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -10,27 +10,27 @@ ht-degree: 0%
 
 ---
 
-# 割り当て済み ASIN の編集
+# 割り当てられた ASIN の編集
 
-の製品に割り当てられたAmazon ASIN 値を編集できます [!DNL Commerce] カタログ。 この機能は、カタログ製品がAmazonのリストのいずれかと適切に一致しなかった場合に役立ちます。 リストの割り当て済み ASIN を変更しても、Amazonによって製品に割り当てられた ASIN は変更されません。 変更されるのは、カタログ商品が一致するAmazonリストのみです。
+で商品に割り当てられたAmazon ASIN 値を編集できます [!DNL Commerce] カタログ。 この機能は、カタログ商品がAmazonのリストのいずれかに不適切に一致した場合に役立ちます。 リストに割り当てられた ASIN を変更しても、Amazonによって商品に割り当てられた ASIN は変更されません。 カタログ商品が一致するAmazonのリストのみが変更されます。
 
 割り当てられた ASIN が変更された場合：
 
-- [!DNL Commerce] 古い ASIN に添付されたAmazonのリストを終了します
+- [!DNL Commerce] 古い ASIN に添付されているAmazonの一覧を終了します
 - Amazonで ASIN を検証します。
 - 更新された ASIN のリストを作成します
-- Amazonセールスチャネルの情報の一覧を更新しました。
+- Amazon Sales Channel のリスト情報を更新しました
 
-**_割り当て済みの ASIN を編集するには、次の手順に従います。_**
+**_割り当てられた ASIN を編集するには：_**
 
-1. リストを _[!UICONTROL Product Listings]_ページ (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_または_[!UICONTROL Ineligible]_ 」タブ ) をクリックします。
+1. のリストを表示 _[!UICONTROL Product Listings]_ページ （_[!UICONTROL Inactive]_, _[!UICONTROL Active]_、または_[!UICONTROL Ineligible]_ タブ）。
 
-1. の下 _[!UICONTROL Actions]_をクリックし、**[!UICONTROL Edit Assigned ASIN]**.
+1. 次の下 _[!UICONTROL Actions]_を選択し、**[!UICONTROL Edit Assigned ASIN]**.
 
-   このアクションを実行すると、 _[!UICONTROL Product Listing Update]_ページに貼り付けます。
+   このアクションにより、が開きます _[!UICONTROL Product Listing Update]_ページ。
 
-1. の場合 **[!UICONTROL Assign ASIN]**」に、新しい ASIN 値を入力します。
+1. の場合 **[!UICONTROL Assign ASIN]**&#x200B;新しい ASIN 値を入力します。
 
-1. 変更を保存するには、 **[!UICONTROL Save Listing Update]**.
+1. 変更を保存するには、をクリックします **[!UICONTROL Save Listing Update]**.
 
-![割り当て済み ASIN の編集](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}
+![割り当てられた ASIN の編集](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

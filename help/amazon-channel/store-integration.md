@@ -1,6 +1,6 @@
 ---
-title: ストアとの統合 [!DNL Amazon Seller Account]
-description: オンボーディングプロセスを開始する前に、AmazonSales Channelストアを作成（追加）し、Amazonセラーアカウントに接続する必要があります。
+title: とのストアの統合 [!DNL Amazon Seller Account]
+description: オンボーディングプロセスを開始する前に、Amazon Sales Channelストアを作成（追加）し、Amazon販売者アカウントに接続する必要があります。
 role: Admin, Developer
 feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
@@ -11,83 +11,83 @@ ht-degree: 0%
 
 ---
 
-# ストアとの統合 [!DNL Amazon Seller Account]
+# とのストアの統合 [!DNL Amazon Seller Account]
 
-Amazonセールスチャネルの使用を開始するには、Amazonセールスチャネルストアを作成（追加）し、 [!DNL Amazon Seller Account]. この 2 つの手順で、 [!DNL Commerce] およびAmazonアカウントを使用して、データの共有、製品の同期などをおこなうことができます。
+Amazonのセールスチャネルの使用を開始するには、Amazonのセールスチャネルストアを作成（追加）し、 [!DNL Amazon Seller Account]. これら 2 つの手順により、 [!DNL Commerce] とAmazon アカウントを使用すると、データの共有や商品の同期などを行うことができます。
 
-_のプライマリログイン資格情報が必要です [!DNL Amazon Seller Central] ストアに接続するためのアカウント（販売者アカウントの作成に使用する電子メールまたは電話）。_
+_のプライマリログイン資格情報が必要です [!DNL Amazon Seller Central] アカウント（販売者アカウントの作成に使用するメールまたは電話）：ストアに接続します。_
 
 >[!NOTE]
 >
->初回のストア統合後、毎年、アクセス権を再度付与してAmazonセールスチャネルとAmazonの接続を更新するよう求めるメッセージが表示されます。 この認証を更新または取り消すには、 _現在の認証_ 表 _Amazon MWS 開発者権限_ のセクション **設定** > **ユーザーの権限** Seller Central アカウントのページ
+>初めてストアに統合した後、アクセス権を再度付与してAmazonへのAmazon Sales Channel 接続を更新するよう、毎年プロンプトが表示されます。 で、この認証を更新または取り消すことができます _現在の承認_ のテーブル _Amazon MWS 開発者権限_ の節 **設定** > **ユーザー権限** 販売者中央アカウントのページ。
 
-## Amazonストアを追加
+## Amazon ストアを追加する
 
-1. 次の日： _管理者_ サイドバー、移動 **マーケティング** > _チャネル_ > **AmazonSales Channel**.
+1. 日 _Admin_ サイドバー、に移動 **Marketing** > _チャネル_ > **AmazonSales Channel**.
 
-   最初のAmazonセールスチャネルストアを追加する場合、 _事前設定タスク_ モーダルが表示されます。 最初のストアを追加した後、事前設定タスクには [Amazonセールスチャネルホーム](./amazon-sales-channel-home.md) 下のページ _学習と準備_ をクリックします。
+   最初のAmazon販売チャネルストアを追加する場合、 _事前設定タスク_ モーダルが表示されます。 最初のストアが追加されたら、で事前設定タスクにアクセスできます。 [Amazon販売チャネルホーム](./amazon-sales-channel-home.md) ページの下 _学習と準備_ 左側のメニューの
 
 1. クリック **[!UICONTROL Add Amazon Store]**.
 
-   The _[!UICONTROL Add Amazon sales channel]_ページが開きます。
+   この _[!UICONTROL Add Amazon sales channel]_ページが開きます。
 
-   ![Amazonセールスチャネルストアを追加する](assets/amazon-store-integration.png){width="500" zoomable="yes"}
+   ![Amazon販売チャネルストアを追加します。](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
-1. の場合 **[!UICONTROL Magento Website to use for Amazon Listing]**&#x200B;を選択し、次の中から選択します。 [!DNL Commerce] このAmazonセールスチャネルストアに接続する web サイト。
+1. の場合 **[!UICONTROL Magento Website to use for Amazon Listing]**&#x200B;を選択してください [!DNL Commerce] このAmazon セールスチャネルストアに接続するための web サイトです。
 
-   この設定は、デフォルトの [!DNL Commerce] ～を保存する [Amazon注文のインポート](./order-settings.md).
+   この設定は、デフォルトも定義します [!DNL Commerce] 保管する [Amazon注文の読み込み](./order-settings.md).
 
-1. の場合 **[!UICONTROL Email Address]**、希望する連絡先メールアドレスを入力します。
+1. の場合 **[!UICONTROL Email Address]**：希望する連絡先メールアドレスを入力します。
 
-1. の場合 **[!UICONTROL New Store Name]**「 」には、新しいAmazonセールスチャネルストアのわかりやすい名前を入力します。
+1. の場合 **[!UICONTROL New Store Name]**&#x200B;を入力し、新しいAmazonセールスチャネルストアのわかりやすい名前を入力します。
 
    >[!NOTE]
    >
-   >この名前は、 [!DNL Commerce] を参照し、 [Amazonセールスチャネルホーム](./amazon-sales-channel-home.md) ページに貼り付けます。 チームが簡単に識別できるものにしたい。 例えば、米国地域で販売しているAmazonストアの名前を次に示します。 `Amazon Store USA`.
+   >この名前は [!DNL Commerce] のみを参照し、のストアを識別します。 [Amazon販売チャネルホーム](./amazon-sales-channel-home.md) ページ。 チームが簡単に識別できるものにしたい。 例えば、米国で販売されているAmazon ストアの名前は次のようになります `Amazon Store USA`.
 
-1. の場合 **[!UICONTROL Amazon Marketplace Country]**「 」で、このAmazonセールスチャネルストアが製品を販売する地域または国を選択します。 オプション：
+1. の場合 **[!UICONTROL Amazon Marketplace Country]**&#x200B;を選択し、このAmazon sales channel store が商品を販売する地域/国を選択します。 オプション：
 
    - 米国
    - カナダ
    - メキシコ
    - 英国
 
-1. Adobe Analytics の _[!UICONTROL Map your Magento attributes to Amazon]_セクションで、以下の操作を実行します。
+1. が含まれる _[!UICONTROL Map your Magento attributes to Amazon]_セクションで、次の操作を行います。
 
-   - の場合 **[!UICONTROL Product ID on the Amazon market]**、にマッピングするAmazon属性を選択します。 [!DNL Commerce] 属性が以下で選択されています。
+   - の場合 **[!UICONTROL Product ID on the Amazon market]**&#x200B;を選択し、にマッピングするAmazon属性を選択します [!DNL Commerce] 以下で属性を選択しました。
 
-     この ID は、 [!DNL Commerce] カタログ。
+     この ID は、の対応する製品を正しく照合するのに役立ちます [!DNL Commerce] カタログ。
 
-   - の場合 **[!UICONTROL Map a Magento attribute]**、選択 [!DNL Commerce] 上で選択したAmazon属性にマッピングする製品属性。
+   - の場合 **[!UICONTROL Map a Magento attribute]**、を選択します [!DNL Commerce] 上記で選択したAmazon属性にマッピングする製品属性。
 
-     [マッピング属性](./ob-creating-magento-attributes.md) は、Amazonのリストが、 [!DNL Commerce] カタログ。
+     [属性のマッピング](./ob-creating-magento-attributes.md) Amazonのリストがユーザーの製品と正しく一致することを確認できます [!DNL Commerce] カタログ。
 
 1. クリック **[!UICONTROL Connect]**.
 
-   ダイアログが閉じ、新しいストアが [Amazonセールスチャネルホーム](./amazon-sales-channel-home.md) ページに確認メッセージが表示されます。
+   ダイアログが閉じ、新しいストアがに表示されます [Amazon販売チャネルホーム](./amazon-sales-channel-home.md) 確認メッセージが表示されたページ。
 
 ## ストアの接続先 [!DNL Amazon Seller Central]
 
-1. ストアのダッシュボードで、 **[!UICONTROL Connect store]** ストアカードで起動する [!DNL Amazon Seller Central] をクリックします。
+1. ストアダッシュボードで、 **[!UICONTROL Connect store]** 開始するストアカード [!DNL Amazon Seller Central] 新しいタブで上書きできます。
 
-1. を入力します。 [!DNL Amazon Seller Central] アカウントの資格情報をクリックし、 **[!UICONTROL Sign in]**.
+1. を入力 [!DNL Amazon Seller Central] アカウント資格情報を入力し、 **[!UICONTROL Sign in]**.
 
-   この接続を完了するには、 [!DNL Amazon Seller Central] プライマリユーザーのログイン資格情報（販売者アカウントの作成に使用する電子メールまたは電話）を使用するアカウント。
+   この接続を完了するには、にサインインする必要があります [!DNL Amazon Seller Central] プライマリユーザーのログイン資格情報を使用するアカウント（販売者アカウントの作成に使用するメールまたは電話）。
 
-1. プロンプトが表示されたら、Amazonから受け取ったコードを入力してAmazon Two-Factor Authorization(2FA) を完了し、 **[!UICONTROL Sign in]**.
+1. プロンプトが表示されたら、Amazonから受け取るコードを入力してAmazon 2 要素認証（2FA）を行い、をクリックします。 **[!UICONTROL Sign in]**.
 
-1. 次の日： _[!UICONTROL Amazon Marketplace Web Service]_確認ページで、「[!UICONTROL I understand...]」チェックボックスをオンにして、**[!UICONTROL Next]**.
+1. 日 _[!UICONTROL Amazon Marketplace Web Service]_確認ページで、「[!UICONTROL I understand...]」チェックボックスをオンにして、**[!UICONTROL Next]**.
 
-1. 次の日： _[!UICONTROL You are almost done]_メッセージ、クリック&#x200B;**[!UICONTROL Continue]**.
+1. 日 _[!UICONTROL You are almost done]_メッセージ、クリック&#x200B;**[!UICONTROL Continue]**.
 
-   Amazonセールスチャネルに対し、データにアクセスして共有する権限を付与しました。 [!DNL Amazon Seller Central] アカウント。 Amazonページが閉じ、確認メッセージが表示されます。
+   Amazon セールスチャネルに対して、データへのアクセスおよびとのデータ共有を許可しました [!DNL Amazon Seller Central] アカウント。 Amazonページが閉じ、確認メッセージが表示されます。
 
-   The [Amazonセールスチャネルホーム](./amazon-sales-channel-home.md) Amazonストアカードを表示するページが開きます。
+   この [Amazon販売チャネルホーム](./amazon-sales-channel-home.md) Amazonのストアカードを示すページが開きます。
 
-   ストアのダッシュボードを表示するには、 **[!UICONTROL View Store]** をストアカードに貼り付けます。
+   ストアダッシュボードを表示するには、をクリックします **[!UICONTROL View Store]** ストアカードに。
 
-![Amazonセールスチャネルホームに新しいストアカードが付いた](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
+![新しい店舗カードを使用したAmazon販売チャネルホーム](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
-新しいAmazonセールスチャネルストアが [!DNL Amazon Seller Central] アカウント。
+これで、新しいAmazon セールスチャネルストアがに接続されました [!DNL Amazon Seller Central] アカウント。
 
-![次のアイコン](assets/btn-next.png) [**リストルールの作成を続行する**](./ob-create-listing-rule.md)
+![次へアイコン](assets/btn-next.png) [**リストルールの作成を続行**](./ob-create-listing-rule.md)

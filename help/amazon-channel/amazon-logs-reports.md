@@ -1,33 +1,33 @@
 ---
-title: Amazonリスト用のレポートのログと保存
-description: ログとストアのレポートを使用して、Adobe CommerceまたはMagento Open SourceストアとAmazon Marketplace のリストで発生していることを確認します。
+title: Amazon リストのログとストアレポート
+description: ログとストアレポートを使用すると、Adobe CommerceまたはMagento Open SourceストアとAmazon Marketplace のリストで何が起きているかを確認できます。
 feature: Sales Channels, Logs
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-# Amazonリスト用のレポートのログと保存
+# Amazon リストのログとストアレポート
 
-Amazonセールスチャネル拡張機能には、Amazonの一覧や注文に影響を与えている変更を表示できる、いくつかの有用なログと保存レポートが含まれています。 これらのレポートを使用して、ストアでの出来事を確認し、様々なリストのステータスを理解できます。
+Amazon sales channel 拡張機能には、Amazonのリストや注文に影響を与える変更を確認できる、貴重なログやストアレポートがいくつか含まれています。 これらのレポートを使用すると、ストアで何が起きているかを確認したり、様々なリストのステータスを把握したりできます。
 
-レビュー専用の機能なので、ログやストアレポートで使用できるアクションはありません。
+ログまたはストアレポートはレビュー専用の機能なので、これらのアクションは使用できません。
 
-次のログは、 [ストアダッシュボード](./amazon-store-dashboard.md).
+次のログには、 [ストアダッシュボード](./amazon-store-dashboard.md).
 
-- The [変更ログのリスト](./listing-changes-log.md) Amazonのセールスアカウントに加えられた変更を、Amazonのセールスチャネル設定を反映したものとして表示します。
+- この [変更ログの一覧表示](./listing-changes-log.md) Amazonの販売チャネル設定の反映として、Amazonの販売者アカウントで発生した変更を示します。
 
-- The [通信エラーログ](./communication-errors-log.md) は、Amazonで報告された通信エラーを表示します。
+- この [通信エラーログ](./communication-errors-log.md) Amazonで報告された通信エラーを表示します。
 
-次のストア固有のレポートは、 [ストアダッシュボード](./amazon-store-dashboard.md).
+次のストア固有のレポートには、 [ストアダッシュボード](./amazon-store-dashboard.md).
 
-- The [競合価格の分析](./competitive-price-analysis.md) レポートには、Amazonが _上陸価格_ （上場価格+輸送価格） [Buy Box](./buy-box-competitor-pricing.md) 価格と [最も低い競争相手](./lowest-competitor-pricing.md) 価格。
+- この [競争価格分析](./competitive-price-analysis.md) レポートにAmazonが表示される _地価_ （上場価格+出荷価格）に係るもの [Buy Box](./buy-box-competitor-pricing.md) 価格および [競合他社の最低値](./lowest-competitor-pricing.md) 価格。
 
-- The [リストの改善点](./listing-improvements.md) レポートには、選択したストアに対してAmazonが提供する推奨リストの改善点がすべて表示されます。
+- この [リストの改善](./listing-improvements.md) レポートには、選択したストアに対してAmazonによって提供された提案リストの改善点がすべて表示されます。
 
 >[!TIP]
 >
->トラブルシューティングが必要な場合は、ログファイルで詳細を確認することもできます。 詳しくは、 [セールスチャネル管理者設定](./sales-channel-settings.md). Amazonセールスチャネル同期ログは、 `{Commerce Root}/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).
+>トラブルシューティングが必要な場合は、ログファイルで追加情報を確認することもできます。 参照： [販売チャネル管理設定](./sales-channel-settings.md). Amazon sales channel synchronization logging は、 `{Commerce Root}/var/log/channel_amazon.log` ファイルおよび次で表示できます [開発者モード](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).

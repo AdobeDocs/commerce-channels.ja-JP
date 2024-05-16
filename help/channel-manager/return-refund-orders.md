@@ -1,38 +1,38 @@
 ---
-title: 返品・返金命令
-description: から受け取った返品要求に対して、全額または一部払い戻しを発行する手順 [!DNL Walmart Marketplace] から [!DNL Channel Manager] Adobe CommerceとMagento Open Sourceの
+title: 返品注文と返品注文
+description: から受領した返品要求に対する全額払い戻しまたは一部払い戻しの指示 [!DNL Walmart Marketplace] から [!DNL Channel Manager] （Adobe CommerceおよびMagento Open Sourceの場合）。
 feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
 
-# 返品・返金命令
+# 返品注文と返品注文
 
-購入者が、を通じて購入した注文品目の返品をリクエストした場合 [!DNL Walmart Marketplace]を指定した場合、ウォルマートは返品リクエストを作成します。 [!DNL Channel Manager] はこれらのリクエストの marketplace チャネルを監視し、返されるリクエスト情報をチャネルマネージャーに自動的に同期します。
+購入者が次の方法で購入した注文品目の返品を要求した場合 [!DNL Walmart Marketplace]、ウォルマートはリターンリクエストを作成します。 [!DNL Channel Manager] マーケットプレイスのチャネルでこれらのリクエストを監視し、リターンリクエスト情報を Channel Manager と自動的に同期します。
 
-コマース側では、戻り要求によって次のワークフローが開始されます。
+Commerce側では、返信リクエストによって次のワークフローが開始されます。
 
-1. チャネルマネージャーは、受け取ったステータスを持つ対応する戻り要求を作成し、戻り ID 番号 ([!UICONTROL RMA #]) を [!UICONTROL Returns] ダッシュボード。 次の日： [!DNL Orders] ダッシュボードに表示される場合、返品に関連付けられた注文のステータスの詳細。 [!UICONTROL Return requested] リンクをクリックして、リターンを表示および処理します。
+1. チャネルマネージャーは、受信したステータスで対応するリターンリクエストを作成し、リターン ID 番号（[!UICONTROL RMA #]）に設定します。 [!UICONTROL Returns] ダッシュボード。 日 [!DNL Orders] ダッシュボード。返品更新に関連付けられている受注のステータス詳細で、次の情報が含まれます [!UICONTROL Return requested] 返品を表示および処理するためのリンクです。
 
-1. マーチャントは、返品に関連する払い戻しを処理し、 [Adobe Commerce払い戻しワークフロー](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). すべての返金は、オフライン方式を使用して処理されます。
+1. 加盟店は、次の手順に従ってクレジット・メモを作成することにより、返品に関連する払戻を処理します。 [Adobe Commerce返金ワークフロー](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). すべての払い戻しは、オフライン方式を使用して処理されます。
 
-1. [!DNL Channel Manager] は払い戻しの更新を Walmart マーケットプレイスに送信し、Adobe Commerceからの完了した返金を反映するために返金のステータスを更新できます。
+1. [!DNL Channel Manager] ウォルマートのマーケットプレイスに払い戻し更新を送信します。これにより、Adobe Commerceからの完了済み払い戻しを反映するように返品ステータスを更新できます。
 
-ストアフロント管理で、Channel Manager からの返品を表示および処理するには、セールスチャネルストアを開き、「 」を選択します **[!UICONTROL Returns]**.
+ストアフロント管理者では、セールスチャネルストアを開いて選択することにより、チャネルマネージャーからの返品を表示および処理できます **[!UICONTROL Returns]**.
 
-![チャネルマネージャー：から受け取った返品要求の返金を処理するためのダッシュボードを返します。 [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
+![チャネルマネージャー返品ダッシュボードで、から受信した返品リクエストの返金を処理します [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->出荷済注文の返金のみを処理できます。 In [!DNL Channel Manager]の場合、注文ステータスは [!UICONTROL Shipped]. In [!DNL Walmart Marketplace] 売り手の口座、注文は次の条件を満たす必要があります [!UICONTROL Delivered].
+>出荷済の注文に対する払い戻しのみ処理できます。 対象： [!DNL Channel Manager]注文のステータスは、である必要があります [!UICONTROL Shipped]. 対象： [!DNL Walmart Marketplace] 販売者アカウント、注文は [!UICONTROL Delivered].
 
-## 戻り値コントロールと列の説明
+## コントロールおよび列の説明を戻します
 
-次の表に、で使用できるコントロールと列を示します。 [!DNL Channel Manager] はを返します。
+次の表では、で使用できるコントロールと列について説明します [!DNL Channel Manager] を返します。
 
 **のコントロール[!UICONTROL Returns]**
 
@@ -43,19 +43,19 @@ ht-degree: 0%
 </tr>
 <tr>
 <td>[!UICONTROL Filter returns]</td>
-<td>次のいずれかを選択して、ビューをフィルターします。 [!UICONTROL Return Status] カード。</td>
+<td>次のいずれかを選択してビューをフィルタリングします [!UICONTROL Return Status] カード。</td>
 </tr>
 <tr>
 <td>ステータスの詳細</td>
-<td>を返します。 [!UICONTROL Received] または [!UICONTROL Refunded] ステータスの場合は、「ステータスの詳細」列でリンクされたテキストを選択して、返金のクレジットメモを作成または表示できます。</td>
+<td>を持つリターンエントリの場合 [!UICONTROL Received] または [!UICONTROL Refunded] ステータス。「ステータス詳細」列のリンク・テキストを選択すると、払戻のクレジット・メモを作成または表示できます。</td>
 </tr>
 <tr>
 <td>[!UICONTROL View order detail]</td>
-<td>オーダーの詳細を表示するには、 [!DNL Commerce] 注文番号 [!UICONTROL Order] コマースオーダーを開くためのテーブル。</td>
+<td>注文の詳細を表示するには、 [!DNL Commerce] 内の注文番号 [!UICONTROL Order] Commerceの注文を開くためのテーブル。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Channel Settings]</td>
-<td>チャネル設定を変更するには、チャネル Walmart Connection 認証情報、マッピングされた属性、または配送先の ID を選択し、 [!DNL Commerce] 注文番号 [!UICONTROL Order] 表。 次に、 [!DNL Commerce] オーダーのオプションを使用してオーダーを処理します。</td>
+<td>チャネル設定を変更するには、チャネルウォルマート接続資格情報、マッピングされた属性または出荷識別子を選択し、設定を選択します [!DNL Commerce] 内の注文番号 [!UICONTROL Order] テーブル。 その後、を使用します。 [!DNL Commerce] 注文オプションを使用して注文を処理します。</td>
 </tr>
 </table>
 
@@ -68,126 +68,126 @@ ht-degree: 0%
 </tr>
 <tr>
 <td>[!UICONTROL RMA #]</td>
-<td>から受け取った返品要求に関連付けられた返品商品認証番号。 [!DNL Walmart Marketplace]. この番号は、Walmart Marketplace によって生成されます [!UICONTROL Returns] 戻りプロセスが開始されたとき。</td>
+<td>から受信した返品要求に関連付けられた返品商品認証番号 [!DNL Walmart Marketplace]. この番号は、Walmart Marketplace によって生成されます [!UICONTROL Returns] 返品プロセスが開始された場合。</td>
 </tr>
 <tr>
-<td>[!DNL Commerce] 注文番号</td>
-<td>The [!DNL Commerce] Walmart Marketplace からの返品リクエストに含まれる品目に関連付けられた注文番号。 注文番号を選択して、注文の詳細を表示します。</td>
+<td>[!DNL Commerce] 注文#</td>
+<td>この [!DNL Commerce] ウォルマート・マーケットプレイスからの返品リクエストに含まれる品目に関連付けられた注文番号。 注文番号を選択して、注文の詳細を表示します。</td>
 </tr>
 <tr>
-<td>リクエスト済み</td>
-<td>返却がリクエストされた日付 [!DNL Walmart Marketplace]
-ローカル時間に変換されました。</td>
+<td>要求済み</td>
+<td>返品がリクエストされた日付 [!DNL Walmart Marketplace]
+現地時間に変換されました。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Return By]</td>
-<td>返品を満たすために返金する必要がある日付 [!DNL Walmart Marketplace] [ 要件 ](https://sellerhelp.walmart.com/seller/s/guide?language=en_US&amp;article=000007176f) を現地時間に変換しました。</td>
+<td>返金期限の日付 [!DNL Walmart Marketplace] [requirements] （https://sellerhelp.walmart.com/seller/s/guide?language=en_US&amp;article=000007176f）を現地時間に変換しました。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Items]</td>
-<td>リターンにリストされる各品目の SKU と数量を表示します。</td>
+<td>返品に記載されている各品目の SKU と数量をリストします。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Refund amount]</td>
-<td>返された項目に対して払い戻される合計値。</td>
+<td>返品された品目に対して払い戻される合計金額。</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status]</td>
-<td>現在の戻り値のステータスを [!DNL Commerce] ワークフローを返す —<i>受信済み</i>, <i>返金済み</i>または <i>エラー</i>.</td>
+<td>現在の復帰ステータスを [!DNL Commerce] ワークフローを返す – <i>受信済み</i>, <i>返済済み</i>、または <i>エラー</i>.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status Details]</td>
-<td>受け取った返品エントリと返金された返品エントリについて、ステータスの詳細は返金処理用のクレジットメモにアクセスするためのリンクを提供します。 次の期間に [!DNL Channel Manager] Adobe Commerceと [!DNL Walmart marketplace]に値を指定しない場合、このフィールドにはエラーの説明が表示されます。</td>
+<td>受入済および払戻済の返品エントリの場合、ステータスの詳細には、払戻処理のためにクレジット・メモにアクセスするためのリンクが表示されます。 でエラーが発生した場合、 [!DNL Channel Manager] Adobe Commerceとの間の同期プロセス [!DNL Walmart marketplace]、このフィールドにはエラーの説明が表示されます。</td>
 </tr>
 </table>
 
-## 戻りステータス
+## 復帰ステータス
 
-[!UICONTROL Return Status] 現在の状態に関する情報を提供する [!DNL Walmart Marketplace] Adobe CommerceまたはMagento Open Sourceから管理されたリクエストを返す
+[!UICONTROL Return Status] 現在の状態に関する情報を提供します [!DNL Walmart Marketplace] Adobe CommerceまたはMagento Open Sourceから管理される再来訪リクエスト。
 
-次の場合にステータスの更新が返されます。 [!DNL Channel Manager] からの返信要求を受信 [!DNL Walmart Marketplace] または [!DNL Commerce] 返品された品目の返金を処理するために、クレジットメモが作成されます。
+復帰ステータスの更新は次の場合に発生します [!DNL Channel Manager] から返信リクエストを受信します [!DNL Walmart Marketplace] または [!DNL Commerce] 返品された品目の払戻を処理するためにクレジット・メモが作成されます。
 
-戻り値には、次のステータスがあります。
+返品には、次のステータスがあります。
 
-* **[!UICONTROL Received]** — これは、 [!DNL Walmart Marketplace] ストア。 商人は、次を選択することで返品の返金を処理できます： **[!UICONTROL Create credit memo]** （内） [!UICONTROL Status details].
+* **[!UICONTROL Received]** – から受信したリターン リクエストの初期ステータスです。 [!DNL Walmart Marketplace] ストア。 マーチャントは、以下を選択して、返品の払い戻しを処理できます。 **[!UICONTROL Create credit memo]** が含まれる [!UICONTROL Status details].
 
-* **[!UICONTROL Refunded]** — 返品された品目の返金を発行するためにクレジットメモが作成されたことを示します。 商人は、次を選択することで払い戻し情報を表示できます： **[!UICONTROL View credit memo]** （内） [!UICONTROL Status details].
+* **[!UICONTROL Refunded]** – 返品された品目の払い戻しを発行するためにクレジット・メモが作成されたことを示します。 加盟店は、以下の項目を選択して払い戻し情報を表示できます **[!UICONTROL View credit memo]** が含まれる [!UICONTROL Status details].
 
-* **[!UICONTROL Error]** — エラーを持つリクエストを返します。 Walmart からの返信要求にデータがないか正しくない場合に、エラーが発生する可能性があります。 または、 [!DNL Channel Manager] 払い戻しの更新通知をウォルマートに送信できません。
+* **[!UICONTROL Error]** – エラーのあるリクエストを返す。 ウォルマートからのリターンリクエストにデータが見つからないか、正しくない場合は、エラーが発生する可能性があります。 または、 [!DNL Channel Manager] 払い戻し更新通知をウォルマートに送信できません。
 
-## 戻りシナリオ
+## シナリオを返します
 
-次のシナリオでは、次のシナリオで、からの様々なタイプの返品要求に対して払い戻しを発行する方法を説明します。 [!DNL Channel Manager].
+次のシナリオでは、様々なタイプの返品要求に対して払戻を発行する方法を説明します。 [!DNL Channel Manager].
 
-* **フルリターン**—Walmart Marketplace の返品要求が注文の全品目に対するものである場合は、クレジット・メモ数量を更新してすべての品目を返金します。
+* **完全なリターン**—Walmart Marketplace の返品リクエストが注文のすべての品目に対するものである場合、すべての品目を払い戻すためにクレジット・メモ数量を更新します。
 
-* **部分的な戻り値**-Walmart Marketplace の返品要求が一部の受注品目に対してのみの場合は、払い戻す品目に対してのみクレジット・メモ数量を更新します。
+* **部分申告**- Walmart Marketplace の返品リクエストが一部の受注品目のみの場合は、払い戻す品目のクレジット・メモ数量のみを更新します。
 
-* **Walmart Marketplace から返金済みの返品**・場合によっては、払い戻し処理が行われる [!DNL Walmart Marketplace] チャネルマネージャでリターンを処理する前に、以下の手順を実行します。 たとえば、Walmart が要求する 48 時間払い戻し処理期間内にコマース注文が払い戻されない場合、Walmart は自動的に注文を払い戻します。 この場合も、チャネルマネージャーは戻り要求をAdobe Commerceに同期するので、返信を処理してクレジットメモを発行できます。 このワークフローにより、 [!DNL Commerce] は、Walmart Marketplace の注文情報に一致します。
+* **ウォルマート マーケットプレイスから払い戻し済みの返品**・払い戻しの処理日 [!DNL Walmart Marketplace] チャネルマネージャーで返品を処理する前に。 例えば、ウォルマートが要求する 48 時間の払い戻し処理ウィンドウ内にCommerceの注文が払い戻されない場合、ウォルマートは注文を自動的に払い戻します。 この場合も、Channel Manager では引き続きAdobe Commerceへの返品要求を同期するので、ユーザーは返品を処理してクレジットメモを発行できます。 このワークフローにより、で注文の詳細が確認されます [!DNL Commerce] ウォルマート マーケットプレイスの注文情報と照合します。
 
 >[!NOTE]
 >
-> 同期する払い戻しの更新には最大 5 分かかる場合があります。 [!DNL Walmart Marketplace]. 現在の戻りステータスは、 [!DNL Channel Manager] [!UICONTROL Returns] ダッシュボード。
+> 同期する払い戻し更新には、最大 5 分かかる場合があります [!DNL Walmart Marketplace]. 現在の復帰ステータスは、 [!DNL Channel Manager] [!UICONTROL Returns] ダッシュボード。
 
-## 払い戻し要求の処理
+## 払戻要求の処理
 
-1. を開きます。 [!UICONTROL Returns] セールスチャネルストアのダッシュボード。
+1. を開きます [!UICONTROL Returns] 営業チャネルストアのダッシュボード。
 
-   * 管理者で、「 」を選択します。 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]**.
+   * 管理者から、を選択します。 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]**.
 
    * 販売チャネルストアの目のアイコンを選択して、ストア表示を開きます。
 
-   * 返り値を確認するには、 **[!UICONTROL Returns]** タブをクリックします。
+   * を選択すると、返品を確認できます。 **[!UICONTROL Returns]** タブ。
 
-     また、 [!UICONTROL Orders] ページに貼り付けます。 を探す [!UICONTROL Shipped] 返品リクエストを持つ注文。 次に、 `Return requested` リンクを [!UICONTROL Status Details] 列を使用して、リクエストを表示および処理します。
+     返品情報には、 [!UICONTROL Orders] ページ。 を検索 [!UICONTROL Shipped] 返品リクエストがある注文。 次に、 `Return requested` 内のリンク [!UICONTROL Status Details] リクエストを表示および処理する列。
 
-1. 「戻り値」テーブルで、 *[!UICONTROL Received]* ステータス。
+1. 「戻り値」テーブルから、を使用して戻り値を検索します *[!UICONTROL Received]* ステータス。
 
-1. 「品目」列で、返品する受注品目と数量のリストを確認します。
+1. 「品目」列で、受注品目と払戻数量のリストを確認します。
 
-1. クレジットメモを発行して返金を処理します。
+1. クレジット・メモを発行して払戻を処理します。
 
-   * 次から： [!UICONTROL Status Details] 列、選択 **[!UICONTROL Create credit memo]** 注文の詳細ページを開くには、 [!DNL Commerce].
+   * から [!UICONTROL Status Details] 列、選択 **[!UICONTROL Create credit memo]** で注文の詳細ページを開くには [!DNL Commerce].
 
-     注文が請求されていない場合、注文の詳細ページに、作成を促すエラーメッセージが表示されます。 選択 **[!UICONTROL Create invoice]**. すると、 [請求書の作成と保存](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     注文が請求されていない場合、「注文の詳細」ページにエラーメッセージが表示され、注文を作成するように求められます。 を選択 **[!UICONTROL Create invoice]**. その後、 [請求書の作成と保存](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
-   * 注文の詳細ページで、「 」を選択します。 **[!UICONTROL Credit Memo]**.
+   * 注文詳細ページで、を選択します **[!UICONTROL Credit Memo]**.
 
-   * In [!UICONTROL Items to Refund] のセクション [!UICONTROL Credit Memo]、を更新します。 **[!UICONTROL Qty to refund]** および **[!UICONTROL Return to Stock]** 返却リクエストに含まれる項目の情報。
+   * 対象： [!UICONTROL Items to Refund] の節 [!UICONTROL Credit Memo]、を更新します **[!UICONTROL Qty to refund]** および **[!UICONTROL Return to Stock]** 返品リクエストに含まれる品目の情報。
 
-     必ず、リターンリクエストにリストされている項目のみを返すようにしてください。
+     必ず、再来訪リクエストにリストされている項目のみを返すようにします。
 
    * コメントを追加するには、 **[!UICONTROL Credit Memo Comments]**
 
-   * 選択 **[!UICONTROL Refund Offline]**.
+   * を選択 **[!UICONTROL Refund Offline]**.
 
-払い戻しを完了した後、 [!DNL Channel Manager] の返り値のステータスを更新します。 [!UICONTROL Returns] ダッシュボードから [!UICONTROL Refunded] とは、更新をウォルマートに同期して、marketplace の戻り状態を更新します。
+払い戻し完了後、 [!DNL Channel Manager] の復帰ステータスを更新します [!UICONTROL Returns] ダッシュボード先 [!UICONTROL Refunded] 更新をウォルマートに同期して、マーケットプレイスの返品ステータスを更新します。
 
 
-## 返品の返金情報を表示します
+## 返品の払戻情報の表示
 
-返品要求および返金処理に関する情報は、 [!UICONTROL Returns] ダッシュボード。
+返品リクエストと返金処理に関する情報は、から確認できます。 [!UICONTROL Returns] ダッシュボード。
 
-1. セールスチャネルストアの返品ダッシュボードを開きます。
+1. 営業チャネルストアの返品ダッシュボードを開きます。
 
-   * 管理者で、「 」を選択します。 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]**.
+   * 管理者から、を選択します。 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]**.
 
    * 販売チャネルストアの目のアイコンを選択して、ストア表示を開きます。
 
-   * 選択 **[!UICONTROL Returns]**.
+   * を選択 **[!UICONTROL Returns]**.
 
-1. 次を選択して払い戻し済みのオーダーを表示： **[!UICONTROL Refunded]** ステータスカード。
+1. を選択して、返金された注文を表示します **[!UICONTROL Refunded]** ステータスカード。
 
-1. 選択して返品の返金の詳細を表示 **[!UICONTROL View credit memo]**.
+1. 選択して返品の払戻詳細を表示します。 **[!UICONTROL View credit memo]**.
 
-   ![A の返品済品目を返金するクレジットメモ [!DNL Walmart Marketplace] 注文](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
+   ![返品された品目を払い戻すためのクレジット・メモ [!DNL Walmart Marketplace] 順序](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->命令が返還された後、 [!UICONTROL Orders] ダッシュボードに戻り値が表示されない。 戻り情報を表示するには、 [!DNL Channel Manager] ダッシュボードを返します。 詳細な返金および返金情報は、注文の詳細ページからも参照できます。
+>注文が返金された後、 [!UICONTROL Orders] ダッシュボードにリターン情報が表示されません。 返品情報を表示するには、次を使用します [!DNL Channel Manager] ダッシュボードを返します。 詳細な返品・払い戻し情報は、注文詳細ページからも入手できます。
 
-## リターンエラーを修正
+## 戻り値エラーの修正
 
-エラーは、次の場所から返された情報を受け取ったときに発生する可能性があります： [!DNL Walmart Marketplace]または [!DNL Channel Manager] ステータスの更新を同期します： [!DNL Commerce] から [!DNL Walmart Marketplace].
+返信情報がから受信されると、エラーが発生する場合があります。 [!DNL Walmart Marketplace]または次の場合： [!DNL Channel Manager] からのステータス更新を同期 [!DNL Commerce] 対象： [!DNL Walmart Marketplace].
 
-戻りの更新の同期操作が失敗した場合、 [!DNL Channel Manager] ダッシュボードに *[!UICONTROL Error]* 戻り値エントリのステータス。 返金情報と返金情報が Walmart Marketplace アカウントに正確に反映されるようにするには、お客様の [!DNL Walmart Marketplace] ストア。
+リターンアップデートの同期処理が失敗した場合、 [!DNL Channel Manager] ダッシュボードに表示されているを返します *[!UICONTROL Error]* 返品エントリのステータス。 返品および払い戻し情報が Walmart Marketplace アカウントに正確に反映されるようにするには、注文を手動で更新してください [!DNL Walmart Marketplace] ストア。

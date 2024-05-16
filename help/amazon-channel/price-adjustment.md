@@ -1,11 +1,11 @@
 ---
-title: Amazon セールスチャネル - [!UICONTROL Price Adjustment]
-description: 価格調整を設定して、Amazonの競合相手の価格ソースを特定した場合の価格計算を定義します。
+title: Amazon販売チャネル - [!UICONTROL Price Adjustment]
+description: Amazon競合他社価格ソースを識別した場合は、価格調整を構成して価格計算を定義します。
 feature: Sales Channels, Price Rules
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -14,46 +14,46 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->「価格調整」セクションは、標準およびインテリジェントの再価格設定ルールでは少し異なります。 **[!UICONTROL Match Competitor Price]** は以下でのみ使用できます。 _[!UICONTROL Price Action]_when **[!UICONTROL Rule Type]**が `Intelligent repricing rule`.
+>「価格調整」セクションは、「標準」および「インテリジェント」再価格設定ルールとは少し異なります。 **[!UICONTROL Match Competitor Price]** は次の場所でのみ使用できます _[!UICONTROL Price Action]_条件&#x200B;**[!UICONTROL Rule Type]**はに設定されています。 `Intelligent repricing rule`.
 
-インテリジェントな価格変更ルールのセクションは次のとおりです。
+インテリジェントな再価格設定ルールには、次のセクションが含まれます。
 
 - [ルールタイプを選択](./intelligent-repricing-rules.md)
-- [競合相手の条件付き相違](./competitor-conditional-variances.md)
+- [競合他社条件付き差異](./competitor-conditional-variances.md)
 - 価格調整
-- [下限価格](./floor-price.md)
+- [フロアプライス](./floor-price.md)
 - [オプションの上限価格](./optional-ceiling-price.md)
 
-価格調整は、競合相手の価格のソースを特定した場合の価格計算を定義します。
+価格調整は、競合他社価格ソースを識別した場合の価格計算を定義します。
 
-## 価格調整の構成
+## 価格調整の設定
 
-価格調整を _[!UICONTROL Price Adjustment]_」セクションに入力します。
+で価格調整を定義します。 _[!UICONTROL Price Adjustment]_セクション。
 
-1. の場合 **[!UICONTROL Price Action]**、次のオプションを選択します。
+1. の場合 **[!UICONTROL Price Action]**、次のいずれかのオプションを選択します。
 
-   - `Decrease By` - Amazonにリストする前に、定義した価格のソース値を調整して、ルールの価格を下げる場合に選択します。
+   - `Decrease By` -Amazonにリストする前に、定義された価格ソース値を下に調整し、ルールの価格を下げるタイミングを選択します。
 
-   - `Increase By` - Amazonにリストする前に、定義した価格ソースの値を調整し、ルールの価格を高くする場合に選択します。
+   - `Increase By` -Amazonにリストする前に、定義された価格ソース値を調整し、ルールの価格を高くするタイミングを選択します。
 
-   - `Match Competitor Price` - （インテリジェントな価格変更ルールのみ）Amazonの定価を [最も低い競争相手](./lowest-competitor-pricing.md) 価格。競合相手のフィードバックおよび差異のパラメーターに基づきます。 に設定する場合 `Match Competitor Price`、 _[!UICONTROL Apply]_および_[!UICONTROL Adjustment Amount]_ フィールドが削除されます。
+   - `Match Competitor Price` - （インテリジェントな価格再設定ルールのみ）次の条件を満たすためにAmazonの上場価格を変更するタイミングを選択します [競合他社の最低値](./lowest-competitor-pricing.md) 価格：競合他社のフィードバックおよび差異パラメータに基づきます。 に設定されている場合 `Match Competitor Price`, _[!UICONTROL Apply]_および_[!UICONTROL Adjustment Amount]_ フィールドは削除されます。
 
-1. の場合 **[!UICONTROL Apply]**、次のオプションを選択します。
+1. の場合 **[!UICONTROL Apply]**、次のいずれかのオプションを選択します。
 
-   - `Apply as percentage`  — いつ定義するかを選択します **[!UICONTROL Magento Price Source]** が [上場価格](./listing-price.md) パーセンテージで調整されます。
+   - `Apply as percentage`  – を定義するタイミングを選択します **[!UICONTROL Magento Price Source]** に定義済み [上場価格](./listing-price.md) 割合で調整。
 
-   - `Apply as fixed amount`  — いつ定義するかを選択します **[!UICONTROL Magento Price Source]** が [上場価格](./listing-price.md) 一定金額で調整されます。
+   - `Apply as fixed amount`  – を定義するタイミングを選択します **[!UICONTROL Magento Price Source]** に定義済み [上場価格](./listing-price.md) 固定金額で調整されます。
 
 1. の場合 **[!UICONTROL Adjustment Amount]** （必須）価格調整の数値を入力します。
 
-   - 条件 **[!UICONTROL Apply]** が `Apply as percentage`、パーセント値を入力します ( 例： `25` （25%調整）。
+   - 条件 **[!UICONTROL Apply]** はに設定されています。 `Apply as percentage`を入力し、パーセント値を入力します（例：enter `25` （25% 調整の場合）。
 
-   - 条件 **[!UICONTROL Apply]** が `Apply as fixed amount`、固定金額の数値を入力します ( 例： `25` （25 ドルの固定調整）。
+   - 条件 **[!UICONTROL Apply]** はに設定されています。 `Apply as fixed amount`に固定金額の数値を入力します（例： `25` $25 の固定調整）。
 
-![インテリジェントな価格変更ルール — 価格調整](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
+![インテリジェントな再価格設定ルール – 価格調整](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Price Action] | 価格調整処理を選択します。 オプション：<br>**[!UICONTROL Decrease By]**— いつ定義するかを選択します _[!UICONTROL Magento Price Source]_が [上場価格](./listing-price.md) 調整して、Amazonに上場する前に、ルールの価格を下げます。<br>**[!UICONTROL Increase By]**— いつ定義するかを選択します_[!UICONTROL Magento Price Source]_ が [上場価格](./listing-price.md) 調整するには、Amazonに上場する前に、ルールの価格を高くします。<br>**[!UICONTROL Match Competitor Price]**- （インテリジェントな価格変更ルールのみ）Amazonの定価を [最も低い競争相手](./lowest-competitor-pricing.md) 価格。競合相手のフィードバックおよび差異のパラメーターに基づきます。 選択すると、 _適用_ および _調整額_ フィールドが削除されます。 |
-| [!UICONTROL Apply] | オプション：<br>**[!UICONTROL Apply as percentage]**— いつ定義するかを選択します _[!UICONTROL Magento Price Source]_が [上場価格](./listing-price.md) パーセンテージで調整されます。<br>**[!UICONTROL Apply as fixed amount]**— いつ定義するかを選択します_[!UICONTROL Magento Price Source]_ が [上場価格](./listing-price.md) 一定金額で調整されます。 |
-| [!UICONTROL Adjustment Amount] | 必須。<br>次を選択した場合： `Apply as percentage` 対象： **[!UICONTROL Apply]**、パーセント値を入力します ( 例： `25` （25%調整）。<br>次を選択した場合： `Apply as fixed amount` 対象： **[!UICONTROL Apply]**、固定金額の数値を入力します ( 例： `25` （25 ドルの固定調整）。 |
+| [!UICONTROL Price Action] | 価格設定調整処理を選択します。 オプション：<br>**[!UICONTROL Decrease By]**– を定義するタイミングを選択します _[!UICONTROL Magento Price Source]_に定義済み [上場価格](./listing-price.md) Amazonに上場する前にルールの価格を下げて調整を行う。<br>**[!UICONTROL Increase By]**– を定義するタイミングを選択します_[!UICONTROL Magento Price Source]_ に定義済み [上場価格](./listing-price.md) Amazonに上場する前にルールの価格を引き上げ、調整を行う。<br>**[!UICONTROL Match Competitor Price]**- （インテリジェントな価格再設定ルールのみ）次の条件を満たすためにAmazonの上場価格を変更するタイミングを選択します [競合他社の最低値](./lowest-competitor-pricing.md) 価格：競合他社のフィードバックおよび差異パラメータに基づきます。 選択した場合、 _適用_ および _調整金額_ フィールドは削除されます。 |
+| [!UICONTROL Apply] | オプション：<br>**[!UICONTROL Apply as percentage]**– を定義するタイミングを選択します _[!UICONTROL Magento Price Source]_に定義済み [上場価格](./listing-price.md) 割合で調整。<br>**[!UICONTROL Apply as fixed amount]**– を定義するタイミングを選択します_[!UICONTROL Magento Price Source]_ に定義済み [上場価格](./listing-price.md) 固定金額で調整されます。 |
+| [!UICONTROL Adjustment Amount] | 必須。<br>を選択した場合 `Apply as percentage` （用） **[!UICONTROL Apply]**&#x200B;を入力し、パーセント値を入力します（例：enter `25` （25% 調整の場合）。<br>を選択した場合 `Apply as fixed amount` （用） **[!UICONTROL Apply]**&#x200B;に固定金額の数値を入力します（例： `25` $25 の固定調整）。 |

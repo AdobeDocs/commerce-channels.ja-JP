@@ -1,54 +1,54 @@
 ---
-title: 'インテリジェントな価格変更ルール：オプションの上限価格'
-description: オプションの上限価格設定を使用して、Amazonの一覧を管理するインテリジェントな価格ルールから最も高い製品価格を保護します。
+title: 「インテリジェント再価格設定ルール：オプションの上限価格」
+description: オプションの上限価格の設定を使用すると、Amazonのリストを管理するインテリジェントな価格ルールに対して最高の商品価格を保護できます。
 feature: Sales Channels, Price Rules
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
 source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
-# インテリジェントな再価格設定ルール：オプションの上限価格
+# インテリジェント再価格設定ルール：オプションの上限価格
 
-インテリジェントな価格変更ルールのセクションは次のとおりです。
+インテリジェントな再価格設定ルールには、次のセクションが含まれます。
 
 - [ルールタイプを選択](./intelligent-repricing-rules.md)
-- [競合相手の条件付き相違](./competitor-conditional-variances.md)
+- [競合他社条件付き差異](./competitor-conditional-variances.md)
 - [価格調整](./price-adjustment.md)
-- [下限価格](./floor-price.md)
+- [フロアプライス](./floor-price.md)
 - オプションの上限価格
 
-自動上限価格設定は、インテリジェントな価格ルールに対して最高の製品価格を自動的に保護し、インテリジェントな価格ルールの上限（最高価格）を設定できます。
+自動化された天井価格の設定により、インテリジェントな価格設定ルールに対して最高の製品価格が自動的に保護されるため、インテリジェントな価格設定ルールに対して上限（最高価格）を設定できます。
 
-## オプションの上限価格の設定
+## オプションの上限価格を設定
 
-オプションの最高価格設定を _[!UICONTROL Optional Ceiling Price]_」セクションに入力します。
+オプションの最高価格設定をで定義する _[!UICONTROL Optional Ceiling Price]_セクション。
 
-1. の場合 **[!UICONTROL Ceiling Price Source]**、属性を選択します。
+1. の場合 **[!UICONTROL Ceiling Price Source]**&#x200B;属性を選択します。
 
-   を選択します。 [!DNL Commerce] [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) これは、相対的な上限を示します。 例えば、Amazonの上場価格を品目の MSRP よりも高くしたくない場合は、 `Manufacturer's Suggested Retail Price` 属性。
+   を選択 [!DNL Commerce] [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) これは、相対的な上限を示します。 例えば、Amazonのリスト価格を商品の MSRP を超えたくない場合は、 `Manufacturer's Suggested Retail Price` 属性。
 
-1. の場合 **[!UICONTROL Ceiling Price Action]**、「 」オプションを選択します。
+1. の場合 **[!UICONTROL Ceiling Price Action]**、オプションを選択します。
 
-   - `Decrease By`  — いつ定義するかを選択します _[!UICONTROL Ceiling Price Source]_値を調整して、ルールの上限価格を下げ、Amazonにリストする前に作成します。
+   - `Decrease By`  – を定義するタイミングを選択します _[!UICONTROL Ceiling Price Source]_Amazonにリストする前に調整する値で、ルールの上限価格を下げます。
 
-   - `Increase By`  — いつ定義するかを選択します _[!UICONTROL Ceiling Price Source]_値を調整して、ルールの上限価格を高くし、Amazonにリストする前に設定します。
+   - `Increase By`  – を定義するタイミングを選択します _[!UICONTROL Ceiling Price Source]_Amazonにリストする前に調整する値を指定し、ルールの上限価格を高めます。
 
-   - `Match`  — 定義した _[!UICONTROL Ceiling Price Source]_の値です。 に設定する場合 `Match`、_[!UICONTROL Apply]_ および _[!UICONTROL Ceiling Adjustment Amount]_フィールドは無効です。
+   - `Match`  – 上場価格を定義済みの価格を超えて変動させたくない場合に選択します _[!UICONTROL Ceiling Price Source]_の値。 に設定されている場合 `Match`,_[!UICONTROL Apply]_ および _[!UICONTROL Ceiling Adjustment Amount]_フィールドは無効です。
 
-1. を残します。 **[!UICONTROL Apply]** デフォルトは次のとおりです `Apply as percentage`.
+1. を残す **[!UICONTROL Apply]** デフォルト： `Apply as percentage`.
 
-1. の場合 **[!UICONTROL Ceiling Adjustment Price]**、調整する割合の数値を入力します。 _[!UICONTROL Ceiling Price Source]_の値です。
+1. の場合 **[!UICONTROL Ceiling Adjustment Price]**&#x200B;を選択し、調整する割合の数値を入力します _[!UICONTROL Ceiling Price Source]_の値。
 
-この例では、上限価格が品目の MSRP より 2%低く設定されています。
+この例では、天井の価格は品目の MSRP を 2% 下回るように設定されています。
 
-![インテリジェントな価格変更ルール — オプションの上限価格](assets/ob-intelligent-price-rule-ceiling.png){width="600" zoomable="yes"}
+![インテリジェントな価格設定ルール：オプションの上限価格](assets/ob-intelligent-price-rule-ceiling.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Ceiling Price Source] | を選択します。 [!DNL Commerce] [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) これは、相対的な上限を示します。 例えば、製品リストの価格を品目の MSRP よりも高くしたくない場合、 `Manufacturer's Suggested Retail Price` 属性。 |
-| [!UICONTROL Ceiling Price Action] | 価格調整処理を選択します。 オプション：<ul><li>**[!UICONTROL Decrease By]**  — いつ定義するかを選択します _[!UICONTROL Ceiling Price Source]_値を調整して、ルールの上限価格を下げ、Amazonにリストする前に作成します。</li><li>**[!UICONTROL Increase By]**  — いつ定義するかを選択します _[!UICONTROL Ceiling Price Source]_値を調整して、ルールの上限価格を高くし、Amazonにリストする前に設定します。</li><li>**[!UICONTROL Match]**  — 定義した _[!UICONTROL Ceiling Price Source]_の値です。 に設定する場合 `Match`、_[!UICONTROL Apply]_ および _[!UICONTROL Ceiling Adjustment Amount]_フィールドは無効です。</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  — 基準となる割合調整 _[!UICONTROL Ceiling Price Source]_の値です。 |
-| [!UICONTROL Ceiling Price Adjustment] | パーセントを調整する数値を入力します _[!UICONTROL Ceiling Price Source]_の値です。 |
+| [!UICONTROL Ceiling Price Source] | を選択します。 [!DNL Commerce] [製品属性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) これは、相対的な上限を示します。 例えば、製品一覧価格を商品の MSRP を超えたくない場合は、 `Manufacturer's Suggested Retail Price` 属性。 |
+| [!UICONTROL Ceiling Price Action] | 価格設定調整処理を選択します。 オプション：<ul><li>**[!UICONTROL Decrease By]**  – を定義するタイミングを選択します _[!UICONTROL Ceiling Price Source]_Amazonにリストする前に調整する値で、ルールの上限価格を下げます。</li><li>**[!UICONTROL Increase By]**  – を定義するタイミングを選択します _[!UICONTROL Ceiling Price Source]_Amazonにリストする前に調整する値を指定し、ルールの上限価格を高めます。</li><li>**[!UICONTROL Match]**  – 上場価格を定義済みの価格を超えて変動させたくない場合に選択します _[!UICONTROL Ceiling Price Source]_の値。 に設定されている場合 `Match`,_[!UICONTROL Apply]_ および _[!UICONTROL Ceiling Adjustment Amount]_フィールドは無効です。</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  – を基準としたパーセント調整 _[!UICONTROL Ceiling Price Source]_の値。 |
+| [!UICONTROL Ceiling Price Adjustment] | を調整するためのパーセントの数値を入力してください _[!UICONTROL Ceiling Price Source]_の値。 |

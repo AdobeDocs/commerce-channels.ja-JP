@@ -1,29 +1,29 @@
 ---
-title: Amazon セールスチャネル - [!UICONTROL Listing Improvements]
-description: AmazonSales Channelには、Amazonリストの品質を向上させるための提案を提供する「リストの改善」レポートが用意されています。
+title: Amazon販売チャネル - [!UICONTROL Listing Improvements]
+description: Amazon Sales Channelでは、Amazonのリストの品質を向上させるための提案を提供する、リストの改善点レポートを提供しています。
 feature: Sales Channels, Products
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 1%
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL Listing Improvements]
 
-The [!UICONTROL Listing Improvements] レポートには、リストの品質を向上させるためにAmazonからの提案を含む製品が表示されます。 これらの提案を確認できます。これは、Amazonリスト内の製品のパフォーマンスに役立ちます。 ログに使用できるアクションはありません。 これはレビュー専用の機能です。
+この [!UICONTROL Listing Improvements] レポートでは、Amazonからの提案を含む製品が表示され、リストの質が向上します。 これらの提案を確認すると、Amazon リスト内の商品のパフォーマンスを向上させることができます。 ログに使用可能なアクションはありません。 これはレビューのみの機能です。
 
-Amazonからリストの改善を受け取った場合でも、Amazonで製品がリストに表示されることはありません。
+Amazonからリストの機能強化を受けても、Amazonで商品をリストできるようになるわけではありません。
 
-![リストの改善点](assets/amazon-listing-improvements.png){width="600" zoomable="yes"}
+![リストの改善](assets/amazon-listing-improvements.png){width="600" zoomable="yes"}
 
 ## デフォルトの列
 
 | 列 | 説明 |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Amazon Seller SKU] | 製品、オプション、価格および製造元を識別するために、Amazonが製品に割り当てた SKU(Stock Keeping Unit)。 |
-| [!UICONTROL ASIN] | アイテムを識別する 10 文字または数字の一意のブロック。<br><br>ASIN は、 [!DNL Amazon Standard Identification Number]. ASIN は、項目を識別する 10 文字または数字の一意のブロックです。 書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合は、アイテムがカタログにアップロードされると新しい ASIN が作成されます。 ASIN は、Amazonの製品の詳細ページに、その品目に関する詳細と共に表示されます。 |
-| [!UICONTROL Alert Type] | リストに関する問題のタイプを説明します。 例えば、「Missing」は、必須の属性が不足していることを示します。 |
-| [!UICONTROL Field Name] | 改善が推奨される詳細をリストするAmazonの販売者のフィールド名。 |
-| [!UICONTROL Notes] | Amazonから受け取った推奨改善の説明。 |
+| [!UICONTROL Amazon Seller SKU] | 商品、オプション、価格、製造元を識別するためにAmazonによって商品に割り当てられた SKU （最小在庫管理単位）。 |
+| [!UICONTROL ASIN] | 項目を識別する 10 文字または数字、あるいはその両方の一意のブロック。<br><br>ASIN は AEM を表す [!DNL Amazon Standard Identification Number]. ASIN は、項目を識別する 10 文字または数字（あるいはその両方）で構成される一意のブロックです。 書籍の場合、ASIN は ISBN 番号と同じですが、他のすべての製品の場合、カタログにアイテムがアップロードされると新しい ASIN が作成されます。 Amazonの商品詳細ページで、商品に関する詳細と共に商品 ASIN を見つけることができます。 |
+| [!UICONTROL Alert Type] | リストに関するイシューのタイプを説明します。 例えば、「Missing」は、必須属性がないことを示します。 |
+| [!UICONTROL Field Name] | Amazonの販売者に、改善が推奨されている詳細をリストするフィールド名。 |
+| [!UICONTROL Notes] | Amazonから受け取った、提案された機能強化の説明。 |

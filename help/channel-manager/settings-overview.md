@@ -1,6 +1,6 @@
 ---
 title: 設定の概要
-description: ''' [!DNL Channel Manager settings] 認証を設定し、製品カタログの属性と輸送業者をマッピングして、間で販売操作を調整する [!DNL Commerce] そして [!DNL Walmart Marketplace].`'
+description: 'の詳細 [!DNL Channel Manager settings] 認証を構成し、製品カタログ属性と次の製品間の販売業務の調整に必要な出荷運送業者をマッピングする手順は、次のとおりです。 [!DNL Commerce] および [!DNL Walmart Marketplace].'
 role: Admin
 feature: Sales Channels, Configuration, Merchandising, Shipping/Delivery
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # 設定の概要
 
-セールスチャネル設定により、 [!DNL Commerce] および [!DNL Walmart Marketplace] 管理できる [!DNL Walmart Marketplace] 営業活動 [!DNL Commerce] 管理者。
+販売チャネル設定により、通信間およびデータ同期間で通信が可能 [!DNL Commerce] および [!DNL Walmart Marketplace] お客様のニーズに対応 [!DNL Walmart Marketplace] からの販売業務 [!DNL Commerce] 管理者。
 
-In [!DNL Channel Manager]：オンボーディングプロセス中に一部のセールスチャネルを設定します。 オンボーディング後、「 **[!UICONTROL Channel Settings]** から [!UICONTROL Listings] および [!UICONTROL Orders] ダッシュボード。
+対象： [!DNL Channel Manager]では、オンボーディングプロセス中に一部の販売チャネル設定を行います。 オンボーディング後は、以下を選択して設定を表示および管理できます。 **[!UICONTROL Channel Settings]** から [!UICONTROL Listings] および [!UICONTROL Orders] ダッシュボード。
 
-* **[ウォルマートの連携](manage-wmt-connection.md)** — 期間 [!DNL Channel Manager] オンボーディングプロセスには、 [API 資格情報](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) から [!DNL Walmart Marketplace] 接続する販売者アカウント [!DNL Commerce] から [!DNL Walmart Marketplace] 通信とデータの同期用。 必要に応じて、 *チャネル設定* ページに貼り付けます。
+* **[ウォルマート接続](manage-wmt-connection.md)** – 実行中 [!DNL Channel Manager] オンボーディングプロセス [API 資格情報](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) から [!DNL Walmart Marketplace] 接続する販売者アカウント [!DNL Commerce] 対象： [!DNL Walmart Marketplace] 通信およびデータ同期用。 必要に応じて、これらの資格情報を *チャネル設定* ページ。
 
-* **[一意の ID をマッピング](map-catalog-attributes.md)** — 次のリストに接続する前に： [!DNL Commerce] から [!DNL Walmart Marketplace]、一意の ID を少なくとも 1 つ [!DNL Commerce] カタログを Walmart から対応する ID に追加します。 この手順は、一致させるために必要です [!DNL Commerce] 既存の製品 [!DNL Walmart] 製品データを次の間で同期する： [!DNL Commerce] および [!DNL Walmart].
+* **[一意の識別子のマッピング](map-catalog-attributes.md)** – 一覧を接続する前 [!DNL Commerce] 対象： [!DNL Walmart Marketplace]、から少なくとも 1 つの一意の ID をマッピングします [!DNL Commerce] ウォルマートから対応する識別子へのカタログ。 このステップは、に一致する必要があります。 [!DNL Commerce] 既存の製品 [!DNL Walmart] 製品データのリスト化と同期 [!DNL Commerce] および [!DNL Walmart].
 
-* **[配送業者をマップ](map-shipping-carriers.md)** — 処理前 [!DNL Walmart Marketplace] からの注文 [!DNL Commerce]を使用する場合は、輸送業者を [!DNL Commerce] 上の対応する通信事業者に対するインスタンス [!DNL Walmart Marketplace].
+* **[配送業者のマップ](map-shipping-carriers.md)** – 処理する前に [!DNL Walmart Marketplace] 注文元 [!DNL Commerce]を使用する場合は、必ず貴社の配送業者を [!DNL Commerce] 対応する通信事業者へのインスタンス [!DNL Walmart Marketplace].

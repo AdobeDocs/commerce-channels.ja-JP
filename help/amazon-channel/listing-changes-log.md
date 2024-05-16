@@ -1,31 +1,31 @@
 ---
-title: Amazon セールスチャネル - [!UICONTROL Listing Changes Log]
-description: AmazonSales Channelは、Amazonセラーアカウントで影響を受ける変更を監視するのに役立つ変更ログを表示します。
+title: Amazon販売チャネル - [!UICONTROL Listing Changes Log]
+description: Amazon Sales Channelには、Amazonの販売者アカウントの影響を受ける変更内容を監視するのに役立つリスト変更ログが用意されています。
 feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL Listing Changes Log]
 
-変更ログの一覧には、 [!DNL Amazon Seller Account] Amazonのセールスチャネル設定の反映として。 このログは、AmazonとAmazonのセールスチャネルの間で同期されたグローバルな変更を示します。 このログには、アクションのタイプ（変更）、変更の簡単な説明、変更日など、製品 SKU の変更が一覧表示されます。
+変更の一覧表示ログには、で発生した変更が表示されます [!DNL Amazon Seller Account] Amazonのセールスチャネルの設定を表しています。 このログは、AmazonとAmazonのセールスチャネルの間で同期されたグローバルな変更を示しています。 このログには、製品 SKU の変更（アクションのタイプ（変更）、変更の簡単な説明、変更日など）がリストされます。
 
-ログに使用できるアクションはありません。 これはレビュー専用の機能です。
+ログに使用可能なアクションはありません。 これはレビューのみの機能です。
 
-Amazonセールスチャネルのホームページは、いくつかの共通を共有します [workspace コントロール](./workspace-controls.md) を使用すると、表示されるデータをカスタマイズできます。
+Amazonのセールスチャネルのホームページには、いくつかの共通点があります [workspace コントロール](./workspace-controls.md) 表示するデータをカスタマイズできます。
 
-![変更ログのリスト](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
+![変更ログの一覧表示](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
 
 ## デフォルトの列
 
 | 列 | 説明 |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Amazon Store Name] | Amazonストアが設定された際に定義されたストアの名前。 参照： [ストア統合](./store-integration.md). |
-| [!UICONTROL Seller SKU] | 製品、オプション、価格および製造元を識別するために、Amazonが製品に割り当てた SKU(Stock Keeping Unit)。 |
-| [!UICONTROL Listing Action] | リストに加えられた変更のタイプ。 |
+| [!UICONTROL Amazon Store Name] | Amazon ストアが設定されたときに定義されたストアの名前。 こちらを参照してください [ストアの統合](./store-integration.md). |
+| [!UICONTROL Seller SKU] | 商品、オプション、価格、製造元を識別するためにAmazonによって商品に割り当てられた SKU （最小在庫管理単位）。 |
+| [!UICONTROL Listing Action] | リストに対して行われた変更のタイプ。 |
 | [!UICONTROL Comments] | リストの変更に関する追加情報。 |
-| [!UICONTROL Created On] | 変更がおこなわれた日時。 |
+| [!UICONTROL Created On] | 変更が行われた日時。 |

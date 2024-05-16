@@ -1,33 +1,33 @@
 ---
-title: Amazonセールスチャネル — 更新された製品
-description: セラーセントラルアカウントが更新されたプログラムに登録されている場合は、AmazonSales Channelで更新したリストを管理できます。
+title: Amazon販路 – 新商品
+description: 販売者中央アカウントが更新済みプログラムに登録されている場合は、更新済みリストをAmazonSales Channelで管理できます。
 feature: Sales Channels, Products
 exl-id: 1f828893-ca56-4457-bf8f-8e2d056515e8
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# 更新された製品
+# 更新済み製品
 
-Amazonで高品質の類似製品（リフライズ済み、事前所有、オープンボックス）をリストする前に、まず登録して、 [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target="_blank"}.
+Amazonで新製品（再生品、中古品、オープンボックス）などの高品質をリストする前に、まず登録して、に対する承認を受ける必要があります [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target="_blank"}.
 
-承認され、 [!DNL Seller Central] アカウントが更新されたので、Amazonセールスチャネルで更新したリストを管理できます。 更新されたリストでは、 [!DNL Commerce]:
+承認して [!DNL Seller Central] アカウントを更新すると、Amazon セールスチャネルで更新済みリストを管理できます。 リストを更新するには、で次の手順が必要です [!DNL Commerce]:
 
-- を定義します。 _改装済み_ の設定 [!UICONTROL Listing Settings] > [[!UICONTROL Product Listing Condition]](./product-listing-condition.md).
+- の定義 _Refurbized_ の設定 [!UICONTROL Listing Settings] > [[!UICONTROL Product Listing Condition]](./product-listing-condition.md).
 
-- 次を含む `Renewed` 製品タイトル (Amazonで必要 )。
+- 次を含める `Renewed` （Amazonで必要）商品タイトルで上書きできます。
 
 >[!IMPORTANT]
 >
->Amazonが次に変更した要件を満たさない更新済みの製品リスト： `Inactive` ステータスと移動 *[[!UICONTROL Active Listings]](./active-listings.md)* タブで *[[!UICONTROL Inactive Listings]](./inactive-listings.md)* タブをクリックします。 また、 [[!UICONTROL Listings Changes] ログ](./listing-changes-log.md) が表示されます。 `Refurbished` エラーメッセージ。
+>Amazonで設定された要件を満たしていない更新済み製品のリストは、に変更されます。 `Inactive` ステータスと移動： *[[!UICONTROL Active Listings]](./active-listings.md)* tab キーを押して「」に移動 *[[!UICONTROL Inactive Listings]](./inactive-listings.md)* タブ。 また、 [[!UICONTROL Listings Changes] ログ](./listing-changes-log.md) を表示 `Refurbished` エラーメッセージ。
 
-詳しくは、関連するAmazonドキュメントを参照してください。
+詳しくは、関連するAmazon ドキュメントを参照してください。
 
-- [Amazon Renewed Program](https://sell.amazon.com/programs/renewed.html){target="_blank"}
+- [Amazon更新プログラム](https://sell.amazon.com/programs/renewed.html){target="_blank"}
 
-- [更新済み — はじめに](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target="_blank"} （販売者の中央ログインが必要です）
+- [更新済み – はじめに](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target="_blank"} （販売者中央ログインが必要）
 
-- [Amazon Renewed FAQ](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target="_blank"} （販売者の中央ログインが必要です）
+- [Amazonの更新に関するよくある質問](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target="_blank"} （販売者中央ログインが必要）

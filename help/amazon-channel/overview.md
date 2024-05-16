@@ -1,138 +1,138 @@
 ---
-title: «の概要 [!DNL Amazon Sales Channel]"
-description: "[!DNL Amazon Sales Channel] 商人が [!DNL Amazon Marketplace]."
+title: の概要 [!DNL Amazon Sales Channel]“
+description: “[!DNL Amazon Sales Channel] を使用すると、マーチャントはで製品をシームレスに販売できます [!DNL Amazon Marketplace].」と入力します。
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 role: Admin, User, Leader
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
 
 # の概要 [!DNL Amazon Sales Channel]
 
-Adobe CommerceまたはMagento Open Sourceの商人は、 [!DNL Amazon Sales Channel] 店舗と世界最大のインターネットショッピング先を統合する拡張機能。 この拡張機能は、Amazonの販売を可能にする [!DNL Commerce] を [!DNL Amazon Seller Central] アカウントを作成し、カタログと注文データの自動化と同期の両方を提供します。 すべてのAmazonのリストを完全に管理し、シンプルまたはインテリジェントな価格ルールを実装し、1 つの [!DNL Commerce] ダッシュボード。
+Adobe CommerceまたはMagento Open Sourceマーチャントは、を使用できます [!DNL Amazon Sales Channel] 店舗を世界最大のグローバルインターネットショッピング先と統合するための拡張機能。 この拡張機能は、次の接続によりAmazonのセールスを実現します [!DNL Commerce] （を使用） [!DNL Amazon Seller Central] アカウントとカタログと注文データの自動化と同期の両方を提供します。 Amazonのすべてのリストを完全に管理し、シンプルまたはインテリジェントな価格設定ルールを導入し、1 つのルールで注文と在庫を管理します [!DNL Commerce] ダッシュボード。
 
-後 [オンボーディング](./amazon-onboarding-home.md), [!DNL Commerce] は、AmazonストアのAmazonリスト、注文、在庫、価格を管理および制御するための「中央コマンドセンター」になります。 [ストア統合](./store-integration.md) を [!DNL Commerce] インスタンスとAmazonを使用して、両方のプラットフォーム間でデータを同期します。 Amazon sales channel では、次のことができます。
+後 [オンボーディング](./amazon-onboarding-home.md), [!DNL Commerce] は、Amazon ストアのAmazonのリスト、注文、在庫、価格を管理および制御する「中央コマンドセンター」になります。 [ストアの統合](./store-integration.md) を接続 [!DNL Commerce] インスタンスとAmazon：両方のプラットフォーム間でデータを同期します。 Amazonのセールスチャネルでは、次のことが可能です。
 
-- [オンボード](./amazon-onboarding-home.md) および [!DNL Amazon Seller Central] Adobe CommerceまたはMagento Open Sourceのアカウント
+- [Onboard](./amazon-onboarding-home.md) および 1 つ以上の統合 [!DNL Amazon Seller Central] Adobe CommerceまたはMagento Open Sourceのアカウント。
 
-- 既存のAmazonリストを読み込んで同期し、 [!DNL Commerce] カタログ、一元化された製品カタログの作成。
+- 既存のAmazon リストを読み込んで同期し、内の商品と一致させる [!DNL Commerce] カタログ、一元化された製品カタログを作成します。
 
-- お使いの [!DNL Commerce] カタログ。
+- の商品のAmazon リストの作成と管理 [!DNL Commerce] カタログ。
 
-- での（出荷）オーダーの表示および履行 [!DNL Commerce] とAmazon、注文ステータス、支払い、返金情報を同期します。
+- 注文の表示と履行（出荷） [!DNL Commerce] Amazonとの間で、注文ステータス、支払い、払い戻しに関する情報を同期できます。
 
-- 次の分析およびエラーのログを表示 [競争力のある価格](./competitive-price-analysis.md), [リストの変更](./listing-changes-log.md)、および [通信の問題](./communication-errors-log.md).
+- の分析とエラーのログを表示 [競争力のある価格](./competitive-price-analysis.md), [リストの変更](./listing-changes-log.md)、および [コミュニケーションの問題](./communication-errors-log.md).
 
-Amazonストアにアクセスして、Amazonセールスチャネルのこれらの機能、アカウント情報、リスト、注文件数などをすべて表示および管理します [ホームページ](./amazon-sales-channel-home.md).
+Amazon ストアにアクセスして、Amazon セールスチャネル上のこれらすべての機能、アカウント情報、リスト、注文などを表示および管理します [ホームページ](./amazon-sales-channel-home.md).
 
-## プロモーションと価格
+## プロモーションと価格設定
 
-を使用 [!DNL Amazon Sales Channel] 拡張機能では、次の操作を実行できます。
+（を使用） [!DNL Amazon Sales Channel] 拡張機能を使用すると、次のことができます。
 
-- Amazon上場価格の同期先 [!DNL Commerce] カタログ価格（または代替の価格属性）。
+- Amazon リストの価格を次の値に同期させる [!DNL Commerce] カタログ価格（または代替価格属性）。
 
-- MSRP を有効にする [ストライクスルー価格](./listing-price.md#configure-listing-price-settings) (Amazonリスト内 ) を参照して、顧客の価値提案を増やします。
+- MSRP を有効にする [取り消し価格](./listing-price.md#configure-listing-price-settings) Amazonのリストに追加して、お客様への価値提案を高める。
 
-- 有効化と管理 [最小広告価格 (MAP)](./listing-price.md#configure-listing-price-settings) (Amazonのリスト内 )
+- 有効化と管理 [最小広告価格（MAP）](./listing-price.md#configure-listing-price-settings) Amazonのリストで。
 
-- 追加の設定 [VAT 税](./listing-price.md#configure-listing-price-settings) (Amazon価格 )。
+- 追加の設定 [付加価値税](./listing-price.md#configure-listing-price-settings) Amazonの価格で。
 
-- の「使用可能な数量」にカスタム値を設定します。 [在庫/数量設定](./stock-quantity.md#configure-stock--quantity-settings) をAmazonのリストに表示して、購入者の緊急度を高めます。
+- で「利用可能数量」にカスタム値を設定 [在庫/数量の設定](./stock-quantity.md#configure-stock--quantity-settings) Amazonのリストに表示して、購入者の緊急度を高めます。
 
 ## 価格ルール
 
-を使用 [!DNL Amazon Sales Channel] 拡張機能では、次の操作を実行できます。
+（を使用） [!DNL Amazon Sales Channel] 拡張機能を使用すると、次のことができます。
 
-- 積み重ね可能で柔軟性が高く、複雑な環境を構築 [価格ルール](./pricing-products.md) を使用して、毎日の販売や季節のプロモーションに関するAmazonの価格を管理できます。
+- 積み重ね可能、柔軟、複雑を実現 [価格ルール](./pricing-products.md) 日常のセールや季節ごとのプロモーションに対応するAmazonの価格を管理します。
 
-- 作成 [floor](./floor-price.md) および [ceiling](./optional-ceiling-price.md) 最低価格と最高価格を保護するための価格。
+- 作成 [floor](./floor-price.md) および [上限](./optional-ceiling-price.md) 最低価格と最高価格を保護するための価格。
 
-- 作成と管理 [インテリジェントなリプライシングルール](./intelligent-repricing-rules.md) 他のAmazonの競合他社 ([最も低い競争相手](./lowest-competitor-pricing.md) および [Buy Box](./buy-box-competitor-pricing.md) 価格 )。
+- の作成と管理 [インテリジェントな価格の変更ルール](./intelligent-repricing-rules.md) Amazonの他の競合製品と比較して、製品の価格を自動的に調整する方法を説明します（[競合他社の最低値](./lowest-competitor-pricing.md) および [Buy Box](./buy-box-competitor-pricing.md) 価格）。
 
-## カタログフィード管理
+## カタログフィードの管理
 
-を使用 [!DNL Amazon Sales Channel] 拡張機能では、次の操作を実行できます。
+（を使用） [!DNL Amazon Sales Channel] 拡張機能を使用すると、次のことができます。
 
-- 既存のAmazonリスト（製品）を読み込み、 [!DNL Commerce] カタログ。
+- 既存のAmazon リスト（商品）を読み込んで、既存のものと一致させたり、 [!DNL Commerce] カタログ。
 
-- を公開します。 [!DNL Commerce] Amazonリストを作成するためのAmazonへの製品。
+- を公開 [!DNL Commerce] Amazon リストを作成するためのAmazonへの製品です。
 
-- 作成 [上書き](./creating-editing-overrides.md) 個々の価格を設定し、時間、条件、販売者の注記メッセージを処理します。
+- 作成 [上書き](./creating-editing-overrides.md) 個々の価格、処理時間、条件および販売者のメモ メッセージを設定します。
 
-- 製品の読み込みとマッピング [属性](./attributes-view.md) Amazonのリストから、 [!DNL Commerce] カタログ。
+- 製品の読み込みとマッピング [属性](./attributes-view.md) をAmazonのリストから選択して、内の製品と自動的に一致させる [!DNL Commerce] カタログ。
 
-- Amazonの一覧に一致する複数の検索パラメーターを [!DNL Commerce] カタログ。
+- 複数の検索パラメーターを設定して、Amazonのリストをの [!DNL Commerce] カタログ。
 
-- 定義 [リストルール](./listing-rules.md) どちらを選ぶか [!DNL Commerce] 製品はAmazonにリストされる資格があります。
+- 定義 [リストルール](./listing-rules.md) どちらを選択するかを決定するには [!DNL Commerce] 製品は、Amazonに掲載することが可能です。
 
-- デフォルトを設定 [処理時間](./product-listing-actions.md) 新しいAmazonの一覧
+- デフォルトを設定 [処理時間](./product-listing-actions.md) 新しいAmazonのリスト用。
 
-- 次に基づく一致リスト条件： [!DNL Commerce] 属性。
+- に基づいてリスト条件を一致 [!DNL Commerce] 属性。
 
-- 各条件タイプに販売者向けメモを追加します（オプション）。
+- 条件タイプごとに販売者メモを追加します（オプション）。
 
-- 数量しきい値の実装は、Amazonリストを [!DNL Commerce] カタログ。
+- Amazonのリストをお客様に読み込む際に、数量のしきい値を実装する [!DNL Commerce] カタログ。
 
-- 推奨を表示 [リストの改善点](./listing-improvements.md).
+- 推奨を表示 [リストの改善](./listing-improvements.md).
 
 ## 注文管理とカスタマーサービス
 
-を使用 [!DNL Amazon Sales Channel] 拡張機能では、次の操作を実行できます。
+（を使用） [!DNL Amazon Sales Channel] 拡張機能を使用すると、次のことができます。
 
-- Amazonおよびでのサポートと処理のオーダー [!DNL Commerce].
+- Amazonおよびでの注文のサポートと処理 [!DNL Commerce].
 
-- [インポート](./order-settings.md#configure-order-settings) Amazonの注文 [!DNL Commerce] Amazonに残す
+- [インポート](./order-settings.md#configure-order-settings) Amazonからのご注文 [!DNL Commerce] または、Amazonに残します。
 
-- 次のいずれかを定義します。 [!DNL Commerce] Amazonの注文と関連付ける web サイトストア。注文のインポートと管理に使用します。
+- を定義する [!DNL Commerce] 注文の読み込みと管理のためにAmazonの注文に関連付ける web サイトストア。
 
-- 注文の表示、キャンセル、出荷元 [!DNL Commerce] および/またはAmazonに応じて、 [達成設定](./fulfilled-by.md).
+- 注文の表示、キャンセル、出荷元 [!DNL Commerce] やAmazon（状況に応じて） [フルフィルメント設定](./fulfilled-by.md).
 
-- Amazonの注文ステータスを、 [!DNL Commerce] （オプション）。
+- Amazonの注文ステータスの内でのカスタムステータスへのマッピング [!DNL Commerce] （オプション）。
 
-- 注文エラーを表示および管理して、問題を解決し、顧客と連携します。
+- 注文エラーを表示および管理して、問題を解決し、顧客とつながります。
 
-- に注文トラッキングデータを送信 [!DNL Amazon Seller Central] アカウント。
+- への注文トラッキングデータの送信 [!DNL Amazon Seller Central] アカウント。
 
-- [注文をキャンセル](./cancel-unshipped-order.md) をクリックし、理由の応答を選択します。
+- [注文をキャンセル](./cancel-unshipped-order.md) 理由の応答を選択します。
 
-- 次を表示： [最近の注文](./amazon-store-dashboard.md) Amazonの注文に関する情報。
+- を表示する [最近の注文](./amazon-store-dashboard.md) Amazonの注文に関する情報。
 
-## レポート
+## 報告書
 
-を使用 [!DNL Amazon Sales Channel] 拡張機能では、次の項目に関するレポート情報を確認できます。
+（を使用） [!DNL Amazon Sales Channel] 拡張機能を使用すると、次の項目に関するレポート情報を確認できます。
 
-- アクティブ、非アクティブ、適格および不完全なステータス別のリスト。
+- 有効、無効、適格および未完了のステータス別のリスト。
 
-- 注文は出荷待ちです。
+- 出荷待ちの注文。
 
 - 最新の注文。
 
-- Amazon [変更ログの一覧表示](./listing-changes-log.md) をクリックして、製品/リストへのフィードの変更（価格や数量など）を確認します。
+- Amazon [変更ログのリスト](./listing-changes-log.md) 製品/リストのフィード変更（価格や数量など）をレビューする場合。
 
-- 製品 [Buy Box](./buy-box-competitor-pricing.md) 競合相手の価格データ。
+- 製品 [Buy Box](./buy-box-competitor-pricing.md) 競合他社価格データ。
 
-- 製品 [競合相手の最低価格](./lowest-competitor-pricing.md) データ。
+- 製品 [競合製品の最低価格](./lowest-competitor-pricing.md) データ。
 
-## グローバルセールスのサポート
+## グローバル・セールスのサポート
 
-を使用 [!DNL Amazon Sales Channel] 拡張機能では、次の操作を実行できます。
+（を使用） [!DNL Amazon Sales Channel] 拡張機能を使用すると、次のことができます。
 
-- 複数を管理 [!DNL Amazon Marketplace] 地域（国）。
+- 複数のを管理 [!DNL Amazon Marketplace] 地域（国）
 
-- を使用して複数の通貨をサポート [コマース通貨設定ツール](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html).
+- を使用した多通貨のサポート [Commerce通貨設定ツール](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html).
 
-- 製品の保管場所やAmazonフルフィルメントセンターからの出荷を管理します。
+- 商品拠点およびAmazonフルフィルメントセンターからの配送を管理します。
 
 ## 顧客管理
 
-のビルド [!DNL Commerce] 顧客データベース別 [顧客データのインポート](./order-settings.md#configure-order-settings) Amazonの注文に関連付けられている。 お客様を通じて顧客のリストを拡大し、マーケティングの可能性を高めます [!DNL Amazon Marketplace] リストと [!DNL Commerce] ストアフロント。
+を作成 [!DNL Commerce] 顧客データベース基準 [顧客データのインポート](./order-settings.md#configure-order-settings) Amazonの注文に関連付けます。 を通じて顧客のリストを拡大し、マーケティングの可能性を高めます。 [!DNL Amazon Marketplace] listings と [!DNL Commerce] ストアフロント。
 
 
-はじめには簡単です。 短いオンボーディングプロセスが、 [!DNL Amazon Seller Central] Amazonセールスチャネルストアとのアカウントと統合 [!DNL Commerce] Amazonの一覧、注文、在庫、および達成を管理するカタログ。 中央のダッシュボードには、すべてのAmazonセールスチャネルストア統合とAmazonリストのステータス更新が表示されます。 グローバルで新しいお客様にリーチ [!DNL Amazon Marketplace] シンプルで自動化されたプロセスにより、新しいシステムの設定にかかるコストと労力をほとんど、あるいはまったく負担しなくて済みます。
+使い始めるのは簡単です。 簡単なオンボーディングプロセスのガイドに従って、 [!DNL Amazon Seller Central] Amazonのセールスチャネルストアとの連携および [!DNL Commerce] Amazonのリスト、注文、在庫およびフルフィルメントを管理するためのカタログ。 中央のダッシュボードには、Amazonのセールスチャネルストアにおけるすべての統合とAmazonのリストに関するステータス更新が表示されます。 グローバルで新規顧客にリーチ [!DNL Amazon Marketplace] プロセスのシンプル化と自動化により、新しいシステムのセットアップにかかるコストと労力を最小限に抑えることができます。
 
-統合後 [!DNL Amazon Seller Central] アカウント、 [!DNL Amazon Sales Channel] 拡張機能を使用すると、アカウントを管理し、 [!DNL Commerce] Amazon これにより、リストの作成、プロモーションの管理、価格の設定、在庫と達成の管理を [!DNL Commerce] 管理者。 これらのオプションには、同じ品目のAmazonの価格を監視し、より競争力を高めるために自動的に価格を調整する価格設定ルールが含まれます。
+統合した後 [!DNL Amazon Seller Central] アカウント、 [!DNL Amazon Sales Channel] 拡張機能を使用すると、アカウントを管理し、間でデータを同期できます [!DNL Commerce] とAmazon。 これにより、リストの作成、プロモーションの管理、価格の設定、在庫とフルフィルメントの管理を [!DNL Commerce] 管理者。 これらのオプションには、同じ商品のAmazonの価格をモニタリングし、より競争力のある価格になるように自動的に調整する価格ルールが含まれます。
 
