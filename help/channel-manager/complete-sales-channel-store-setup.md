@@ -1,6 +1,6 @@
 ---
 title: チャネル設定の完了
-description: '接続する販売チャネルを作成した後 [!DNL Commerce] ビューの保存先 [!DNL Walmart Marketplace]でチャネルを開き、チャネル設定を完了します。 次に、から製品を追加し、リスト、在庫、価格、注文を管理するプロセスを開始します [!DNL Channel Manager].'
+description: 'ストア表示を接続する販売チャネルを作成した後  [!DNL Walmart Marketplace] チャネルを開き  [!DNL Commerce]  チャネル設定を完了します。 次に、製品を追加し、リスト、在庫、価格、および注文を管理するプロセスを開始します  [!DNL Channel Manager].'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
 role: Admin, User
 feature: Sales Channels, Configuration
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Sales Channel設定の完了
 
-を接続したら、 [!DNL Commerce] に保存 [!DNL Walmart Marketplace]、からストアの設定を完了します [!DNL Channel Manager] のホームページ。
+[!DNL Commerce] ストアを [!DNL Walmart Marketplace] に接続したら、[!DNL Channel Manager] のホーム ページからストアのセットアップを完了します。
 
-1. 管理者から、「**」を選択します。[!UICONTROL Marketing** > **チャネルマネージャー**].
+1. 管理者から、「**[!UICONTROL Marketing** > **チャネルマネージャー**]」を選択します。
 
-   ![チャネルマネージャーストアの管理](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
+   ![ チャネルマネージャーストアの管理 ](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 1. 店舗の目のアイコンを選択して、販売チャネルストアを開きます。
 
@@ -25,18 +25,18 @@ ht-degree: 0%
 
    - [製品識別子と配送業者のチャネル設定を構成します](settings-overview.md)
 
-   - [からの製品の追加 [!DNL Commerce Catalog] チャネルマネージャーに](add-products-to-channel-store.md)
+   - [からチャネルマネ  [!DNL Commerce Catalog]  ジャーへの製品の追加](add-products-to-channel-store.md)
 
-   - [製品リストの接続先 [!DNL Walmart] 製品マッチングの使用](connect-listings-to-marketplace.md)
+   - [製品のマッチングを使用して製品リストを  [!DNL Walmart]  に接続する](connect-listings-to-marketplace.md)
 
-   - [方法 [!DNL Channel Manager] 間で在庫と価格の更新を同期します [!DNL Commerce] および [!DNL Walmart]](inventory-and-price-updates.md)
+   - [インベントリと  [!DNL Channel Manager]  間での価格の更新を同期する方法  [!DNL Commerce]  学ぶ  [!DNL Walmart]](inventory-and-price-updates.md)
 
-   - [表示と管理 [!DNL Walmart Marketplace] からの注文 [!DNL Commerce Admin]](manage-orders.md)
+   - [ [!DNL Commerce Admin] からの注文  [!DNL Walmart Marketplace]  表示および管理](manage-orders.md)
 
    - [注文の返品と払戻の管理](return-refund-orders.md)
 
-販売チャネルを作成して製品をに一致させた後 [!DNL Walmart Marketplace]を使用すると、製品のリスト、在庫、価格、注文、出荷、キャンセル、返品、返金に関するすべての操作をから管理できます。 [!DNL Commerce]. リスト、在庫、価格設定および受注データは、次の場所から自動的に同期化されます。 [!DNL Commerce] 対象： [!DNL Walmart Marketplace]. 間の競合や不一致を防ぐには [!DNL Commerce] および [!DNL Walmart Marketplace] を更新します。の製品または注文データは更新しません [!DNL Commerce] からの製品 [!DNL Walmart Marketplace] アカウント。
+販売チャネルを作成して製品を [!DNL Walmart Marketplace] に一致させると、[!DNL Commerce] から製品のリスト、在庫、価格、注文、出荷、キャンセル、返品、払い戻しのすべての操作を管理できます。 リスト、在庫、価格設定および受注データは、[!DNL Commerce] から [!DNL Walmart Marketplace] に自動的に同期化されます。 [!DNL Commerce] と [!DNL Walmart Marketplace] の更新間の競合や不一致を防ぐために、[!DNL Walmart Marketplace] アカウントから [!DNL Commerce] の製品の製品データや注文データを更新しないでください。
 
 >[!IMPORTANT]
 >
->次の場合 [!DNL Channel Manager] 注文処理中にエラーが発生しました。以下のフォームで注文、配送、キャンセルの操作を完了することができます。 [!DNL Walmart Marketplace]. 参照： [注文エラーの修正](process-orders.md#fix-order-errors).
+>注文処理中にエラー [!DNL Channel Manager] 返された場合は、[!DNL Walmart Marketplace] ージから注文、出荷、キャンセルの操作を完了できます。 [ 注文エラーの修正 ](process-orders.md#fix-order-errors) を参照してください。

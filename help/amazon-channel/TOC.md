@@ -1,6 +1,6 @@
 ---
 user-guide-title: Amazon Sales Channel ユーザーガイド
-user-guide-description: Adobe CommerceまたはMagento Open Sourceをお客様と統合し、Amazonを通じて売上を創出 [!DNL Amazon Seller Central] アカウント。
+user-guide-description: Adobe CommerceまたはMagento Open Sourceをお客様のアカウントと統合することにより、Amazonを通じて売上  [!DNL Amazon Seller Central]  創出します。
 breadcrumb-title: Amazon セールスチャネル
 role: Admin, User
 feature: Sales Channels
@@ -13,27 +13,27 @@ ht-degree: 4%
 ---
 
 
-# Amazon販売チャネル - [!DNL channel manager] Adobe Commerceの場合 {#amazon}
+# Amazon販売チャネル - Adobe Commerceの [!DNL channel manager] {#amazon}
 
 - [Amazon Sales Channel ユーザーガイド](guide-overview.md)
 - [Amazonのセールスチャネルの概要](overview.md)
-- はじめに {#getting-started}
+- 入門 {#getting-started}
    - [Amazon Marketplace について](about-amazon-marketplace.md)
    - [AmazonとCommerce カタログ](about-listings-and-catalog.md)
    - [ベストプラクティスと制限事項](amazon-best-practices.md)
    - [拡張機能のインストール](install.md)
-- オンボーディング {#onboarding}
+- Onboarding {#onboarding}
    - [オンボードAmazonセールスチャネル](amazon-onboarding-home.md)
    - [事前設定タスク](amazon-pre-setup-tasks.md)
-   - [作成 [!DNL Commerce] Amazonの属性](ob-creating-magento-attributes.md)
+   - [Amazonの属性  [!DNL Commerce]  作成](ob-creating-magento-attributes.md)
    - [Amazon API キーの確認](amazon-verify-api-key.md)
    - [ストアの統合](store-integration.md)
    - [リストルールの作成](ob-create-listing-rule.md)
    - [デフォルトのストア設定](default-store-settings.md)
-- 販売チャネルの管理 {#manage}
+- 販売チャネル {#manage} ータの管理
    - [ホームページ](amazon-sales-channel-home.md)
    - [Amazon ストア](managing-stores.md)
-   - [ワークスペースコントロール](workspace-controls.md)
+   - [Workspaceの制御](workspace-controls.md)
    - [学習と準備](learning-preparation.md)
    - 属性 {#attributes}
       - [属性を表示](attributes-view.md)
@@ -56,7 +56,7 @@ ht-degree: 4%
    - [更新済み製品](renewed-products.md)
 - [オーダー設定](order-settings.md)
 - [ストア統合設定](store-integration-settings.md)
-- リストと価格ルール {#rules}
+- リストおよび価格設定ルール {#rules}
    - [リストルール](listing-rules.md)
    - 価格ルール {#pricing-rules}
       - [価格の管理](pricing-products.md)
@@ -74,20 +74,20 @@ ht-degree: 4%
       - [価格優先度ロジック](price-priority-logic.md)
       - [Buy Boxの競合他社価格](buy-box-competitor-pricing.md)
       - [競合製品の最低価格](lowest-competitor-pricing.md)
-   - 例 {#rules-examples}
+   - {#rules-examples} の例
       - [条件の定義](ob-define-condition-example.md)
       - [価格ルールの例](price-rule-examples.md)
 - レポートとログ {#reports-logs}
    - [ログとストアレポート](amazon-logs-reports.md)
-   - ストアレポート {#store-reports}
+   - レポート {#store-reports} 保存
       - [競争価格分析](competitive-price-analysis.md)
       - [リストの改善](listing-improvements.md)
-   - ログ {#logs}
+   - Logs {#logs}
       - [変更ログのリスト](listing-changes-log.md)
       - [通信エラーログ](communication-errors-log.md)
-- リストの管理 {#admin-listings}
+- Manage listings {#admin-listings}
    - [Amazon リストの管理](managing-product-listings.md)
-   - ステータス / タブ別 {#status-tab}
+   - ステータス/タブ {#status-tab} 別
       - [ステータス/タブで管理](managing-listings-by-tab.md)
       - [不完全な一覧](incomplete-listings.md)
       - [新しいサード パーティの一覧](new-third-party-listings.md)
@@ -97,14 +97,14 @@ ht-degree: 4%
       - [上書き](overrides.md)
       - [不適格な一覧](ineligible-listings.md)
       - [終了した一覧](ended-listings.md)
-   - アクション別 {#actions}
+   - アクション {#actions} 別
       - [アクションで管理](managing-listings-by-action.md)
       - [カタログ製品の作成と割り当て](creating-assigning-catalog-products.md)
       - [上書きの作成と編集](creating-editing-overrides.md)
       - [Alias Seller SKU の作成](create-alias-seller-sku.md)
       - [割り当てられた ASIN の編集](edit-assigned-asin.md)
       - [Amazon リストの終了](end-listings-manually.md)
-      - [Amazon リストの公開](publish-listings-manually.md)
+      - [PublishとAmazonのリスト](publish-listings-manually.md)
       - [必要な情報を更新](amazon-manually-update-incomplete-listing.md)
       - [詳細を表示](product-listing-details.md)
 - 注文の管理 {#admin-orders}

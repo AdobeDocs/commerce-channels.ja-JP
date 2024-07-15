@@ -1,6 +1,6 @@
 ---
 title: 注文を処理
-description: 「出荷および取消の指示」 [!DNL Walmart Marketplace] Adobe CommerceとMagento Open Sourceからの注文。
+description: 「Adobe CommerceおよびMagento Open Sourceからの注文の発送  [!DNL Walmart Marketplace]  キャンセルの手順」
 feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
@@ -12,76 +12,76 @@ ht-degree: 0%
 
 # 注文を処理
 
-後 [!DNL Walmart Marketplace] 注文が確認され、正常に送信されました [!DNL Channel Manager]を使用します [Commerce Order Management](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace) 注文を処理します。
+[!DNL Walmart Marketplace] 件の注文が確認され、[!DNL Channel Manager] に正常に送信されたら、[Commerce Order Management](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace) を使用して注文を処理します。
 
-チャネルマネージャーによる更新内容の同期先 [!DNL Walmart Marketplace] 注文ステータスと発送情報の確認元 [!DNL Commerce] で追跡されたデータと一致します [!DNL Walmart Marketplace].
+チャネルマネージャーは、[!DNL Commerce] からの注文ステータスと配送情報が [!DNL Walmart Marketplace] で追跡されたデータと一致するように、[!DNL Walmart Marketplace] への更新を同期します。
 
-* **注文の出荷** – ウォルマートには、すべての出荷に追跡番号が必要です。 一部の品目が在庫切れの場合は、部分出荷を作成して、現在使用可能な品目を送信できます。 出荷を発行すると、受注の更新は次のように同期化されます。 [!DNL Walmart Marketplace]. 次に、ウォルマートは注文ステータスと配送の詳細を顧客に通知します。
+* **受注出荷**- ウォルマートでは、すべての出荷に追跡番号が必要です。 一部の品目が在庫切れの場合は、部分出荷を作成して、現在使用可能な品目を送信できます。 出荷を発行すると、受注更新が [!DNL Walmart Marketplace] に同期されます。 次に、ウォルマートは注文ステータスと配送の詳細を顧客に通知します。
 
-* **注文のキャンセル** – をキャンセルした場合 [!DNL Walmart Marketplace] ご注文、ウォルマートは、お客様に送信される注文キャンセル通知に含まれるキャンセル理由を必要とします。 キャンセルの理由は [!DNL Commerce] 注文支払い情報。 キャンセルを送信すると、在庫更新がに同期されます [!DNL Walmart Marketplace]. 次に、ウォルマートは注文ステータスと配送の詳細を顧客に通知します。
+* **注文キャンセル**-[!DNL Walmart Marketplace] 注文をキャンセルする場合、ウォルマートはキャンセル理由を顧客に送信される注文キャンセル通知に含める必要があります。 キャンセル理由は、[!DNL Commerce] 注支払情報にも表示されます。 キャンセルを送信すると、在庫更新が [!DNL Walmart Marketplace] に同期されます。 次に、ウォルマートは注文ステータスと配送の詳細を顧客に通知します。
 
-  ストアフロントでは、注文全体をキャンセルする必要があります。 [!DNL Commerce] 部分的なキャンセルは許可されません。
+  ストアフロントでは、注文全体をキャンセルする必要があります。 [!DNL Commerce] では、部分的なキャンセルは許可されていません。
 
-* **払戻要求** – 出荷された注文に対してウォルマート・マーケットプレイスの返品が要求された場合、 [!UICONTROL Status details] 返品へのリンクが含まれます。 返品と返金は、 [戻り値](return-refund-orders.md) ダッシュボード。
+* **払い戻しリクエスト** – 出荷された注文に対して Walmart Marketplace の返品がリクエストされた場合、[!UICONTROL Status details] には返品へのリンクが含まれます。 返品と返金は、[ 返品 ](return-refund-orders.md) ダッシュボードから管理されます。
 
-Commerceの注文が処理され、 [!DNL Channel Manager] への出荷、部分出荷および取消の更新が正常に同期されます [!DNL Walmart Marketplace]注文の処理が完了しました。 出荷済受注に対する返品要求および払戻は、次の方法で管理されます。 [戻り値](return-refund-orders.md) ダッシュボード。
+Commerceのオーダーが処理され、出荷、一部出荷および [!DNL Walmart Marketplace] の取消の更新が正常に同期され [!DNL Channel Manager] と、オーダー処理は完了します。 出荷済受注に対する返品要求および払戻は、「返品 [ ダッシュボードから管理され ](return-refund-orders.md) す。
 
 >[!NOTE]
 >
-> 注文の更新がに同期されるまでに最大 5 分かかる場合があります [!DNL Walmart Marketplace]. 注文ステータスを確認するには、に戻ります [!DNL Channel Manager] 注文ページ。
+> 注文の更新が [!DNL Walmart Marketplace] に同期されるまで、最大 5 分かかる場合があります。 注文ステータスを確認するには、[!DNL Channel Manager] Orders ページに戻ります。
 
 ## 注文の発送
 
-1. 管理者から、を選択します。 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]**.
+1. 管理者から、**[!UICONTROL Marketing]**/**[!UICONTROL Channel Manager]** を選択します。
 
 1. 販売チャネルストアの目のアイコンを選択して、ストア表示を開きます。
 
-1. To view [!DNL Walmart Marketplace] 注文、選択 **[!UICONTROL Orders]**.
+1. [!DNL Walmart Marketplace] 注文を表示するには、「**[!UICONTROL Orders]**」を選択します。
 
-1. 「受注」テーブルで、次の項目を選択して出荷受注を開きます **[!UICONTROL Commerce Order Number]**.
+1. 「受注」テーブルで、**[!UICONTROL Commerce Order Number]** を選択して出荷対象の受注を開きます。
 
-1. を選択して、注文の全部または一部に対する出荷を作成および送信します。 **[!UICONTROL Ship]**.
+1. **[!UICONTROL Ship]** を選択して、オーダーの全部または一部に対する出荷を作成して発行します。
 
-   ![のCommerce注文詳細ビュー [!DNL Walmart Marketplace] 順序](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
+   ![[!DNL Walmart Marketplace] 注文のCommerce注文の詳細ビュー ](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
-   * 配送業者を選択し、次を選択して追跡番号を追加します： **[!UICONTROL Add tracking number]**.
+   * 配送業者を選択し、**[!UICONTROL Add tracking number]** を選択して追跡番号を追加します。
 
-     ![のCommerce注文詳細ビュー [!DNL Walmart Marketplace] 順序](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
+     ![[!DNL Walmart Marketplace] 注文のCommerce注文の詳細ビュー ](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
-   * 必要に応じて、残りの配送フォームに入力します。 参照： [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) 詳しい手順については、を参照してください。
+   * 必要に応じて、残りの配送フォームに入力します。 手順について詳しくは、[[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) を参照してください。
 
-1. 出荷を送信した後、 [注文ステータス](manage-orders.md#about-order-status) 。対象： [!DNL Channel Manager] 更新がに送信されたことを確認するには [!DNL Walmart Marketplace].
+1. 出荷を送信した後、[ 注文ステータス ](manage-orders.md#about-order-status) を追跡して、更新が [!DNL Walmart Marketplace] に送信されたこ [!DNL Channel Manager] を確認します。
 
-注文が出荷された後は、全額または一部の払い戻しを処理できます。 [!DNL Channel Manager] から受領した返品要求に基づいて注文に含まれる品目 [!DNL Walmart Marketplace]. 参照： [返品および返金の注文](return-refund-orders.md).
+注文が出荷された後、[!DNL Walmart Marketplace] から受け取った返品要求に基づいて、注文に含まれる品目について、[!DNL Channel Manager] からの全額払い戻しまたは一部払い戻しを処理できます。 [ 返品および返金の注文 ](return-refund-orders.md) を参照してください。
 
 ## 注文をキャンセル
 
-1. 管理者から、を選択します。 **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]**.
+1. 管理者から、**[!UICONTROL Marketing]**/**[!UICONTROL Channel Manager]** を選択します。
 
 1. 販売チャネルストアの目のアイコンを選択してストア表示を開きます。
 
-1. To view [!DNL Walmart Marketplace] 注文件数、選択*[!UICONTROL Orders]**。
+1. [!DNL Walmart Marketplace] 注文を表示するには、*[!UICONTROL Orders]**を選択します。
 
-1. [ 受注 ] テーブルで、 [注文詳細ページ](manage-orders.md#view-order-detail) を選択します。 **[!UICONTROL Commerce Order Number]** キャンセルする注文に対して。
+1. 「オーダー」テーブルで、キャンセルするオーダーの **[!UICONTROL Commerce Order Number]** を選択して [ オーダー詳細ページ ](manage-orders.md#view-order-detail) を開きます。
 
-   ![のCommerce注文詳細ビュー[!DNL Walmart Marketplace]順序](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
+   ![ 注文のCommerce注文詳細ビュ [!DNL Walmart Marketplace]](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 1. 注文をキャンセルします。
 
-   * を選択 **キャンセル** 注文詳細メニューから。
+   * 注文詳細メニューから **キャンセル** を選択します。
 
-   * 日 [!UICONTROL Cancel Order] フォームで、 **[!UICONTROL Cancellation reason]**.
+   * [!UICONTROL Cancel Order] フォームで、**[!UICONTROL Cancellation reason]** を選択します。
 
-   ![のCommerce注文詳細ビュー [!DNL Walmart Marketplace] 順序](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
+   ![[!DNL Walmart Marketplace] 注文のCommerce注文の詳細ビュー ](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
-   * を選択 **[!UICONTROL Cancel Order]**.
+   * 「**[!UICONTROL Cancel Order]**」を選択します。
 
-1. キャンセルを送信した後、 [注文ステータス](manage-orders.md#about-order-status) 。対象： [!DNL Channel Manager] 更新がに送信されたことを確認するには [!DNL Walmart Marketplace].
+1. キャンセルを送信した後、[ 注文ステータス ](manage-orders.md#about-order-status) を追跡して、更新が [!DNL Walmart Marketplace] に送信されたこ [!DNL Channel Manager] を確認します。
 
 ## 注文エラーの修正
 
-からの注文同期プロセス中にエラーが発生する可能性があります [!DNL Walmart Marketplace]または、出荷、部分出荷および取消の受注更新プロセス中に行います。
+エラーは、[!DNL Walmart Marketplace] からのオーダー同期処理中、または出荷、部分出荷および取消のオーダー更新処理中に発生する場合があります。
 
-出荷、部分出荷または取消更新の同期操作が失敗した場合は、 [!DNL Channel Manager] 注文件数ページに次が表示されます _エラー_ 注文のステータス。 出荷情報と注文キャンセル情報が Walmart Marketplace アカウントに正確に反映されるようにするには、手動で注文を更新します [!DNL Walmart Marketplace] ストア。
+出荷、部分出荷または取消更新の同期操作が失敗した場合は、「受注の [!DNL Channel Manager]」ページに受注の _エラー_ ステータスが表示されます。 出荷情報と注文キャンセル情報が Walmart Marketplace アカウントに正確に反映されるようにするには、[!DNL Walmart Marketplace] 店舗で注文を手動で更新します。
 
 

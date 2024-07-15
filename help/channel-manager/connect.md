@@ -1,6 +1,6 @@
 ---
-title: '接続先 [!DNL Commerce] サービス'
-description: 'チャネルマネージャーの接続先 [!DNL Commerce] 間のデータ同期と通信を可能にするサービス [!DNL Commerce] インスタンス、チャネルマネージャーおよびその他のサポートサービス。'
+title: 'サービスへ  [!DNL Commerce]  接続'
+description: 「チャネルマネージャーを  [!DNL Commerce] services に接続して、 [!DNL Commerce]  インスタンス、チャネルマネージャー、その他のサポートサービス間のデータ同期と通信を有効にします」
 role: Admin, Developer
 level: Intermediate
 feature: Sales Channels, Install, Integration
@@ -13,44 +13,44 @@ ht-degree: 0%
 ---
 
 
-# の接続 [!DNL Commerce] サービス
+# [!DNL Commerce] Services への接続
 
-この [!DNL Commerce Services Connector] channel Manager サービスをAdobe CommerceおよびMagento Open Sourceインスタンスと統合します。 コネクタにより、AEM と AEM 間のデータ同期と通信が可能になります。 [!DNL Commerce] インスタンス， [!DNL Channel Manager]、およびその他のサポートサービス。
+[!DNL Commerce Services Connector] は、Channel Manager サービスとAdobe CommerceおよびMagento Open Sourceインスタンスを統合します。 コネクタにより、[!DNL Commerce] インスタンス、[!DNL Channel Manager]、およびその他のサポートサービス間のデータ同期と通信が可能になります。
 
-[!DNL Commerce Services Connector] セットアップは、を使用するために必要な 1 回限りのプロセスです [Adobe Commerce SaaS サービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) 例： [!DNL Channel Manager], [!DNL Live Search]、および [!DNL Product Recommendations]. 別のサービス用にコネクタを既に設定している場合は、この手順をスキップします。
+[!DNL Commerce Services Connector] の設定は、[Adobe Commerce SaaS サービス（[!DNL Channel Manager]、[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)[!DNL Product Recommendations] など）を使用するために必要な 1 回限りのプロセスです。 別のサービス用にコネクタを既に設定している場合は、この手順をスキップします。
 
 ## 要件
 
-- **Commerce アカウント** – にソフトウェアをインストールする [!DNL Commerce] インスタンスにアクセスするには、所有者または管理者アクセス権を持つアカウントが必要です [!DNL Commerce] プラットフォーム。
+- **Commerce アカウント** - [!DNL Commerce] インスタンスにソフトウェアをインストールするには、[!DNL Commerce] プラットフォームへの所有者または管理者アクセス権を持つアカウントが必要です。
 
-  アカウント所有者とスーパーユーザーは、から管理者アカウントを作成できます。 [!DNL Commerce] を使用して、またはコマンドラインから [!DNL Commerce] CLI コマンド `admin:user:create`.
+  アカウント所有者とスーパーユーザーは、[!DNL Commerce] インスタンスまたはコマンドラインから [!DNL Commerce] CLI コマンド `admin:user:create` ードを使用して管理者アカウントを作成できます。
 
-- **Adobe Commerce実稼動 API キー** – この [キー](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) チャネルマネージャーで必要なサービスへの API アクセスを有効にします。 このキーには、公開鍵と秘密鍵の秘密鍵証明書が必要です。
+- **Adobe Commerce実稼動 API キー** – この [ キー ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) を使用すると、Channel Manager で必要なサービスに API でアクセスできます。 このキーには、公開鍵と秘密鍵の秘密鍵証明書が必要です。
 
 >[!TIP]
 >
->資格情報を指定するには、次の手順に従います。 [!DNL Commerce] ライセンス所有者またはアカウント所有者には、次の操作を行うオプションがあります [アクセスを共有](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html)、または [API キー](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) 信頼できる開発者に対する資格情報。
+>資格情報を指定するには、[!DNL Commerce] のライセンス所有者またはアカウント所有者が [ アクセスを共有 ](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) するか、[API キー ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) 資格情報を信頼できる開発者に付与するオプションを持っています。
 
-## の設定 [!DNL Commerce Services Connector]
+## [!DNL Commerce Services Connector] の設定
 
 1. ストアサービス設定を開きます。
 
-   - 管理者から、を選択します。 **[!UICONTROL Stores]**.
+   - 管理者から、「**[!UICONTROL Stores]**」を選択します。
 
-   - 次の下 *[!UICONTROL Settings]*&#x200B;を選択 **[!UICONTROL Configuration]**.
+   - 「*[!UICONTROL Settings]*」で、「**[!UICONTROL Configuration]**」を選択します。
 
-   - を展開 **[!UICONTROL Services]** を選択して、 **[!UICONTROL Commerce Services Connector]**.
+   - 「**[!UICONTROL Services]**」を展開し、「**[!UICONTROL Commerce Services Connector]**」を選択します。
 
 1. 実稼動 API キーの資格情報をAdobe Commerce アカウントから追加します。
 
-   ![[!DNL Commerce Services Connector] 内のサービス [!DNL Admin] 表示](assets/commerce-services-connector-admin-service-view.png){width="600" zoomable="yes"}
+   [!DNL Admin]![[!DNL Commerce Services Connector] 表示でのサービス ](assets/commerce-services-connector-admin-service-view.png){width="600" zoomable="yes"}
 
 
    >[!NOTE]
    >
-   > 次の場合 [!DNL Commerce] インスタンスにその他あり [!DNL Adobe Commerce] などのサービス [!DNL Live Search] または [!DNL Product Recommendations] インストールされると、秘密鍵証明書の情報がインターフェイスに表示され、それ以上の設定は必要ありません。
+   > [!DNL Commerce] インスタンスに [!DNL Live Search] や [!DNL Product Recommendations] などの他の [!DNL Adobe Commerce] サービスがインストールされている場合は、資格情報がインターフェイスに表示され、それ以上の設定は必要ありません。
 
 1. Commerce サービスが Channel Manager サービスにデータを送信できるように、SaaS プロジェクトとデータスペースを設定します。
 
-   ![[!DNL Commerce Services Connector] での SaaS 識別子設定 [!DNL Admin] 表示](assets/commerce-services-connector-saas-config.png){width="600" zoomable="yes"}
+   [!DNL Admin] ビュー ![[!DNL Commerce Services Connector]SaaS 識別子設定 ](assets/commerce-services-connector-saas-config.png){width="600" zoomable="yes"}
 

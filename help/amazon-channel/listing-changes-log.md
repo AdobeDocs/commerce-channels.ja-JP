@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # [!UICONTROL Listing Changes Log]
 
-変更の一覧表示ログには、で発生した変更が表示されます [!DNL Amazon Seller Account] Amazonのセールスチャネルの設定を表しています。 このログは、AmazonとAmazonのセールスチャネルの間で同期されたグローバルな変更を示しています。 このログには、製品 SKU の変更（アクションのタイプ（変更）、変更の簡単な説明、変更日など）がリストされます。
+リストの変更ログには、Amazonのセールスチャネル設定を反映して [!DNL Amazon Seller Account] で発生した変更が表示されます。 このログは、AmazonとAmazonのセールスチャネルの間で同期されたグローバルな変更を示しています。 このログには、製品 SKU の変更（アクションのタイプ（変更）、変更の簡単な説明、変更日など）がリストされます。
 
 ログに使用可能なアクションはありません。 これはレビューのみの機能です。
 
-Amazonのセールスチャネルのホームページには、いくつかの共通点があります [workspace コントロール](./workspace-controls.md) 表示するデータをカスタマイズできます。
+Amazon sales channel のホームページには、表示するデータをカスタマイズできる共通の [workspace コントロール ](./workspace-controls.md) がいくつか用意されています。
 
-![変更ログの一覧表示](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
+![ 変更ログの一覧表示 ](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
 
 ## デフォルトの列
 
 | 列 | 説明 |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Amazon Store Name] | Amazon ストアが設定されたときに定義されたストアの名前。 こちらを参照してください [ストアの統合](./store-integration.md). |
+| [!UICONTROL Amazon Store Name] | Amazon ストアが設定されたときに定義されたストアの名前。 [ ストア統合 ](./store-integration.md) を参照してください。 |
 | [!UICONTROL Seller SKU] | 商品、オプション、価格、製造元を識別するためにAmazonによって商品に割り当てられた SKU （最小在庫管理単位）。 |
 | [!UICONTROL Listing Action] | リストに対して行われた変更のタイプ。 |
 | [!UICONTROL Comments] | リストの変更に関する追加情報。 |

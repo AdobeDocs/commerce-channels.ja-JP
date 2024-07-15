@@ -1,5 +1,5 @@
 ---
-title: Amazonのセールスチャネル - Workspace の制御
+title: Amazon販売チャネル - Workspaceコントロール
 description: Amazon Sales Channelのワークスペース制御を使用すると、リストの検索、情報の表示、簡単なアクションの適用が可能になります。
 feature: Sales Channels
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
@@ -10,39 +10,39 @@ ht-degree: 0%
 
 ---
 
-# ワークスペースコントロール
+# Workspaceの制御
 
-Amazonのセールスチャネル [ホームページ](./amazon-sales-channel-home.md) には、フィルター、デフォルトビュー、列、書き出しなど、一般的なワークスペースコントロールがいくつかあります。 すべてのページの制御オプションが同じわけではありません。
+Amazon Sales Channel[ ホームページ ](./amazon-sales-channel-home.md) には、「フィルター」、「デフォルトビュー」、「列」、「書き出し」など、いくつかの一般的なワークスペースコントロールがあります。 すべてのページの制御オプションが同じわけではありません。
 
-![Amazon Sales Channelのワークスペースコントロールの例](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
+![Amazon Sales Channelワークスペースコントロールの例 ](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## アクション
 
-この _[!UICONTROL Actions]_セレクターには、ユーザーがページで使用できるアクションのリストが表示されます。 これを選択すると、選択したすべての項目にアクションが適用されます。 特定の項目にアクションを適用するには、各項目の最初の列にあるチェックボックスを選択し、_[!UICONTROL Actions]_.
+_[!UICONTROL Actions]_セレクターには、ユーザーがページで使用できるアクションのリストが表示されます。 これを選択すると、選択したすべての項目にアクションが適用されます。 特定の項目にアクションを適用するには、各項目の最初の列にあるチェックボックスを選択し、「_[!UICONTROL Actions]_」の下のオプションを選択します。
 
-例えば、セレクターがに表示されている場合 _[!UICONTROL Attributes]_ページ、次が含まれます_[!UICONTROL Re-import Product Attribute Values]_ アクション。 このアクションを選択すると、対応するが PING されます [!DNL Amazon Seller Central] アカウントおよびを更新 [!DNL Commerce] 左側の列で確認した各Amazon ストアアイテムのデータ。
+例えば、セレクターが _[!UICONTROL Attributes]_ページに表示されている場合は、_[!UICONTROL Re-import Product Attribute Values]_ アクションが含まれています。 このアクションを選択すると、対応する [!DNL Amazon Seller Central] アカウントに Ping が実行され、左側の列でチェックされた各Amazon ストア項目の [!DNL Commerce] データが更新されます。
 
-![アクションメニューの例](assets/amazon-sales-channel-home-actions-option.png){width="500"}
+![ アクションメニューの例 ](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
 ## フィルター
 
-この _[!UICONTROL Filters]_コントロールは、テーブルに表示されるデータを絞り込むためのオプションを表示します。 フィルタ オプションは、列コントロールで選択した列に基づきます。 フィルターオプションは、列コントロールで有効になっている列にのみ表示されます。
+_[!UICONTROL Filters]_コントロールは、テーブルに表示されるデータを絞り込むためのオプションを表示します。 フィルタ オプションは、列コントロールで選択した列に基づきます。 フィルターオプションは、列コントロールで有効になっている列にのみ表示されます。
 
 フィルター制御には、指定した日付のデータを絞り込むための動的カレンダー、定義済みの選択肢を含んだ列のためのドロップダウンメニュー、カスタムデータを含む可能性のあるフリーテキストフィールドを含めることができます。
 
 次の例では、注文のリストをフィルタリングして、次の条件を満たす注文のみを表示するための設定を示します。
 
 - 2019 年 2 月 1 日～2019 年 2 月 7 日の間に発注。
-- という名前の買い手との注文 `Smith`、および
-- ステータスが「」の注文 `Shipped`.
+- `Smith` という名前の購入者との注文
+- ステータスが `Shipped` の注文。
 
-フィルタリングオプションを設定したら、 **[!UICONTROL Apply Filters]** リストされたデータをフィルタリングします。 [ キャンセル ] をクリックすると、[ フィルタ ] コントロールが適用されずに終了します。
+フィルタリングオプションを設定したら、「**[!UICONTROL Apply Filters]**」をクリックして、リストされたデータをフィルタリングします。 [ キャンセル ] をクリックすると、[ フィルタ ] コントロールが適用されずに終了します。
 
-![フィルター制御の例](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
+![ フィルター制御の例 ](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
-データにフィルターを適用した後、 **[!UICONTROL Active Filters]** 情報が表示されます。 「」をクリックすると、 ![フィルターアイコンをクリア](assets/x-icon-clear-filters.png) アイコンをクリックして特定のフィルターオプションをクリアするか、 **[!UICONTROL Clear All]** 適用したすべてのフィルターをクリアします。
+データにフィルターを適用すると、情報 **[!UICONTROL Active Filters]** 表示されます。 ![ フィルターを消去アイコン ](assets/x-icon-clear-filters.png) アイコンをクリックして特定のフィルターオプションを消去するか、「**[!UICONTROL Clear All]**」をクリックして、適用されているすべてのフィルターを消去できます。
 
-![アクティブなフィルターの例](assets/applied-filters-line.png){width="700"}
+![ アクティブなフィルターの例 ](assets/applied-filters-line.png){width="700"}
 
 ## 表示
 
@@ -50,17 +50,17 @@ Amazonのセールスチャネル [ホームページ](./amazon-sales-channel-ho
 
 ページ表示に列を追加または削除した場合：
 
-1. クリック **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
+1. **[!UICONTROL Default View]**/**[!UICONTROL Save View As...]** をクリックします。
 
 1. ビューの名前を入力します。
 
 1. カスタムビューを保存するには、矢印アイコンをクリックします。
 
-![ビューコントロールの例](assets/workspace-controls-view.png)
+![ ビューコントロールの例 ](assets/workspace-controls-view.png)
 
-この例では、 _注文 Id_ 列が列コントロールに追加され、カスタムビューとして保存されます。 カスタム ビューの名前を保存すると、ビューの名前がから変更されます _デフォルトのビュー_ を入力した名前に変更します。
+この例では、_注文 ID_ 列が列コントロールに追加され、カスタムビューとして保存されます。 カスタム ビュー名を保存すると、ビューの名前が _既定のビュー_ から入力した名前に変更されます。
 
-で目的のビューを選択して、ビューを切り替えることができます _[!UICONTROL View]_メニュー。
+ビューを切り替えるには、_[!UICONTROL View]_メニューで目的のビューを選択します。
 
 カスタムビューの名前を削除または変更する場合は、鉛筆アイコンをクリックします。 別の名前を入力するか、ごみ箱アイコンをクリックしてカスタムビューを削除できます。 既定のビューは削除できません。
 
@@ -73,21 +73,21 @@ Amazonのセールスチャネル [ホームページ](./amazon-sales-channel-ho
 - ページにデータ列を追加するには、チェックボックスを選択します。
 - ページからデータ列を削除する場合は、このチェックボックスを選択しないでください。
 
-![列コントロールの例](assets/workspace-controls-columns.png){width="400"}
+![ 列コントロールの例 ](assets/workspace-controls-columns.png){width="400"}
 
 チェックボックスの変更は直ちに表示されます。 変更を加えてページを終了すると、ページはデフォルトの列表示に戻ります。 定期的に行う変更の場合、列の変更をカスタム ビューとしてビューコントロールに保存できます。 列を手動で追加または削除しなくても、表示コントロールを切り替えることができます。
 
-次のいずれかをクリックできます。 **[!UICONTROL Reset]** オプションをデフォルト設定に戻すには、以下をクリックします。 **[!UICONTROL Cancel]** を変更せずに終了します。
+「**[!UICONTROL Reset]**」をクリックしてオプションをデフォルト設定に戻すか、「**[!UICONTROL Cancel]**」をクリックして変更せずに終了します。
 
 ## Export
 
 [ 書き出し ] オプションを使用すると、データをデータ ファイルに書き出すことができます。このデータ ファイルは、サードパーティのソフトウェアや別のデータベースに読み込むことができます。 書き出されるデータは、表示されるデータに制限されます。 必要に応じて、書き出しコントロールを使用する前に、必ず列を追加または削除してください。
 
-データを書き出す準備ができたら、書き出し形式オプションを選択し、 **[!UICONTROL Export]**.
+データをエクスポートする準備ができたら、エクスポートフォーマットオプションを選択し、「エクス **[!UICONTROL Export]** ート」をクリックします。
 
 - CSV - プレーンテキストデータを含む、コンマ区切り値ファイル
 - Excel XML - XML ベースのスプレッドシートデータ形式（通常、Excel ユーザーに使用）
 
 生成されたデータファイルは、指定したフォルダーに自動的に保存されてダウンロードされます。
 
-![書き出し制御](assets/workspace-controls-export.png){width="250"}
+![ 書き出し制御 ](assets/workspace-controls-export.png){width="250"}

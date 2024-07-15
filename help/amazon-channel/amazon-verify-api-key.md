@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Amazon API キーを追加または確認
 
-Amazon Sales Channel にアクセスする場合、 [!DNL Commerce] ストア設定に追加したAmazon API キーを自動的にチェックし検証します。 検証済みの場合は、次の手順に進むことができます。 [ストアの統合](./store-integration.md).
+Amazonのセールスチャネルにアクセスする際に、[!DNL Commerce] はストア設定に追加したAmazon API キーを自動的にチェックし、検証します。 検証された場合は、次の手順 [ ストアの統合 ](./store-integration.md) に進むことができます。
 
 Amazon API キーがない、無効または期限切れの場合は、キーを更新する必要があります。 API キーを取得し、それらのキーをAmazon Sales Channel 設定に追加するよう促すメッセージが表示されます。
 
@@ -21,46 +21,46 @@ Amazon API キーがない、無効または期限切れの場合は、キーを
 
 API キーは、Amazonのセールスチャネルにアクセスするたびに検証されます。
 
-1. にログインします [!DNL Commerce] 管理者。
+1. [!DNL Commerce] Admin にログインします。
 
-1. 日 _[!UICONTROL Admin]_サイドバー、に移動&#x200B;**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
+1. _[!UICONTROL Admin]_サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Channels]_/**[!UICONTROL Amazon Sales Channel]** に移動します。
 
    Amazonのセールスチャネルに初めてアクセスする場合、または API キーの更新が必要な場合は、プロセスを進めるように求められます。
 
-   ![Amazon API キープロンプトを取得して追加します](assets/amazon-api-verification-prompt.png){width="500"}
+   ![Amazon API キープロンプトの取得と追加 ](assets/amazon-api-verification-prompt.png){width="500"}
 
-1. クリック **[!UICONTROL Sign in]** にアクセスする [!DNL Commerce] web アカウント。
+1. 「**[!UICONTROL Sign in]**」をクリックして、[!DNL Commerce] web アカウントにアクセスします。
 
    Commerce アカウントページが新しいブラウザータブで開きます。
 
-   - にログインしている場合 [!DNL Commerce] アカウント、 _[!UICONTROL API Portal]_の節_[!UICONTROL My Account]_ ページは自動的に表示されます。
+   - [!DNL Commerce] アカウントにログインしている場合は、_[!UICONTROL My Account]_ページの_[!UICONTROL API Portal]_ セクションが自動的に表示されます。
 
-   - ログインしていない場合は、を入力するよう求められます [!DNL Commerce] 次の前のアカウントのユーザー名とパスワード _[!UICONTROL API Portal]_タブが表示されます。
+   - ログインしていない場合は、「_[!UICONTROL API Portal]_」タブが表示される前に、[!DNL Commerce] アカウントのユーザー名とパスワードの入力を求められます。
 
-   - アカウントをお持ちでない場合は、 [この [!DNL Commerce] アカウントページ](https://account.magento.com/customer/account/login/){target="_blank"} と登録。 このアカウントは、会社またはビジネスの一部である必要があります。
+   - アカウントをお持ちでない場合は、[ アカウントページ  [!DNL Commerce]  にアクセスし ](https://account.magento.com/customer/account/login/){target="_blank"} 登録してください。 このアカウントは、会社またはビジネスの一部である必要があります。
 
-1. 必要に応じて、API キーを表示および生成できます _[!UICONTROL API Portal]_タブ [!DNL Commerce] アカウント。
+1. 必要に応じて、[!DNL Commerce] アカウントの「_[!UICONTROL API Portal]_」タブで API キーを表示および生成できます。
 
-   API キーを作成するには、のような説明を入力します。 `Amazon Sales Channel` をクリックして、 **[!UICONTROL Add New]**. 新しいキーが生成され、入力した名前で表示されます。 クリック **[!UICONTROL Copy]** 新しいキーをコピーします。
+   API キーを作成するには、`Amazon Sales Channel` のような説明を入力し、「**[!UICONTROL Add New]**」をクリックします。 新しいキーが生成され、入力した名前で表示されます。 「**[!UICONTROL Copy]**」をクリックして、新しいキーをコピーします。
 
-   ![API キーの生成またはコピー](assets/amazon-add-api-key.png){width="500" zoomable="yes"}
+   ![API キーの生成またはコピー ](assets/amazon-add-api-key.png){width="500" zoomable="yes"}
 
-1. 生成およびコピーされた新しいキーを使用して、に戻ります。 _[!UICONTROL Amazon Sales Channel]_ブラウザーで tab キーを押します。
+1. 生成およびコピーされた新しいキーを使用して、ブラウザーの「_[!UICONTROL Amazon Sales Channel]_」タブに戻ります。
 
-1. 日 _[!UICONTROL Welcome to Amazon Sales Channel]_ページ、クリック&#x200B;**[!UICONTROL Add the key]**.
+1. _[!UICONTROL Welcome to Amazon Sales Channel]_ページで「**[!UICONTROL Add the key]**」をクリックします。
 
-   ブラウザーがAmazon sales channel を終了し、「store configuration」ページが開きます。 _[!UICONTROL Api Keys]_内のページ [!DNL Commerce] 管理者。 に移動したときに、このページを手動で開くことができます。**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**、を展開 **[!UICONTROL Services]** 左パネルで、を選択します。 **[!UICONTROL Magento Services]**.
+   ブラウザーがAmazon sales channel を終了し、ストア設定ページが [!DNL Commerce] Admin の「_[!UICONTROL Api Keys]_」ページを開きます。 このページは、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_ / **[!UICONTROL Configuration]** に移動し、左側のパネルで「**[!UICONTROL Services]**」を展開して「**[!UICONTROL Magento Services]**」を選択すると、手動で開くことができます。
 
-1. コピーしたキーを貼り付けます **[!UICONTROL Production Api key]**.
+1. コピーしたキーを **[!UICONTROL Production Api key]** に貼り付けます。
 
-1. クリック **[!UICONTROL Save Config]**. これで、Amazonのセールスチャネルに戻ることができます。
+1. 「**[!UICONTROL Save Config]**」をクリックします。 これで、Amazonのセールスチャネルに戻ることができます。
 
-   ![ストア設定への API キーの追加](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
+   ![ ストア設定への API キーの追加 ](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
 
-1. 日 _[!UICONTROL Admin]_サイドバー、に移動&#x200B;**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
+1. _[!UICONTROL Admin]_サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Channels]_/**[!UICONTROL Amazon Sales Channel]** に移動します。
 
-   Amazonのセールスチャネルトリガーへの再アクセス [!DNL Commerce] api キーを検証および検証し、続行できるようにします。
+   Amazonのセールスチャネルトリガー[!DNL Commerce] 再アクセスして、API キーを検証および検証し、続行できるようにします。
 
-   キーをもう一度確認するように求めるメッセージが表示された場合は、この手順を繰り返します _追加と検証_ プロセス。
+   キーをもう一度確認するように求めるプロンプトが表示されたら、この _追加と確認_ の手順を繰り返します。
 
-![次へアイコン](assets/btn-next.png) [**ストア統合の続行**](./store-integration.md)
+![ 次へアイコン ](assets/btn-next.png)[**ストア統合を続行**](./store-integration.md)

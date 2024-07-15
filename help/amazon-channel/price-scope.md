@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 価格範囲
 
-[!DNL Commerce] は、に設定を提供します [価格範囲](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) に設定されています `Global` または `Website`. 価格設定が次のように設定されている場合： `Global`、すべての web サイトに単一の価格ソースがあります。 価格設定が次のように設定されている場合： `Website`を使用すると、web サイトの価格は様々で、フォールバックのデフォルト価格値もあります（を参照） [価格範囲](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html)）に設定します。
+[!DNL Commerce] は、`Global` または `Website` に設定する [ 価格範囲 ](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) の設定を提供します。 価格が `Global` に設定されている場合、すべての web サイトに対して 1 つの価格ソースがあります。 価格が `Website` に設定されている場合、Web サイトの価格は間で異なる可能性があり、フォールバックのデフォルトの価格値もあります（[ 価格範囲 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html) を参照）。
 
-カタログの価格範囲をから変更した場合 `Global` 対象： `Website`すべての価格タイプ属性もに変更されます。 `Website`. 参照： [Web サイトの追加](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites).
+カタログの価格範囲を `Global` から `Website` に変更すると、すべての価格タイプ属性も `Website` に変更されます。 [Web サイトの追加 ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites) を参照してください。
 
 Web サイトの価格を選択した場合、次の 2 つの価格ソースがあります。
 
 - Web サイトの価格
 - デフォルト（フォールバック）の価格
 
-Amazonのセールスチャネル統合の場合、に基づきます [リストルール](./listing-rules.md)複数の web サイトの製品を 1 つの web サイトにマッピングできます [!DNL Amazon Marketplace] 国（次の期間で定義） [ストアの統合](./store-integration.md)）に設定します。 ただし、このマッピングでは、価格が異なる複数の web サイトに製品が存在する場合に、価格を公開する必要がある問題が発生します。
+Amazonのセールスチャネル統合の場合、[ リストルール ](./listing-rules.md) に基づいて、複数の web サイトの商品を 1 つの [!DNL Amazon Marketplace] 国にマッピングできます（[ ストア統合 ](./store-integration.md) で定義）。 ただし、このマッピングでは、価格が異なる複数の web サイトに製品が存在する場合に、価格を公開する必要がある問題が発生します。

@@ -14,20 +14,20 @@ ht-degree: 0%
 
 ## 1 つまたは複数のAmazon リストの手動終了
 
-1. で 1 つ以上のリストを表示 [[!UICONTROL Product Listings]](./managing-product-listings.md) ページ （_[!UICONTROL Inactive]_,_[!UICONTROL Active]_、または _[!UICONTROL Ineligible]_タブ）。
+1. [[!UICONTROL Product Listings]](./managing-product-listings.md) ページ（_[!UICONTROL Inactive]_、_[!UICONTROL Active]_、または _[!UICONTROL Ineligible]_タブ）で 1 つ以上の一覧を表示します。
 
 1. 左側の列で、終了する一覧をクリックして確認します。
 
-1. 次の下 _[!UICONTROL Actions]_を選択し、**[!UICONTROL End listing(s) on Amazon]**.
+1. [_[!UICONTROL Actions]_] で、[**[!UICONTROL End listing(s) on Amazon]**] をクリックします。
 
-1. クリック **[!UICONTROL OK]** 確認メッセージで。
+1. 確認メッセージの「**[!UICONTROL OK]**」をクリックします。
 
 ## 1 つのAmazon リストの手動終了
 
-1. で 1 つ以上のリストを表示 [[!UICONTROL Product Listings]](./managing-product-listings.md) ページ （_[!UICONTROL Inactive]_,_[!UICONTROL Active]_、または _[!UICONTROL Ineligible]_タブ）。
+1. [[!UICONTROL Product Listings]](./managing-product-listings.md) ページ（_[!UICONTROL Inactive]_、_[!UICONTROL Active]_、または _[!UICONTROL Ineligible]_タブ）で 1 つ以上の一覧を表示します。
 
-1. が含まれる _[!UICONTROL Action]_列、クリック&#x200B;**を選択**>**End Listing**.
+1. _[!UICONTROL Action]_列で、**選択**>**リスト表示を終了**をクリックします。
 
-1. クリック **[!UICONTROL OK]** 確認メッセージで。
+1. 確認メッセージの「**[!UICONTROL OK]**」をクリックします。
 
-1 つまたは複数のリストを終了する場合、選択したリストが終了するまで処理されていることを示すメッセージが表示されます。 終了したリストは、 [終了](./ended-listings.md) タブ [_製品リスト_](./managing-product-listings.md) ページ。 処理されてAmazonから削除されると、リストのステータスが次のように変わります `Manually Ended`. を使用してリストを手動で再公開するまで、終了したリストはAmazonから削除されます。 [_Amazonに公開_](./publish-listings-manually.md) アクション。
+1 つまたは複数のリストを終了する場合、選択したリストが終了するまで処理されていることを示すメッセージが表示されます。 終了リストは、「製品リスト _](./managing-product-listings.md)ページの [ 終了 ](./ended-listings.md) タブで管理[_ きます。 処理されてAmazonから削除されると、リストのステータスが `Manually Ended` に変わります。 終了したリストは、[_AmazonへPublish_](./publish-listings-manually.md) アクションを使用して手動でリストを再公開するまで、Amazonから削除されます。

@@ -11,26 +11,26 @@ ht-degree: 0%
 
 # Amazon リストの管理
 
-製品リストの設定は、 [!DNL Commerce] ストアが統合されています。 リスト設定には、 [ストアダッシュボード](./amazon-store-dashboard.md).
+製品リストの設定は、[!DNL Commerce] ストアが統合された後、いつでも変更できます。 [ ストアダッシュボード ](./amazon-store-dashboard.md) でリスト設定にアクセスできます。
 
-リストのステータスで製品リストにアクセスするには、次のボタンをクリックします。 **[!UICONTROL Manage Listings]** が含まれる _[!UICONTROL Store Listings]_セクション。 この[_&#x200B;製品リスト&#x200B;_](./managing-listings-by-tab.md)ページが開き、_[!UICONTROL Active]_ デフォルトでは、「」タブです。
+リストのステータスで製品のリストにアクセスするには、_[!UICONTROL Store Listings]_のセクションの「**[!UICONTROL Manage Listings]**」をクリックします。[_ 製品リスト _](./managing-listings-by-tab.md)ページがデフォルトで_[!UICONTROL Active]_ タブに開きます。
 
-次をクリックすることもできます **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]**、および **[!UICONTROL In Progress Listings]** が含まれる _[!UICONTROL Store Listings]_セクションに移動して、これらのタブに直接アクセスします。
+また、「_[!UICONTROL Store Listings]_」セクションの「**[!UICONTROL Active Listings]**」、「**[!UICONTROL Inactive Listings]**」、「**[!UICONTROL In Progress Listings]**」をクリックして、これらのタブに直接アクセスすることもできます。
 
 >[!NOTE]
 >
->**[!UICONTROL In Progress Listings]** が自分の _リストへの準備完了_ listings または _不完全な一覧_（状況によって異なります） [_製品リストのアクション_](./product-listing-actions.md) 設定。 タブの説明については、を参照してください。 [ステータス/タブ別リストの管理](./managing-listings-by-tab.md).
+>_製品リストのアクション_ の設定に応じて、_リスト準備完了_ のリストまたは [_不完全なリスト_](./product-listing-actions.md) のいずれかを **[!UICONTROL In Progress Listings]** 定します。 タブの説明については、[ ステータス/タブ別リストの管理 ](./managing-listings-by-tab.md) を参照してください。
 
-参照： [ステータス/タブ別リストの管理](./managing-listings-by-tab.md) および [アクション別リストの管理](./managing-listings-by-action.md).
+[ ステータス/タブでリストを管理 ](./managing-listings-by-tab.md) および [ アクションでリストを管理 ](./managing-listings-by-action.md) を参照してください。
 
 ## 製品リストへのアクセス
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Channels]_/**[!UICONTROL Amazon Sales Channel]**に移動します。
 
-1. クリック **[!UICONTROL View Store]** ストアカード。
+1. ストアカードの **[!UICONTROL View Store]** をクリックします。
 
-1. ストアダッシュボードで、 **[!UICONTROL Manage Listings]** が含まれる _[!UICONTROL Store Listings]_セクション。
+1. ストアダッシュボードで、「_[!UICONTROL Store Listings]_」セクションの「**[!UICONTROL Manage Listings]**」をクリックします。
 
 1. そのステータスの一覧を表示するには、タブをクリックします。
 
-   この _[!UICONTROL Active]_タブがデフォルトで表示されます。
+   「_[!UICONTROL Active]_」タブがデフォルトで表示されます。

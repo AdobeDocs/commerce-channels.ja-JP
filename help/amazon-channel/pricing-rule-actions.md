@@ -16,20 +16,20 @@ ht-degree: 0%
 
 ## 標準価格ルール
 
-A [標準価格ルール](./standard-price-rules.md) Amazonのリスト価格を、に対して指定された割合または固定ドル金額で増減させることができます [!DNL Commerce] カタログ価格（または価格ソース）。
+[ 標準価格ルール ](./standard-price-rules.md) を使用すると、[!DNL Commerce] 定のカタログ価格（または価格ソース）に対して、Amazonの上場価格を特定の割合または固定ドル金額で増減させることができます。
 
 | セクション | 説明 |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | ルールタイプをに設定 `Standard price rule`. |
+| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | ルールの種類を `Standard price rule` に設定します。 |
 | [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | 上場価格を決定するために価格ソースに適用される調整計算を定義します |
 
 ## インテリジェントな再価格設定ルール
 
-An [インテリジェント再価格設定ルール](./intelligent-repricing-rules.md) は、Amazonの競合他社の価格を使用してリスト価格を決定します。 競合他社は、Amazonにリストするのと同じ製品をリストしている他のセラーです。
+[ インテリジェントな再価格設定ルール ](./intelligent-repricing-rules.md) は、Amazonの競合他社の価格を使用して、上場価格を決定します。 競合他社は、Amazonにリストするのと同じ製品をリストしている他のセラーです。
 
 | セクション | 説明 |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | ルールタイプをに設定 `Intelligent repricing rule` 競合他社の価格ソースとフィードバックの要件に加えて、 |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | 「Competitor Price Source」と「Feedback」の要件に加えて「`Intelligent repricing rule`」というルールタイプを設定します。 |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | 競合他社が販売する同じ製品の条件に関する差異を定義します。 |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | 上場価格を決定するために価格ソースに適用される調整計算を定義します |
 | [[!UICONTROL Floor Price]](./floor-price.md) | 複数の価格ルールで上場価格が低く設定されるのを防ぐため、製品の最低価格を定義します。 |

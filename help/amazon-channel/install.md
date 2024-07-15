@@ -1,6 +1,6 @@
 ---
-title: のインストール [!DNL Amazon Sales Channel] 拡張子
-description: を統合するには [!DNL Commerce] のカタログ [!DNL Amazon Seller Accounts] を通じて販売します [!DNL Amazon Marketplace]で、Amazon Sales Channel拡張機能をダウンロードしてインストールします。
+title: 拡張機能のイ  [!DNL Amazon Sales Channel]  ストール
+description: カタログを  [!DNL Commerce]  に統合し、を通じて販売するには  [!DNL Amazon Seller Accounts] Amazon Sales Channel拡張機能をダウンロ  [!DNL Amazon Marketplace] ドしてインストールします。
 role: Admin, Developer
 feature: Sales Channels, Install, Integration, Tools and External Services
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
@@ -11,53 +11,53 @@ ht-degree: 0%
 
 ---
 
-# のインストール [!DNL Amazon Sales Channel] 拡張子
+# [!DNL Amazon Sales Channel] 拡張機能のインストール
 
 >[!IMPORTANT]
 >
->のみ [!DNL Amazon Sales Channel] 拡張機能 4.0 以降のバージョンは、Adobe CommerceおよびMagento Open Source 2.4.x のバージョンでサポートされています。 2.3.x バージョンを実行している場合は、のドキュメントを参照してください [互換性のあるAmazon セールスチャネルリリース](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). バージョンの互換性の詳細については、 [対象](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) このページについては、開発者向けドキュメントを参照してください。
+>Adobe CommerceとMagento Open Source 2.4.x のバージョンでは、[!DNL Amazon Sales Channel] 拡張機能 4.0 以降のバージョンのみがサポートされています。 2.3.x バージョンを実行している場合は、[ 互換性のあるAmazon sales channel リリース ](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html) のドキュメントを参照してください。 バージョンの互換性について詳しくは、開発者ドキュメントの [ 可用性 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) ページを参照してください。
 
-この [!UICONTROL Amazon Sales Channel] 拡張機能は、Commerce カタログとを統合するための機能をインストールして追加します [!DNL Amazon Seller Accounts] 店を通じて売る [!DNL Amazon Marketplace]. 追加情報を確認するには、を参照してください [AmazonSales Channel](https://marketplace.magento.com/magento-module-amazon.html) のページ [!DNL Commerce Marketplace] および [リリースノート](release-notes.md).
+[!UICONTROL Amazon Sales Channel] 拡張機能は、Commerce カタログを [!DNL Amazon Seller Accounts] と統合して [!DNL Amazon Marketplace] を通じて販売するための機能をインストールして追加します。 追加情報を確認するには、[!DNL Commerce Marketplace] の [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) ページと [ リリースノート ](release-notes.md) を参照してください。
 
 ## 要件
 
-- **Commerce インスタンス**：です [!DNL Amazon Sales Channel] 拡張機能は、Magento Open Source、Adobe Commerce、Adobe Commerce（クラウドインフラストラクチャバージョン 2.3.x 以降）のインスタンスにインストールできます。 2.1、2.2、1.x リリースではサポートされなくなりました。
-- **Commerce web アカウント**:API キーの作成とトラックに使用するCommerce web アカウントが必要です。
-- **API キー**:Commerce web アカウントを使用してAmazon販売チャネル API キーを作成します。 以下の手順には、これらの手順が含まれます。
+- **Commerce インスタンス**: [!DNL Amazon Sales Channel] 拡張機能は、クラウドインフラストラクチャバージョン 2.3.x 以降に、Magento Open Source、Adobe Commerce、およびAdobe Commerceを備えたインスタンスにインストールできます。 2.1、2.2、1.x リリースではサポートされなくなりました。
+- **Commerce web アカウント**: API キーの作成とトラックに使用するCommerce web アカウントが必要です。
+- **API キー**:Commerce web アカウントを使用してAmazon Sales Channel API キーを作成します。 以下の手順には、これらの手順が含まれます。
 
 ## インストール
 
-このプロセスで Composer を使用する方法の詳細については、 [拡張機能のインストール](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 手順については、開発者ドキュメントを参照してください。
+このプロセスで Composer を使用する方法の詳細については、開発者向けドキュメントの [ 拡張機能のインストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 手順を参照してください。
 
-1. にログインします [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
+1. [Commerce Marketplace](https://marketplace.magento.com/customer/account/) にログインします。
 
-1. 「」をクリックします **[!UICONTROL Marketplace]** タブをクリックし、 **[!UICONTROL My Purchases]**.
+1. [**[!UICONTROL Marketplace]**] タブをクリックし、[**[!UICONTROL My Purchases]**] をクリックします。
 
-1. を見つけて選択します。 **[!UICONTROL Amazon Sales Channel]**.
+1. を見つけて、「**[!UICONTROL Amazon Sales Channel]**」を選択します。
 
 1. 拡張機能ページで、バージョンを選択します。
 
-1. コンポーネント名とバージョンで、 **[!UICONTROL Technical Details]**.
+1. コンポーネント名とバージョンについては、「**[!UICONTROL Technical Details]**」をクリックします。
 
-1. の名前とバージョン情報を使用して、のサービスコネクタエントリを更新します `composer.json` ファイル。
+1. 名前とバージョン情報を使用して、`composer.json` ファイルのサービスコネクタエントリを更新します。
 
-   - 拡張機能の名前とバージョンを `composer.json` ファイル。
+   - `composer.json` ファイルに拡張機能名とバージョンを追加します。
 
-   - に移動します [!DNL Commerce] プロジェクトディレクトリとアップデート `composer.json` ファイル。
+   - [!DNL Commerce] プロジェクトディレクトリに移動して、`composer.json` ファイルを更新します。
 
    ```bash
    composer require magento/services-connector:~1.0.3
    ```
 
-   - を入力 [認証キー](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). 公開鍵はユーザー名で、秘密鍵はパスワードです。
+   - [ 認証キー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) を入力します。 公開鍵はユーザー名で、秘密鍵はパスワードです。
 
    - Composer がプロジェクトの依存関係の更新を終了し、エラーがないことを確認するまで待ちます。
 
-1. [拡張機能の検証](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+1. [ 拡張機能を確認します ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)。
 
 ## Amazon sales channel API キーを追加します。
 
-インストール後、 [API キー](./amazon-verify-api-key.md) をクリックして設定を完了します。
+インストール後、[API キー ](./amazon-verify-api-key.md) を入力して設定を完了します。
 
 ## Amazon チャネル設定オプションの指定
 
@@ -65,30 +65,30 @@ Amazon Sales Channel の設定には、次のオプションがあります。 A
 
 1. 管理者にログインします。
 
-1. 日 _Admin_ サイドバー、に移動 **ストア** > _設定_ > **設定**.
+1. _管理者_ サイドバーで、**ストア**/_設定_/**設定** に移動します。
 
-1. クリック **Sales Channel**、次に **グローバル設定**.
+1. 「**Sales Channel**」をクリックし、「**グローバル設定**」をクリックします。
 
-1. の場合 **ログ履歴のクリア**、収集したログを消去する間隔を定義します。
+1. **ログ履歴を消去** には、収集したログを消去する間隔を定義します。
 
-   次のようなオプションがあります `Once Daily`, `Once Weekly`、および `Once Monthly` （デフォルト）。
+   オプションには、`Once Daily`、`Once Weekly`、`Once Monthly` （デフォルト）があります。
 
-1. （オプション） **バックグラウンドタスク（CRON）ソース**、設定をに変更します `Command Line (CLI) CRON`.
+1. （オプション） **バックグラウンドタスク（CRON）Source** の場合は、設定を `Command Line (CLI) CRON` に変更します。
 
-   この設定は、 **_上級ユーザー/管理者_**.
+   この設定は、**_上級ユーザー/管理者_** にお勧めします。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 拡張機能の更新
 
-1. にログインします [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
+1. [Commerce Marketplace](https://marketplace.magento.com/customer/account/) にログインします。
 
-1. 「」をクリックします **[!UICONTROL Marketplace]** タブをクリックし、 **[!UICONTROL My Purchases]**.
+1. [**[!UICONTROL Marketplace]**] タブをクリックし、[**[!UICONTROL My Purchases]**] をクリックします。
 
-1. を見つけて選択します。 **[!UICONTROL Amazon Sales Channel]**.
+1. を見つけて、「**[!UICONTROL Amazon Sales Channel]**」を選択します。
 
 1. 拡張機能ページで、バージョンを選択します。
 
-1. コンポーネント名とバージョンで、 **[!UICONTROL Technical Details]**.
+1. コンポーネント名とバージョンについては、「**[!UICONTROL Technical Details]**」をクリックします。
 
-1. を完了する [拡張機能のアップグレード手順](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) が含まれる _インストールガイド_.
+1. [ インストール ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) の _拡張機能のアップグレード手順_ を実行します。

@@ -13,25 +13,25 @@ ht-degree: 0%
 
 # Amazonの価格ルールの追加
 
-価格ルールは、ストアが統合されたらいつでも設定または変更できます。 価格ルールは [リスト設定](./listing-settings.md) とにアクセスできます [ストアダッシュボード](./amazon-store-dashboard.md).
+価格ルールは、ストアが統合されたらいつでも設定または変更できます。 価格ルールは [ リスト設定 ](./listing-settings.md) の一部であり、[ ストアダッシュボード ](./amazon-store-dashboard.md) からアクセスできます。
 
 ## 標準価格ルール
 
-標準価格ルール処理を使用すると、*に対する特定の割合または固定ドル金額で、Amazonの上場価格を増減させることができます&#x200B;*[!UICONTROL Magento Price Source*]* に定義済み [上場価格](./listing-price.md).
+標準価格ルール処理を使用すると、[ 上場価格 ](./listing-price.md) で定義された**[!UICONTROL Magento Price Source*]* に対して、Amazonの上場価格を特定の割合または固定ドル金額で増減させることができます。
 
 ### 標準価格ルールの追加
 
-1. クリック **[!UICONTROL Pricing rules]** ストアダッシュボードで、次の操作を行います。
+1. ストアダッシュボードで「**[!UICONTROL Pricing rules]**」をクリックします。
 
-1. クリック **[!UICONTROL Add new pricing rule]**.
+1. 「**[!UICONTROL Add new pricing rule]**」をクリックします。
 
-1. を完了する **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** （ルールの場合）。
+1. ルールの **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** を入力します。
 
-1. を完了する **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** （ルールの場合）。
+1. ルールの **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** を入力します。
 
-1. を完了する **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** （ルールの場合）。
+1. ルールの **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** を入力します。
 
-1. 完了したら、 **[!UICONTROL Save pricing rule]**.
+1. 完了したら、「**[!UICONTROL Save pricing rule]**」をクリックします。
 
 ## インテリジェントな再価格設定ルール
 
@@ -39,15 +39,15 @@ ht-degree: 0%
 
 ### インテリジェントな再価格設定ルールの追加
 
-1. クリック **[!UICONTROL Pricing rules]** ストアダッシュボードで、次の操作を行います。
+1. ストアダッシュボードで「**[!UICONTROL Pricing rules]**」をクリックします。
 
-1. クリック **[!UICONTROL Add new pricing rule]**.
+1. 「**[!UICONTROL Add new pricing rule]**」をクリックします。
 
-1. を完了する **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** （ルールの場合）。
+1. ルールの **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** を入力します。
 
-1. を完了する **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** （ルールの場合）。
+1. ルールの **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** を入力します。
 
-1. を完了する **[!UICONTROL Price Rule Actions]** （ルールの場合）。
+1. ルールの **[!UICONTROL Price Rule Actions]** を入力します。
 
    - [[!UICONTROL Select Rule Typ]e](./intelligent-repricing-rules.md)
 
@@ -59,4 +59,4 @@ ht-degree: 0%
 
    - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-1. 完了したら、 **[!UICONTROL Save pricing rule]**.
+1. 完了したら、「**[!UICONTROL Save pricing rule]**」をクリックします。

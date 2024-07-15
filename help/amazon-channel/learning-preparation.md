@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # [!UICONTROL Learning and Preparation]
 
-この _[!UICONTROL Learning and Preparation]_表示には、Amazon ストアを統合する前に推奨される事前設定タスクのリストが表示されます。 また、次のような学習教材へのリンクも提供しています。
+_[!UICONTROL Learning and Preparation]_ビューには、Amazon ストアを統合する前に推奨される事前設定タスクのリストが表示されます。 また、次のような学習教材へのリンクも提供しています。
 
-- この [ユーザーガイド](./overview.md)
+- この [ ユーザーガイド ](./overview.md)
 - ビデオチュートリアル
 
-![学習と準備のビュー](assets/learning-preparation.png){width="600" zoomable="yes"}
+![ 学習と準備のビュー ](assets/learning-preparation.png){width="600" zoomable="yes"}

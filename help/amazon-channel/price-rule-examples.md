@@ -16,9 +16,9 @@ ht-degree: 1%
 
 ### 後続のルールを破棄
 
-後続のルールを破棄する機能は、複数の価格ルールが積み重なるのを防ぎ、意図しない追加の割引を提供する価格ルール内の優れた機能です。 後続のルールを破棄するには、価格設定ルールで設定した優先度を使用する必要があります。 _[!UICONTROL Priority]_セクション [価格設定ルールの一般設定](./pricing-rule-general-settings.md).
+後続のルールを破棄する機能は、複数の価格ルールが積み重なるのを防ぎ、意図しない追加の割引を提供する価格ルール内の優れた機能です。 後続のルールを破棄するには、「価格設定ルールの一般設定 [ の _[!UICONTROL Priority]_のセクションで設定した優先度を使用する必要があ ](./pricing-rule-general-settings.md) ます。
 
-次の場合 **[!UICONTROL Discard Subsequent Rules]** はに設定されています。 `Yes`ただし、優先度が低い（数字が大きい）ルールは、適格な製品には適用されません。
+**[!UICONTROL Discard Subsequent Rules]** を `Yes` に設定した場合、優先度が低い（数字が大きい）ルールは適格な製品には適用されません。
 
 例えば、次の 3 つの価格ルールがあるとします。
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 | 2 | 2 ドル割引の商品 | 2 | はい |
 | 3 | 全製品の 5% 割引 | 3 | 不可 |
 
-このシナリオでは、ルール#1 と#2 が適格な製品に適用されます。 ルール #3 は、例#2 およびよりも優先度が低いので、ルール #2 に含まれていない適格な製品にのみ適用されます **[!UICONTROL Discard Subsequent Rules]** はに設定されています。 `Yes`. そのため、Amazonの対象商品には 10% の割引と 2 ドルの定価が適用されます。
+このシナリオでは、ルール#1 と#2 が適格な製品に適用されます。 ルール #3 は、例#2 よりも優先度が低く、**[!UICONTROL Discard Subsequent Rules]** が `Yes` に設定されているので、ルール #2 内に含まれていない適格な製品にのみ適用されます。 そのため、Amazonの対象商品には 10% の割引と 2 ドルの定価が適用されます。
 
 ### 2 つの標準価格ルールの適用
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 ## インテリジェントな再価格設定ルールの例
 
-### Buy Box価格（基準価格ソース =価格）
+### Buy Box価格と最低価格Source =価格
 
 | フィールド | 設定 |
 |--------------------------------------|----------------------------|
@@ -79,9 +79,9 @@ ht-degree: 1%
 
 価格：15 ドル
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazonからの料金：10 ドル
+[Buy Box](./buy-box-competitor-pricing.md)Amazonからの価格：10 ドル
 
-なぜなら [Buy Box](./buy-box-competitor-pricing.md) 価格は元の価格よりも小さい、製品は元の価格でリストされています。
+[Buy Box](./buy-box-competitor-pricing.md) の価格が元の価格より低いため、商品は元の価格で表示されます。
 
 ルール適用後の最終価格：$15
 
@@ -89,13 +89,13 @@ ht-degree: 1%
 
 価格：5 ドル
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazonからの料金：10 ドル
+[Buy Box](./buy-box-competitor-pricing.md)Amazonからの価格：10 ドル
 
-なぜなら [Buy Box](./buy-box-competitor-pricing.md) 価格が元の価格より大きい場合、製品はに一覧表示されます [Buy Box](./buy-box-competitor-pricing.md) 価格。
+[Buy Box](./buy-box-competitor-pricing.md) の価格が元の価格よりも高いため、商品は [Buy Box](./buy-box-competitor-pricing.md) の価格で表示されます。
 
 ルール適用後の最終価格：$10
 
-### 基準価格ソースを使用したBuy Box価格=価格と 20% の価格減少
+### Buy Box価格と最低価格Source =価格と 20% の価格下落
 
 | フィールド | 設定 |
 |--------------------------------------|----------------------------|
@@ -115,9 +115,9 @@ ht-degree: 1%
 
 算出された最低価格：$16
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazonからの価格：15 ドル
+[Buy Box](./buy-box-competitor-pricing.md)Amazonからの価格：15 ドル
 
-なぜなら [Buy Box](./buy-box-competitor-pricing.md) 価格が計算値より小さい [フロアプライス](./floor-price.md)、製品が計算済みにリストされます [フロアプライス](./floor-price.md).
+[Buy Box](./buy-box-competitor-pricing.md) の価格が算出された [Floor Price](./floor-price.md) よりも低いため、商品は算出された [Floor Price](./floor-price.md) に一覧表示されます。
 
 ルール適用後の最終価格：$16
 
@@ -125,11 +125,11 @@ ht-degree: 1%
 
 価格：15 ドル
 
-計算日時 [フロアプライス](./floor-price.md): $12
+算出 [ 最低価格 ](./floor-price.md):$12
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazonからの価格：15 ドル
+[Buy Box](./buy-box-competitor-pricing.md)Amazonからの価格：15 ドル
 
-なぜなら [Buy Box](./buy-box-competitor-pricing.md) 価格が計算値を超えています [フロアプライス](./floor-price.md)、製品はにリストされます [Buy Box](./buy-box-competitor-pricing.md) 価格。
+[Buy Box](./buy-box-competitor-pricing.md) の価格が算出された [ フロア価格 ](./floor-price.md) よりも高いため、商品は [Buy Box](./buy-box-competitor-pricing.md) の価格で表示されます。
 
 ルール適用後の最終価格：$15
 
@@ -139,9 +139,9 @@ ht-degree: 1%
 
 算出された最低価格：$13.60
 
-[Buy Box](./buy-box-competitor-pricing.md) Amazonからの価格：15 ドル
+[Buy Box](./buy-box-competitor-pricing.md)Amazonからの価格：15 ドル
 
-なぜなら [Buy Box](./buy-box-competitor-pricing.md) 価格が計算値を超えています [フロアプライス](./floor-price.md)、製品はにリストされます [Buy Box](./buy-box-competitor-pricing.md) 価格。
+[Buy Box](./buy-box-competitor-pricing.md) の価格が算出された [ フロア価格 ](./floor-price.md) よりも高いため、商品は [Buy Box](./buy-box-competitor-pricing.md) の価格で表示されます。
 
 ルール適用後の最終価格：$15
 
@@ -182,7 +182,7 @@ ht-degree: 1%
 
 条件：使用済み、許容可能
 
-なぜなら [競合他社最低価格](./lowest-competitor-pricing.md) 使用済み条件が$13 の場合、製品は$13 でリストされます。
+使用済み条件の [ 競合他社価格の最低価格 ](./lowest-competitor-pricing.md) は 13 ドルなので、製品は 13 ドルでリストされます。
 
 ルール適用後の最終価格：$13
 
@@ -194,9 +194,9 @@ ht-degree: 1%
 | [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1.25 ユーロ：1USD |
 
-[上限価格](./optional-ceiling-price.md) 欧州（VAT）市場：10 x 1.25 ドル= 12.50 ドル
+[ ヨーロッパ（VAT）市場の上限価格 ](./optional-ceiling-price.md)10 ドル×1.25 ドル=12.50 ドル
 
-いつ [上限価格](./optional-ceiling-price.md) ヨーロッパ（VAT）市場がヒットすると、VAT が計算され、追加されます。
+ヨーロッパ（VAT](./optional-ceiling-price.md) 市場の [ 天井価格）がヒットすると、VAT が計算され、追加されます。
 
 VAT 後の最終価格：$12.50 x （1.1） = $13.75
 
@@ -211,7 +211,7 @@ VAT 後の最終価格：$12.50 x （1.1） = $13.75
 | 天井価格ソース | $10 |
 | 通貨換算 | 1.25 ユーロ：1USD |
 
-[上限価格](./optional-ceiling-price.md) 欧州（VAT）市場：10 x 1.25 ドル= 12.50 ドル
+[ ヨーロッパ（VAT）市場の上限価格 ](./optional-ceiling-price.md)10 ドル×1.25 ドル=12.50 ドル
 
 VAT 後の最終価格：$12.50 x （1.1） = $13.75
 
@@ -224,25 +224,25 @@ VAT 後の最終価格：$12.50 x （1.1） = $13.75
 | [!UICONTROL Apply] | 固定金額として適用 |
 | [!UICONTROL Adjustment Amount] | 500 ドル |
 
-いつ [上限価格](./optional-ceiling-price.md) がヒットした場合、標準の価格ルールがインテリジェントな価格ルールの上に適用されます。
+[ 天井価格 ](./optional-ceiling-price.md) に達すると、インテリジェント価格ルールの上に標準価格ルールが適用されます。
 
 標準価格設定ルール適用後の最終価格：$13.75 + $5.00 = $18.75
 
 ### 価格調整
 
-この例では、最も競争力のある価格はAmazonを見て定義されています [競合他社の最低価格](./lowest-competitor-pricing.md) 95% の肯定的なフィードバックと、最小のフィードバック数 1,000 件のマーチャントレビューがあります。
+この例では、最も競争力のある価格は、95% の肯定的なフィードバックと最小のフィードバック数 1,000 件のマーチャントレビューを備えたAmazon[ 競合他社の最低価格 ](./lowest-competitor-pricing.md) を調べることで定義されています。
 
-![価格調整の例](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
+![ 価格調整の例 ](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 これらのパラメーターに基づいてこの検索を実行すると、競争力のある価格は 25 ドルに戻ります。
 
-ここから、3 つの異なる方法があります [価格ルールアクション](./pricing-rule-actions.md) この最低価格に基づく選択肢。
+ここから、この最低価格に基づいて 3 つの異なる [ 価格ルールアクション ](./pricing-rule-actions.md) 選択肢があります。
 
 | フィールド | 説明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Price Action] | オプション：<ul><li>**[!UICONTROL Decrease By]**  – このオプションは、に対する上場価格を減額します [競合他社最低価格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]**  – このオプションを使用すると、に対する上場価格が上昇します [競合他社最低価格](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]**  – このオプションは、パラメーターに基づいて最低価格に一致するようにAmazonの上場価格を変更します。 この例では、Amazonの上場価格は 25 ドルです。</li></ul> |
+| [!UICONTROL Price Action] | オプション：<ul><li>**[!UICONTROL Decrease By]** – このオプションは、[ 競合他社価格の最低価格 ](./lowest-competitor-pricing.md) に対して価格を下げます。</li><li>**[!UICONTROL Increase By]** – このオプションは、[ 競合他社価格の最低価格 ](./lowest-competitor-pricing.md) に対して上場価格を増加させます。</li><li>**[!UICONTROL Match Competitor Price]** – このオプションは、パラメーターに基づいて最低価格に一致するようにAmazonの上場価格を変更します。 この例では、Amazonの上場価格は 25 ドルです。</li></ul> |
 | [!UICONTROL Apply] | オプション：パーセンテージとして適用/固定金額として適用 |
-| [!UICONTROL Adjustment Amount] | 適用される割引の割合または固定金額を定義する数値。 <br>これらの選択は、最低価格を取り、0.01 ドル以下に設定します。 |
+| [!UICONTROL Adjustment Amount] | 適用される割引の割合または固定金額を定義する数値。 <br> これらの選択により、最低価格を選択し、0.01 ドル安に設定することになります。 |
 
 ### フロアプライス
 
@@ -253,6 +253,6 @@ VAT 後の最終価格：$12.50 x （1.1） = $13.75
 | [!UICONTROL Apply] | パーセンテージとして適用 |
 | [!UICONTROL Floor Adjustment Amount] | 5 |
 
-[フロアプライス](./floor-price.md) 計算=基準価額ソース `$5` x 階調整金額 `5%` = 5.25 ドル
+[ 最低価格 ](./floor-price.md) 算定=最低価格Source`$5` x 最低調整額 `5%` = $5.25
 
 インテリジェント価格ルールが適用されると、コストが 5 ドルの場合、この特定の製品の上場価格が 5.25 ドルより低くなることが許可されます。

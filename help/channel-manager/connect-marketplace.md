@@ -1,6 +1,6 @@
 ---
-title: '接続 [!DNL Channel Manager] 対象： [!DNL Walmart Marketplace]'
-description: 「Commerce ストア表示をに接続する [!DNL Walmart Marketplace] Commerceの商品リスト、在庫、価格、注文を管理する営業チャネルを作成するには、Walmart Marketplace の売上について説明します。
+title: 'Connect [!DNL Channel Manager] to [!DNL Walmart Marketplace]'
+description: 「Commerceストアの表示を  [!DNL Walmart Marketplace]  に接続して、Commerceの商品リスト、在庫、価格、注文を管理するセールスチャネルを作成します。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
 role: Admin, Developer
 feature: Sales Channels, Install, Integration
@@ -11,78 +11,78 @@ ht-degree: 0%
 
 ---
 
-# 接続 [!DNL Channel Manager] 対象： [!DNL Walmart Marketplace]
+# [!DNL Channel Manager] の [!DNL Walmart Marketplace] への接続
 
-チャネルマネージャーのインストール後 [!DNL Commerce] インスタンスとして、チャネルマネージャーで販売チャネルを作成し、接続するための資格情報を設定します [!DNL Channel Manager] 対象： [!DNL Walmart Marketplace].
+[!DNL Commerce] インスタンスにチャネルマネージャーをインストールした後、チャネルマネージャーで販売チャネルを作成し、[!DNL Walmart Marketplace] に接続するための資格情報 [!DNL Channel Manager] 設定します。
 
-1. [販売チャネルの作成](#create-the-sales-channel) を選択します。 [!DNL Commerce] 製品リストのストア。
+1. 製品リスト用の [!DNL Commerce] ストアを選択して [ 販売チャネルを作成 ](#create-the-sales-channel) します。
 
-1. [チャネルの接続先 [!DNL Walmart Marketplace] を追加 [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
+1. [[!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace) を追加して  [!DNL Walmart Marketplace]  チャネルをに接続します。
 
-1. [販売チャネル設定の完了](#complete-sales-channel-store-setup) リスト、在庫、価格設定および受注を管理する手順は、次のとおりです [!DNL Walmart Marketplace] 製品の品揃え。
+1. [ 販売チャネルの設定を完了 ](#complete-sales-channel-store-setup) して、[!DNL Walmart Marketplace] 品の品揃えの一覧、在庫、価格、および注文を管理します。
 
 >[!NOTE]
 >
->Channel Manager では、Walmart アカウントとの間で 1 対 1 の接続が必要です。 [!DNL Commerce] ストア表示。 同じストア表示を複数のウォルマート アカウントに接続することはできません。
+>Channel Manager では、Walmart アカウントと [!DNL Commerce] ストアビューの間で 1 対 1 の接続が必要です。 同じストア表示を複数のウォルマート アカウントに接続することはできません。
 
 ## 販売チャネルの作成
 
-1. 管理者から、を開きます。 [!DNL Channel Manager] 選択による **[!UICONTROL Marketing** > _チャネル&#x200B;_> **チャネルマネージャー]**.
+1. 管理者で、**[!UICONTROL Marketing** > _チャネル _/**チャネルマネージャー]**を選択して [!DNL Channel Manager] を開きます。
 
-1. が含まれる **[!UICONTROL Marketplaces available to connect]** セクションで選択 **[!UICONTROL Get Started]**.
+1. 「**[!UICONTROL Marketplaces available to connect]**」セクションで、「**[!UICONTROL Get Started]**」を選択します。
 
-   ![新規を接続 [!DNL Walmart] に保存 [!DNL Channel Manager]](assets/channel-manager-home.png){width="700" zoomable="yes"}
+   ![ 新しい [!DNL Walmart] ストアの [!DNL Channel Manager]](assets/channel-manager-home.png){width="700" zoomable="yes"} への接続
 
-1. 必要に応じて、 [!DNL Walmart Marketplace Seller] アカウント。
+1. 必要に応じて、[!DNL Walmart Marketplace Seller] アカウントを設定します。
 
 1. ストアと接続を設定します。
 
-   - を選択 **[!UICONTROL Add Credentials]**.
+   - 「**[!UICONTROL Add Credentials]**」を選択します。
 
-   - 「」を選択します [!DNL Commerce] マーケットプレイスで販売する製品を提供するストア表示。
+   - Marketplace で販売する製品を提供する [!DNL Commerce] ストア表示を選択します。
 
-     ![間の接続の設定 [!DNL Commerce] および [!DNL Walmart Marketplace] から [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"}
+     ![[!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"} から [!DNL Commerce] と [!DNL Walmart Marketplace] 間の接続を設定する
 
-   - 一意のを入力 **[!UICONTROL store name]**.
+   - 一意の **[!UICONTROL store name]** を入力します。
 
-   - 「」を選択します **[!UICONTROL Adobe [!DNL Commerce] site]** 商品リストおよび注文処理の場合。
+   - 商品リストおよび注文処理の **[!UICONTROL Adobe [!DNL Commerce] site]** を選択します。
 
-   - に関連する通知を受信するには [!DNL Channel Manager]、を追加 **[!UICONTROL email address]**.
+   - [!DNL Channel Manager] に関連する通知を受信するには、**[!UICONTROL email address]** を追加します。
 
-1. チャネルの接続先 [!DNL Walmart Marketplace].
+1. チャネルを [!DNL Walmart Marketplace] に接続します。
 
-   - の資格情報を追加します。 [[!DNL Walmart Marketplace Adobe Production API key]](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) から [!DNL Walmart Marketplace Seller] アカウント。
+   - [!DNL Walmart Marketplace Seller] アカウントから [[!DNL Walmart Marketplace Adobe Production API key]](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) の資格情報を追加します。
 
-   - 資格情報がない場合は、から取得します。 [!DNL Walmart Marketplace Developer Portal] 選択による **[!UICONTROL Get API credentials]**.
+   - 資格情報がない場合は、「**[!UICONTROL Get API credentials]**」を選択して [!DNL Walmart Marketplace Developer Portal] から取得します。
 
      開発者ポータルで、お住まいの地域（米国およびカナダ）を選択し、ログインします。
 
-     ![[!DNL Walmart Marketplace] アカウントのログイン](assets/walmart-marketplace-login-page.png){width="600"}
+     ![[!DNL Walmart Marketplace] アカウント ログイン ](assets/walmart-marketplace-login-page.png){width="600"}
 
-   - API キーのフォームで、 **[!UICONTROL Client ID]** および **[!UICONTROL Client Secret]** の値 [!UICONTROL Adobe Inc Production API key] 安全な場所に移動します。
+   - API キーのフォームで、**[!UICONTROL Client ID]** と [!UICONTROL Adobe Inc Production API key] の **[!UICONTROL Client Secret]** の値をコピーして安全な場所に保存します。
 
-     ![[!DNL Walmart Marketplace API key] 設定ページ](assets/walmart-api-key-management-form.png){width="600" zoomable="yes"}
+     設定ペ ![[!DNL Walmart Marketplace API key] ジ ](assets/walmart-api-key-management-form.png){width="600" zoomable="yes"}
 
      >[!NOTE]
      >
-     >次の場合 [!DNL Adobe Inc] キーが開発者ポータルに一覧表示されていません。次を選択してください： **[!UICONTROL Add New Key for a Solution Provider]** 権限を設定し、キーを生成します。 設定について詳しくは、を参照してください [を生成 [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key).
+     >[!DNL Adobe Inc] キーが開発者ポータルにリストされていない場合は、「**[!UICONTROL Add New Key for a Solution Provider]**」を選択して権限を設定し、キーを生成します。 設定について詳しくは、[ 生成  [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key) を参照してください。
 
-   - に戻る [!DNL Channel Manager] に資格情報を追加する **[!UICONTROL Walmart Connection]** 情報。
+   - [!DNL Channel Manager] に戻り、**[!UICONTROL Walmart Connection]** 情報に資格情報を追加します。
 
      資格情報を追加する場合、Adobeはクライアントシークレットを非表示にし、値を安全な Vault に保存します。
 
-1. を選択 **[!UICONTROL Save Store]** 設定を適用してに接続するには [!DNL Walmart marketplace].
+1. 「**[!UICONTROL Save Store]**」を選択して設定を適用し、[!DNL Walmart marketplace] に接続します。
 
-1. 正常に接続すると、 [ストアの設定の完了](complete-sales-channel-store-setup.md) から **[!UICONTROL Channel Manager]** ストアページ。
+1. 正常に接続したら、[ ストアの設定を完了 ](complete-sales-channel-store-setup.md) して、**[!UICONTROL Channel Manager]** ストアページから移動します。
 
-![最初のストアを設定](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
+![ 最初のストアを設定 ](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 ### 接続の問題のトラブルシューティング
 
-への接続の場合 [!DNL Walmart] 失敗します。を参照してください [Walmart Marketplace FAQ](https://developer.walmart.com/faq/us/faq-auth/){target="_blank"} トラブルシューティングのヒント
+[!DNL Walmart] への接続に失敗した場合、トラブルシューティングのヒントについては、[Walmart Marketplace FAQ](https://developer.walmart.com/faq/us/faq-auth/){target="_blank"} を参照してください。
 
-- から [!DNL Walmart Developer Portal]に対して、実稼動 API キーの正しい資格情報をコピーしたことを確認します。 [!UICONTROL Adobe Inc.]
+- [!DNL Walmart Developer Portal] から、[!UICONTROL Adobe Inc.] の実稼動 API キー用の正しい資格情報をコピーしたことを確認します
 
-- のアクセス設定を確認します。 [!UICONTROL Walmart Adobe API key] には適切な権限があります。 参照： [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
+- [!UICONTROL Walmart Adobe API key] のアクセス設定に適切な権限が設定されていることを確認します。 [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key) を参照。
 
-- を確認します [!DNL Walmart API] サービスは、次から使用できます [ウォルマート API ステータスページ](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.
+- [Walmart API ステータスページ ](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"} から [!DNL Walmart API] サービスが使用可能であることを確認します。

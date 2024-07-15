@@ -1,6 +1,6 @@
 ---
 title: 在庫と価格の更新
-description: '[!DNL Channel Manager] 間で在庫と価格の更新を同期します [!DNL Commerce] 格納と [!DNL Walmart Marketplace] そのため、から販売チャネルの運用を管理できます。 [!DNL Commerce] 管理者'
+description: 「[!DNL Channel Manager] は、在庫と価格の更新を  [!DNL Commerce]  ストアと  [!DNL Walmart Marketplace]  間で同期するので、 [!DNL Commerce]  管理者」から販売チャネルの運用を管理できます」
 feature: Sales Channels, Merchandising, Inventory, Tools and External Services
 role: Leader, Admin, User
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
@@ -13,35 +13,35 @@ ht-degree: 0%
 
 # 在庫と価格の更新
 
-[!DNL Channel Manager] で製品の在庫と価格をトラッキングします。 [!DNL Commerce] 製品カタログを作成し、接続された販売チャネルに対して更新を同期 [!DNL Walmart Marketplace]. 同期操作により、製品リストに現在の在庫数と価格が反映されるようになります。
+[!DNL Channel Manager] は、[!DNL Commerce] 製品カタログ内の製品の在庫と価格を追跡し、接続された販売チャネルと [!DNL Walmart Marketplace] ータの更新を同期します。 同期操作により、製品リストに現在の在庫数と価格が反映されるようになります。
 
 
 >[!IMPORTANT]
 >
->後 [!DNL Channel Manager] はインストールおよび設定され、すべての在庫、価格、注文の更新は自動的に同期されます。 すでに Walmart Marketplace で販売している場合は、製品と注文データを更新するその他の統合を必ず無効にしてください。 次に、で在庫在庫レベルと価格を確認します [!DNL Commerce] ストアフロントは正確で、のデータと一致します [!DNL Walmart Marketplace] 接続する前に [!DNL Channel Manager] ライブマーケットプレイスのストアに移動します。
+>[!DNL Channel Manager] のインストールと設定が完了すると、すべての在庫、価格、注文の更新が自動的に同期されます。 すでに Walmart Marketplace で販売している場合は、製品と注文データを更新するその他の統合を必ず無効にしてください。 次に、ライブマーケットプレイスのストアに接続する前に、[!DNL Commerce] ストアフロントの在庫在庫レベルと価格が正確で、[!DNL Walmart Marketplace] のデータと一致 [!DNL Channel Manager] ていることを確認します。
 
 
 ## インベントリの更新
 
-で製品在庫レベルが変更された場合 [!DNL Commerce], [!DNL Channel Manager] 更新をに同期します [!DNL Walmart Marketplace]. 在庫更新がセールスチャネル全体から次のチャネルに同期されるまでに、最大 10 分かかる場合があります [!DNL Walmart marketplace].
+[!DNL Commerce] で製品インベントリレベルが変更されると、[!DNL Channel Manager] 同期が [!DNL Walmart Marketplace] に更新されます。 在庫の更新がセールスチャネル全体から [!DNL Walmart marketplace] に同期されるまでに、最大 10 分かかる場合があります。
 
-* **製品カタログの在庫数量のアップデート** – 条件 [!DNL Commerce] 次の理由で在庫数が変更されました [手動在庫数量の変更](https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-assign-per-product.html)、払戻しまたは取消 [!DNL Channel Manager] 接続されたチャネルに変更を同期し、 [!DNL Walmart Marketplace].
+* **製品カタログ内の在庫数の更新** - [ 手動による在庫数の変更 ](https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-assign-per-product.html)、払い戻しまたはキャンセルによって在庫数が変 [!DNL Commerce] した場合、[!DNL Channel Manager] は接続されたチャネルと [!DNL Walmart Marketplace] に変更を同期します。
 
-* **反映する在庫数を減らす [!DNL Walmart Marketplace] 注文件数** – 後 [!DNL Walmart Marketplace] 同期を次の順序にする [!DNL Channel Manager], [!DNL Channel Manager] 更新内容をに送信します [!DNL Commerce] 注文システム。 [!DNL Commerce] 注文に基づいて在庫数を調整します。 その後、更新された数量がに同期されます。 [!DNL Walmart Marketplace]. 同期処理が完了するまで、販売チャネルの一覧および一覧には異なる数量が表示される場合があります。 [!DNL Walmart].
+* **在庫数量を減らして [!DNL Walmart Marketplace] 注文を反映** - [!DNL Walmart Marketplace] 注文が [!DNL Channel Manager] に同期された後、[!DNL Channel Manager] は更新を [!DNL Commerce] 注文システムに送信します。 注文 [!DNL Commerce] 基づいて在庫数を調整します。 その後、更新された数量が [!DNL Walmart Marketplace] に同期されます。 同期処理が完了するまで、販売チャネルの一覧と [!DNL Walmart] に異なる数量が表示される場合があります。
 
 >[!IMPORTANT]
 >
->後 [!DNL Walmart Marketplace] 同期を次の順序にする [!DNL Channel Manager]、在庫数量および受注情報は、払戻および取消が開始された場合にのみ更新されます。 [!DNL Commerce]. 注文が返金またはキャンセルされた場合 [!DNL Walmart marketplace]、からの変更を処理 [!DNL Commerce] ～の精度を確保する [!DNL Commerce] 在庫数量およびオーダー情報。
+>[!DNL Walmart Marketplace] 注が [!DNL Channel Manager] に同期された後、在庫数量と注文情報は、[!DNL Commerce] から開始された払戻とキャンセルに対してのみ更新されます。 注文が [!DNL Walmart marketplace] から返金またはキャンセルされた場合は、在庫数量と注文情報の正確性を確保するために、[!DNL Commerce] からの変更 [!DNL Commerce] 処理します。
 
 ## 価格アップデート
 
-製品価格が変更されたとき [!DNL Commerce], [!DNL Channel Manager] 更新内容をに同期します [!DNL Walmart Marketplace]. 価格の変更がに表示されるまでに最大 5 分かかる場合があります。 [!DNL Walmart Marketplace] リスト。
+[!DNL Commerce] で製品価格が変更されると、[!DNL Channel Manager] は更新を [!DNL Walmart Marketplace] に同期します。 価格の変更が [!DNL Walmart Marketplace] リストに表示されるまで、最大 5 分かかる場合があります。
 
 ### 接続された製品の価格の管理
 
-1. から [!UICONTROL Admin]を選択 **[!UICONTROL Catalog > Products]**.
-1. 製品グリッドで、更新する製品を見つけて選択します。 **[!UICONTROL Edit]**.
+1. [!UICONTROL Admin] から「**[!UICONTROL Catalog > Products]**」を選択します。
+1. 製品グリッドで、更新する製品を見つけて選択 **[!UICONTROL Edit]** ます。
 1. 必要に応じて価格を確認して更新します。
-1. **[!UICONTROL Save]** 変更。
+1. 変更を **[!UICONTROL Save]** きます。
 
-での製品価格設定の管理に関するヘルプ [!DNL Commerce]を参照してください [価格の管理](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html).
+[!DNL Commerce] での製品価格設定の管理については、[ 価格の管理 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) を参照してください。

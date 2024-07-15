@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Amazon注文の詳細
 
-![Amazon注文の詳細](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
+![Amazon注文の詳細 ](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## Amazonの注文の詳細を表示
 
-1. クリック **[!UICONTROL View Store]** ストアカードに。
+1. ストアカードの **[!UICONTROL View Store]** をクリックします。
 
-1. が含まれる _[!UICONTROL Recent Orders]_セクションで、注文番号をクリックします。
+1. [_[!UICONTROL Recent Orders]_] セクションで、注文番号をクリックします。
 
-   この _[!UICONTROL Amazon Order Details]_ページが開きます。
+   _[!UICONTROL Amazon Order Details]_ページが開きます。
 
 >[!NOTE]
 >
->で注文の読み込みを有効にしている場合 [オーダー設定](./order-settings.md) そして順序は [Amazon（FBA）によって履行](./fulfilled-by.md)の場合、注文の詳細のいくつかのフィールドにダミーデータが表示されることがあります。 Amazonは、FBA 注文に関して次のデータを送信しません。
+>[ 注文設定 ](./order-settings.md) で注文のインポートを有効にしており、その注文が [Amazon（FBA）によって履行 ](./fulfilled-by.md) されている場合、注文の詳細の一部のフィールドにダミーデータが表示されることがあります。 Amazonは、FBA 注文に関して次のデータを送信しません。
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### 「受注および出荷詳細」タブ
 
-この _[!UICONTROL Order and Shipping Details]_tab キーを押すと、Amazonから受信した詳細な注文情報が表示されます。
+「_[!UICONTROL Order and Shipping Details]_」タブには、Amazonから受け取った詳細な注文情報が表示されます。
 
 >[!IMPORTANT]
 >
@@ -53,18 +53,18 @@ ht-degree: 0%
 >- `Shipping postal code`
 >- `Shipping country`
 >
->クリックすることを忘れないでください **注文を保存** 編集を行った後。
+>編集を行った後は、必ず **注文を保存** をクリックしてください。
 
-![注文と配送の詳細](assets/amazon-order-details.png){width="600" zoomable="yes"}
+![ 注文および発送明細 ](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### 「注文項目」タブ
 
-この _[!UICONTROL Order Items]_tab キーを押すと、Amazonから受け取った、Amazonの注文に関連付けられているすべての項目が表示されます。
+「_[!UICONTROL Order Items]_」タブには、Amazonから受け取った、Amazonの注文に関連付けられたすべての項目が表示されます。
 
-![注文項目の詳細](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
+![ 注文品目詳細 ](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### 「トラッキング」タブ
 
-この _[!UICONTROL Tracking]_タブには、Amazonの注文に関連付けられたトラッキング情報が表示されます。
+「_[!UICONTROL Tracking]_」タブには、Amazonの注文に関連付けられたトラッキング情報が表示されます。
 
-![トラッキングの詳細](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}
+![ トラッキングの詳細 ](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

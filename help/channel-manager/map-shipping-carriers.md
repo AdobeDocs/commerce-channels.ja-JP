@@ -1,6 +1,6 @@
 ---
 title: 配送業者のマップ
-description: '一致する属性をマッピング [DNL! Commerce] 既存の製品へ [!DNL Walmart Marketplace] リストと間のデータの同期 [!DNL Channel Manager] および [!DNL Walmart].'
+description: '一致する属性をマッピング [DNL! Commerce] products to existing [!DNL Walmart Marketplace] listings and synchronizing data between [!DNL Channel Manager] and [!DNL Walmart].'
 role: Admin
 feature: Sales Channels, Configuration, Shipping/Delivery
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 # 配送業者のマップ
 
-お客様の前に [注文の出荷を処理](process-orders.md#ship-an-order) （用） [!DNL Walmart Marketplace] 注文し、ウォルマートの優先配送業者を対応する配送業者にマッピングします [!DNL Commerce] これにより、配送データを次の期間にわたって同期できます。 [!DNL Walmart] および [!DNL Commerce].
+オーダーの出荷を [ 処理 ](process-orders.md#ship-an-order) する前に、[!DNL Walmart Marketplace] のオーダーについて、ウォルマートの優先出荷搬送を [!DNL Commerce] で対応する搬送にマップして、[!DNL Walmart] と [!DNL Commerce] の間で出荷データを同期できるようにします。
 
-優先する通信事業者にマッピングしないCommerce通信事業者には、次のラベルが付けられます。 *[!UICONTROL Other Carrier]* 日付： [!DNL Walmart].
+優先する通信事業者にマッピングしないCommerceの通信事業者には、[!DNL Walmart] で *[!UICONTROL Other Carrier]* というラベルが付けられます。
 
 **前提条件**
 
 出荷搬送をマッピングする前に、次のタスクを実行します。
 
-1. をレビュー [オンタイム配信の配送方法と配送のベストプラクティス](https://sellerhelp.walmart.com/s/guide?article=000009473) （用） [!DNL Walmart Marketplace].
+1. [!DNL Walmart Marketplace] しくは、[ オンタイム配信の配送方法と配送のベストプラクティス ](https://sellerhelp.walmart.com/s/guide?article=000009473) を確認してください。
 
-1. を確認 [[!UICONTROL Shipping Carrier]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html) および [[!UICONTROL Shipping Settings]](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/shipping-settings.html) での設定 [!DNL Commerce] を保存して、の設定が最適化されていることを確認します。 [!DNL Walmart Marketplace sales].
+1. [!DNL Commerce] ストアの [[!UICONTROL Shipping Carrier]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html) と [[!UICONTROL Shipping Settings]](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/shipping-settings.html) の設定を確認し、[!DNL Walmart Marketplace sales] の設定が最適化されていることを確認します。
 
 ## 配送業者のマッピング
 
-1. から **[!UICONTROL Listings]** または **[!UICONTROL Orders]** ページ、選択 **[!UICONTROL Channel Settings]**.
+1. **[!UICONTROL Listings]** または **[!UICONTROL Orders]** ページから、「**[!UICONTROL Channel Settings]**」を選択します。
 
-1. 日付： **[!UICONTROL Channel Settings]**&#x200B;を選択 **[!UICONTROL Shipping Carriers]**.
+1. **[!UICONTROL Channel Settings]** で「**[!UICONTROL Shipping Carriers]**」を選択します。
 
-   ![配送業者のマッピング](assets/map-shipping-carriers.png){width="600" zoomable="yes"}
+   ![ 配送業者のマッピング ](assets/map-shipping-carriers.png){width="600" zoomable="yes"}
 
-1. それぞれに対して [!DNL Walmart] 優先する通信事業者の一覧から、 [!DNL Commerce] 通信事業者が使用可能な場合は、ドロップダウンから通信事業者名を選択します。
+1. 表示される [!DNL Walmart] の優先通信事業者ごとに、その通信事業者が使用可能な場合は、ドロップダウンから [!DNL Commerce] の通信事業者名を選択します。
 
-1. を選択 **[!UICONTROL Save]** をクリックして設定を適用します。
+1. 「**[!UICONTROL Save]**」を選択して、設定を適用します。
 

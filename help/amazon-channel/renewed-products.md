@@ -12,22 +12,22 @@ ht-degree: 0%
 
 # 更新済み製品
 
-Amazonで新製品（再生品、中古品、オープンボックス）などの高品質をリストする前に、まず登録して、に対する承認を受ける必要があります [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target="_blank"}.
+新製品（再生品、中古、オープンボックス）などの高品質な商品をAmazonに一覧表示する前に、まず登録して [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target="_blank"} ーザーの承認を得る必要があります。
 
-承認して [!DNL Seller Central] アカウントを更新すると、Amazon セールスチャネルで更新済みリストを管理できます。 リストを更新するには、で次の手順が必要です [!DNL Commerce]:
+承認され、[!DNL Seller Central] アカウントが更新されたら、Amazon セールスチャネルで更新済みリストを管理できます。 リニューアルされたリストには、[!DNL Commerce] で次の手順が必要です。
 
-- の定義 _Refurbized_ の設定 [!UICONTROL Listing Settings] > [[!UICONTROL Product Listing Condition]](./product-listing-condition.md).
+- _再生済み_ の設定を [!UICONTROL Listing Settings] > [[!UICONTROL Product Listing Condition]](./product-listing-condition.md) で定義します。
 
-- 次を含める `Renewed` （Amazonで必要）商品タイトルで上書きできます。
+- 製品タイトルに `Renewed` を含めます（Amazonで必要）。
 
 >[!IMPORTANT]
 >
->Amazonで設定された要件を満たしていない更新済み製品のリストは、に変更されます。 `Inactive` ステータスと移動： *[[!UICONTROL Active Listings]](./active-listings.md)* tab キーを押して「」に移動 *[[!UICONTROL Inactive Listings]](./inactive-listings.md)* タブ。 また、 [[!UICONTROL Listings Changes] ログ](./listing-changes-log.md) を表示 `Refurbished` エラーメッセージ。
+>Amazonで設定された要件を満たさない更新済み製品のリストは、ステータスが「`Inactive`」に変わり、「*[[!UICONTROL Active Listings]](./active-listings.md)*」タブから「*[[!UICONTROL Inactive Listings]](./inactive-listings.md)*」タブに移動します。 また、[[!UICONTROL Listings Changes] ログには ](./listing-changes-log.md)`Refurbished` のエラーメッセージが表示されます。
 
 詳しくは、関連するAmazon ドキュメントを参照してください。
 
-- [Amazon更新プログラム](https://sell.amazon.com/programs/renewed.html){target="_blank"}
+- [Amazonがプログラムを更新しました ](https://sell.amazon.com/programs/renewed.html){target="_blank"}
 
-- [更新済み – はじめに](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target="_blank"} （販売者中央ログインが必要）
+- [ 更新 – はじめに ](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target="_blank"} （販売者中央ログインが必要です）
 
-- [Amazonの更新に関するよくある質問](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target="_blank"} （販売者中央ログインが必要）
+- [Amazonの FAQ を更新しました ](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target="_blank"} （販売者の中央ログインが必要です）
