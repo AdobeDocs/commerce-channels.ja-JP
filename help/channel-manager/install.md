@@ -4,7 +4,7 @@ description: '[!DNL Channel Manager] 拡張機能をインストールします�
 role: Admin, Developer
 feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
+source-git-commit: 1e74150e6ac88dbabb2e4bbb2fa2f243072eb03f
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Adobe Commerceに [!DNL Channel Manager] をインストールし、オンプレ
 
      応答の例：
 
-     ```terminal
+     ```
      Module is enabled
      ```
 
@@ -154,7 +154,7 @@ Commerce ブランチの使用に関するヘルプについては、{2[Cloud In
 
 応答の例：
 
-```terminal
+```
 Module is enabled
 ```
 
@@ -176,7 +176,7 @@ Module is enabled
 
 Composer リポジトリへの認証に使用される [ アクセス キー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) が無効であるか、[!DNL Channel Manager] サービスへのサインアップに使用される [!DNL MAGE ID] にリンクされていない場合、次のエラーが表示されます。
 
-```terminal
+```
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
 ```
 
@@ -200,7 +200,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
 
 次のエラーは、システムが PHP に十分なメモリを割り当てていない場合に表示されます。
 
-```terminal
+```
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
